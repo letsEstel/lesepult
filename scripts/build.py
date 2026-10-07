@@ -47,7 +47,7 @@ def main():
     for x in lib.items():
         profiles[x.meta.get("profile", "de-zh")] = x.profile
     data = {
-        "site": {k: site.get(k, "") for k in ("title", "subtitle", "footer")},
+        "site": {k: site.get(k, "") for k in ("title", "subtitle", "footer", "repo", "siteUrl", "feedbackContact")},
         "default": site.get("default") or (lib.books[0].meta["id"] if lib.books else None),
         "profiles": profiles,
         "books": [],

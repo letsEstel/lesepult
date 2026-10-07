@@ -19,5 +19,7 @@
     "text": "\"Literata\",Georgia,\"Times New Roman\",serif",
     "mast": "\"UnifrakturMaguntia\",\"Literata\",Georgia,serif",
     "trans": "\"Noto Serif SC\",\"Songti SC\",\"STSong\",\"SimSun\",serif"
-  }
+  },
+  "repo": "letsEstel/lesepult",
+  "siteUrl": "https://letsestel.github.io/lesepult/"
 }

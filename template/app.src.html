@@ -318,6 +318,21 @@ body.loading main{opacity:.55;transition:opacity .2s .15s}
 body.playing main,body.playing footer{padding-bottom:110px}
 .toast{position:fixed;left:50%;bottom:calc(24px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--ink);color:var(--paper);padding:9px 16px;border-radius:999px;font-size:13.5px;z-index:60;opacity:0;pointer-events:none;transition:opacity .2s}
 .toast.on{opacity:1}
+.fb-line{margin-top:10px;display:flex;flex-wrap:wrap;gap:6px 14px;align-items:center}
+.fb-line button,.sl-report,.l-report{background:none;border:0;padding:0;color:var(--prussian);font:inherit;font-size:13px;cursor:pointer;text-decoration:underline;text-underline-offset:3px}
+.sl-report{display:block;margin-top:16px;color:var(--ink-3)}
+.l-report{color:var(--ink-3);margin-left:auto}
+.lesson-foot{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.act.rep{color:var(--ink-3)}
+dialog.fb{border:1px solid var(--rule);border-radius:16px;background:var(--sheet);color:var(--ink);padding:18px;width:min(560px,calc(100vw - 32px));max-height:calc(100vh - 48px);box-shadow:var(--shadow)}
+dialog.fb::backdrop{background:rgba(0,0,0,.35)}
+.fb h3{margin:0 0 4px;font-size:17px}
+.fb .fb-where{font-size:13px;color:var(--ink-3);margin-bottom:10px}
+.fb label{display:block;font-size:13px;color:var(--ink-2);margin:10px 0 4px}
+.fb textarea{width:100%;box-sizing:border-box;border:1px solid var(--rule-2);border-radius:10px;background:var(--paper);color:var(--ink);padding:8px 10px;font:14px/1.6 var(--f-ui);resize:vertical}
+.fb textarea[readonly]{color:var(--ink-2);font-family:var(--f-de);background:var(--sheet-2)}
+.fb .fb-btns{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+.fb .fb-hint{font-size:12.5px;color:var(--ink-3);margin-top:10px;line-height:1.6}
 footer{border-top:1px solid var(--rule);padding-block:20px 40px;color:var(--ink-3);font-size:13px}
 .fz{display:inline-flex;gap:2px}
 /* classification tree (lessons) */
@@ -497,7 +512,17 @@ button.book:hover{transform:translateY(-3px);box-shadow:var(--shadow)}
   </div>
 </div>
 <div class="toast" id="toast" role="status"></div>
-<footer><div class="wrap" id="footer">{{footer}}</div></footer>
+<footer><div class="wrap"><div id="footer">{{footer}}</div><div class="fb-line" id="fbLine"></div></div></footer>
+<dialog class="fb" id="fbDlg" aria-labelledby="fbTitle" data-nolink>
+  <h3 id="fbTitle">纠错</h3>
+  <div class="fb-where" id="fbWhere"></div>
+  <label for="fbCur">网站上现在的内容</label>
+  <textarea id="fbCur" rows="4" readonly></textarea>
+  <label for="fbText">哪里有问题？怎么改更好？</label>
+  <textarea id="fbText" rows="4" placeholder="例如：这里的 der 应该是属格，不是与格；或者：这句译文漏了「自己」。不确定也可以写下你的疑问。"></textarea>
+  <div class="fb-btns"><button class="btn pri" id="fbGh">去 GitHub 提交</button><button class="btn" id="fbCopy">复制全部内容</button><button class="btn" id="fbCancel">取消</button></div>
+  <div class="fb-hint" id="fbHint"></div>
+</dialog>
 
 <script>
 const LIB = /*@LIB@*/;
@@ -727,7 +752,7 @@ function renderLessons(){
     $('#basicsCard').innerHTML=LIB.courses.map(c=>{ const done=mkStore('reader.'+c.id+'.').get('lessons',[]).length, n=(c.lessons||[]).length;
       return '<button class="basics-link" data-route="'+esc(c.id)+'~intro"><span><b>'+esc(c.meta.title)+'</b>（'+n+' 节，所有德语书通用）'+(done>=n?' · 已学完':done?' · 已学 '+done+' 节':' · 还没学过的话，先学这里')+'</span>'+ICON.arrow+'</button>'; }).join('');
   } else $('#basicsCard').innerHTML='';
-  $('#lessons').innerHTML=C.lessons.map((l,i)=>'<article class="lesson'+(S.lessons.has(lkey(l,i))?' done':'')+'" data-l="'+i+'"><button aria-expanded="false"><span class="ln">'+(i+1)+'</span><span><span class="lt" data-linkok>'+esc(l.t)+'</span><span class="ls" lang="de" data-linkok>'+esc(l.de)+'</span></span><span class="lm">'+l.min+' 分钟'+(l.quiz?' · 练习':'')+'</span></button><div class="lesson-body" hidden>'+renderLessonHtml(l,i)+'<div class="lesson-foot"><button class="btn" data-ldone="'+i+'">'+ICON.ok+'<span>'+(S.lessons.has(lkey(l,i))?'已学完':'学完了')+'</span></button></div></div></article>').join('')
+  $('#lessons').innerHTML=C.lessons.map((l,i)=>'<article class="lesson'+(S.lessons.has(lkey(l,i))?' done':'')+'" data-l="'+i+'"><button aria-expanded="false"><span class="ln">'+(i+1)+'</span><span><span class="lt" data-linkok>'+esc(l.t)+'</span><span class="ls" lang="de" data-linkok>'+esc(l.de)+'</span></span><span class="lm">'+l.min+' 分钟'+(l.quiz?' · 练习':'')+'</span></button><div class="lesson-body" hidden>'+renderLessonHtml(l,i)+'<div class="lesson-foot"><button class="btn" data-ldone="'+i+'">'+ICON.ok+'<span>'+(S.lessons.has(lkey(l,i))?'已学完':'学完了')+'</span></button>'+(LIB.site.repo?'<button class="l-report" data-report="lesson" data-li="'+i+'">这节课有问题？</button>':'')+'</div></div></article>').join('')
     +(C.lessons.length?'':'<p class="empty">这本书还没有专题课。</p>');
   const fl=$('#lessons .lesson:not(.done)'); if(fl){ fl.querySelector('.lesson-body').hidden=false; fl.querySelector('button').setAttribute('aria-expanded','true'); }
 }
@@ -754,7 +779,7 @@ function sentHtml(x){
   '<p class="de" lang="'+C.P.lang+'">'+renderDe(s.de,x.id)+'</p>'+
   '<div class="zh"'+(S.zhAll?'':' hidden')+'>'+esc(s.zh)+'</div>'+
   '<ol class="notes" hidden>'+s.n.map(n=>'<li>'+esc(n)+'</li>').join('')+'</ol>'+
-  '<div class="acts"><button class="act" data-a="say">'+ICON.say+'朗读</button><button class="act" data-a="gram" aria-pressed="false">'+ICON.gram+'语法<span class="c">'+s.n.length+'</span></button><button class="act" data-a="zh" aria-pressed="'+S.zhAll+'">'+ICON.zh+'译文</button><button class="act okb" data-a="ok" aria-pressed="'+ok+'">'+ICON.ok+(ok?'已读懂':'读懂了')+'</button></div></article>';
+  '<div class="acts"><button class="act" data-a="say">'+ICON.say+'朗读</button><button class="act" data-a="gram" aria-pressed="false">'+ICON.gram+'语法<span class="c">'+s.n.length+'</span></button><button class="act" data-a="zh" aria-pressed="'+S.zhAll+'">'+ICON.zh+'译文</button><button class="act okb" data-a="ok" aria-pressed="'+ok+'">'+ICON.ok+(ok?'已读懂':'读懂了')+'</button>'+(LIB.site.repo?'<button class="act rep" data-report="sent" aria-label="这一句有错？报告" title="这一句有错？报告">纠错</button>':'')+'</div></article>';
 }
 function renderText(){
   if(C.kind!=='book'){ $('#text').innerHTML=''; $('#ptoc').innerHTML=''; return; }
@@ -833,13 +858,14 @@ function slipHtml(r, surface, sid, el){
   h+='<div class="sl-gram">'+esc(gram)+'</div><div class="sl-mean">'+esc(mean)+'</div>';
   if(note) h+='<p class="sl-note">'+esc(note)+'</p>';
   h+=whyCase(r,el)+caseTable(r);
-  if(!C) return h;
+  const rep=LIB.site.repo?'<button class="sl-report" data-report="word">这个词条有错？报告</button>':'';
+  if(!C) return h+rep;
   const forms=(C.LEMMA[lemma]||[]).filter(id=>id!==r.id && !id.includes('#')).slice(0,14);
   if(forms.length) h+='<div class="sl-sec"><h4>同一个词在文中的其他形式</h4><div class="forms">'+forms.map(id=>'<button class="form-b" data-open="'+esc(id)+'" lang="'+P.lang+'">'+esc(id)+'</button>').join('')+'</div></div>';
   const occ=C.OCC[r.id]||[];
   const where=C.kind==='course'?'在《'+esc(BOOKS[C.textBook].meta.short||BOOKS[C.textBook].meta.title)+'》中':'在文中';
   if(occ.length) h+='<div class="sl-sec"><h4>'+where+'出现 '+occ.length+' 次（同一用法）</h4><div class="occ">'+occ.slice(0,40).map(id=>{const x=C.SENTS.find(z=>z.id===id);return '<button data-jump="'+id+'"'+(id===sid?' aria-current="true"':'')+'>§ '+esc(x.label)+'</button>'}).join('')+'</div></div>';
-  return h;
+  return h+rep;
 }
 const SLIP={hist:[], cur:null};
 function entryOf(id){ return id[0]==='~'?(DICT&&DICT[id.slice(1)]):(C&&C.LEX[id]); }
@@ -899,6 +925,50 @@ function renderSaved(){
   $('#fsay').onclick=()=>say(f);
   $('#fopen').onclick=()=>openWord({w:f,id,cs:null,named:null,d},f,null,null);
 }
+
+/* ---------- feedback: every sentence, word slip and lesson has a 纠错 link ----------
+   Opens a small form; the reader writes what is wrong, then either files it as a GitHub issue (location and
+   current content prefilled through the issue form's field ids) or copies everything to send another way. */
+let FB=null;
+const siteLink=route=>(LIB.site.siteUrl||location.href.split('#')[0])+'#'+(route||NAV.cur||'lib');
+function fbContext(kind, btn){
+  const P=PX(), bk=C?(C.kind==='book'?C.meta:BOOKS[C.textBook].meta):null, bname=bk?'《'+(bk.zh||bk.title)+'》':'';
+  if(kind==='sent'){ const id=btn.closest('.sent').id.slice(2), x=C.SENTS.find(z=>z.id===id);
+    return {title:'[纠错] '+(bk.short||bk.title)+' § '+x.label, where:bname+' § '+x.label+(x.s.pg?'（'+x.s.pg+'）':''),
+      current:plain(x.s.de)+'\n\n译文：'+x.s.zh+(x.s.n.length?'\n\n语法讲解：\n'+x.s.n.map((n,i)=>(i+1)+'. '+n).join('\n'):''), route:C.textBook+'~s-'+id}; }
+  if(kind==='word'){ const c=SLIP.cur; const d=c&&c.r.d; if(!d) return null;
+    const sx=c.sid&&C?C.SENTS.find(z=>z.id===c.sid):null;
+    return {title:'[纠错] 词条 '+c.surface, where:'词卡「'+c.surface+'」'+(sx?' · '+bname+' § '+sx.label:(C?' · '+bname:' · 全站词典')),
+      current:['原形：'+d[0],'词性：'+(P.pos[d[1]]||d[1]),'语法：'+d[2],'释义：'+d[3],d[4]?'说明：'+d[4]:''].filter(Boolean).join('\n')+(c.r.cs?'\n此处：'+caseText(c.r.cs):'')+(sx?'\n\n所在句子：'+plain(sx.s.de):''),
+      route:sx?C.textBook+'~s-'+sx.id:NAV.cur}; }
+  if(kind==='lesson'){ const i=+btn.dataset.li, l=C.lessons[i];
+    return {title:'[纠错] '+(C.meta.short||C.meta.title)+' 第 '+(i+1)+' 课', where:(C.kind==='course'?C.meta.title:bname+' 专题课')+' · 第 '+(i+1)+' 课「'+l.t+'」', current:l.t+' · '+l.de, route:C.id+'~intro-'+(i+1)}; }
+  return {idea:true, title:'[建议] ', where:routeLabel(NAV.cur||'lib'), current:'', route:NAV.cur};
+}
+function fbOpen(kind, btn){
+  const f=fbContext(kind, btn); if(!f) return; FB=f;
+  $('#fbTitle').textContent=f.idea?'提建议':'纠错';
+  $('#fbWhere').textContent=f.where;
+  $('#fbCur').value=f.current; $('#fbCur').hidden=!f.current; $('#fbCur').previousElementSibling.hidden=!f.current;
+  $('#fbText').value=''; $('#fbText').previousElementSibling.textContent=f.idea?'你的建议，或者用着不方便的地方':'哪里有问题？怎么改更好？';
+  $('#fbHint').textContent='在 GitHub 提交需要一个免费账号，位置和原内容会自动填好。没有账号的话，点「复制全部内容」，'+(LIB.site.feedbackContact?'发到 '+LIB.site.feedbackContact+'。':'发给作者就行。')+' README 里有详细说明。';
+  const d=$('#fbDlg'); try{ d.showModal(); }catch(e){ d.setAttribute('open',''); }
+  setTimeout(()=>{ $('#fbCur').scrollTop=0; $('#fbText').focus({preventScroll:true}); },50);
+}
+function fbText(){ const f=FB; return (f.idea?'【建议】':'【纠错】')+f.where+'\n'+(f.current?'\n现在的内容：\n'+f.current+'\n':'')+'\n问题 / 建议：\n'+$('#fbText').value+'\n\n链接：'+siteLink(f.route); }
+function fbClose(){ const d=$('#fbDlg'); try{ d.close(); }catch(e){ d.removeAttribute('open'); } }
+$('#fbGh').onclick=()=>{
+  const f=FB, u=new URL('https://github.com/'+LIB.site.repo+'/issues/new');
+  u.searchParams.set('template',f.idea?'idea.yml':'correction.yml'); u.searchParams.set('title',f.title);
+  u.searchParams.set('where',f.where); u.searchParams.set('problem',$('#fbText').value); u.searchParams.set('link',siteLink(f.route));
+  if(f.current) u.searchParams.set('current',f.current.slice(0,3000));
+  const a=document.createElement('a'); a.href=u.toString(); a.target='_blank'; a.rel='noopener'; document.body.appendChild(a); a.click(); a.remove(); fbClose();
+};
+$('#fbCopy').onclick=async()=>{ const t=fbText(); let ok=false; try{ await navigator.clipboard.writeText(t); ok=true; }catch(e){ try{ const ta=document.createElement('textarea'); ta.value=t; document.body.appendChild(ta); ta.select(); ok=document.execCommand('copy'); ta.remove(); }catch(_){} }
+  toast(ok?'已复制，可以粘贴发送了':'复制失败，请手动选择文字'); if(ok) fbClose(); };
+$('#fbCancel').onclick=fbClose;
+function renderFbLine(){ $('#fbLine').innerHTML=LIB.site.repo?'<span>发现错误、有建议，或想读别的书？</span><button data-report="idea">提建议</button><button data-report="page">纠错说明</button>':''; }
+renderFbLine();
 
 /* ---------- listen to the whole text ----------
    Reads sentence by sentence with the device's German voice, highlighting the sentence (and the word, where
@@ -1097,6 +1167,8 @@ document.addEventListener('click',e=>{
   if(lw){ e.preventDefault(); const id=lw.dataset.l, t=lw.textContent; openWord({w:t,id,cs:null,named:null,d:entryOf(id)}, t.replace(/[-·]/g,''), null, lw, !!lw.closest('#sheet,#slipDesk')); return; }
   const rt=e.target.closest('[data-route]'); if(rt){ e.preventDefault(); navigate(rt.dataset.route); return; }
   const g=e.target.closest('[data-go]'); if(g){ e.preventDefault(); if(C) navigate(C.id+'~'+g.dataset.go); return; }
+  const rp=e.target.closest('[data-report]');
+  if(rp){ e.preventDefault(); const k=rp.dataset.report; if(k==='page'){ const a=document.createElement('a'); a.href='https://github.com/'+LIB.site.repo+'#'+encodeURIComponent('发现错误怎么办'); a.target='_blank'; a.rel='noopener'; document.body.appendChild(a); a.click(); a.remove(); } else fbOpen(k, rp); return; }
   const sb=e.target.closest('[data-slipback]'); if(sb){ const pv=SLIP.hist.pop(); if(pv) openWord(pv.r,pv.surface,pv.sid,null,null); return; }
   const w=e.target.closest('.w');
   if(w){ const r=resolve(w.dataset.w,w.dataset.k); openWord(r,w.dataset.w,w.dataset.s,w); return; }

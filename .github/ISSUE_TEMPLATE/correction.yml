@@ -1,0 +1,35 @@
+name: 纠错
+description: 原文、译文、词条、语法讲解或课程里的错误
+title: "[纠错] "
+labels: ["纠错"]
+body:
+  - type: markdown
+    attributes:
+      value: 谢谢你帮忙！从网站上的「纠错」按钮进来时，下面的位置和原内容已经自动填好，你只要写哪里错了。
+  - type: input
+    id: where
+    attributes:
+      label: 位置
+      description: 哪本书、哪一句（§）、哪个词或哪一课
+    validations:
+      required: true
+  - type: textarea
+    id: current
+    attributes:
+      label: 网站上现在的内容
+      render: text
+  - type: textarea
+    id: problem
+    attributes:
+      label: 哪里有问题？
+      description: 尽量具体：哪个词、哪个格、哪处译文。不确定也没关系，写下你的疑问就好。
+    validations:
+      required: true
+  - type: textarea
+    id: fix
+    attributes:
+      label: 你觉得应该怎么改？（可选）
+  - type: input
+    id: link
+    attributes:
+      label: 页面链接

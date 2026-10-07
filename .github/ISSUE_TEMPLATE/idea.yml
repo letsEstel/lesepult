@@ -1,0 +1,24 @@
+name: 建议 / 想读的书
+description: 功能建议、使用中不方便的地方、希望上架的书
+title: "[建议] "
+labels: ["建议"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: 你的建议或遇到的不便
+    validations:
+      required: true
+  - type: input
+    id: where
+    attributes:
+      label: 在哪个页面（可选）
+  - type: input
+    id: link
+    attributes:
+      label: 页面链接
+  - type: input
+    id: device
+    attributes:
+      label: 设备和浏览器（可选）
+      description: 例如：国行 Moto 安卓 + Chrome；iPhone + Safari
