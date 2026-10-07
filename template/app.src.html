@@ -185,6 +185,36 @@ td .ex,dt .ex{display:inline;margin:0;padding:0;background:none;border:0}
 .reader{display:grid;gap:28px;padding-block:20px 80px}
 @media (min-width:1024px){.reader{grid-template-columns:minmax(0,1fr) 340px}}
 .para{margin-bottom:34px;scroll-margin-top:170px}
+/* chapters of a long book */
+.chlist{display:grid;gap:8px;margin-bottom:48px;scroll-margin-top:90px}
+.chlist-h{display:flex;align-items:baseline;justify-content:space-between;gap:12px;border-bottom:2px solid var(--ink);padding-bottom:8px;margin-bottom:4px}
+.chlist-h h2{font:600 20px/1.3 var(--f-zh);margin:0}
+.chlist-h small{font:12.5px var(--f-mono);color:var(--ink-3)}
+.ch-row{all:unset;box-sizing:border-box;display:grid;grid-template-columns:auto 1fr auto;gap:4px 14px;align-items:center;width:100%;background:var(--sheet);border:1px solid var(--rule);border-radius:12px;padding:14px 16px;cursor:pointer;min-width:0}
+.ch-row:hover{border-color:var(--prussian-2)}
+.ch-row:focus-visible{outline:2px solid var(--prussian-2);outline-offset:2px}
+.ch-row.planned{cursor:default;border-style:dashed;background:transparent}
+.ch-row.planned:hover{border-color:var(--rule)}
+.ch-n{font:500 13px var(--f-mono);color:var(--prussian);width:2.3em;height:2.3em;border-radius:50%;border:1.5px solid currentColor;display:grid;place-items:center;grid-row:span 2}
+.ch-row.done .ch-n{background:var(--prussian);color:var(--paper);border-color:var(--prussian)}
+.ch-row.planned .ch-n{color:var(--ink-3);border-style:dashed}
+.ch-t{min-width:0}
+.ch-t b{font:600 16.5px/1.35 var(--f-zh);display:block}
+.ch-t i{font:italic 14px var(--f-de);color:var(--ink-3)}
+.ch-b{grid-column:2/4;font-size:13.5px;color:var(--ink-2);line-height:1.6}
+.ch-s{font:12px var(--f-mono);color:var(--ink-3);white-space:nowrap;text-align:right;display:grid;gap:5px;justify-items:end}
+.ch-s .bar{display:block;width:64px;height:3px;background:var(--rule);border-radius:2px;overflow:hidden}
+.ch-s .bar i{display:block;height:100%;width:var(--p);background:var(--prussian)}
+.chbar{display:flex;align-items:center;gap:6px;margin-bottom:8px;min-width:0}
+.chbar .ch-cur{all:unset;cursor:pointer;flex:1;min-width:0;display:flex;align-items:baseline;gap:8px;white-space:nowrap;overflow:hidden;font-size:14px}
+.chbar .ch-cur b{font:600 14px var(--f-zh);overflow:hidden;text-overflow:ellipsis}
+.chbar .ch-cur span{font:500 12px var(--f-mono);color:var(--prussian);flex:none}
+.chbar .ch-cur em{font:italic 13px var(--f-de);color:var(--ink-3);overflow:hidden;text-overflow:ellipsis}
+.chbar .ch-cur:focus-visible{outline:2px solid var(--prussian-2);border-radius:4px}
+.chbar .tg{flex:none}
+.chnext{display:grid;gap:10px;margin:8px 0 40px}
+.chnext .ch-row{border-color:var(--prussian-2)}
+.chnext .lab{font:500 12px var(--f-mono);letter-spacing:.06em;color:var(--ink-3)}
 .para-h{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 12px;border-bottom:1px solid var(--ink);padding-bottom:8px;margin-bottom:14px}
 .para-h h3{font:600 20px/1.35 var(--f-zh);margin:0}
 .para-h .ger{font:italic 15px var(--f-de);color:var(--ink-3)}
@@ -446,6 +476,7 @@ button.book:hover{transform:translateY(-3px);box-shadow:var(--shadow)}
       </div>
     </div>
     <div class="stats" id="stats"></div>
+    <div class="chlist" id="chlist" hidden></div>
     <div class="how" id="how"></div>
   </div>
 </section>
@@ -463,6 +494,7 @@ button.book:hover{transform:translateY(-3px);box-shadow:var(--shadow)}
 <section id="v-read" class="view" hidden>
   <div class="read-tools">
     <div class="wrap">
+      <div class="chbar" id="chbar" hidden></div>
       <div class="ptoc" id="ptoc" aria-label="段落"></div>
       <div class="toggles">
         <button class="tg" id="tgGloss" aria-pressed="false">行间释义</button>
@@ -555,7 +587,27 @@ function load(name){
   const inl=LIB.data&&LIB.data[name];
   return LOADS[name]=inl?Promise.resolve(inl):fetch('data/'+name+'.json?v='+LIB.v).then(r=>{ if(!r.ok) throw new Error(r.status); return r.json(); }).catch(e=>{ delete LOADS[name]; throw e; });
 }
-async function ensureBook(id){ const b=BOOKS[id]; if(!b.text) Object.assign(b, await load(id)); return b; }
+async function ensureBook(id){ const b=BOOKS[id]; if(!b.lex) Object.assign(b, await load(id)); return b; }
+/* A long book is split into chapters (BOOKS[id].chapters). The lexicon, lessons and a word → chapters index
+   come with the book; each chapter's text is its own file, fetched when the chapter is opened. Sentence ids
+   carry the chapter: "<chapter>-<part>-<sentence>"; books without chapters keep "<part>-<sentence>". */
+const isCh=id=>!!(BOOKS[id]&&BOOKS[id].chapters);
+const liveChs=id=>BOOKS[id].chapters.filter(c=>!c.planned);
+const chOf=(id,cid)=>BOOKS[id].chapters.find(c=>c.id===cid);
+async function ensureChapter(id,cid){ const b=BOOKS[id]; b.chText=b.chText||{}; if(!b.chText[cid]) b.chText[cid]=(await load(id+'.'+cid)).text; return b.chText[cid]; }
+function sentIds(id){ const b=BOOKS[id], out=[]; const add=(pre,toc)=>toc.forEach((t,pi)=>{ for(let si=0;si<t[1];si++) out.push(pre+pi+'-'+si); });
+  if(b.chapters) liveChs(id).forEach(c=>add(c.id+'-',c.toc)); else add('',b.toc); return out; }
+const SIDRE=/^(?:([a-z0-9]+)-)?(\d+)-(\d+)$/;
+function sidLabel(id,sid){ const b=BOOKS[id], m=SIDRE.exec(sid); if(!m) return ''; let toc=b.toc, pre='';
+  if(b.chapters){ const c=m[1]&&chOf(id,m[1]); if(!c||!c.toc) return ''; toc=c.toc; pre=c.n+'·'; }
+  const t=toc&&toc[+m[2]]; return t?pre+sentLabel(t[0],+m[3],t[1]):''; }
+function occIndex(b){ if(!b.occ) return null; if(b.OCCX) return b.OCCX; const o={}, f={};
+  for(const k in b.occ){ o[k]=b.occ[k].split(',').map(x=>{ const [c,n,sid]=x.split(':'); return [c,+n,sid]; }); f[k]=o[k].reduce((a,x)=>a+x[1],0); }
+  b.FREQ=f; return b.OCCX=o; }
+function defaultCh(id){ const live=liveChs(id), last=mkStore('reader.'+id+'.').get('ch',null);
+  if(last && live.some(c=>c.id===last)) return last;
+  const ok=new Set(mkStore('reader.'+id+'.').get('ok',[])), nx=sentIds(id).find(x=>!ok.has(x));
+  return nx?SIDRE.exec(nx)[1]:live[0].id; }
 let DICT=null;
 const DEFPROF=LIB.profiles[Object.keys(LIB.profiles)[0]];
 const PX=()=>C?C.P:DEFPROF;
@@ -568,21 +620,23 @@ LIB.books.forEach(b=>{ const leg=b.meta&&b.meta.legacyStorage; if(!leg) return; 
 }catch(e){} });
 
 const PREP={};
-function prep(bookId){
-  if(PREP[bookId]) return PREP[bookId];
+function prep(bookId,cid){
+  cid=cid||null; const key=bookId+(cid?'|'+cid:'');
+  if(PREP[key]) return PREP[key];
   const b=BOOKS[bookId], P=LIB.profiles[b.meta.profile];
   const TOK=new RegExp('(\\(?)(['+P.letters+']+)(?:\\{([^}]*)\\})?([.,;:!?)\\-]*)','g');
-  const x={P, LEX:b.lex, TEXT:b.text, TOK, WORD:new RegExp('['+P.letters+']+','g'), KEYRE:new RegExp(P.keyPattern), SENTS:[], OCC:{}, LEMMA:{}};
+  const ch=cid?chOf(bookId,cid):null, text=b.chapters?(cid?b.chText[cid]:[]):b.text, pre=cid?cid+'-':'';
+  const x={P, LEX:b.lex, TEXT:text, ch, cid, OCCX:occIndex(b), FREQ:b.FREQ||null, TOK, WORD:new RegExp('['+P.letters+']+','g'), KEYRE:new RegExp(P.keyPattern), SENTS:[], OCC:{}, LEMMA:{}};
   const resolveIn=(w,k)=>resolveWith(x,w,k);
-  b.text.forEach((p,pi)=>p.s.forEach((s,si)=>{
-    const id=pi+'-'+si; const k=p.k!=null?String(p.k):String(pi);
-    const label=sentLabel(k,si,p.s.length);
+  text.forEach((p,pi)=>p.s.forEach((s,si)=>{
+    const id=pre+pi+'-'+si; const k=p.k!=null?String(p.k):String(pi);
+    const label=(ch?ch.n+'·':'')+sentLabel(k,si,p.s.length);
     x.SENTS.push({id,pi,si,s,label});
     const re=new RegExp(TOK.source,'g'); let m; const t=s.de.replace(/[*_]/g,'');
     while((m=re.exec(t))){ const r=resolveIn(m[2],m[3]); if(!r.id) continue; const o=(x.OCC[r.id]=x.OCC[r.id]||[]); if(o[o.length-1]!==id) o.push(id); }
   }));
   for(const id in b.lex){ const lem=b.lex[id][0]; (x.LEMMA[lem]=x.LEMMA[lem]||[]).push(id); }
-  return PREP[bookId]=x;
+  return PREP[key]=x;
 }
 function resolveWith(x,word,key){
   const w=word.toLowerCase(); let id=null, cs=null, named=null;
@@ -597,8 +651,8 @@ function resolveWith(x,word,key){
 /* ---------- context: the book or course on screen ---------- */
 let C=null, S=null;
 const usable=id=>(BOOKS[id]&&!BOOKS[id].planned)||!!COURSES[id];
-function makeCtx(id){
-  if(BOOKS[id] && !BOOKS[id].planned){ const b=BOOKS[id]; return Object.assign({kind:'book', id, meta:b.meta, lessons:b.lessons||[], textBook:id}, prep(id)); }
+function makeCtx(id,cid){
+  if(BOOKS[id] && !BOOKS[id].planned){ const b=BOOKS[id]; return Object.assign({kind:'book', id, meta:b.meta, lessons:b.lessons||[], textBook:id}, prep(id,cid)); }
   if(COURSES[id]){ const c=COURSES[id]; return Object.assign({kind:'course', id, meta:c.meta, lessons:c.lessons||[], textBook:c.meta.lexiconFrom}, prep(c.meta.lexiconFrom)); }
   return null;
 }
@@ -646,7 +700,7 @@ function renderDe(de, sid){
   }
   return out;
 }
-const freq=id=>(C.OCC[id]||[]).length;
+const freq=id=>C.FREQ?(C.FREQ[id]||0):(C.OCC[id]||[]).length;
 
 /* ---------- speech & toast ---------- */
 const canSpeak='speechSynthesis' in window; let voices=[];
@@ -665,8 +719,8 @@ function say(text){
 let tt; function toast(msg){ const t=$('#toast'); t.textContent=msg; t.classList.add('on'); clearTimeout(tt); tt=setTimeout(()=>t.classList.remove('on'),1800); }
 
 /* ---------- library page ---------- */
-function bookProgress(id){ const toc=BOOKS[id].toc; const ok=mkStore('reader.'+id+'.').get('ok',[]); const n=toc.reduce((a,t)=>a+t[1],0);
-  return {ok:ok.filter(s=>{ const m=/^(\d+)-(\d+)$/.exec(s); return m && toc[+m[1]] && +m[2]<toc[+m[1]][1]; }).length, n}; }
+function bookProgress(id){ const ids=new Set(sentIds(id)), ok=mkStore('reader.'+id+'.').get('ok',[]);
+  return {ok:ok.filter(s=>ids.has(s)).length, n:ids.size}; }
 function renderLibrary(){
   $('#courseShelf').innerHTML=LIB.courses.map(c=>{ const m=c.meta, done=mkStore('reader.'+c.id+'.').get('lessons',[]).length, n=(c.lessons||[]).length;
     return '<button class="course-card" data-route="'+esc(c.id)+'~intro"><span class="cc-n">'+n+'</span><span class="cc-body"><b>'+esc(m.title)+'</b><span class="cc-de" lang="de" data-linkok>'+esc(m.de||'')+'</span><span class="cc-p">'+esc(m.lede||'')+'</span></span><span class="cc-prog"><span>'+(done?'已学 '+done+' / '+n:'从这里开始')+'</span><i style="--p:'+(n?done/n*100:0)+'%"></i></span></button>'; }).join('');
@@ -678,7 +732,8 @@ function renderLibrary(){
     const style='--bk:'+acc+';--bk-d:'+accD+';--bk-font:'+(b.planned?'var(--f-frak)':(m.fonts&&m.fonts.mast||'var(--f-frak)'));
     let foot;
     if(b.planned) foot='<span class="bk-chip">筹备中</span>';
-    else { const p=bookProgress(b.id); foot='<span class="bk-prog"><i style="--p:'+(p.n?p.ok/p.n*100:0)+'%"></i></span><span class="bk-stat">'+(p.ok?'已读懂 '+p.ok+' / '+p.n+' 句':p.n+' 句 · '+b.nLex+' 词条')+'</span>'; }
+    else { const p=bookProgress(b.id); const chs=b.chapters?liveChs(b.id).length+' / '+b.chapters.length+' 章 · ':'';
+      foot='<span class="bk-prog"><i style="--p:'+(p.n?p.ok/p.n*100:0)+'%"></i></span><span class="bk-stat">'+chs+(p.ok?'已读懂 '+p.ok+' / '+p.n+' 句':p.n+' 句 · '+b.nLex+' 词条')+'</span>'; }
     return '<'+(b.planned?'div':'button')+' class="book'+(b.planned?' planned':'')+'" '+(b.planned?'aria-label="'+esc(m.title)+'，筹备中"':'data-route="'+esc(b.id)+'~home"')+' style="'+esc(style)+'">'+
       '<span class="bk-cover"><span class="bk-mast">'+esc(m.mast||m.title)+'</span><span class="bk-au" data-linkok>'+esc((m.author||'')+(m.year?' · '+m.year:''))+'</span></span>'+
       '<span class="bk-body"><span class="bk-level">'+esc(m.level||'')+'</span><b class="bk-title">'+esc(m.zh||m.title)+'</b><span class="bk-de" lang="de" data-linkok>'+esc(m.title)+'</span><span class="bk-blurb">'+esc(m.blurb||'')+'</span>'+foot+'</span></'+(b.planned?'div':'button')+'>';
@@ -695,10 +750,17 @@ function setBookStyle(m){
   el.textContent=':root{'+light+'}'+(dark?'@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){'+dark+'}}:root[data-theme="dark"]{'+dark+'}':'');
 }
 function clearBookStyle(){ const el=$('#bookcss'); if(el) el.textContent=''; }
-function enterCtx(id){
-  if(C && C.id===id) return;
+function enterCtx(id,cid){
+  cid=cid||null;
+  if(cid) mkStore('reader.'+id+'.').set('ch',cid);
+  if(C && C.id===id){
+    if(C.cid===cid) return;
+    // another chapter of the same book: swap the text, keep everything else
+    if(typeof PL!=='undefined') plStop();
+    C=makeCtx(id,cid); hideSheet(); renderText(); applyToggles(); updateProgress(); return;
+  }
   if(typeof PL!=='undefined') plStop();
-  C=makeCtx(id); loadState(); hideSheet();
+  C=makeCtx(id,cid); loadState(); hideSheet();
   document.documentElement.style.setProperty('--scale',S.scale);
   const m=C.meta, isBook=C.kind==='book';
   setBookStyle(isBook?m:BOOKS[C.textBook].meta);
@@ -721,14 +783,31 @@ function renderBookHome(){
   const m=C.meta;
   $('#hEyebrow').textContent=m.eyebrow||''; $('#hMast').textContent=m.mast||m.title; $('#hSub').textContent=m.subtitle||''; $('#hLede').textContent=m.lede||'';
   $('#demoCap').textContent=m.demoCaption||'点任意一个词';
-  first=C.TEXT[m.demo[0]].s[m.demo[1]];
+  const B=BOOKS[C.id], st=B.stats;
+  first=B.chapters?B.demo:C.TEXT[m.demo[0]].s[m.demo[1]];
   $('#demoDe').setAttribute('lang',C.P.lang); $('#demoDe').innerHTML=renderDe(first.de,m.demo.join('-')); $('#demoZh').textContent=first.zh;
-  const nWords=C.SENTS.reduce((a,x)=>a+(plain(x.s.de).match(C.WORD)||[]).length,0);
-  $('#stats').innerHTML=[[C.TEXT.length,'个部分'],[C.SENTS.length,'个句子，逐句讲解'],[nWords.toLocaleString('en'),'个词'],[Object.keys(C.LEX).length,'个词条，覆盖每个词形'],[C.lessons.length,'节专题课']].map(([b,s])=>'<div class="stat"><b>'+b+'</b><span>'+s+'</span></div>').join('');
+  $('#stats').innerHTML=[...(B.chapters?[[liveChs(C.id).length+' / '+B.chapters.length,'章已上线']]:[[st.parts,'个部分']]),[st.sents,'个句子，逐句讲解'],[st.words.toLocaleString('en'),'个词'],[Object.keys(C.LEX).length,'个词条，覆盖每个词形'],[C.lessons.length,'节专题课']].map(([b,s])=>'<div class="stat"><b>'+b+'</b><span>'+s+'</span></div>').join('');
+  renderChapterList();
   $('#how').innerHTML=(m.howto||[]).map(h=>'<div><span class="n">'+esc(h.n)+'</span><h3>'+esc(h.h)+'</h3><p>'+esc(h.p)+'</p></div>').join('');
 }
-function nextSent(){ return C.SENTS.find(x=>!S.ok.has(x.id)); }
+function nextSent(){
+  if(isCh(C.id)){ const n=sentIds(C.id).find(x=>!S.ok.has(x)); return n?{id:n,label:sidLabel(C.id,n)}:null; }
+  return C.SENTS.find(x=>!S.ok.has(x.id)); }
+function firstSent(){ return isCh(C.id)?{id:sentIds(C.id)[0]}:C.SENTS[0]; }
 function updateCont(){ if(C.kind!=='book') return; const n=nextSent(); $('#contLbl').textContent = S.ok.size? (n?'继续：§ '+n.label:'全书已读完 · 重温'):'直接开始精读'; }
+function chProgress(c){ let ok=0, n=0; c.toc.forEach((t,pi)=>{ for(let si=0;si<t[1];si++){ n++; if(S.ok.has(c.id+'-'+pi+'-'+si)) ok++; } }); return {ok,n}; }
+function chRow(c){
+  const planned=!!c.planned, p=planned?null:chProgress(c), done=!!p&&p.n>0&&p.ok===p.n, tag=planned?'div':'button';
+  const stat=planned?'<span>筹备中</span>':'<span>'+(p.ok?p.ok+' / '+p.n+' 句':p.n+' 句')+'</span><span class="bar"><i style="--p:'+(p.ok/p.n*100)+'%"></i></span>';
+  return '<'+tag+' class="ch-row'+(planned?' planned':'')+(done?' done':'')+'"'+(planned?' aria-label="第 '+esc(c.n)+' 章，筹备中"':' data-route="'+esc(C.id)+'~ch-'+esc(c.id)+'"')+'><span class="ch-n">'+esc(c.n)+'</span><span class="ch-t"><b data-linkok>'+esc(c.h)+'</b>'+(c.t?'<i lang="de" data-linkok>'+esc(c.t)+'</i>':'')+'</span><span class="ch-s">'+stat+'</span>'+(c.blurb?'<span class="ch-b" data-linkok>'+esc(c.blurb)+'</span>':'')+'</'+tag+'>';
+}
+function renderChapterList(){
+  const box=$('#chlist');
+  if(!C || C.kind!=='book' || !isCh(C.id)){ box.hidden=true; box.innerHTML=''; return; }
+  const chs=BOOKS[C.id].chapters, live=liveChs(C.id).length;
+  box.hidden=false;
+  box.innerHTML='<div class="chlist-h"><h2>目录</h2><small>'+live+' / '+chs.length+' 章已上线</small></div>'+chs.map(chRow).join('');
+}
 
 /* ---------- lessons & quizzes ---------- */
 function quizHtml(li,sec){
@@ -752,7 +831,7 @@ function renderLessons(){
     $('#basicsCard').innerHTML=LIB.courses.map(c=>{ const done=mkStore('reader.'+c.id+'.').get('lessons',[]).length, n=(c.lessons||[]).length;
       return '<button class="basics-link" data-route="'+esc(c.id)+'~intro"><span><b>'+esc(c.meta.title)+'</b>（'+n+' 节，所有德语书通用）'+(done>=n?' · 已学完':done?' · 已学 '+done+' 节':' · 还没学过的话，先学这里')+'</span>'+ICON.arrow+'</button>'; }).join('');
   } else $('#basicsCard').innerHTML='';
-  $('#lessons').innerHTML=C.lessons.map((l,i)=>'<article class="lesson'+(S.lessons.has(lkey(l,i))?' done':'')+'" data-l="'+i+'"><button aria-expanded="false"><span class="ln">'+(i+1)+'</span><span><span class="lt" data-linkok>'+esc(l.t)+'</span><span class="ls" lang="de" data-linkok>'+esc(l.de)+'</span></span><span class="lm">'+l.min+' 分钟'+(l.quiz?' · 练习':'')+'</span></button><div class="lesson-body" hidden>'+renderLessonHtml(l,i)+'<div class="lesson-foot"><button class="btn" data-ldone="'+i+'">'+ICON.ok+'<span>'+(S.lessons.has(lkey(l,i))?'已学完':'学完了')+'</span></button>'+(LIB.site.repo?'<button class="l-report" data-report="lesson" data-li="'+i+'">这节课有问题？</button>':'')+'</div></div></article>').join('')
+  $('#lessons').innerHTML=C.lessons.map((l,i)=>'<article class="lesson'+(S.lessons.has(lkey(l,i))?' done':'')+'" data-l="'+i+'"><button aria-expanded="false"><span class="ln">'+(i+1)+'</span><span><span class="lt" data-linkok>'+esc(l.t)+'</span><span class="ls" lang="de" data-linkok>'+esc(l.de)+'</span></span><span class="lm">'+(l.ch&&isCh(C.id)&&chOf(C.id,l.ch)?'第 '+esc(chOf(C.id,l.ch).n)+' 章 · ':'')+l.min+' 分钟'+(l.quiz?' · 练习':'')+'</span></button><div class="lesson-body" hidden>'+renderLessonHtml(l,i)+'<div class="lesson-foot"><button class="btn" data-ldone="'+i+'">'+ICON.ok+'<span>'+(S.lessons.has(lkey(l,i))?'已学完':'学完了')+'</span></button>'+(LIB.site.repo?'<button class="l-report" data-report="lesson" data-li="'+i+'">这节课有问题？</button>':'')+'</div></div></article>').join('')
     +(C.lessons.length?'':'<p class="empty">这本书还没有专题课。</p>');
   const fl=$('#lessons .lesson:not(.done)'); if(fl){ fl.querySelector('.lesson-body').hidden=false; fl.querySelector('button').setAttribute('aria-expanded','true'); }
 }
@@ -782,14 +861,26 @@ function sentHtml(x){
   '<div class="acts"><button class="act" data-a="say">'+ICON.say+'朗读</button><button class="act" data-a="gram" aria-pressed="false">'+ICON.gram+'语法<span class="c">'+s.n.length+'</span></button><button class="act" data-a="zh" aria-pressed="'+S.zhAll+'">'+ICON.zh+'译文</button><button class="act okb" data-a="ok" aria-pressed="'+ok+'">'+ICON.ok+(ok?'已读懂':'读懂了')+'</button>'+(LIB.site.repo?'<button class="act rep" data-report="sent" aria-label="这一句有错？报告" title="这一句有错？报告">纠错</button>':'')+'</div></article>';
 }
 function renderText(){
-  if(C.kind!=='book'){ $('#text').innerHTML=''; $('#ptoc').innerHTML=''; return; }
-  $('#text').innerHTML=C.TEXT.map((p,pi)=>'<section class="para" id="p-'+pi+'"><div class="para-h"><h3>'+esc(p.h)+'</h3><span class="ger">'+esc(p.t||'')+'</span>'+(p.pg?'<span class="pg">'+esc(p.pg)+'</span>':'')+'</div>'+C.SENTS.filter(x=>x.pi===pi).map(sentHtml).join('')+'</section>').join('');
+  if(C.kind!=='book'){ $('#text').innerHTML=''; $('#ptoc').innerHTML=''; $('#chbar').hidden=true; return; }
+  const ch=C.ch; let tail='';
+  $('#chbar').hidden=!ch;
+  if(ch){
+    const live=liveChs(C.id), i=live.indexOf(ch), pv=live[i-1], nx=live[i+1], all=BOOKS[C.id].chapters, after=all[all.indexOf(ch)+1];
+    const go=c=>c?' data-route="'+esc(C.id)+'~ch-'+esc(c.id)+'"':' disabled';
+    $('#chbar').innerHTML='<button class="ch-cur" data-route="'+esc(C.id)+'~toc" title="全书目录"><span>第 '+esc(ch.n)+' 章</span><b>'+esc(ch.h)+'</b>'+(ch.t?'<em lang="de">'+esc(ch.t)+'</em>':'')+'</button>'+
+      '<button class="tg"'+go(pv)+' aria-label="上一章" title="上一章">←</button><button class="tg"'+go(nx)+' aria-label="下一章" title="下一章">→</button><button class="tg" data-route="'+esc(C.id)+'~toc">目录</button>';
+    tail='<div class="chnext"><span class="lab">'+(after?'下一章':'全书完')+'</span>'+(after?chRow(after):'')+'<div><button class="btn" data-route="'+esc(C.id)+'~toc">回到目录</button></div></div>';
+  }
+  $('#text').innerHTML=C.TEXT.map((p,pi)=>'<section class="para" id="p-'+pi+'"><div class="para-h"><h3>'+esc(p.h)+'</h3><span class="ger">'+esc(p.t||'')+'</span>'+(p.pg?'<span class="pg">'+esc(p.pg)+'</span>':'')+'</div>'+C.SENTS.filter(x=>x.pi===pi).map(sentHtml).join('')+'</section>').join('')+tail;
   $('#ptoc').innerHTML=C.TEXT.map((p,pi)=>'<button class="pchip" data-p="'+pi+'" title="'+esc(p.h)+'">'+esc(p.k!=null?p.k:pi)+'<i></i></button>').join('');
   if(window.__io) window.__io.disconnect();
   if('IntersectionObserver' in window){ const io=window.__io=new IntersectionObserver(es=>{ es.forEach(en=>{ if(en.isIntersecting){ const pi=en.target.id.slice(2); $$('.pchip').forEach(b=>b.classList.toggle('cur',b.dataset.p===pi)); } }); },{rootMargin:'-45% 0px -50% 0px'}); $$('.para').forEach(p=>io.observe(p)); }
 }
-$('#ptoc').addEventListener('click',e=>{ const b=e.target.closest('.pchip'); if(b) document.getElementById('p-'+b.dataset.p).scrollIntoView({behavior:'smooth'}); });
-function jump(id, smooth){ const el=document.getElementById('s-'+id); if(el){ el.scrollIntoView({behavior:smooth?'smooth':'auto',block:'start'}); el.classList.add('flash'); setTimeout(()=>el.classList.remove('flash'),1600); } }
+// scroll so that el sits just below the sticky reading toolbar (whose height varies: chapter line, wrapped toggles)
+function scrollBelowTools(el, smooth){ const rt=$('.read-tools'); const stick=rt?(parseFloat(getComputedStyle(rt).top)||0)+rt.offsetHeight:170;
+  window.scrollTo({top:Math.max(0,scrollY+el.getBoundingClientRect().top-stick-10), behavior:smooth?'smooth':'auto'}); }
+$('#ptoc').addEventListener('click',e=>{ const b=e.target.closest('.pchip'); if(b) scrollBelowTools(document.getElementById('p-'+b.dataset.p),true); });
+function jump(id, smooth){ const el=document.getElementById('s-'+id); if(el){ scrollBelowTools(el,smooth); el.classList.add('flash'); setTimeout(()=>el.classList.remove('flash'),1600); } }
 function applyToggles(){
   $$('.reader .de').forEach(d=>{ d.classList.toggle('gloss',S.gloss); d.classList.toggle('color',S.color); });
   $('#tgGloss').setAttribute('aria-pressed',S.gloss); $('#tgColor').setAttribute('aria-pressed',S.color); $('#tgZh').setAttribute('aria-pressed',S.zhAll);
@@ -810,8 +901,9 @@ $('#text').addEventListener('click',e=>{
 });
 function updateProgress(){
   if(!C || C.kind!=='book'){ $('#progBar').style.width='0'; return; }
-  const pct=S.ok.size/C.SENTS.length*100; $('#progBar').style.width=pct+'%';
-  $('#progBar').parentElement.title='已读懂 '+S.ok.size+' / '+C.SENTS.length+' 句';
+  const all=isCh(C.id)?sentIds(C.id):null, nOk=all?all.filter(x=>S.ok.has(x)).length:S.ok.size, n=all?all.length:C.SENTS.length;
+  $('#progBar').style.width=(n?nOk/n*100:0)+'%';
+  $('#progBar').parentElement.title='已读懂 '+nOk+' / '+n+' 句';
   $$('.pchip').forEach(b=>{ const pi=+b.dataset.p; const ss=C.SENTS.filter(x=>x.pi===pi); const k=ss.filter(x=>S.ok.has(x.id)).length; b.querySelector('i').style.width=(k/ss.length*100)+'%'; });
   updateCont();
 }
@@ -863,8 +955,10 @@ function slipHtml(r, surface, sid, el){
   const forms=(C.LEMMA[lemma]||[]).filter(id=>id!==r.id && !id.includes('#')).slice(0,14);
   if(forms.length) h+='<div class="sl-sec"><h4>同一个词在文中的其他形式</h4><div class="forms">'+forms.map(id=>'<button class="form-b" data-open="'+esc(id)+'" lang="'+P.lang+'">'+esc(id)+'</button>').join('')+'</div></div>';
   const occ=C.OCC[r.id]||[];
-  const where=C.kind==='course'?'在《'+esc(BOOKS[C.textBook].meta.short||BOOKS[C.textBook].meta.title)+'》中':'在文中';
+  const where=C.kind==='course'?'在《'+esc(BOOKS[C.textBook].meta.short||BOOKS[C.textBook].meta.title)+'》中':C.ch?'在本章':'在文中';
   if(occ.length) h+='<div class="sl-sec"><h4>'+where+'出现 '+occ.length+' 次（同一用法）</h4><div class="occ">'+occ.slice(0,40).map(id=>{const x=C.SENTS.find(z=>z.id===id);return '<button data-jump="'+id+'"'+(id===sid?' aria-current="true"':'')+'>§ '+esc(x.label)+'</button>'}).join('')+'</div></div>';
+  const others=C.kind==='book'&&C.OCCX&&C.OCCX[r.id]?C.OCCX[r.id].filter(o=>o[0]!==C.cid&&chOf(C.id,o[0])):[];
+  if(others.length) h+='<div class="sl-sec"><h4>'+(C.ch?'在其他章节':'在书中')+'出现</h4><div class="occ">'+others.map(o=>'<button data-route="'+esc(C.id)+'~s-'+esc(o[2])+'">第 '+esc(chOf(C.id,o[0]).n)+' 章 × '+o[1]+'</button>').join('')+'</div></div>';
   return h+rep;
 }
 const SLIP={hist:[], cur:null};
@@ -1000,7 +1094,7 @@ function plMark(){
   const x=C.SENTS[PL.i], art=document.getElementById('s-'+x.id); if(!art) return;
   art.classList.add('playing');
   const r=art.getBoundingClientRect(), top=$('.read-tools').getBoundingClientRect().bottom;
-  if(r.top<top || r.top>innerHeight*.55) art.scrollIntoView({behavior:'smooth',block:'start'});
+  if(r.top<top || r.top>innerHeight*.55) scrollBelowTools(art,true);
   const t=plain(x.s.de); let at=0; PL.words=[...art.querySelectorAll('.de .w')].map(w=>{ const k=t.indexOf(w.dataset.w,at); if(k>=0) at=k+w.dataset.w.length; return {w,k}; }).filter(o=>o.k>=0);
 }
 function plWord(idx){
@@ -1010,7 +1104,7 @@ function plWord(idx){
 function plSpeak(ci){
   const tok=++PL.token; try{ speechSynthesis.cancel(); }catch(e){}
   const ch=PL.chunks[ci]; PL.ci=ci;
-  if(!ch){ if(PL.i<C.SENTS.length-1){ setTimeout(()=>{ if(tok===PL.token&&PL.on&&!PL.paused){ PL.i++; plSentence(); } },380); } else plStop('全文读完了'); return; }
+  if(!ch){ if(PL.i<C.SENTS.length-1){ setTimeout(()=>{ if(tok===PL.token&&PL.on&&!PL.paused){ PL.i++; plSentence(); } },380); } else plStop(C.ch?'本章读完了':'全文读完了'); return; }
   const {tts,v}=germanVoice(), u=new SpeechSynthesisUtterance(ch.t); u.lang=tts; if(v) u.voice=v; u.rate=PL.rate;
   u.onboundary=e=>{ if(tok===PL.token && e.name!=='sentence') plWord(ch.base+e.charIndex); };
   u.onend=()=>{ if(tok===PL.token && PL.on && !PL.paused) plSpeak(ci+1); };
@@ -1045,6 +1139,7 @@ document.addEventListener('visibilitychange',()=>{ if(document.visibilityState==
 
 /* ---------- navigation ----------
    Routes are plain hash tokens:  lib  ·  <book>~home|intro|read|vocab|saved  ·  <book>~s-1-0 (one sentence)
+   ·  chaptered books: <book>~toc (table of contents) · <book>~ch-<chapter> · <book>~s-<chapter>-1-0
    ·  <book>~intro-2 (lesson 2)  ·  <course>~intro  ·  <course>~intro-3.
    An in-page stack drives the ← back button, because the app viewer shows no browser chrome.
    When the frame allows it, each step is mirrored into history.pushState, so the browser's back button,
@@ -1067,16 +1162,22 @@ function validRoute(t){
   const isCourse=!!COURSES[r.ctx];
   if(isCourse) { if(r.sub==='intro') return true; const m=/^intro-(\d+)$/.exec(r.sub); return !!m && +m[1]>=1 && +m[1]<=(COURSES[r.ctx].lessons||[]).length; }
   if(SUBS.includes(r.sub)) return true;
-  let m=/^s-(\d+)-(\d+)$/.exec(r.sub); if(m){ const t=BOOKS[r.ctx].toc[+m[1]]; return !!t && +m[2]<t[1]; }
+  const b=BOOKS[r.ctx];
+  if(r.sub==='toc') return !!b.chapters;
+  let m=/^ch-([a-z0-9]+)$/.exec(r.sub); if(m) return !!b.chapters && liveChs(r.ctx).some(c=>c.id===m[1]);
+  m=/^s-(.+)$/.exec(r.sub); if(m){ const k=SIDRE.exec(m[1]); if(!k || !!k[1]!==!!b.chapters) return false;
+    const toc=b.chapters?(chOf(r.ctx,k[1])||{}).toc:b.toc, t=toc&&toc[+k[2]]; return !!t && +k[3]<t[1]; }
   m=/^intro-(\d+)$/.exec(r.sub); if(m) return +m[1]>=1 && +m[1]<=BOOKS[r.ctx].nLessons;
   return false;
 }
-const viewOfSub=s=>/^s-/.test(s)?'read':/^intro-/.test(s)?'intro':s;
+const viewOfSub=s=>/^(s|ch)-/.test(s)?'read':/^intro-/.test(s)?'intro':s==='toc'?'home':s;
 const viewKey=t=>{ const r=parse(t); return r.ctx?r.ctx+'~'+viewOfSub(r.sub):'lib'; };
 function ctxTitle(id){ const m=BOOKS[id]?BOOKS[id].meta:COURSES[id].meta; return m.short||m.title; }
 function routeLabel(t){
   const r=parse(t); if(r.sub==='lib') return '书架';
-  let lab=/^s-/.test(r.sub)?(()=>{ const [pi,si]=r.sub.slice(2).split('-').map(Number); const t=BOOKS[COURSES[r.ctx]?COURSES[r.ctx].meta.lexiconFrom:r.ctx].toc[pi]; return '§ '+(t?sentLabel(t[0],si,t[1]):''); })()
+  let lab=/^s-/.test(r.sub)?'§ '+sidLabel(COURSES[r.ctx]?COURSES[r.ctx].meta.lexiconFrom:r.ctx, r.sub.slice(2))
+         :/^ch-/.test(r.sub)?'第 '+((chOf(r.ctx,r.sub.slice(3))||{}).n||'')+' 章'
+         :r.sub==='toc'?'目录'
          :/^intro-/.test(r.sub)?'第 '+r.sub.slice(6)+' 课':(COURSES[r.ctx]?'':VIEWNAME[r.sub]);
   if(!C || C.id!==r.ctx || COURSES[r.ctx]) lab=ctxTitle(r.ctx)+(lab?' · '+lab:'');
   return lab;
@@ -1086,28 +1187,37 @@ function showView(v){
   ['lib',...SUBS].forEach(x=>{ $('#v-'+x).hidden = x!==v; });
   $$('.tab').forEach(b=>b.setAttribute('aria-selected', b.dataset.go===v));
   if(v==='vocab') renderVocab(); if(v==='saved') renderSaved(); if(v==='lib') renderLibrary();
+  if(v==='home' && C){ renderChapterList(); updateCont(); }
 }
 let renderSeq=0;
 async function render(t, y){
   const seq=++renderSeq;
-  const r=parse(t), key=viewKey(t), same=NAV.shown===key;
+  const r=parse(t), v=r.ctx?viewOfSub(r.sub):'lib';
+  let cid=null;
+  if(r.ctx && isCh(r.ctx)){
+    const m=/^ch-([a-z0-9]+)$/.exec(r.sub)||/^s-([a-z0-9]+)-\d+-\d+$/.exec(r.sub);
+    cid=m?m[1]:v==='read'?defaultCh(r.ctx):(C&&C.id===r.ctx?C.cid:null);
+  }
+  // the reading position is remembered per chapter
+  const key=viewKey(t)+(v==='read'&&cid?'@'+cid:''), same=NAV.shown===key;
   if(NAV.shown && !same) viewY[NAV.shown]=scrollY;
   if(r.ctx){
     const need=COURSES[r.ctx]?COURSES[r.ctx].meta.lexiconFrom:r.ctx;
-    if(!BOOKS[need].text){
+    if(!BOOKS[need].lex || (cid && !(BOOKS[need].chText||{})[cid])){
       document.body.classList.add('loading');
-      try{ await ensureBook(need); }catch(e){ document.body.classList.remove('loading'); toast('加载失败，请检查网络后重试'); return; }
+      try{ await ensureBook(need); if(cid) await ensureChapter(need,cid); }catch(e){ document.body.classList.remove('loading'); toast('加载失败，请检查网络后重试'); return; }
       document.body.classList.remove('loading');
       if(seq!==renderSeq) return;
     }
-    enterCtx(r.ctx);
+    enterCtx(r.ctx,cid);
   } else leaveCtx();
-  const v=r.ctx?viewOfSub(r.sub):'lib';
   showView(v); NAV.shown=key;
   const run=()=>{
     if(y!=null) window.scrollTo(0,y);
     else if(/^s-/.test(r.sub)) jump(r.sub.slice(2), same);
     else if(/^intro-/.test(r.sub)) openLesson(+r.sub.slice(6)-1);
+    else if(/^ch-/.test(r.sub)) window.scrollTo(0, same?scrollY:(viewY[key]||0));
+    else if(r.sub==='toc'){ const el=$('#chlist'); if(el && !el.hidden) el.scrollIntoView({block:'start'}); }
     else window.scrollTo(0, viewY[key]||0);
   };
   requestAnimationFrame(()=>requestAnimationFrame(run));
@@ -1161,7 +1271,7 @@ $('#backBtn').addEventListener('click',goBack);
 try{ history.scrollRestoration='manual'; }catch(e){}
 
 /* ---------- global clicks & keys ---------- */
-$('#contBtn').addEventListener('click',()=>{ const n=nextSent()||C.SENTS[0]; navigate(C.id+'~s-'+n.id); });
+$('#contBtn').addEventListener('click',()=>{ const n=nextSent()||firstSent(); navigate(C.id+'~s-'+n.id); });
 document.addEventListener('click',e=>{
   const lw=e.target.closest('.lw');
   if(lw){ e.preventDefault(); const id=lw.dataset.l, t=lw.textContent; openWord({w:t,id,cs:null,named:null,d:entryOf(id)}, t.replace(/[-·]/g,''), null, lw, !!lw.closest('#sheet,#slipDesk')); return; }

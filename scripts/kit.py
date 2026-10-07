@@ -30,7 +30,26 @@ class Book:
         self.meta = load_json(self.dir / "book.json")
         prof = self.meta.get("profile", "de-zh")
         self.profile = load_json(KIT / "profiles" / f"{prof}.json")
-        self.text = load_json(self.dir / "text.json")
+        # A long book is split into chapters: book.json "chapters" lists them in order, each chapter's text
+        # lives in text/<chapter id>.json, and the lexicon and lessons are shared by the whole book.
+        # Planned chapters ("planned": true) are listed in the table of contents but have no text yet.
+        self.chapters = None
+        if "chapters" in self.meta:
+            self.chapters = []
+            for ch in self.meta["chapters"]:
+                cid = str(ch.get("id", ""))
+                if not re.fullmatch(r"[a-z0-9]+", cid):
+                    sys.exit(f"{self.dir.name}/book.json：章节 id 只能用小写字母和数字：{cid!r}")
+                tp = self.dir / "text" / f"{cid}.json"
+                if ch.get("planned"):
+                    self.chapters.append((ch, []))
+                elif not tp.exists():
+                    sys.exit(f"找不到 {tp}（章节 {cid} 没有标 planned，就要有正文）")
+                else:
+                    self.chapters.append((ch, load_json(tp)))
+            self.text = [sec for _, t in self.chapters for sec in t]
+        else:
+            self.text = load_json(self.dir / "text.json")
         lp = self.dir / "lessons.json"
         self.lessons = load_json(lp) if lp.exists() else []
         self.lex, self.lex_errors = self._load_lexicon()
@@ -64,11 +83,30 @@ class Book:
                 lex[form] = parts[1:]
         return lex, errs
 
+    def sections(self):
+        """(location prefix, section index within its chapter, section) for every section of the text"""
+        if self.chapters is None:
+            for pi, sec in enumerate(self.text):
+                yield "text ", pi, sec
+        else:
+            for ch, t in self.chapters:
+                for pi, sec in enumerate(t):
+                    yield f"text/{ch['id']} ", pi, sec
+
+    def sentence(self, ref):
+        """the sentence a demo reference points to: [part, sentence] or, in a chaptered book, [chapter, part, sentence]"""
+        if self.chapters is not None:
+            cid, pi, si = ref
+            t = next(t for ch, t in self.chapters if str(ch["id"]) == str(cid))
+            return t[pi]["s"][si]
+        pi, si = ref
+        return self.text[pi]["s"][si]
+
     # every German snippet in the book, with a human-readable location
     def snippets(self):
-        for pi, sec in enumerate(self.text):
+        for pre, pi, sec in self.sections():
             for si, s in enumerate(sec.get("s", [])):
-                yield f"text §{sec.get('k', pi)}.{si+1}", s.get("de", "")
+                yield f"{pre}§{sec.get('k', pi)}.{si+1}", s.get("de", "")
         for li, l in enumerate(self.lessons):
             for m in re.finditer(r"\[\[(.*?)\]\]", l.get("html", "")):
                 yield f"lesson {li+1}", m.group(1)
@@ -95,7 +133,11 @@ class Course:
         self.source = Book(src)
         self.profile, self.lex, self.lex_errors = self.source.profile, self.source.lex, []
         self.text, self.tok, self.keyre = [], self.source.tok, self.source.keyre
+        self.chapters = None
+        if self.source.chapters is not None:
+            sys.exit(f"共用课程 {self.dir.name} 的 lexiconFrom 不能是分章的书（{self.meta['lexiconFrom']}）")
 
+    sections = Book.sections
     snippets = Book.snippets
     tokens = Book.tokens
 
@@ -109,9 +151,13 @@ class Library:
             if isinstance(b, dict):
                 self.planned.append(b)
             else:
-                self.books.append(Book(KIT / "books" / b))
+                self.books.append(Book(self.book_dir(b)))
         for c in self.site.get("courses", []):
             self.courses.append(Course(KIT / "courses" / c))
+
+    def book_dir(self, entry):
+        """a shelf entry is a folder name under books/, or a path relative to the library file (test fixtures)"""
+        return (self.path.parent / entry) if "/" in entry else (KIT / "books" / entry)
 
     def items(self):
         return self.courses + self.books
@@ -124,12 +170,12 @@ def validate(book):
     for k in required:
         if k not in book.meta:
             errors.append(f"{book.kind}.json 缺少字段 {k}")
-    for pi, sec in enumerate(book.text):
+    for pre, pi, sec in book.sections():
         if "h" not in sec or "s" not in sec:
-            errors.append(f"text.json 第 {pi} 部分缺少 h 或 s")
+            errors.append(f"{pre}第 {pi} 部分缺少 h 或 s")
             continue
         for si, s in enumerate(sec["s"]):
-            loc = f"text §{sec.get('k', pi)}.{si+1}"
+            loc = f"{pre}§{sec.get('k', pi)}.{si+1}"
             for f in ("de", "zh", "n"):
                 if f not in s:
                     errors.append(f"{loc} 缺少字段 {f}")
@@ -139,10 +185,23 @@ def validate(book):
                 warnings.append(f"{loc} 没有语法讲解")
     if book.kind == "book":
         try:
-            d0, d1 = book.meta.get("demo", [0, 0])
-            book.text[d0]["s"][d1]
-        except (IndexError, KeyError, TypeError, ValueError):
-            errors.append("book.json 的 demo 指向不存在的句子")
+            book.sentence(book.meta.get("demo"))
+        except (IndexError, KeyError, TypeError, ValueError, StopIteration):
+            errors.append("book.json 的 demo 指向不存在的句子" + ("（分章的书写成 [章节 id, 部分, 句子]）" if book.chapters is not None else ""))
+        if book.chapters is not None:
+            ids = [str(ch.get("id")) for ch, _ in book.chapters]
+            if len(set(ids)) != len(ids):
+                errors.append("book.json 的 chapters 里有重复的章节 id")
+            for ch, t in book.chapters:
+                if not ch.get("h"):
+                    errors.append(f"章节 {ch.get('id')} 缺少中文标题 h")
+                if not ch.get("planned") and not t:
+                    errors.append(f"章节 {ch.get('id')} 的 text/{ch.get('id')}.json 是空的（还没做就标 planned）")
+            if all(ch.get("planned") for ch, _ in book.chapters):
+                errors.append("分章的书至少要有一章不是 planned")
+            for li, l in enumerate(book.lessons):
+                if l.get("ch") and l["ch"] not in ids:
+                    errors.append(f"lesson {li+1} 的 ch={l['ch']} 不是本书的章节 id")
     for li, l in enumerate(book.lessons):
         q = l.get("quiz")
         html_ = l.get("html", "")
@@ -243,11 +302,13 @@ def zone_strings(lib):
             yield z, f"{z} howto", h.get("h", "") + " " + h.get("p", "")
         for k, v in m.get("intro", {}).items():
             yield z, f"{z} intro {k}", v
-        for pi, sec in enumerate(it.text):
-            yield z, f"{z} §{pi} title", f"{sec.get('t', '')} {sec.get('h', '')} {sec.get('pg', '')}"
+        for ch, _ in (it.chapters or []):
+            yield z, f"{z} chapter {ch.get('id')}", " ".join(str(ch.get(k, "")) for k in ("h", "t", "blurb", "pg"))
+        for pre, pi, sec in it.sections():
+            yield z, f"{z} {pre}§{pi} title", f"{sec.get('t', '')} {sec.get('h', '')} {sec.get('pg', '')}"
             for si, s in enumerate(sec.get("s", [])):
-                yield z, f"{z} §{pi}.{si+1} notes", " ".join(s.get("n", [])) + " " + s.get("pg", "")
-                yield z, f"{z} §{pi}.{si+1} zh", s.get("zh", "")
+                yield z, f"{z} {pre}§{pi}.{si+1} notes", " ".join(s.get("n", [])) + " " + s.get("pg", "")
+                yield z, f"{z} {pre}§{pi}.{si+1} zh", s.get("zh", "")
         for li, l in enumerate(it.lessons):
             yield z, f"{z} lesson {li+1}", f"{l.get('t', '')} {l.get('de', '')} {l.get('html', '')}"
             for q in l.get("quiz", []) or []:

@@ -17,9 +17,10 @@ def report(b, worklist=False):
     errors, warnings, missing = validate(b)
     errors += ["格标注与变格表不符：" + x for x in case_issues(b)]
     n_sent = sum(len(s["s"]) for s in b.text)
+    chs = f"{sum(1 for c, _ in b.chapters if not c.get('planned'))} / {len(b.chapters)} 章 · " if getattr(b, "chapters", None) else ""
     n_tok = sum(1 for _, de in b.snippets() for _ in b.tokens(de))
     name = b.meta.get("title")
-    print(f"[{b.kind}] 《{name}》 {len(b.text)} 个部分 · {n_sent} 句 · {len(b.lessons)} 节课 · {len(b.lex)} 个词条 · 扫描 {n_tok} 个词")
+    print(f"[{b.kind}] 《{name}》 {chs}{len(b.text)} 个部分 · {n_sent} 句 · {len(b.lessons)} 节课 · {len(b.lex)} 个词条 · 扫描 {n_tok} 个词")
     for w in warnings:
         print("  提示：", w)
     for e in errors:
@@ -46,12 +47,13 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("book", nargs="?")
     ap.add_argument("--worklist", action="store_true")
+    ap.add_argument("--library", help="another library.json (tests use a fixture library)")
     a = ap.parse_args()
     if a.book:
         p = pathlib.Path(a.book)
         ok = report(Course(p) if (p / "course.json").exists() else Book(p), a.worklist)
     else:
-        lib = Library()
+        lib = Library(a.library)
         ok = all([report(x, a.worklist) for x in lib.items()])
         d, derr = build_dict(lib)
         cov = coverage2(lib, d)

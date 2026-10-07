@@ -18,14 +18,45 @@ def jdump(x):
     return json.dumps(x, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
 
 
+def resolve(book, word, key):
+    """the lexicon id a token resolves to — the same rule as resolveWith() in the page"""
+    w = word.lower()
+    for k in (key or "").split(":"):
+        if k and not book.keyre.match(k) and f"{w}#{k}" in book.lex:
+            return f"{w}#{k}"
+    return w if w in book.lex else None
+
+
+def chapter_index(book):
+    """{lexicon id: "chapter:count:first sentence id,…"} — where else in the book a word occurs"""
+    occ = {}
+    for ch, t in book.chapters:
+        cid = str(ch["id"])
+        for pi, sec in enumerate(t):
+            for si, s in enumerate(sec["s"]):
+                sid = f"{cid}-{pi}-{si}"
+                for word, key in book.tokens(s["de"]):
+                    r = resolve(book, word, key)
+                    if not r:
+                        continue
+                    row = occ.setdefault(r, {})
+                    if cid in row:
+                        if row[cid][1] != sid:
+                            row[cid] = [row[cid][0] + 1, sid, row[cid][2]]
+                    else:
+                        row[cid] = [1, sid, sid]
+    return {k: ",".join(f"{c}:{v[0]}:{v[2]}" for c, v in row.items()) for k, row in occ.items()}
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("-o", "--out")
     ap.add_argument("--force", action="store_true")
     ap.add_argument("--standalone", action="store_true")
     ap.add_argument("--single", action="store_true", help="inline all data even with --standalone")
+    ap.add_argument("--library", help="another library.json (tests use a fixture library)")
     a = ap.parse_args()
-    lib = Library()
+    lib = Library(a.library)
     bad = []
     for x in lib.items():
         errors, _, missing = validate(x)
@@ -59,10 +90,29 @@ def main():
         if isinstance(entry, dict):
             data["books"].append(dict(entry, planned=True))
         else:
-            b = by_id[pathlib.Path(entry).name] if pathlib.Path(entry).name in by_id else next(x for x in lib.books if x.dir.name == entry)
-            toc = [[str(p.get("k", i)), len(p["s"])] for i, p in enumerate(b.text)]
-            data["books"].append({"id": b.meta["id"], "meta": b.meta, "toc": toc, "nLex": len(b.lex), "nLessons": len(b.lessons)})
-            payloads[b.meta["id"]] = {"text": b.text, "lessons": b.lessons, "lex": b.lex}
+            b = next(x for x in lib.books if x.dir == lib.book_dir(entry).resolve())
+            bid = b.meta["id"]
+            stats = {"parts": len(b.text), "sents": sum(len(p["s"]) for p in b.text),
+                     "words": sum(len(re.findall("[" + b.profile["letters"] + "]+", re.sub(r"\{[^}]*\}", "", s["de"])))
+                               for p in b.text for s in p["s"])}
+            entry = {"id": bid, "meta": b.meta, "nLex": len(b.lex), "nLessons": len(b.lessons), "stats": stats}
+            if b.chapters is None:
+                entry["toc"] = [[str(p.get("k", i)), len(p["s"])] for i, p in enumerate(b.text)]
+                payloads[bid] = {"text": b.text, "lessons": b.lessons, "lex": b.lex}
+            else:
+                # chaptered book: the shelf knows the table of contents; the lexicon, lessons and a word →
+                # chapters index load with the book; each chapter's text loads when it is opened
+                entry["chapters"] = []
+                for n, (ch, t) in enumerate(b.chapters, 1):
+                    c = {k: ch[k] for k in ("id", "h", "t", "blurb", "pg", "planned") if k in ch}
+                    c["id"], c["n"] = str(ch["id"]), str(ch.get("n", n))
+                    if not ch.get("planned"):
+                        c["toc"] = [[str(p.get("k", i)), len(p["s"])] for i, p in enumerate(t)]
+                        payloads[f"{bid}.{c['id']}"] = {"text": t}
+                    entry["chapters"].append(c)
+                entry["demo"] = b.sentence(b.meta["demo"])
+                payloads[bid] = {"lessons": b.lessons, "lex": b.lex, "occ": chapter_index(b)}
+            data["books"].append(entry)
     payloads["dict"] = dic
     blob = {k: jdump(v) for k, v in payloads.items()}
     data["v"] = hashlib.sha1("".join(blob[k] for k in sorted(blob)).encode()).hexdigest()[:10]

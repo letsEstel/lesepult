@@ -25,3 +25,8 @@ jobs:
           pip install playwright==1.47.0
           python3 -m playwright install --with-deps chromium
           python3 tests/e2e.py docs/index.html
+      - name: Browser test of the chapter UI (fixture library with a chaptered book)
+        run: |
+          python3 tests/make_fixture.py
+          python3 scripts/build.py --standalone --library tests/fixtures/library.json -o /tmp/fx/index.html
+          python3 tests/e2e.py /tmp/fx/index.html
