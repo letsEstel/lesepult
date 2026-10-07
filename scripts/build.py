@@ -61,7 +61,7 @@ def main():
         else:
             b = by_id[pathlib.Path(entry).name] if pathlib.Path(entry).name in by_id else next(x for x in lib.books if x.dir.name == entry)
             toc = [[str(p.get("k", i)), len(p["s"])] for i, p in enumerate(b.text)]
-            data["books"].append({"id": b.meta["id"], "meta": b.meta, "toc": toc, "nLex": len(b.lex)})
+            data["books"].append({"id": b.meta["id"], "meta": b.meta, "toc": toc, "nLex": len(b.lex), "nLessons": len(b.lessons)})
             payloads[b.meta["id"]] = {"text": b.text, "lessons": b.lessons, "lex": b.lex}
     payloads["dict"] = dic
     blob = {k: jdump(v) for k, v in payloads.items()}

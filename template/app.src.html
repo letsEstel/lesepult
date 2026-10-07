@@ -577,12 +577,16 @@ function makeCtx(id){
   if(COURSES[id]){ const c=COURSES[id]; return Object.assign({kind:'course', id, meta:c.meta, lessons:c.lessons||[], textBook:c.meta.lexiconFrom}, prep(c.meta.lexiconFrom)); }
   return null;
 }
+const lkey=(l,i)=>l.id||String(i);
 function loadState(){
   const own=mkStore('reader.'+C.id+'.'), data=mkStore('reader.'+C.textBook+'.');
-  S={own,data, ok:new Set(data.get('ok',[])), saved:data.get('saved',[]), lessons:new Set(own.get('lessons',[])), quiz:own.get('quiz2',{}),
+  // lesson progress is keyed by lesson id, so lessons can be inserted or reordered; older saves used positions
+  const legacy=C.meta.legacyOrder||C.lessons.map(lkey), old=v=>typeof v==='number'?legacy[v]:v;
+  const q2=own.get('quiz2',null), quiz=own.get('quiz3',null)||(q2?Object.fromEntries(Object.entries(q2).map(([k,v])=>[legacy[+k]??k,v])):{});
+  S={own,data, ok:new Set(data.get('ok',[])), saved:data.get('saved',[]), lessons:new Set(own.get('lessons',[]).map(old).filter(x=>x!=null)), quiz,
      gloss:UI.get('gloss',true), color:UI.get('color',false), zhAll:UI.get('zhAll',false), scale:UI.get('scale',1)};
 }
-const persist=()=>{ S.data.set('ok',[...S.ok]); S.data.set('saved',S.saved); S.own.set('lessons',[...S.lessons]); S.own.set('quiz2',S.quiz);
+const persist=()=>{ S.data.set('ok',[...S.ok]); S.data.set('saved',S.saved); S.own.set('lessons',[...S.lessons]); S.own.set('quiz3',S.quiz);
   UI.set('gloss',S.gloss); UI.set('color',S.color); UI.set('zhAll',S.zhAll); UI.set('scale',S.scale); };
 
 const resolve=(w,k)=>resolveWith(C,w,k);
@@ -704,7 +708,7 @@ function updateCont(){ if(C.kind!=='book') return; const n=nextSent(); $('#contL
 /* ---------- lessons & quizzes ---------- */
 function quizHtml(li,sec){
   const q=(C.lessons[li].quiz||[]).filter(it=>sec==null||it.sec===sec);
-  const st=S.quiz[li]||{};
+  const st=S.quiz[lkey(C.lessons[li],li)]||{};
   const n=q.length, done=q.filter(it=>st[it.id]!=null).length, right=q.filter(it=>st[it.id]===it.ans).length;
   return '<div class="quiz" data-q="'+li+'" data-sec="'+esc(sec||'')+'"><div class="qscore">'+(done?'已答 '+done+' / '+n+' · 答对 '+right:'共 '+n+' 题')+'</div>'+q.map(it=>{
     const a=st[it.id]; const answered=a!=null;
@@ -723,7 +727,7 @@ function renderLessons(){
     $('#basicsCard').innerHTML=LIB.courses.map(c=>{ const done=mkStore('reader.'+c.id+'.').get('lessons',[]).length, n=(c.lessons||[]).length;
       return '<button class="basics-link" data-route="'+esc(c.id)+'~intro"><span><b>'+esc(c.meta.title)+'</b>（'+n+' 节，所有德语书通用）'+(done>=n?' · 已学完':done?' · 已学 '+done+' 节':' · 还没学过的话，先学这里')+'</span>'+ICON.arrow+'</button>'; }).join('');
   } else $('#basicsCard').innerHTML='';
-  $('#lessons').innerHTML=C.lessons.map((l,i)=>'<article class="lesson'+(S.lessons.has(i)?' done':'')+'" data-l="'+i+'"><button aria-expanded="false"><span class="ln">'+(i+1)+'</span><span><span class="lt" data-linkok>'+esc(l.t)+'</span><span class="ls" lang="de" data-linkok>'+esc(l.de)+'</span></span><span class="lm">'+l.min+' 分钟'+(l.quiz?' · 练习':'')+'</span></button><div class="lesson-body" hidden>'+renderLessonHtml(l,i)+'<div class="lesson-foot"><button class="btn" data-ldone="'+i+'">'+ICON.ok+'<span>'+(S.lessons.has(i)?'已学完':'学完了')+'</span></button></div></div></article>').join('')
+  $('#lessons').innerHTML=C.lessons.map((l,i)=>'<article class="lesson'+(S.lessons.has(lkey(l,i))?' done':'')+'" data-l="'+i+'"><button aria-expanded="false"><span class="ln">'+(i+1)+'</span><span><span class="lt" data-linkok>'+esc(l.t)+'</span><span class="ls" lang="de" data-linkok>'+esc(l.de)+'</span></span><span class="lm">'+l.min+' 分钟'+(l.quiz?' · 练习':'')+'</span></button><div class="lesson-body" hidden>'+renderLessonHtml(l,i)+'<div class="lesson-foot"><button class="btn" data-ldone="'+i+'">'+ICON.ok+'<span>'+(S.lessons.has(lkey(l,i))?'已学完':'学完了')+'</span></button></div></div></article>').join('')
     +(C.lessons.length?'':'<p class="empty">这本书还没有专题课。</p>');
   const fl=$('#lessons .lesson:not(.done)'); if(fl){ fl.querySelector('.lesson-body').hidden=false; fl.querySelector('button').setAttribute('aria-expanded','true'); }
 }
@@ -732,11 +736,11 @@ $('#lessons').addEventListener('click',e=>{
   const head=e.target.closest('.lesson>button');
   if(head){ const body=head.nextElementSibling; const open=body.hidden; body.hidden=!open; head.setAttribute('aria-expanded',open); return; }
   const qo=e.target.closest('.qopt');
-  if(qo){ const box=qo.closest('.quiz'); const li=+box.dataset.q, sec=box.dataset.sec||null; (S.quiz[li]=S.quiz[li]||{})[qo.dataset.qi]=+qo.dataset.o; persist(); box.outerHTML=quizHtml(li,sec); return; }
+  if(qo){ const box=qo.closest('.quiz'); const li=+box.dataset.q, sec=box.dataset.sec||null; const k=lkey(C.lessons[li],li); (S.quiz[k]=S.quiz[k]||{})[qo.dataset.qi]=+qo.dataset.o; persist(); box.outerHTML=quizHtml(li,sec); return; }
   const qr=e.target.closest('.qreset');
-  if(qr){ const box=qr.closest('.quiz'); const li=+box.dataset.q, sec=box.dataset.sec||null; const st=S.quiz[li]||{}; (C.lessons[li].quiz||[]).forEach(it=>{ if(sec==null||it.sec===sec) delete st[it.id]; }); persist(); box.outerHTML=quizHtml(li,sec); return; }
+  if(qr){ const box=qr.closest('.quiz'); const li=+box.dataset.q, sec=box.dataset.sec||null; const st=S.quiz[lkey(C.lessons[li],li)]||{}; (C.lessons[li].quiz||[]).forEach(it=>{ if(sec==null||it.sec===sec) delete st[it.id]; }); persist(); box.outerHTML=quizHtml(li,sec); return; }
   const d=e.target.closest('[data-ldone]');
-  if(d){ const i=+d.dataset.ldone; S.lessons.add(i); persist(); const art=d.closest('.lesson'); art.classList.add('done'); d.querySelector('span').textContent='已学完';
+  if(d){ const i=+d.dataset.ldone; S.lessons.add(lkey(C.lessons[i],i)); persist(); const art=d.closest('.lesson'); art.classList.add('done'); d.querySelector('span').textContent='已学完';
     art.querySelector('.lesson-body').hidden=true; art.querySelector('button').setAttribute('aria-expanded','false');
     const nx=art.nextElementSibling; if(nx){ nx.querySelector('.lesson-body').hidden=false; nx.querySelector('button').setAttribute('aria-expanded','true'); nx.scrollIntoView({behavior:'smooth',block:'start'}); }
     else toast(C.kind==='course'?'基础课学完了！回书架挑一本书吧':'专题课学完了！去精读吧'); }
@@ -994,7 +998,7 @@ function validRoute(t){
   if(isCourse) { if(r.sub==='intro') return true; const m=/^intro-(\d+)$/.exec(r.sub); return !!m && +m[1]>=1 && +m[1]<=(COURSES[r.ctx].lessons||[]).length; }
   if(SUBS.includes(r.sub)) return true;
   let m=/^s-(\d+)-(\d+)$/.exec(r.sub); if(m){ const t=BOOKS[r.ctx].toc[+m[1]]; return !!t && +m[2]<t[1]; }
-  m=/^intro-(\d+)$/.exec(r.sub); if(m) return +m[1]>=1 && +m[1]<=(BOOKS[r.ctx].lessons||[]).length;
+  m=/^intro-(\d+)$/.exec(r.sub); if(m) return +m[1]>=1 && +m[1]<=BOOKS[r.ctx].nLessons;
   return false;
 }
 const viewOfSub=s=>/^s-/.test(s)?'read':/^intro-/.test(s)?'intro':s;

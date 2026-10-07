@@ -3,13 +3,145 @@
   "t": "发音速成",
   "de": "Aussprache",
   "min": 8,
-  "html": "\n<p>德语拼写和发音的对应非常规则，学会下面这些规则，就能把文中几乎每个词读出来。每个例子都可以点 <span class=\"kbd\">▶</span> 听。</p>\n<table class=\"tbl\"><thead><tr><th>写法</th><th>读音</th><th>例子</th></tr></thead><tbody>\n<tr><td>ä ö ü</td><td>ä ≈「诶」；ö = 嘴唇圆起来说「诶」；ü = 嘴唇圆起来说「衣」</td><td>[[Aufklärung]] [[öffentlich]] [[Unmündigkeit]]</td></tr>\n<tr><td>ß</td><td>清音 s（就是「双 s」）</td><td>[[groß]] [[außer]]</td></tr>\n<tr><td>ei / ie</td><td>ei 读「爱」；ie 读长「衣」</td><td>[[Freiheit]] [[Feigheit]] [[liegt]]</td></tr>\n<tr><td>eu / äu</td><td>读「奥伊」</td><td>[[leuchtet]] [[neue]]</td></tr>\n<tr><td>sch</td><td>≈ 汉语「施」，嘴唇更圆</td><td>[[Mensch]] [[Schritt]]</td></tr>\n<tr><td>sp- / st-（词首）</td><td>读作 schp / scht</td><td>[[Sprung]] [[Stimmen]]</td></tr>\n<tr><td>ch</td><td>a/o/u 之后是喉部擦音；其他位置像轻轻的「希」</td><td>[[Buch]] [[ich]] [[Pflicht]]</td></tr>\n<tr><td>v / w / z</td><td>v 多读 f；w 读 v；z 读 ts</td><td>[[Vernunft]] [[Welt]] [[Zeitalter]]</td></tr>\n<tr><td>词尾 -b -d -g</td><td>读清音 p / t / k（「词尾清化」）</td><td>[[Verstand]] [[Ausgang]]</td></tr>\n<tr><td>-ig / -er</td><td>-ig 读「伊希」；词尾 -er 读弱「呃」</td><td>[[unmündig]] [[Vormünder]]</td></tr>\n</tbody></table>\n<p><b>重音</b>：德语本族词几乎都重读第一个音节：<i>AUF-klä-rung</i>、<i>UN-mün-dig-keit</i>。但带 be- ge- ver- er- zer- ent- 这些前缀的词，重音落在前缀之后：<i>ver-STAND</i>、<i>ge-BRAUCH</i>。外来词常重读在后面：<i>Re-li-GION</i>、<i>räso-NIE-ren</i>。</p>\n<div class=\"tip\">朗读用的是你设备自带的德语语音。如果没有声音，可以在手机或电脑的系统设置里添加「德语」语音。</div>"
+  "html": "\n<p>德语拼写和发音的对应非常规则，学会下面这些规则，就能把文中几乎每个词读出来。每个例子都可以点 <span class=\"kbd\">▶</span> 听。</p>\n<table class=\"tbl\"><thead><tr><th>写法</th><th>读音</th><th>例子</th></tr></thead><tbody>\n<tr><td>ä ö ü</td><td>ä ≈「诶」；ö = 嘴唇圆起来说「诶」；ü = 嘴唇圆起来说「衣」</td><td>[[Aufklärung]] [[öffentlich]] [[Unmündigkeit]]</td></tr>\n<tr><td>ß</td><td>清音 s（就是「双 s」）</td><td>[[groß]] [[außer]]</td></tr>\n<tr><td>ei / ie</td><td>ei 读「爱」；ie 读长「衣」</td><td>[[Freiheit]] [[Feigheit]] [[liegt]]</td></tr>\n<tr><td>eu / äu</td><td>读「奥伊」</td><td>[[leuchtet]] [[neue]]</td></tr>\n<tr><td>sch</td><td>≈ 汉语「施」，嘴唇更圆</td><td>[[Mensch]] [[Schritt]]</td></tr>\n<tr><td>sp- / st-（词首）</td><td>读作 schp / scht</td><td>[[Sprung]] [[Stimmen]]</td></tr>\n<tr><td>ch</td><td>a/o/u 之后是喉部擦音；其他位置像轻轻的「希」</td><td>[[Buch]] [[ich]] [[Pflicht]]</td></tr>\n<tr><td>v / w / z</td><td>v 多读 f；w 读 v；z 读 ts</td><td>[[Vernunft]] [[Welt]] [[Zeitalter]]</td></tr>\n<tr><td>词尾 -b -d -g</td><td>读清音 p / t / k（「词尾清化」）</td><td>[[Verstand]] [[Ausgang]]</td></tr>\n<tr><td>-ig / -er</td><td>-ig 读「伊希」；词尾 -er 读弱「呃」</td><td>[[unmündig]] [[Vormünder]]</td></tr>\n</tbody></table>\n<p><b>重音</b>：德语本族词几乎都重读第一个音节：<i>AUF-klä-rung</i>、<i>UN-mün-dig-keit</i>。但带 be- ge- ver- er- zer- ent- 这些前缀的词，重音落在前缀之后：<i>ver-STAND</i>、<i>ge-BRAUCH</i>。外来词常重读在后面：<i>Re-li-GION</i>、<i>räso-NIE-ren</i>。</p>\n<div class=\"tip\">朗读用的是你设备自带的德语语音。如果没有声音，可以在手机或电脑的系统设置里添加「德语」语音。</div>",
+  "id": "pron"
  },
  {
   "t": "名词：大写、三个性、复合词",
   "de": "Nomen und Genus",
   "min": 6,
-  "html": "\n<p>德语所有名词<b>首字母大写</b>——这是你在文中找名词最快的方法。每个名词有一个语法上的「性」：阳性 <i>der</i>、阴性 <i>die</i>、中性 <i>das</i>。性和意义基本无关，要跟着冠词一起记。好在有规律：</p>\n<ul>\n<li>以 <b>-ung / -heit / -keit / -schaft</b> 结尾的都是阴性：[[die{nf} Aufklärung]] [[die{nf} Freiheit]] [[die{nf} Unmündigkeit]] [[die{nf} Gesellschaft]]</li>\n<li>动词不定式大写就变成中性名词：[[das{nn} Fortschreiten]]（前进）、<i>das Fallen</i>（摔倒）</li>\n<li>复合词的性由<b>最后一个</b>词决定：<i>die Welt + der Bürger + die Gesellschaft</i> → [[die{nf} Weltbürgergesellschaft]]</li>\n</ul>\n<p>德语喜欢把词拼成长长的复合词。读的时候从后往前拆：<i>Gewissens·angelegenheit</i> = 良心的·事情；<i>Katechismus·schüler</i> = 教理问答·学生。</p>\n<p><b>复数</b>形式不规则，常见的有加 -e、-er、-en、-n 或变音：<i>der Vormund → die Vormünder</i>、<i>der Gedanke → die Gedanken</i>。词典面板里会标出「复数」。</p>"
+  "html": "\n<p>德语所有名词<b>首字母大写</b>——这是你在文中找名词最快的方法。每个名词有一个语法上的「性」：阳性 <i>der</i>、阴性 <i>die</i>、中性 <i>das</i>。性和意义基本无关，要跟着冠词一起记。好在有规律：</p>\n<ul>\n<li>以 <b>-ung / -heit / -keit / -schaft</b> 结尾的都是阴性：[[die{nf} Aufklärung]] [[die{nf} Freiheit]] [[die{nf} Unmündigkeit]] [[die{nf} Gesellschaft]]</li>\n<li>动词不定式大写就变成中性名词：[[das{nn} Fortschreiten]]（前进）、<i>das Fallen</i>（摔倒）</li>\n<li>复合词的性由<b>最后一个</b>词决定：<i>die Welt + der Bürger + die Gesellschaft</i> → [[die{nf} Weltbürgergesellschaft]]</li>\n</ul>\n<p>德语喜欢把词拼成长长的复合词。读的时候从后往前拆：<i>Gewissens·angelegenheit</i> = 良心的·事情；<i>Katechismus·schüler</i> = 教理问答·学生。</p>\n<p><b>复数</b>形式不规则，常见的有加 -e、-er、-en、-n 或变音：<i>der Vormund → die Vormünder</i>、<i>der Gedanke → die Gedanken</i>。词典面板里会标出「复数」。</p>",
+  "id": "nouns"
+ },
+ {
+  "id": "words",
+  "t": "冠词、代词与介词：名词的小跟班",
+  "de": "Artikel, Pronomen, Präpositionen",
+  "min": 15,
+  "html": "<p>名词很少单独出现，前面总跟着一个「小跟班」：冠词，或者介词 + 冠词。代词则是名词的替身。这三类词又短又常见，原文里差不多每三个词就有一个。这一课先认识它们是什么、什么意思；它们的形状为什么会变（der / den / dem / des），是下两课「四个格」的内容。</p>\n\n<h4>一、冠词：名词前面的标签</h4>\n<p>德语的名词短语是这样排的：<b>冠词 + （形容词） + 名词</b>。冠词先告诉你后面名词的性和数，读到冠词就知道「一个名词要来了」，中间夹多少形容词都一样。</p>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>家族</th><th>成员</th><th>意思</th><th>原文例子</th></tr></thead><tbody>\n<tr><th>定冠词</th><td>der · die · das</td><td>这个（一般不译）</td><td>[[das{nn} Unvermögen]]</td></tr>\n<tr><th>不定冠词</th><td>ein · eine</td><td>一个</td><td>[[ein{nn} Publikum]]</td></tr>\n<tr><th>否定冠词</th><td>kein · keine</td><td>没有一个、不</td><td>[[keinen{am} Schritt]]</td></tr>\n<tr><th>物主冠词</th><td>mein 我的 · dein 你的 · sein 他的 / 它的 · ihr 她的 / 他们的 · unser 我们的 · euer 你们的</td><td>……的</td><td>[[seiner{df} selbstverschuldeten Unmündigkeit]]</td></tr>\n<tr><th>指示冠词</th><td>dieser 这个 · jener 那个 · jeder 每个 · welcher 哪个</td><td>这 / 那 / 每</td><td>[[diese{nf} Unmündigkeit]]</td></tr>\n</tbody></table></div>\n<p>记两个家族就够了：<b>ein 家族</b>（ein、kein、所有物主冠词）词尾一样；<b>dieser 家族</b>（dieser、jener、jeder、welcher）词尾和定冠词 der / die / das 几乎一样。所以 <i>diese</i> 对应 <i>die</i>，<i>dieses</i> 对应 <i>das</i>，<i>diesem</i> 对应 <i>dem</i>。</p>\n<div class=\"tip\">物主冠词的 <i>sein</i> 不是动词 sein（是）。区分很简单：后面紧跟名词的 sein / seine / seiner 是「他的」，单独做谓语的才是「是」。</div>\n<h4>马上练：冠词</h4>\n{{quiz:art}}\n\n<h4>二、人称代词：名词的替身</h4>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th></th><th>单数</th><th>复数</th></tr></thead><tbody>\n<tr><th>第一人称</th><td>ich 我</td><td>wir 我们</td></tr>\n<tr><th>第二人称</th><td>du 你</td><td>ihr 你们</td></tr>\n<tr><th>第三人称</th><td>er 他 · sie 她 · es 它</td><td>sie 他们</td></tr>\n<tr><th>敬称</th><td colspan=\"2\">Sie 您（永远大写）</td></tr>\n</tbody></table></div>\n<p>这些是主格形式。做宾语时会变：ich → mich / mir，er → ihn / ihm，sie（复数）→ ihnen。原文里看到 <i>ihn、ihm、ihnen</i>，知道是「他 / 他们」的变体就行，下两课再讲为什么。</p>\n<h4>最大的坑：sie 有四个意思</h4>\n<ol class=\"steps\">\n<li><b>她</b>：指一个女性。</li>\n<li><b>它</b>：指一个阴性名词。德语按名词的语法性选代词：die Kirche（教会）是阴性，所以用 sie 指代，中文译「它」：[[die{np} Beweisgründe, deren sie{she} sich{refl} bedient]]</li>\n<li><b>他们 / 它们</b>：复数，看动词词尾：<i>sie ist</i> 是单数「她 / 它」，<i>sie sind</i> 是复数「他们」。</li>\n<li><b>您</b>：大写 Sie，康德的文章里没有。</li>\n</ol>\n<p>原文里有一处，同一句里连用两个 sie，意思不同：</p>\n[[darin sie{they} sie{them} einsperreten]]\n<p>第一个 sie 是监护人们（主语，「他们」），第二个 sie 是被关起来的家畜（宾语，「它们」）。点开两个词，词卡里分别标着。</p>\n<h4>三个常见的小代词</h4>\n<ul>\n<li><b>es</b>：除了「它」，还常常只是占位，不翻译：[[es{expl} ist so bequem, unmündig zu sein]]（不成年是这样舒服）。</li>\n<li><b>sich</b>：反身代词「自己」，配合动词用：[[sich{refl} seines{gm} Verstandes zu bedienen]]（运用自己的知性）。很多动词必须带 sich，中文不一定译出来。</li>\n<li><b>man</b>：泛指「人们、有人」，语法上是单数：[[wenn man ihm nur Freiheit läßt]]（只要人们给它自由）。</li>\n</ul>\n<h4>马上练：代词</h4>\n{{quiz:pron}}\n\n<h4>三、介词：说明关系的小词</h4>\n<p>介词放在名词短语前面，说明它和句子的关系：在哪里、从哪里、为了谁、通过什么。中文常用「在……里」「从……出来」这样的框，德语只用一个前置的词。</p>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>介词</th><th>基本意思</th><th>原文例子</th></tr></thead><tbody>\n<tr><td>aus</td><td>从……出来</td><td>[[aus der{df} Unmündigkeit]] 从不成年状态中出来</td></tr>\n<tr><td>von</td><td>从；关于；……的</td><td>[[von fremder Leitung]] 从外来的引导（中）</td></tr>\n<tr><td>zu</td><td>到；为了</td><td>[[zur Mündigkeit]] 走向成年</td></tr>\n<tr><td>mit</td><td>和；用</td><td>mit Mut 带着勇气</td></tr>\n<tr><td>für</td><td>为了；替</td><td>[[für mich]] 替我</td></tr>\n<tr><td>durch</td><td>通过；穿过</td><td>[[durch eigene Bearbeitung]] 通过自己的努力</td></tr>\n<tr><td>ohne</td><td>没有</td><td>[[ohne Leitung]] 没有引导</td></tr>\n<tr><td>in · an · auf</td><td>在……里 · 在……旁 / 上 · 在……上面</td><td>[[in der{df} Aufklärung]] 在启蒙中</td></tr>\n<tr><td>über · unter</td><td>在……上方；关于 · 在……下面；在……之中</td><td>[[unter ihm]] 在他（治下）</td></tr>\n<tr><td>vor · nach</td><td>在……之前 · 在……之后；按照</td><td>[[vor dem{dn} ganzen Publikum]] 在全体公众面前</td></tr>\n<tr><td>bei · außer</td><td>在……那里 · 除了；在……之外</td><td>[[außer dem{dm} Gängelwagen]] 在学步车之外</td></tr>\n<tr><td>wegen · trotz · statt</td><td>因为 · 尽管 · 代替</td><td>wegen der Gefahr 因为危险</td></tr>\n</tbody></table></div>\n<p>阅读时，<b>介词 + 名词短语</b>是一个整体，可以先用括号括起来：<i>sich (aus der Unmündigkeit) herausarbeiten</i>，从不成年状态中挣脱出来。这样句子的骨架一下子就清楚了。</p>\n<h4>介词和冠词常常合成一个词</h4>\n<div class=\"scroll\"><table class=\"tbl\"><tbody>\n<tr><td>zum = zu dem</td><td>zur = zu der</td><td>vom = von dem</td><td>beim = bei dem</td></tr>\n<tr><td>im = in dem</td><td>ins = in das</td><td>am = an dem</td><td>ans = an das</td></tr>\n</tbody></table></div>\n<p>所以 [[zur Aufklärung]] 就是 zu der Aufklärung，[[am Mangel]] 就是 an dem Mangel。</p>\n<div class=\"tip\">康德的特殊用法：18 世纪的 <i>vor</i> 常常等于今天的 <i>für</i>（为了、给），例如《导论》第一句 vor Lehrlinge =「给学生的」。</div>\n<h4>马上练：介词</h4>\n{{quiz:prep}}\n\n<h4>四、da- 和 wo-：介词 + 「它」/「什么」</h4>\n<p>介词后面要接「它、这个」时，德语通常不说 <i>mit es</i>，而是把介词贴在 <b>da-</b> 后面；要说「用什么、通过哪个」时，贴在 <b>wo-</b> 后面。介词以元音开头时中间加 r：da<b>r</b>in、wo<b>r</b>in。</p>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>da- 词</th><th>= 介词 + 它 / 这</th><th>wo- 词</th><th>= 介词 + 什么 / 那个</th></tr></thead><tbody>\n<tr><td>davon</td><td>关于这个、从这里</td><td>wovon</td><td>关于什么</td></tr>\n<tr><td>dadurch</td><td>通过这个</td><td>wodurch</td><td>通过什么；借以……的</td></tr>\n<tr><td>darin</td><td>在这里面</td><td>worin</td><td>在什么里面</td></tr>\n<tr><td>dafür</td><td>为此</td><td>wozu</td><td>为了什么</td></tr>\n</tbody></table></div>\n[[weil man ihn niemals den{am} Versuch davon machen ließ]]\n<p>davon = von dem（指前面说的「运用自己的知性」）：因为从来没人让他尝试过这件事。</p>\n<p>wo- 词还常常引导从句，相当于「借以……的那个」：die Schriften, <i>wodurch</i> seine Untertanen ihre Einsichten ins reine zu bringen suchen（臣民们借以澄清自己见解的那些著作）。</p>\n<h4>马上练：da- 和 wo-</h4>\n{{quiz:da}}\n\n<h4>为下一课做准备</h4>\n<p>你可能已经注意到：同一个冠词在不同地方长得不一样，<i>der</i> Mensch / <i>den</i> Schritt / <i>dem</i> Publikum / <i>des</i> Verstandes。介词后面的冠词形状也是固定的：aus 后面总是 dem / der，für 后面总是 den / die / das。这背后就是德语的「格」，下两课专门讲。</p>",
+  "quiz": [
+   {
+    "id": "r1",
+    "sec": "art",
+    "de": "daß diese{np} ruhigen Geschöpfe ja <<keinen>> Schritt außer dem{dm} Gängelwagen … wagen durften",
+    "opts": [
+     "一个",
+     "没有一个、不"
+    ],
+    "ans": 1,
+    "why": "kein 是否定冠词，「没有一个」。keinen Schritt：一步也不（迈）。"
+   },
+   {
+    "id": "r2",
+    "sec": "art",
+    "de": "aus <<seiner>> selbstverschuldeten Unmündigkeit",
+    "opts": [
+     "动词 sein（是）",
+     "物主冠词「他的 / 自己的」"
+    ],
+    "ans": 1,
+    "why": "后面紧跟形容词 + 名词，所以是物主冠词：从他自己招致的不成年状态中。"
+   },
+   {
+    "id": "r3",
+    "sec": "art",
+    "de": "<<diese>> Unmündigkeit",
+    "opts": [
+     "和定冠词 die 同一家族，意思是「这个」",
+     "和 ein 同一家族，意思是「一个」"
+    ],
+    "ans": 0,
+    "why": "dieser 家族的词尾和 der / die / das 几乎一样：diese ↔ die。"
+   },
+   {
+    "id": "r4",
+    "sec": "pron",
+    "de": "darin sie{they} <<sie{them}>> einsperreten",
+    "opts": [
+     "他们（监护人，主语）",
+     "它们（被关起来的家畜，宾语）"
+    ],
+    "ans": 1,
+    "why": "第一个 sie 是做事的监护人，第二个 sie 是被关进学步车的「家畜」。"
+   },
+   {
+    "id": "r5",
+    "sec": "pron",
+    "de": "das{dem:nn} sind die{np} Beweisgründe, deren <<sie{she}>> sich{refl} bedient",
+    "opts": [
+     "她（一位女性）",
+     "它（指阴性名词 die Kirche）"
+    ],
+    "ans": 1,
+    "why": "德语按语法性选代词：die Kirche 是阴性，所以用 sie，中文译「它」。"
+   },
+   {
+    "id": "r6",
+    "sec": "pron",
+    "de": "wenn <<man>> ihm nur Freiheit läßt",
+    "opts": [
+     "男人",
+     "人们、有人（泛指）"
+    ],
+    "ans": 1,
+    "why": "man 是泛指代词，相当于「人们」。「男人」是 der Mann，两个 n、大写。"
+   },
+   {
+    "id": "r7",
+    "sec": "prep",
+    "de": "sich{refl} <<aus>> der{df} Unmündigkeit herauszuarbeiten",
+    "opts": [
+     "从……出来",
+     "在……里面"
+    ],
+    "ans": 0,
+    "why": "aus = 从……出来：从不成年状态中挣脱出来。"
+   },
+   {
+    "id": "r8",
+    "sec": "prep",
+    "de": "den{am} Schritt <<zur>> Mündigkeit",
+    "opts": [
+     "zu + der：走向成年",
+     "zu + dem：太过成年"
+    ],
+    "ans": 0,
+    "why": "zur = zu der，Mündigkeit 是阴性。这里的 zu 是方向「到、向」，不是「太」。"
+   },
+   {
+    "id": "r9",
+    "sec": "prep",
+    "de": "durch eigene Bearbeitung ihres{gm} Geistes",
+    "opts": [
+     "通过",
+     "尽管"
+    ],
+    "ans": 0,
+    "why": "durch = 通过：通过自己对精神的磨炼。「尽管」是 trotz。"
+   },
+   {
+    "id": "r10",
+    "sec": "da",
+    "de": "weil man ihn niemals den{am} Versuch <<davon>> machen ließ",
+    "opts": [
+     "= von dem：关于这件事",
+     "= wo + von：关于什么（疑问）"
+    ],
+    "ans": 0,
+    "why": "da- 词指回前面说过的东西：从来没人让他尝试这件事（自己运用知性）。"
+   },
+   {
+    "id": "r11",
+    "sec": "da",
+    "de": "die{ap} Schriften, <<wodurch>> seine{np} Untertanen ihre{ap} Einsichten ins reine zu bringen suchen",
+    "opts": [
+     "通过这个（指向前面）",
+     "借以……的（引导从句，指 Schriften）"
+    ],
+    "ans": 1,
+    "why": "wo- 词在这里引导从句：臣民们借以澄清见解的那些著作。"
+   }
+  ]
  },
  {
   "t": "四个格（上）：一句话认识四个格",
@@ -121,7 +253,8 @@
     "sec": "g",
     "id": "a8"
    }
-  ]
+  ],
+  "id": "cases1"
  },
  {
   "t": "四个格（下）：与格和属格怎么分",
@@ -283,30 +416,35 @@
     "sec": "mix",
     "id": "b14"
    }
-  ]
+  ],
+  "id": "cases2"
  },
  {
   "t": "动词的位置",
   "de": "Die Verbstellung",
   "min": 10,
-  "html": "\n<p>德语句子的秘密在于动词放在哪里。记住四条规则，你就能在再长的句子里找到骨架：</p>\n<p><b>① 主句：变位动词在第二位。</b>第一位可以是主语，也可以是任何别的成分（为了强调）；第二位永远是动词。</p>\n[[*Selbstverschuldet* ist diese{nf} Unmündigkeit …]]\n<p>第一位是 Selbstverschuldet（表语），第二位是 ist，主语 diese Unmündigkeit 退到后面。</p>\n<p><b>② 框型结构：动词的另一半在句末。</b>情态动词、完成时、将来时、被动态、可分动词，都会把动词拆成两半，把句子「框」起来：</p>\n[[Daher kann ein{nn} Publikum nur langsam zur Aufklärung gelangen.]]\n<p><i>kann … gelangen</i>：读到 kann 时要记住，真正的动作在句末。</p>\n<p><b>③ 从句：变位动词在最末尾。</b>daß、wenn、weil、nachdem、ob、关系代词 der/die/das 引导的从句，动词都跑到最后：</p>\n[[… weil man ihn niemals den{am} Versuch davon machen ließ.]]\n<p><b>④ 动词在第一位</b>：一般疑问句（<i>leben wir …?</i>）、命令句（<i>Habe Mut!</i>），以及不用 wenn 的条件句：</p>\n[[Habe ich ein{an} Buch, das{rel:an} für mich Verstand hat, … so brauche ich mich ja nicht selbst zu bemühen.]]\n<p>= 如果我有一本书……那我就不用自己操心。</p>\n<div class=\"tip\"><b>长句阅读法</b>：① 找到第一个变位动词（第二位）；② 找它的主语；③ 跳到句末找动词的另一半；④ 把逗号分出的从句先「括起来」，最后再看。</div>"
+  "html": "\n<p>德语句子的秘密在于动词放在哪里。记住四条规则，你就能在再长的句子里找到骨架：</p>\n<p><b>① 主句：变位动词在第二位。</b>第一位可以是主语，也可以是任何别的成分（为了强调）；第二位永远是动词。</p>\n[[*Selbstverschuldet* ist diese{nf} Unmündigkeit …]]\n<p>第一位是 Selbstverschuldet（表语），第二位是 ist，主语 diese Unmündigkeit 退到后面。</p>\n<p><b>② 框型结构：动词的另一半在句末。</b>情态动词、完成时、将来时、被动态、可分动词，都会把动词拆成两半，把句子「框」起来：</p>\n[[Daher kann ein{nn} Publikum nur langsam zur Aufklärung gelangen.]]\n<p><i>kann … gelangen</i>：读到 kann 时要记住，真正的动作在句末。</p>\n<p><b>③ 从句：变位动词在最末尾。</b>daß、wenn、weil、nachdem、ob、关系代词 der/die/das 引导的从句，动词都跑到最后：</p>\n[[… weil man ihn niemals den{am} Versuch davon machen ließ.]]\n<p><b>④ 动词在第一位</b>：一般疑问句（<i>leben wir …?</i>）、命令句（<i>Habe Mut!</i>），以及不用 wenn 的条件句：</p>\n[[Habe ich ein{an} Buch, das{rel:an} für mich Verstand hat, … so brauche ich mich ja nicht selbst zu bemühen.]]\n<p>= 如果我有一本书……那我就不用自己操心。</p>\n<div class=\"tip\"><b>长句阅读法</b>：① 找到第一个变位动词（第二位）；② 找它的主语；③ 跳到句末找动词的另一半；④ 把逗号分出的从句先「括起来」，最后再看。</div>",
+  "id": "verbpos"
  },
  {
   "t": "zu-不定式与可分动词",
   "de": "zu + Infinitiv, trennbare Verben",
   "min": 8,
-  "html": "\n<p><b>zu-不定式</b>相当于英语的 to do，但 zu + 动词要放在短语的<b>最后</b>：</p>\n[[Es{expl} ist so bequem, unmündig zu sein.]]\n<p>很多句子用 <i>es</i> 先占位，真正的内容是后面的 zu-不定式（「不成年是舒服的」）。<i>es</i> 不用翻译。</p>\n<p><b>可分动词</b>由「前缀 + 动词」组成，比如 <i>ab|schrecken</i>（吓退）、<i>an|sehen</i>（看作）、<i>aus|breiten</i>（扩展）。在主句里，前缀会被拆下来放到<b>句末</b>：</p>\n[[… und schreckt gemeiniglich von allen ferneren Versuchen ab{sep}.]]\n<p>读到句末一个孤零零的 <i>ab / an / aus / vor / ein / zurück</i>，就要回头和前面的动词合起来。在从句里它们又合在一起（<i>… ansieht</i>）；加 zu 时，zu 插在中间：<i>heraus<b>zu</b>arbeiten</i>、<i>vor<b>zu</b>legen</i>。</p>\n[[sich{refl} aus der{df} Unmündigkeit herauszuarbeiten]]"
+  "html": "\n<p><b>zu-不定式</b>相当于英语的 to do，但 zu + 动词要放在短语的<b>最后</b>：</p>\n[[Es{expl} ist so bequem, unmündig zu sein.]]\n<p>很多句子用 <i>es</i> 先占位，真正的内容是后面的 zu-不定式（「不成年是舒服的」）。<i>es</i> 不用翻译。</p>\n<p><b>可分动词</b>由「前缀 + 动词」组成，比如 <i>ab|schrecken</i>（吓退）、<i>an|sehen</i>（看作）、<i>aus|breiten</i>（扩展）。在主句里，前缀会被拆下来放到<b>句末</b>：</p>\n[[… und schreckt gemeiniglich von allen ferneren Versuchen ab{sep}.]]\n<p>读到句末一个孤零零的 <i>ab / an / aus / vor / ein / zurück</i>，就要回头和前面的动词合起来。在从句里它们又合在一起（<i>… ansieht</i>）；加 zu 时，zu 插在中间：<i>heraus<b>zu</b>arbeiten</i>、<i>vor<b>zu</b>legen</i>。</p>\n[[sich{refl} aus der{df} Unmündigkeit herauszuarbeiten]]",
+  "id": "zuinf"
  },
  {
   "t": "拆解长句：扩展定语与从句套娃",
   "de": "Lange Sätze lesen",
   "min": 10,
-  "html": "\n<p>学术德语最让人头疼的是<b>扩展定语</b>：把一整个从句压缩，塞进冠词和名词之间。</p>\n[[sich{refl} aus der{df} ihm beinahe zur Natur gewordenen Unmündigkeit herauszuarbeiten]]\n<p>看到 <i>der</i> 先别慌，一直往后找到名词 <i>Unmündigkeit</i>。中间的 <i>ihm beinahe zur Natur gewordenen</i> 整块都是形容词，可以还原成关系从句：</p>\n<p class=\"formula\">der Unmündigkeit, <b>die ihm beinahe zur Natur geworden ist</b><br>那几乎已成为他天性的不成年状态</p>\n<p>再如：<i>die ihm auferlegten Abgaben</i> = <i>die Abgaben, die ihm auferlegt sind</i>（加在他身上的捐税）。</p>\n<p><b>关系从句</b>用 der / die / das（有时用 welcher）引导，它的性数跟着前面的名词，格看它在从句里做什么：</p>\n[[einen{am} Seelsorger, der{rel:nm} für mich Gewissen hat]]\n<p><b>属格链</b>要从后往前读：<i>Werkzeuge eines vernünftigen Gebrauchs seiner Naturgaben</i> =（他的天赋）的（理性运用）的工具。</p>\n<div class=\"tip\">每句下面的「语法」按钮会先告诉你这句话的骨架。建议自己先找动词，再点开核对。</div>"
+  "html": "\n<p>学术德语最让人头疼的是<b>扩展定语</b>：把一整个从句压缩，塞进冠词和名词之间。</p>\n[[sich{refl} aus der{df} ihm beinahe zur Natur gewordenen Unmündigkeit herauszuarbeiten]]\n<p>看到 <i>der</i> 先别慌，一直往后找到名词 <i>Unmündigkeit</i>。中间的 <i>ihm beinahe zur Natur gewordenen</i> 整块都是形容词，可以还原成关系从句：</p>\n<p class=\"formula\">der Unmündigkeit, <b>die ihm beinahe zur Natur geworden ist</b><br>那几乎已成为他天性的不成年状态</p>\n<p>再如：<i>die ihm auferlegten Abgaben</i> = <i>die Abgaben, die ihm auferlegt sind</i>（加在他身上的捐税）。</p>\n<p><b>关系从句</b>用 der / die / das（有时用 welcher）引导，它的性数跟着前面的名词，格看它在从句里做什么：</p>\n[[einen{am} Seelsorger, der{rel:nm} für mich Gewissen hat]]\n<p><b>属格链</b>要从后往前读：<i>Werkzeuge eines vernünftigen Gebrauchs seiner Naturgaben</i> =（他的天赋）的（理性运用）的工具。</p>\n<div class=\"tip\">每句下面的「语法」按钮会先告诉你这句话的骨架。建议自己先找动词，再点开核对。</div>",
+  "id": "longsent"
  },
  {
   "t": "旧式德语的特点（18 世纪）",
   "de": "Kants Deutsch",
   "min": 5,
-  "html": "\n<p>本站使用 1913 年卡西尔版的文本，基本保留了康德时代的写法。你会遇到：</p>\n<table class=\"tbl\"><thead><tr><th>原文</th><th>今天写作</th><th>说明</th></tr></thead><tbody>\n<tr><td>daß, muß, läßt</td><td>dass, muss, lässt</td><td>1996 年正字法改革后，短元音后的 ß 改为 ss</td></tr>\n<tr><td>drohet, einsperreten, bewähret</td><td>droht, einsperrten, bewährt</td><td>多出一个 e 的旧词尾</td></tr>\n<tr><td>hiebei, demohngeachtet</td><td>hierbei, dessen ungeachtet</td><td>旧词</td></tr>\n<tr><td>Despotism, Mechanism</td><td>Despotismus, Mechanismus</td><td>外来词旧形式</td></tr>\n<tr><td>im Dienste, dem Vorwurfe</td><td>im Dienst, dem Vorwurf</td><td>阳性 / 中性与格词尾 -e</td></tr>\n<tr><td>freigesprochen (hat)</td><td>…freigesprochen hat</td><td>从句末的 hat / ist 常被省略</td></tr>\n</tbody></table>\n<p>一些常用词的<b>古义</b>：<i>allein</i> =「然而」；<i>gemein</i> =「共同的」（不是「卑鄙的」）；<i>billig</i> =「公道的」（不是「便宜」）；<i>Beruf</i> =「使命」；<i>Symbol</i> =「信条」；<i>Qualität</i> =「身份」。点开这些词时，面板里都会提醒你。</p>\n<p><b>虚拟式</b>：康德常用第一虚拟式（<i>halte, sei, hindere</i>）表示转述或设想，用第二虚拟式（<i>würde, wäre, könnte, abwürfe</i>）表示假设。遇到时面板会标出。</p>"
+  "html": "\n<p>本站使用 1913 年卡西尔版的文本，基本保留了康德时代的写法。你会遇到：</p>\n<table class=\"tbl\"><thead><tr><th>原文</th><th>今天写作</th><th>说明</th></tr></thead><tbody>\n<tr><td>daß, muß, läßt</td><td>dass, muss, lässt</td><td>1996 年正字法改革后，短元音后的 ß 改为 ss</td></tr>\n<tr><td>drohet, einsperreten, bewähret</td><td>droht, einsperrten, bewährt</td><td>多出一个 e 的旧词尾</td></tr>\n<tr><td>hiebei, demohngeachtet</td><td>hierbei, dessen ungeachtet</td><td>旧词</td></tr>\n<tr><td>Despotism, Mechanism</td><td>Despotismus, Mechanismus</td><td>外来词旧形式</td></tr>\n<tr><td>im Dienste, dem Vorwurfe</td><td>im Dienst, dem Vorwurf</td><td>阳性 / 中性与格词尾 -e</td></tr>\n<tr><td>freigesprochen (hat)</td><td>…freigesprochen hat</td><td>从句末的 hat / ist 常被省略</td></tr>\n</tbody></table>\n<p>一些常用词的<b>古义</b>：<i>allein</i> =「然而」；<i>gemein</i> =「共同的」（不是「卑鄙的」）；<i>billig</i> =「公道的」（不是「便宜」）；<i>Beruf</i> =「使命」；<i>Symbol</i> =「信条」；<i>Qualität</i> =「身份」。点开这些词时，面板里都会提醒你。</p>\n<p><b>虚拟式</b>：康德常用第一虚拟式（<i>halte, sei, hindere</i>）表示转述或设想，用第二虚拟式（<i>würde, wäre, könnte, abwürfe</i>）表示假设。遇到时面板会标出。</p>",
+  "id": "oldde"
  }
 ]
