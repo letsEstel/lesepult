@@ -16,7 +16,7 @@
   --f-mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
   --scale:1;
 }
-@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+@media (prefers-color-scheme: dark){:root:not([data-theme]){
   --paper:#111419; --sheet:#171b21; --sheet-2:#1e232b; --ink:#e5e7eb; --ink-2:#b3b9c4; --ink-3:#848b98;
   --rule:#2a3039; --rule-2:#38404b; --prussian:#94b4e6; --prussian-2:#b3caee; --prussian-soft:#1d2a3f; --wax:#e38b6f;
   --c-n:#86aef0; --c-a:#f08f73; --c-d:#6fd0a2; --c-g:#e2b75a; --c-v:#c9a0ea;
@@ -26,6 +26,47 @@
   --rule:#2a3039; --rule-2:#38404b; --prussian:#94b4e6; --prussian-2:#b3caee; --prussian-soft:#1d2a3f; --wax:#e38b6f;
   --c-n:#86aef0; --c-a:#f08f73; --c-d:#6fd0a2; --c-g:#e2b75a; --c-v:#c9a0ea;
   --hl:#4a4224; --ok:#6fd0a2; --bad:#f08f73; --shadow:0 1px 2px rgba(0,0,0,.3),0 8px 24px rgba(0,0,0,.35); color-scheme:dark}
+/* Colour themes chosen in the top-bar menu. No data-theme = automatic (follows the system: light / dark).
+   light and dark keep each book's own accent; wabi, roma and aka use their own accent for every book. */
+:root[data-theme="wabi"]{
+  --paper:#eeeae3; --sheet:#f6f3ee; --sheet-2:#e5dfd5; --ink:#2b2824; --ink-2:#57524b; --ink-3:#8a847a;
+  --rule:#dbd4c8; --rule-2:#c8bfb0; --prussian:#6b5a45; --prussian-2:#86715a; --prussian-soft:#e6ddcf; --wax:#8a4b33;
+  --c-n:#4f6a86; --c-a:#a0553c; --c-d:#4d7a5c; --c-g:#8c6d2c; --c-v:#76587f;
+  --hl:#ebe0c0; --ok:#4d7a5c; --bad:#a0553c; --shadow:0 1px 2px rgba(60,50,40,.05); color-scheme:light;
+  --f-frak:"Literata",Georgia,serif}
+:root[data-theme="roma"]{
+  --paper:#f3eee4; --sheet:#fbf8f1; --sheet-2:#ebe3d4; --ink:#241a14; --ink-2:#4f4238; --ink-3:#837668;
+  --rule:#e0d5c3; --rule-2:#ccbda6; --prussian:#962b1f; --prussian-2:#b5432e; --prussian-soft:#f3e0d5; --wax:#a8801f;
+  --c-n:#2f5a8f; --c-a:#b5432e; --c-d:#3a7350; --c-g:#9a6f12; --c-v:#6d3f7d;
+  --hl:#f0e1ad; --ok:#3a7350; --bad:#b5432e; --shadow:0 1px 2px rgba(60,40,20,.07),0 8px 24px rgba(60,40,20,.08); color-scheme:light;
+  --f-frak:"Cinzel","Trajan Pro",Georgia,serif}
+:root[data-theme="aka"]{
+  --paper:#0f0b0b; --sheet:#191313; --sheet-2:#241a1a; --ink:#f5ede7; --ink-2:#cbbdb4; --ink-3:#928279;
+  --rule:#342628; --rule-2:#4b393a; --prussian:#ff4b37; --prussian-2:#ff8a1c; --prussian-soft:#3b1410; --wax:#ff8a1c;
+  --c-n:#7fb0ff; --c-a:#ff7a5c; --c-d:#5fdc9e; --c-g:#ffc145; --c-v:#d69bff;
+  --hl:#4d2a0e; --ok:#5fdc9e; --bad:#ff7a5c; --shadow:0 1px 2px rgba(0,0,0,.4),0 8px 24px rgba(255,60,40,.08); color-scheme:dark}
+:root[data-theme="wabi"] .bk-cover{filter:saturate(.35) brightness(1.08)}
+:root[data-theme="wabi"] .book,:root[data-theme="wabi"] .sent,:root[data-theme="wabi"] .lesson{border-radius:4px}
+:root[data-theme="roma"] .lib-mast,:root[data-theme="roma"] .mast{letter-spacing:.04em}
+:root[data-theme="aka"] .tab[aria-selected="true"]{box-shadow:0 0 0 1px var(--prussian-2)}
+:root[data-theme="aka"] .prog i{background:linear-gradient(90deg,var(--prussian),var(--prussian-2))}
+
+/* theme menu */
+.top-in{position:relative}
+.theme-btn{margin-left:auto;width:34px;height:34px;border-radius:999px}
+.tabs:not([hidden]) ~ .theme-btn{margin-left:0}
+.theme-btn svg{width:18px;height:18px}
+.theme-menu{position:absolute;right:16px;top:calc(100% + 6px);z-index:40;width:min(300px,calc(100vw - 32px));background:var(--sheet);border:1px solid var(--rule-2);border-radius:14px;box-shadow:var(--shadow);padding:6px}
+@media (min-width:720px){.theme-menu{right:28px}}
+.theme-menu h4{font:500 12px var(--f-mono);letter-spacing:.06em;color:var(--ink-3);margin:6px 10px 4px}
+.th-opt{all:unset;box-sizing:border-box;display:grid;grid-template-columns:auto 1fr auto;gap:2px 12px;align-items:center;width:100%;padding:9px 10px;border-radius:10px;cursor:pointer}
+.th-opt:hover,.th-opt:focus-visible{background:var(--sheet-2)}
+.th-opt b{font:600 14.5px var(--f-zh)}
+.th-opt small{grid-column:2;font-size:12.5px;color:var(--ink-3);line-height:1.4}
+.th-sw{grid-row:span 2;display:flex;width:34px;height:34px;border-radius:50%;overflow:hidden;border:1px solid var(--rule-2);transform:rotate(-30deg)}
+.th-sw i{flex:1}
+.th-ck{grid-row:span 2;width:18px;height:18px;color:var(--prussian);visibility:hidden}
+.th-opt[aria-checked="true"] .th-ck{visibility:visible}
 
 
 *{box-sizing:border-box}
@@ -212,6 +253,7 @@ td .ex,dt .ex{display:inline;margin:0;padding:0;background:none;border:0}
 .chbar .ch-cur em{font:italic 13px var(--f-de);color:var(--ink-3);overflow:hidden;text-overflow:ellipsis}
 .chbar .ch-cur:focus-visible{outline:2px solid var(--prussian-2);border-radius:4px}
 .chbar .tg{flex:none}
+@media (max-width:480px){.chbar .ch-cur em{display:none}}
 .chnext{display:grid;gap:10px;margin:8px 0 40px}
 .chnext .ch-row{border-color:var(--prussian-2)}
 .chnext .lab{font:500 12px var(--f-mono);letter-spacing:.06em;color:var(--ink-3)}
@@ -419,9 +461,10 @@ button.book:hover{transform:translateY(-3px);box-shadow:var(--shadow)}
 .para-h .pg{margin-left:auto;align-self:center}
 @media (prefers-reduced-motion:reduce){.book{transition:none}}
 
-@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .book{--cv:var(--bk-d)}}
-:root[data-theme="dark"] .book{--cv:var(--bk-d)}
+@media (prefers-color-scheme: dark){:root:not([data-theme]) .book{--cv:var(--bk-d)}}
+:root[data-theme="dark"] .book,:root[data-theme="aka"] .book{--cv:var(--bk-d)}
 </style>
+<script data-theme-init>try{var t=JSON.parse(localStorage.getItem('reader.ui.theme')||'""');if(t)document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
 <header class="top">
   <div class="wrap top-in">
     <button class="back" id="backBtn" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 18l-6-6 6-6"/></svg><span class="bk-pre">返回</span><span id="backLbl"></span></button>
@@ -434,6 +477,8 @@ button.book:hover{transform:translateY(-3px);box-shadow:var(--shadow)}
       <button class="tab" role="tab" data-go="vocab">词汇表</button>
       <button class="tab" role="tab" data-go="saved">生词本<span class="cnt" id="savedCnt">0</span></button>
     </nav>
+    <button class="icon-btn theme-btn" id="themeBtn" aria-label="配色主题" title="配色主题" aria-haspopup="true" aria-expanded="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3a9 9 0 1 0 0 18c1.1 0 1.7-.8 1.7-1.6 0-.5-.2-.9-.5-1.2-.3-.3-.5-.7-.5-1.2 0-.9.8-1.7 1.7-1.7H16a5 5 0 0 0 5-5c0-4-4-7.3-9-7.3Z"/><circle cx="7.5" cy="11" r="1"/><circle cx="10" cy="7" r="1"/><circle cx="14.5" cy="7" r="1"/><circle cx="17" cy="11" r="1"/></svg></button>
+    <div class="theme-menu" id="themeMenu" role="menu" aria-label="配色主题" data-nolink hidden></div>
   </div>
   <div class="prog" title="阅读进度"><i id="progBar"></i></div>
 </header>
@@ -747,7 +792,7 @@ function setBookStyle(m){
   const decl=o=>Object.entries(o).filter(([,v])=>v).map(([k,v])=>k+':'+v).join(';');
   const light=decl({'--f-de':f.text,'--f-frak':f.mast,'--f-zh':f.trans,'--prussian':t.accent,'--prussian-2':t.accent2,'--prussian-soft':t.accentSoft});
   const dark=decl({'--prussian':t.accentDark,'--prussian-2':t.accent2Dark,'--prussian-soft':t.accentSoftDark});
-  el.textContent=':root{'+light+'}'+(dark?'@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){'+dark+'}}:root[data-theme="dark"]{'+dark+'}':'');
+  el.textContent=':root{'+light+'}'+(dark?'@media (prefers-color-scheme: dark){:root:not([data-theme]){'+dark+'}}:root[data-theme="dark"]{'+dark+'}':'');
 }
 function clearBookStyle(){ const el=$('#bookcss'); if(el) el.textContent=''; }
 function enterCtx(id,cid){
@@ -1342,6 +1387,33 @@ function linkify(root){
 new MutationObserver(ms=>{ if(!DICT) return; const seen=new Set(); for(const m of ms) for(const n of m.addedNodes){ if(seen.has(n)) continue; seen.add(n); if(n.nodeType===1||n.nodeType===3) linkify(n); } })
   .observe(document.body,{childList:true,subtree:true});
 load('dict').then(d=>{ DICT=d; linkify(document.body); }).catch(()=>{});
+
+/* ---------- colour themes ----------
+   "Auto" (no data-theme) follows the system's light / dark setting; the others are fixed. Saved per device. */
+const THEMES=[
+  {id:'', name:'自动', desc:'跟随系统：白天用纸本，夜间用夜读', sw:['#f3f4f1','#1e3c6a','#111419']},
+  {id:'light', name:'纸本', desc:'冷白纸、普鲁士蓝，每本书有自己的主色', sw:['#f3f4f1','#fbfbf9','#1e3c6a']},
+  {id:'dark', name:'夜读', desc:'深色，适合晚上读', sw:['#111419','#171b21','#94b4e6']},
+  {id:'wabi', name:'侘寂', desc:'米灰与陶土色，低饱和，安静克制', sw:['#eeeae3','#c8bfb0','#6b5a45']},
+  {id:'roma', name:'罗马', desc:'石灰华、庞贝红与金，标题用碑铭体', sw:['#f3eee4','#962b1f','#a8801f'], font:'https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600&display=swap'},
+  {id:'aka', name:'赤焰', desc:'黑底，红与橙，高对比', sw:['#0f0b0b','#ff4b37','#ff8a1c']}
+];
+function applyTheme(id){
+  const t=THEMES.find(x=>x.id===id)||THEMES[0], r=document.documentElement;
+  if(t.id) r.setAttribute('data-theme',t.id); else r.removeAttribute('data-theme');
+  if(t.font && !document.getElementById('font-'+t.id)){ const l=document.createElement('link'); l.rel='stylesheet'; l.href=t.font; l.id='font-'+t.id; document.head.appendChild(l); }
+  $$('.th-opt').forEach(b=>b.setAttribute('aria-checked',b.dataset.theme===t.id));
+}
+function renderThemeMenu(){
+  const cur=UI.get('theme','');
+  $('#themeMenu').innerHTML='<h4>配色主题</h4>'+THEMES.map(t=>'<button class="th-opt" role="menuitemradio" data-theme="'+t.id+'" aria-checked="'+(t.id===cur)+'"><span class="th-sw" aria-hidden="true">'+t.sw.map(c=>'<i style="background:'+c+'"></i>').join('')+'</span><b>'+esc(t.name)+'</b><small>'+esc(t.desc)+'</small><svg class="th-ck" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m5 12 5 5 9-10"/></svg></button>').join('');
+}
+function themeMenu(open){ const m=$('#themeMenu'); if(open==null) open=m.hidden; m.hidden=!open; $('#themeBtn').setAttribute('aria-expanded',open); if(open){ renderThemeMenu(); const c=m.querySelector('[aria-checked="true"]')||m.querySelector('.th-opt'); c&&c.focus({preventScroll:true}); } }
+$('#themeBtn').addEventListener('click',e=>{ e.stopPropagation(); themeMenu(); });
+$('#themeMenu').addEventListener('click',e=>{ e.stopPropagation(); const b=e.target.closest('.th-opt'); if(!b) return; UI.set('theme',b.dataset.theme); applyTheme(b.dataset.theme); themeMenu(false); if(e.detail===0) $('#themeBtn').focus({preventScroll:true}); });
+document.addEventListener('click',e=>{ if(!$('#themeMenu').hidden && !e.target.closest('#themeMenu,#themeBtn')) themeMenu(false); },true);
+document.addEventListener('keydown',e=>{ if(e.key==='Escape' && !$('#themeMenu').hidden){ themeMenu(false); $('#themeBtn').focus({preventScroll:true}); } });
+applyTheme(UI.get('theme',''));
 
 /* ---------- boot ---------- */
 if(LIB.sw && 'serviceWorker' in navigator && /^https?:$/.test(location.protocol)) addEventListener('load',()=>navigator.serviceWorker.register('sw.js').catch(()=>{}));

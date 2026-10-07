@@ -1,0 +1,117 @@
+{
+ "id": "weber-politik",
+ "profile": "de-zh",
+ "title": "Politik als Beruf",
+ "short": "以政治为业",
+ "zh": "以政治为业",
+ "author": "Max Weber",
+ "year": "1919",
+ "level": "进阶 · 连载中",
+ "blurb": "现代政治学最有名的演讲：国家的定义、三种正当统治、激情 · 责任感 · 分寸感、信念伦理与责任伦理。全书分 9 章连载，第 1 章已上线。",
+ "brandMark": "W",
+ "mast": "Politik als Beruf",
+ "eyebrow": "Max Weber · München 1919 · Vortrag",
+ "subtitle": "Politik als Beruf · Geistige Arbeit als Beruf. Vier Vorträge vor dem Freistudentischen Bund · Zweiter Vortrag",
+ "lede": "1919 年 1 月，德国刚刚战败，慕尼黑的大学生请社会学家 Max Weber 讲「以政治为业」。他没有给出政治立场，而是冷静地分析：国家是什么，政治是什么，靠政治为生的人是怎样出现的，从政的人需要什么品质，信念与责任之间的张力又该怎样承受。这是一篇演讲稿，句子比康德好懂，但很长、插入语很多，正好练习读长句。",
+ "demo": [
+  "k1",
+  3,
+  3
+ ],
+ "demoCaption": "国家的定义 · 点任意一个词",
+ "howto": [
+  {
+   "n": "第 1 步",
+   "h": "先打基础",
+   "p": "没学过德语基础课的话，先学书架上的基础课。这本书的难点是长句和「扩展定语」，专题课会专门讲。"
+  },
+  {
+   "n": "第 2 步",
+   "h": "本书专题课",
+   "p": "每章配专题课：第 1 章讲国家的定义、三种正当支配，以及怎么读 Weber 的长句（带练习）。"
+  },
+  {
+   "n": "第 3 步",
+   "h": "按章精读",
+   "p": "全书分 9 章，一章两三千词，从目录进入。读到哪里会自动记住，下次点「精读」直接回到那一章。"
+  }
+ ],
+ "intro": {
+  "eyebrow": "Zum Text",
+  "h": "本书专题课",
+  "p": "读 Weber 需要的背景和语法：这场演讲的来历、核心概念，以及他那种层层加插入语的长句怎么拆。"
+ },
+ "slipEmpty": "点击正文中的任意德语词，这里会显示它的原形、词性、此处的格和用法。<br><br>Weber 爱用冒号和破折号层层补充，读不通时先找句子的主干动词。",
+ "footer": "原文：Max Weber, Politik als Beruf, München und Leipzig: Duncker & Humblot 1919（公有领域）。据 Projekt Gutenberg-DE 的转录（所据为 J. Winckelmann 编，Tübingen: Mohr 1958），保留其拼写，把 ihren Wunsch 改正为 Ihren Wunsch。分章与章名为本站所加。注释、讲解与中文译文为本站编写（AI 辅助）。",
+ "fontsHref": "https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,600;1,7..72,400&family=UnifrakturMaguntia&family=IBM+Plex+Mono:wght@400;500&family=Noto+Serif+SC:wght@400;600&display=swap",
+ "fonts": {
+  "text": "\"Literata\",Georgia,\"Times New Roman\",serif",
+  "mast": "\"UnifrakturMaguntia\",\"Literata\",Georgia,serif",
+  "trans": "\"Noto Serif SC\",\"Songti SC\",\"STSong\",\"SimSun\",serif"
+ },
+ "theme": {
+  "accent": "#7a2a24",
+  "accent2": "#9a3a30",
+  "accentSoft": "#f1e2de",
+  "accentDark": "#e5a093",
+  "accent2Dark": "#efbcb1",
+  "accentSoftDark": "#3a1f1b"
+ },
+ "description": "Max Weber《以政治为业》逐词精读，分章连载。",
+ "chapters": [
+  {
+   "id": "k1",
+   "h": "政治与国家",
+   "t": "Politik und Staat",
+   "blurb": "什么是政治，什么是国家：正当暴力的垄断。三种正当支配：传统、卡里斯玛、合法性。"
+  },
+  {
+   "id": "k2",
+   "h": "行政班子与职业政治家",
+   "t": "Verwaltungsstab und Berufspolitiker",
+   "planned": true
+  },
+  {
+   "id": "k3",
+   "h": "为政治而活，靠政治而活",
+   "t": "Für die Politik und von der Politik leben",
+   "planned": true
+  },
+  {
+   "id": "k4",
+   "h": "历史上的职业政治家",
+   "t": "Kleriker, Literaten, Juristen, Journalisten",
+   "planned": true
+  },
+  {
+   "id": "k5",
+   "h": "政党（上）：从名流到机器",
+   "t": "Honoratioren und Parteimaschine",
+   "planned": true
+  },
+  {
+   "id": "k6",
+   "h": "政党（下）：美国、德国与革命之后",
+   "t": "Boss und Parteibetrieb",
+   "planned": true
+  },
+  {
+   "id": "k7",
+   "h": "政治家的品质",
+   "t": "Leidenschaft, Verantwortungsgefühl, Augenmaß",
+   "planned": true
+  },
+  {
+   "id": "k8",
+   "h": "信念伦理与责任伦理",
+   "t": "Gesinnungsethik und Verantwortungsethik",
+   "planned": true
+  },
+  {
+   "id": "k9",
+   "h": "「尽管如此！」",
+   "t": "Dennoch!",
+   "planned": true
+  }
+ ]
+}
