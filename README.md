@@ -5,12 +5,22 @@
 ## 更新网站
 
 ```bash
-python3 scripts/check.py                                   # 检查所有书
-python3 scripts/build.py --standalone -o docs/index.html   # 生成网页
+python3 scripts/check.py                                   # 检查所有书 + 全站德语是否都查得到
+python3 scripts/build.py --standalone -o docs/index.html   # 生成网站（index.html + data/*.json + 离线缓存）
+python3 tests/e2e.py docs/index.html                       # 浏览器实测（需要 pip install playwright）
 git add -A && git commit -m "更新" && git push             # 推送后一两分钟生效
 ```
 
-GitHub Pages 从 `main` 分支的 `docs/` 文件夹发布。下面是工具包（reader-kit）的完整说明。
+GitHub Pages 从 `main` 分支的 `docs/` 文件夹发布。每次推送，GitHub Actions（`.github/workflows/ci.yml`）会重跑检查、确认 `docs/` 与源文件一致，并做浏览器测试。
+
+## 架构（2026-10 起）
+
+- **全站德语可点**：除了精读原文（逐词标注），书名、引语、章节德文标题、课程讲解、语法注释、词卡里的释义和例子、页脚里出现的每个德语词都是词典链接。页面渲染后由脚本自动加链接：先查当前书的词典（能显示这个词在原文里出现在哪些句子），再查全站词典。`Mün-dig-keit` 这样的拆分会先整体查，查不到再按前缀 `ver-` / 后缀 `-ung` / 词干查。词卡里的词也能点，词卡顶部有「← 上一个词」。
+- **全站词典** = `shared/lexicon/*.tsv`（界面、语法术语、人名地名、缩写、构词成分、注释里的普通词）+ 各书词条 + 自动生成的词典形（书里只有 drohet，也能查 drohen）。格式与书的词典相同。`check.py` 会扫描所有会显示的文字，任何查不到的词都会报错并给出位置。
+- **按需加载**：网站首页只有约 120 KB（书架 + 程序）；每本书的原文、词典（`data/<书>.json`）在第一次打开时才下载，全站词典（`data/dict.json`）在后台加载。文件名带内容哈希（`?v=`），更新后浏览器自动取新版。书再多，首页也不会变慢。
+- **离线 / 可安装**：`sw.js` 缓存看过的书，没网也能读；`manifest.webmanifest` 让手机可以「添加到主屏幕」。
+- **一致性检查**：`check.py` 用变格表核对每个 `{格性}` 标注（比如 `dem{nf}` 会报错），防止讲解自相矛盾。
+- **两种构建**：`build.py`（默认）生成单文件，用于 Claude artifact；`--standalone` 生成上面的分文件网站；`--standalone --single` 生成单文件完整网页。下面是工具包（reader-kit）的完整说明。
 
 ---
 
@@ -23,7 +33,7 @@ Lesepult 书架就是用这套工具做出来的：一个网页里放多本书�
 - **每本书**：导读、专题课（带练习）、逐句精读（每个词可点开看原形、词性、格以及「为什么是这个格」；每句有语法讲解、译文和学界页码；支持朗读）、词汇表、生词本翻卡。
 - **共用的基础课**：发音、格、动词位置等，所有书通用。
 
-整个网站是一个单独的 HTML 文件，适配手机和电脑，也支持深色模式。
+适配手机和电脑，支持深色模式；可以生成单文件（Claude artifact），也可以生成按需加载的静态网站（GitHub Pages）。
 
 ---
 
@@ -34,6 +44,8 @@ reader-kit/
   library.json              书架：网站标题文案、上架的书（按顺序）、筹备中的书、共用课程
   template/app.src.html     网页模板（一般不用改）
   profiles/de-zh.json       语言规则：德语原文 → 中文讲解（格、性、变格表、介词支配……）
+  shared/lexicon/*.tsv      全站词典：书以外出现的德语（界面、术语、专名、缩写、构词成分、注释用词）
+  tests/e2e.py              浏览器端到端测试（含「全站德语可点」审计）
   scripts/check.py          检查全部书和课程 + 生成某本书的「缺词清单」
   scripts/build.py          生成整个书架的单文件网页（dist/index.html）
   courses/de-basics/        共用的德语基础课

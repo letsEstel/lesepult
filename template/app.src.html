@@ -194,6 +194,13 @@ td .ex,dt .ex{display:inline;margin:0;padding:0;background:none;border:0}
 .sent.ok .sent-num::after{content:"已读懂";color:var(--ok)}
 .de{font:400 calc(1.2rem * var(--scale))/1.75 var(--f-de);margin:6px 0 4px;overflow-wrap:break-word;hyphens:manual}
 .w{cursor:pointer;border-radius:3px}
+.lw{cursor:pointer;border-radius:2px;text-decoration:underline dotted;text-decoration-color:var(--rule-2);text-decoration-thickness:1px;text-underline-offset:.22em}
+.lw:hover{color:var(--prussian);text-decoration-color:currentColor;background:var(--prussian-soft)}
+.lw.on{background:var(--prussian);color:var(--paper);text-decoration:none}
+.sl-back{display:inline-flex;align-items:center;gap:4px;font:12.5px var(--f-ui);color:var(--ink-3);background:none;border:1px solid var(--rule);border-radius:999px;padding:2px 10px 2px 6px;margin-bottom:8px;cursor:pointer;max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.sl-back:hover{color:var(--prussian);border-color:var(--prussian)}
+.sl-src{font:12px var(--f-ui);color:var(--ink-3);margin-top:10px}
+body.loading main{opacity:.55;transition:opacity .2s .15s}
 .wd{border-radius:3px;padding:0 .04em;transition:background .12s}
 .w:hover .wd{background:var(--sheet-2)}
 .w.same .wd{background:var(--hl)}
@@ -476,6 +483,7 @@ const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',
 const fmt=(t,o)=>t.replace(/\{(\w+)\}/g,(_,k)=>o[k]!=null?o[k]:'');
 const mkStore=ns=>({get(k,d){try{const v=localStorage.getItem(ns+k);return v==null?d:JSON.parse(v)}catch(e){return d}},set(k,v){try{localStorage.setItem(ns+k,JSON.stringify(v))}catch(e){}}});
 const ICON={
+  back:'<svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5M11 6l-6 6 6 6"/></svg>',
   say:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 5 6 9H3v6h3l5 4V5Z"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/></svg>',
   star:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1.1 6.2L12 17.3 6.4 20.2l1.1-6.2L3 9.6l6.2-.9L12 3Z"/></svg>',
   starOn:'<svg viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1.1 6.2L12 17.3 6.4 20.2l1.1-6.2L3 9.6l6.2-.9L12 3Z"/></svg>',
@@ -489,6 +497,19 @@ const ICON={
 /* ---------- library index ---------- */
 const BOOKS={}, COURSES={};
 LIB.books.forEach(b=>BOOKS[b.id]=b); LIB.courses.forEach(c=>COURSES[c.id]=c);
+/* Data arrives in pieces: the shelf (this page) is inline; each book's text + lexicon and the shared
+   dictionary are separate JSON files fetched on first use (or inlined in LIB.data for one-file builds). */
+const LOADS={};
+function load(name){
+  if(LOADS[name]) return LOADS[name];
+  const inl=LIB.data&&LIB.data[name];
+  return LOADS[name]=inl?Promise.resolve(inl):fetch('data/'+name+'.json?v='+LIB.v).then(r=>{ if(!r.ok) throw new Error(r.status); return r.json(); }).catch(e=>{ delete LOADS[name]; throw e; });
+}
+async function ensureBook(id){ const b=BOOKS[id]; if(!b.text) Object.assign(b, await load(id)); return b; }
+let DICT=null;
+const DEFPROF=LIB.profiles[Object.keys(LIB.profiles)[0]];
+const PX=()=>C?C.P:DEFPROF;
+function sentLabel(k,si,n){ return /^\w+$/.test(k)?k+'.'+(si+1):(n>1?k+' '+(si+1):k); }
 const UI=mkStore('reader.ui.');
 // carry progress over from older single-book versions of this page
 LIB.books.forEach(b=>{ const leg=b.meta&&b.meta.legacyStorage; if(!leg) return; try{
@@ -505,7 +526,7 @@ function prep(bookId){
   const resolveIn=(w,k)=>resolveWith(x,w,k);
   b.text.forEach((p,pi)=>p.s.forEach((s,si)=>{
     const id=pi+'-'+si; const k=p.k!=null?String(p.k):String(pi);
-    const label=/^\w+$/.test(k)?k+'.'+(si+1):(p.s.length>1?k+' '+(si+1):k);
+    const label=sentLabel(k,si,p.s.length);
     x.SENTS.push({id,pi,si,s,label});
     const re=new RegExp(TOK.source,'g'); let m; const t=s.de.replace(/[*_]/g,'');
     while((m=re.exec(t))){ const r=resolveIn(m[2],m[3]); if(!r.id) continue; const o=(x.OCC[r.id]=x.OCC[r.id]||[]); if(o[o.length-1]!==id) o.push(id); }
@@ -550,7 +571,7 @@ function gloss(r){
   }
   return mean.split('；')[0];
 }
-const verbFlag=pos=>C.P.verbPos.includes(pos)?'1':(C.P.verbLightPos.includes(pos)?'2':'');
+const verbFlag=pos=>{ const P=PX(); return P.verbPos.includes(pos)?'1':(P.verbLightPos.includes(pos)?'2':''); };
 function plain(de){ return de.replace(/\{[^}]*\}/g,'').replace(/<<|>>/g,'').replace(/[*_]/g,''); }
 function renderDe(de, sid){
   let out='';
@@ -588,10 +609,11 @@ function say(text){
 let tt; function toast(msg){ const t=$('#toast'); t.textContent=msg; t.classList.add('on'); clearTimeout(tt); tt=setTimeout(()=>t.classList.remove('on'),1800); }
 
 /* ---------- library page ---------- */
-function bookProgress(id){ const x=prep(id); const ok=mkStore('reader.'+id+'.').get('ok',[]); return {ok:ok.filter(s=>x.SENTS.some(z=>z.id===s)).length, n:x.SENTS.length}; }
+function bookProgress(id){ const toc=BOOKS[id].toc; const ok=mkStore('reader.'+id+'.').get('ok',[]); const n=toc.reduce((a,t)=>a+t[1],0);
+  return {ok:ok.filter(s=>{ const m=/^(\d+)-(\d+)$/.exec(s); return m && toc[+m[1]] && +m[2]<toc[+m[1]][1]; }).length, n}; }
 function renderLibrary(){
   $('#courseShelf').innerHTML=LIB.courses.map(c=>{ const m=c.meta, done=mkStore('reader.'+c.id+'.').get('lessons',[]).length, n=(c.lessons||[]).length;
-    return '<button class="course-card" data-route="'+esc(c.id)+'~intro"><span class="cc-n">'+n+'</span><span class="cc-body"><b>'+esc(m.title)+'</b><span class="cc-de">'+esc(m.de||'')+'</span><span class="cc-p">'+esc(m.lede||'')+'</span></span><span class="cc-prog"><span>'+(done?'已学 '+done+' / '+n:'从这里开始')+'</span><i style="--p:'+(n?done/n*100:0)+'%"></i></span></button>'; }).join('');
+    return '<button class="course-card" data-route="'+esc(c.id)+'~intro"><span class="cc-n">'+n+'</span><span class="cc-body"><b>'+esc(m.title)+'</b><span class="cc-de" lang="de" data-linkok>'+esc(m.de||'')+'</span><span class="cc-p">'+esc(m.lede||'')+'</span></span><span class="cc-prog"><span>'+(done?'已学 '+done+' / '+n:'从这里开始')+'</span><i style="--p:'+(n?done/n*100:0)+'%"></i></span></button>'; }).join('');
   const live=LIB.books.filter(b=>!b.planned).length;
   $('#shelfCount').textContent=live+' 本可读'+(LIB.books.length>live?' · '+(LIB.books.length-live)+' 本筹备中':'');
   $('#shelf').innerHTML=LIB.books.map(b=>{
@@ -600,10 +622,10 @@ function renderLibrary(){
     const style='--bk:'+acc+';--bk-d:'+accD+';--bk-font:'+(b.planned?'var(--f-frak)':(m.fonts&&m.fonts.mast||'var(--f-frak)'));
     let foot;
     if(b.planned) foot='<span class="bk-chip">筹备中</span>';
-    else { const p=bookProgress(b.id); foot='<span class="bk-prog"><i style="--p:'+(p.n?p.ok/p.n*100:0)+'%"></i></span><span class="bk-stat">'+(p.ok?'已读懂 '+p.ok+' / '+p.n+' 句':p.n+' 句 · '+Object.keys(b.lex).length+' 词条')+'</span>'; }
+    else { const p=bookProgress(b.id); foot='<span class="bk-prog"><i style="--p:'+(p.n?p.ok/p.n*100:0)+'%"></i></span><span class="bk-stat">'+(p.ok?'已读懂 '+p.ok+' / '+p.n+' 句':p.n+' 句 · '+b.nLex+' 词条')+'</span>'; }
     return '<'+(b.planned?'div':'button')+' class="book'+(b.planned?' planned':'')+'" '+(b.planned?'aria-label="'+esc(m.title)+'，筹备中"':'data-route="'+esc(b.id)+'~home"')+' style="'+esc(style)+'">'+
-      '<span class="bk-cover"><span class="bk-mast">'+esc(m.mast||m.title)+'</span><span class="bk-au">'+esc((m.author||'')+(m.year?' · '+m.year:''))+'</span></span>'+
-      '<span class="bk-body"><span class="bk-level">'+esc(m.level||'')+'</span><b class="bk-title">'+esc(m.zh||m.title)+'</b><span class="bk-de">'+esc(m.title)+'</span><span class="bk-blurb">'+esc(m.blurb||'')+'</span>'+foot+'</span></'+(b.planned?'div':'button')+'>';
+      '<span class="bk-cover"><span class="bk-mast">'+esc(m.mast||m.title)+'</span><span class="bk-au" data-linkok>'+esc((m.author||'')+(m.year?' · '+m.year:''))+'</span></span>'+
+      '<span class="bk-body"><span class="bk-level">'+esc(m.level||'')+'</span><b class="bk-title">'+esc(m.zh||m.title)+'</b><span class="bk-de" lang="de" data-linkok>'+esc(m.title)+'</span><span class="bk-blurb">'+esc(m.blurb||'')+'</span>'+foot+'</span></'+(b.planned?'div':'button')+'>';
   }).join('');
 }
 
@@ -673,11 +695,12 @@ function renderLessons(){
     $('#basicsCard').innerHTML=LIB.courses.map(c=>{ const done=mkStore('reader.'+c.id+'.').get('lessons',[]).length, n=(c.lessons||[]).length;
       return '<button class="basics-link" data-route="'+esc(c.id)+'~intro"><span><b>'+esc(c.meta.title)+'</b>（'+n+' 节，所有德语书通用）'+(done>=n?' · 已学完':done?' · 已学 '+done+' 节':' · 还没学过的话，先学这里')+'</span>'+ICON.arrow+'</button>'; }).join('');
   } else $('#basicsCard').innerHTML='';
-  $('#lessons').innerHTML=C.lessons.map((l,i)=>'<article class="lesson'+(S.lessons.has(i)?' done':'')+'" data-l="'+i+'"><button aria-expanded="false"><span class="ln">'+(i+1)+'</span><span><span class="lt">'+esc(l.t)+'</span><span class="ls">'+esc(l.de)+'</span></span><span class="lm">'+l.min+' 分钟'+(l.quiz?' · 练习':'')+'</span></button><div class="lesson-body" hidden>'+renderLessonHtml(l,i)+'<div class="lesson-foot"><button class="btn" data-ldone="'+i+'">'+ICON.ok+'<span>'+(S.lessons.has(i)?'已学完':'学完了')+'</span></button></div></div></article>').join('')
+  $('#lessons').innerHTML=C.lessons.map((l,i)=>'<article class="lesson'+(S.lessons.has(i)?' done':'')+'" data-l="'+i+'"><button aria-expanded="false"><span class="ln">'+(i+1)+'</span><span><span class="lt" data-linkok>'+esc(l.t)+'</span><span class="ls" lang="de" data-linkok>'+esc(l.de)+'</span></span><span class="lm">'+l.min+' 分钟'+(l.quiz?' · 练习':'')+'</span></button><div class="lesson-body" hidden>'+renderLessonHtml(l,i)+'<div class="lesson-foot"><button class="btn" data-ldone="'+i+'">'+ICON.ok+'<span>'+(S.lessons.has(i)?'已学完':'学完了')+'</span></button></div></div></article>').join('')
     +(C.lessons.length?'':'<p class="empty">这本书还没有专题课。</p>');
   const fl=$('#lessons .lesson:not(.done)'); if(fl){ fl.querySelector('.lesson-body').hidden=false; fl.querySelector('button').setAttribute('aria-expanded','true'); }
 }
 $('#lessons').addEventListener('click',e=>{
+  if(e.target.closest('.lw')) return;
   const head=e.target.closest('.lesson>button');
   if(head){ const body=head.nextElementSibling; const open=body.hidden; body.hidden=!open; head.setAttribute('aria-expanded',open); return; }
   const qo=e.target.closest('.qopt');
@@ -769,14 +792,16 @@ function whyCase(r, el){
   return '<div class="sl-why" data-c="'+c+'"><h4>'+fmt(R.title,{case:cname})+'</h4>'+msg+'</div>';
 }
 function slipHtml(r, surface, sid, el){
-  if(!r.d) return '<p class="slip-empty">这个词暂无释义。</p>';
-  const P=C.P, [lemma,pos,gram,mean,note]=r.d, saved=S.saved.includes(r.id);
-  let h='<div class="sl-top"><h3 class="sl-word" lang="'+P.lang+'">'+esc(surface)+'</h3><button class="icon-btn" data-sw="'+esc(surface)+'" aria-label="朗读" title="朗读">'+ICON.say+'</button><button class="icon-btn" data-star="'+esc(r.id)+'" aria-pressed="'+saved+'" aria-label="收藏到生词本" title="收藏到生词本">'+(saved?ICON.starOn:ICON.star)+'</button><button class="icon-btn sheet-x" aria-label="关闭">'+ICON.x+'</button></div>';
+  const back=SLIP.hist.length?'<button class="sl-back" data-slipback>'+ICON.back+'<span lang="de">'+esc(SLIP.hist[SLIP.hist.length-1].surface)+'</span></button>':'';
+  if(!r.d) return back+'<p class="slip-empty">这个词暂无释义。</p>';
+  const P=PX(), [lemma,pos,gram,mean,note]=r.d, saved=!!S&&S.saved.includes(r.id);
+  let h=back+'<div class="sl-top"><h3 class="sl-word" lang="'+P.lang+'">'+esc(surface)+'</h3><button class="icon-btn" data-sw="'+esc(surface)+'" aria-label="朗读" title="朗读">'+ICON.say+'</button>'+(S?'<button class="icon-btn" data-star="'+esc(r.id)+'" aria-pressed="'+saved+'" aria-label="收藏到生词本" title="收藏到生词本">'+(saved?ICON.starOn:ICON.star)+'</button>':'')+'<button class="icon-btn sheet-x" aria-label="关闭">'+ICON.x+'</button></div>';
   if(lemma.toLowerCase()!==surface.toLowerCase()) h+='<div class="sl-lemma">原形 <b lang="'+P.lang+'">'+esc(lemma)+'</b></div>';
   h+='<div class="chips"><span class="chip'+(verbFlag(pos)?' verb':'')+'">'+esc(P.pos[pos]||pos)+'</span>'+(r.cs?'<span class="chip here '+r.cs[0]+'">此处：'+caseText(r.cs)+'</span>':'')+'</div>';
   h+='<div class="sl-gram">'+esc(gram)+'</div><div class="sl-mean">'+esc(mean)+'</div>';
   if(note) h+='<p class="sl-note">'+esc(note)+'</p>';
   h+=whyCase(r,el)+caseTable(r);
+  if(!C) return h;
   const forms=(C.LEMMA[lemma]||[]).filter(id=>id!==r.id && !id.includes('#')).slice(0,14);
   if(forms.length) h+='<div class="sl-sec"><h4>同一个词在文中的其他形式</h4><div class="forms">'+forms.map(id=>'<button class="form-b" data-open="'+esc(id)+'" lang="'+P.lang+'">'+esc(id)+'</button>').join('')+'</div></div>';
   const occ=C.OCC[r.id]||[];
@@ -784,9 +809,13 @@ function slipHtml(r, surface, sid, el){
   if(occ.length) h+='<div class="sl-sec"><h4>'+where+'出现 '+occ.length+' 次（同一用法）</h4><div class="occ">'+occ.slice(0,40).map(id=>{const x=C.SENTS.find(z=>z.id===id);return '<button data-jump="'+id+'"'+(id===sid?' aria-current="true"':'')+'>§ '+esc(x.label)+'</button>'}).join('')+'</div></div>';
   return h;
 }
-function openWord(r, surface, sid, el){
-  $$('.w.on').forEach(x=>x.classList.remove('on')); $$('.w.same').forEach(x=>x.classList.remove('same'));
-  if(el){ el.classList.add('on'); if(r.id) $$('#text .w[data-id="'+CSS.escape(r.id)+'"]').forEach(x=>{ if(x!==el) x.classList.add('same'); }); }
+const SLIP={hist:[], cur:null};
+function entryOf(id){ return id[0]==='~'?(DICT&&DICT[id.slice(1)]):(C&&C.LEX[id]); }
+function openWord(r, surface, sid, el, fromSlip){
+  if(fromSlip && SLIP.cur) SLIP.hist.push(SLIP.cur); else if(fromSlip!==null) SLIP.hist=[];
+  SLIP.cur={r,surface,sid};
+  $$('.w.on,.lw.on').forEach(x=>x.classList.remove('on')); $$('.w.same').forEach(x=>x.classList.remove('same'));
+  if(el && !el.closest('#sheet,#slipDesk')){ el.classList.add('on'); if(r.id && el.classList.contains('w')) $$('#text .w[data-id="'+CSS.escape(r.id)+'"]').forEach(x=>{ if(x!==el) x.classList.add('same'); }); }
   const html=slipHtml(r,surface,sid,el);
   $('#slipDesk').innerHTML=html; $('#slipMob').innerHTML=html;
   if(!matchMedia('(min-width:1024px)').matches || $('#v-read').hidden){
@@ -818,7 +847,7 @@ function renderVocab(){
   let ids=Object.keys(LEX).filter(id=>{ const d=LEX[id]; if(vpos!=='all'&&d[1]!==vpos) return false; if(!q) return true; return id.includes(q)||d[0].toLowerCase().includes(q)||d[3].includes(q)||d[2].includes(q); });
   ids.sort(vfreq?(a,b)=>freq(b)-freq(a)||a.localeCompare(b,P.lang):(a,b)=>a.localeCompare(b,P.lang));
   const total=ids.length; ids=ids.slice(0,vlimit);
-  $('#vlist').innerHTML=(total?'':'<p class="empty">没有找到匹配的词。换个拼写，或者用中文试试。</p>')+ids.map(id=>{const d=LEX[id]; const f=id.split('#')[0]; return '<div class="vrow" role="button" tabindex="0" data-open="'+esc(id)+'"><div class="f" lang="'+P.lang+'">'+esc(f)+(id.includes('#')?' <span class="chip">'+esc((P.pos[d[1]]||'').split(' ')[0])+'</span>':'')+'<small>'+esc(d[0])+'</small></div><div class="m">'+esc(d[3])+'</div><div class="q">×'+freq(id)+'</div></div>'}).join('')+(total>vlimit?'<button class="btn more" id="vmore">再显示 '+Math.min(120,total-vlimit)+' 个（共 '+total+'）</button>':'');
+  $('#vlist').innerHTML=(total?'':'<p class="empty">没有找到匹配的词。换个拼写，或者用中文试试。</p>')+ids.map(id=>{const d=LEX[id]; const f=id.split('#')[0]; return '<div class="vrow" role="button" tabindex="0" data-open="'+esc(id)+'"><div class="f" lang="'+P.lang+'">'+esc(f)+(id.includes('#')?' <span class="chip">'+esc((P.pos[d[1]]||'').split(' ')[0])+'</span>':'')+'<small data-linkok>'+esc(d[0])+'</small></div><div class="m" data-linkok>'+esc(d[3])+'</div><div class="q">×'+freq(id)+'</div></div>'}).join('')+(total>vlimit?'<button class="btn more" id="vmore">再显示 '+Math.min(120,total-vlimit)+' 个（共 '+total+'）</button>':'');
   const mb=$('#vmore'); if(mb) mb.onclick=()=>{vlimit+=120;renderVocab()};
 }
 
@@ -828,7 +857,8 @@ function renderSaved(){
   const box=$('#savedBox'), LEX=C.LEX, P=C.P;
   if(!S.saved.length){ box.innerHTML='<div class="empty"><h3>生词本还是空的</h3><p>在精读时点开一个词，再点词卡右上角的 ☆，它就会出现在这里。</p><p>想先背最常见的词？下面是全书出现最多的十个实词：</p><div class="forms">'+Object.keys(LEX).filter(id=>P.contentPos.includes(LEX[id][1])&&!id.includes('#')).sort((a,b)=>freq(b)-freq(a)).slice(0,10).map(id=>'<button class="form-b" data-open="'+esc(id)+'" lang="'+P.lang+'">'+esc(id)+'</button>').join('')+'</div></div>'; return; }
   fi=Math.min(fi,S.saved.length-1);
-  const id=S.saved[fi], d=LEX[id], f=id.split('#')[0];
+  const id=S.saved[fi], d=entryOf(id), f=id.replace(/^~/,'').split('#')[0];
+  if(!d && id[0]==='~' && !DICT){ box.innerHTML='<p class="empty">词典加载中…</p>'; return; }
   if(!d){ S.saved.splice(fi,1); persist(); renderSaved(); return; }
   box.innerHTML='<div class="card-wrap"><div class="fcard" id="fcard" role="button" tabindex="0" aria-label="翻面"><div class="fw" lang="'+P.lang+'">'+esc(f)+'</div><div class="fl" lang="'+P.lang+'">'+esc(d[0])+'</div>'+(flip?'<div class="fm">'+esc(d[3])+'</div><div class="sl-gram">'+esc(d[2])+'</div>':'<div class="fh">点卡片看释义</div>')+'</div><div class="fnav"><button class="btn" id="fprev">上一个</button><span>'+(fi+1)+' / '+S.saved.length+'</span><button class="btn" id="fsay" aria-label="朗读">'+ICON.say+'</button><button class="btn" id="fopen">详情</button><button class="btn pri" id="fnext">下一个</button></div></div>';
   $('#fcard').onclick=()=>{flip=!flip;renderSaved()};
@@ -862,7 +892,7 @@ function validRoute(t){
   const isCourse=!!COURSES[r.ctx];
   if(isCourse) { if(r.sub==='intro') return true; const m=/^intro-(\d+)$/.exec(r.sub); return !!m && +m[1]>=1 && +m[1]<=(COURSES[r.ctx].lessons||[]).length; }
   if(SUBS.includes(r.sub)) return true;
-  let m=/^s-(\d+-\d+)$/.exec(r.sub); if(m) return prep(r.ctx).SENTS.some(x=>x.id===m[1]);
+  let m=/^s-(\d+)-(\d+)$/.exec(r.sub); if(m){ const t=BOOKS[r.ctx].toc[+m[1]]; return !!t && +m[2]<t[1]; }
   m=/^intro-(\d+)$/.exec(r.sub); if(m) return +m[1]>=1 && +m[1]<=(BOOKS[r.ctx].lessons||[]).length;
   return false;
 }
@@ -871,7 +901,7 @@ const viewKey=t=>{ const r=parse(t); return r.ctx?r.ctx+'~'+viewOfSub(r.sub):'li
 function ctxTitle(id){ const m=BOOKS[id]?BOOKS[id].meta:COURSES[id].meta; return m.short||m.title; }
 function routeLabel(t){
   const r=parse(t); if(r.sub==='lib') return '书架';
-  let lab=/^s-/.test(r.sub)?(()=>{ const x=prep(COURSES[r.ctx]?COURSES[r.ctx].meta.lexiconFrom:r.ctx).SENTS.find(z=>'s-'+z.id===r.sub); return '§ '+(x?x.label:''); })()
+  let lab=/^s-/.test(r.sub)?(()=>{ const [pi,si]=r.sub.slice(2).split('-').map(Number); const t=BOOKS[COURSES[r.ctx]?COURSES[r.ctx].meta.lexiconFrom:r.ctx].toc[pi]; return '§ '+(t?sentLabel(t[0],si,t[1]):''); })()
          :/^intro-/.test(r.sub)?'第 '+r.sub.slice(6)+' 课':(COURSES[r.ctx]?'':VIEWNAME[r.sub]);
   if(!C || C.id!==r.ctx || COURSES[r.ctx]) lab=ctxTitle(r.ctx)+(lab?' · '+lab:'');
   return lab;
@@ -881,10 +911,21 @@ function showView(v){
   $$('.tab').forEach(b=>b.setAttribute('aria-selected', b.dataset.go===v));
   if(v==='vocab') renderVocab(); if(v==='saved') renderSaved(); if(v==='lib') renderLibrary();
 }
-function render(t, y){
+let renderSeq=0;
+async function render(t, y){
+  const seq=++renderSeq;
   const r=parse(t), key=viewKey(t), same=NAV.shown===key;
   if(NAV.shown && !same) viewY[NAV.shown]=scrollY;
-  if(r.ctx) enterCtx(r.ctx); else leaveCtx();
+  if(r.ctx){
+    const need=COURSES[r.ctx]?COURSES[r.ctx].meta.lexiconFrom:r.ctx;
+    if(!BOOKS[need].text){
+      document.body.classList.add('loading');
+      try{ await ensureBook(need); }catch(e){ document.body.classList.remove('loading'); toast('加载失败，请检查网络后重试'); return; }
+      document.body.classList.remove('loading');
+      if(seq!==renderSeq) return;
+    }
+    enterCtx(r.ctx);
+  } else leaveCtx();
   const v=r.ctx?viewOfSub(r.sub):'lib';
   showView(v); NAV.shown=key;
   const run=()=>{
@@ -946,8 +987,11 @@ try{ history.scrollRestoration='manual'; }catch(e){}
 /* ---------- global clicks & keys ---------- */
 $('#contBtn').addEventListener('click',()=>{ const n=nextSent()||C.SENTS[0]; navigate(C.id+'~s-'+n.id); });
 document.addEventListener('click',e=>{
+  const lw=e.target.closest('.lw');
+  if(lw){ e.preventDefault(); const id=lw.dataset.l, t=lw.textContent; openWord({w:t,id,cs:null,named:null,d:entryOf(id)}, t.replace(/[-·]/g,''), null, lw, !!lw.closest('#sheet,#slipDesk')); return; }
   const rt=e.target.closest('[data-route]'); if(rt){ e.preventDefault(); navigate(rt.dataset.route); return; }
   const g=e.target.closest('[data-go]'); if(g){ e.preventDefault(); if(C) navigate(C.id+'~'+g.dataset.go); return; }
+  const sb=e.target.closest('[data-slipback]'); if(sb){ const pv=SLIP.hist.pop(); if(pv) openWord(pv.r,pv.surface,pv.sid,null,null); return; }
   const w=e.target.closest('.w');
   if(w){ const r=resolve(w.dataset.w,w.dataset.k); openWord(r,w.dataset.w,w.dataset.s,w); return; }
   const sw=e.target.closest('[data-sw]'); if(sw){ say(sw.dataset.sw); return; }
@@ -955,7 +999,7 @@ document.addEventListener('click',e=>{
   if(e.target.closest('[data-say="demo"]')){ say(plain(first.de)); return; }
   const st=e.target.closest('[data-star]'); if(st){ toggleSave(st.dataset.star); return; }
   const jp=e.target.closest('[data-jump]'); if(jp){ navigate(C.textBook+'~s-'+jp.dataset.jump); return; }
-  const op=e.target.closest('[data-open]'); if(op){ const id=op.dataset.open; openWord({w:id.split('#')[0],id,cs:null,named:null,d:C.LEX[id]}, id.split('#')[0], null, null); return; }
+  const op=e.target.closest('[data-open]'); if(op){ const id=op.dataset.open, f=id.replace(/^~/,'').split('#')[0]; openWord({w:f,id,cs:null,named:null,d:entryOf(id)}, f, null, null, !!op.closest('#sheet,#slipDesk')); return; }
   if(e.target.closest('.sheet-x')){ closeSheet(); $$('.w.on').forEach(x=>x.classList.remove('on')); return; }
   if(sheetOpen() && !e.target.closest('#sheet') && !e.target.closest('#backBtn')) closeSheet();
 });
@@ -964,7 +1008,54 @@ document.addEventListener('keydown',e=>{
   if((e.key==='Enter'||e.key===' ') && (e.target.classList?.contains('w')||e.target.classList?.contains('vrow'))){ e.preventDefault(); e.target.click(); }
 });
 
+/* ---------- every German word on the page is a dictionary link ----------
+   Annotated sentences (.w) carry their own analysis. Everything else — titles, epigraphs, notes, lesson prose,
+   word-slip text, footers — is scanned when it appears: Latin-script words are wrapped in .lw links,
+   looked up first in the current book's lexicon, then in the shared dictionary (DICT). Hyphenated
+   breakdowns (Mün-dig-keit, -ung, ver-) are tried whole first, then as prefix / suffix / stem. */
+const LWRE=/(-?)([A-Za-zÀ-ÖØ-öø-ÿẞ]+(?:[-·][A-Za-zÀ-ÖØ-öø-ÿẞ]+)*)(-?)/g;
+const HARD='.de,.w,.lw,script,style,svg,input,textarea,select,option,title,#toast,.sl-word,[data-nolink]';
+const CTRL='button,a,[data-open],[data-route],[data-jump],[role="button"],.qopt,.tab';
+function lk(key){
+  if(C && C.LEX[key]) return key;
+  if(DICT && DICT[key]) return '~'+key;
+  return null;
+}
+function linkText(text){
+  let out='', last=0, any=false, m; LWRE.lastIndex=0;
+  const span=(t,id)=>{ any=true; return '<span class="lw" data-l="'+esc(id)+'" lang="de">'+esc(t)+'</span>'; };
+  while((m=LWRE.exec(text))){
+    const [,lead,chain,trail]=m, st=m.index+lead.length;
+    out+=esc(text.slice(last,st)); last=st+chain.length;
+    const parts=chain.split(/([-·])/);
+    if(parts.length>1){ const id=lk(chain.replace(/[-·]/g,'').toLowerCase()); if(id){ out+=span(chain,id); continue; } }
+    for(let i=0;i<parts.length;i+=2){
+      const p=parts[i], lw=p.toLowerCase(), keys=[];
+      if(i>0||lead) keys.push('-'+lw); if(i<parts.length-1||trail) keys.push(lw+'-'); keys.push(lw);
+      let id=null; for(const k of keys){ id=lk(k); if(id) break; }
+      out+=id?span(p,id):esc(p); if(i+1<parts.length) out+=esc(parts[i+1]);
+    }
+  }
+  return any?out+esc(text.slice(last)):null;
+}
+function linkify(root){
+  if(!DICT || !root) return;
+  if(root.nodeType===3) root=root.parentElement; if(!root || root.nodeType!==1) return;
+  if(root.closest(HARD)) return;
+  const nodes=[], tw=document.createTreeWalker(root, NodeFilter.SHOW_TEXT, {acceptNode(n){
+    const p=n.parentElement; if(!p || !/[A-Za-zÀ-ÿ]/.test(n.data)) return NodeFilter.FILTER_SKIP;
+    if(p.closest(HARD)) return NodeFilter.FILTER_REJECT;
+    if(p.closest(CTRL) && !p.closest('[data-linkok]')) return NodeFilter.FILTER_REJECT;
+    return NodeFilter.FILTER_ACCEPT; }});
+  while(tw.nextNode()) nodes.push(tw.currentNode);
+  for(const n of nodes){ const h=linkText(n.data); if(h==null) continue; const t=document.createElement('template'); t.innerHTML=h; n.replaceWith(t.content); }
+}
+new MutationObserver(ms=>{ if(!DICT) return; const seen=new Set(); for(const m of ms) for(const n of m.addedNodes){ if(seen.has(n)) continue; seen.add(n); if(n.nodeType===1||n.nodeType===3) linkify(n); } })
+  .observe(document.body,{childList:true,subtree:true});
+load('dict').then(d=>{ DICT=d; linkify(document.body); }).catch(()=>{});
+
 /* ---------- boot ---------- */
+if(LIB.sw && 'serviceWorker' in navigator && /^https?:$/.test(location.protocol)) addEventListener('load',()=>navigator.serviceWorker.register('sw.js').catch(()=>{}));
 { const t0=canon((location.hash||'').slice(1)); const t=validRoute(t0)?t0:'lib'; NAV.cur=t; render(t); histWrite({t,i:0},true); updateBack(); }
 })();
 </script>

@@ -181,3 +181,217 @@ def validate(book):
     if unused:
         warnings.append(f"{len(unused)} 个词条在文中没有用到（不影响构建）：{' '.join(unused[:12])}{' …' if len(unused) > 12 else ''}")
     return errors, warnings, missing
+
+
+# ---------------------------------------------------------------- whole-site coverage
+# Every Latin-script word the reader can SEE (outside the annotated sentences) is made
+# clickable at runtime. These helpers list those strings so check.py can make sure each
+# word has a dictionary entry somewhere (own book → shared lexicon → any other book).
+
+WORD = re.compile(r"[A-Za-zÀ-ÖØ-öø-ÿẞ]+")
+_PROFILE_SKIP = {"_about", "lang", "tts", "letters", "keyPattern", "css", "when", "verbPos", "verbLightPos",
+                 "taggedPos", "contentPos", "posFilter", "caseOrder", "genderOrder", "plural", "governors"}
+
+
+def visible_words(s):
+    s = re.sub(r"\[\[.*?\]\]|\{\{[^}]*\}\}|<[^>]+>|&\w+;", " ", s)
+    return WORD.findall(s)
+
+
+def load_shared(profile):
+    """shared/lexicon/*.tsv: words used on library/course/UI pages and in notes."""
+    fake = Book.__new__(Book)
+    fake.dir, fake.profile = KIT / "shared", profile
+    return Book._load_lexicon(fake) if fake.dir.exists() else ({}, [])
+
+
+def zone_strings(lib):
+    """yield (zone, location, text) for every displayed string outside annotated German."""
+    S = lib.site
+    for k in ("title", "subtitle", "eyebrow", "lede", "footer"):
+        yield "site", f"library.json {k}", S.get(k, "")
+    for p in lib.planned:
+        for k in ("title", "mast", "blurb", "level", "zh", "author"):
+            yield "site", f"planned {k}", str(p.get(k, ""))
+    prof = lib.books[0].profile
+
+    def walk(o, path):
+        if isinstance(o, dict):
+            for k, v in o.items():
+                if k not in _PROFILE_SKIP:
+                    yield from walk(v, path + "." + k)
+        elif isinstance(o, list):
+            for v in o:
+                yield from walk(v, path)
+        elif isinstance(o, str):
+            yield "site", "profile" + path, o
+    yield from walk(prof, "")
+    t = (KIT / "template" / "app.src.html").read_text(encoding="utf8")
+    body = t[t.index("<header"):t.index("<script>")]
+    yield "site", "template", re.sub(r'\s(class|id|data-[\w-]+|href|aria-[\w-]+|role|type|title)="[^"]*"', " ", body)
+    js = t[t.index("<script>"):]
+    for m in re.findall(r"'([^'\n]*[一-鿿][^'\n]*)'", js):
+        yield "site", "template js", m
+    for it in lib.items():
+        z = it.meta["id"]
+        m = it.meta
+        for k in ("title", "de", "lede", "mast", "blurb", "level", "zh", "author", "eyebrow", "subtitle",
+                  "demoCaption", "slipEmpty", "footer", "short"):
+            if k in m:
+                yield ("site" if k in ("title", "de", "lede", "mast", "blurb", "level", "zh", "author") else z), f"{z} meta {k}", str(m[k])
+        for h in m.get("howto", []):
+            yield z, f"{z} howto", h.get("h", "") + " " + h.get("p", "")
+        for k, v in m.get("intro", {}).items():
+            yield z, f"{z} intro {k}", v
+        for pi, sec in enumerate(it.text):
+            yield z, f"{z} §{pi} title", f"{sec.get('t', '')} {sec.get('h', '')} {sec.get('pg', '')}"
+            for si, s in enumerate(sec.get("s", [])):
+                yield z, f"{z} §{pi}.{si+1} notes", " ".join(s.get("n", [])) + " " + s.get("pg", "")
+                yield z, f"{z} §{pi}.{si+1} zh", s.get("zh", "")
+        for li, l in enumerate(it.lessons):
+            yield z, f"{z} lesson {li+1}", f"{l.get('t', '')} {l.get('de', '')} {l.get('html', '')}"
+            for q in l.get("quiz", []) or []:
+                yield z, f"{z} lesson {li+1} quiz {q.get('id')}", " ".join(q.get("opts", [])) + " " + q.get("why", "")
+        if it.kind == "book":
+            for k, v in it.lex.items():
+                yield z, f"{z} lexicon {k}", " ".join(v)
+
+
+def coverage(lib):
+    """words visible somewhere on the site that no lexicon explains: {word: [location, …]}"""
+    shared, _ = load_shared(lib.books[0].profile)
+    known = set(shared)
+    for b in lib.books:
+        known.update(b.lex)
+    miss = {}
+    for zone, loc, text in zone_strings(lib):
+        for w in visible_words(text):
+            lw = w.lower()
+            if lw not in known:
+                miss.setdefault(lw, []).append(loc)
+    return miss
+
+
+_ART = {"der": "阳性", "die": "阴性", "das": "中性"}
+
+
+def lemma_entries(books):
+    """Dictionary-form entries derived from lemmas: 'drohen' for a text that only has 'drohet'."""
+    out, forms = {}, {}
+    for b in books:
+        for k, v in b.lex.items():
+            if "#" in k:
+                continue
+            lemma, pos = v[0], v[1]
+            for alt in lemma.split(" / "):
+                alt = re.sub(r"（[^）]*）|\([^)]*\)", "", alt).strip()
+                gender = None
+                parts = alt.split()
+                if pos == "N" and len(parts) == 2 and parts[0] in _ART:
+                    gender, parts = _ART[parts[0]], parts[1:]
+                elif len(parts) == 2 and parts[0] == "sich":
+                    parts = parts[1:]
+                if len(parts) != 1 or not WORD.fullmatch(parts[0]):
+                    continue
+                key = parts[0].lower()
+                forms.setdefault(key, []).append(k)
+                if key in out:
+                    continue
+                if pos == "N":
+                    gram = "名词 · " + (gender + " · " if gender else "") + "词典形（单数主格）"
+                elif pos in ("V", "I", "Z"):
+                    pos, gram = "I", "不定式（词典形）" + ("，可分动词" if v[1] == "Z" else "")
+                else:
+                    gram = "原形（词典形）"
+                out[key] = [lemma if pos != "I" else alt, pos, gram, v[3], ""]
+    for key, e in out.items():
+        fs = [f for f in dict.fromkeys(forms[key]) if f != key][:8]
+        if fs:
+            e[4] = "书中出现的形式：" + "、".join(fs)
+    return out
+
+
+def build_dict(lib):
+    """One general-purpose dictionary for every page: shared lexicon > book entries > derived lemmas."""
+    shared, errs = load_shared(lib.books[0].profile)
+    d = dict(shared)
+    for b in lib.books:
+        for k, v in b.lex.items():
+            if "#" not in k and k not in d:
+                d[k] = v
+    for k, v in lemma_entries(lib.books).items():
+        d.setdefault(k, v)
+    return d, errs
+
+
+def chains(text):
+    """tokenise like the browser does: hyphen/·-joined chains, tried whole first, then part by part"""
+    text = re.sub(r"\[\[.*?\]\]|\{\{[^}]*\}\}|\{\w+\}|<[^>]+>|&\w+;", " ", text)
+    for m in re.finditer(r"(-?)([A-Za-zÀ-ÖØ-öø-ÿẞ]+(?:[-·][A-Za-zÀ-ÖØ-öø-ÿẞ]+)*)(-?)", text):
+        yield m.group(1), m.group(2), m.group(3)
+
+
+def lookup_keys(lead, chain, trail):
+    """candidate dictionary keys for one chain → list of (surface, [keys…]) units"""
+    parts = re.split(r"[-·]", chain)
+    if len(parts) > 1:
+        whole = "".join(parts).lower()
+        return [(chain, [whole])], [(p, ([("-" + p.lower())] if i or lead else []) + ([p.lower() + "-"] if i < len(parts) - 1 or trail else []) + [p.lower()]) for i, p in enumerate(parts)]
+    p = parts[0]
+    return [(p, ([("-" + p.lower())] if lead else []) + ([p.lower() + "-"] if trail else []) + [p.lower()])], None
+
+
+def coverage2(lib, dic):
+    miss = {}
+    for zone, loc, text in zone_strings(lib):
+        if loc == "template js" or ".tables" in loc:
+            continue
+        for lead, chain, trail in chains(text):
+            first, alt = lookup_keys(lead, chain, trail)
+            if alt and first[0][1][0] in dic:
+                continue
+            for surf, keys in (alt or first):
+                if len(surf) < 2 or any(k in dic for k in keys):
+                    continue
+                miss.setdefault(keys[-1] if not (lead or trail) or len(keys) == 1 else keys[0], []).append(loc)
+    return miss
+
+
+def table_for(P, lemma, surface, named):
+    for t in P["tables"]:
+        w, stem = t["when"], ""
+        if "named" in w and named not in w["named"]:
+            continue
+        if "lemma" in w and lemma not in w["lemma"]:
+            continue
+        if "lemmaStem" in w:
+            if lemma not in w["lemmaStem"]:
+                continue
+            stem = w["lemmaStem"][lemma]
+        if "surface" in w and (surface not in w["surface"] or named):
+            continue
+        ov = (t.get("override") or {}).get(lemma, {})
+        return lambda c, g, t=t, stem=stem, ov=ov: ov.get(f"{c}.{g}") or (t["full"][c][g] if "full" in t else stem + t["endings"][c][g])
+    return None
+
+
+def case_issues(book):
+    """a case/gender tag that contradicts the declension table: e.g. dem{nf} or diese{dm}"""
+    P, out = book.profile, []
+    for loc, de in book.snippets():
+        for word, key in book.tokens(de):
+            w = word.lower()
+            cs = next((k for k in key.split(":") if book.keyre.match(k)), None)
+            if not cs:
+                continue
+            named = next((k for k in key.split(":") if k and not book.keyre.match(k) and f"{w}#{k}" in book.lex), None)
+            d = book.lex.get(f"{w}#{named}" if named else w)
+            if not d or d[1] not in P["taggedPos"]:
+                continue
+            cell = table_for(P, d[0], w, named)
+            if not cell:
+                continue
+            exp = cell(cs[0], cs[1]).lower()
+            if exp != w and exp not in ("—",) and w.rstrip("e") != exp.rstrip("e"):
+                out.append(f"{loc}：{word}{{{key}}} 按变格表 {cs} 应为 {exp}")
+    return out

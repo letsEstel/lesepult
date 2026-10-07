@@ -1,0 +1,11 @@
+{
+  "name": "Lesepult · 德语原典逐词精读",
+  "short_name": "Lesepult",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f3f4f1",
+  "theme_color": "#1e3c6a",
+  "lang": "zh-CN",
+  "icons": [{"src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable"}]
+}

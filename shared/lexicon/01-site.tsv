@@ -1,0 +1,99 @@
+# 全站共用词典：书架、界面、课程和注释里出现的德语（以及英语、拉丁语、缩写、专名）。
+# 格式同书的词典：form|lemma|POS|grammar|meaning|note。书的词典优先，这里作后备。
+lesepult|das Lesepult|N|名词 · 中性 · 单数|读经台；阅读架|本站的名字。lesen（读）+ Pult（斜面桌）：教堂和图书馆里放大书的斜面架子。
+text|der Text|N|名词 · 阳性 · 单数|文本；原文|Zum Text：关于这篇文本（zu + dem = zum）。
+grundkurs|der Grundkurs|N|名词 · 阳性 · 单数|基础课|Grund（基础）+ Kurs（课程）。
+deutsch|Deutsch|N|名词 · 中性（语言名）|德语|Grundkurs Deutsch：德语基础课。作形容词时小写：deutsch（德国的、德语的）。
+wortschatz|der Wortschatz|N|名词 · 阳性 · 单数|词汇；词汇量|Wort（词）+ Schatz（宝藏）：词的宝库。
+vokabelheft|das Vokabelheft|N|名词 · 中性 · 单数|生词本|Vokabel（单词）+ Heft（本子）。Mein Vokabelheft：我的生词本。
+titel|der Titel|N|名词 · 阳性 · 单数|标题；书名|复数 die Titel。
+vorrede|die Vorrede|N|名词 · 阴性 · 单数|序言|vor（前）+ Rede（话）。今天多说 das Vorwort。
+einleitung|die Einleitung|N|名词 · 阴性 · 单数|导言；引论|ein·leiten（引入）+ -ung。《纯粹理性批判》的 Einleitung 是全书的总纲。
+lage|die Lage|N|名词 · 阴性 · 单数|处境；状况|Die Lage der Metaphysik：形而上学的处境（der = 属格）。
+schlüsselbegriffe|der Schlüsselbegriff|N|名词 · 阳性 · 复数|关键概念|Schlüssel（钥匙）+ Begriff（概念）。
+definition|die Definition|N|名词 · 阴性 · 单数|定义|外来词，重音在最后：De-fi-ni-TION。
+problem|das Problem|N|名词 · 中性 · 单数|问题；难题|Das Humesche Problem：休谟问题。
+verbstellung|die Verbstellung|N|名词 · 阴性 · 单数|动词位置|Verb（动词）+ Stellung（位置）。德语语法的核心：动词放第二位还是句末。
+verben|das Verb|N|名词 · 中性 · 复数|动词（复数）|trennbare Verben：可分动词。
+trennbare|trennbar|A|形容词 · 复数（无冠词）|可分的|trennen（分开）+ -bar（可……的）。trennbare Verben：可分动词。
+infinitiv|der Infinitiv|N|名词 · 阳性 · 单数|不定式|动词的原形：gehen、denken。zu-Infinitiv：带 zu 的不定式。
+partizipialattribut|das Partizipialattribut|N|名词 · 中性 · 单数|分词定语|用分词（常带一长串补充成分）放在名词前作定语：die von der Natur freigesprochenen Menschen。
+nomen|das Nomen|N|名词 · 中性 · 单数|名词|语法术语，也叫 Substantiv。
+genus|das Genus|N|名词 · 中性 · 单数|（语法）性|德语名词有三个性：阳性、阴性、中性。
+nominativ|der Nominativ|N|名词 · 阳性 · 单数|主格（第一格）|问 wer? was?：谁、什么在做。
+akkusativ|der Akkusativ|N|名词 · 阳性 · 单数|宾格（第四格）|问 wen? was?：动作的对象。
+dativ|der Dativ|N|名词 · 阳性 · 单数|与格（第三格）|问 wem?：给谁、对谁；也跟在 mit、von、zu、aus 等介词后。
+genitiv|der Genitiv|N|名词 · 阳性 · 单数|属格（第二格）|问 wessen?：谁的。也跟在 wegen、statt、trotz 等介词后。
+wem|wer|R|疑问代词 · 与格|给谁；对谁|与格的提问词：Wem gehört das?（这是谁的？）
+wen|wer|R|疑问代词 · 宾格|谁（作宾语）|宾格的提问词：Wen siehst du?（你看见谁？）
+wessen|wer|R|疑问代词 · 属格|谁的|属格的提问词：Wessen Buch?（谁的书？）
+akademie|die Akademie|N|名词 · 阴性 · 单数|学院；科学院|Akademie-Ausgabe：普鲁士科学院版康德全集，学界标准版本，引用写作 AA。
+ausgabe|die Ausgabe|N|名词 · 阴性 · 单数|版本；（书的）一版|aus·geben（发出）+ -e。Akademie-Ausgabe：学院版。
+projekt|das Projekt|N|名词 · 中性 · 单数|项目；计划|Projekt Gutenberg-DE：德语公有领域电子书网站。
+urheberrecht|das Urheberrecht|N|名词 · 中性 · 单数|著作权；版权|Urheber（作者）+ Recht（权利）。
+aussprache|die Aussprache|N|名词 · 阴性 · 单数|发音|aus·sprechen（说出）。
+druck|der Druck|N|名词 · 阳性 · 单数|压力；印刷|aus（出）+ Druck（压）→ Ausdruck：表达。
+aa|AA|M|缩写|学院版康德全集（Akademie-Ausgabe）|引用格式：AA IV 255 = 第四卷第 255 页。
+krv|KrV|M|缩写|《纯粹理性批判》（Kritik der reinen Vernunft）|学界常写 KrV A（第一版 1781）/ B（第二版 1787）+ 页码，如 KrV B 1。
+prol|Prol.|M|缩写|《未来形而上学导论》（Prolegomena）|引用时常写 Prol. § 页码，或 AA IV 页码。
+iii|III|M|罗马数字|三；第三|AA III：学院版第三卷（《纯粹理性批判》第二版）。
+iv|IV|M|罗马数字|四；第四|AA IV：学院版第四卷（含《导论》等）。
+vii|VII|M|罗马数字|七；第七|
+dat|Dat.|M|缩写|与格（Dativ）|词典里 sich (Dat.) 表示这个 sich 是与格。
+etw|etw.|M|缩写|某物（etwas）|词典惯用：über etw. erröten：因某事脸红。
+jm|jm.|M|缩写|某人（与格，jemandem）|词典惯用：jm drohen：威胁某人。
+jn|jn.|M|缩写|某人（宾格，jemanden）|词典惯用：jn zu etw. auffordern：要求某人做某事。
+jds|jds.|M|缩写|某人的（属格，jemandes）|词典惯用。
+vs|vs.|M|缩写|对比；相对于（versus）|拉丁语 versus，德语、英语通用。
+ai|AI|M|缩写（英语）|人工智能|德语叫 KI（Künstliche Intelligenz）。
+de|DE|M|缩写|德国；德语|Projekt Gutenberg-DE：德语版古腾堡计划。
+jemandem|jemand|R|不定代词 · 与格|某人（与格）|词典里缩写为 jm。
+niemandem|niemand|R|不定代词 · 与格|没有人（与格）|niemand 的与格。
+seinige|der seinige|R|物主代词（名词化，书面）|他的那个|der seinige = der seine，指前面提到的东西。
+immanuel|Immanuel|Y|人名|伊曼努尔（康德的名）|Immanuel Kant（1724–1804），生于并终老于柯尼斯堡。
+kants|Kant|Y|人名 · 属格|康德的|专名的属格直接加 -s：Kants Schriften（康德的著作）。
+humes|Hume|Y|人名 · 属格|休谟的|David Hume（1711–1776），苏格兰哲学家。Humes Problem = das Humesche Problem。
+humesche|humesch|A|形容词（由人名构成）· 主格|休谟的|旧式写法大写：das Humesche Problem（休谟问题）。今天写 humesche。
+davied|David|Y|人名（底本误排）|大卫（休谟的名）|Projekt Gutenberg 底本误作 DAVIED，本站改为 David。
+moses|Moses Mendelssohn|Y|人名|摩西·门德尔松|Moses Mendelssohn（1729–1786），柏林启蒙哲学家，与康德同年发表《论“什么是启蒙”》。
+thomas|Thomas|Y|人名|托马斯|如 Thomas Reid（托马斯·里德），苏格兰常识学派。
+james|James|Y|人名|詹姆斯|如 James Beattie / James Oswald（詹姆斯·贝蒂 / 奥斯瓦尔德），苏格兰常识学派。
+john|John|Y|人名|约翰|如 John Locke（约翰·洛克）。
+joseph|Joseph|Y|人名|约瑟夫|如 Joseph Priestley（约瑟夫·普里斯特利），英国化学家、哲学家。
+gottfried|Gottfried|Y|人名|戈特弗里德|如 Gottfried Wilhelm Leibniz（莱布尼茨）。
+wilhelm|Wilhelm|Y|人名|威廉|如 Gottfried Wilhelm Leibniz。
+friederich|Friedrich|Y|人名（旧拼写）|腓特烈|普鲁士国王腓特烈二世（Friedrich II.，1740–1786 在位），康德称这个时代为「腓特烈的世纪」。
+cassirer|Ernst Cassirer|Y|人名|恩斯特·卡西尔|新康德主义哲学家，编过康德全集（卡西尔版）。
+hartknoch|Hartknoch|Y|人名（出版商）|哈特克诺赫|Johann Friedrich Hartknoch，里加的出版商，出版了《纯粹理性批判》和《导论》。
+riga|Riga|Y|地名|里加|今拉脱维亚首都。康德的主要著作都在这里出版。
+bayern|Bayern|Y|地名|巴伐利亚|德国南部地区。
+gutenberg|Gutenberg|Y|人名 / 项目名|古腾堡|约翰内斯·古腾堡，活字印刷发明者；Projekt Gutenberg 是公有领域电子书项目。
+büsching|Büsching|Y|人名|比兴|Anton Friedrich Büsching（1724–1793），地理学家，主编《每周新闻》。
+büschingsche|büschingsch|A|形容词（由人名构成）· 主格阴性|比兴的|die Büschingsche Wochenschrift：比兴主编的周刊。
+berlinische|berlinisch|A|形容词 · 主格阴性|柏林的|Berlinische Monatsschrift：《柏林月刊》，《什么是启蒙》首发于此（1784 年 12 月）。
+monats|der Monat|N|名词 · 阳性 · 单数 · 属格|月份的|des Monats：本月的。Monatsschrift：月刊。
+jahres|das Jahr|N|名词 · 中性 · 单数 · 属格|年份的|des Jahres：……年的。
+dezember|der Dezember|N|名词 · 阳性 · 单数|十二月|
+dreißigsten|dreißigst|A|序数词 · 与格 / 属格|第三十|am dreißigsten：在三十日。
+wöchentliche|wöchentlich|A|形容词 · 主格阴性|每周的|Woche（周）+ -lich。
+enlightenment|enlightenment|E|英语名词|启蒙|对应德语 Aufklärung、法语 Lumières。
+common|common|E|英语形容词|普通的；共同的|common sense：常识 = 德语 der gemeine Menschenverstand。
+sense|sense|E|英语名词|感觉；意义|common sense：常识。
+ghost|ghost|E|英语名词|鬼魂；（古义）灵|与德语 Geist（精神）同源。
+first|first|E|英语形容词|第一|与德语 Fürst（君主，「第一人」）同源。
+would|would|E|英语情态动词|会；将会|德语 würde + 不定式。
+could|could|E|英语情态动词|能够；可能|德语 könnte。
+to|to|E|英语|（不定式标志）|to do 相当于德语 zu tun。
+do|do|E|英语动词|做|to do = zu tun。
+science|science|E|英语名词|科学|德语 Wissenschaft 的含义更广：任何系统化的知识。
+lumières|les Lumières|F|法语名词 · 复数|启蒙（运动）|字面「光」。德语 Aufklärung、英语 Enlightenment 也都用光的意象。
+raisonner|raisonner|F|法语动词|推理；议论|德语 räsonieren 由此借来，康德书里写 räsonnieren：公开地运用理性去议论。
+et|et|X|拉丁语连词|和|et cetera：等等（缩写 etc.）。
+cetera|cetera|X|拉丁语|其余的|et cetera：等等。
+quid|quid|X|拉丁语疑问代词|什么|quid juris：「什么是权利依据」，康德用来区分「事实问题」和「权利问题」。
+juris|ius|X|拉丁语名词 · 属格|法、权利的|quid juris：依据何种权利？
+objectum|objectum|X|拉丁语名词|对象|德语 Objekt、Gegenstand。
+publicum|publicum|X|拉丁语名词|公众|德语 Publikum 由此而来。
+demonstrare|demonstrare|X|拉丁语动词|证明；指明|德语 demonstrieren。
+exercere|exercere|X|拉丁语动词|练习；运用|德语 exerzieren（操练）由此而来。
+empeiria|ἐμπειρία|X|希腊语（拉丁转写）|经验|英语 empirical、德语 empirisch（经验的）的来源。

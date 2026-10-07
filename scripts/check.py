@@ -10,11 +10,12 @@ context, sorted by frequency. Hand it to Claude in batches to get lexicon lines 
 """
 import sys, re, argparse, pathlib
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
-from kit import Book, Course, Library, validate
+from kit import Book, Course, Library, validate, case_issues, build_dict, coverage2
 
 
 def report(b, worklist=False):
     errors, warnings, missing = validate(b)
+    errors += ["格标注与变格表不符：" + x for x in case_issues(b)]
     n_sent = sum(len(s["s"]) for s in b.text)
     n_tok = sum(1 for _, de in b.snippets() for _ in b.tokens(de))
     name = b.meta.get("title")
@@ -52,6 +53,17 @@ def main():
     else:
         lib = Library()
         ok = all([report(x, a.worklist) for x in lib.items()])
+        d, derr = build_dict(lib)
+        cov = coverage2(lib, d)
+        print(f"[全站] 共用词典 shared/lexicon：{len(d)} 个可查词（含各书词条与自动生成的原形）")
+        for e in derr:
+            print("  错误：", e)
+        if cov:
+            print(f"  页面上有 {len(cov)} 个词查不到（书架、课程讲解、注释、词卡里的德语都要可点）：")
+            for k, v in sorted(cov.items(), key=lambda kv: -len(kv[1]))[:60]:
+                print(f"    {k}  ← {v[0]}")
+        print("  结果：", "通过 ✓" if not cov and not derr else "未通过")
+        ok = ok and not cov and not derr
         if lib.planned:
             print("筹备中：", "、".join(b.get("zh") or b.get("title") for b in lib.planned))
     sys.exit(0 if ok else 1)
