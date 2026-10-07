@@ -1,0 +1,60 @@
+{
+  "id": "kant-prolegomena",
+  "profile": "de-zh",
+  "title": "Prolegomena zu einer jeden künftigen Metaphysik",
+  "short": "导论·序言",
+  "zh": "未来形而上学导论 · 序言（上）",
+  "author": "Immanuel Kant",
+  "year": "1783",
+  "level": "进阶 · 连载中",
+  "blurb": "康德为《纯粹理性批判》写的「导读」。第一批：序言开头到「休谟打断了我独断论的迷梦」，全书最有名的一段。",
+  "brandMark": "P",
+  "mast": "Prolegomena",
+  "eyebrow": "Immanuel Kant · Prolegomena · Riga 1783 · AA IV 255–260",
+  "subtitle": "Prolegomena zu einer jeden künftigen Metaphysik, die als Wissenschaft wird auftreten können · Vorrede",
+  "lede": "《纯粹理性批判》出版后，读者普遍说看不懂。两年后康德写了这本更短的书，用「分析的方法」重讲批判哲学的核心问题。这里是序言的前半：形而上学究竟是否可能？休谟对因果概念的攻击为什么是决定性的？康德自己是怎样被「从独断论的迷梦中唤醒」的？",
+  "demo": [
+    5,
+    0
+  ],
+  "demoCaption": "全书最有名的一句 · 点任意一个词",
+  "howto": [
+    {
+      "n": "第 1 步",
+      "h": "先打基础",
+      "p": "没学过德语基础课的话，先学书架上的基础课。这篇序言的句子比《启蒙》长，但比《纯理》好读，可以作为第二本。"
+    },
+    {
+      "n": "第 2 步",
+      "h": "本书专题课",
+      "p": "两节专题课：这本书是什么、为什么要写；休谟问题到底是什么（带练习）。"
+    },
+    {
+      "n": "第 3 步",
+      "h": "逐句精读",
+      "p": "每节标有学术引用通用的学院版页码（AA IV）。最后一节就是「独断论的迷梦」。"
+    }
+  ],
+  "intro": {
+    "eyebrow": "Zum Text",
+    "h": "本书专题课",
+    "p": "读序言需要的背景：这本书的来历，以及休谟问题。"
+  },
+  "slipEmpty": "点击正文中的任意德语词，这里会显示它的原形、词性、此处的格和用法。<br><br>这本书里的 vor 多半是 für（为了、给），so 有时是关系代词，词卡里都会提醒你。",
+  "footer": "原文：Immanuel Kant, Prolegomena zu einer jeden künftigen Metaphysik, die als Wissenschaft wird auftreten können, Riga: Hartknoch 1783, Vorrede（AA IV 255–260）。据 Projekt Gutenberg-DE 的转录（公有领域），保留其拼写，改正了一处排印错误（DAVIED → David）；略去两个脚注。注释、讲解与中文译文为本站编写（AI 辅助）。",
+  "fontsHref": "https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,600;1,7..72,400&family=UnifrakturMaguntia&family=IBM+Plex+Mono:wght@400;500&family=Noto+Serif+SC:wght@400;600&display=swap",
+  "fonts": {
+    "text": "\"Literata\",Georgia,\"Times New Roman\",serif",
+    "mast": "\"UnifrakturMaguntia\",\"Literata\",Georgia,serif",
+    "trans": "\"Noto Serif SC\",\"Songti SC\",\"STSong\",\"SimSun\",serif"
+  },
+  "theme": {
+    "accent": "#4a5a24",
+    "accent2": "#5f7230",
+    "accentSoft": "#e8eddc",
+    "accentDark": "#c3d48f",
+    "accent2Dark": "#d6e3ad",
+    "accentSoftDark": "#283119"
+  },
+  "description": "康德《未来形而上学导论》序言（上）的逐词精读。"
+}

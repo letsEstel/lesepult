@@ -1,0 +1,60 @@
+{
+  "id": "kant-krv-einleitung",
+  "profile": "de-zh",
+  "title": "Kritik der reinen Vernunft · Einleitung",
+  "short": "纯理·导言",
+  "zh": "纯粹理性批判 · 导言（第一、二节）",
+  "author": "Immanuel Kant",
+  "year": "1787",
+  "level": "进阶 · 连载中",
+  "blurb": "《纯粹理性批判》第二版导言的开头：知识从经验开始，却不都来自经验。先天、纯粹、必然性与普遍性，全书的入口。",
+  "brandMark": "K",
+  "mast": "Kritik",
+  "eyebrow": "Immanuel Kant · Kritik der reinen Vernunft · 2. Auflage 1787 · B 1–6",
+  "subtitle": "Einleitung · I. Von dem Unterschiede der reinen und empirischen Erkenntnis · II. Wir sind im Besitze gewisser Erkenntnisse a priori",
+  "lede": "《纯粹理性批判》第二版导言的第一、二节，逐句、逐词精读。这里只有六页，却给出了全书最基本的区分：先天与后天、纯粹与经验，以及认出先天知识的两条标准。句子比《什么是启蒙》长得多，建议先读完那一本再来。",
+  "demo": [
+    0,
+    4
+  ],
+  "demoCaption": "全书最关键的转折句 · 点任意一个词",
+  "howto": [
+    {
+      "n": "第 1 步",
+      "h": "先打基础",
+      "p": "没学过德语基础课的话，先学书架上的基础课；最好也先读完《什么是启蒙》，那里的句子短一些。"
+    },
+    {
+      "n": "第 2 步",
+      "h": "本书专题课",
+      "p": "两节专题课：导言前两节在讲什么（含结构图），以及康德术语表（带练习）。先把这些词弄清楚，再读原文会轻松很多。"
+    },
+    {
+      "n": "第 3 步",
+      "h": "逐句精读",
+      "p": "这里的句子常常一句占半页。先打开「语法」看骨架，再点词。每句右上角是学界通用的 B 页码。"
+    }
+  ],
+  "intro": {
+    "eyebrow": "Zum Text",
+    "h": "本书专题课",
+    "p": "读导言前两节需要的背景和术语。"
+  },
+  "slipEmpty": "点击正文中的任意德语词，这里会显示它的原形、词性、此处的格和用法。<br><br>康德的长句：先找「语法」里写的骨架，再回来点词。",
+  "footer": "原文：Immanuel Kant, Kritik der reinen Vernunft, 2. Auflage, Riga 1787, Einleitung I–II（B 1–6）。据 Projekt Gutenberg #6343 的转录（公有领域），并参照学院版（AA III）改正了个别明显的转录错误（strenger、diejenigen）。注释、讲解与中文译文为本站编写（AI 辅助）。",
+  "fontsHref": "https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,600;1,7..72,400&family=UnifrakturMaguntia&family=IBM+Plex+Mono:wght@400;500&family=Noto+Serif+SC:wght@400;600&display=swap",
+  "fonts": {
+    "text": "\"Literata\",Georgia,\"Times New Roman\",serif",
+    "mast": "\"UnifrakturMaguntia\",\"Literata\",Georgia,serif",
+    "trans": "\"Noto Serif SC\",\"Songti SC\",\"STSong\",\"SimSun\",serif"
+  },
+  "theme": {
+    "accent": "#6b2433",
+    "accent2": "#8a3446",
+    "accentSoft": "#f2e4e6",
+    "accentDark": "#e7a3ae",
+    "accent2Dark": "#f0bfc7",
+    "accentSoftDark": "#3a1d24"
+  },
+  "description": "《纯粹理性批判》第二版导言第一、二节的逐词精读。"
+}

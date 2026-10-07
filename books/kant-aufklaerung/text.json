@@ -1,0 +1,953 @@
+[
+ {
+  "h": "标题",
+  "t": "Titel",
+  "s": [
+   {
+    "de": "Beantwortung der{gf} Frage: Was ist Aufklärung?",
+    "zh": "答复这个问题：什么是启蒙？",
+    "n": [
+     "这是康德1784年12月发表在《柏林月刊》(Berlinische Monatsschrift)上的文章标题。当时柏林的一位牧师在该刊上提问：「什么是启蒙？」——康德来回答。",
+     "Beantwortung = be- + Antwort（回答）+ -ung（名词后缀）：「答复」这个动作的名词。",
+     "der Frage：属格（第二格），表示「……的」：Beantwortung der Frage =「这个问题的答复」。德语属格放在被修饰的名词后面，翻译时要倒过来。",
+     "Was ist Aufklärung?：疑问词 was（什么）在第一位，动词 ist 在第二位——这就是德语最核心的规则：陈述句和特殊疑问句里，变位动词永远在第二位。"
+    ]
+   }
+  ],
+  "k": "题"
+ },
+ {
+  "h": "一 · 启蒙的定义",
+  "t": "Die Definition",
+  "s": [
+   {
+    "de": "*Aufklärung ist der{nm} Ausgang des{gm} Menschen aus seiner{df} selbstverschuldeten Unmündigkeit.*",
+    "zh": "启蒙就是人从他自己所招致的不成年状态中走出。",
+    "n": [
+     "结构：[Aufklärung] 主语 + [ist] 动词 + [der Ausgang …] 表语。最简单的「A ist B」句型，但 B 后面挂了两层修饰。",
+     "des Menschen：属格，「人的」走出。Mensch 是弱变化名词，除主格外都加 -en。",
+     "aus 永远支配与格（第三格），所以后面是 seiner selbstverschuldeten Unmündigkeit（阴性与格，冠词变 -er，形容词变 -en）。",
+     "selbstverschuldet = selbst（自己）+ verschuldet（招致过错的、该负责的）。重点是：不是别人强加的，而是人自己有责任。",
+     "原文这整句用疏排（字母间加宽）印刷来强调，本站也照样呈现。"
+    ]
+   },
+   {
+    "de": "*Unmündigkeit* ist das{nn} Unvermögen, sich{refl} seines{gm} Verstandes ohne Leitung eines{gm} anderen zu bedienen.",
+    "zh": "不成年状态，就是没有他人的引导便无法运用自己的知性。",
+    "n": [
+     "结构：A ist B, + zu-不定式。逗号后面的不定式短语说明 Unvermögen（无能力）的内容：无能力去做什么。",
+     "全文最重要的句型：sich + 属格 + bedienen =「使用、运用某物」。宾语要用属格！所以是 seines Verstandes，而不是 seinen Verstand。",
+     "zu-不定式短语里，动词 zu bedienen 放在最后；其他成分（sich, seines Verstandes, ohne Leitung …）都在它前面。",
+     "ohne + 宾格（Leitung 是阴性，形式看不出变化）。eines anderen 是属格：「另一个人的引导」。",
+     "Verstand：康德术语「知性」，即理解、判断的能力；日常德语里就是「理智、头脑」。"
+    ]
+   },
+   {
+    "de": "*Selbstverschuldet* ist diese{nf} Unmündigkeit, wenn die{nf} Ursache derselben nicht am Mangel des{gm} Verstandes, sondern der{gf} Entschließung und des{gm} Mutes liegt, sich{refl} seiner{gpron} ohne Leitung eines{gm} andern zu bedienen.",
+    "zh": "如果这种不成年状态的原因不在于缺乏知性，而在于没有他人引导就缺乏运用知性的决心和勇气，那它就是自己招致的。",
+    "n": [
+     "倒装：表语 Selbstverschuldet 放到句首强调 → 动词 ist 仍在第二位 → 主语 diese Unmündigkeit 在后。德语只要求动词第二，第一位可以放任何成分。",
+     "wenn 引导的从句：变位动词 liegt 跑到从句最末尾。这是德语第二条核心规则：从句动词在末尾。",
+     "an etw. (D) liegen：原因在于……。am = an dem。",
+     "nicht A, sondern B：不是A，而是B。Mangel（缺乏）后面挂三个属格：des Verstandes / der Entschließung / des Mutes。",
+     "derselben：指前面的 Unmündigkeit，属格，「它的」原因。书面、古雅的说法。",
+     "seiner：人称代词 er 的属格（指 Verstand，「它」），因为 sich bedienen 要求属格宾语。"
+    ]
+   },
+   {
+    "de": "_Sapere aude!_ Habe Mut, dich{refl2} deines{gm} *eigenen* Verstandes zu bedienen! ist also der{nm} Wahlspruch der{gf} Aufklärung.",
+    "zh": "Sapere aude！要有勇气运用你自己的知性！——这就是启蒙的格言。",
+    "n": [
+     "Sapere aude 是拉丁文，出自古罗马诗人贺拉斯，字面「敢于明智 / 敢于去知道」。康德紧接着用德语解释它。",
+     "Habe Mut：haben 对 du 的命令式（现代口语多说 Hab Mut!）。命令式动词在句首。",
+     "这里是对「你」说话，所以反身代词变成 dich，物主代词变成 deines（不再是 sich / seines）。",
+     "整个引语充当主语，后面接 ist also der Wahlspruch …。also 意为「因此、所以」，不是英语的 also！"
+    ]
+   }
+  ],
+  "k": "1"
+ },
+ {
+  "h": "二 · 懒惰与怯懦",
+  "t": "Faulheit und Feigheit",
+  "s": [
+   {
+    "de": "Faulheit und Feigheit sind die{np} Ursachen, warum ein so großer Teil der{gp} Menschen, nachdem sie{them} die{nf} Natur längst von fremder Leitung freigesprochen (_naturaliter maiorennes_), dennoch gerne zeitlebens unmündig bleiben; und warum es{expl} anderen so leicht wird, sich{refl} zu deren Vormündern aufzuwerfen.",
+    "zh": "懒惰和怯懦，就是为什么如此大一部分人——尽管大自然早已使他们摆脱了外来的引导（naturaliter maiorennes，按自然已经成年）——却仍然乐意终生保持不成年；也是为什么别人那么容易就以他们的监护人自居。",
+    "n": [
+     "主干很短：Faulheit und Feigheit sind die Ursachen（懒惰与怯懦是原因）。后面两个 warum 从句解释「什么的原因」，各自的动词 bleiben / aufzuwerfen 都在末尾。",
+     "难点语序：nachdem sie die Natur … freigesprochen。sie 是宾格（他们），die Natur 才是主格（大自然）！代词习惯排在名词之前，所以宾语跑到了主语前面。",
+     "freigesprochen 后面省略了助动词 hat（18世纪书面语常省略从句末尾的 hat / ist）。",
+     "jn von etw. freisprechen：宣布某人免于……（法律用语，原义「宣判无罪」）。",
+     "bleiben 用复数：ein großer Teil der Menschen 语法上是单数，但按意义（许多人）用了复数。",
+     "es wird jm leicht：对某人来说变得容易。es 是形式主语；anderen 是与格复数「别人」。",
+     "sich zu jds Vormund aufwerfen：自封为某人的监护人。deren：属格复数「他们的」。zu + 与格 → Vormündern（复数与格加 -n）。"
+    ]
+   },
+   {
+    "de": "Es{expl} ist so bequem, unmündig zu sein.",
+    "zh": "不成年是多么舒服啊。",
+    "n": [
+     "Es ist + 形容词 + zu-不定式：「做……是……的」。es 先占住主语位置，真正的主语是后面的 unmündig zu sein。",
+     "这句很短，适合朗读模仿：注意 bequem 的 qu 读作 /kv/。"
+    ]
+   },
+   {
+    "de": "Habe ich ein{an} Buch, das{rel:an} für mich Verstand hat, einen{am} Seelsorger, der{rel:nm} für mich Gewissen hat, einen{am} Arzt, der{rel:nm} für mich die{af} Diät beurteilt usw., so brauche ich mich ja nicht selbst zu bemühen.",
+    "zh": "如果我有一本书替我拥有知性，有一位牧师替我拥有良知，有一位医生替我判定饮食起居，等等，那我就根本用不着自己费心了。",
+    "n": [
+     "条件句不用 wenn 的写法：把动词 Habe 放到句首 = wenn ich … habe。后面用 so 接主句。",
+     "三个宾格宾语 ein Buch / einen Seelsorger / einen Arzt，各挂一个关系从句。关系代词 das / der 的性与先行词一致，格由它在从句里的作用决定，从句动词放末尾。",
+     "brauchen nicht zu + 不定式：不需要做……",
+     "sich bemühen：费力、操心。ja 是语气词（「当然了、可不是嘛」），加强语气，通常不必翻译。",
+     "Diät 在18世纪指整个养生法、饮食起居，不是今天的「节食减肥」。"
+    ]
+   },
+   {
+    "de": "Ich habe nicht nötig zu denken, wenn ich nur bezahlen kann; andere werden das{an} verdrießliche Geschäft schon für mich übernehmen.",
+    "zh": "只要我付得起钱，我就不必思考；别人自会替我接手这件烦人的差事。",
+    "n": [
+     "nicht nötig haben zu …：没有必要做……（古旧说法；现代用 nicht brauchen zu）。",
+     "wenn 从句里，情态动词 kann 在最末，它支配的不定式 bezahlen 紧挨在它前面。",
+     "werden + 不定式 = 将来时。werden 在第二位，übernehmen 在句末——这叫「框型结构」：动词的两部分把句子框起来。",
+     "schon：这里表示「自然会、肯定会」，不是「已经」。",
+     "Geschäft：这里不是「商店」，而是「事务、活计」。verdrießlich：令人厌烦的。"
+    ]
+   },
+   {
+    "de": "Daß der{nm} bei weitem größte Teil der{gp} Menschen (darunter das{nn} ganze schöne Geschlecht) den{am} Schritt zur Mündigkeit, außer dem{dn} daß er beschwerlich ist, auch für sehr gefährlich halte, dafür sorgen schon jene{np} Vormünder, die{rel:np} die{af} Oberaufsicht über sie{them} gütigst auf sich{refl} genommen haben.",
+    "zh": "那些仁慈地承担起对他们的最高监管的监护人，自然会确保：绝大部分人（包括全体女性）除了觉得迈向成年这一步很费力之外，还认为它非常危险。",
+    "n": [
+     "整个 Daß-从句被提到最前面，然后用 dafür 回指它：Dass X …, dafür sorgen Y =「Y 确保 X」。读这类句子时先跳到逗号后找主句。",
+     "daß 是旧拼写，现代写 dass。",
+     "etw. für + 形容词 halten：认为某物是……。halte 是第一虚拟式，表示这是别人的想法（被灌输的想法）。",
+     "bei weitem：远远地；bei weitem größte：绝大的。",
+     "das schöne Geschlecht：「美丽的性别」= 女性（18世纪的说法）。",
+     "außer dem, daß …：除了……之外（现代写 außer dass）。",
+     "gütigst：gütig（仁慈）的最高级，明显的讽刺。etw. auf sich nehmen：承担某事。"
+    ]
+   },
+   {
+    "de": "Nachdem sie{they} ihr{an} Hausvieh zuerst dumm gemacht haben und sorgfältig verhüteten, daß diese{np} ruhigen Geschöpfe ja keinen{am} Schritt außer dem{dm} Gängelwagen, darin sie{they} sie{them} einsperreten, wagen durften, so zeigen sie{they} ihnen nachher die{af} Gefahr, die{rel:nf} ihnen drohet, wenn sie{they} es{expl} versuchen, allein zu gehen.",
+    "zh": "他们先是把自己的家畜弄得愚笨，又小心翼翼地防止这些温顺的生灵敢于迈出那把它们关在里面的学步车哪怕一步；然后再向它们指出：一旦尝试独自行走，就会有危险威胁它们。",
+    "n": [
+     "人物关系：第一个 sie = 监护人们；diese ruhigen Geschöpfe（这些温顺的生灵）= 被监护的人们。darin sie sie einsperreten：「他们（监护人）把它们（生灵）关在里面」。",
+     "Nachdem …, so …：先是一个长从句，然后 so 引出主句；so 占第一位，动词 zeigen 在第二位。",
+     "Gängelwagen：学步车——旧时带轮的木框，把幼儿圈在里面学走路。今天的动词 gängeln 意为「摆布、操纵」。",
+     "darin = in dem（在其中），关系副词。",
+     "einsperreten = einsperrten 的古体；drohet = droht 的古体（多一个 e）。",
+     "ja keinen Schritt：防止的语境里 ja 意为「千万、绝不」。wagen durften：被允许去冒险。情态动词 durften 在从句末。",
+     "jm drohen：威胁某人（与格 ihnen）。es versuchen, allein zu gehen：es 预指后面的不定式。",
+     "Hausvieh：家畜。把被监护的人比作被驯养的牲口——全文最辛辣的比喻之一。"
+    ]
+   },
+   {
+    "de": "Nun ist diese{nf} Gefahr zwar eben so groß nicht, denn sie{they} würden durch einigemal Fallen wohl endlich gehen lernen; allein ein{nn} Beispiel von der{df} Art macht doch schüchtern und schreckt gemeiniglich von allen ferneren Versuchen ab{sep}.",
+    "zh": "其实这危险并没有那么大，因为摔上几跤之后，他们终究能学会走路；然而这样的一个例子毕竟会使人胆怯，通常就把人吓得不敢再作任何尝试了。",
+    "n": [
+     "zwar …, allein …：虽然……，但是……。这里的 allein 不是「独自」，而是古旧连词「然而」（= aber）。",
+     "eben so groß nicht = nicht ebenso groß。把 nicht 放到后面是旧式语序。",
+     "würden … lernen：第二虚拟式，「会、能」。gehen lernen：学走路（不定式 + lernen）。",
+     "durch einigemal Fallen：通过摔几跤。Fallen 是动词名词化，所以大写。",
+     "abschrecken von + 与格：吓得不敢做……。可分动词：变位部分 schreckt 在第二位，前缀 ab 跑到句子最后。",
+     "gemeiniglich：古语，= gewöhnlich（通常）。"
+    ]
+   }
+  ],
+  "k": "2"
+ },
+ {
+  "h": "三 · 个人之难",
+  "t": "Der Einzelne",
+  "s": [
+   {
+    "de": "Es{expl} ist also für jeden{am} einzelnen Menschen schwer, sich{refl} aus der{df} ihm beinahe zur Natur gewordenen Unmündigkeit herauszuarbeiten.",
+    "zh": "因此，对每一个个人来说，要从那几乎已成为他天性的不成年状态中挣脱出来，都是困难的。",
+    "n": [
+     "重点：扩展定语（erweitertes Partizipialattribut）！der ihm beinahe zur Natur gewordenen Unmündigkeit = der Unmündigkeit, die ihm beinahe zur Natur geworden ist。德语可以把一整个关系从句压缩后，塞进冠词和名词之间。",
+     "读法：看到冠词 der，先别急，一直往后找到名词 Unmündigkeit；中间的 ihm beinahe zur Natur gewordenen 整块是形容词。",
+     "jm zur Natur werden：成为某人的天性。geworden 是 werden 的过去分词，这里当形容词用，加词尾 -en。",
+     "sich herausarbeiten aus：从……中奋力挣脱。可分动词加 zu 时，zu 插在前缀和词干中间：herauszuarbeiten。"
+    ]
+   },
+   {
+    "de": "Er hat sie{her} sogar liebgewonnen und ist vorderhand wirklich unfähig, sich{refl} seines{gm} eigenen Verstandes zu bedienen, weil man ihn niemals den{am} Versuch davon machen ließ.",
+    "zh": "他甚至已经爱上了这种状态，而且眼下确实没有能力运用自己的知性，因为人们从来没让他尝试过。",
+    "n": [
+     "sie 指 die Unmündigkeit（阴性名词 → 代词 sie）。德语的代词跟着名词的语法性别走，不管是不是人。",
+     "liebgewinnen：渐渐喜欢上。现在完成时：hat … liebgewonnen（助动词第二位，分词在末尾）。",
+     "vorderhand：古语，「暂时、眼下」。",
+     "lassen + 宾格 + 不定式：让某人做某事。man ließ ihn machen = 人们让他做。ließ 是 lassen 的过去式，在 weil 从句末尾。",
+     "den Versuch davon machen：作这方面的尝试；davon 指「运用知性」这件事。"
+    ]
+   },
+   {
+    "de": "Satzungen und Formeln, diese{np} mechanischen Werkzeuge eines{gm} vernünftigen Gebrauchs oder vielmehr Mißbrauchs seiner{gp} Naturgaben, sind die{np} Fußschellen einer{gf} immerwährenden Unmündigkeit.",
+    "zh": "规章和公式——这些对其天赋作理性运用、或者不如说误用的机械工具——正是永久不成年状态的脚镣。",
+    "n": [
+     "同位语：主语 Satzungen und Formeln 后面，两个逗号之间的 diese mechanischen Werkzeuge … 是给它们换个名字再说一遍。动词 sind 在同位语之后。",
+     "属格链：Werkzeuge eines Gebrauchs seiner Naturgaben =「（他的天赋）的（运用）的工具」。从后往前翻。",
+     "vielmehr：更确切地说。Mißbrauch = Missbrauch（新拼写）：Miss- 表示「错误地」。",
+     "Fußschellen：脚镣（Fuß 脚 + Schelle 镣铐）。"
+    ]
+   },
+   {
+    "de": "Wer sie{them} auch abwürfe, würde dennoch auch über den{am} schmalesten Graben einen{am} nur unsicheren Sprung tun, weil er zu dergleichen freier Bewegung nicht gewöhnt ist.",
+    "zh": "即使有人甩掉了它们，他也仍然只能在最窄的沟渠上作没有把握的一跳，因为他不习惯这种自由的活动。",
+    "n": [
+     "Wer …, (der) würde …：「谁要是……，谁就……」。wer 引导的从句整个充当主语，主句动词 würde 紧跟在逗号后（占第二位）。",
+     "abwürfe：abwerfen（甩掉）的第二虚拟式，表示假设：即便真甩掉了。",
+     "einen Sprung tun：跳一下。tun 在框型结构末尾。",
+     "schmalesten：旧式最高级，现代写 schmalsten（最窄的）。",
+     "zu etw. gewöhnt sein（旧）/ an etw. gewöhnt sein（今）：习惯于……",
+     "dergleichen：这一类的，不变格。"
+    ]
+   },
+   {
+    "de": "Daher gibt es{expl} nur wenige, denen es{expl} gelungen ist, durch eigene Bearbeitung ihres{gm} Geistes sich{refl} aus der{df} Unmündigkeit herauszuwickeln und dennoch einen{am} sicheren Gang zu tun.",
+    "zh": "所以，只有极少数人能够通过自己对精神的磨炼，从不成年状态中脱身出来，并且迈出稳健的步伐。",
+    "n": [
+     "es gibt + 宾格：有……（存在句）。",
+     "jm gelingt es, … zu …：某人成功做到了……。注意「成功的人」用与格！denen 是关系代词复数与格。",
+     "herauswickeln：从包裹中解脱出来（wickeln = 缠、裹）。",
+     "einen sicheren Gang tun：走得稳。"
+    ]
+   }
+  ],
+  "k": "3"
+ },
+ {
+  "h": "四 · 公众之可能",
+  "t": "Das Publikum",
+  "s": [
+   {
+    "de": "Daß aber ein{nn} Publikum sich{refl} selbst aufkläre, ist eher möglich; ja es{expl} ist, wenn man ihm nur Freiheit läßt, beinahe unausbleiblich.",
+    "zh": "但是一个公众启蒙自己，倒是更有可能的；只要给它自由，这甚至几乎是不可避免的。",
+    "n": [
+     "Daß-从句整个做主语，然后才是 ist eher möglich。aufkläre 是第一虚拟式。",
+     "Publikum（中性）：公众——康德的关键词，指共同阅读、讨论的群体，与孤立的个人相对。",
+     "ja：这里是递进「甚至」。",
+     "jm etw. lassen：给某人留下、允许。läßt = lässt（新拼写）。",
+     "unausbleiblich：un-aus-bleib-lich，「不会缺席的」→ 不可避免的。"
+    ]
+   },
+   {
+    "de": "Denn da werden sich{refl} immer einige Selbstdenkende, sogar unter den{dp} eingesetzten Vormündern des{gm} großen Haufens finden, welche, nachdem sie{they} das{an} Joch der{gf} Unmündigkeit selbst abgeworfen haben, den{am} Geist einer{gf} vernünftigen Schätzung des{gm} eigenen Werts und des{gm} Berufs jedes{gm} Menschen, selbst zu denken, um sich{refl} verbreiten werden.",
+    "zh": "因为总会有一些独立思考的人，甚至就在那些被指派来管大众的监护人中间；他们自己甩掉了不成年的轭之后，就会在周围传播一种精神：理性地看重自身的价值，看重每个人独立思考的使命。",
+    "n": [
+     "sich finden：被找到 → 出现、存在。werden … finden 是将来时：werden 在第二位，finden 被推到很后面。",
+     "welche：关系代词（= die），书面用法。它的动词 verbreiten werden 在整句最末，中间隔了一个 nachdem 从句和一长串宾语。",
+     "Selbstdenkende：分词名词化，「自己思考的人们」。",
+     "der große Haufen：大众、群氓（略带贬义）。das Joch：轭、枷锁。",
+     "Beruf：这里不是「职业」，而是「天职、使命」（来自 berufen 召唤）。",
+     "um sich verbreiten：在自己周围传播。"
+    ]
+   },
+   {
+    "de": "Besonders ist hiebei: daß das{nn} Publikum, welches zuvor von ihnen unter dieses{an} Joch gebracht worden, sie{them} hernach selbst zwingt, darunter zu bleiben, wenn es{it} von einigen seiner{gp} Vormünder, die{rel:np} selbst aller Aufklärung unfähig sind, dazu aufgewiegelt worden; so schädlich ist es{expl}, Vorurteile zu pflanzen, weil sie{they} sich{refl} zuletzt an denen selbst rächen, die{rel:np} oder deren Vorgänger ihre Urheber gewesen sind.",
+    "zh": "这里特别的是：先前被他们套上这副轭的公众，如果受到某些自己根本无力启蒙的监护人的煽动，事后反而会强迫监护人自己也留在轭下。播种偏见就是这样有害，因为偏见最终会报复到那些自己、或者其前任曾是偏见制造者的人身上。",
+    "n": [
+     "hiebei = hierbei（古体）：在这方面。",
+     "gebracht worden [ist]、aufgewiegelt worden [ist]：被动态完成时，句末省略了 ist。",
+     "zwingen + 宾格 + zu-不定式：强迫某人做……。这里 sie 是宾格，指那些监护人。",
+     "darunter = unter ihm（在它之下，指轭）。",
+     "aller Aufklärung unfähig：unfähig + 属格（旧式）：不能……的。",
+     "jn zu etw. aufwiegeln：煽动某人去……；dazu 指「强迫监护人」这件事。",
+     "sich an jm rächen：向某人报复。die oder deren Vorgänger：「那些自己或者他们的前任」——die 是主格关系代词，deren 是属格关系代词。",
+     "so schädlich ist es, …：形容词提前强调，es 预指后面的不定式。"
+    ]
+   },
+   {
+    "de": "Daher kann ein{nn} Publikum nur langsam zur Aufklärung gelangen.",
+    "zh": "所以，一个公众只能缓慢地达到启蒙。",
+    "n": [
+     "情态动词 kann 在第二位，不定式 gelangen 在末尾——情态动词句的典型框型。",
+     "zu etw. gelangen：到达、达到。zur = zu der。"
+    ]
+   },
+   {
+    "de": "Durch eine{af} Revolution wird vielleicht wohl ein{nm} Abfall von persönlichem Despotism und gewinnsüchtiger oder herrschsüchtiger Bedrückung, aber niemals wahre Reform der{gf} Denkungsart zustande kommen; sondern neue Vorurteile werden, ebensowohl als die{np} alten, zum Leitbande des{gm} gedankenlosen großen Haufens dienen.",
+    "zh": "一场革命或许能推翻个人专制和贪婪或专横的压迫，却永远不能实现思维方式的真正改革；相反，新的偏见会和旧的一样，成为牵引那些不动脑筋的大众的绳索。",
+    "n": [
+     "框型：wird … zustande kommen（将来时）。中间并列两个主语：ein Abfall … 和 wahre Reform …。",
+     "zustande kommen：实现、形成（不及物）。",
+     "Despotism：旧形式，现代 Despotismus（专制）。",
+     "-süchtig：「对……上瘾的」。gewinnsüchtig 贪利的，herrschsüchtig 贪权的。",
+     "Denkungsart：思维方式（康德用语，现代 Denkweise）。",
+     "Leitband：牵引带（牵幼儿或牲口用），呼应前面学步车的比喻。zum Leitbande：与格的旧式词尾 -e。",
+     "zu etw. dienen：充当、用作。"
+    ]
+   }
+  ],
+  "k": "4"
+ },
+ {
+  "h": "五 · 理性的公开运用与私下运用",
+  "t": "Öffentlicher und privater Gebrauch",
+  "s": [
+   {
+    "de": "Zu dieser{df} Aufklärung aber wird nichts erfordert als *Freiheit*; und zwar die{nf} unschädlichste unter allem, was nur Freiheit heißen mag, nämlich die{nf}: von seiner{df} Vernunft in allen Stücken *öffentlichen Gebrauch* zu machen.",
+    "zh": "而这种启蒙所需要的，不是别的，正是自由；而且是一切可以叫做自由的东西中最无害的那一种，即：在一切事情上公开运用自己理性的自由。",
+    "n": [
+     "wird erfordert：被动态（werden + 过去分词）：被要求 → 需要。",
+     "nichts … als：除了……之外什么都不。",
+     "und zwar：而且是、确切地说。",
+     "was nur Freiheit heißen mag：凡是可以被称为自由的东西。mag 表可能。",
+     "全文核心句型：von etw. Gebrauch machen =「使用某物」。von seiner Vernunft öffentlichen Gebrauch machen：公开地运用自己的理性。",
+     "in allen Stücken：在所有方面（Stück 这里 = 方面、点）。"
+    ]
+   },
+   {
+    "de": "Nun höre ich aber von allen Seiten rufen: *Räsonniert nicht!*",
+    "zh": "可是现在我听到四面八方都在喊：不许争辩！",
+    "n": [
+     "hören + 不定式：听到（有人）……。rufen 作为不定式放在末尾。",
+     "räsonnieren：来自法语 raisonner，「讲道理、议论、争辩」。Räsonniert 是对 ihr（你们）的命令式：去掉人称代词，用现在时形式。"
+    ]
+   },
+   {
+    "de": "Der{nm} Offizier sagt: Räsonniert nicht, sondern exerziert!",
+    "zh": "军官说：不许争辩，只管操练！",
+    "n": [
+     "nicht …, sondern …：不要……，而要……。exerziert：exerzieren（操练）的 ihr-命令式。"
+    ]
+   },
+   {
+    "de": "Der{nm} Finanzrat: Räsonniert nicht, sondern bezahlt!",
+    "zh": "税务官说：不许争辩，只管交钱！",
+    "n": [
+     "省略了动词 sagt——排比句里常见的省略。Finanzrat：财政顾问、税务官员。"
+    ]
+   },
+   {
+    "de": "Der{nm} Geistliche: Räsonniert nicht, sondern glaubt!",
+    "zh": "神职人员说：不许争辩，只管信仰！",
+    "n": [
+     "der Geistliche：形容词 geistlich（宗教的、精神的）名词化，「神职人员」。名词化的形容词仍按形容词变格。"
+    ]
+   },
+   {
+    "de": "(Nur ein{nm} einziger Herr in der{df} Welt sagt: *Räsonniert*, soviel ihr{you} wollt und worüber ihr{you} wollt, *aber gehorcht*!)",
+    "zh": "（世上只有一位君主说：你们尽管争辩，想争辩多少就争辩多少，想争辩什么就争辩什么，但是要服从！）",
+    "n": [
+     "ein einziger Herr：指普鲁士国王腓特烈二世（腓特烈大帝），康德写作时他仍在位。",
+     "soviel …, worüber …：从句引导词：「你们愿意多少就多少」「你们愿意关于什么就关于什么」。从句动词 wollt 在末尾。",
+     "ihr：「你们」（第二人称复数）。gehorchen：服从。"
+    ]
+   },
+   {
+    "de": "Hier ist überall Einschränkung der{gf} Freiheit.",
+    "zh": "这里处处都是对自由的限制。",
+    "n": [
+     "Einschränkung der Freiheit：属格表示「对……的」限制。Einschränkung 前没有冠词，表示泛指。"
+    ]
+   },
+   {
+    "de": "Welche Einschränkung aber ist der{df} Aufklärung hinderlich, welche nicht, sondern ihr{dat} wohl gar beförderlich?",
+    "zh": "然而，哪种限制妨碍启蒙？哪种不妨碍，甚至反而促进启蒙？",
+    "n": [
+     "jm hinderlich / beförderlich sein：对……有妨碍 / 有促进。对象用与格：der Aufklärung，ihr（= 它，指 Aufklärung）。",
+     "welche：疑问词「哪一个」，和名词一起变格。",
+     "wohl gar：甚至、说不定还。"
+    ]
+   },
+   {
+    "de": "Ich antworte: Der{nm} *öffentliche* Gebrauch seiner{gf} Vernunft muß jederzeit frei sein, und der{dem:nm} allein kann Aufklärung unter Menschen zustande bringen; der{nm} *Privatgebrauch* derselben aber darf öfters sehr enge eingeschränkt sein, ohne doch darum den{am} Fortschritt der{gf} Aufklärung sonderlich zu hindern.",
+    "zh": "我的回答是：理性的公开运用必须在任何时候都是自由的，并且只有它才能在人们中间实现启蒙；而理性的私下运用则往往可以受到非常严格的限制，却并不因此特别妨碍启蒙的进步。",
+    "n": [
+     "这是全文论点的核心句，值得反复读。",
+     "muß … sein / kann … bringen / darf … sein：三个情态动词，都在第二位，不定式都在末尾。",
+     "der allein：指示代词 der（= dieser），「只有它」。",
+     "zustande bringen：促成、实现（及物；对比上文 zustande kommen 不及物）。",
+     "derselben：指 Vernunft 的属格。",
+     "enge = eng 的旧式副词。darf … eingeschränkt sein：可以是受限制的（状态被动）。",
+     "ohne … zu …：而不……。sonderlich：特别地（旧，多与否定连用）。"
+    ]
+   },
+   {
+    "de": "Ich verstehe aber unter dem{dm} öffentlichen Gebrauche seiner{gf} eigenen Vernunft denjenigen{am}, den{rel:am} jemand *als Gelehrter* von ihr vor dem{dn} ganzen Publikum der{gf} *Leserwelt* macht.",
+    "zh": "而我所理解的「对自己理性的公开运用」，是指一个人作为学者，在整个读者世界的公众面前对理性所作的那种运用。",
+    "n": [
+     "unter etw. verstehen：把……理解为……——下定义的固定句型。",
+     "Gebrauche：与格单数的旧式词尾 -e。",
+     "derjenige, der …：「那个……的」。指示代词 + 关系从句；这里都是宾格：denjenigen, den …",
+     "als Gelehrter：作为学者（als + 名词，表示身份）。",
+     "Leserwelt：读者世界（Leser 读者 + Welt 世界）。"
+    ]
+   },
+   {
+    "de": "Den{am} Privatgebrauch nenne ich denjenigen{am}, den{rel:am} er in einem{dm} gewissen ihm anvertrauten *bürgerlichen Posten* oder Amte von seiner{df} Vernunft machen darf.",
+    "zh": "而所谓私下运用，我指的是一个人在被托付给他的某个公民职位或公职上对其理性所能作的那种运用。",
+    "n": [
+     "宾语 Den Privatgebrauch 提到句首以示强调，动词 nenne 仍在第二位，主语 ich 退到动词后。",
+     "jn/etw. X nennen：把……称为 X（两个宾格）。",
+     "扩展定语：in einem gewissen ihm anvertrauten bürgerlichen Posten = in einem Posten, der ihm anvertraut ist。anvertrauen：托付。",
+     "重要：康德说的「私下」不是「私人生活」，而是「在职务之内」——这正与日常理解相反。"
+    ]
+   },
+   {
+    "de": "Nun ist zu manchen Geschäften, die{rel:np} in das{an} Interesse des{gn} gemeinen Wesens laufen, ein{nm} gewisser Mechanism notwendig, vermittelst dessen einige Glieder des{gn} gemeinen Wesens sich{refl} bloß passiv verhalten müssen, um durch eine{af} künstliche Einhelligkeit von der{df} Regierung zu öffentlichen Zwecken gerichtet oder wenigstens von der{df} Zerstörung dieser{gp} Zwecke abgehalten zu werden.",
+    "zh": "对于许多涉及共同体利益的事务来说，某种机制是必要的；借助这种机制，共同体的一些成员必须表现得纯然被动，以便通过一种人为的一致，被政府引向公共目的，或者至少被阻止去破坏这些目的。",
+    "n": [
+     "主干：Nun ist zu manchen Geschäften … ein gewisser Mechanism notwendig（对某些事务来说，某种机制是必要的）。主语 ein gewisser Mechanism 在很后面。",
+     "das gemeine Wesen：共同体、国家（旧，= Gemeinwesen）。这里 gemein 是「共同的」，不是「卑鄙的」！",
+     "Mechanism = Mechanismus（旧形式）。",
+     "vermittelst + 属格：借助于（旧，= mittels）。dessen：关系代词属格，指 Mechanism。",
+     "sich verhalten：表现、举止。",
+     "um … zu werden：被动不定式「为了被……」。gerichtet werden 被引导；von etw. abgehalten werden 被阻止做……"
+    ]
+   },
+   {
+    "de": "Hier ist es{expl} nun freilich nicht erlaubt zu räsonnieren; sondern man muß gehorchen.",
+    "zh": "在这里当然不允许争辩，而是必须服从。",
+    "n": [
+     "es ist (nicht) erlaubt, … zu …：（不）允许做……",
+     "freilich：当然、诚然。man：泛指的「人」，相当于中文无主语句。"
+    ]
+   },
+   {
+    "de": "Sofern sich{refl} aber dieser{nm} Teil der{gf} Maschine zugleich als Glied eines{gn} ganzen gemeinen Wesens, ja sogar der{gf} Weltbürgergesellschaft ansieht, mithin in der{df} Qualität eines{gm} Gelehrten, der{rel:nm} sich{refl} an ein{an} Publikum im eigentlichen Verstande durch Schriften wendet, kann er allerdings räsonnieren, ohne daß dadurch die{np} Geschäfte leiden, zu denen er zum Teile als passives Glied angesetzt ist.",
+    "zh": "但只要机器的这一部分同时把自己看作整个共同体、乃至世界公民社会的一员，从而以学者的身份，通过著作向真正意义上的公众说话，那么他当然可以争辩，而那些部分地把他作为被动成员安排进去的事务也不会因此受损。",
+    "n": [
+     "sofern：只要、就……而言（条件连词，动词在末）。",
+     "sich als … ansehen：把自己看作……。可分动词 ansehen 在从句末尾合写。",
+     "Weltbürgergesellschaft：世界公民社会（Welt 世界 + Bürger 公民 + Gesellschaft 社会）——康德世界主义的关键词。",
+     "mithin：因此（书面）。in der Qualität eines Gelehrten：以学者的身份。",
+     "sich an jn wenden：向某人说话、求助。im eigentlichen Verstande：在本来的意义上（Verstand 这里 = 意义）。",
+     "ohne daß + 从句：而不会……。zu etw. angesetzt sein：被派定去做……"
+    ]
+   },
+   {
+    "de": "So würde es{expl} sehr verderblich sein, wenn ein{nm} Offizier, dem{rel:dm} von seinen{dp} Oberen etwas anbefohlen wird, im Dienste über die{af} Zweckmäßigkeit oder Nützlichkeit dieses{gm} Befehls laut vernünfteln wollte; er muß gehorchen.",
+    "zh": "所以，如果一个军官接到上级的命令，却在执勤时大声地对这道命令的合目的性或有用性说三道四，那将是非常有害的；他必须服从。",
+    "n": [
+     "würde … sein / wollte：第二虚拟式，描述假设情形。",
+     "jm etw. anbefehlen：命令某人做某事（旧）。dem 是关系代词与格：「（被上级）命令了某事的那个军官」。",
+     "im Dienste：在执勤中。",
+     "vernünfteln：贬义的「卖弄小聪明地推理、说三道四」（后缀 -eln 带有小、贬的意味）。",
+     "Zweckmäßigkeit：合目的性——康德的重要术语。"
+    ]
+   },
+   {
+    "de": "Es{expl} kann ihm aber billigermaßen nicht verwehrt werden, als Gelehrter über die{ap} Fehler im Kriegesdienste Anmerkungen zu machen und diese{ap} seinem{dn} Publikum zur Beurteilung vorzulegen.",
+    "zh": "但是，作为学者对军务中的错误发表意见，并把这些意见交给他的公众去评判——按理不能禁止他这样做。",
+    "n": [
+     "jm etw. verwehren：不让某人做某事。被动加情态：kann nicht verwehrt werden（不能被禁止）。",
+     "billigermaßen：公道地说、按理（billig 古义「公平」，不是今天的「便宜」）。",
+     "Kriegesdienst = Kriegsdienst（旧）。Anmerkungen machen：作评论。",
+     "jm etw. vorlegen：把……提交给某人。可分动词加 zu：vorzulegen。"
+    ]
+   },
+   {
+    "de": "Der{nm} Bürger kann sich{refl} nicht weigern, die{ap} ihm auferlegten Abgaben zu leisten; sogar kann ein{nm} vorwitziger Tadel solcher Auflagen, wenn sie{they} von ihm geleistet werden sollen, als ein{nm} Skandal, (das{rel:nn} allgemeine Widersetzlichkeiten veranlassen könnte), bestraft werden.",
+    "zh": "公民不能拒绝缴纳加在他身上的捐税；在他应当缴纳时，对这些捐税冒失地加以指责，甚至可以被当作一桩丑闻（可能引起普遍的反抗）而受到惩罚。",
+    "n": [
+     "sich weigern, … zu …：拒绝做……",
+     "扩展定语：die ihm auferlegten Abgaben = die Abgaben, die ihm auferlegt sind。auferlegen：强加于。",
+     "Abgaben leisten：缴纳捐税。Auflagen：赋税（与 Abgaben 同义）。",
+     "vorwitzig：冒失的、多嘴的。Tadel：指责。",
+     "sollen geleistet werden：应当被缴纳（情态 + 被动）。kann … bestraft werden：可以被惩罚。",
+     "das：18世纪 Skandal 有时作中性名词，所以关系代词用 das。"
+    ]
+   },
+   {
+    "de": "Ebenderselbe handelt demohngeachtet der{df} Pflicht eines{gm} Bürgers nicht entgegen{sep}, wenn er als Gelehrter wider die{af} Unschicklichkeit oder auch Ungerechtigkeit solcher Ausschreibungen öffentlich seine{ap} Gedanken äußert.",
+    "zh": "然而，同一个人如果作为学者，公开发表他对这类征税的不当乃至不公的看法，他并没有违背公民的义务。",
+    "n": [
+     "ebenderselbe：正是同一个人（强调 derselbe）。",
+     "demohngeachtet：旧词，= dessen ungeachtet / trotzdem（尽管如此）。",
+     "jm/etw. entgegenhandeln：违背……（与格 der Pflicht）。可分动词，entgegen 跑到主句末尾。",
+     "wider + 宾格：反对（旧 / 书面，= gegen）。",
+     "Ausschreibung：这里指「征税、摊派」。seine Gedanken äußern：发表看法。"
+    ]
+   },
+   {
+    "de": "Ebenso ist ein{nm} Geistlicher verbunden, seinen{dp} Katechismusschülern und seiner{df} Gemeinde nach dem{dn} Symbol der{gf} Kirche, der{rel:df} er dient, seinen{am} Vortrag zu tun, denn er ist auf diese{af} Bedingung angenommen worden.",
+    "zh": "同样，一位神职人员有义务按照他所服务的教会的信条，向他的教理问答学生和教区会众进行宣讲，因为他正是以此为条件被录用的。",
+    "n": [
+     "verbunden sein, … zu …：有义务做……（旧，= verpflichtet sein）。",
+     "jm dienen：为……服务，要求与格；所以关系代词是 der（阴性单数与格，指 Kirche）。",
+     "Symbol：这里是神学术语「信经、信条」，不是「符号」。",
+     "seinen Vortrag tun：讲授、讲道。",
+     "ist angenommen worden：被动现在完成时，「已被接受 / 录用」。auf diese Bedingung：以此为条件。"
+    ]
+   },
+   {
+    "de": "Aber als Gelehrter hat er volle Freiheit, ja sogar den{am} Beruf dazu, alle seine{ap} sorgfältig geprüften und wohlmeinenden Gedanken über das{an} Fehlerhafte in jenem{dn} Symbol und Vorschläge wegen besserer Einrichtung des{gn} Religions- und Kirchenwesens dem{dn} Publikum mitzuteilen.",
+    "zh": "但作为学者，他有完全的自由，甚至负有使命，把他经过仔细检验、出于善意的一切想法——关于那份信条中的错误之处——以及关于更好地安排宗教与教会事务的建议，告诉公众。",
+    "n": [
+     "dazu 预先指向后面的不定式 mitzuteilen（把……告知）。",
+     "jm etw. mitteilen：把某事告诉某人。宾语很长：alle seine … Gedanken … und Vorschläge …；与格 dem Publikum 在最后。",
+     "das Fehlerhafte：形容词名词化，「错误之处」。",
+     "Religions- und Kirchenwesens：连字符表示省略，= Religionswesens und Kirchenwesens。",
+     "wegen + 属格：这里是「关于」（旧用法）。"
+    ]
+   },
+   {
+    "de": "Es{expl} ist hiebei auch nichts, was dem{dn} Gewissen zur Last gelegt werden könnte.",
+    "zh": "这里也没有任何可以加在良心上的负担。",
+    "n": [
+     "jm etw. zur Last legen：把……归咎于某人、加到某人头上。",
+     "nichts, was …：没有任何……的东西。在 nichts / alles / etwas 之后，关系代词用 was。"
+    ]
+   },
+   {
+    "de": "Denn was er zufolge seines{gn} Amts als Geschäftträger der{gf} Kirche lehrt, das{dem:an} stellt er als etwas vor{sep}, in Ansehung dessen er nicht freie Gewalt hat, nach eigenem Gutdünken zu lehren, sondern das{rel:an} er nach Vorschrift und im Namen eines{gm} andern vorzutragen angestellt ist.",
+    "zh": "因为他按照职务、作为教会的代理人所讲授的东西，他是把它当作这样一种东西来陈述的：对它他没有按自己意思讲授的自由权力，而是受雇按照规定、以别人的名义来宣讲。",
+    "n": [
+     "Was …, das …：「凡是……的，那个……」。was 从句做宾语，再由 das 回指。",
+     "zufolge + 属格（前置时）：根据。",
+     "Geschäftträger：代理人（= Geschäftsträger）。",
+     "etw. als etw. vorstellen：把……陈述为……。可分动词，vor 在主句末。",
+     "in Ansehung + 属格：就……而言（旧，康德常用）。dessen 指 etwas。",
+     "nach eigenem Gutdünken：按自己的意思。angestellt sein, etw. zu tun：受雇做……"
+    ]
+   },
+   {
+    "de": "Er wird sagen: unsere Kirche lehrt dieses oder jenes; das{dem:nn} sind die{np} Beweisgründe, deren sie{she} sich{refl} bedient.",
+    "zh": "他会说：我们的教会教导这个或那个；这些就是教会所运用的论据。",
+    "n": [
+     "wird sagen：将来时。",
+     "dieses oder jenes：这个或那个。",
+     "das sind …：这些是……（das 泛指，动词随后面的复数表语用 sind）。",
+     "deren：关系代词复数属格，指 Beweisgründe——因为 sich bedienen 要求属格宾语。sie 指 die Kirche。"
+    ]
+   },
+   {
+    "de": "Er zieht alsdann allen praktischen Nutzen für seine{af} Gemeinde aus Satzungen, die{rel:ap} er selbst nicht mit voller Überzeugung unterschreiben würde, zu deren Vortrag er sich{refl} gleichwohl anheischig machen kann, weil es{expl} doch nicht ganz unmöglich ist, daß darin Wahrheit verborgen läge, auf alle Fälle aber wenigstens doch nichts der{df} innern Religion Widersprechendes darin angetroffen wird.",
+    "zh": "然后他会从那些他自己不会完全信服地签字认可、但仍可以承担宣讲的教规中，为他的会众汲取一切实际的益处；因为其中藏有真理毕竟并非完全不可能，而无论如何，至少其中找不到任何与内在宗教相抵触的东西。",
+    "n": [
+     "Nutzen aus etw. ziehen：从……中获益。alsdann：然后（旧）。",
+     "sich zu etw. anheischig machen：自愿承担……（旧）。zu deren Vortrag：「去宣讲它们」。",
+     "läge：liegen 的第二虚拟式，表示只是一种可能。",
+     "auf alle Fälle：无论如何。",
+     "nichts der innern Religion Widersprechendes：扩展定语 + 名词化：「没有任何与内在宗教相矛盾的东西」。widersprechen 要求与格，所以是 der innern Religion。innern = inneren。",
+     "angetroffen wird：被遇到 → 被发现（被动）。"
+    ]
+   },
+   {
+    "de": "Denn glaubte er das{an} letztere darin zu finden, so würde er sein{an} Amt mit Gewissen nicht verwalten können; er müßte es{it} niederlegen.",
+    "zh": "因为如果他认为在其中发现了后者，他就不能凭良心履行他的职务了；他就必须辞职。",
+    "n": [
+     "glaubte er … = wenn er glaubte …：动词放首位的条件句（第二虚拟式）。",
+     "das letztere：后者（指「与内在宗教相矛盾的东西」）。",
+     "würde … verwalten können：第二虚拟式 + 情态动词。",
+     "ein Amt niederlegen：辞去职务。müßte = müsste（第二虚拟式：就得）。"
+    ]
+   },
+   {
+    "de": "Der{nm} Gebrauch also, den{rel:am} ein{nm} angestellter Lehrer von seiner{df} Vernunft vor seiner{df} Gemeinde macht, ist bloß ein{nm} *Privatgebrauch*, weil diese{nf} immer nur eine{nf} häusliche, obzwar noch so große Versammlung ist; und in Ansehung dessen ist er als Priester nicht frei und darf es{it} auch nicht sein, weil er einen{am} fremden Auftrag ausrichtet.",
+    "zh": "所以，一个受聘的教师在会众面前对其理性的运用，只是私下运用，因为会众无论规模多大，始终只是一种家庭式的集会；就此而言，他作为牧师是不自由的，也不应当自由，因为他执行的是别人的委托。",
+    "n": [
+     "also 放在主语之后：「所以」。主语 Der Gebrauch 挂着一个关系从句，动词 ist 在从句结束后才出现。",
+     "obzwar：虽然（旧，= obwohl）。noch so groß：无论多大。",
+     "häuslich：家庭内部的——康德故意强调：再大的教区也只是「内部」场合。",
+     "darf es nicht sein：es 指代 frei。",
+     "einen Auftrag ausrichten：执行委托。"
+    ]
+   },
+   {
+    "de": "Dagegen als Gelehrter, der{rel:nm} durch Schriften zum eigentlichen Publikum, nämlich der{df} Welt spricht, mithin der{nm} Geistliche im *öffentlichen Gebrauche* seiner{gf} Vernunft, genießt einer{gf} uneingeschränkten Freiheit, sich{refl} seiner{gf} eigenen Vernunft zu bedienen und in seiner{df} eigenen Person zu sprechen.",
+    "zh": "反之，作为通过著作向真正的公众——即向世界——说话的学者，也就是在公开运用理性时的神职人员，他享有不受限制的自由来运用自己的理性，并以他自己的身份说话。",
+    "n": [
+     "句首是两个同位成分：als Gelehrter … / der Geistliche im öffentlichen Gebrauche …，然后才是动词 genießt。",
+     "genießen + 属格（旧）：享有……。现代用宾格（eine Freiheit genießen）。",
+     "zum eigentlichen Publikum, nämlich der Welt：der Welt 与 Publikum 同位，同为与格（zu + 与格）。",
+     "in seiner eigenen Person：以自己的名义——对比上文 im Namen eines andern（以别人的名义）。"
+    ]
+   },
+   {
+    "de": "Denn daß die{np} Vormünder des{gn} Volks (in geistlichen Dingen) selbst wieder unmündig sein sollen, ist eine{nf} Ungereimtheit, die{rel:nf} auf Verewigung der{gp} Ungereimtheiten hinausläuft.",
+    "zh": "因为，人民（在精神事务上）的监护人自己竟又该是不成年的，这是一种荒谬，其结果就是使荒谬永久化。",
+    "n": [
+     "Daß-从句做主语，主句动词 ist 紧随其后。",
+     "sollen：这里表示「竟应当」。",
+     "Ungereimtheit：荒谬（un-gereimt：不押韵 → 不合理）。",
+     "auf etw. hinauslaufen：结果导致……。可分动词在从句末合写：hinausläuft。",
+     "Verewigung：使永恒化（ewig 永恒）。"
+    ]
+   }
+  ],
+  "k": "5"
+ },
+ {
+  "h": "六 · 宗教契约能否束缚后人",
+  "t": "Kein ewiger Kontrakt",
+  "s": [
+   {
+    "de": "Aber sollte nicht eine{nf} Gesellschaft von Geistlichen, etwa eine{nf} Kirchenversammlung oder eine{nf} ehrwürdige Classis (wie sie{she} sich{refl} unter den{dp} Holländern selbst nennt), berechtigt sein, sich{refl} eidlich auf ein{an} gewisses unveränderliches Symbol zu verpflichten, um so eine{af} unaufhörliche Obervormundschaft über jedes ihrer{pgen} Glieder und vermittelst ihrer{pgen} über das{an} Volk zu führen und diese{af} so gar zu verewigen?",
+    "zh": "但是，一个神职人员团体，比如一次宗教会议，或者一个可敬的 Classis（荷兰人自己这样称呼它），难道不应当有权宣誓使自己受某种不变信条的约束，以便对其每一个成员、并通过他们对人民实行一种永不停止的最高监护，甚至使之永久化吗？",
+    "n": [
+     "Sollte nicht …?：反问句，「难道不应该……吗？」动词 sollte 在句首。",
+     "Classis：拉丁词，荷兰归正教会的地区教会会议。",
+     "zu etw. berechtigt sein：有权……。sich auf etw. verpflichten：使自己受……约束；eidlich：宣誓地。",
+     "Obervormundschaft：最高监护权。eine Vormundschaft führen：行使监护。",
+     "jedes ihrer Glieder：「它们成员中的每一个」，ihrer 是属格复数人称代词。vermittelst ihrer：借助于他们。",
+     "so gar = sogar：甚至。"
+    ]
+   },
+   {
+    "de": "Ich sage: das{dem:nn} ist ganz unmöglich.",
+    "zh": "我说：这是完全不可能的。",
+    "n": [
+     "简短有力。das 是指示代词，指前面整个设想。"
+    ]
+   },
+   {
+    "de": "Ein{nm} solcher Kontrakt, der{rel:nm} auf immer alle weitere Aufklärung vom Menschengeschlechte abzuhalten geschlossen würde, ist schlechterdings null und nichtig; und sollte er auch durch die{af} oberste Gewalt, durch Reichstage und die{ap} feierlichsten Friedensschlüsse bestätigt sein.",
+    "zh": "这样一个为了永远阻止人类得到任何进一步启蒙而订立的契约，是绝对无效的；即使它得到了最高权力、帝国议会和最庄严的和约的批准，也是如此。",
+    "n": [
+     "einen Kontrakt schließen：订立契约。geschlossen würde：第二虚拟式的被动。",
+     "etw. von jm abhalten：使某物远离某人。vom = von dem；Menschengeschlechte：旧式与格词尾 -e。",
+     "schlechterdings：绝对地（康德常用）。null und nichtig：无效（固定搭配）。",
+     "und sollte er auch …：「即使……也」（sollte 前置表让步）。",
+     "Reichstag：神圣罗马帝国议会。Friedensschluss：和约。"
+    ]
+   },
+   {
+    "de": "Ein{nn} Zeitalter kann sich{refl} nicht verbünden und darauf verschwören, das{an} folgende in einen{am} Zustand zu setzen, darin es{expl} ihm unmöglich werden muß, seine{ap} (vornehmlich so sehr angelegentliche) Erkenntnisse zu erweitern, von Irrtümern zu reinigen und überhaupt in der{df} Aufklärung weiterzuschreiten.",
+    "zh": "一个时代不能结成同盟、共同密谋，把下一个时代置于这样一种状态：使它不可能扩展自己的知识（尤其是那些极其要紧的知识）、清除谬误，以及一般地在启蒙中继续前进。",
+    "n": [
+     "sich verbünden：结盟。sich auf etw. verschwören：共谋……；darauf 预指后面的不定式。",
+     "das folgende：下一个（时代），省略了名词。",
+     "jn in einen Zustand setzen：把……置于某种状态。darin = in dem。",
+     "es wird ihm unmöglich：对它（ihm 指 das folgende Zeitalter）来说变得不可能。",
+     "angelegentlich：要紧的、急切的。vornehmlich：尤其。",
+     "三个不定式并列：zu erweitern, (zu) reinigen, weiterzuschreiten。"
+    ]
+   },
+   {
+    "de": "Das{dem:nn} wäre ein{nn} Verbrechen wider die{af} menschliche Natur, deren ursprüngliche Bestimmung gerade in diesem{dn} Fortschreiten besteht; und die{np} Nachkommen sind also vollkommen dazu berechtigt, jene{ap} Beschlüsse, als unbefugter und frevelhafter Weise genommen, zu verwerfen.",
+    "zh": "那将是违背人性的罪行，而人性的原初使命恰恰就在于这种前进；所以后人完全有权把那些决议当作以越权和亵渎的方式作出的而予以拒绝。",
+    "n": [
+     "wäre：sein 的第二虚拟式，「将会是」。",
+     "deren：关系代词阴性属格（指 Natur），「它的」。",
+     "Bestimmung：使命、天职（康德重要概念），也有「规定」的意思。in etw. bestehen：在于……",
+     "unbefugter und frevelhafter Weise：属格作状语，= auf unbefugte und frevelhafte Weise。",
+     "verwerfen：拒绝、驳回。"
+    ]
+   },
+   {
+    "de": "Der{nm} Probierstein alles dessen, was über ein{an} Volk als Gesetz beschlossen werden kann, liegt in der{df} Frage: ob ein{nn} Volk sich{dat} selbst wohl ein{an} solches Gesetz auferlegen könnte?",
+    "zh": "凡是可以作为法律加于一个民族的东西，其试金石都在于这样一个问题：一个民族能否给自己加上这样一条法律？",
+    "n": [
+     "Probierstein：试金石（= Prüfstein）。——这是康德式的普遍化检验：你能否同意把它加给自己？",
+     "alles dessen, was …：「一切……的东西的」（属格）。",
+     "ob：是否（引导间接疑问）。",
+     "sich etw. auferlegen：给自己加上某物（这里 sich 是与格）。könnte：第二虚拟式。"
+    ]
+   },
+   {
+    "de": "Nun wäre dieses wohl, gleichsam in der{df} Erwartung eines{gn} bessern, auf eine{af} bestimmte kurze Zeit möglich, um eine{af} gewisse Ordnung einzuführen:",
+    "zh": "当然，作为对更好状态的一种期待，在一段确定的短时间内，为了引入某种秩序，这或许是可能的：",
+    "n": [
+     "本句与下一句在原文是同一个长句，本站在冒号处分开以便学习。",
+     "wäre … möglich：第二虚拟式，「或许是可能的」。",
+     "gleichsam：好比、仿佛。eines bessern = eines besseren（一个更好的〔状态〕）。",
+     "einführen：引入。um … einzuführen：为了引入。"
+    ]
+   },
+   {
+    "de": "indem man es{expl} zugleich jedem der{gp} Bürger, vornehmlich dem{dm} Geistlichen, frei ließe, in der{df} Qualität eines{gm} Gelehrten öffentlich, d. i. durch Schriften, über das{an} Fehlerhafte der{gf} dermaligen Einrichtung seine{ap} Anmerkungen zu machen, indessen die{nf} eingeführte Ordnung noch immer fortdauerte, bis die{nf} Einsicht in die{af} Beschaffenheit dieser{gp} Sachen öffentlich so weit gekommen und bewähret worden, daß sie{she} durch Vereinigung ihrer Stimmen (wenngleich nicht aller) einen{am} Vorschlag vor den{am} Thron bringen könnte, um diejenigen{ap} Gemeinden in Schutz zu nehmen, die{rel:np} sich{refl} etwa nach ihren Begriffen der{gf} besseren Einsicht zu einer{df} veränderten Religionseinrichtung geeinigt hätten, ohne doch diejenigen{ap} zu hindern, die{rel:np} es{it} beim alten wollten bewenden lassen.",
+    "zh": "同时让每一个公民，尤其是神职人员，都可以以学者的身份公开地——即通过著作——对现行制度的缺陷发表意见，而已引入的秩序则照旧持续；直到对这些事情性质的认识公开地发展到相当程度、得到证实，从而能够通过联合（即使不是全体的）声音向王座提出建议，以保护那些也许按自己更好的见解已经同意改变宗教制度的教区，同时又不妨碍那些愿意维持原状的人。",
+    "n": [
+     "indem：「在……的同时 / 通过……的方式」。本句是由一连串从句层层嵌套而成：indem → indessen → bis → daß → um … zu → die → ohne … zu → die。逐层读即可。",
+     "jm frei lassen, … zu …：任凭某人做……。ließe：第二虚拟式。",
+     "d. i. = das ist：即。dermalig：当时的、现行的（旧）。",
+     "indessen：与此同时（连词）。fortdauern：持续。",
+     "bewähret worden = bewährt worden [ist]：已被证实。",
+     "jn in Schutz nehmen：保护某人。sich zu etw. einigen：就……达成一致；geeinigt hätten：第二虚拟式过去完成。",
+     "es beim Alten bewenden lassen：维持原状（固定成语）。注意：wollten 放在 bewenden lassen 之前——两个不定式连用时，变位动词提前（双不定式规则）。"
+    ]
+   },
+   {
+    "de": "Aber auf eine{af} beharrliche, von niemanden öffentlich zu bezweifelnde Religionsverfassung auch nur binnen der{gf} Lebensdauer eines{gm} Menschen sich{refl} zu einigen, und dadurch einen{am} Zeitraum in dem{dm} Fortgange der{gf} Menschheit zur Verbesserung gleichsam zu vernichten und fruchtlos, dadurch aber wohl gar der{df} Nachkommenschaft nachteilig zu machen, ist schlechterdings unerlaubt.",
+    "zh": "但是，哪怕只是在一个人的一生之内，就一种持久不变、谁也不得公开质疑的宗教体制达成一致，并由此仿佛把人类向改善前进的历程中的一段时间抹去，使之毫无成果，甚至因此对后代有害——这是绝对不允许的。",
+    "n": [
+     "整个长长的不定式短语做主语，谓语直到最后才出现：ist schlechterdings unerlaubt。",
+     "von niemanden … zu bezweifelnde：「zu + 现在分词」作定语 = die von niemandem bezweifelt werden darf（不得被任何人怀疑的）。niemanden 是旧式，现代写 niemandem。",
+     "binnen + 属格 / 与格：在……之内。",
+     "jm nachteilig sein：对某人有害。",
+     "zu vernichten und fruchtlos … zu machen：两个不定式并列。"
+    ]
+   },
+   {
+    "de": "Ein{nm} Mensch kann zwar für seine{af} Person und auch alsdann nur auf einige Zeit in dem{dn}, was ihm zu wissen obliegt, die{af} Aufklärung aufschieben; aber auf sie{her} Verzicht zu tun, es{expl} sei für seine{af} Person, mehr aber noch für die{af} Nachkommenschaft, heißt die{ap} heiligen Rechte der{gf} Menschheit verletzen und mit Füßen treten.",
+    "zh": "一个人固然可以就他自己、而且也只能在一段时间内，在他有义务知道的事情上推迟启蒙；但放弃启蒙，无论是为他自己，更不用说为后代，就意味着侵犯并践踏人类的神圣权利。",
+    "n": [
+     "zwar …; aber …：固然……，但是……",
+     "jm obliegen：是某人的职责。aufschieben：推迟。",
+     "auf etw. Verzicht tun：放弃……（= auf etw. verzichten）。",
+     "es sei …：「无论是……」（第一虚拟式表让步）。",
+     "A heißt B：做 A 就等于做 B。这里 heißt 后面直接跟不定式（不带 zu）。",
+     "mit Füßen treten：践踏（字面「用脚踩」）。"
+    ]
+   },
+   {
+    "de": "Was aber nicht einmal ein{nn} Volk über sich{refl} selbst beschließen darf, das{dem:an} darf noch weniger ein{nm} Monarch über das{an} Volk beschließen; denn sein{nn} gesetzgebendes Ansehen beruht eben darauf, daß er den{am} gesamten Volkswillen in dem{dm} seinigen vereinigt.",
+    "zh": "连一个民族都不可以对自己决定的事，一个君主就更不可以替民族决定；因为他的立法权威恰恰在于：他把全体人民的意志统一在他自己的意志之中。",
+    "n": [
+     "Was …, das …：凡……的，那……（对比结构）。",
+     "nicht einmal：连……都不。noch weniger：更不。",
+     "Ansehen：威望、权威（不是「看」）。auf etw. beruhen：基于……",
+     "der seinige：他的那个（书面，= der seine），这里指 Wille。——这里能听到卢梭「公意」思想的回响。"
+    ]
+   },
+   {
+    "de": "Wenn er nur darauf sieht, daß alle wahre oder vermeinte Verbesserung mit der{df} bürgerlichen Ordnung zusammenbestehe, so kann er seine{ap} Untertanen übrigens nur selbst machen lassen, was sie{they} um ihres{gn} Seelenheils willen zu tun nötig finden; das{dem:nn} geht ihn nichts an{sep}, wohl aber zu verhüten, daß nicht einer den{am} andern gewalttätig hindere, an der{df} Bestimmung und Beförderung desselben nach allem seinen Vermögen zu arbeiten.",
+    "zh": "只要他注意让一切真正的或自以为的改善都与公民秩序相容，其余的事他就尽可以让臣民们自己去做他们为了灵魂得救而认为必要的事；那与他无关；但他要防止的是：有人用暴力阻碍别人竭尽所能地去确定和促进自己的灵魂得救。",
+    "n": [
+     "auf etw. sehen：注意、留意。zusammenbestehe：第一虚拟式，「能共存」。",
+     "jn etw. machen lassen：让某人做某事。",
+     "um … willen（中间夹属格）：为了……的缘故。um ihres Seelenheils willen：为了他们灵魂的得救。",
+     "jn etw. angehen：与某人有关。das geht ihn nichts an：这与他无关（可分动词，an 在末尾）。",
+     "wohl aber：但确实（要）……。daß nicht einer den andern … hindere：这里的 nicht 是 verhüten 后的赘余否定，不必翻译。",
+     "desselben：指 Seelenheil。nach allem seinen Vermögen：竭尽全力（现代 nach all seinem Vermögen）。"
+    ]
+   },
+   {
+    "de": "Es{expl} tut selbst seiner{df} Majestät Abbruch, wenn er sich{refl} hierin mischt, indem er die{ap} Schriften, wodurch seine{np} Untertanen ihre{ap} Einsichten ins reine zu bringen suchen, seiner{gf} Regierungsaufsicht würdigt, sowohl wenn er dieses aus eigener höchsten Einsicht tut, wo er sich{refl} dem{dm} Vorwurfe aussetzt: _Caesar non est supra grammaticos_, als auch und noch weit mehr, wenn er seine{af} oberste Gewalt soweit erniedrigt, den{am} geistlichen Despotism einiger Tyrannen in seinem{dm} Staate gegen seine{ap} übrigen Untertanen zu unterstützen.",
+    "zh": "如果君主插手这种事，用他的政府监督去「垂顾」臣民借以澄清自己见解的著作，这本身就有损他的尊严：无论他是出于自己的最高见识而这样做——这时他会招来「恺撒不在语法学家之上」的指责——还是更甚者，他把自己的最高权力贬低到去支持国内少数暴君对其余臣民的精神专制。",
+    "n": [
+     "jm/etw. Abbruch tun：损害……（与格 seiner Majestät）。",
+     "sich in etw. mischen：插手。hierin：在这件事上。",
+     "wodurch：借以（关系副词）。etw. ins Reine bringen：弄清楚、理顺。",
+     "jn/etw. einer Sache würdigen：认为……配得上……（属格）——讽刺：仿佛受审查是一种荣幸。",
+     "sowohl wenn … als auch …：无论……还是……",
+     "sich einer Sache aussetzen：使自己遭受……",
+     "Caesar non est supra grammaticos：拉丁语，「皇帝不在语法学家之上」——统治者对学术问题没有权威。",
+     "soweit erniedrigen, … zu …：贬低到……的地步。"
+    ]
+   }
+  ],
+  "k": "6"
+ },
+ {
+  "h": "七 · 我们生活在启蒙了的时代吗",
+  "t": "Ein Zeitalter der Aufklärung",
+  "s": [
+   {
+    "de": "Wenn denn nun gefragt wird: leben wir jetzt in einem{dn} *aufgeklärten* Zeitalter? so ist die{nf} Antwort: Nein, aber wohl in einem{dn} Zeitalter der{gf} *Aufklärung*.",
+    "zh": "如果现在有人问：我们现在是生活在一个已经启蒙了的时代吗？回答是：不是，但确实是生活在一个启蒙的时代。",
+    "n": [
+     "gefragt wird：无人称被动，「有人问」。",
+     "一般疑问句：动词 leben 在首位（leben wir …?）。",
+     "aufgeklärt（已启蒙的，完成状态）vs. der Aufklärung（正在启蒙的过程）——全文名句，区分「结果」与「过程」。",
+     "wohl：确实、倒是。"
+    ]
+   },
+   {
+    "de": "Daß die{np} Menschen, wie die{np} Sachen jetzt stehen, im ganzen genommen, schon imstande wären oder darin auch nur gesetzt werden könnten, in Religionsdingen sich{refl} ihres{gm} eigenen Verstandes ohne Leitung eines{gm} andern sicher und gut zu bedienen, daran fehlt noch sehr viel.",
+    "zh": "按目前的情形，要说人们总的来说已经能够、或者哪怕只是能够被置于这样的状态：在宗教事务上不需他人引导而可靠且良好地运用自己的知性——那还差得很远。",
+    "n": [
+     "Daß …, daran fehlt noch sehr viel：「要做到……，还差得很远」。an etw. fehlen：在……方面欠缺。",
+     "wie die Sachen jetzt stehen：按目前情况。im ganzen genommen：总的来看。",
+     "imstande sein, … zu …：能够……。wären：第二虚拟式（尚不是事实）。",
+     "注意：sich ihres eigenen Verstandes … zu bedienen —— 第一段的核心句型又出现了。"
+    ]
+   },
+   {
+    "de": "Allein, daß jetzt ihnen doch das{nn} Feld geöffnet wird, sich{refl} dahin frei zu bearbeiten und die{np} Hindernisse der{gf} allgemeinen Aufklärung oder des{gm} Ausganges aus ihrer{df} selbstverschuldeten Unmündigkeit allmählich weniger werden, davon haben wir doch deutliche Anzeigen.",
+    "zh": "然而，现在毕竟已经为他们打开了自由地朝这个方向努力的天地，而且普遍启蒙的障碍——也就是走出自己所招致的不成年状态的障碍——正在逐渐减少；对此我们确实已有明显的迹象。",
+    "n": [
+     "Allein：然而（旧连词）。",
+     "Daß …, davon haben wir Anzeigen：「对于……，我们有迹象」。",
+     "wird geöffnet：被动现在时。sich dahin bearbeiten：朝这个方向努力。",
+     "weniger werden：变少。Anzeige：迹象（今天多指「广告、告示」）。"
+    ]
+   },
+   {
+    "de": "In diesem{dm} Betracht ist dieses{nn} Zeitalter das{nn} Zeitalter der{gf} Aufklärung oder das{nn} Jahrhundert FRIEDERICHS.",
+    "zh": "从这个意义上说，这个时代就是启蒙的时代，或者说腓特烈的世纪。",
+    "n": [
+     "in diesem Betracht：从这个角度。",
+     "FRIEDERICHS：Friedrich（腓特烈二世，1740–1786 在位的普鲁士国王）的属格，原文全大写以示尊崇。"
+    ]
+   }
+  ],
+  "k": "7"
+ },
+ {
+  "h": "八 · 开明的君主",
+  "t": "Der aufgeklärte Fürst",
+  "s": [
+   {
+    "de": "Ein{nm} Fürst, der{rel:nm} es{expl} seiner{gpron} nicht unwürdig findet zu sagen, daß er es{expl} für *Pflicht* halte, in Religionsdingen den{dp} Menschen nichts vorzuschreiben, sondern ihnen darin volle Freiheit zu lassen, der{dem:nm} also selbst den{am} hochmütigen Namen der{gf} *Toleranz* von sich{refl} ablehnt, ist selbst aufgeklärt und verdient von der{df} dankbaren Welt und Nachwelt als derjenige{nm} gepriesen zu werden, der{rel:nm} zuerst das{an} menschliche Geschlecht der{gf} Unmündigkeit, wenigstens von seiten der{gf} Regierung, entschlug und jedem frei ließ, sich{refl} in allem, was Gewissensangelegenheit ist, seiner{gf} eigenen Vernunft zu bedienen.",
+    "zh": "一位君主，如果他不认为说出这样的话有失身份：他认为在宗教事务上不给人们规定任何东西、而让他们享有完全的自由，是自己的义务；从而他连「宽容」这个傲慢的名称都加以拒绝——那么他自己就是已启蒙的，并且值得被心怀感激的当世与后世称颂为：第一个至少从政府方面使人类摆脱了不成年状态、并让每个人在一切良心事务上自由运用自己理性的人。",
+    "n": [
+     "主语 Ein Fürst 后挂两个关系从句（der …, der …），主句动词 ist 直到很后面才出现。",
+     "es seiner nicht unwürdig finden：不认为有失自己的身份。unwürdig + 属格，seiner = 他自己。",
+     "es für Pflicht halten, … zu …：认为……是义务。halte：第一虚拟式（间接引语）。",
+     "den Menschen：复数与格（jm etw. vorschreiben：给某人规定）。",
+     "Toleranz：宽容——康德认为这个词带着施舍者的傲慢，好像信仰自由是恩赐而不是权利。",
+     "verdient … gepriesen zu werden：值得被称颂（被动不定式）。preisen–pries–gepriesen。",
+     "jn einer Sache entschlagen：使某人摆脱……（旧，属格）。entschlug 是过去式。von seiten = vonseiten：从……方面。"
+    ]
+   },
+   {
+    "de": "Unter ihm dürfen verehrungswürdige Geistliche, unbeschadet ihrer{gf} Amtspflicht, ihre{ap} vom angenommenen Symbol hier oder da abweichenden Urteile und Einsichten in der{df} Qualität der{gp} Gelehrten frei und öffentlich der{df} Welt zur Prüfung darlegen; noch mehr aber jeder{nm} andere, der{rel:nm} durch keine Amtspflicht eingeschränkt ist.",
+    "zh": "在他治下，可敬的神职人员可以在不损害其职责的前提下，以学者的身份，自由而公开地把他们在这里或那里偏离公认信条的判断与见解，交给世界去检验；而任何其他不受职责约束的人，就更可以这样做了。",
+    "n": [
+     "unbeschadet + 属格：在不损害……的前提下。",
+     "扩展定语：ihre vom angenommenen Symbol hier oder da abweichenden Urteile = ihre Urteile, die vom … abweichen。abweichen：偏离。",
+     "jm etw. zur Prüfung darlegen：把……交给某人检验。",
+     "noch mehr aber jeder andere：省略了 darf das（更可以）。"
+    ]
+   },
+   {
+    "de": "Dieser{nm} Geist der{gf} Freiheit breitet sich{refl} auch außerhalb aus{sep}, selbst da, wo er mit äußeren Hindernissen einer{gf} sich{refl} selbst mißverstehenden Regierung zu ringen hat.",
+    "zh": "这种自由精神也向外扩展，即使在那些它不得不同一个误解了自身的政府所设的外在障碍搏斗的地方。",
+    "n": [
+     "sich ausbreiten：扩展（可分动词，aus 在主句末）。",
+     "mit etw. ringen：与……搏斗。zu ringen haben：不得不搏斗。",
+     "einer sich selbst mißverstehenden Regierung：扩展定语（现在分词）：一个误解自身的政府。"
+    ]
+   },
+   {
+    "de": "Denn es{expl} leuchtet dieser{df} doch ein{nn} Beispiel vor{sep}, daß bei Freiheit für die{af} öffentliche Ruhe und Einigkeit des{gn} gemeinen Wesens nicht das{nn} mindeste zu besorgen sei.",
+    "zh": "因为毕竟已有一个榜样在它面前闪耀：在自由之下，公共安宁和共同体的团结丝毫无须担心。",
+    "n": [
+     "jm vorleuchten：在某人面前照亮 → 做榜样（可分）。es 是占位主语，真正的主语是 ein Beispiel；dieser 是与格，指那个政府。",
+     "für etw. besorgen：为……担忧（旧）。zu besorgen sei：sein + zu-不定式 =「需要被……」；sei 是第一虚拟式。",
+     "nicht das mindeste：一点也不。"
+    ]
+   },
+   {
+    "de": "Die{np} Menschen arbeiten sich{refl} von selbst nach und nach aus der{df} Rohigkeit heraus{sep}, wenn man nur nicht absichtlich künstelt, um sie{them} darin zu erhalten.",
+    "zh": "只要人们不故意耍手段把人维持在野蛮状态中，人们自己就会逐渐地从中挣脱出来。",
+    "n": [
+     "sich herausarbeiten aus（可分，heraus 在末）——呼应第三段开头。",
+     "von selbst：自动地。nach und nach：逐渐。",
+     "Rohigkeit：粗野、未开化（现代 Rohheit）。künsteln：故意耍花招、矫揉造作。",
+     "jn in etw. erhalten：使某人保持在……之中。"
+    ]
+   }
+  ],
+  "k": "8"
+ },
+ {
+  "h": "九 · 为何以宗教为重点",
+  "t": "Religionssachen",
+  "s": [
+   {
+    "de": "Ich habe den{am} Hauptpunkt der{gf} Aufklärung, d. i. des{gm} Ausganges der{gp} Menschen aus ihrer{df} selbstverschuldeten Unmündigkeit, vorzüglich in *Religionssachen* gesetzt, weil in Ansehung der{gp} Künste und Wissenschaften unsere{np} Beherrscher kein{an} Interesse haben, den{am} Vormund über ihre{ap} Untertanen zu spielen, überdem auch jene{nf} Unmündigkeit, so wie die{nf} schädlichste, also auch die{nf} entehrendste unter allen ist.",
+    "zh": "我把启蒙——即人们走出自己所招致的不成年状态——的重点主要放在宗教事务上，因为在艺术和科学方面，我们的统治者并无兴趣去充当臣民的监护人；此外，宗教上的那种不成年状态，既是最有害的，也是一切不成年状态中最可耻的。",
+    "n": [
+     "den Hauptpunkt in etw. setzen：把重点放在……。现在完成时 habe … gesetzt。",
+     "vorzüglich：主要地（旧）。",
+     "den Vormund spielen：扮演监护人。",
+     "überdem：此外（旧，= überdies）。so wie …, also auch …：正如……，也……",
+     "entehrend：使人蒙羞的；entehrendste：最高级。"
+    ]
+   },
+   {
+    "de": "Aber die{nf} Denkungsart eines{gn} Staatsoberhaupts, der{rel:nm} die{af} erstere begünstigt, geht noch weiter und sieht ein{sep}: daß selbst in Ansehung seiner *Gesetzgebung* es{expl} ohne Gefahr sei, seinen{dp} Untertanen zu erlauben, von ihrer{df} eigenen Vernunft *öffentlichen* Gebrauch zu machen und ihre{ap} Gedanken über eine{af} bessere Abfassung derselben, sogar mit einer{df} freimütigen Kritik der{gf} schon gegebenen, der{df} Welt öffentlich vorzulegen; davon wir ein{an} glänzendes Beispiel haben, wodurch noch kein{nm} Monarch demjenigen vorging, welchen wir verehren.",
+    "zh": "但是，一个支持前者的国家元首，其思维方式会走得更远，并且认识到：即使就他的立法而言，允许臣民公开运用自己的理性，向世界公开发表他们关于如何更好地制定法律的想法，甚至坦率地批评已有的法律，也没有危险。对此我们已有一个光辉的榜样，在这方面还没有哪一位君主走在我们所敬仰的那位君主之前。",
+    "n": [
+     "der：Staatsoberhaupt 是中性名词，但关系代词用阳性 der——按实际所指的人（男性君主）。",
+     "die erstere：前者（指宗教事务上的启蒙）。",
+     "einsehen：认识到（可分，ein 分离到末尾）。",
+     "jm erlauben, … zu …：允许某人做……",
+     "Abfassung：拟定、起草。derselben 指 Gesetzgebung。der schon gegebenen：已经颁布的（法律）。",
+     "davon wir … haben：旧式语序（现代 wovon wir … haben）。jm vorgehen：走在某人前面、领先。"
+    ]
+   }
+  ],
+  "k": "9"
+ },
+ {
+  "h": "十 · 悖论：公民自由与精神自由",
+  "t": "Das Paradox",
+  "s": [
+   {
+    "de": "Aber auch nur derjenige{nm}, der{rel:nm}, selbst aufgeklärt, sich{refl} nicht vor Schatten fürchtet, zugleich aber ein{an} wohldiszipliniertes zahlreiches Heer zum Bürgen der{gf} öffentlichen Ruhe zur Hand hat, kann das{an} sagen, was ein{nm} Freistaat nicht wagen darf: *Räsonniert, soviel ihr{you} wollt, und worüber ihr{you} wollt; nur gehorcht!*",
+    "zh": "但也只有这样一个人——他自己已经启蒙，不怕幻影，同时手中握有一支纪律严明、人数众多的军队来保障公共安宁——才能说出一个共和国所不敢说的话：你们尽管争辩，想争辩多少、想争辩什么都行；只是要服从！",
+    "n": [
+     "主语 derjenige 后挂着长长的关系从句，主句动词 kann 直到最后才出现。",
+     "sich vor etw. fürchten：害怕……。Schatten：影子，这里指无谓的恐惧。",
+     "zur Hand haben：手头有。zum Bürgen：作为担保。",
+     "Freistaat：自由邦、共和国（没有君主的国家）。",
+     "das, was …：……的那种话。"
+    ]
+   },
+   {
+    "de": "So zeigt sich{refl} hier ein{nm} befremdlicher, nicht erwarteter Gang menschlicher Dinge; sowie auch sonst, wenn man ihn im großen betrachtet, darin fast alles paradox ist.",
+    "zh": "于是，这里显出人类事务一种奇特的、出人意料的进程；正如在别处一样，如果从大处来看，其中几乎一切都是悖论性的。",
+    "n": [
+     "sich zeigen：显现。befremdlich：令人诧异的。",
+     "menschlicher Dinge：属格复数。没有冠词时，形容词自己带 -er 词尾来标明格。",
+     "im Großen betrachten：从大处着眼。ihn 指 Gang（进程）。darin：在其中。"
+    ]
+   },
+   {
+    "de": "Ein{nm} größerer Grad bürgerlicher Freiheit scheint der{df} Freiheit des{gm} *Geistes* des{gn} Volks vorteilhaft und setzt ihr{dat} doch unübersteigliche Schranken; ein{nm} Grad weniger von jener{df} verschafft hingegen diesem{dm} Raum, sich{refl} nach allem seinen Vermögen auszubreiten.",
+    "zh": "较大程度的公民自由，似乎有利于人民的精神自由，却又给它设下不可逾越的界限；反之，少一些公民自由，倒给了精神按其全部能力扩展的空间。",
+    "n": [
+     "jm vorteilhaft scheinen：似乎对……有利。",
+     "jm Schranken setzen：给……设限。unübersteiglich：无法翻越的。",
+     "jener … diesem：「前者……后者」。jener 指较远提到的「公民自由」；diesem 是阳性与格，指 Geist（精神）。",
+     "jm Raum verschaffen：给某人创造空间。hingegen：相反。"
+    ]
+   },
+   {
+    "de": "Wenn denn die{nf} Natur unter dieser{df} harten Hülle den{am} Keim, für den{rel:am} sie{she} am zärtlichsten sorgt, nämlich den{am} Hang und Beruf zum *freien Denken*, ausgewickelt hat: so wirkt dieser allmählich zurück{sep} auf die{af} Sinnesart des{gn} Volks, (wodurch dies der{gf} *Freiheit zu handeln* nach und nach fähiger wird), und endlich auch sogar auf die{ap} Grundsätze der{gf} *Regierung*, die{rel:nf} es{expl} ihr{dat} selbst zuträglich findet, den{am} Menschen, der{rel:nm} nun *mehr als Maschine* ist, seiner{gf} Würde gemäß zu behandeln.",
+    "zh": "当大自然在这层坚硬的外壳之下，把它最温柔地呵护的那颗种子——即自由思想的倾向与使命——剥露出来之后，这颗种子就会逐渐反过来作用于人民的心态（人民由此逐渐变得更能够自由地行动），最终甚至作用于政府的原则：政府会发现，按照人的尊严来对待人——人如今已不仅仅是机器——对它自己也是有益的。",
+    "n": [
+     "Hülle：外壳。Keim：胚芽、种子——全文结尾的生物学比喻。",
+     "für etw. sorgen：照料……。am zärtlichsten：最温柔地（最高级副词）。",
+     "auswickeln：从包裹中剥出——呼应前文的 herauswickeln。",
+     "auf etw. zurückwirken：反作用于……（可分，zurück 分离）。dieser 指 der Keim。",
+     "einer Sache fähig sein：能够……（属格）；fähiger 是比较级。der Freiheit zu handeln：行动的自由。",
+     "es ihr selbst zuträglich finden, … zu …：认为……对自己有益。",
+     "jm gemäß（后置）：按照……。seiner Würde gemäß：按照他的尊严。",
+     "mehr als Maschine：不仅仅是机器——呼应前文「机器的一部分」。全文以「人的尊严」作结。"
+    ]
+   },
+   {
+    "de": "Königsberg in Preußen, den{am} 30. Septemb. 1784.",
+    "zh": "普鲁士，柯尼斯堡，1784年9月30日。",
+    "n": [
+     "德语日期常用宾格：den 30. September（30. 读作 dreißigsten，序数词）。Septemb. 是缩写。",
+     "柯尼斯堡（Königsberg）：康德一生几乎没离开过的城市，今属俄罗斯，名为加里宁格勒。"
+    ]
+   },
+   {
+    "de": "I. Kant.",
+    "zh": "伊·康德",
+    "n": [
+     "I. = Immanuel。"
+    ]
+   }
+  ],
+  "k": "10"
+ },
+ {
+  "h": "注释 · 关于门德尔松",
+  "t": "Anmerkung",
+  "s": [
+   {
+    "de": "In den{dp} Büschingschen Wöchentlichen Nachrichten vom 13. Sept. lese ich heute den{am} 30. ebendess. die{af} Anzeige der{gf} Berlinischen Monatsschrift von diesem{dm} Monat, worin des{gm} Herrn *Mendelssohn* Beantwortung ebenderselben Frage angeführt wird.",
+    "zh": "今天，即同月30日，我在9月13日的《比辛周报》上读到《柏林月刊》本月号的预告，其中提到门德尔松先生对同一个问题的答复。",
+    "n": [
+     "Büschingsche Wöchentliche Nachrichten：地理学家 A. F. Büsching 主编的周报。人名 + -sch 变成形容词。",
+     "ebendess. = ebendesselben (Monats)：同一个月的。",
+     "worin：其中（关系副词）。",
+     "des Herrn Mendelssohn Beantwortung：前置属格（旧式），= die Beantwortung des Herrn Mendelssohn。摩西·门德尔松（Moses Mendelssohn）同年也发表了他对这个问题的回答。",
+     "anführen：引述。angeführt wird：被动。"
+    ]
+   },
+   {
+    "de": "Mir ist sie{she} noch nicht zu Händen gekommen; sonst würde sie{she} die{af} gegenwärtige zurückgehalten haben, die{rel:nf} jetzt nur zum Versuche dastehen mag, wiefern der{nm} Zufall Einstimmigkeit der{gp} Gedanken zuwege bringen könne.",
+    "zh": "它还没有到我手里；否则它会使我把本文压下不发。现在本文就权当一个试验吧：看看偶然能在多大程度上带来思想的一致。",
+    "n": [
+     "jm zu Händen kommen：到某人手中。Mir 放在句首强调。",
+     "sonst würde … zurückgehalten haben：第二虚拟式过去时：否则本会……",
+     "die gegenwärtige：本篇（指康德这篇 Beantwortung，阴性）。",
+     "dastehen：立在那里、存在。mag：权且、不妨。wiefern：在多大程度上（= inwiefern）。",
+     "zuwege bringen：带来、实现。könne：第一虚拟式。"
+    ]
+   }
+  ],
+  "k": "注"
+ }
+]

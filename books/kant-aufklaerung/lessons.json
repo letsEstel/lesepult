@@ -1,0 +1,20 @@
+[
+ {
+  "t": "这篇文章是什么",
+  "de": "Worum geht es?",
+  "min": 4,
+  "html": "\n<p>1784 年 9 月，60 岁的康德在柯尼斯堡写下这篇短文，12 月发表在《柏林月刊》上。起因是一位柏林牧师在该刊的一个脚注里随口问了一句：「什么是启蒙？」——当时人人都在谈启蒙，却没人说得清它是什么。</p>\n<p>康德的回答只有一句话，却成了整个启蒙运动最有名的定义：</p>\n[[*Aufklärung ist der{nm} Ausgang des{gm} Menschen aus seiner{df} selbstverschuldeten Unmündigkeit.*]]\n<p>全文约 2,700 个德语词，分十段。它难读，原因有三：① 这是 18 世纪的德语，拼写和一些词义与今天不同；② 康德的句子很长，一个句子里常常嵌套三四层从句；③ 它用了不少哲学和法律术语。</p>\n<p>这门课的做法是：先用 11 节短课给你读这篇文章<b>刚好够用</b>的语法，然后带你一句一句精读。在本站任何地方，<b>德语词都可以点</b>——点一下就会弹出它的原形、词性、在这句话里的格与用法。试试点上面那句话里的 <i>seiner</i>。</p>\n<div class=\"tip\"><b>建议路线</b>：德语基础课（约一个半小时；第 3、4 课讲「格」，最重要，慢慢做完练习）→ 本书的两节专题课 → 精读第一段（每句先自己读，再看「语法」，最后对「译文」）→ 每天一两段，大约一周读完全文。</div>"
+ },
+ {
+  "t": "康德的核心句型：sich + 属格 + bedienen",
+  "de": "sich seines Verstandes bedienen",
+  "min": 6,
+  "html": "\n<p>全文最重要的一个短语出现了 7 次：</p>\n[[sich{refl} seines{gm} Verstandes … zu bedienen]]\n<p><i>sich einer Sache bedienen</i> =「使用、运用某物」。两个特别之处：</p>\n<ul>\n<li><b>反身代词 sich</b>：很多德语动词必须带 sich，sich 跟着主语变：ich → mich，du → dich，er/sie/es → sich。所以格言里对「你」说：[[Habe Mut, dich{refl2} deines{gm} eigenen Verstandes zu bedienen!]]</li>\n<li><b>宾语用属格</b>：不是 <i>den Verstand</i>（宾格），而是 <i>des Verstandes</i>（属格）。今天的德语里这种「属格宾语」很少见了，但 18 世纪很常见。文中还有：<i>einer Freiheit genießen</i>（享有自由）、<i>aller Aufklärung unfähig</i>（无力任何启蒙）、<i>der Unmündigkeit entschlagen</i>（使摆脱不成年）。</li>\n</ul>\n<p>另一个核心句型：<b>von etw. Gebrauch machen</b>（使用某物）：</p>\n[[von seiner{df} Vernunft in allen Stücken *öffentlichen Gebrauch* zu machen]]"
+ },
+ {
+  "t": "康德的关键词",
+  "de": "Schlüsselbegriffe",
+  "min": 6,
+  "html": "\n<dl class=\"concepts\">\n<dt>[[Aufklärung]]</dt><dd>启蒙。auf + klären：澄清、照亮。在康德这里，它不是一种知识，而是一个动作：走出不成年状态。</dd>\n<dt>[[Unmündigkeit]] · [[Mündigkeit]]</dt><dd>不成年 / 成年。本是法律词：未成年人不能自己做主，要由监护人代理。康德借来指：不能独立运用自己的知性。</dd>\n<dt>[[Vormund]]</dt><dd>监护人。文中的「监护人」是书、牧师、医生、官员——一切替你思考的人。</dd>\n<dt>[[Verstand]] · [[Vernunft]]</dt><dd>知性 / 理性。Verstand 是理解和判断的能力；Vernunft 是更高层的推理与原则的能力。日常德语里两者都近于「理智」。</dd>\n<dt>öffentlicher · [[Privatgebrauch]]</dt><dd>公开运用 / 私下运用。全文最反直觉的区分：以学者身份面向全体读者发表意见 = 公开；在职务之内（军官、税务官、牧师执行公务）= 私下。前者必须自由，后者可以受限。</dd>\n<dt>[[Publikum]] · [[Gelehrter]]</dt><dd>公众 / 学者。「学者」不是职业，而是一种身份：任何人只要通过文字面向读者世界说话，就是学者。</dd>\n<dt>[[räsonnieren]]</dt><dd>争辩、讲道理。「Räsonniert, soviel ihr wollt, aber gehorcht!」——你们尽管争辩，但要服从。</dd>\n<dt>[[Bestimmung]] · [[Beruf]]</dt><dd>使命 / 天职。人的本性就在于不断前进、不断启蒙。</dd>\n</dl>"
+ }
+]

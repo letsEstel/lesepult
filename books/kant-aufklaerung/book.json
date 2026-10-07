@@ -1,0 +1,71 @@
+{
+  "id": "kant-aufklaerung",
+  "profile": "de-zh",
+  "title": "Was ist Aufklärung?",
+  "brandMark": "A",
+  "mast": "Aufklärung",
+  "eyebrow": "Immanuel Kant · Berlinische Monatsschrift · Dezember 1784",
+  "subtitle": "Beantwortung der Frage: Was ist Aufklärung?",
+  "lede": "零基础，也能一个词一个词地读完康德的《答复这个问题：什么是启蒙？》。每个德语词都可以点开：原形、词性、在这句里的格、为什么是这个格、用法与古义；每句都有结构分析、语法讲解和中文译文。",
+  "demo": [
+    1,
+    0
+  ],
+  "demoCaption": "全文第一句 · 点任意一个词",
+  "howto": [
+    {
+      "n": "第 1 步",
+      "h": "先学德语基础课",
+      "p": "书架上的德语基础课（8 节，约一个半小时）讲发音、四个格、动词位置和长句拆解；再看本书的三节专题课：这篇文章是什么、康德的核心句型、关键词。"
+    },
+    {
+      "n": "第 2 步",
+      "h": "逐句精读",
+      "p": "先自己读，点开不认识的词；再打开「语法」看句子骨架；最后对照「译文」。读懂一句，就点「读懂了」。"
+    },
+    {
+      "n": "第 3 步",
+      "h": "生词本复习",
+      "p": "在词卡上点 ☆ 收藏。生词本里有翻卡练习，进度和收藏都保存在你这台设备的浏览器里。"
+    }
+  ],
+  "intro": {
+    "eyebrow": "Zum Text",
+    "h": "本书专题课",
+    "p": "读这篇文章特有的背景、句型和关键词。还没学过德语基础课的话，先学上面的基础课。"
+  },
+  "vocab": {
+    "eyebrow": "Wortschatz",
+    "h": "全文词汇表",
+    "p": "文中出现的每一个词形。可以用德语或中文搜索；点一行看完整释义和它在文中的位置。",
+    "placeholder": "搜索：Vernunft、理性、属格…"
+  },
+  "saved": {
+    "eyebrow": "Mein Vokabelheft",
+    "h": "生词本"
+  },
+  "slipEmpty": "点击正文中的任意德语词，这里会显示它的原形、词性、此处的格和用法。<br><br>小技巧：先打开「语法着色」，找到紫色的动词，再找蓝色的主语。",
+  "footer": "原文：Immanuel Kant, »Beantwortung der Frage: Was ist Aufklärung?«, Berlinische Monatsschrift, 1784（据 Cassirer 1913 年版，Projekt Gutenberg #30821，公有领域）。注释与翻译为本课程所作。",
+  "fontsHref": "https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,600;1,7..72,400&family=UnifrakturMaguntia&family=IBM+Plex+Mono:wght@400;500&family=Noto+Serif+SC:wght@400;600&display=swap",
+  "fonts": {
+    "text": "\"Literata\",Georgia,\"Times New Roman\",serif",
+    "mast": "\"UnifrakturMaguntia\",\"Literata\",Georgia,serif",
+    "trans": "\"Noto Serif SC\",\"Songti SC\",\"STSong\",\"SimSun\",serif"
+  },
+  "theme": {
+    "accent": "#1e3c6a",
+    "accent2": "#2c5590",
+    "accentSoft": "#e2e8f1",
+    "accentDark": "#94b4e6",
+    "accent2Dark": "#b3caee",
+    "accentSoftDark": "#1d2a3f"
+  },
+  "description": "零基础德语课：通过入门课、逐词释义、逐句语法讲解和译文，读完康德1784年的《答复这个问题：什么是启蒙？》。",
+  "legacyStorage": "kant.",
+  "short": "什么是启蒙",
+  "author": "Immanuel Kant",
+  "year": "1784",
+  "zh": "答复这个问题：什么是启蒙？",
+  "blurb": "康德最有名的短文：启蒙就是人走出自己招致的不成年状态。约 2,700 词，适合作为第一本。",
+  "level": "入门 · 短文"
+}

@@ -1,0 +1,381 @@
+{
+ "_about": "德语原文 → 中文讲解。定义词形规则、格与性的名称、变格表、介词支配、词卡上的解释文字。新语言就复制一份改。",
+ "lang": "de",
+ "tts": "de-DE",
+ "letters": "A-Za-zÄÖÜäöüß",
+ "keyPattern": "^[nadg][mfnp]$",
+ "cases": {
+  "n": {
+   "name": "主格",
+   "num": "第一格",
+   "q": "wer? 谁",
+   "css": "c-n"
+  },
+  "a": {
+   "name": "宾格",
+   "num": "第四格",
+   "q": "wen? was? 什么",
+   "css": "c-a"
+  },
+  "d": {
+   "name": "与格",
+   "num": "第三格",
+   "q": "wem? 给谁 / 对谁",
+   "css": "c-d"
+  },
+  "g": {
+   "name": "属格",
+   "num": "第二格",
+   "q": "wessen? 谁的",
+   "css": "c-g"
+  }
+ },
+ "caseOrder": [
+  "n",
+  "a",
+  "d",
+  "g"
+ ],
+ "genders": {
+  "m": "阳性",
+  "f": "阴性",
+  "n": "中性",
+  "p": "复数"
+ },
+ "genderOrder": [
+  "m",
+  "f",
+  "n",
+  "p"
+ ],
+ "plural": "p",
+ "pos": {
+  "N": "名词",
+  "V": "变位动词",
+  "I": "不定式 / 分词",
+  "A": "形容词",
+  "D": "副词",
+  "P": "介词",
+  "K": "连词",
+  "R": "代词",
+  "T": "冠词 / 限定词",
+  "Z": "小品词 / 可分前缀",
+  "X": "拉丁语",
+  "M": "缩写"
+ },
+ "posFilter": [
+  "N",
+  "V",
+  "I",
+  "A",
+  "D",
+  "P",
+  "K",
+  "R",
+  "T"
+ ],
+ "verbPos": [
+  "V",
+  "Z"
+ ],
+ "verbLightPos": [
+  "I"
+ ],
+ "taggedPos": [
+  "T",
+  "R"
+ ],
+ "contentPos": [
+  "N",
+  "V",
+  "A",
+  "I"
+ ],
+ "namedTags": {
+  "rel": "关系",
+  "dem": "指示"
+ },
+ "tables": [
+  {
+   "name": "关系 / 指示代词 der",
+   "when": {
+    "named": [
+     "rel",
+     "dem"
+    ]
+   },
+   "full": {
+    "n": {
+     "m": "der",
+     "f": "die",
+     "n": "das",
+     "p": "die"
+    },
+    "a": {
+     "m": "den",
+     "f": "die",
+     "n": "das",
+     "p": "die"
+    },
+    "d": {
+     "m": "dem",
+     "f": "der",
+     "n": "dem",
+     "p": "denen"
+    },
+    "g": {
+     "m": "dessen",
+     "f": "deren",
+     "n": "dessen",
+     "p": "deren"
+    }
+   }
+  },
+  {
+   "name": "derjenige",
+   "when": {
+    "lemma": [
+     "derjenige"
+    ]
+   },
+   "full": {
+    "n": {
+     "m": "derjenige",
+     "f": "diejenige",
+     "n": "dasjenige",
+     "p": "diejenigen"
+    },
+    "a": {
+     "m": "denjenigen",
+     "f": "diejenige",
+     "n": "dasjenige",
+     "p": "diejenigen"
+    },
+    "d": {
+     "m": "demjenigen",
+     "f": "derjenigen",
+     "n": "demjenigen",
+     "p": "denjenigen"
+    },
+    "g": {
+     "m": "desjenigen",
+     "f": "derjenigen",
+     "n": "desjenigen",
+     "p": "derjenigen"
+    }
+   }
+  },
+  {
+   "name": "ein 类（不定冠词、物主代词、kein）",
+   "when": {
+    "lemmaStem": {
+     "ein": "ein",
+     "kein": "kein",
+     "sein": "sein",
+     "ihr": "ihr",
+     "dein": "dein",
+     "unser": "unser",
+     "mein": "mein"
+    }
+   },
+   "endings": {
+    "n": {
+     "m": "",
+     "f": "e",
+     "n": "",
+     "p": "e"
+    },
+    "a": {
+     "m": "en",
+     "f": "e",
+     "n": "",
+     "p": "e"
+    },
+    "d": {
+     "m": "em",
+     "f": "er",
+     "n": "em",
+     "p": "en"
+    },
+    "g": {
+     "m": "es",
+     "f": "er",
+     "n": "es",
+     "p": "er"
+    }
+   },
+   "override": {
+    "ein": {
+     "n.p": "—",
+     "a.p": "—",
+     "d.p": "—",
+     "g.p": "—"
+    }
+   }
+  },
+  {
+   "name": "dieser 类",
+   "when": {
+    "lemmaStem": {
+     "dieser": "dies",
+     "jener": "jen",
+     "jeder": "jed",
+     "solch": "solch",
+     "welcher": "welch",
+     "all-": "all",
+     "manch-": "manch",
+     "einig-": "einig"
+    }
+   },
+   "endings": {
+    "n": {
+     "m": "er",
+     "f": "e",
+     "n": "es",
+     "p": "e"
+    },
+    "a": {
+     "m": "en",
+     "f": "e",
+     "n": "es",
+     "p": "e"
+    },
+    "d": {
+     "m": "em",
+     "f": "er",
+     "n": "em",
+     "p": "en"
+    },
+    "g": {
+     "m": "es",
+     "f": "er",
+     "n": "es",
+     "p": "er"
+    }
+   }
+  },
+  {
+   "name": "定冠词",
+   "when": {
+    "surface": [
+     "der",
+     "die",
+     "das",
+     "den",
+     "dem",
+     "des"
+    ]
+   },
+   "full": {
+    "n": {
+     "m": "der",
+     "f": "die",
+     "n": "das",
+     "p": "die"
+    },
+    "a": {
+     "m": "den",
+     "f": "die",
+     "n": "das",
+     "p": "die"
+    },
+    "d": {
+     "m": "dem",
+     "f": "der",
+     "n": "dem",
+     "p": "den"
+    },
+    "g": {
+     "m": "des",
+     "f": "der",
+     "n": "des",
+     "p": "der"
+    }
+   }
+  }
+ ],
+ "governors": {
+  "aus": "d",
+  "bei": "d",
+  "beim": "d",
+  "mit": "d",
+  "nach": "d",
+  "seit": "d",
+  "von": "d",
+  "vom": "d",
+  "zu": "d",
+  "zum": "d",
+  "zur": "d",
+  "außer": "d",
+  "gegenüber": "d",
+  "gemäß": "d",
+  "binnen": "dg",
+  "durch": "a",
+  "für": "a",
+  "ohne": "a",
+  "gegen": "a",
+  "um": "a",
+  "wider": "a",
+  "wegen": "g",
+  "vermittelst": "g",
+  "mittels": "g",
+  "unbeschadet": "g",
+  "zufolge": "g",
+  "während": "g",
+  "statt": "g",
+  "anstatt": "g",
+  "trotz": "g",
+  "in": "ad",
+  "im": "d",
+  "ins": "a",
+  "an": "ad",
+  "am": "d",
+  "auf": "ad",
+  "über": "ad",
+  "unter": "ad",
+  "vor": "ad",
+  "hinter": "ad",
+  "neben": "ad",
+  "zwischen": "ad"
+ },
+ "reasons": {
+  "title": "为什么这里是{case}",
+  "prep": "前面的介词 {p} 永远要求{case}。介词说了算，不用再看别的。",
+  "prepTwo": "{p} 是「两可介词」：表示位置（在哪里）用与格，表示方向（到哪里去）用宾格。这里是{case}，所以表示{sense}。",
+  "senses": {
+   "d": "位置或状态",
+   "a": "方向或目标"
+  },
+  "afterNoun": "它紧跟在名词 {p} 后面，修饰这个名词：属格 =「……的」。翻译时把它放到 {p} 前面：「（它）的 {p}」。",
+  "rel": "这是关系代词：它的性和数跟着前面被指代的名词，格由它在从句里做什么来决定。",
+  "default": {
+   "n": "主格：句子的主语（谁在做？），或者 sein / werden 后面的表语。",
+   "a": "宾格：动词的直接宾语（做什么？），或者在 durch / für / ohne / gegen / um 之后。",
+   "d": "前面没有介词，那么这个与格多半是动词或形容词要求的「给谁 / 对谁」。往句子里找找：dienen、drohen、erlauben、gelingen、hinderlich、vorteilhaft 等都要求与格。",
+   "g": "前面不是名词，那就看看附近：可能是后置的名词修饰，也可能是动词或形容词要求属格（sich bedienen、unfähig、genießen、würdigen 等）。"
+  }
+ },
+ "glossTag": "{g}·{c}",
+ "legend": [
+  [
+   "v",
+   "变位动词"
+  ],
+  [
+   "n",
+   "主格"
+  ],
+  [
+   "a",
+   "宾格"
+  ],
+  [
+   "d",
+   "与格"
+  ],
+  [
+   "g",
+   "属格"
+  ]
+ ]
+}

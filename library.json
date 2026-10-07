@@ -1,0 +1,23 @@
+{
+  "title": "Lesepult",
+  "subtitle": "德语原典 · 逐词精读",
+  "eyebrow": "Lesepult · 读经台",
+  "lede": "把德语原典一个词一个词地读懂。每本书都有同样的结构：专题课、逐句精读（每个词可点开看原形、词性、此处的格和为什么）、词汇表和生词本。零基础也能从第一句读起。",
+  "description": "德语原典逐词精读书架：康德《什么是启蒙》《未来形而上学导论·序言》《纯粹理性批判·导言》，配共用的德语基础课、逐句讲解与译文。",
+  "fontsHref": "https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,600;1,7..72,400&family=UnifrakturMaguntia&family=IBM+Plex+Mono:wght@400;500&family=Noto+Serif+SC:wght@400;600&display=swap",
+  "footer": "所有原文均为公有领域；注释、讲解与中文译文为本站编写（AI 辅助），如发现错误欢迎指出。",
+  "courses": [
+    "de-basics"
+  ],
+  "books": [
+    "kant-aufklaerung",
+    "kant-prolegomena",
+    "kant-krv-einleitung"
+  ],
+  "default": "kant-aufklaerung",
+  "fonts": {
+    "text": "\"Literata\",Georgia,\"Times New Roman\",serif",
+    "mast": "\"UnifrakturMaguntia\",\"Literata\",Georgia,serif",
+    "trans": "\"Noto Serif SC\",\"Songti SC\",\"STSong\",\"SimSun\",serif"
+  }
+}

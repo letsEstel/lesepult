@@ -1,0 +1,312 @@
+[
+ {
+  "t": "发音速成",
+  "de": "Aussprache",
+  "min": 8,
+  "html": "\n<p>德语拼写和发音的对应非常规则，学会下面这些规则，就能把文中几乎每个词读出来。每个例子都可以点 <span class=\"kbd\">▶</span> 听。</p>\n<table class=\"tbl\"><thead><tr><th>写法</th><th>读音</th><th>例子</th></tr></thead><tbody>\n<tr><td>ä ö ü</td><td>ä ≈「诶」；ö = 嘴唇圆起来说「诶」；ü = 嘴唇圆起来说「衣」</td><td>[[Aufklärung]] [[öffentlich]] [[Unmündigkeit]]</td></tr>\n<tr><td>ß</td><td>清音 s（就是「双 s」）</td><td>[[groß]] [[außer]]</td></tr>\n<tr><td>ei / ie</td><td>ei 读「爱」；ie 读长「衣」</td><td>[[Freiheit]] [[Feigheit]] [[liegt]]</td></tr>\n<tr><td>eu / äu</td><td>读「奥伊」</td><td>[[leuchtet]] [[neue]]</td></tr>\n<tr><td>sch</td><td>≈ 汉语「施」，嘴唇更圆</td><td>[[Mensch]] [[Schritt]]</td></tr>\n<tr><td>sp- / st-（词首）</td><td>读作 schp / scht</td><td>[[Sprung]] [[Stimmen]]</td></tr>\n<tr><td>ch</td><td>a/o/u 之后是喉部擦音；其他位置像轻轻的「希」</td><td>[[Buch]] [[ich]] [[Pflicht]]</td></tr>\n<tr><td>v / w / z</td><td>v 多读 f；w 读 v；z 读 ts</td><td>[[Vernunft]] [[Welt]] [[Zeitalter]]</td></tr>\n<tr><td>词尾 -b -d -g</td><td>读清音 p / t / k（「词尾清化」）</td><td>[[Verstand]] [[Ausgang]]</td></tr>\n<tr><td>-ig / -er</td><td>-ig 读「伊希」；词尾 -er 读弱「呃」</td><td>[[unmündig]] [[Vormünder]]</td></tr>\n</tbody></table>\n<p><b>重音</b>：德语本族词几乎都重读第一个音节：<i>AUF-klä-rung</i>、<i>UN-mün-dig-keit</i>。但带 be- ge- ver- er- zer- ent- 这些前缀的词，重音落在前缀之后：<i>ver-STAND</i>、<i>ge-BRAUCH</i>。外来词常重读在后面：<i>Re-li-GION</i>、<i>räso-NIE-ren</i>。</p>\n<div class=\"tip\">朗读用的是你设备自带的德语语音。如果没有声音，可以在手机或电脑的系统设置里添加「德语」语音。</div>"
+ },
+ {
+  "t": "名词：大写、三个性、复合词",
+  "de": "Nomen und Genus",
+  "min": 6,
+  "html": "\n<p>德语所有名词<b>首字母大写</b>——这是你在文中找名词最快的方法。每个名词有一个语法上的「性」：阳性 <i>der</i>、阴性 <i>die</i>、中性 <i>das</i>。性和意义基本无关，要跟着冠词一起记。好在有规律：</p>\n<ul>\n<li>以 <b>-ung / -heit / -keit / -schaft</b> 结尾的都是阴性：[[die{nf} Aufklärung]] [[die{nf} Freiheit]] [[die{nf} Unmündigkeit]] [[die{nf} Gesellschaft]]</li>\n<li>动词不定式大写就变成中性名词：[[das{nn} Fortschreiten]]（前进）、<i>das Fallen</i>（摔倒）</li>\n<li>复合词的性由<b>最后一个</b>词决定：<i>die Welt + der Bürger + die Gesellschaft</i> → [[die{nf} Weltbürgergesellschaft]]</li>\n</ul>\n<p>德语喜欢把词拼成长长的复合词。读的时候从后往前拆：<i>Gewissens·angelegenheit</i> = 良心的·事情；<i>Katechismus·schüler</i> = 教理问答·学生。</p>\n<p><b>复数</b>形式不规则，常见的有加 -e、-er、-en、-n 或变音：<i>der Vormund → die Vormünder</i>、<i>der Gedanke → die Gedanken</i>。词典面板里会标出「复数」。</p>"
+ },
+ {
+  "t": "四个格（上）：一句话认识四个格",
+  "de": "Die vier Fälle",
+  "min": 15,
+  "html": "\n<p>中文靠<b>语序</b>和小词（「的」「给」「把」「对」）来表示谁对谁做了什么；德语靠<b>格</b>。名词本身变化很少，变的主要是它前面的冠词。先看一个用康德文中的词造的句子，四个格都在里面：</p>\n[[Der{nm} Vormund zeigt dem{dn} Publikum die{af} Gefahr der{gf} Freiheit.]]\n<div class=\"roles\">\n <div class=\"role\" data-c=\"n\"><span class=\"rw\">Der Vormund</span><span class=\"rq\">wer? 谁在做</span><span class=\"rz\">监护人</span><b>主格</b></div>\n <div class=\"role\" data-c=\"v\"><span class=\"rw\">zeigt</span><span class=\"rq\">动词 · 第二位</span><span class=\"rz\">展示</span><b>动词</b></div>\n <div class=\"role\" data-c=\"d\"><span class=\"rw\">dem Publikum</span><span class=\"rq\">wem? 给谁 / 向谁</span><span class=\"rz\">向公众</span><b>与格</b></div>\n <div class=\"role\" data-c=\"a\"><span class=\"rw\">die Gefahr</span><span class=\"rq\">was? 展示什么</span><span class=\"rz\">危险</span><b>宾格</b></div>\n <div class=\"role\" data-c=\"g\"><span class=\"rw\">der Freiheit</span><span class=\"rq\">wessen? 谁的</span><span class=\"rz\">自由的</span><b>属格</b></div>\n</div>\n<p class=\"formula\">监护人 向公众 展示 自由的 危险。</p>\n<p>每个格回答一个问题。读德语时，遇到一个名词短语，就问自己：它在回答哪一个问题？</p>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>格</th><th>德语问词</th><th>相当于中文</th><th>在句子里通常是</th></tr></thead><tbody>\n<tr><th class=\"c-n\">主格<br><small>Nominativ</small></th><td><i>wer? was?</i></td><td>「谁 / 什么」在做</td><td>主语；sein、werden 后面的表语</td></tr>\n<tr><th class=\"c-a\">宾格<br><small>Akkusativ</small></th><td><i>wen? was?</i></td><td>「把……」；动作直接落到的东西</td><td>直接宾语；durch / für / ohne 等介词之后</td></tr>\n<tr><th class=\"c-d\">与格<br><small>Dativ</small></th><td><i>wem?</i></td><td>「给……」「对……」「向……」「从……」</td><td>间接宾语；aus / mit / von / zu 等介词之后；某些动词和形容词要求它</td></tr>\n<tr><th class=\"c-g\">属格<br><small>Genitiv</small></th><td><i>wessen?</i></td><td>「……的」</td><td>修饰另一个名词；少数介词、动词、形容词要求它</td></tr>\n</tbody></table></div>\n<p><b>语序可以换，意思不变</b>，因为格已经把角色标好了：</p>\n[[Dem{dn} Publikum zeigt der{nm} Vormund die{af} Gefahr der{gf} Freiheit.]]\n<p>意思仍然是「监护人向公众展示自由的危险」，只是把「向公众」提到前面强调。中文做不到：把「公众」放到句首，它就变成主语了。</p>\n<h4>冠词变格表</h4>\n<div class=\"scroll\"><table class=\"tbl case-tbl\"><thead><tr><th></th><th>阳性</th><th>阴性</th><th>中性</th><th>复数</th></tr></thead><tbody>\n<tr><th class=\"c-n\">主格</th><td>der</td><td>die</td><td>das</td><td>die</td></tr>\n<tr><th class=\"c-a\">宾格</th><td><b>den</b></td><td>die</td><td>das</td><td>die</td></tr>\n<tr><th class=\"c-d\">与格</th><td>dem</td><td>der</td><td>dem</td><td>den …-n</td></tr>\n<tr><th class=\"c-g\">属格</th><td>des …-s</td><td>der</td><td>des …-s</td><td>der</td></tr>\n</tbody></table></div>\n<p>怎么读这张表：</p>\n<ul>\n<li>主格和宾格只有<b>阳性</b>不同：der → <b>den</b>。阴性、中性、复数的主格和宾格长得一样，要靠意思和动词判断。</li>\n<li>与格的标志是 <b>-m</b>（dem）。复数与格是 den，而且名词本身还要加 <b>-n</b>：<i>den Holländer<b>n</b></i>、<i>zu Vormünder<b>n</b></i>。</li>\n<li>属格的标志是 <b>-s</b>（des），阳性、中性名词自己也加 -s 或 -es：<i>des Verstand<b>es</b></i>、<i>des Volk<b>s</b></i>。</li>\n<li><b>der</b> 在表里出现了四次：阳性主格、阴性与格、阴性属格、复数属格。所以看到 der 一定要往后看名词。阴性的 der 既可能是与格也可能是属格，这是最容易混的地方，下一课专门讲。</li>\n</ul>\n<p>不定冠词 <i>ein</i> 和物主代词（<i>sein</i> 他的、<i>ihr</i> 她的 / 他们的）词尾和上表对应：-en ↔ den，-em ↔ dem，-es ↔ des，-er ↔ der。所以 <i>seiner</i> 和 <i>der</i> 一样，可能是阴性与格、阴性属格或复数属格。</p>\n<p>用第一句练习，点每个冠词看看：</p>\n[[Aufklärung ist der{nm} Ausgang des{gm} Menschen aus seiner{df} selbstverschuldeten Unmündigkeit.]]\n<p>格还能帮你在语序打乱时找到主语。第二段有个经典例子：</p>\n[[nachdem sie{them} die{nf} Natur längst von fremder Leitung freigesprochen]]\n<p>这里 <i>sie</i> 在前，但它是宾格（他们），<i>die Natur</i> 才是主语。意思是「在大自然早已使他们摆脱外来引导之后」。</p>\n<h4>练习：这是哪个格？</h4>\n<p>每题都摘自原文，顺序和上面的表一样：先主格，再宾格、与格，最后属格。先自己想：它在回答「谁？什么？给谁？谁的？」中的哪一个？</p>\n<h5 class=\"qh c-n\">主格：谁在做？</h5>{{quiz:n}}\n<h5 class=\"qh c-a\">宾格：做什么？</h5>{{quiz:a}}\n<h5 class=\"qh c-d\">与格：给谁 / 从哪里？</h5>{{quiz:d}}\n<h5 class=\"qh c-g\">属格：谁的？</h5>{{quiz:g}}\n",
+  "quiz": [
+   {
+    "de": "Aufklärung ist <<der>> Ausgang des{gm} Menschen",
+    "opts": [
+     "主格",
+     "宾格",
+     "与格",
+     "属格"
+    ],
+    "ans": 0,
+    "why": "ist（是）连接主语和表语，表语和主语一样用主格。Ausgang 是阳性，所以是 der。",
+    "sec": "n",
+    "id": "a1"
+   },
+   {
+    "de": "Daher kann <<ein>> Publikum nur langsam zur Aufklärung gelangen.",
+    "opts": [
+     "主格",
+     "宾格",
+     "与格",
+     "属格"
+    ],
+    "ans": 0,
+    "why": "谁能达到启蒙？公众。它是主语，所以是主格。Publikum 是中性，ein 主格宾格同形，这里靠「谁在做」判断。",
+    "sec": "n",
+    "id": "a2"
+   },
+   {
+    "de": "Habe ich <<ein>> Buch, das{rel:an} für mich Verstand hat",
+    "opts": [
+     "主格",
+     "宾格",
+     "与格",
+     "属格"
+    ],
+    "ans": 1,
+    "why": "「我有什么？」——一本书。haben 的宾语用宾格。Buch 是中性，中性宾格 = ein（和主格同形，所以要靠意思判断：主语是 ich）。",
+    "sec": "a",
+    "id": "a3"
+   },
+   {
+    "de": "Habe ich ein{an} Buch …, <<einen>> Seelsorger, der{rel:nm} für mich Gewissen hat",
+    "opts": [
+     "主格",
+     "宾格",
+     "与格",
+     "属格"
+    ],
+    "ans": 1,
+    "why": "einen 只可能是阳性宾格，一眼就能定。它和 ein Buch 并列，都是 haben 的宾语。",
+    "sec": "a",
+    "id": "a4"
+   },
+   {
+    "de": "ohne doch darum <<den>> Fortschritt der{gf} Aufklärung sonderlich zu hindern",
+    "opts": [
+     "主格",
+     "宾格",
+     "与格",
+     "属格"
+    ],
+    "ans": 1,
+    "why": "hindern（阻碍）阻碍什么？阻碍进步。直接宾语用宾格；Fortschritt 是阳性，所以 der 变成 den。",
+    "sec": "a",
+    "id": "a5"
+   },
+   {
+    "de": "aus <<seiner>> selbstverschuldeten Unmündigkeit",
+    "opts": [
+     "主格",
+     "宾格",
+     "与格",
+     "属格"
+    ],
+    "ans": 2,
+    "why": "aus 这个介词永远要求与格。seiner 在这里是阴性与格（Unmündigkeit 是阴性）。",
+    "sec": "d",
+    "id": "a6"
+   },
+   {
+    "de": "so zeigen sie{they} <<ihnen>> nachher die{af} Gefahr",
+    "opts": [
+     "主格",
+     "宾格",
+     "与格",
+     "属格"
+    ],
+    "ans": 2,
+    "sec": "d",
+    "why": "「展示给谁看？」——给他们。zeigen 是 jm etw. zeigen：给谁用与格，展示什么用宾格（die Gefahr）。ihnen 是 sie（复数）的与格。",
+    "id": "a7"
+   },
+   {
+    "de": "der{nm} Ausgang <<des>> Menschen",
+    "opts": [
+     "主格",
+     "宾格",
+     "与格",
+     "属格"
+    ],
+    "ans": 3,
+    "why": "des 只可能是属格。它紧跟在名词 Ausgang 后面：人「的」走出。",
+    "sec": "g",
+    "id": "a8"
+   }
+  ]
+ },
+ {
+  "t": "四个格（下）：与格和属格怎么分",
+  "de": "Dativ oder Genitiv?",
+  "min": 20,
+  "html": "\n<p>上一课说过：阴性的 <i>der</i> 既可能是与格，也可能是属格。这一课只做一件事：教你在原文里把它们分开。</p>\n<h4>一句话区分</h4>\n<p><b>属格挂在名词上</b>，表示「……的」。<b>与格挂在介词、动词或形容词上</b>，表示「给 / 对 / 向 / 从 / 在……」。所以判断的关键不是看这个词本身，而是看<b>它挂在谁身上</b>。原文里同一个 <i>der Aufklärung</i>，挂的对象不同，格就不同：</p>\n<div class=\"attach\">\n <div class=\"arow\"><span class=\"ahead\">der Wahlspruch</span><span class=\"aarr\" aria-hidden=\"true\">⟵</span><span class=\"adep\" data-c=\"g\">der Aufklärung</span><span class=\"alab\">挂在<b>名词</b>上 → 属格：启蒙<b>的</b>格言</span></div>\n <div class=\"arow\"><span class=\"ahead\">ist … hinderlich</span><span class=\"aarr\" aria-hidden=\"true\">⟵</span><span class=\"adep\" data-c=\"d\">der Aufklärung</span><span class=\"alab\">挂在<b>形容词</b>上 → 与格：<b>对</b>启蒙有妨碍</span></div>\n <div class=\"arow\"><span class=\"ahead\">zu</span><span class=\"aarr\" aria-hidden=\"true\">⟵</span><span class=\"adep\" data-c=\"d\">der Aufklärung</span><span class=\"alab\">挂在<b>介词</b>上 → 与格：zur Aufklärung，<b>向</b>启蒙</span></div>\n</div>\n<h4>为什么会混：只有阴性单数长得一样</h4>\n<div class=\"scroll\"><table class=\"tbl case-tbl\"><thead><tr><th></th><th>阳性</th><th>阴性</th><th>中性</th><th>复数</th></tr></thead><tbody>\n<tr><th class=\"c-d\">与格</th><td>dem</td><td class=\"hot\">der</td><td>dem</td><td>den …-n</td></tr>\n<tr><th class=\"c-g\">属格</th><td>des …-s</td><td class=\"hot\">der</td><td>des …-s</td><td>der</td></tr>\n</tbody></table></div>\n<ul>\n<li><b>阳性、中性</b>：dem 和 des 一眼可分。名词也会帮你：属格名词加 -s / -es（<i>des Mutes</i>），与格不加。</li>\n<li><b>复数</b>：与格是 den，名词加 -n（<i>den Holländern</i>）；属格是 der（<i>der Menschen</i>）。</li>\n<li><b>阴性单数</b>：两个都是 der，名词也不变。<i>einer, seiner, ihrer, dieser</i> 也一样。只有这里需要下面的三步法。</li>\n</ul>\n<h4>三步判断法</h4>\n<ol class=\"steps\">\n<li><b>看前面：紧挨着一个名词吗？</b>如果是，多半是属格。德语的「的」放在后面：<i>A der B</i> =「B 的 A」。\n[[der{nm} Wahlspruch der{gf} Aufklärung]]\n[[den{am} Fortschritt der{gf} Aufklärung]]\n中间可以隔着形容词，规则不变：<i>die Fußschellen einer immerwährenden Unmündigkeit</i>（永久不成年状态<b>的</b>脚镣）。\n<div class=\"qbox\"><h5 class=\"qh\">马上练：第一步</h5>{{quiz:s1}}</div></li>\n<li><b>看前面：有介词吗？</b>如果有，介词说了算。\n<div class=\"scroll\"><table class=\"tbl\"><tbody>\n<tr><th class=\"c-d\">永远与格</th><td><i>aus, bei, mit, nach, seit, von, zu, außer</i>（zum = zu dem，zur = zu der，vom = von dem）</td></tr>\n<tr><th class=\"c-a\">永远宾格</th><td><i>durch, für, ohne, gegen, um, wider</i></td></tr>\n<tr><th class=\"c-g\">永远属格</th><td><i>wegen, statt, trotz, während</i>；康德还用 <i>vermittelst, binnen, unbeschadet, zufolge</i></td></tr>\n<tr><th>两可</th><td><i>in, an, auf, über, unter, vor, hinter, neben, zwischen</i>：在哪里（位置）→ 与格；到哪里去（方向）→ 宾格</td></tr>\n</tbody></table></div>\n[[aus seiner{df} selbstverschuldeten Unmündigkeit]]\n[[von der{df} Regierung zu öffentlichen Zwecken gerichtet]]\n[[in der{df} Aufklärung weiterzuschreiten]]（在启蒙中前进：位置 → 与格）\n[[in einen{am} Zustand zu setzen]]（置于某种状态：方向 → 宾格）\n<div class=\"qbox\"><h5 class=\"qh\">马上练：第二步</h5>{{quiz:s2}}</div></li>\n<li><b>都不是？找要求它的动词或形容词。</b>\n<p>要求<b class=\"c-d\">与格</b>的常见词：<i>dienen</i>（为……服务）、<i>drohen</i>（威胁）、<i>erlauben</i>（允许）、<i>gelingen</i>（成功）、<i>gehorchen</i>（服从）、<i>widersprechen</i>（与……矛盾）；形容词 <i>hinderlich, beförderlich, vorteilhaft, nachteilig, zuträglich, gemäß</i>。</p>\n[[Welche Einschränkung aber ist der{df} Aufklärung hinderlich]]\n[[die{nf} Gefahr, die{rel:nf} ihnen drohet]]\n[[nach dem{dn} Symbol der{gf} Kirche, der{rel:df} er dient]]\n<p>最后一句很有代表性：<i>der Kirche</i> 挂在名词 Symbol 上，是属格（教会的信条）；紧接着的关系代词 <i>der</i> 被 <i>dienen</i> 要求，是与格（他所服务的）。两个 der 挨在一起，格不一样。</p>\n<p>要求<b class=\"c-g\">属格</b>的词（今天少见，康德常用）：<i>sich bedienen</i>（使用）、<i>genießen</i>（享有）、<i>unfähig / fähig</i>（不能 / 能够）、<i>unwürdig</i>（有失身份）、<i>entschlagen</i>（使摆脱）。</p>\n[[sich{refl} seines{gm} Verstandes zu bedienen]]\n[[genießt einer{gf} uneingeschränkten Freiheit]]\n<div class=\"qbox\"><h5 class=\"qh\">马上练：第三步</h5>{{quiz:s3}}</div></li>\n</ol>\n<div class=\"tip\"><b>最后再用翻译检验一下</b>：把它翻成中文。能自然地说成「X 的……」，是属格；说成「给 X、对 X、向 X、从 X、在 X 中」，是与格。</div>\n<h4>一个陷阱：一个短语里有两个格</h4>\n[[sich{refl} zu deren Vormündern aufzuwerfen]]\n<p><i>zu</i> 要求与格，但它管的是 <i>Vormündern</i>（复数与格，加了 -n）。<i>deren</i> 是属格，意思是「他们的」。整个短语是「做<b>他们的</b>监护人」。遇到这种情况，先找介词真正管的那个名词。</p>\n<div class=\"qbox\"><h5 class=\"qh\">马上练：陷阱</h5>{{quiz:trap}}</div>\n<div class=\"tip\">在精读页面点任何一个冠词或代词，词卡里都有「为什么这里是 X 格」，会告诉你是哪个介词或名词决定了它。</div>\n<h4>综合练习：三步一起用</h4>\n<p>最后两题来自同一个短语，要把三步连起来用：两个 der 紧挨在一起，格却不一样。</p>\n{{quiz:mix}}\n",
+  "quiz": [
+   {
+    "de": "ist also der{nm} Wahlspruch <<der>> Aufklärung",
+    "opts": [
+     "与格",
+     "属格"
+    ],
+    "ans": 1,
+    "why": "第一步就能定：它紧跟在名词 Wahlspruch 后面。启蒙「的」格言。",
+    "sec": "s1",
+    "id": "b1"
+   },
+   {
+    "de": "wenn die{nf} Ursache <<derselben>> nicht am Mangel des{gm} Verstandes … liegt",
+    "opts": [
+     "与格",
+     "属格"
+    ],
+    "ans": 1,
+    "why": "紧跟在名词 Ursache 后面：「它的」原因。derselben 指前面的 Unmündigkeit。",
+    "sec": "s1",
+    "id": "b2"
+   },
+   {
+    "de": "einige Glieder <<des>> gemeinen Wesens",
+    "opts": [
+     "与格",
+     "属格"
+    ],
+    "ans": 1,
+    "why": "des 只能是属格。共同体「的」一些成员。",
+    "sec": "s1",
+    "id": "b3"
+   },
+   {
+    "de": "der{nm} Hauptpunkt <<der>> Aufklärung",
+    "opts": [
+     "与格",
+     "属格"
+    ],
+    "ans": 1,
+    "why": "紧跟在名词 Hauptpunkt 后面：启蒙「的」要点。",
+    "sec": "s1",
+    "id": "b4"
+   },
+   {
+    "de": "aus <<seiner>> selbstverschuldeten Unmündigkeit",
+    "opts": [
+     "与格",
+     "属格"
+    ],
+    "ans": 0,
+    "why": "第二步：前面是介词 aus，aus 永远要求与格。",
+    "sec": "s2",
+    "id": "b5"
+   },
+   {
+    "de": "von <<der>> Regierung zu öffentlichen Zwecken gerichtet",
+    "opts": [
+     "与格",
+     "属格"
+    ],
+    "ans": 0,
+    "why": "von 永远要求与格。被动句里 von 引出动作的执行者：「被政府」引导。",
+    "sec": "s2",
+    "id": "b6"
+   },
+   {
+    "de": "Der{nm} Probierstein alles dessen …, liegt in <<der>> Frage",
+    "opts": [
+     "与格",
+     "属格"
+    ],
+    "ans": 0,
+    "why": "in 是两可介词。这里说试金石「在于」这个问题，是位置 / 状态，不是方向，所以用与格。",
+    "sec": "s2",
+    "id": "b7"
+   },
+   {
+    "de": "Welche Einschränkung aber ist <<der>> Aufklärung hinderlich",
+    "opts": [
+     "与格",
+     "属格"
+    ],
+    "ans": 0,
+    "why": "前面不是名词也不是介词（ist 是动词）。往后找：形容词 hinderlich（有妨碍的）要求与格。「对」启蒙有妨碍。",
+    "sec": "s3",
+    "id": "b8"
+   },
+   {
+    "de": "die{nf} Gefahr, die{rel:nf} <<ihnen>> drohet",
+    "opts": [
+     "与格",
+     "属格"
+    ],
+    "ans": 0,
+    "why": "drohen（威胁）要求与格：威胁「他们」。ihnen 是 sie（复数）的与格。",
+    "sec": "s3",
+    "id": "b9"
+   },
+   {
+    "de": "sich{refl} <<seines>> Verstandes zu bedienen",
+    "opts": [
+     "与格",
+     "属格"
+    ],
+    "ans": 1,
+    "why": "seines 以 -es 结尾，名词 Verstandes 也加了 -es，两处都是属格标志。原因是 sich bedienen 要求属格宾语。",
+    "sec": "s3",
+    "id": "b10"
+   },
+   {
+    "de": "seinen{dp} Katechismusschülern und <<seiner>> Gemeinde … seinen{am} Vortrag zu tun",
+    "opts": [
+     "与格",
+     "属格"
+    ],
+    "ans": 0,
+    "why": "向谁讲授？向学生和会众。它和 seinen Katechismusschülern（复数与格，名词加 -n）并列，同样是与格。",
+    "sec": "s3",
+    "id": "b11"
+   },
+   {
+    "de": "sich{refl} zu <<deren>> Vormündern aufzuwerfen",
+    "opts": [
+     "与格",
+     "属格"
+    ],
+    "ans": 1,
+    "why": "陷阱题！zu 要求与格，但它管的是 Vormündern（复数与格加 -n）。deren 是「他们的」，属格。",
+    "sec": "trap",
+    "id": "b12"
+   },
+   {
+    "de": "nach dem{dn} Symbol <<der>> Kirche",
+    "opts": [
+     "与格",
+     "属格"
+    ],
+    "ans": 1,
+    "why": "nach 管的是 dem Symbol（与格）。der Kirche 紧跟在名词 Symbol 后面：教会「的」信条，所以是属格。",
+    "sec": "mix",
+    "id": "b13"
+   },
+   {
+    "de": "nach dem{dn} Symbol der{gf} Kirche, <<der>> er dient",
+    "opts": [
+     "与格",
+     "属格"
+    ],
+    "ans": 0,
+    "why": "这个 der 是关系代词，指 Kirche。在从句里 dienen（为……服务）要求与格：他为它服务。",
+    "sec": "mix",
+    "id": "b14"
+   }
+  ]
+ },
+ {
+  "t": "动词的位置",
+  "de": "Die Verbstellung",
+  "min": 10,
+  "html": "\n<p>德语句子的秘密在于动词放在哪里。记住四条规则，你就能在再长的句子里找到骨架：</p>\n<p><b>① 主句：变位动词在第二位。</b>第一位可以是主语，也可以是任何别的成分（为了强调）；第二位永远是动词。</p>\n[[*Selbstverschuldet* ist diese{nf} Unmündigkeit …]]\n<p>第一位是 Selbstverschuldet（表语），第二位是 ist，主语 diese Unmündigkeit 退到后面。</p>\n<p><b>② 框型结构：动词的另一半在句末。</b>情态动词、完成时、将来时、被动态、可分动词，都会把动词拆成两半，把句子「框」起来：</p>\n[[Daher kann ein{nn} Publikum nur langsam zur Aufklärung gelangen.]]\n<p><i>kann … gelangen</i>：读到 kann 时要记住，真正的动作在句末。</p>\n<p><b>③ 从句：变位动词在最末尾。</b>daß、wenn、weil、nachdem、ob、关系代词 der/die/das 引导的从句，动词都跑到最后：</p>\n[[… weil man ihn niemals den{am} Versuch davon machen ließ.]]\n<p><b>④ 动词在第一位</b>：一般疑问句（<i>leben wir …?</i>）、命令句（<i>Habe Mut!</i>），以及不用 wenn 的条件句：</p>\n[[Habe ich ein{an} Buch, das{rel:an} für mich Verstand hat, … so brauche ich mich ja nicht selbst zu bemühen.]]\n<p>= 如果我有一本书……那我就不用自己操心。</p>\n<div class=\"tip\"><b>长句阅读法</b>：① 找到第一个变位动词（第二位）；② 找它的主语；③ 跳到句末找动词的另一半；④ 把逗号分出的从句先「括起来」，最后再看。</div>"
+ },
+ {
+  "t": "zu-不定式与可分动词",
+  "de": "zu + Infinitiv, trennbare Verben",
+  "min": 8,
+  "html": "\n<p><b>zu-不定式</b>相当于英语的 to do，但 zu + 动词要放在短语的<b>最后</b>：</p>\n[[Es{expl} ist so bequem, unmündig zu sein.]]\n<p>很多句子用 <i>es</i> 先占位，真正的内容是后面的 zu-不定式（「不成年是舒服的」）。<i>es</i> 不用翻译。</p>\n<p><b>可分动词</b>由「前缀 + 动词」组成，比如 <i>ab|schrecken</i>（吓退）、<i>an|sehen</i>（看作）、<i>aus|breiten</i>（扩展）。在主句里，前缀会被拆下来放到<b>句末</b>：</p>\n[[… und schreckt gemeiniglich von allen ferneren Versuchen ab{sep}.]]\n<p>读到句末一个孤零零的 <i>ab / an / aus / vor / ein / zurück</i>，就要回头和前面的动词合起来。在从句里它们又合在一起（<i>… ansieht</i>）；加 zu 时，zu 插在中间：<i>heraus<b>zu</b>arbeiten</i>、<i>vor<b>zu</b>legen</i>。</p>\n[[sich{refl} aus der{df} Unmündigkeit herauszuarbeiten]]"
+ },
+ {
+  "t": "拆解长句：扩展定语与从句套娃",
+  "de": "Lange Sätze lesen",
+  "min": 10,
+  "html": "\n<p>学术德语最让人头疼的是<b>扩展定语</b>：把一整个从句压缩，塞进冠词和名词之间。</p>\n[[sich{refl} aus der{df} ihm beinahe zur Natur gewordenen Unmündigkeit herauszuarbeiten]]\n<p>看到 <i>der</i> 先别慌，一直往后找到名词 <i>Unmündigkeit</i>。中间的 <i>ihm beinahe zur Natur gewordenen</i> 整块都是形容词，可以还原成关系从句：</p>\n<p class=\"formula\">der Unmündigkeit, <b>die ihm beinahe zur Natur geworden ist</b><br>那几乎已成为他天性的不成年状态</p>\n<p>再如：<i>die ihm auferlegten Abgaben</i> = <i>die Abgaben, die ihm auferlegt sind</i>（加在他身上的捐税）。</p>\n<p><b>关系从句</b>用 der / die / das（有时用 welcher）引导，它的性数跟着前面的名词，格看它在从句里做什么：</p>\n[[einen{am} Seelsorger, der{rel:nm} für mich Gewissen hat]]\n<p><b>属格链</b>要从后往前读：<i>Werkzeuge eines vernünftigen Gebrauchs seiner Naturgaben</i> =（他的天赋）的（理性运用）的工具。</p>\n<div class=\"tip\">每句下面的「语法」按钮会先告诉你这句话的骨架。建议自己先找动词，再点开核对。</div>"
+ },
+ {
+  "t": "旧式德语的特点（18 世纪）",
+  "de": "Kants Deutsch",
+  "min": 5,
+  "html": "\n<p>本站使用 1913 年卡西尔版的文本，基本保留了康德时代的写法。你会遇到：</p>\n<table class=\"tbl\"><thead><tr><th>原文</th><th>今天写作</th><th>说明</th></tr></thead><tbody>\n<tr><td>daß, muß, läßt</td><td>dass, muss, lässt</td><td>1996 年正字法改革后，短元音后的 ß 改为 ss</td></tr>\n<tr><td>drohet, einsperreten, bewähret</td><td>droht, einsperrten, bewährt</td><td>多出一个 e 的旧词尾</td></tr>\n<tr><td>hiebei, demohngeachtet</td><td>hierbei, dessen ungeachtet</td><td>旧词</td></tr>\n<tr><td>Despotism, Mechanism</td><td>Despotismus, Mechanismus</td><td>外来词旧形式</td></tr>\n<tr><td>im Dienste, dem Vorwurfe</td><td>im Dienst, dem Vorwurf</td><td>阳性 / 中性与格词尾 -e</td></tr>\n<tr><td>freigesprochen (hat)</td><td>…freigesprochen hat</td><td>从句末的 hat / ist 常被省略</td></tr>\n</tbody></table>\n<p>一些常用词的<b>古义</b>：<i>allein</i> =「然而」；<i>gemein</i> =「共同的」（不是「卑鄙的」）；<i>billig</i> =「公道的」（不是「便宜」）；<i>Beruf</i> =「使命」；<i>Symbol</i> =「信条」；<i>Qualität</i> =「身份」。点开这些词时，面板里都会提醒你。</p>\n<p><b>虚拟式</b>：康德常用第一虚拟式（<i>halte, sei, hindere</i>）表示转述或设想，用第二虚拟式（<i>würde, wäre, könnte, abwürfe</i>）表示假设。遇到时面板会标出。</p>"
+ }
+]
