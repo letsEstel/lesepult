@@ -1,1 +1,253 @@
-[]
+[
+ {
+  "id": "r153",
+  "ch": "k153",
+  "t": "读后练习：《星星金币》",
+  "de": "Die Sterntaler",
+  "min": 20,
+  "html": "<p>读完《星星金币》了吗？先别看译文，凭记忆回答下面的问题。答错的题，点开解释，再回到原文找到那一句重读。</p>\n<h4>一、读懂了吗</h4>\n{{quiz:s1}}\n<h4>二、语法回顾</h4>\n<p>这一篇用到了前 7 课的大部分内容：名词的性（das Mädchen → es）、四个格、代词、过去时、句子的骨架。</p>\n{{quiz:s2}}\n<h4>三、这篇里值得记住的词</h4>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>词</th><th>意思</th><th>说明</th></tr></thead><tbody>\n<tr><td>Es war einmal …</td><td>从前有……</td><td>童话的开头</td></tr>\n<tr><td>das Mädchen</td><td>女孩</td><td>中性，代词用 es、sein</td></tr>\n<tr><td>arm · fromm · gut</td><td>穷 · 虔诚 · 善良</td><td></td></tr>\n<tr><td>jm begegnen</td><td>遇到某人</td><td>与格</td></tr>\n<tr><td>jm etw. geben / schenken / reichen</td><td>给 / 送 / 递</td><td>与格的人 + 宾格的物</td></tr>\n<tr><td>um etw. bitten</td><td>请求某物</td><td>bat（过去时）</td></tr>\n<tr><td>abtun · abziehen · anhaben · hingeben</td><td>摘下 · 脱下 · 穿着 · 交出去</td><td>可分动词</td></tr>\n<tr><td>auf einmal</td><td>忽然</td><td></td></tr>\n<tr><td>der Taler（Thaler）</td><td>银币</td><td>dollar 的来源</td></tr>\n</tbody></table></div>\n<p><button class=\"btn\" data-route=\"grimm~ch-k153\">回到原文</button> <button class=\"btn\" data-route=\"de-basics~intro-8\">下一课：介词</button></p>",
+  "quiz": [
+   {
+    "id": "q153a",
+    "sec": "s1",
+    "de": "dem war Vater und Mutter gestorben",
+    "opts": [
+     "女孩的父母都去世了",
+     "女孩离开了父母"
+    ],
+    "ans": 0,
+    "why": "dem 指女孩（与格）：对她来说，父亲和母亲死了。war … gestorben 是过去完成时。"
+   },
+   {
+    "id": "q153b",
+    "sec": "s1",
+    "de": "das ihm ein mitleidiges Herz geschenkt hatte",
+    "opts": [
+     "面包是一个好心人送的",
+     "面包是她自己买的"
+    ],
+    "ans": 0,
+    "why": "ein mitleidiges Herz（一颗有同情心的心）是主语：一个好心人送给她的。"
+   },
+   {
+    "id": "q153c",
+    "sec": "s1",
+    "de": "Es reichte ihm das ganze Stückchen Brot",
+    "opts": [
+     "她把整块面包都给了那个穷人",
+     "她把面包分了一半"
+    ],
+    "ans": 0,
+    "why": "das ganze Stückchen Brot：整块面包。她一点也没留。"
+   },
+   {
+    "id": "q153d",
+    "sec": "s1",
+    "de": "es ist dunkle Nacht, da sieht dich niemand",
+    "opts": [
+     "她觉得天黑了没人看见，可以把衬衫送掉",
+     "她害怕黑夜"
+    ],
+    "ans": 0,
+    "why": "女孩对自己说：天黑了，没人看得见你，你可以把衬衫送掉。"
+   },
+   {
+    "id": "q153e",
+    "sec": "s1",
+    "de": "fielen auf einmal die Sterne vom Himmel",
+    "opts": [
+     "星星落下来，变成了银币",
+     "她在天上看见了银币"
+    ],
+    "ans": 0,
+    "why": "die Sterne … waren lauter harte blanke Thaler：落下的星星全是又硬又亮的银币。"
+   },
+   {
+    "id": "q153f",
+    "sec": "s1",
+    "de": "so hatte es ein neues an",
+    "opts": [
+     "她身上穿着一件新的（衬衫）",
+     "她买了一件新的"
+    ],
+    "ans": 0,
+    "why": "anhaben：穿着。虽然她把小衬衫送掉了，身上却出现了一件最上等亚麻布做的新衬衫。"
+   },
+   {
+    "id": "q153g",
+    "sec": "s2",
+    "de": "Es war aber gut und fromm.",
+    "opts": [
+     "es 指女孩，因为 das Mädchen 是中性",
+     "es 是形式主语，不指任何东西"
+    ],
+    "ans": 0,
+    "why": "das Mädchen 是中性，所以用 es 指她。中文译「她」。"
+   },
+   {
+    "id": "q153h",
+    "sec": "s2",
+    "de": "Da that es seine Mütze <<ab>>",
+    "opts": [
+     "可分动词 abtun 的前缀，在句末",
+     "介词「从」"
+    ],
+    "ans": 0,
+    "why": "abtun：摘下。主句里前缀 ab 跑到句末。that = 今天的 tat。"
+   },
+   {
+    "id": "q153i",
+    "sec": "s2",
+    "de": "gab sie <<ihm>>",
+    "opts": [
+     "与格：给他（那个孩子）",
+     "宾格：把他……"
+    ],
+    "ans": 0,
+    "why": "geben 要「与格的人 + 宾格的物」：sie（帽子，宾格）给 ihm（他，与格）。"
+   },
+   {
+    "id": "q153j",
+    "sec": "s2",
+    "de": "Und als es noch eine Weile gegangen <<war>>",
+    "opts": [
+     "从句，变位动词在末尾",
+     "主句"
+    ],
+    "ans": 0,
+    "why": "als 引导时间从句，变位动词 war 在末尾。gegangen war：过去完成时。"
+   },
+   {
+    "id": "q153k",
+    "sec": "s2",
+    "de": "Endlich gelangte es in <<einen>> Wald",
+    "opts": [
+     "阳性宾格，表示方向",
+     "阳性主格"
+    ],
+    "ans": 0,
+    "why": "in + 宾格表示方向：走进一片森林。der Wald 是阳性，宾格 einen。"
+   }
+  ]
+ },
+ {
+  "id": "r103",
+  "ch": "k103",
+  "t": "读后练习：《甜粥》",
+  "de": "Der süße Brei",
+  "min": 20,
+  "html": "<p>《甜粥》比《星星金币》多了三样东西：命令式（Töpfchen, koche!）、可分动词（hört … auf、kommt … heim）和历史现在时（故事讲到一半忽然用现在时）。先凭记忆回答内容题，再做语法题。</p>\n<h4>一、读懂了吗</h4>\n{{quiz:s1}}\n<h4>二、语法回顾</h4>\n{{quiz:s2}}\n<h4>三、这篇里值得记住的词</h4>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>词</th><th>意思</th><th>说明</th></tr></thead><tbody>\n<tr><td>das Töpfchen · der Topf</td><td>小锅 · 锅</td><td>-chen 让名词变中性</td></tr>\n<tr><td>kochen</td><td>煮</td><td>koche!（命令式）</td></tr>\n<tr><td>aufhören</td><td>停止</td><td>hört … auf</td></tr>\n<tr><td>heimbringen · heimkommen</td><td>带回家 · 回家</td><td>可分动词</td></tr>\n<tr><td>einer Sache ledig sein</td><td>摆脱了某事</td><td>要求属格</td></tr>\n<tr><td>sich satt essen</td><td>吃饱</td><td>ißt = isst</td></tr>\n<tr><td>sich zu helfen wissen</td><td>知道怎么办</td><td></td></tr>\n<tr><td>wer …, der …</td><td>谁……，谁就……</td><td></td></tr>\n</tbody></table></div>\n<p><button class=\"btn\" data-route=\"grimm~ch-k103\">回到原文</button></p>",
+  "quiz": [
+   {
+    "id": "q103a",
+    "sec": "s1",
+    "de": "die wußte seinen Jammer schon",
+    "opts": [
+     "老妇人早就知道女孩的苦处",
+     "老妇人问女孩有什么苦处"
+    ],
+    "ans": 0,
+    "why": "wußte（知道）… schon（已经）：她早就知道。"
+   },
+   {
+    "id": "q103b",
+    "sec": "s1",
+    "de": "zu dem sollt es sagen „Töpfchen, koche,“",
+    "opts": [
+     "只要对小锅说「小锅，煮吧」，它就会煮粥",
+     "女孩每天给小锅做饭"
+    ],
+    "ans": 0,
+    "why": "这是小锅的口令：说「煮吧」就煮，说「停下」就停。"
+   },
+   {
+    "id": "q103c",
+    "sec": "s1",
+    "de": "aber sie weiß das Wort nicht",
+    "opts": [
+     "母亲不知道让小锅停下的那句话",
+     "母亲不会说话"
+    ],
+    "ans": 0,
+    "why": "das Wort 指口令「Töpfchen, steh」。母亲只会让它煮，不会让它停。"
+   },
+   {
+    "id": "q103d",
+    "sec": "s1",
+    "de": "wie nur noch ein einziges Haus übrig ist",
+    "opts": [
+     "城里只剩一幢房子没有被粥淹",
+     "只剩一个人没吃饱"
+    ],
+    "ans": 0,
+    "why": "übrig sein：剩下。粥淹了厨房、房子、街道，只剩一幢房子时孩子才回来。"
+   },
+   {
+    "id": "q103e",
+    "sec": "s1",
+    "de": "der mußte sich durchessen",
+    "opts": [
+     "想进城的人得一路吃过去",
+     "想进城的人得等粥凉了"
+    ],
+    "ans": 0,
+    "why": "sich durchessen：吃出一条路来。这是故事最后的笑话。"
+   },
+   {
+    "id": "q103f",
+    "sec": "s2",
+    "de": "Töpfchen, <<koche>>",
+    "opts": [
+     "命令式：煮吧",
+     "过去时：煮了"
+    ],
+    "ans": 0,
+    "why": "对小锅说话（du）用命令式：词干 + e，没有主语。过去时是 kochte。"
+   },
+   {
+    "id": "q103g",
+    "sec": "s2",
+    "de": "so hörte es wieder <<auf>> zu kochen",
+    "opts": [
+     "可分动词 aufhören 的前缀",
+     "介词「在……上」"
+    ],
+    "ans": 0,
+    "why": "aufhören：停止。主句里拆成 hörte … auf。"
+   },
+   {
+    "id": "q103h",
+    "sec": "s2",
+    "de": "nun waren sie <<ihrer>> Armuth und ihres Hungers ledig",
+    "opts": [
+     "属格：ledig 要求属格",
+     "与格"
+    ],
+    "ans": 0,
+    "why": "einer Sache ledig sein：摆脱了某事。ihrer Armuth（阴性属格）、ihres Hungers（阳性属格，名词加 -s）。"
+   },
+   {
+    "id": "q103i",
+    "sec": "s2",
+    "de": "Das Mädchen brachte den Topf <<seiner>> Mutter heim",
+    "opts": [
+     "与格：带回家给她母亲",
+     "属格：她母亲的锅"
+    ],
+    "ans": 0,
+    "why": "heimbringen 要一个接受者（与格）：jm etw. heimbringen。如果是「她母亲的锅」，锅本来就是女孩的，说不通。"
+   },
+   {
+    "id": "q103j",
+    "sec": "s2",
+    "de": "da <<kocht>> es, und sie ißt sich satt",
+    "opts": [
+     "历史现在时：用现在时讲过去的事，更生动",
+     "故事发生在现在"
+    ],
+    "ans": 0,
+    "why": "故事讲到最紧张的地方，从过去时换成现在时，让听的人仿佛身临其境。"
+   }
+  ]
+ }
+]

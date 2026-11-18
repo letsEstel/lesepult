@@ -143,7 +143,7 @@
   "t": "四个格：德语阅读的钥匙",
   "de": "Die vier Fälle",
   "min": 120,
-  "html": "<p>中文靠<b>词序</b>分清谁做了什么：「女孩给了孩子帽子」，换一下顺序意思就变了。德语主要靠<b>词形</b>：同一个名词前面的冠词会变形，告诉你它在句子里扮演什么角色。这些形状叫「格」（Fall / Kasus）。德语一共四个格，这一课一次讲完。学会了，德语句子里的人物关系就一目了然；学不会，再长的词汇量也读不懂。</p>\n\n<h4>一、四个格各回答一个问题</h4>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>格</th><th>回答的问题</th><th>典型角色</th><th>读本里的例子</th></tr></thead><tbody>\n<tr><th>主格<br><small>Nominativ</small></th><td>谁？什么？（做动作的）</td><td>主语；sein 的表语</td><td>[[Da kam ein{nn} Kind]]：一个孩子来了。</td></tr>\n<tr><th>宾格<br><small>Akkusativ</small></th><td>谁？什么？（被作用的）</td><td>直接宾语；表示方向；表示时间长度</td><td>[[zog das{an} Hemd ab]]：脱下衬衫。</td></tr>\n<tr><th>与格<br><small>Dativ</small></th><td>给谁？对谁？</td><td>间接宾语（接受者）；位置</td><td>[[gab sie{her} ihm]]：把它给了他。</td></tr>\n<tr><th>属格<br><small>Genitiv</small></th><td>谁的？</td><td>修饰另一个名词（「……的」）</td><td><i>das Land der Wahrheit</i>：真理之国（康德）。</td></tr>\n</tbody></table></div>\n<p>一句话里四个格同时出现的情况很常见。比如「母亲（主格）给了孩子（与格）父亲的（属格）帽子（宾格）」：</p>\n<p class=\"ex\"><i>Die Mutter gab dem Kind die Mütze des Vaters.</i></p>\n<p>把它打乱成 <i>Dem Kind gab die Mutter die Mütze des Vaters</i>，意思完全不变，因为每个名词的角色都写在冠词上了。</p>\n\n<h4>二、定冠词总表</h4>\n<p>这张表是整门课最重要的一张，值得背下来：</p>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th></th><th>阳性</th><th>阴性</th><th>中性</th><th>复数</th></tr></thead><tbody>\n<tr><th>主格</th><td>der</td><td>die</td><td>das</td><td>die</td></tr>\n<tr><th>宾格</th><td><b>den</b></td><td>die</td><td>das</td><td>die</td></tr>\n<tr><th>与格</th><td><b>dem</b></td><td><b>der</b></td><td><b>dem</b></td><td><b>den</b> …-n</td></tr>\n<tr><th>属格</th><td><b>des</b> …-(e)s</td><td><b>der</b></td><td><b>des</b> …-(e)s</td><td><b>der</b></td></tr>\n</tbody></table></div>\n<p>按列竖着念最好记：<b>der – den – dem – des</b>，<b>die – die – der – der</b>，<b>das – das – dem – des</b>，<b>die – die – den – der</b>。</p>\n<p>几条规律，能省掉大半的记忆：</p>\n<ol class=\"steps\">\n<li><b>阴性、中性、复数的主格和宾格同形</b>。只有阳性在宾格时变成 den。</li>\n<li><b>与格永远以 -m 或 -r 收尾</b>（复数是 den）：阳性、中性 dem，阴性 der。</li>\n<li><b>属格是「阳中一家、阴复一家」</b>：阳性、中性 des，阴性、复数 der。</li>\n<li><b>阳性和中性只在主宾格不同</b>，与格、属格完全一样。</li>\n</ol>\n\n<h4>三、名词自己也有一点格标记</h4>\n<ul>\n<li><b>阳性、中性单数的属格</b>：名词加 -s 或 -es：<i>des Vaters</i>（父亲的），<i>des Wortes</i>（这个词的），<i>des Staates</i>（国家的）。</li>\n<li><b>复数与格</b>：名词加 -n（已经以 -n 结尾的除外）：<i>die Kinder → den Kindern</i>，<i>die Bürger → von Bürgern</i>。</li>\n<li><b>古式单数与格 -e</b>：1857 年的格林童话、康德、韦伯常在阳性和中性名词的与格后加 -e：[[an meinem{dm} Kopfe]]（在我头上），<i>am Schlusse</i>（在结尾），<i>im Kriege</i>（在战争中）。今天写 am Kopf、am Schluss、im Krieg。看到这个 -e，就知道是与格。</li>\n<li><b>弱变化阳性名词</b>：一小批阳性名词，除了主格以外都加 -(e)n：<i>der Mensch → den / dem / des Menschen</i>，<i>der Prophet → des Propheten</i>。看到 Menschen，不一定是复数。</li>\n</ul>\n\n<h4>四、不定冠词 ein 和它的家族</h4>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th></th><th>阳性</th><th>阴性</th><th>中性</th><th>复数（用 kein 示范）</th></tr></thead><tbody>\n<tr><th>主格</th><td>ein</td><td>eine</td><td>ein</td><td>keine</td></tr>\n<tr><th>宾格</th><td>einen</td><td>eine</td><td>ein</td><td>keine</td></tr>\n<tr><th>与格</th><td>einem</td><td>einer</td><td>einem</td><td>keinen</td></tr>\n<tr><th>属格</th><td>eines</td><td>einer</td><td>eines</td><td>keiner</td></tr>\n</tbody></table></div>\n<p>ein 没有复数（「一个」不能是复数），复数用 kein（没有）或物主代词示范。和定冠词对比：词尾几乎一样（einem 对 dem，einer 对 der，eines 对 des），只有三个格子<b>没有词尾</b>：阳性主格 ein、中性主格 ein、中性宾格 ein。这三个格子就是下一课以后讲形容词时要特别注意的地方。</p>\n<p><b>同一家族</b>：kein（没有）、mein（我的）、dein（你的）、sein（他的 / 它的）、ihr（她的 / 他们的）、unser（我们的）、euer（你们的）、Ihr（您的）。词尾全都照这张表：[[seine{af} Mütze]]（她的帽子，阴性宾格）、[[an meinem{dm} Kopfe]]（在我的头上，阳性与格）、[[kein{an} Leibchen]]（没有小背心，中性宾格）。</p>\n\n<h4>五、格从哪里来</h4>\n<p>一个名词为什么是这个格？有三个来源，读书时顺着找：</p>\n<ol class=\"steps\">\n<li><b>它是主语</b> → 主格。动词的人称和它一致。</li>\n<li><b>动词要求</b>：大多数及物动词要宾格（etwas sehen、etwas geben）；有些动词要与格（jemandem begegnen 遇到、jemandem helfen 帮助、jemandem folgen 跟随）；给予类动词要「与格的人 + 宾格的物」：[[Es{kind} reichte ihm das{an} ganze Stückchen Brot]]：ihm（给他，与格）+ das Stückchen（面包，宾格）。</li>\n<li><b>介词要求</b>：每个介词都要求固定的格。一部分介词「两可」：表示<b>位置</b>用与格，表示<b>方向</b>用宾格。同一篇读本里就有对照：[[in der{df} Hand]]（在手里，位置，与格）和 [[in einen{am} Wald]]（走进森林，方向，宾格）。介词表在第 9 课。</li>\n<li><b>修饰另一个名词</b> → 属格，放在被修饰的名词后面：<i>die Kritik der reinen Vernunft</i>（纯粹理性的批判）。</li>\n</ol>\n<div class=\"tip\">德语字典和本站的词卡里，动词后面常写着 jm（= jemandem，与格的人）、jn（= jemanden，宾格的人）、etw.（= etwas，某物）。看到 <i>jm etw. geben</i>，就知道 geben 要一个与格的人、一个宾格的物。</div>\n\n<h4>六、反推：看到 der，它是什么？</h4>\n<p>读书时最常见的困难是：冠词有好几种可能。der 可能是阳性主格、阴性与格、阴性属格或复数属格。别慌，按顺序排除：</p>\n<ol class=\"steps\">\n<li><b>看名词</b>：名词是什么性？单数还是复数？<i>der Mann</i>（阳性）→ 只能是主格；<i>der Hand</i>（阴性）→ 与格或属格。</li>\n<li><b>看前面有没有介词</b>：<i>in der Hand</i>，in 后面要与格或宾格，阴性宾格是 die，所以这里是与格。</li>\n<li><b>看后面是不是又一个名词短语的尾巴</b>：<i>das Land der Wahrheit</i>，der Wahrheit 紧跟在另一个名词后面，是属格「真理的」。</li>\n<li><b>看它是不是根本不是冠词</b>：后面没有名词、紧接着动词的 der，是代词：[[ein{nm} armer Mann, der{rel:nm} sprach]]（一个穷人，他说……）。第 5 课讲。</li>\n</ol>\n<p>本站的「行间释义」会在每个冠词下面标出它在这里的性和格，比如「阴·与」；点开「语法着色」，主格、宾格、与格、属格会用四种颜色画线。读本的前几篇，建议一直开着它。</p>\n\n<h4>七、马上练：四个格</h4>\n{{quiz:s1}}\n\n<h4>八、小结</h4>\n<ul>\n<li>主格 = 谁做；宾格 = 做什么、去哪里；与格 = 给谁、在哪里；属格 = 谁的。</li>\n<li>背住定冠词表的四列：der den dem des · die die der der · das das dem des · die die den der。</li>\n<li>ein 家族（kein、mein、sein、ihr……）照同样的词尾，只有三个格子没词尾。</li>\n<li>格的来源：主语、动词、介词、修饰名词。</li>\n<li>名词的格标记：属格 -(e)s、复数与格 -n、古式与格 -e。</li>\n</ul>\n{{quiz:s2}}",
+  "html": "<p>中文靠<b>词序</b>分清谁做了什么：「女孩给了孩子帽子」，换一下顺序意思就变了。德语主要靠<b>词形</b>：同一个名词前面的冠词会变形，告诉你它在句子里扮演什么角色。这些形状叫「格」（Fall / Kasus）。德语一共四个格，这一课一次讲完。学会了，德语句子里的人物关系就一目了然；学不会，再长的词汇量也读不懂。</p>\n\n<h4>一、四个格各回答一个问题</h4>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>格</th><th>回答的问题</th><th>典型角色</th><th>读本里的例子</th></tr></thead><tbody>\n<tr><th>主格<br><small>Nominativ</small></th><td>谁？什么？（做动作的）</td><td>主语；sein 的表语</td><td>[[Da kam ein{nn} Kind]]：一个孩子来了。</td></tr>\n<tr><th>宾格<br><small>Akkusativ</small></th><td>谁？什么？（被作用的）</td><td>直接宾语；表示方向；表示时间长度</td><td>[[zog das{an} Hemd ab]]：脱下衬衫。</td></tr>\n<tr><th>与格<br><small>Dativ</small></th><td>给谁？对谁？</td><td>间接宾语（接受者）；位置</td><td>[[gab sie{her} ihm]]：把它给了他。</td></tr>\n<tr><th>属格<br><small>Genitiv</small></th><td>谁的？</td><td>修饰另一个名词（「……的」）</td><td><i>das Land der Wahrheit</i>：真理之国（康德）。</td></tr>\n</tbody></table></div>\n<p>一句话里四个格同时出现的情况很常见。比如「母亲（主格）给了孩子（与格）父亲的（属格）帽子（宾格）」：</p>\n<p class=\"ex\"><i>Die Mutter gab dem Kind die Mütze des Vaters.</i></p>\n<p>把它打乱成 <i>Dem Kind gab die Mutter die Mütze des Vaters</i>，意思完全不变，因为每个名词的角色都写在冠词上了。</p>\n\n<h4>二、定冠词总表</h4>\n<p>这张表是整门课最重要的一张，值得背下来：</p>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th></th><th>阳性</th><th>阴性</th><th>中性</th><th>复数</th></tr></thead><tbody>\n<tr><th>主格</th><td>der</td><td>die</td><td>das</td><td>die</td></tr>\n<tr><th>宾格</th><td><b>den</b></td><td>die</td><td>das</td><td>die</td></tr>\n<tr><th>与格</th><td><b>dem</b></td><td><b>der</b></td><td><b>dem</b></td><td><b>den</b> …-n</td></tr>\n<tr><th>属格</th><td><b>des</b> …-(e)s</td><td><b>der</b></td><td><b>des</b> …-(e)s</td><td><b>der</b></td></tr>\n</tbody></table></div>\n<p>按列竖着念最好记：<b>der – den – dem – des</b>，<b>die – die – der – der</b>，<b>das – das – dem – des</b>，<b>die – die – den – der</b>。</p>\n<p>几条规律，能省掉大半的记忆：</p>\n<ol class=\"steps\">\n<li><b>阴性、中性、复数的主格和宾格同形</b>。只有阳性在宾格时变成 den。</li>\n<li><b>与格永远以 -m 或 -r 收尾</b>（复数是 den）：阳性、中性 dem，阴性 der。</li>\n<li><b>属格是「阳中一家、阴复一家」</b>：阳性、中性 des，阴性、复数 der。</li>\n<li><b>阳性和中性只在主宾格不同</b>，与格、属格完全一样。</li>\n</ol>\n\n<h4>三、名词自己也有一点格标记</h4>\n<ul>\n<li><b>阳性、中性单数的属格</b>：名词加 -s 或 -es：<i>des Vaters</i>（父亲的），<i>des Wortes</i>（这个词的），<i>des Staates</i>（国家的）。</li>\n<li><b>复数与格</b>：名词加 -n（已经以 -n 结尾的除外）：<i>die Kinder → den Kindern</i>，<i>die Bürger → von Bürgern</i>。</li>\n<li><b>古式单数与格 -e</b>：1857 年的格林童话、康德、韦伯常在阳性和中性名词的与格后加 -e：[[an meinem{dm} Kopfe]]（在我头上），<i>am Schlusse</i>（在结尾），<i>im Kriege</i>（在战争中）。今天写 am Kopf、am Schluss、im Krieg。看到这个 -e，就知道是与格。</li>\n<li><b>弱变化阳性名词</b>：一小批阳性名词，除了主格以外都加 -(e)n：<i>der Mensch → den / dem / des Menschen</i>，<i>der Prophet → des Propheten</i>。看到 Menschen，不一定是复数。</li>\n</ul>\n\n<h4>四、不定冠词 ein 和它的家族</h4>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th></th><th>阳性</th><th>阴性</th><th>中性</th><th>复数（用 kein 示范）</th></tr></thead><tbody>\n<tr><th>主格</th><td>ein</td><td>eine</td><td>ein</td><td>keine</td></tr>\n<tr><th>宾格</th><td>einen</td><td>eine</td><td>ein</td><td>keine</td></tr>\n<tr><th>与格</th><td>einem</td><td>einer</td><td>einem</td><td>keinen</td></tr>\n<tr><th>属格</th><td>eines</td><td>einer</td><td>eines</td><td>keiner</td></tr>\n</tbody></table></div>\n<p>ein 没有复数（「一个」不能是复数），复数用 kein（没有）或物主代词示范。和定冠词对比：词尾几乎一样（einem 对 dem，einer 对 der，eines 对 des），只有三个格子<b>没有词尾</b>：阳性主格 ein、中性主格 ein、中性宾格 ein。这三个格子就是下一课以后讲形容词时要特别注意的地方。</p>\n<p><b>同一家族</b>：kein（没有）、mein（我的）、dein（你的）、sein（他的 / 它的）、ihr（她的 / 他们的）、unser（我们的）、euer（你们的）、Ihr（您的）。词尾全都照这张表：[[seine{af} Mütze]]（她的帽子，阴性宾格）、[[an meinem{dm} Kopfe]]（在我的头上，阳性与格）、[[kein{an} Leibchen]]（没有小背心，中性宾格）。</p>\n\n<h4>五、格从哪里来</h4>\n<p>一个名词为什么是这个格？有三个来源，读书时顺着找：</p>\n<ol class=\"steps\">\n<li><b>它是主语</b> → 主格。动词的人称和它一致。</li>\n<li><b>动词要求</b>：大多数及物动词要宾格（etwas sehen、etwas geben）；有些动词要与格（jemandem begegnen 遇到、jemandem helfen 帮助、jemandem folgen 跟随）；给予类动词要「与格的人 + 宾格的物」：[[Es{kind} reichte ihm das{an} ganze Stückchen Brot]]：ihm（给他，与格）+ das Stückchen（面包，宾格）。</li>\n<li><b>介词要求</b>：每个介词都要求固定的格。一部分介词「两可」：表示<b>位置</b>用与格，表示<b>方向</b>用宾格。同一篇读本里就有对照：[[in der{df} Hand]]（在手里，位置，与格）和 [[in einen{am} Wald]]（走进森林，方向，宾格）。介词全表在第 8 课。</li>\n<li><b>修饰另一个名词</b> → 属格，放在被修饰的名词后面：<i>die Kritik der reinen Vernunft</i>（纯粹理性的批判）。</li>\n</ol>\n<div class=\"tip\">德语字典和本站的词卡里，动词后面常写着 jm（= jemandem，与格的人）、jn（= jemanden，宾格的人）、etw.（= etwas，某物）。看到 <i>jm etw. geben</i>，就知道 geben 要一个与格的人、一个宾格的物。</div>\n\n<h4>六、反推：看到 der，它是什么？</h4>\n<p>读书时最常见的困难是：冠词有好几种可能。der 可能是阳性主格、阴性与格、阴性属格或复数属格。别慌，按顺序排除：</p>\n<ol class=\"steps\">\n<li><b>看名词</b>：名词是什么性？单数还是复数？<i>der Mann</i>（阳性）→ 只能是主格；<i>der Hand</i>（阴性）→ 与格或属格。</li>\n<li><b>看前面有没有介词</b>：<i>in der Hand</i>，in 后面要与格或宾格，阴性宾格是 die，所以这里是与格。</li>\n<li><b>看后面是不是又一个名词短语的尾巴</b>：<i>das Land der Wahrheit</i>，der Wahrheit 紧跟在另一个名词后面，是属格「真理的」。</li>\n<li><b>看它是不是根本不是冠词</b>：后面没有名词、紧接着动词的 der，是代词：[[ein{nm} armer Mann, der{rel:nm} sprach]]（一个穷人，他说……）。下一课讲。</li>\n</ol>\n<p>本站的「行间释义」会在每个冠词下面标出它在这里的性和格，比如「阴·与」；点开「语法着色」，主格、宾格、与格、属格会用四种颜色画线。读本的前几篇，建议一直开着它。</p>\n\n<h4>七、马上练：四个格</h4>\n{{quiz:s1}}\n\n<h4>八、小结</h4>\n<ul>\n<li>主格 = 谁做；宾格 = 做什么、去哪里；与格 = 给谁、在哪里；属格 = 谁的。</li>\n<li>背住定冠词表的四列：der den dem des · die die der der · das das dem des · die die den der。</li>\n<li>ein 家族（kein、mein、sein、ihr……）照同样的词尾，只有三个格子没词尾。</li>\n<li>格的来源：主语、动词、介词、修饰名词。</li>\n<li>名词的格标记：属格 -(e)s、复数与格 -n、古式与格 -e。</li>\n</ul>\n{{quiz:s2}}",
   "quiz": [
    {
     "id": "c1a",
@@ -262,7 +262,7 @@
   "t": "代词全表：ich、mich、mir、mein……",
   "de": "Die Pronomen",
   "min": 100,
-  "html": "<p>读本《星星金币》只有 298 个词，其中代词就有六十多个：es、ihm、sie、mir、mich、dich、seine、seins、der、das、dem……代词短，变化多，又总在句子里最关键的位置。这一课把代词一次理清，配合上一课的四个格。</p>\n\n<h4>一、人称代词</h4>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th></th><th>主格</th><th>宾格</th><th>与格</th><th>属格（少见）</th></tr></thead><tbody>\n<tr><th>我</th><td>ich</td><td>mich</td><td>mir</td><td>meiner</td></tr>\n<tr><th>你</th><td>du</td><td>dich</td><td>dir</td><td>deiner</td></tr>\n<tr><th>他 / 它（阳）</th><td>er</td><td>ihn</td><td>ihm</td><td>seiner</td></tr>\n<tr><th>她 / 它（阴）</th><td>sie</td><td>sie</td><td>ihr</td><td>ihrer</td></tr>\n<tr><th>它（中）</th><td>es</td><td>es</td><td>ihm</td><td>seiner</td></tr>\n<tr><th>我们</th><td>wir</td><td>uns</td><td>uns</td><td>unser</td></tr>\n<tr><th>你们</th><td>ihr</td><td>euch</td><td>euch</td><td>euer</td></tr>\n<tr><th>他们 / 它们</th><td>sie</td><td>sie</td><td>ihnen</td><td>ihrer</td></tr>\n<tr><th>您（敬称）</th><td>Sie</td><td>Sie</td><td>Ihnen</td><td>Ihrer</td></tr>\n</tbody></table></div>\n<p>读本里的例子：[[gib mir etwas zu essen]]（给我，与格）、[[es{expl} friert mich]]（我冷，宾格）、[[da sieht dich niemand]]（没人看见你，宾格）、[[gab sie{her} ihm]]（把它给了他：sie 宾格、ihm 与格）。</p>\n<p>属格形式很少见，主要出现在要求属格的介词或动词后面。康德、韦伯会用：<i>um ihrer selbst willen</i>（为了它本身，韦伯）。</p>\n\n<h4>二、按语法性选代词</h4>\n<p>德语的 er / sie / es 跟着名词的<b>语法性</b>走，不跟着实际性别走：</p>\n<ul>\n<li><b>das Mädchen</b>（中性）→ es：[[Es{kind} war aber gut und fromm.]]，中文译「她」。物主代词也随之用 sein：[[seine{af} Mütze]]（她的帽子）。</li>\n<li><b>der Kopf</b>（阳性）→ er / ihn：[[womit ich ihn bedecken kann]]（我用来盖住它的东西）。</li>\n<li><b>die Mütze</b>（阴性）→ sie：[[gab sie{her} ihm]]（把它给了他）。</li>\n</ul>\n<div class=\"tip\">读长句时，每遇到一个 er / sie / es / ihn / ihm，都要问一句：它指哪个名词？到前面去找<b>性、数都对得上</b>的名词。康德的书里，这一步做对了，一半的难点就消失了。</div>\n\n<h4>三、sie 和 ihr：两个最忙的词</h4>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>形式</th><th>可能的意思</th><th>怎么分</th></tr></thead><tbody>\n<tr><td>sie</td><td>她（主 / 宾）· 它（指阴性名词）· 他们（主 / 宾）</td><td>看动词：sie ist（单数）/ sie sind（复数）；看前文的名词</td></tr>\n<tr><td>Sie</td><td>您</td><td>句中大写；句首时要看上下文</td></tr>\n<tr><td>ihr</td><td>你们（主格）· 她（与格）· 她的 / 他们的（物主）</td><td>后面紧跟名词的是物主代词；单独出现的看动词</td></tr>\n<tr><td>ihnen / Ihnen</td><td>他们（与格）/ 您（与格）</td><td>大小写</td></tr>\n</tbody></table></div>\n\n<h4>四、物主代词：谁的</h4>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>人称</th><th>我</th><th>你</th><th>他 / 它（阳、中）</th><th>她 / 它（阴）</th><th>我们</th><th>你们</th><th>他们</th><th>您</th></tr></thead><tbody>\n<tr><th>物主</th><td>mein</td><td>dein</td><td>sein</td><td>ihr</td><td>unser</td><td>euer</td><td>ihr</td><td>Ihr</td></tr>\n</tbody></table></div>\n<p>选哪一个，看<b>拥有者</b>；词尾是什么，看<b>被拥有的名词</b>（照上一课 ein 的表）：</p>\n<ul>\n<li>[[seine{af} Mütze]]：拥有者是 das Mädchen（中性）→ sein；Mütze 是阴性宾格 → seine。</li>\n<li>[[dein{an} Hemd]]：拥有者是 du → dein；Hemd 中性宾格 → 无词尾。</li>\n<li>[[an meinem{dm} Kopfe]]：拥有者 ich → mein；Kopf 阳性与格 → meinem。</li>\n</ul>\n<p>物主代词单独使用、后面没有名词时，要带上完整的词尾：[[da gab es{kind} ihm seins]]，seins（= seines）是「她自己的那件」（中性宾格，指 Leibchen）。</p>\n<div class=\"tip\">sein 有两个身份：物主代词「他的 / 它的」，和动词「是」。区分很简单：后面跟名词的 sein / seine / seinem 是物主代词；单独出现、在动词位置的是「是」。</div>\n\n<h4>五、反身代词 sich</h4>\n<p>主语对自己做动作时用反身代词。第一、二人称就用人称代词（mich、mir、dich、dir、uns、euch），第三人称和敬称一律用 <b>sich</b>，不分性数、不分宾格与格：</p>\n[[Da sammelte es{kind} sich die{ap} Thaler hinein]]\n<p>sich 在这里是与格「给自己」：她把银币收进（衬衫里）给自己。很多动词必须带 sich，中文不译出来，比如 sich fügen（服从）、sich beziehen（涉及）。第 15 课专门讲。</p>\n\n<h4>六、der / die / das 当代词用</h4>\n<p>定冠词还可以单独使用，这时它是代词，有两种：</p>\n<ol class=\"steps\">\n<li><b>指示代词</b>「这个、那个」，常放在句首作强调：[[das{dem:an} gab es{kind} auch von sich hin]]（那件她也送了出去）。</li>\n<li><b>关系代词</b>「……的那个」，引导从句，从句的变位动词在末尾：[[ein{an} Stückchen Brot in der{df} Hand, das{rel:an} ihm ein{nn} mitleidiges Herz geschenkt hatte]]（一块好心人送给她的面包）。</li>\n</ol>\n<p>代词用法的 der 和冠词只有四个格子不同，都比冠词「长」：</p>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th></th><th>阳性</th><th>阴性</th><th>中性</th><th>复数</th></tr></thead><tbody>\n<tr><th>主格</th><td>der</td><td>die</td><td>das</td><td>die</td></tr>\n<tr><th>宾格</th><td>den</td><td>die</td><td>das</td><td>die</td></tr>\n<tr><th>与格</th><td>dem</td><td>der</td><td>dem</td><td><b>denen</b></td></tr>\n<tr><th>属格</th><td><b>dessen</b></td><td><b>deren</b></td><td><b>dessen</b></td><td><b>deren</b></td></tr>\n</tbody></table></div>\n<p>所以看到 denen、dessen、deren，几乎一定是代词。读本第一句的 [[dem{rel:dn} war Vater und Mutter gestorben]]，dem 也是关系代词：「对她来说父母死了」，即「她的父母都死了」。关系从句第 14 课细讲。</p>\n\n<h4>七、不定代词</h4>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>词</th><th>意思</th><th>例子</th></tr></thead><tbody>\n<tr><td>man</td><td>人们（泛指，常不译）</td><td>（康德、韦伯里极多）</td></tr>\n<tr><td>etwas</td><td>某物、一些</td><td>[[gib mir etwas zu essen]]</td></tr>\n<tr><td>nichts</td><td>什么也没有</td><td>[[und gar nichts mehr hatte]]</td></tr>\n<tr><td>niemand</td><td>没有人</td><td>[[da sieht dich niemand]]</td></tr>\n<tr><td>eins</td><td>一个（人 / 物）</td><td>[[da kam noch eins]]</td></tr>\n<tr><td>jeder / alle</td><td>每个 / 所有</td><td>[[von aller{df} Welt verlassen]]</td></tr>\n</tbody></table></div>\n\n<h4>八、马上练</h4>\n{{quiz:s1}}\n<h4>九、小结</h4>\n<ul>\n<li>人称代词四格表：重点记 ihn、ihm、ihr、ihnen。</li>\n<li>er / sie / es 跟着语法性：das Mädchen → es、sein。</li>\n<li>物主代词：选词看拥有者，词尾看被拥有的名词。</li>\n<li>第三人称反身代词永远是 sich。</li>\n<li>der / die / das 单独出现时是代词；denen、dessen、deren 只能是代词。</li>\n</ul>",
+  "html": "<p>读本《星星金币》只有 298 个词，其中代词就有六十多个：es、ihm、sie、mir、mich、dich、seine、seins、der、das、dem……代词短，变化多，又总在句子里最关键的位置。这一课把代词一次理清，配合上一课的四个格。</p>\n\n<h4>一、人称代词</h4>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th></th><th>主格</th><th>宾格</th><th>与格</th><th>属格（少见）</th></tr></thead><tbody>\n<tr><th>我</th><td>ich</td><td>mich</td><td>mir</td><td>meiner</td></tr>\n<tr><th>你</th><td>du</td><td>dich</td><td>dir</td><td>deiner</td></tr>\n<tr><th>他 / 它（阳）</th><td>er</td><td>ihn</td><td>ihm</td><td>seiner</td></tr>\n<tr><th>她 / 它（阴）</th><td>sie</td><td>sie</td><td>ihr</td><td>ihrer</td></tr>\n<tr><th>它（中）</th><td>es</td><td>es</td><td>ihm</td><td>seiner</td></tr>\n<tr><th>我们</th><td>wir</td><td>uns</td><td>uns</td><td>unser</td></tr>\n<tr><th>你们</th><td>ihr</td><td>euch</td><td>euch</td><td>euer</td></tr>\n<tr><th>他们 / 它们</th><td>sie</td><td>sie</td><td>ihnen</td><td>ihrer</td></tr>\n<tr><th>您（敬称）</th><td>Sie</td><td>Sie</td><td>Ihnen</td><td>Ihrer</td></tr>\n</tbody></table></div>\n<p>读本里的例子：[[gib mir etwas zu essen]]（给我，与格）、[[es{expl} friert mich]]（我冷，宾格）、[[da sieht dich niemand]]（没人看见你，宾格）、[[gab sie{her} ihm]]（把它给了他：sie 宾格、ihm 与格）。</p>\n<p>属格形式很少见，主要出现在要求属格的介词或动词后面。康德、韦伯会用：<i>um ihrer selbst willen</i>（为了它本身，韦伯）。</p>\n\n<h4>二、按语法性选代词</h4>\n<p>德语的 er / sie / es 跟着名词的<b>语法性</b>走，不跟着实际性别走：</p>\n<ul>\n<li><b>das Mädchen</b>（中性）→ es：[[Es{kind} war aber gut und fromm.]]，中文译「她」。物主代词也随之用 sein：[[seine{af} Mütze]]（她的帽子）。</li>\n<li><b>der Kopf</b>（阳性）→ er / ihn：[[womit ich ihn bedecken kann]]（我用来盖住它的东西）。</li>\n<li><b>die Mütze</b>（阴性）→ sie：[[gab sie{her} ihm]]（把它给了他）。</li>\n</ul>\n<div class=\"tip\">读长句时，每遇到一个 er / sie / es / ihn / ihm，都要问一句：它指哪个名词？到前面去找<b>性、数都对得上</b>的名词。康德的书里，这一步做对了，一半的难点就消失了。</div>\n\n<h4>三、sie 和 ihr：两个最忙的词</h4>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>形式</th><th>可能的意思</th><th>怎么分</th></tr></thead><tbody>\n<tr><td>sie</td><td>她（主 / 宾）· 它（指阴性名词）· 他们（主 / 宾）</td><td>看动词：sie ist（单数）/ sie sind（复数）；看前文的名词</td></tr>\n<tr><td>Sie</td><td>您</td><td>句中大写；句首时要看上下文</td></tr>\n<tr><td>ihr</td><td>你们（主格）· 她（与格）· 她的 / 他们的（物主）</td><td>后面紧跟名词的是物主代词；单独出现的看动词</td></tr>\n<tr><td>ihnen / Ihnen</td><td>他们（与格）/ 您（与格）</td><td>大小写</td></tr>\n</tbody></table></div>\n\n<h4>四、物主代词：谁的</h4>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>人称</th><th>我</th><th>你</th><th>他 / 它（阳、中）</th><th>她 / 它（阴）</th><th>我们</th><th>你们</th><th>他们</th><th>您</th></tr></thead><tbody>\n<tr><th>物主</th><td>mein</td><td>dein</td><td>sein</td><td>ihr</td><td>unser</td><td>euer</td><td>ihr</td><td>Ihr</td></tr>\n</tbody></table></div>\n<p>选哪一个，看<b>拥有者</b>；词尾是什么，看<b>被拥有的名词</b>（照上一课 ein 的表）：</p>\n<ul>\n<li>[[seine{af} Mütze]]：拥有者是 das Mädchen（中性）→ sein；Mütze 是阴性宾格 → seine。</li>\n<li>[[dein{an} Hemd]]：拥有者是 du → dein；Hemd 中性宾格 → 无词尾。</li>\n<li>[[an meinem{dm} Kopfe]]：拥有者 ich → mein；Kopf 阳性与格 → meinem。</li>\n</ul>\n<p>物主代词单独使用、后面没有名词时，要带上完整的词尾：[[da gab es{kind} ihm seins]]，seins（= seines）是「她自己的那件」（中性宾格，指 Leibchen）。</p>\n<div class=\"tip\">sein 有两个身份：物主代词「他的 / 它的」，和动词「是」。区分很简单：后面跟名词的 sein / seine / seinem 是物主代词；单独出现、在动词位置的是「是」。</div>\n\n<h4>五、反身代词 sich</h4>\n<p>主语对自己做动作时用反身代词。第一、二人称就用人称代词（mich、mir、dich、dir、uns、euch），第三人称和敬称一律用 <b>sich</b>，不分性数、不分宾格与格：</p>\n[[Da sammelte es{kind} sich die{ap} Thaler hinein]]\n<p>sich 在这里是与格「给自己」：她把银币收进（衬衫里）给自己。很多动词必须带 sich，中文不译出来，比如 sich fügen（服从）、sich beziehen（涉及）。第 13 课专门讲。</p>\n\n<h4>六、der / die / das 当代词用</h4>\n<p>定冠词还可以单独使用，这时它是代词，有两种：</p>\n<ol class=\"steps\">\n<li><b>指示代词</b>「这个、那个」，常放在句首作强调：[[das{dem:an} gab es{kind} auch von sich hin]]（那件她也送了出去）。</li>\n<li><b>关系代词</b>「……的那个」，引导从句，从句的变位动词在末尾：[[ein{an} Stückchen Brot in der{df} Hand, das{rel:an} ihm ein{nn} mitleidiges Herz geschenkt hatte]]（一块好心人送给她的面包）。</li>\n</ol>\n<p>代词用法的 der 和冠词只有四个格子不同，都比冠词「长」：</p>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th></th><th>阳性</th><th>阴性</th><th>中性</th><th>复数</th></tr></thead><tbody>\n<tr><th>主格</th><td>der</td><td>die</td><td>das</td><td>die</td></tr>\n<tr><th>宾格</th><td>den</td><td>die</td><td>das</td><td>die</td></tr>\n<tr><th>与格</th><td>dem</td><td>der</td><td>dem</td><td><b>denen</b></td></tr>\n<tr><th>属格</th><td><b>dessen</b></td><td><b>deren</b></td><td><b>dessen</b></td><td><b>deren</b></td></tr>\n</tbody></table></div>\n<p>所以看到 denen、dessen、deren，几乎一定是代词。读本第一句的 [[dem{rel:dn} war Vater und Mutter gestorben]]，dem 也是关系代词：「对她来说父母死了」，即「她的父母都死了」。关系从句第 12 课细讲。</p>\n\n<h4>七、不定代词</h4>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>词</th><th>意思</th><th>例子</th></tr></thead><tbody>\n<tr><td>man</td><td>人们（泛指，常不译）</td><td>（康德、韦伯里极多）</td></tr>\n<tr><td>etwas</td><td>某物、一些</td><td>[[gib mir etwas zu essen]]</td></tr>\n<tr><td>nichts</td><td>什么也没有</td><td>[[und gar nichts mehr hatte]]</td></tr>\n<tr><td>niemand</td><td>没有人</td><td>[[da sieht dich niemand]]</td></tr>\n<tr><td>eins</td><td>一个（人 / 物）</td><td>[[da kam noch eins]]</td></tr>\n<tr><td>jeder / alle</td><td>每个 / 所有</td><td>[[von aller{df} Welt verlassen]]</td></tr>\n</tbody></table></div>\n\n<h4>八、马上练</h4>\n{{quiz:s1}}\n<h4>九、小结</h4>\n<ul>\n<li>人称代词四格表：重点记 ihn、ihm、ihr、ihnen。</li>\n<li>er / sie / es 跟着语法性：das Mädchen → es、sein。</li>\n<li>物主代词：选词看拥有者，词尾看被拥有的名词。</li>\n<li>第三人称反身代词永远是 sich。</li>\n<li>der / die / das 单独出现时是代词；denen、dessen、deren 只能是代词。</li>\n</ul>",
   "quiz": [
    {
     "id": "pn1",
@@ -412,7 +412,7 @@
   "t": "过去时：童话的时态",
   "de": "Das Präteritum",
   "min": 90,
-  "html": "<p>德语讲故事用<b>过去时</b>（Präteritum）。格林童话、小说、历史书，几乎全是过去时。所以对读者来说，过去时比完成时更重要，要先学。</p>\n<h4>一、弱变化动词：加 -te</h4>\n<p>大多数动词是「弱变化」：词干 + -te + 人称词尾。很好认，看见 -te 就是过去时。</p>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>不定式</th><th>过去时（er / sie / es）</th><th>读本里</th></tr></thead><tbody>\n<tr><td>sagen（说）</td><td>sagte</td><td>[[und sagte „Gott segne dirs“]]</td></tr>\n<tr><td>reichen（递）</td><td>reichte</td><td>[[Es{kind} reichte ihm das{an} ganze Stückchen Brot]]</td></tr>\n<tr><td>jammern（哭诉）</td><td>jammerte</td><td>[[ein{nn} Kind das{rel:nn} jammerte]]</td></tr>\n<tr><td>begegnen（遇到）</td><td>begegnete</td><td>[[Da begegnete ihm ein{nm} armer Mann]]</td></tr>\n<tr><td>sammeln（收集）</td><td>sammelte</td><td>[[Da sammelte es{kind} sich die{ap} Thaler hinein]]</td></tr>\n</tbody></table></div>\n<p>词干以 -d、-t、-n 结尾时，中间加 e 便于发音：begegn- → begegnete。</p>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>ich</th><th>du</th><th>er / sie / es</th><th>wir</th><th>ihr</th><th>sie</th></tr></thead><tbody>\n<tr><td>sagte</td><td>sagtest</td><td>sagte</td><td>sagten</td><td>sagtet</td><td>sagten</td></tr>\n</tbody></table></div>\n<p>注意：过去时的 ich 和 er 形式相同，都没有 -t。</p>\n<h4>二、强变化动词：换元音</h4>\n<p>常用动词多是「强变化」：不加 -te，而是换词干的元音。它们出现得最多，需要一个一个认。读本《星星金币》里的强变化动词：</p>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>不定式</th><th>过去时</th><th>意思</th></tr></thead><tbody>\n<tr><td>kommen</td><td>[[kam]]</td><td>来</td></tr>\n<tr><td>geben</td><td>[[gab]]</td><td>给</td></tr>\n<tr><td>gehen</td><td>[[gieng]]（今天 ging）</td><td>走</td></tr>\n<tr><td>sprechen</td><td>[[sprach]]</td><td>说</td></tr>\n<tr><td>stehen</td><td>[[stand]]</td><td>站</td></tr>\n<tr><td>fallen</td><td>[[fielen]]（复数）</td><td>落下</td></tr>\n<tr><td>bitten</td><td>[[bat]]</td><td>请求</td></tr>\n<tr><td>frieren</td><td>[[fror]]</td><td>冻</td></tr>\n<tr><td>ziehen</td><td>[[zog]]</td><td>拉</td></tr>\n<tr><td>tun</td><td>[[that]]（今天 tat）</td><td>做</td></tr>\n</tbody></table></div>\n<p>强变化过去时的单数没有词尾：er kam，er gab；复数加 -en：sie kamen，sie fielen。</p>\n<div class=\"tip\">认强变化动词的诀窍：句子里有一个你不认识的短词，处在动词的位置（第二位），又不像现在时，多半是强变化过去时。点开它，词卡会告诉你原形。读本里的强变化动词，不到一百个就覆盖了 90% 的情况。</div>\n<h4>三、sein、haben 和混合变化</h4>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>不定式</th><th>过去时</th><th>读本里</th></tr></thead><tbody>\n<tr><td>sein（是）</td><td>war / waren</td><td>[[Es{kind} war aber gut und fromm.]]</td></tr>\n<tr><td>haben（有）</td><td>hatte</td><td>[[und gar nichts mehr hatte]]</td></tr>\n<tr><td>denken（想）</td><td>dachte</td><td>[[und das{nn} fromme Mädchen dachte]]</td></tr>\n</tbody></table></div>\n<p>denken 是「混合变化」：既换元音，又加 -te。这类动词不多：denken – dachte，bringen – brachte，wissen – wußte（今天 wusste）。</p>\n<h4>四、过去完成时：在过去之前</h4>\n<p>讲故事时，要说「在那之前已经发生的事」，用 hatte / war + 过去分词：</p>\n[[dem{rel:dn} war Vater und Mutter gestorben]]\n[[das{rel:an} ihm ein{nn} mitleidiges Herz geschenkt hatte]]\n<p>war … gestorben（已经死了）、hatte … geschenkt（之前送了）。过去分词常以 ge- 开头：gestorben、geschenkt、gegangen、geworden。<b>表示移动或变化的动词用 sein</b>（gehen、sterben、werden），其他用 haben。完成时第 19 课细讲。</p>\n<h4>五、读一读</h4>\n<p>现在你已经学了足够的语法，可以读完整篇《星星金币》了。读的时候：</p>\n<ol class=\"steps\">\n<li>每句先点「语法」，看第一条「拆解」。</li>\n<li>找出这句的过去时动词，说出它的原形。</li>\n<li>找出 es，确认它指的是女孩。</li>\n<li>读完后点「听全文」，不看译文听一遍。</li>\n</ol>\n<p><button class=\"btn\" data-route=\"grimm~ch-k153\">读一读：《星星金币》</button></p>\n{{quiz:s1}}",
+  "html": "<p>德语讲故事用<b>过去时</b>（Präteritum）。格林童话、小说、历史书，几乎全是过去时。所以对读者来说，过去时比完成时更重要，要先学。</p>\n<h4>一、弱变化动词：加 -te</h4>\n<p>大多数动词是「弱变化」：词干 + -te + 人称词尾。很好认，看见 -te 就是过去时。</p>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>不定式</th><th>过去时（er / sie / es）</th><th>读本里</th></tr></thead><tbody>\n<tr><td>sagen（说）</td><td>sagte</td><td>[[und sagte „Gott segne dirs“]]</td></tr>\n<tr><td>reichen（递）</td><td>reichte</td><td>[[Es{kind} reichte ihm das{an} ganze Stückchen Brot]]</td></tr>\n<tr><td>jammern（哭诉）</td><td>jammerte</td><td>[[ein{nn} Kind das{rel:nn} jammerte]]</td></tr>\n<tr><td>begegnen（遇到）</td><td>begegnete</td><td>[[Da begegnete ihm ein{nm} armer Mann]]</td></tr>\n<tr><td>sammeln（收集）</td><td>sammelte</td><td>[[Da sammelte es{kind} sich die{ap} Thaler hinein]]</td></tr>\n</tbody></table></div>\n<p>词干以 -d、-t、-n 结尾时，中间加 e 便于发音：begegn- → begegnete。</p>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>ich</th><th>du</th><th>er / sie / es</th><th>wir</th><th>ihr</th><th>sie</th></tr></thead><tbody>\n<tr><td>sagte</td><td>sagtest</td><td>sagte</td><td>sagten</td><td>sagtet</td><td>sagten</td></tr>\n</tbody></table></div>\n<p>注意：过去时的 ich 和 er 形式相同，都没有 -t。</p>\n<h4>二、强变化动词：换元音</h4>\n<p>常用动词多是「强变化」：不加 -te，而是换词干的元音。它们出现得最多，需要一个一个认。读本《星星金币》里的强变化动词：</p>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>不定式</th><th>过去时</th><th>意思</th></tr></thead><tbody>\n<tr><td>kommen</td><td>[[kam]]</td><td>来</td></tr>\n<tr><td>geben</td><td>[[gab]]</td><td>给</td></tr>\n<tr><td>gehen</td><td>[[gieng]]（今天 ging）</td><td>走</td></tr>\n<tr><td>sprechen</td><td>[[sprach]]</td><td>说</td></tr>\n<tr><td>stehen</td><td>[[stand]]</td><td>站</td></tr>\n<tr><td>fallen</td><td>[[fielen]]（复数）</td><td>落下</td></tr>\n<tr><td>bitten</td><td>[[bat]]</td><td>请求</td></tr>\n<tr><td>frieren</td><td>[[fror]]</td><td>冻</td></tr>\n<tr><td>ziehen</td><td>[[zog]]</td><td>拉</td></tr>\n<tr><td>tun</td><td>[[that]]（今天 tat）</td><td>做</td></tr>\n</tbody></table></div>\n<p>强变化过去时的单数没有词尾：er kam，er gab；复数加 -en：sie kamen，sie fielen。</p>\n<div class=\"tip\">认强变化动词的诀窍：句子里有一个你不认识的短词，处在动词的位置（第二位），又不像现在时，多半是强变化过去时。点开它，词卡会告诉你原形。读本里的强变化动词，不到一百个就覆盖了 90% 的情况。</div>\n<h4>三、sein、haben 和混合变化</h4>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>不定式</th><th>过去时</th><th>读本里</th></tr></thead><tbody>\n<tr><td>sein（是）</td><td>war / waren</td><td>[[Es{kind} war aber gut und fromm.]]</td></tr>\n<tr><td>haben（有）</td><td>hatte</td><td>[[und gar nichts mehr hatte]]</td></tr>\n<tr><td>denken（想）</td><td>dachte</td><td>[[und das{nn} fromme Mädchen dachte]]</td></tr>\n</tbody></table></div>\n<p>denken 是「混合变化」：既换元音，又加 -te。这类动词不多：denken – dachte，bringen – brachte，wissen – wußte（今天 wusste）。</p>\n<h4>四、过去完成时：在过去之前</h4>\n<p>讲故事时，要说「在那之前已经发生的事」，用 hatte / war + 过去分词：</p>\n[[dem{rel:dn} war Vater und Mutter gestorben]]\n[[das{rel:an} ihm ein{nn} mitleidiges Herz geschenkt hatte]]\n<p>war … gestorben（已经死了）、hatte … geschenkt（之前送了）。过去分词常以 ge- 开头：gestorben、geschenkt、gegangen、geworden。<b>表示移动或变化的动词用 sein</b>（gehen、sterben、werden），其他用 haben。完成时第 19 课细讲。</p>\n<h4>五、下一步</h4>\n<p>认识了过去时，《星星金币》里的动词你都能认出来了。但要读懂整句话，还差一样东西：<b>动词在句子里的位置</b>。德语的变位动词有时在第二位，有时跑到句末；可分动词的前缀会离开动词跑到句尾。下一课把这些规则讲完，学完就可以读第一篇童话。</p>\n{{quiz:s1}}\n<h4>小结</h4>\n<ul>\n<li>童话、小说、历史书用过去时讲故事。</li>\n<li>弱变化：词干 + -te（sagte、reichte）；强变化：换元音（kam、gab、sprach）；混合：两样都有（dachte）。</li>\n<li>过去时的 ich 和 er 形式相同；复数加 -en。</li>\n<li>过去完成时：hatte / war + 过去分词，表示「在那之前已经……」。</li>\n</ul>",
   "quiz": [
    {
     "id": "pa1",
@@ -479,6 +479,200 @@
     ],
     "ans": 0,
     "why": "1857 年的拼写 that = 今天的 tat，tun 的过去时。abtun：摘下。"
+   }
+  ]
+ },
+ {
+  "id": "satz",
+  "t": "句子的骨架：动词放在哪里",
+  "de": "Der Satzbau",
+  "min": 120,
+  "html": "<p>中文的动词总在主语后面：「女孩脱下了衬衫」。德语的动词却会「跑」：有时在第二位，有时在句末，有时一半在前、一半在后。这是初学者读不懂德语句子最常见的原因，也是这一课要解决的问题。规则其实只有三条，学会了，任何长句都拆得开。这一课的例句全部来自《星星金币》，学完就去读它。</p>\n\n<h4>一、规则一：主句里，变位动词在第二位</h4>\n<p>「变位动词」就是随主语变词尾的那个动词（war、gab、kann、hatte）。在一个普通的陈述句（主句）里，它<b>永远占第二个位置</b>。第一个位置可以放任何东西：主语、时间、地点、宾语，甚至一整个从句。放在第一位的东西被强调，主语如果不在第一位，就紧跟在动词后面。</p>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>第一位</th><th>第二位（变位动词）</th><th>其余</th></tr></thead><tbody>\n<tr><td>Es</td><td>war</td><td>aber gut und fromm.</td></tr>\n<tr><td>Da</td><td>begegnete</td><td>ihm ein armer Mann …</td></tr>\n<tr><td>Endlich</td><td>gelangte</td><td>es in einen Wald …</td></tr>\n<tr><td>das（那件）</td><td>gab</td><td>es auch von sich hin.</td></tr>\n</tbody></table></div>\n[[Da begegnete ihm ein{nm} armer Mann]]\n<p>Da（这时）占了第一位，动词 begegnete 第二，主语 ein armer Mann 只好排到后面。读的时候不要被语序骗：<b>主语要靠格来找</b>（主格的那个），不是靠位置。</p>\n<div class=\"tip\">不占位置的小词：<b>und、aber、oder、denn、sondern</b>。它们只是把两句话接起来，后面的句子照样从第一位算起：<i>Und</i> | <i>Es</i> | <i>war</i>…… 所以 [[Es{kind} war aber gut und fromm.]] 里的 aber 也不占位置，它可以插在句中。</div>\n\n<h4>二、规则二：句框，动词的其余部分放到句末</h4>\n<p>如果一个动作由两部分组成，变位的那部分在第二位，另一部分跑到<b>句末</b>，两者像一个框把句子夹在中间。德语语法把它叫做「句框」（Satzklammer）。四种情况：</p>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>类型</th><th>第二位</th><th>句末</th><th>读本里的例子</th></tr></thead><tbody>\n<tr><td>可分动词</td><td>动词本体</td><td>前缀</td><td>[[Da that es{kind} seine{af} Mütze ab]]（abtun：摘下）</td></tr>\n<tr><td>情态动词</td><td>情态动词</td><td>不定式</td><td>[[du kannst wohl dein{an} Hemd weg geben]]</td></tr>\n<tr><td>完成时 / 过去完成时</td><td>haben / sein</td><td>过去分词</td><td>[[es{expl} war schon dunkel geworden]]</td></tr>\n<tr><td>被动态、将来时（以后学）</td><td>werden</td><td>分词 / 不定式</td><td>—</td></tr>\n</tbody></table></div>\n<p><b>可分动词</b>是德语的特色：很多动词由「前缀 + 动词」组成，比如 ab + tun = abtun（摘下），hin + geben = hingeben（交出去），an + haben = anhaben（穿着）。在字典里它们写在一起；在主句里，前缀被甩到句末：</p>\n[[und zog das{an} Hemd ab und gab es{it} auch noch hin]]\n<p>zog … ab（abziehen：脱下），gab … hin（hingeben：送出去）。<b>读到句末才知道动词的完整意思</b>：zog 本身是「拉」，加上句末的 ab 才是「脱下」。这是读德语要养成的第一个习惯：<b>看到第二位的动词，先别急着下结论，往句末看一眼有没有前缀</b>。</p>\n[[kam wieder ein{nn} Kind und hatte kein{an} Leibchen an]]\n<p>hatte … an（anhaben：穿着）：hatte 单独是「有」，加上句末的 an，是「穿着」。</p>\n\n<h4>三、规则三：从句里，变位动词在末尾</h4>\n<p>「从句」是由连词（daß、weil、wenn……）或关系代词（der、die、das……）引导的一段话，它不能单独成句，是主句的一部分。在从句里，<b>变位动词放在最后</b>：</p>\n[[Und weil es{kind} so von aller{df} Welt verlassen war]]\n<p>weil（因为）引导从句，变位动词 war 放在末尾。中文语序是「因为她被全世界抛弃了」，德语是「因为她 被全世界 抛弃 了」。</p>\n<p>常见的从句连词（这些词一出现，就知道变位动词在后面等着）：</p>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>连词</th><th>意思</th><th>读本里</th></tr></thead><tbody>\n<tr><td>daß（dass）</td><td>……这件事；以至于</td><td>[[so arm, daß es{kind} kein{an} Kämmerchen mehr hatte]]</td></tr>\n<tr><td>weil</td><td>因为</td><td>见上</td></tr>\n<tr><td>als</td><td>当……时（过去一次性的事）</td><td>[[als es{kind} noch eine{af} Weile gegangen war]]</td></tr>\n<tr><td>wie</td><td>当……时；如何</td><td>[[wie es{kind} so stand und gar nichts mehr hatte]]</td></tr>\n<tr><td>ob … gleich</td><td>虽然</td><td>[[ob es{kind} gleich sein{an} Hemdlein weg gegeben]]</td></tr>\n<tr><td>wenn</td><td>如果；每当</td><td>（下一篇《甜粥》）</td></tr>\n</tbody></table></div>\n<p><b>关系从句</b>也一样，变位动词在末尾：</p>\n[[ein{an} Stückchen Brot in der{df} Hand, das{rel:an} ihm ein{nn} mitleidiges Herz geschenkt hatte]]\n<p>das（那块面包）开头，hatte 在最后。从句里有句框时，变位动词排在所有动词的最后：geschenkt hatte。</p>\n[[womit ich ihn bedecken kann]]\n<p>同样：情态动词 kann 在最后，不定式 bedecken 在它前面。</p>\n<div class=\"tip\">格林童话的口语风格里，有时关系从句用主句语序：[[ein{nm} armer Mann, der{rel:nm} sprach]]（正规写法是 der … sprach，动词在末尾）。康德和韦伯从不这样写，他们的从句动词一定在最后。</div>\n\n<h4>四、从句放在句首：主句的动词紧跟其后</h4>\n<p>从句可以放在主句前面。这时整个从句占了「第一位」，所以主句一开头就是变位动词：</p>\n[[Und weil es{kind} so von aller{df} Welt verlassen war, gieng es{kind} im Vertrauen auf den{am} lieben Gott hinaus ins Feld.]]\n<p>从句 weil … war 是第一位，gieng 是第二位，主语 es 在第三位。<b>「动词 , 动词」</b>挨在一起（war, gieng），是从句在前的标志：前一个是从句的末尾，后一个是主句的开头。</p>\n[[Und wie es{kind} so stand und gar nichts mehr hatte, fielen auf einmal die{np} Sterne vom Himmel]]\n<p>hatte, fielen：从句结束，主句开始。</p>\n\n<h4>五、zu + 不定式：「可以……的」「去……」</h4>\n<p>不定式前面加 zu，常常跟在名词或 etwas、nichts 后面，表示「可以用来……的」：</p>\n<ul>\n<li>[[gib mir etwas zu essen]]：给我点可以吃的（东西）。</li>\n<li>[[kein{an} Kämmerchen mehr … darin zu wohnen]]：没有可以住在里面的小屋了。</li>\n</ul>\n<p>zu-不定式还有很多用法（第 20 课），现在认得 etwas zu essen 这种结构就够了。</p>\n\n<h4>六、拆句四步法</h4>\n<p>遇到读不懂的长句，按这个顺序拆：</p>\n<ol class=\"steps\">\n<li><b>找变位动词</b>：先找主句第二位的动词。如果句子一开头是从句，找「动词 , 动词」的地方。</li>\n<li><b>看句末</b>：有没有可分动词的前缀、不定式、过去分词？把它和第二位的动词合起来，才是完整的谓语。</li>\n<li><b>圈出从句</b>：连词或关系代词开头，到它的变位动词结束。先把从句当成一块，读完主干再回来读它。</li>\n<li><b>按格找角色</b>：谁是主格（主语），谁是宾格（宾语），谁是与格（给谁）。</li>\n</ol>\n<p>读本里每一句的第一条注释「拆解」，就是按这四步写的。读的时候先自己拆，再打开注释对答案。</p>\n\n<h4>七、马上练</h4>\n{{quiz:s1}}\n\n<h4>八、小结</h4>\n<ul>\n<li>主句：变位动词在第二位；第一位放什么都可以；und、aber 不占位。</li>\n<li>句框：可分动词的前缀、情态动词后的不定式、完成时的分词，都在句末。读到句末再下结论。</li>\n<li>从句：连词或关系代词开头，变位动词在末尾。</li>\n<li>从句在前时，主句从动词开始：「动词 , 动词」是分界线。</li>\n<li>etwas / nichts / 名词 + zu + 不定式：可以……的。</li>\n</ul>\n\n<h4>九、读一读</h4>\n<p>现在《星星金币》里的每一种句子你都学过了。读的时候：</p>\n<ol class=\"steps\">\n<li>每句先自己用四步法拆，再打开「语法」看第一条「拆解」对答案。</li>\n<li>找出这句的过去时动词，说出原形。</li>\n<li>找出 es，确认它指的是女孩还是别的东西。</li>\n<li>读完后点「听全文」，不看译文听一遍；再去做读后练习，检查自己读懂了多少。</li>\n</ol>\n<p><button class=\"btn\" data-route=\"grimm~ch-k153\">读一读：《星星金币》</button> <button class=\"btn\" data-route=\"grimm~intro-1\">读后练习</button></p>",
+  "quiz": [
+   {
+    "id": "sz1",
+    "sec": "s1",
+    "de": "Endlich <<gelangte>> es in einen Wald",
+    "opts": [
+     "变位动词在第二位，主语 es 在它后面",
+     "变位动词在第一位"
+    ],
+    "ans": 0,
+    "why": "Endlich 占第一位，变位动词 gelangte 第二，主语 es 排在后面。"
+   },
+   {
+    "id": "sz2",
+    "sec": "s1",
+    "de": "und <<zog>> das Hemd <<ab>>",
+    "opts": [
+     "zog … ab = abziehen：脱下",
+     "zog = ziehen：拉"
+    ],
+    "ans": 0,
+    "why": "可分动词 abziehen 在主句里拆开：zog 在第二位，前缀 ab 在句末。合起来是「脱下」。"
+   },
+   {
+    "id": "sz3",
+    "sec": "s1",
+    "de": "hatte kein Leibchen <<an>>",
+    "opts": [
+     "hatte … an = anhaben：穿着",
+     "hatte = haben：有"
+    ],
+    "ans": 0,
+    "why": "句末的 an 是可分动词 anhaben 的前缀：没有穿小背心。"
+   },
+   {
+    "id": "sz4",
+    "sec": "s1",
+    "de": "Und weil es so von aller Welt verlassen <<war>>",
+    "opts": [
+     "weil 引导从句，变位动词在末尾",
+     "war 在第二位"
+    ],
+    "ans": 0,
+    "why": "weil 是从句连词，从句的变位动词 war 放在末尾。"
+   },
+   {
+    "id": "sz5",
+    "sec": "s1",
+    "de": "…verlassen war, <<gieng>> es im Vertrauen auf den lieben Gott hinaus ins Feld",
+    "opts": [
+     "从句在前，主句从动词开始",
+     "gieng 是从句的一部分"
+    ],
+    "ans": 0,
+    "why": "从句 weil … war 占了第一位，主句的变位动词 gieng 紧跟在后面，主语 es 在第三位。"
+   },
+   {
+    "id": "sz6",
+    "sec": "s1",
+    "de": "das ihm ein mitleidiges Herz geschenkt <<hatte>>",
+    "opts": [
+     "关系从句，变位动词 hatte 在最后",
+     "主句"
+    ],
+    "ans": 0,
+    "why": "das 是关系代词，引导关系从句，变位动词 hatte 放在最后，前面是分词 geschenkt。"
+   },
+   {
+    "id": "sz7",
+    "sec": "s1",
+    "de": "du kannst wohl dein Hemd weg <<geben>>",
+    "opts": [
+     "情态动词 kannst 在第二位，不定式在句末",
+     "geben 是变位动词"
+    ],
+    "ans": 0,
+    "why": "情态动词 kannst 变位，在第二位；不定式 weg geben 放到句末，形成句框。"
+   },
+   {
+    "id": "sz8",
+    "sec": "s1",
+    "de": "gib mir etwas zu <<essen>>",
+    "opts": [
+     "etwas zu essen：可以吃的东西",
+     "zu 是介词「到」"
+    ],
+    "ans": 0,
+    "why": "etwas + zu + 不定式：可以……的东西。给我点吃的。"
+   }
+  ]
+ },
+ {
+  "id": "prep",
+  "t": "介词：每个介词都决定格",
+  "de": "Die Präpositionen",
+  "min": 100,
+  "html": "<p>介词（in、mit、von、auf……）是德语里最常见的一类词。对读者来说，它们有一个大用处：<b>每个介词都规定了后面名词的格</b>。所以看到介词，就知道后面冠词是哪个格，第 3 课讲的「反推」就有了最可靠的线索。这一课把介词按要求的格分成四组。</p>\n\n<h4>一、要求与格的介词</h4>\n<p>这一组最常用，一共九个，德国学生用一串顺口溜来记：<b>aus, bei, mit, nach, seit, von, zu</b>，再加上 gegenüber、außer。</p>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>介词</th><th>主要意思</th><th>读本里</th></tr></thead><tbody>\n<tr><td>aus</td><td>从……里面出来</td><td><i>aus dem Haus</i>（从屋里）</td></tr>\n<tr><td>bei</td><td>在……那里</td><td><i>bei der Mutter</i>（在母亲身边）</td></tr>\n<tr><td>mit</td><td>和；用</td><td>[[mit seiner{df} Mutter]]</td></tr>\n<tr><td>nach</td><td>往（地名）；在……之后；按照</td><td><i>nach Hause</i>（回家）</td></tr>\n<tr><td>seit</td><td>自从</td><td><i>seit dem Aristoteles</i>（康德）</td></tr>\n<tr><td>von</td><td>从；被；……的</td><td>[[von aller{df} Welt verlassen]]</td></tr>\n<tr><td>zu</td><td>到（某人那里）；为了</td><td>[[zu dem{rel:dn} sollt es{kind} sagen]]</td></tr>\n</tbody></table></div>\n\n<h4>二、要求宾格的介词</h4>\n<p>也有一串口诀：<b>durch, für, gegen, ohne, um</b>（再加上书面语的 wider、bis）。</p>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>介词</th><th>主要意思</th><th>例子</th></tr></thead><tbody>\n<tr><td>durch</td><td>穿过；通过</td><td><i>durch den Wald</i>（穿过森林）</td></tr>\n<tr><td>für</td><td>为了；对于</td><td>[[für sein{an} Lebtag]]（一辈子）</td></tr>\n<tr><td>gegen</td><td>反对；朝着</td><td><i>gegen den Wind</i>（逆风）</td></tr>\n<tr><td>ohne</td><td>没有</td><td><i>ohne ihre Schuld</i>（不是由于它的过错，康德）</td></tr>\n<tr><td>um</td><td>围绕；（请求）某物</td><td>[[da bat eins um ein{an} Röcklein]]</td></tr>\n</tbody></table></div>\n\n<h4>三、两可介词：在哪里用与格，去哪里用宾格</h4>\n<p>九个表示空间关系的介词：<b>an（在……旁）、auf（在……上）、hinter（后）、in（里）、neben（旁边）、über（上方）、unter（下）、vor（前）、zwischen（之间）</b>。规则是：</p>\n<ul>\n<li>回答「在哪里？」（wo?），表示<b>位置</b> → 与格。</li>\n<li>回答「去哪里？」（wohin?），表示<b>方向、移动的目标</b> → 宾格。</li>\n</ul>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th></th><th>位置（与格）</th><th>方向（宾格）</th></tr></thead><tbody>\n<tr><th>in</th><td>[[in der{df} Hand]]（在手里）</td><td>[[in einen{am} Wald]]（进入森林）· [[in die{af} Stadt]]（进城）</td></tr>\n<tr><th>auf</th><td>[[auf dem{dm} Leib]]（在身上）</td><td>（下面讲抽象用法）</td></tr>\n<tr><th>an</th><td>[[an meinem{dm} Kopfe]]（在我头上）</td><td>—</td></tr>\n<tr><th>über</th><td>—</td><td>[[über den{am} Rand hinaus]]（漫过锅沿）</td></tr>\n</tbody></table></div>\n<p>同一个介词，后面冠词不同，意思就不同。这正是读者的好帮手：看见 <i>in die</i>，就知道是「进入」；看见 <i>in der</i>，就知道是「在里面」。</p>\n<div class=\"tip\">两可介词用在<b>抽象意思</b>里（不是真的空间）时，auf 和 über 多数要宾格：[[im Vertrauen auf den{am} lieben Gott]]（信赖亲爱的上帝）、<i>Hoffnung auf jenseitigen Lohn</i>（对来世报偿的希望，韦伯）。这些固定搭配最好整块记：auf etw. hoffen、auf etw. vertrauen。</div>\n\n<h4>四、要求属格的介词</h4>\n<p>这一组多是书面语，童话里少，哲学书里多：<b>während</b>（在……期间）、<b>wegen</b>（因为）、<b>trotz</b>（尽管）、<b>statt</b>（代替）、<b>innerhalb</b> / <b>außerhalb</b>（在……之内 / 之外）、<b>kraft</b>（凭借）、<b>anläßlich</b>（借……的机会）。例子：<i>innerhalb eines bestimmten Gebietes</i>（在一定疆域之内，韦伯）、<i>kraft des Glaubens</i>（凭借信念，韦伯）。</p>\n\n<h4>五、介词和冠词缩合</h4>\n<p>介词常和 dem、das、der 合成一个词。看到它们，脑子里要把冠词还原出来，才知道格：</p>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>缩合</th><th>还原</th><th>格</th><th>例子</th></tr></thead><tbody>\n<tr><td>im</td><td>in dem</td><td>与格</td><td>[[im Vertrauen]]</td></tr>\n<tr><td>ins</td><td>in das</td><td>宾格</td><td>[[hinaus ins Feld]]</td></tr>\n<tr><td>vom</td><td>von dem</td><td>与格</td><td>[[vom Himmel]]</td></tr>\n<tr><td>am</td><td>an dem</td><td>与格</td><td><i>am Schlusse</i></td></tr>\n<tr><td>zum · zur</td><td>zu dem · zu der</td><td>与格</td><td><i>zur Sache</i>（言归正传）</td></tr>\n<tr><td>beim · aufs</td><td>bei dem · auf das</td><td>与格 · 宾格</td><td><i>aufs neue</i>（重新）</td></tr>\n</tbody></table></div>\n\n<h4>六、介词 + 它：da- 和 wo-</h4>\n<p>介词后面的「它」如果指一件东西，德语不说 in es、mit es，而是把介词和 da 连起来；问「用什么」「在什么里」时，和 wo 连起来。介词以元音开头时，中间加 r：</p>\n<ul>\n<li>[[darin zu wohnen]]：darin = in dem（在里面），「可以住在里面的」。</li>\n<li>[[womit ich ihn bedecken kann]]：womit = mit dem（用它），「我可以用来盖住它的东西」。</li>\n<li>康德常用的 darauf、daraus、dadurch、davon 都是这一类：<i>daraus folgen</i>（由此得出）。</li>\n</ul>\n<p>第 21 课会专门讲。现在只要会把 da- / wo- 拆成「介词 + 它 / 那个」就够了。</p>\n\n<h4>七、动词和介词的固定搭配</h4>\n<p>很多动词要求特定的介词，意思往往不能按字面猜，要整块记。读本里已经出现的：</p>\n<ul>\n<li>um etw. bitten：请求某物</li>\n<li>in etw. gelangen：到达某处</li>\n<li>an jn glauben：信仰某人（韦伯）</li>\n<li>sich nach etw. richten：依照某物（康德的关键句）</li>\n</ul>\n<p>本站的词卡里，这些搭配都写在用法注释里，比如点开 bat，会看到「um etw. bitten」。</p>\n\n<h4>八、马上练</h4>\n{{quiz:s1}}\n\n<h4>九、小结</h4>\n<ul>\n<li>与格介词：aus、bei、mit、nach、seit、von、zu。</li>\n<li>宾格介词：durch、für、gegen、ohne、um。</li>\n<li>两可介词：an、auf、hinter、in、neben、über、unter、vor、zwischen。在哪里 → 与格，去哪里 → 宾格。</li>\n<li>属格介词：während、wegen、trotz、statt、innerhalb、kraft……</li>\n<li>缩合要还原：im = in dem，ins = in das。</li>\n<li>da- / wo- + 介词 = 介词 + 它 / 那个。</li>\n</ul>\n\n<h4>十、读一读</h4>\n<p>第二篇童话《甜粥》里有很多介词短语，读的时候把每个介词和它后面的名词圈成一块，说出是哪个格。故事里还有一个属格的好例子：ihrer Armuth und ihres Hungers ledig（摆脱了贫穷和饥饿）。</p>\n<p><button class=\"btn\" data-route=\"grimm~ch-k103\">读一读：《甜粥》</button> <button class=\"btn\" data-route=\"grimm~intro-2\">读后练习</button></p>",
+  "quiz": [
+   {
+    "id": "pp1",
+    "sec": "s1",
+    "de": "mit <<seiner>> Mutter",
+    "opts": [
+     "与格：mit 永远要求与格",
+     "宾格"
+    ],
+    "ans": 0,
+    "why": "mit 是与格介词。die Mutter 阴性与格 → seiner。"
+   },
+   {
+    "id": "pp2",
+    "sec": "s1",
+    "de": "da bat eins um <<ein>> Röcklein",
+    "opts": [
+     "宾格：um 要求宾格",
+     "与格"
+    ],
+    "ans": 0,
+    "why": "um 是宾格介词；das Röcklein 中性宾格 → ein。um etw. bitten：请求某物。"
+   },
+   {
+    "id": "pp3",
+    "sec": "s1",
+    "de": "Da gieng das Kind hinaus in <<den>> Wald",
+    "opts": [
+     "宾格：走进森林（方向）",
+     "与格：在森林里（位置）"
+    ],
+    "ans": 0,
+    "why": "in 是两可介词。gieng hinaus in den Wald：走进森林，表示方向，用宾格 den。"
+   },
+   {
+    "id": "pp4",
+    "sec": "s1",
+    "de": "ein Stückchen Brot in <<der>> Hand",
+    "opts": [
+     "与格：在手里（位置）",
+     "宾格"
+    ],
+    "ans": 0,
+    "why": "拿在手里，是位置，用与格。die Hand 阴性与格 → der。"
+   },
+   {
+    "id": "pp5",
+    "sec": "s1",
+    "de": "der Brei steigt über <<den>> Rand hinaus",
+    "opts": [
+     "宾格：漫过锅沿（方向）",
+     "与格"
+    ],
+    "ans": 0,
+    "why": "über 是两可介词。粥越过锅沿，是移动的方向，用宾格 den Rand。"
+   },
+   {
+    "id": "pp6",
+    "sec": "s1",
+    "de": "fielen auf einmal die Sterne <<vom>> Himmel",
+    "opts": [
+     "von dem：与格",
+     "von das：宾格"
+    ],
+    "ans": 0,
+    "why": "vom = von dem。von 永远要求与格。"
+   },
+   {
+    "id": "pp7",
+    "sec": "s1",
+    "de": "hinaus <<ins>> Feld",
+    "opts": [
+     "in das：宾格，方向",
+     "in dem：与格，位置"
+    ],
+    "ans": 0,
+    "why": "ins = in das，宾格：走到田野里去。位置是 im Feld（in dem）。"
+   },
+   {
+    "id": "pp8",
+    "sec": "s1",
+    "de": "<<womit>> ich ihn bedecken kann",
+    "opts": [
+     "= mit dem：用来……的东西",
+     "= wo：在哪里"
+    ],
+    "ans": 0,
+    "why": "wo + mit：用什么、用来……的东西。我可以用来盖住它（头）的东西。"
    }
   ]
  }
