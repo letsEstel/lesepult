@@ -119,6 +119,71 @@
   ]
  },
  {
+  "id": "a1",
+  "ch": "a",
+  "t": "空间和时间：感性的形式",
+  "de": "Die transzendentale Ästhetik",
+  "min": 20,
+  "html": "<p>导言问：纯粹数学是如何可能的？这一章给出回答：因为空间和时间是我们感性的先天形式。这一课把这一章的论证理成一张图。</p>\n<h4>一、几个定义</h4>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>德语</th><th>中文</th><th>意思</th></tr></thead><tbody>\n<tr><td>Anschauung</td><td>直观</td><td>知识与对象的直接关系</td></tr>\n<tr><td>Sinnlichkeit</td><td>感性</td><td>被对象刺激而获得表象的能力（接受性）</td></tr>\n<tr><td>Empfindung</td><td>感觉</td><td>对象作用于我们的结果：颜色、硬度……</td></tr>\n<tr><td>Erscheinung</td><td>现象</td><td>经验直观的（尚未被规定的）对象</td></tr>\n<tr><td>Materie / Form</td><td>质料 / 形式</td><td>现象里对应感觉的部分 / 使杂多能被整理的部分</td></tr>\n</tbody></table></div>\n[[In der Erscheinung nenne ich das, was der Empfindung korrespondiert, die Materie derselben]]\n<p>质料来自外面（后天）；形式来自我们（可以是先天的）。从一个物体的表象里，减去知性想到的（实体、力）和感觉到的（硬度、颜色），剩下的是 Ausdehnung und Gestalt（广延和形状）：这就是纯粹直观。</p>\n<h4>二、空间的四个论证</h4>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th></th><th>论点</th><th>证明了</th></tr></thead><tbody>\n<tr><td>1</td><td>空间不是从外部经验中抽象出来的：要把东西放到「我之外」「彼此并列」，必须先有空间</td><td rowspan=\"2\">空间是<b>先天的</b></td></tr>\n<tr><td>2</td><td>可以设想空间里什么都没有，却不能设想没有空间</td></tr>\n<tr><td>3</td><td>只有一个空间，「许多空间」只是它的部分</td><td rowspan=\"2\">空间是<b>直观</b>，不是概念</td></tr>\n<tr><td>4</td><td>空间被表象为一个无限的、被给予的量</td></tr>\n</tbody></table></div>\n<p>时间的论证完全平行。区别只在：空间是外感官的形式，时间是内感官的形式；而因为一切表象都是心灵的状态，时间是<b>一切</b>现象的形式条件。</p>\n<h4>三、两个词，一个立场</h4>\n<div class=\"tip\"><b>empirische Realität</b>（经验实在性）：对一切可能的经验来说，空间和时间完全真实、客观有效。<br><b>transzendentale Idealität</b>（先验观念性）：撇开我们的感性，把它们当作物自身的性质，它们就什么也不是。<br>两者合起来，就是康德的「先验观念论」：现象是实在的，物自身不可知。</div>\n[[Wir behaupten also die empirische Realität des Raumes]]\n<h4>四、回到数学</h4>\n<p>为什么 7 + 5 = 12 和「两点之间直线最短」是先天综合的？因为它们靠的是直观（数一数、画一画），而这种直观是我们感性先天的形式：数靠时间里的相继，几何靠空间。所以数学对一切可能经验都必然有效，却说不出物自身是什么。</p>\n{{quiz:s1}}",
+  "quiz": [
+   {
+    "id": "a1a",
+    "sec": "s1",
+    "de": "heißt <<Sinnlichkeit>>",
+    "opts": [
+     "接受表象的能力（接受性）",
+     "产生概念的能力"
+    ],
+    "ans": 0,
+    "why": "Sinnlichkeit：被对象刺激而获得表象的能力。产生概念的是知性（Verstand）。"
+   },
+   {
+    "id": "a1b",
+    "sec": "s1",
+    "de": "Der unbestimmte Gegenstand einer empirischen Anschauung heißt <<Erscheinung>>",
+    "opts": [
+     "现象：显现给我们的对象",
+     "假象：错觉"
+    ],
+    "ans": 0,
+    "why": "Erscheinung 是现象，不是假象（Schein）。它是我们唯一能认识的对象。"
+   },
+   {
+    "id": "a1c",
+    "sec": "s1",
+    "de": "Der Raum ist kein empirischer Begriff",
+    "opts": [
+     "空间不是从经验中得来的",
+     "空间不是真实的"
+    ],
+    "ans": 0,
+    "why": "空间是一切外部经验的前提，所以不能从经验中抽象出来。"
+   },
+   {
+    "id": "a1d",
+    "sec": "s1",
+    "de": "Die Zeit ist nichts anderes, als die Form des inneren <<Sinnes>>",
+    "opts": [
+     "内感官的形式",
+     "外感官的形式"
+    ],
+    "ans": 0,
+    "why": "时间是内感官的形式；空间是外感官的形式。"
+   },
+   {
+    "id": "a1e",
+    "sec": "s1",
+    "de": "bleibt uns gänzlich <<unbekannt>>",
+    "opts": [
+     "物自身对我们完全未知",
+     "现象对我们完全未知"
+    ],
+    "ans": 0,
+    "why": "Was es für eine Bewandtnis mit den Gegenständen an sich … haben möge：对象本身怎样，我们完全不知道。"
+   }
+  ]
+ },
+ {
   "id": "p1",
   "ch": "p",
   "t": "岛与海：这一章在全书中的位置",
