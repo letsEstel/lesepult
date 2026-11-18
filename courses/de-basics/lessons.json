@@ -1407,5 +1407,80 @@
     "why": "laufen 是移动动词，用 sein：war … gelaufen（之前一直在跑）。"
    }
   ]
+ },
+ {
+  "id": "werden",
+  "t": "werden 的三种用法",
+  "de": "werden: Vollverb, Futur, Passiv",
+  "min": 80,
+  "html": "<p>第 5 课说过，werden 可能是康德和韦伯书里出现最多的动词。它有三种用法，读的时候必须马上分清：单独用是「变成」，加不定式是「将要」，加过去分词是「被」。分辨的办法只有一个：看句末是什么。这一课把 werden 的全部形式和三种用法讲清楚，再加上它的虚拟式 würde（「会」），这是书面语里最常见的形式之一。</p>\n\n<h4>一、werden 的全部形式</h4>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th></th><th>现在时</th><th>过去时</th><th>虚拟式二</th></tr></thead><tbody>\n<tr><th>ich</th><td>werde</td><td>wurde（旧：ward）</td><td>würde</td></tr>\n<tr><th>du</th><td>wirst</td><td>wurdest</td><td>würdest</td></tr>\n<tr><th>er / sie / es</th><td>wird</td><td>wurde（旧：ward）</td><td>würde</td></tr>\n<tr><th>wir</th><td>werden</td><td>wurden</td><td>würden</td></tr>\n<tr><th>ihr</th><td>werdet</td><td>wurdet</td><td>würdet</td></tr>\n<tr><th>sie / Sie</th><td>werden</td><td>wurden</td><td>würden</td></tr>\n</tbody></table></div>\n<p>过去分词有两个：独立动词用 <b>geworden</b>（变成了），被动态里用 <b>worden</b>（被……了）。完成时用 sein：<i>es ist geworden</i>。</p>\n<div class=\"tip\">1857 年的童话里，单数过去时常用 ward：[[es{it} ward immer größer]]。康德也用 ward。看到 ward，就当 wurde 读。</div>\n\n<h4>二、用法一：werden + 形容词 / 名词 = 变成</h4>\n<p>werden 后面没有不定式、也没有分词，只有形容词或名词，它就是独立动词「变得、成为」：</p>\n<ul>\n<li>[[es{it} ward immer größer]]：它变得越来越大。</li>\n<li>[[die{np} Augen wurden ihm naß]]：他的眼睛湿了。</li>\n<li>[[ich gehe nach Bremen und werde dort Stadtmusikant]]：我要去不来梅当城市乐手。</li>\n<li>[[es{expl} war schon dunkel geworden]]：天已经黑了（过去完成时，geworden）。</li>\n</ul>\n\n<h4>三、用法二：werden + 不定式 = 将来（或推测）</h4>\n<p>werden 在第二位，<b>不定式</b>在句末：将来时。</p>\n<ul>\n<li>[[dann werden wir erfahren was für wunderbare Sachen in dem{dn} Kästchen lagen]]：那时我们就会知道……</li>\n<li>[[der{dem:nm} wird ihr auch Freude machen]]：它会让她高兴的。</li>\n<li>[[der{dem:nm} wird noch besser schmecken als die{nf} Alte]]：它会比老的更好吃。</li>\n</ul>\n<p>德语讲将来的事其实常用现在时（[[ich gehe nach Bremen]]：我要去不来梅）；werden + 不定式反而常常表示<b>推测</b>：[[das{dem:an} wirst du ja wissen]]：这你想必知道。</p>\n<p>加上完成时不定式（分词 + haben / sein），表示「（到那时）将已经……」或「想必已经……」：<i>er wird es gelesen haben</i>：他想必已经读过了。</p>\n\n<h4>四、用法三：werden + 过去分词 = 被动</h4>\n<p>werden 在第二位，<b>过去分词</b>在句末：被动态（第 21 课专讲）。</p>\n<ul>\n<li>[[Es{expl} wird auch erzählt, daß …]]：人们还讲……（字面：还被讲述）。</li>\n<li>康德：<i>durch den Verstand aber werden sie gedacht</i>：它们通过知性被思维。</li>\n</ul>\n<p>被动的完成时用 worden：<i>der von äußeren Erfahrungen abgezogen worden</i>（康德：从外部经验中被抽出来的）。</p>\n\n<h4>五、würde + 不定式 = 会</h4>\n<p>werden 的虚拟式二 würde（有变音）加不定式，是「会、将会」，相当于英语的 would。书面语里极其常见：</p>\n<ul>\n<li>康德：<i>Ein System solcher Begriffe würde Transzendental-Philosophie heißen</i>：这样一些概念的体系可以叫作先验哲学。</li>\n<li>康德：<i>alle die Beschaffenheit … ja selbst Raum und Zeit verschwinden würden</i>：一切性状……甚至空间和时间本身都会消失。</li>\n</ul>\n<p>wurde（过去时）和 würde（虚拟式）只差两个点，意思却完全不同：「变成了 / 被……了」对「会」。第 22 课细讲虚拟式。</p>\n\n<h4>六、反推：看句末</h4>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>werden 的变位形式 + 句末是……</th><th>意思</th><th>例子</th></tr></thead><tbody>\n<tr><td>形容词 / 名词（没有动词）</td><td>变成</td><td>es ward immer größer</td></tr>\n<tr><td>不定式（-en，不带 zu）</td><td>将来 / 推测</td><td>dann werden wir erfahren</td></tr>\n<tr><td>过去分词（ge-…-t / -en）</td><td>被动</td><td>es wird erzählt</td></tr>\n<tr><td>分词 + worden + sein</td><td>被动完成时</td><td>ist gesagt worden</td></tr>\n<tr><td>würde + 不定式</td><td>会（虚拟）</td><td>würde … heißen</td></tr>\n</tbody></table></div>\n<div class=\"tip\">长句里 werden 和句末隔得很远。读到 werden / wird / wurde，先别翻译，往后扫到句末（或从句末），看看是什么，再决定是「变成」「将要」还是「被」。</div>\n\n<h4>七、马上练</h4>\n{{quiz:s1}}\n\n<h4>八、小结</h4>\n<ul>\n<li>形式：werde、wirst、wird；wurde / ward；分词 geworden（变成）/ worden（被动）；虚拟 würde。</li>\n<li>werden + 形容词 / 名词 = 变成。</li>\n<li>werden + 不定式 = 将来时，也常表示推测。</li>\n<li>werden + 过去分词 = 被动。</li>\n<li>würde + 不定式 = 会。</li>\n<li>看句末决定意思。</li>\n</ul>\n\n<h4>九、回头再读</h4>\n<p><button class=\"btn\" data-route=\"grimm~ch-k027\">重读《不来梅的音乐家》</button> <button class=\"btn\" data-route=\"grimm~ch-k026\">重读《小红帽》</button></p>",
+  "quiz": [
+   {
+    "id": "wd1",
+    "sec": "s1",
+    "de": "und es <<ward>> immer größer",
+    "opts": [
+     "独立动词「变成」（ward = wurde）",
+     "被动"
+    ],
+    "ans": 0,
+    "why": "句末是形容词 größer，没有动词：变得越来越大。"
+   },
+   {
+    "id": "wd2",
+    "sec": "s1",
+    "de": "dann <<werden>> wir erfahren",
+    "opts": [
+     "将来时：werden + 不定式",
+     "被动"
+    ],
+    "ans": 0,
+    "why": "句末 erfahren 是不定式：我们将会知道。"
+   },
+   {
+    "id": "wd3",
+    "sec": "s1",
+    "de": "Es <<wird>> auch erzählt",
+    "opts": [
+     "被动：werden + 过去分词",
+     "将来时"
+    ],
+    "ans": 0,
+    "why": "erzählt 是过去分词：被讲述 = 人们讲。"
+   },
+   {
+    "id": "wd4",
+    "sec": "s1",
+    "de": "das <<wirst>> du ja wissen",
+    "opts": [
+     "推测：你想必知道",
+     "变成"
+    ],
+    "ans": 0,
+    "why": "werden + 不定式，这里不是将来，而是推测。"
+   },
+   {
+    "id": "wd5",
+    "sec": "s1",
+    "de": "es war schon dunkel <<geworden>>",
+    "opts": [
+     "werden 的过去分词（独立动词）：天黑了",
+     "被动"
+    ],
+    "ans": 0,
+    "why": "geworden 是独立动词 werden 的分词；被动里用 worden。"
+   },
+   {
+    "id": "wd6",
+    "sec": "s1",
+    "de": "die Augen <<wurden>> ihm naß",
+    "opts": [
+     "过去时：变湿了",
+     "虚拟式：会湿"
+    ],
+    "ans": 0,
+    "why": "wurden 没有变音点，是过去时；后面是形容词 naß。"
+   }
+  ]
  }
 ]
