@@ -1482,5 +1482,91 @@
     "why": "wurden 没有变音点，是过去时；后面是形容词 naß。"
    }
   ]
+ },
+ {
+  "id": "genitiv",
+  "t": "属格",
+  "de": "Der Genitiv",
+  "min": 90,
+  "html": "<p>第 3 课讲四个格时，属格只占了一行：「谁的」。在童话里它确实不多；可一翻开康德，几乎每句都有一串属格：<i>die Kritik der reinen Vernunft</i>（纯粹理性的批判）、<i>die Form aller Erscheinungen äußerer Sinne</i>（外感官一切现象的形式）。读哲学书，属格是最要紧的格之一。这一课讲属格的形式、位置、它能表达的几种意思，以及最容易混淆的 der。</p>\n\n<h4>一、属格的形式</h4>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th></th><th>阳性</th><th>阴性</th><th>中性</th><th>复数</th></tr></thead><tbody>\n<tr><th>定冠词</th><td>des …-(e)s</td><td>der …</td><td>des …-(e)s</td><td>der …</td></tr>\n<tr><th>不定冠词</th><td>eines …-(e)s</td><td>einer …</td><td>eines …-(e)s</td><td>—</td></tr>\n<tr><th>dieser 类</th><td>dieses …-(e)s</td><td>dieser …</td><td>dieses …-(e)s</td><td>dieser …</td></tr>\n<tr><th>物主冠词</th><td>seines …-(e)s</td><td>seiner …</td><td>seines …-(e)s</td><td>seiner …</td></tr>\n</tbody></table></div>\n<ul>\n<li>阳性和中性名词加 -s 或 -es：des Esels、des Weges / des Wegs、des Raumes。</li>\n<li>阴性名词和复数名词不加词尾：der Großmutter、der Katze、aller Erscheinungen。</li>\n<li>少数阳性名词加 -(e)n（「弱变化名词」）：des Menschen、des Herrn、des Bären。</li>\n</ul>\n\n<h4>二、属格放在哪里</h4>\n<p>今天的德语，属格放在名词<b>后面</b>：</p>\n<ul>\n<li>[[nach dem{dn} Haus der{gf} Großmutter]]：往外婆的房子去。</li>\n<li>[[in den{am} Kasten der{gf} Wanduhr]]：进挂钟的箱子。</li>\n<li>[[die{ap} glühenden, feurigen Augen der{gf} Katze]]：猫那双发亮的眼睛。</li>\n</ul>\n<p>旧式的、民间的说法常把属格放在名词<b>前面</b>，这时被修饰的名词不带冠词：</p>\n<ul>\n<li>[[auf des{gm} Esels Rücken]]：= auf den Rücken des Esels（到驴背上）。</li>\n<li>[[unserer{gf} lieben Frauen Tag]]：圣母节（「我们亲爱的女士的日子」）。</li>\n<li>人名今天也这样：Kants Kritik（康德的批判）、Gottes Wille（上帝的意志）。</li>\n</ul>\n<div class=\"tip\">翻译属格，从后往前加「的」：die Form aller Erscheinungen äußerer Sinne → 外感官的 / 一切现象的 / 形式。康德的属格链常有三四层，一层层往前推就行。</div>\n\n<h4>三、属格的几种意思</h4>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>意思</th><th>例子</th></tr></thead><tbody>\n<tr><td>所属：谁的</td><td>[[das{an} Haus der{gf} Großmutter]]</td></tr>\n<tr><td>部分：……中的</td><td><i>einer der Räuber</i>（强盗中的一个）· <i>das beschwerlichste aller Geschäfte</i>（一切工作中最艰难的）</td></tr>\n<tr><td>主体：谁做的</td><td><i>die Kritik der reinen Vernunft</i>：纯粹理性<b>进行的</b>批判（理性审判自己）</td></tr>\n<tr><td>对象：对谁做的</td><td><i>die Kritik der reinen Vernunft</i>：<b>对</b>纯粹理性的批判</td></tr>\n<tr><td>性质</td><td><i>ein Mann großen Mutes</i>：一个很有勇气的人</td></tr>\n</tbody></table></div>\n<p>「纯粹理性批判」这个书名同时有主体和对象两种意思：理性既是审判者，又是被审判者。康德是有意这样用的。</p>\n\n<h4>四、属格表示时间和方式</h4>\n<ul>\n<li>[[Eines{gm} Tages wollte sie{she} in den{am} Wald gehen]]：有一天（不确定的时间）。</li>\n<li>[[gieng gerade fort seines{gm} Wegs]]：径直走自己的路（方式）。</li>\n<li>abends、morgens、nachts 本来就是属格：<i>des Abends</i> → abends（在晚上）。</li>\n</ul>\n\n<h4>五、要求属格的介词</h4>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>介词</th><th>意思</th><th>例子</th></tr></thead><tbody>\n<tr><td>wegen</td><td>因为</td><td><i>wegen des Regens</i>：因为下雨</td></tr>\n<tr><td>während</td><td>在……期间</td><td><i>während des Tages</i></td></tr>\n<tr><td>trotz</td><td>尽管</td><td><i>trotz der Gefahr</i></td></tr>\n<tr><td>statt / anstatt</td><td>代替</td><td><i>statt des Brotes</i></td></tr>\n<tr><td>vermittelst / mittels</td><td>借助</td><td>康德：<i>vermittelst der Sinnlichkeit</i></td></tr>\n<tr><td>jenseit(s)</td><td>在……那边</td><td>康德：<i>jenseit derselben</i></td></tr>\n<tr><td>in Ansehung</td><td>就……而言</td><td>康德：<i>in Ansehung aller möglichen äußeren Erfahrung</i></td></tr>\n<tr><td>um … willen</td><td>为了……的缘故</td><td><i>um Gottes willen</i></td></tr>\n</tbody></table></div>\n\n<h4>六、要求属格的动词和形容词</h4>\n<p>旧德语和书面语里，有些动词和形容词的补足语用属格：</p>\n<ul>\n<li>[[ihrer{gf} Armuth und ihres{gm} Hungers ledig]]：摆脱了贫穷和饥饿（ledig + 属格：摆脱了……）。</li>\n<li>启蒙那篇的名句：<i>sich seines Verstandes bedienen</i>：使用自己的知性（sich einer Sache bedienen：使用）。</li>\n<li>康德：<i>der Notwendigkeit des Urteils bewußt werden</i>：意识到判断的必然性（sich einer Sache bewußt sein：意识到）。</li>\n<li>bedürfen（需要）、gedenken（纪念）、sich schämen（羞愧）、würdig（配得上）也可以带属格。</li>\n</ul>\n\n<h4>七、der 是哪个格？</h4>\n<p>der 有四种可能：阳性主格、阴性与格、阴性属格、复数属格。分辨方法：</p>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>情况</th><th>der 是</th><th>例子</th></tr></thead><tbody>\n<tr><td>der + 阳性名词</td><td>阳性主格</td><td>[[der{nm} Wolf]]</td></tr>\n<tr><td>介词 + der + 阴性名词</td><td>阴性与格</td><td>[[auf der{df} Erde]]</td></tr>\n<tr><td>名词 + der + 阴性名词</td><td>阴性属格</td><td>[[Haus der{gf} Großmutter]]</td></tr>\n<tr><td>名词 + der + 复数名词</td><td>复数属格</td><td><i>die Form der Erscheinungen</i></td></tr>\n<tr><td>动词 + der + 阴性名词（无介词）</td><td>阴性与格（间接宾语）</td><td>[[bring das{dem:an} der{df} Großmutter hinaus]]</td></tr>\n</tbody></table></div>\n<div class=\"tip\">最常用的判断：der 前面是不是另一个名词？是，而且 der 后面是阴性或复数名词，就是属格「……的」。前面是介词，就是与格。</div>\n\n<h4>八、口语里的替代</h4>\n<p>口语常用 von + 与格代替属格：<i>das Haus von der Großmutter</i>。方言里还有「与格 + 物主冠词」：[[in dem{dm} Wolf seinem{dm} Leib]]（= im Leib des Wolfes）。书面语和康德只用属格。</p>\n\n<h4>九、马上练</h4>\n{{quiz:s1}}\n\n<h4>十、小结</h4>\n<ul>\n<li>属格：des / eines …-(e)s（阳、中），der / einer …（阴），der …（复数）。</li>\n<li>位置：一般在名词后；旧式和人名在名词前（des Esels Rücken、Kants Kritik）。</li>\n<li>意思：所属、部分、主体、对象；还可表示时间、方式（eines Tages、seines Wegs）。</li>\n<li>属格介词：wegen、während、trotz、statt、vermittelst、in Ansehung……</li>\n<li>属格动词 / 形容词：sich bedienen、bewußt、ledig……</li>\n<li>der 前面是名词、后面是阴性 / 复数名词 → 属格。</li>\n</ul>\n\n<h4>十一、读一读</h4>\n<p>《狼和七只小山羊》约 1000 词，分六部分。注意小山羊称呼妈妈用敬称 Ihr，妈妈对它们用 ihr。</p>\n<p><button class=\"btn\" data-route=\"grimm~ch-k005\">读一读：《狼和七只小山羊》</button> <button class=\"btn\" data-route=\"grimm~intro-8\">读后练习</button></p>",
+  "quiz": [
+   {
+    "id": "gn1",
+    "sec": "s1",
+    "de": "nach dem Haus <<der>> Großmutter",
+    "opts": [
+     "阴性属格：外婆的（房子）",
+     "阴性与格"
+    ],
+    "ans": 0,
+    "why": "der 前面是名词 Haus，后面是阴性名词：属格。"
+   },
+   {
+    "id": "gn2",
+    "sec": "s1",
+    "de": "auf <<des>> Esels Rücken",
+    "opts": [
+     "阳性属格，放在名词前：驴的背",
+     "阳性主格"
+    ],
+    "ans": 0,
+    "why": "des Esels 是属格（-s），放在 Rücken 前面：旧式说法。"
+   },
+   {
+    "id": "gn3",
+    "sec": "s1",
+    "de": "<<Eines>> Tages wollte sie in den Wald gehen",
+    "opts": [
+     "属格表示不确定的时间：有一天",
+     "主格"
+    ],
+    "ans": 0,
+    "why": "eines Tages：有一天。"
+   },
+   {
+    "id": "gn4",
+    "sec": "s1",
+    "de": "in den Kasten <<der>> Wanduhr",
+    "opts": [
+     "阴性属格：挂钟的（箱子）",
+     "阴性与格"
+    ],
+    "ans": 0,
+    "why": "der 前面是名词 Kasten：属格。in 要求的是 den Kasten（宾格）。"
+   },
+   {
+    "id": "gn5",
+    "sec": "s1",
+    "de": "bring das <<der>> Großmutter hinaus",
+    "opts": [
+     "阴性与格：给外婆",
+     "阴性属格"
+    ],
+    "ans": 0,
+    "why": "der 前面是 das（指示代词，宾语），不是修饰它的名词；der Großmutter 是「给谁」：与格。"
+   },
+   {
+    "id": "gn6",
+    "sec": "s1",
+    "de": "ihrer Armuth und ihres Hungers <<ledig>>",
+    "opts": [
+     "ledig + 属格：摆脱了……",
+     "ledig + 与格"
+    ],
+    "ans": 0,
+    "why": "ihrer Armuth（阴性属格）、ihres Hungers（阳性属格，-s）：摆脱了贫穷和饥饿。"
+   },
+   {
+    "id": "gn7",
+    "sec": "s1",
+    "de": "gieng gerade fort <<seines>> Wegs",
+    "opts": [
+     "属格表示方式：走自己的路",
+     "与格"
+    ],
+    "ans": 0,
+    "why": "seines Wegs gehen：走自己的路。Weg + s。"
+   }
+  ]
  }
 ]

@@ -761,5 +761,103 @@
     "why": "hatte + gesetzt = 过去完成时。"
    }
   ]
+ },
+ {
+  "id": "r005",
+  "ch": "k005",
+  "t": "读后练习：《狼和七只小山羊》",
+  "de": "Der Wolf und die sieben jungen Geislein",
+  "min": 20,
+  "html": "<p>先回答内容题，再做语法题，复习第 18 课的属格和前面的内容。</p>\n<h4>一、读懂了吗</h4>\n{{quiz:s1}}\n<h4>二、语法回顾</h4>\n{{quiz:s2}}\n<h4>三、三次敲门</h4>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>第几次</th><th>小山羊发现了什么</th><th>狼怎么办</th></tr></thead><tbody>\n<tr><td>一</td><td>an der rauhen Stimme（粗嗓子）</td><td>吃白垩，把嗓子弄细</td></tr>\n<tr><td>二</td><td>seine schwarze Pfote（黑爪子）</td><td>让面包师抹面团、磨坊主撒面粉</td></tr>\n<tr><td>三</td><td>die Pfote war weiß（爪子是白的）</td><td>小山羊开了门</td></tr>\n</tbody></table></div>\n<h4>四、想一想</h4>\n<p>磨坊主明知狼要骗人，却因为害怕而帮了它。讲故事的人插了一句：Ja, das sind die Menschen.（是啊，人就是这样。）童话里难得出现这样的评论。</p>\n<p><button class=\"btn\" data-route=\"grimm~ch-k005\">回到原文</button></p>",
+  "quiz": [
+   {
+    "id": "q005a",
+    "sec": "s1",
+    "de": "an seiner rauhen Stimme und an seinen schwarzen Füßen werdet ihr ihn gleich erkennen",
+    "opts": [
+     "凭粗嗓子和黑脚就能认出狼",
+     "狼的声音很好听"
+    ],
+    "ans": 0,
+    "why": "妈妈出门前提醒孩子们：狼的特征是粗嗓子和黑脚。"
+   },
+   {
+    "id": "q005b",
+    "sec": "s1",
+    "de": "und kaufte sich ein großes Stück Kreide: die aß er und machte damit seine Stimme fein",
+    "opts": [
+     "狼吃白垩，把嗓子变细",
+     "狼用白垩把爪子涂白"
+    ],
+    "ans": 0,
+    "why": "Kreide 是让声音变细的；爪子是靠面团和面粉弄白的。"
+   },
+   {
+    "id": "q005c",
+    "sec": "s1",
+    "de": "Da fürchtete sich der Müller und machte ihm die Pfote weiß",
+    "opts": [
+     "磨坊主害怕了，帮狼把爪子弄白",
+     "磨坊主拒绝了狼"
+    ],
+    "ans": 0,
+    "why": "他先拒绝，狼威胁要吃他，他就害怕照办了。"
+   },
+   {
+    "id": "q005d",
+    "sec": "s1",
+    "de": "nur das jüngste in dem Uhrkasten das fand er nicht",
+    "opts": [
+     "最小的小山羊躲在钟箱里，没被找到",
+     "狼没找到妈妈"
+    ],
+    "ans": 0,
+    "why": "七只里有六只被吞，最小的躲在挂钟箱里。"
+   },
+   {
+    "id": "q005e",
+    "sec": "s1",
+    "de": "so lange es noch im Schlafe liegt",
+    "opts": [
+     "趁狼还在睡觉",
+     "趁孩子们还在睡觉"
+    ],
+    "ans": 0,
+    "why": "es 指 das gottlose Thier（狼）。"
+   },
+   {
+    "id": "q005f",
+    "sec": "s2",
+    "de": "in den Kasten <<der>> Wanduhr",
+    "opts": [
+     "阴性属格",
+     "阴性与格"
+    ],
+    "ans": 0,
+    "why": "der 前面是名词 Kasten，后面是阴性名词：挂钟的箱子。"
+   },
+   {
+    "id": "q005g",
+    "sec": "s2",
+    "de": "<<Ihr>> könnt ohne Sorge fortgehen",
+    "opts": [
+     "敬称：您（孩子对妈妈）",
+     "她的"
+    ],
+    "ans": 0,
+    "why": "大写的 Ihr，动词 könnt（ihr 形式）：旧时晚辈对长辈的敬称。"
+   },
+   {
+    "id": "q005h",
+    "sec": "s2",
+    "de": "daß der Wolf gekommen <<wäre>>",
+    "opts": [
+     "虚拟式，转述小山羊的话",
+     "过去时"
+    ],
+    "ans": 0,
+    "why": "wäre：sein 的虚拟式二；gekommen wäre = 来过了（转述）。"
+   }
+  ]
  }
 ]

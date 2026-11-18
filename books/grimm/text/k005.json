@@ -1,0 +1,453 @@
+[
+ {
+  "h": "一 · 母山羊出门",
+  "t": "Die alte Geis",
+  "k": "1",
+  "sum": "读前：学完阅读课第 1–18 课（第 18 课是属格）。\n《狼和七只小山羊》是格林童话第 5 篇，约 1000 词，分六部分。和《小红帽》一样，狼吞了人（这里是小山羊），又被剖开肚子、填上石头；但这一篇的结构是三次敲门：粗嗓子、黑爪子、白爪子。语言上，小山羊们对妈妈说话用敬称 Ihr / Euch（大写），妈妈对它们说 ihr（你们）。属格不多，却很典型：in den Kasten der Wanduhr（钟的箱子）、eines Tages（有一天）。",
+  "s": [
+   {
+    "de": "Es{expl} war einmal eine{nf} alte Geis, die{rel:nf} hatte sieben junge Geislein, und hatte sie{them} lieb, wie eine{nf} Mutter ihre{ap} Kinder lieb hat.",
+    "zh": "从前有一只老山羊，她有七只小山羊，她爱它们，就像一位母亲爱她的孩子们那样。",
+    "n": [
+     "拆解：① Es war einmal eine alte Geis（从前有一只老山羊）。② die hatte sieben junge Geislein（她有七只小山羊）：古老语序的关系从句（第 13 课）。③ und hatte sie lieb（并且爱它们）。④ wie eine Mutter ihre Kinder lieb hat（就像母亲爱孩子那样）。",
+     "die Geis：母山羊（南德方言，= Geiß / Ziege）。das Geislein：小山羊（-lein，中性）。sieben junge Geislein：复数宾格，没有冠词，形容词 -e。",
+     "jn lieb haben：爱某人。sie = die Geislein（宾格复数）。wie：像……一样（第 12 课）。"
+    ]
+   },
+   {
+    "de": "Eines{gm} Tages wollte sie{she} in den{am} Wald gehen und Futter holen, da rief sie{she} alle{ap} sieben herbei und sprach „liebe Kinder, ich will hinaus in den{am} Wald, seid auf eurer{df} Hut vor dem{dm} Wolf, wenn er herein kommt, so frißt er Euch alle{ap} mit Haut und Haar.",
+    "zh": "有一天，她要到森林里去找吃的，就把七个孩子都叫过来，说：「亲爱的孩子们，我要到林子里去，你们要提防狼；要是它进来，会把你们连皮带毛全吃掉。",
+    "n": [
+     "拆解：① Eines Tages wollte sie in den Wald gehen und Futter holen（有一天她要去林子里找食）。② da rief sie alle sieben herbei（她把七个都叫来）und sprach（说）。③ 引号里：ich will hinaus in den Wald（我要去林子里）；seid auf eurer Hut vor dem Wolf（提防狼）；wenn er herein kommt, so frißt er Euch alle mit Haut und Haar（它要是进来，就把你们全部连皮带毛吃掉）。",
+     "eines Tages：有一天。属格表示不确定的时间（第 18 课）：eines 和 Tages 都是阳性属格。",
+     "herbeirufen：叫过来（herbei 在句末）。alle sieben：七个全部。",
+     "ich will hinaus：我要出去（省掉了 gehen，第 10 课）。",
+     "seid：sein 的命令式（对 ihr）。auf der Hut sein vor …：提防……（eurer：你们的，阴性与格）。",
+     "frißt：fressen 的 er 形式（e → i；今天写 frisst）。Euch：你们（大写是旧式的尊重写法）。mit Haut und Haar：连皮带毛，彻底。"
+    ]
+   },
+   {
+    "de": "Der{nm} Bösewicht verstellt sich{refl} oft, aber an seiner{df} rauhen Stimme und an seinen{dp} schwarzen Füßen werdet ihr{you} ihn gleich erkennen.“",
+    "zh": "这个坏蛋常常乔装打扮，可是你们一听它粗哑的嗓子、一看它黑黑的脚，就能认出它来。」",
+    "n": [
+     "拆解：① Der Bösewicht verstellt sich oft（坏蛋常常伪装）。② aber an seiner rauhen Stimme und an seinen schwarzen Füßen werdet ihr ihn gleich erkennen（但你们会凭它粗哑的声音和黑脚马上认出它）。",
+     "der Bösewicht：坏蛋。sich verstellen：伪装（反身）。",
+     "jn an etw. erkennen：凭某特征认出某人。an seiner rauhen Stimme：与格。rauh = rau（粗哑的）。der Fuß → die Füße，复数与格 Füßen。",
+     "werdet … erkennen：werden + 不定式 = 将来时（第 17 课）。ihr：你们（主语）。"
+    ]
+   },
+   {
+    "de": "Die{np} Geislein sagten, „liebe Mutter, wir wollen uns schon in Acht nehmen, Ihr{you} könnt ohne Sorge fortgehen.“",
+    "zh": "小山羊们说：「亲爱的妈妈，我们会小心的，您放心去吧。」",
+    "n": [
+     "拆解：Die Geislein sagten（小山羊们说）+ 引号：wir wollen uns schon in Acht nehmen（我们一定小心）, Ihr könnt ohne Sorge fortgehen（您可以放心走）。",
+     "sich in Acht nehmen：小心（反身）。wollen：表示保证。",
+     "Ihr könnt：您可以。孩子们用 Ihr（大写的「你们」）称呼母亲，这是旧时晚辈对长辈的敬称。könnt：können 的 ihr 形式。ohne Sorge：不用担心。"
+    ]
+   },
+   {
+    "de": "Da meckerte die{nf} Alte und machte sich{refl} getrost auf den{am} Weg.",
+    "zh": "老山羊咩咩叫了一声，放心地上路了。",
+    "n": [
+     "拆解：Da meckerte die Alte（老山羊咩咩叫）+ und machte sich getrost auf den Weg（放心地上路）。",
+     "meckern：（山羊）咩咩叫。die Alte：老的那个（形容词名词化）。getrost：放心地。sich auf den Weg machen：上路。"
+    ]
+   }
+  ]
+ },
+ {
+  "h": "二 · 狼来敲门",
+  "t": "Es klopfte an die Hausthür",
+  "k": "2",
+  "s": [
+   {
+    "de": "Es{expl} dauerte nicht lange, so klopfte jemand an die{af} Hausthür und rief „macht auf, ihr{you} lieben Kinder, eure{nf} Mutter ist da und hat jedem{dn} von Euch etwas mitgebracht.“",
+    "zh": "没过多久，有人敲门，喊道：「开门呀，亲爱的孩子们，妈妈回来了，给你们每个都带了东西。」",
+    "n": [
+     "拆解：① Es dauerte nicht lange（没过多久）。② so klopfte jemand an die Hausthür und rief（有人敲门喊道）。③ 引号：macht auf, ihr lieben Kinder（开门，亲爱的孩子们）；eure Mutter ist da（你们的妈妈回来了）；und hat jedem von Euch etwas mitgebracht（给你们每个都带了东西）。",
+     "jemand：某人。die Hausthür：大门（Haus + Tür）。",
+     "macht auf：aufmachen 的命令式（对 ihr）。ihr lieben Kinder：称呼，ihr 后面形容词用 -en。",
+     "hat … mitgebracht：完成时（第 16 课）。jedem von Euch：给你们每一个（与格）。"
+    ]
+   },
+   {
+    "de": "Aber die{np} Geiserchen hörten an der{df} rauhen Stimme daß es{expl} der{nm} Wolf war, „wir machen nicht auf,“ riefen sie{they}, „du bist unsere{nf} Mutter nicht, die{dem:nf} hat eine{af} feine und liebliche Stimme, aber deine{nf} Stimme ist rauh; du bist der{nm} Wolf.“",
+    "zh": "可是小山羊们从粗哑的嗓音听出是狼，就喊：「我们不开门，你不是我们的妈妈，妈妈的声音又细又好听，你的声音是粗的；你是狼。」",
+    "n": [
+     "拆解：① Aber die Geiserchen hörten an der rauhen Stimme, daß es der Wolf war（小山羊们从粗嗓子听出是狼）。② 引号：wir machen nicht auf（我们不开），riefen sie；du bist unsere Mutter nicht（你不是我们的妈妈）；die hat eine feine und liebliche Stimme（她的声音细而好听）；aber deine Stimme ist rauh（你的声音粗）；du bist der Wolf。",
+     "die Geiserchen：小山羊们（Geis + -erchen，另一种小称，复数）。etw. an etw. hören：从……听出。",
+     "daß es der Wolf war：是狼。es 是占位，真正的表语是 der Wolf。",
+     "die hat …：她（妈妈）有……。die 是指示代词，指 unsere Mutter。"
+    ]
+   },
+   {
+    "de": "Da gieng der{nm} Wolf fort zu einem{dm} Krämer, und kaufte sich{refl} ein{an} großes Stück Kreide: die{dem:af} aß er und machte damit seine{af} Stimme fein.",
+    "zh": "狼就跑到一个杂货商那里，给自己买了一大块白垩，把它吃下去，嗓子就变细了。",
+    "n": [
+     "拆解：① Da gieng der Wolf fort zu einem Krämer（狼去找一个杂货商）。② und kaufte sich ein großes Stück Kreide（给自己买了一大块白垩）。③ die aß er（它把那块吃了）：die 是宾语，提到第一位。④ und machte damit seine Stimme fein（用它把声音弄细了）。",
+     "der Krämer：小杂货商。sich etw. kaufen：给自己买（与格反身）。die Kreide：白垩、粉笔。",
+     "die aß er：die 是指示代词宾格，指 Kreide；主语 er 在动词后面。民间相信吃白垩能让嗓子变细。",
+     "damit：用它（代副词）。etw. fein machen：把……弄细。"
+    ]
+   },
+   {
+    "de": "Dann kam er zurück, klopfte an die{af} Hausthür und rief „macht auf, ihr{you} lieben Kinder, eure{nf} Mutter ist da und hat jedem{dn} von Euch etwas mitgebracht.“",
+    "zh": "然后它回来，敲门喊道：「开门呀，亲爱的孩子们，妈妈回来了，给你们每个都带了东西。」",
+    "n": [
+     "拆解：三个动词：kam zurück（回来）、klopfte an die Hausthür（敲门）、rief（喊）。引号里一字不差地重复第一次的话。",
+     "重复是童话的结构：同样的话说三次，每次只变一个细节。"
+    ]
+   },
+   {
+    "de": "Aber der{nm} Wolf hatte seine{af} schwarze Pfote in das{an} Fenster gelegt, das{dem:an} sahen die{np} Kinder und riefen „wir machen nicht auf, unsere{nf} Mutter hat keinen{am} schwarzen Fuß, wie du: du bist der{nm} Wolf.“",
+    "zh": "可是狼把黑爪子搭在了窗台上，孩子们看见了，喊道：「我们不开门，我们的妈妈可没有像你这样的黑脚，你是狼。」",
+    "n": [
+     "拆解：① Aber der Wolf hatte seine schwarze Pfote in das Fenster gelegt（狼把黑爪子搭在窗上）：过去完成时。② das sahen die Kinder（孩子们看见了这个）：das 是宾语，提到第一位。③ und riefen „…“。",
+     "die Pfote：爪子。in das Fenster legen：搭到窗户上（宾格，方向）。",
+     "keinen schwarzen Fuß, wie du：没有像你那样的黑脚。keinen：阳性宾格。"
+    ]
+   },
+   {
+    "de": "Da lief der{nm} Wolf zu einem{dm} Bäcker und sprach „ich habe mich an den{am} Fuß gestoßen, streich mir Teig darüber.“",
+    "zh": "狼就跑到一个面包师那里说：「我的脚撞伤了，给我抹上点面团。」",
+    "n": [
+     "拆解：Da lief der Wolf zu einem Bäcker und sprach（狼跑到面包师那里说）+ 引号：ich habe mich an den Fuß gestoßen（我撞了脚）, streich mir Teig darüber（给我在上面抹面团）。",
+     "sich an den Fuß stoßen：撞到脚（反身，完成时 habe … gestoßen）。",
+     "streich：streichen（涂抹）的命令式。mir：给我。der Teig：面团。darüber：在它上面。"
+    ]
+   },
+   {
+    "de": "Und als ihm der{nm} Bäcker die{af} Pfote bestrichen hatte, so lief er zum Müller und sprach „streu mir weißes Mehl auf meine{af} Pfote.“",
+    "zh": "面包师给它的爪子抹好面团以后，它又跑到磨坊主那里说：「在我的爪子上撒点白面粉。」",
+    "n": [
+     "拆解：从句 als ihm der Bäcker die Pfote bestrichen hatte（面包师给它抹好爪子以后）→ 主句 so lief er zum Müller und sprach（它就跑到磨坊主那里说）+ 引号：streu mir weißes Mehl auf meine Pfote（在我爪子上撒白面粉）。",
+     "ihm … die Pfote：它的爪子（与格表示「谁的」，第 11 课）。bestreichen：涂上（be- 不可分，分词 bestrichen）。",
+     "der Müller：磨坊主。streu：streuen（撒）的命令式。weißes Mehl：白面粉（没有冠词，中性宾格 -es）。"
+    ]
+   },
+   {
+    "de": "Der{nm} Müller dachte „der{nm} Wolf will einen betrügen“ und weigerte sich{refl}, aber der{nm} Wolf sprach „wenn du es{it} nicht thust, so fresse ich dich.“",
+    "zh": "磨坊主想：「狼想骗人。」就不肯，可是狼说：「你要是不干，我就吃了你。」",
+    "n": [
+     "拆解：① Der Müller dachte „der Wolf will einen betrügen“（磨坊主想：狼要骗人）。② und weigerte sich（并拒绝了）。③ aber der Wolf sprach „wenn du es nicht thust, so fresse ich dich“（狼说：你不干我就吃了你）。",
+     "einen：某人（man 的宾格）。betrügen：欺骗。sich weigern：拒绝（反身）。",
+     "thust = tust。fresse：fressen 的 ich 形式。"
+    ]
+   },
+   {
+    "de": "Da fürchtete sich{refl} der{nm} Müller und machte ihm die{af} Pfote weiß.",
+    "zh": "磨坊主害怕了，就把它的爪子弄白了。",
+    "n": [
+     "拆解：Da fürchtete sich der Müller（磨坊主害怕了）+ und machte ihm die Pfote weiß（把它的爪子弄白）。",
+     "sich fürchten：害怕。sich 排在名词主语前面（第 11 课）。ihm die Pfote：它的爪子。"
+    ]
+   },
+   {
+    "de": "Ja, das{dem:nn} sind die{np} Menschen.",
+    "zh": "是啊，人就是这样。",
+    "n": [
+     "讲故事的人插了一句评论：人就是这样（怕了就跟着做坏事）。das sind …：这就是……（das 是单数，动词却跟着表语 die Menschen 用复数 sind）。"
+    ]
+   }
+  ]
+ },
+ {
+  "h": "三 · 白爪子",
+  "t": "Die weiße Pfote",
+  "k": "3",
+  "s": [
+   {
+    "de": "Nun gieng der{nm} Bösewicht zum drittenmal zu der{df} Hausthüre, klopfte an und sprach „macht mir auf, Kinder, euer{nn} liebes Mütterchen ist heim gekommen und hat jedem{dn} von Euch etwas aus dem{dm} Walde mitgebracht.“",
+    "zh": "坏蛋第三次来到门前，敲门说：「给我开门吧，孩子们，你们亲爱的妈妈回家了，从林子里给你们每个都带了东西。」",
+    "n": [
+     "拆解：Nun gieng der Bösewicht zum drittenmal zu der Hausthüre, klopfte an und sprach（坏蛋第三次来到门口、敲门、说）+ 引号：macht mir auf, Kinder（给我开门，孩子们）；euer liebes Mütterchen ist heim gekommen（你们亲爱的妈妈回家了）；und hat jedem von Euch etwas aus dem Walde mitgebracht（从林子里给每个都带了东西）。",
+     "zum drittenmal：第三次。anklopfen：敲门。",
+     "euer liebes Mütterchen：你们亲爱的妈妈（Mutter + -chen，中性；euer 在中性主格没有词尾，形容词补 -es，第 14 课）。",
+     "ist heim gekommen：完成时（kommen 用 sein）。今天写 heimgekommen。"
+    ]
+   },
+   {
+    "de": "Die{np} Geiserchen riefen „zeig uns erst deine{af} Pfote, damit wir wissen daß du unser{nn} liebes Mütterchen bist.“",
+    "zh": "小山羊们喊：「先给我们看看你的爪子，好让我们知道你是我们亲爱的妈妈。」",
+    "n": [
+     "zeig：zeigen 的命令式。damit：为了、好让（第 12 课）。damit 从句里又套一个 daß 从句：damit wir wissen, daß du … bist。"
+    ]
+   },
+   {
+    "de": "Da legte er die{af} Pfote ins Fenster, und als sie{they} sahen daß sie{she} weiß war, so glaubten sie{they} es{expl} wäre alles{nn} wahr, was er sagte, und machten die{af} Thüre auf.",
+    "zh": "狼把爪子伸进窗户，小山羊们看见爪子是白的，就以为它说的全是真的，开了门。",
+    "n": [
+     "拆解：① Da legte er die Pfote ins Fenster（它把爪子搭到窗上）。② 从句 als sie sahen, daß sie weiß war（它们看见爪子是白的时）：第一个 sie = 小山羊们，第二个 sie = die Pfote。③ 主句 so glaubten sie（它们就以为）+ 转述 es wäre alles wahr, was er sagte（它说的都是真的）。④ und machten die Thüre auf（开了门）。",
+     "两个 sie 靠动词区分：sahen（复数）→ 小山羊们；war（单数）→ 爪子（die Pfote，阴性）。",
+     "es wäre alles wahr：虚拟式（第 22 课），转述它们的想法。alles …, was …：一切……的东西（第 13 课）。"
+    ]
+   },
+   {
+    "de": "Wer aber hereinkam, das{dem:nn} war der{nm} Wolf.",
+    "zh": "可是进来的，正是狼。",
+    "n": [
+     "拆解：主语从句 Wer aber hereinkam（进来的那个）→ das war der Wolf（那就是狼）：das 重提前面的 wer-从句（第 12 课）。"
+    ]
+   },
+   {
+    "de": "Sie{they} erschraken und wollten sich{refl} verstecken.",
+    "zh": "它们吓坏了，想藏起来。",
+    "n": [
+     "erschraken：erschrecken（吓一跳）的过去时复数。sich verstecken：藏起来（反身）。"
+    ]
+   },
+   {
+    "de": "Das{nn} eine sprang unter den{am} Tisch, das{nn} zweite ins Bett, das{nn} dritte in den{am} Ofen, das{nn} vierte in die{af} Küche, das{nn} fünfte in den{am} Schrank, das{nn} sechste unter die{af} Waschschüssel, das{nn} siebente in den{am} Kasten der{gf} Wanduhr.",
+    "zh": "一只跳到桌子底下，第二只钻进床里，第三只钻进炉子，第四只跑进厨房，第五只躲进柜子，第六只藏到洗脸盆底下，第七只钻进了挂钟的钟箱里。",
+    "n": [
+     "拆解：七个短句共用一个动词 sprang（只在第一句出现）。das eine / das zweite / … das siebente（第一只……第七只）：das 指 das Geislein（中性）。",
+     "序数词：zweit-、dritt-、viert-、fünft-、sechst-、siebent-（今天多说 siebt-）。das zweite：der-类后加 -e。",
+     "介词都要求宾格（方向）：unter den Tisch、in den Ofen、in die Küche……（第 8 课）。",
+     "in den Kasten der Wanduhr：钻进挂钟的箱子。der Wanduhr 是属格（阴性），说明「谁的」箱子（第 18 课）：属格放在名词后面。"
+    ]
+   },
+   {
+    "de": "Aber der{nm} Wolf fand sie{them} alle{ap} und machte nicht langes Federlesen: eins nach dem{dn} andern schluckte er in seinen{am} Rachen; nur das{nn} jüngste in dem{dm} Uhrkasten das{dem:an} fand er nicht.",
+    "zh": "可是狼把它们都找到了，毫不客气：一只接一只吞进了它的大嘴；只有最小的那只躲在钟箱里，狼没有找到。",
+    "n": [
+     "拆解：① Aber der Wolf fand sie alle（狼把它们都找到了）。② und machte nicht langes Federlesen（毫不手软）。③ eins nach dem andern schluckte er in seinen Rachen（一只接一只吞下）。④ nur das jüngste in dem Uhrkasten, das fand er nicht（只有钟箱里最小的那只，狼没找到）：das 重提前面的 das jüngste。",
+     "nicht viel / langes Federlesen machen：不啰嗦、毫不客气（成语）。",
+     "eins nach dem andern：一个接一个。der Rachen：大嘴、咽喉。",
+     "das jüngste：最小的（jung 的最高级，第 15 课）。der Uhrkasten：钟箱。"
+    ]
+   },
+   {
+    "de": "Als der{nm} Wolf seine{af} Lust gebüßt hatte, trollte er sich{refl} fort, legte sich{refl} draußen auf der{df} grünen Wiese unter einen{am} Baum und fieng an zu schlafen.",
+    "zh": "狼吃够了，就慢吞吞地走了，到外面绿草地上的一棵树下躺下，睡起觉来。",
+    "n": [
+     "拆解：从句 Als der Wolf seine Lust gebüßt hatte（狼满足了欲望以后）→ 主句三个动词：trollte er sich fort（它溜达着走了）、legte sich … unter einen Baum（躺到树下）、und fieng an zu schlafen（开始睡觉）。",
+     "seine Lust büßen：满足欲望（旧义）。gebüßt hatte：过去完成时。",
+     "sich forttrollen：慢吞吞地走开。auf der grünen Wiese：在绿草地上（与格，位置）；unter einen Baum：到树下（宾格，方向）。"
+    ]
+   }
+  ]
+ },
+ {
+  "h": "四 · 母亲回家",
+  "t": "Die Mutter kommt heim",
+  "k": "4",
+  "s": [
+   {
+    "de": "Nicht lange danach kam die{nf} alte Geis aus dem{dm} Walde wieder heim.",
+    "zh": "没过多久，老山羊从林子里回家了。",
+    "n": [
+     "nicht lange danach：不久之后。heimkommen：回家（heim 在句末）。aus dem Walde：古式与格。"
+    ]
+   },
+   {
+    "de": "Ach, was mußte sie{she} da erblicken!",
+    "zh": "唉，她看到的是什么样子啊！",
+    "n": [
+     "感叹句：was mußte sie da erblicken!（她不得不看到什么！）。erblicken：看见。mußte：不得不（第 10 课）。"
+    ]
+   },
+   {
+    "de": "Die{nf} Hausthüre stand sperrweit auf: Tisch, Stühle und Bänke waren umgeworfen, die{nf} Waschschüssel lag in Scherben, Decke und Kissen waren aus dem{dn} Bett gezogen.",
+    "zh": "大门敞开着，桌子、椅子、凳子都翻倒了，洗脸盆碎成了片，被子和枕头都从床上扯了下来。",
+    "n": [
+     "拆解：Die Hausthüre stand sperrweit auf（大门大敞着）+ 冒号后三个场景：Tisch, Stühle und Bänke waren umgeworfen（桌椅凳都被掀翻）；die Waschschüssel lag in Scherben（脸盆碎了）；Decke und Kissen waren aus dem Bett gezogen（被子枕头被扯出床外）。",
+     "aufstehen：（门）开着。sperrweit：大开地。",
+     "waren umgeworfen、waren gezogen：sein + 过去分词 = 状态被动（「被……了」的状态，第 21 课）。umwerfen：掀翻；ziehen：拉。",
+     "der Stuhl → die Stühle，die Bank → die Bänke。in Scherben liegen：碎成片。"
+    ]
+   },
+   {
+    "de": "Sie{she} suchte ihre{ap} Kinder, aber nirgend waren sie{they} zu finden.",
+    "zh": "她找她的孩子们，可是哪儿也找不到。",
+    "n": [
+     "拆解：Sie suchte ihre Kinder（她找孩子）+ aber nirgend waren sie zu finden（却哪儿都找不到）。",
+     "sein + zu-不定式：能被……（第 25 课）：waren … zu finden = konnten gefunden werden（能被找到）。nirgend(s)：哪儿都不。"
+    ]
+   },
+   {
+    "de": "Sie{she} rief sie{them} nacheinander bei Namen, aber niemand antwortete.",
+    "zh": "她一个一个地叫它们的名字，可是没有一个回答。",
+    "n": [
+     "jn bei Namen rufen：叫某人的名字。nacheinander：一个接一个。niemand：没有人。"
+    ]
+   },
+   {
+    "de": "Endlich als sie{she} an das{an} jüngste kam, da rief eine{nf} feine Stimme „liebe Mutter, ich stecke im Uhrkasten.“",
+    "zh": "最后，当她叫到最小的那只时，一个细细的声音喊：「亲爱的妈妈，我在钟箱里。」",
+    "n": [
+     "拆解：从句 als sie an das jüngste kam（当她叫到最小的那只）→ 主句 da rief eine feine Stimme（一个细小的声音喊）+ 引号。",
+     "an etw. kommen：轮到、到了……。stecken：藏在、卡在。im Uhrkasten = in dem Uhrkasten。"
+    ]
+   },
+   {
+    "de": "Sie{she} holte es{child} heraus, und es{child} erzählte ihr daß der{nm} Wolf gekommen wäre und die{ap} andern alle{ap} gefressen hätte.",
+    "zh": "她把它抱了出来，小山羊告诉她，狼来过了，把其他的都吃了。",
+    "n": [
+     "拆解：Sie holte es heraus（她把它拿出来）+ und es erzählte ihr（它告诉她）+ daß der Wolf gekommen wäre und die andern alle gefressen hätte（狼来了，把别的都吃了）。",
+     "es = das Geislein（最小的那只）。herausholen：拿出来。",
+     "gekommen wäre、gefressen hätte：虚拟式的完成时（第 22–23 课），转述小山羊的话。kommen 用 sein（wäre），fressen 用 haben（hätte）。",
+     "die andern alle：别的全部。"
+    ]
+   },
+   {
+    "de": "Da könnt ihr{you} denken wie sie{she} über ihre{ap} armen Kinder geweint hat.",
+    "zh": "你们可以想象，她为她可怜的孩子们哭得多伤心。",
+    "n": [
+     "讲故事的人对听众说话：Da könnt ihr denken（你们可以想见）+ wie sie über ihre armen Kinder geweint hat（她为可怜的孩子们哭得多伤心）。",
+     "über jn weinen：为某人哭。geweint hat：完成时，从句里助动词在最后（第 16 课）。"
+    ]
+   }
+  ]
+ },
+ {
+  "h": "五 · 剪开狼肚子",
+  "t": "Die Scheere",
+  "k": "5",
+  "s": [
+   {
+    "de": "Endlich gieng sie{she} in ihrem{dm} Jammer hinaus, und das{nn} jüngste Geislein lief mit.",
+    "zh": "最后她伤心地走了出去，最小的小山羊跟着她。",
+    "n": [
+     "in ihrem Jammer：在悲痛中。mitlaufen：跟着跑（mit 在句末）。das jüngste Geislein：最小的小山羊（das 后最高级 -e）。"
+    ]
+   },
+   {
+    "de": "Als sie{she} auf die{af} Wiese kam, so lag da der{nm} Wolf an dem{dm} Baum und schnarchte daß die{np} Äste zitterten.",
+    "zh": "她来到草地上，看见狼躺在树下，打着呼噜，震得树枝都在抖。",
+    "n": [
+     "拆解：从句 Als sie auf die Wiese kam（她来到草地时）→ 主句 so lag da der Wolf an dem Baum（狼躺在树下）und schnarchte, daß die Äste zitterten（打呼噜打得树枝发抖）。",
+     "auf die Wiese kommen：来到草地上（宾格）。daß：以致（= so daß）。"
+    ]
+   },
+   {
+    "de": "Sie{she} betrachtete ihn von allen{dp} Seiten, und sah daß in seinem{dm} angefüllten Bauch sich{refl} etwas regte und zappelte.",
+    "zh": "她从各个方向打量它，看见它鼓鼓的肚子里有东西在动、在蹬。",
+    "n": [
+     "拆解：Sie betrachtete ihn von allen Seiten（她从四面打量它）+ und sah, daß in seinem angefüllten Bauch sich etwas regte und zappelte（看见它塞满的肚子里有东西在动）。",
+     "betrachten：打量。von allen Seiten：从各方面。",
+     "angefüllt：装满的（anfüllen 的分词作形容词）。sich regen：动弹（反身）。zappeln：乱蹬。"
+    ]
+   },
+   {
+    "de": "„Ach Gott,“ dachte sie{she}, „sollten meine{np} armen Kinder, die{rel:ap} er zum Abendbrot hinunter gewürgt hat, noch am Leben sein?“",
+    "zh": "「天哪，」她想，「难道我那些被它当晚饭吞下去的可怜孩子还活着吗？」",
+    "n": [
+     "拆解：sollten meine armen Kinder … noch am Leben sein?（难道我可怜的孩子还活着？）+ 关系从句 die er zum Abendbrot hinunter gewürgt hat（它当晚饭吞下去的）。",
+     "sollte … ?：难道……？（sollen 的虚拟式表示惊疑的猜测）。am Leben sein：活着。",
+     "die：关系代词，复数宾格（被吞下的是孩子们，主语是 er）。zum Abendbrot：当晚饭。hinunterwürgen：硬吞下去。gewürgt hat：完成时。"
+    ]
+   },
+   {
+    "de": "Da mußte das{nn} Geislein nach Haus laufen und Scheere, Nadel und Zwirn holen.",
+    "zh": "于是小山羊只好跑回家，取来剪刀、针和线。",
+    "n": [
+     "mußte … laufen und … holen：情态动词 + 两个不定式（第 10 课）。die Nadel：针；der Zwirn：线。"
+    ]
+   },
+   {
+    "de": "Dann schnitt sie{she} dem{dn} Ungethüm den{am} Wanst auf, und kaum hatte sie{she} einen{am} Schnitt gethan, so streckte schon ein{nn} Geislein den{am} Kopf heraus, und als sie{she} weiter schnitt, so sprangen nacheinander alle{np} sechse heraus, und waren noch alle{np} am Leben, und hatten nicht einmal Schaden gelitten, denn das{nn} Ungethüm hatte sie{them} in der{df} Gier ganz hinunter geschluckt.",
+    "zh": "然后她剪开那怪物的肚皮，刚剪了一刀，就有一只小山羊探出头来；她接着剪，六只小山羊一只接一只都跳了出来，个个都活着，连一点伤都没有，因为那怪物太贪心，把它们整个吞下去了。",
+    "n": [
+     "拆解：① Dann schnitt sie dem Ungethüm den Wanst auf（她剪开怪物的肚皮）。② kaum hatte sie einen Schnitt gethan, so streckte schon ein Geislein den Kopf heraus（刚剪一刀，就有一只探出头）。③ als sie weiter schnitt, so sprangen nacheinander alle sechse heraus（她继续剪，六只都相继跳出来）。④ und waren noch alle am Leben, und hatten nicht einmal Schaden gelitten（都还活着，连伤都没受）。⑤ denn das Ungethüm hatte sie in der Gier ganz hinunter geschluckt（因为怪物贪心，把它们整个吞了）。",
+     "aufschneiden：剪开（auf 在句末）。dem Ungethüm den Wanst：怪物的肚子（与格表示「谁的」）。der Wanst：大肚子。",
+     "kaum …, so …：刚……就……（第 16 课的狼也是 kaum hatte …）。den Kopf herausstrecken：探出头。",
+     "alle sechse：六只全部（sechse 是数词的旧式）。Schaden leiden：受伤害；gelitten：leiden 的分词。",
+     "in der Gier：贪婪中。hinunterschlucken：吞下。"
+    ]
+   },
+   {
+    "de": "Das{dem:nn} war eine{nf} Freude!",
+    "zh": "那真是高兴啊！",
+    "n": [
+     "das war …!：那真是……！讲故事的感叹。"
+    ]
+   },
+   {
+    "de": "Da herzten sie{they} ihre{af} liebe Mutter, und hüpften wie ein{nm} Schneider, der{rel:nm} Hochzeit hält.",
+    "zh": "它们搂着亲爱的妈妈，像办婚礼的裁缝一样蹦蹦跳跳。",
+    "n": [
+     "herzen：拥抱、亲热。hüpfen：蹦跳。wie ein Schneider, der Hochzeit hält：像一个办婚礼的裁缝（民间说法：裁缝办喜事时乐得直跳）。Hochzeit halten：举行婚礼。"
+    ]
+   },
+   {
+    "de": "Die{nf} Alte aber sagte „jetzt geht und sucht Wackersteine, damit wollen wir dem{dn} gottlosen Thier den{am} Bauch füllen, so lange es{it} noch im Schlafe liegt.“",
+    "zh": "老山羊却说：「现在去找大石头来，趁这个坏东西还在睡，我们拿石头把它的肚子填满。」",
+    "n": [
+     "拆解：Die Alte aber sagte（老山羊说）+ 引号：jetzt geht und sucht Wackersteine（现在去找大石头）；damit wollen wir dem gottlosen Thier den Bauch füllen（我们用它们填满这坏东西的肚子）；so lange es noch im Schlafe liegt（趁它还睡着）。",
+     "geht、sucht：命令式（对 ihr）。der Wackerstein：大卵石。",
+     "damit：用它们（代副词，后面紧跟动词 wollen，第 12 课）。dem … Thier den Bauch：它的肚子。gottlos：不敬神的、坏的。",
+     "so lange：只要、趁着。es 指 das Thier（中性）。im Schlafe：在睡梦中。"
+    ]
+   },
+   {
+    "de": "Da schleppten die{np} sieben Geiserchen in aller{df} Eile die{ap} Steine herbei und steckten sie{them} ihm in den{am} Bauch, so viel sie{they} hinein bringen konnten.",
+    "zh": "七只小山羊急急忙忙把石头拖来，往狼肚子里塞，能塞多少就塞多少。",
+    "n": [
+     "拆解：Da schleppten die sieben Geiserchen in aller Eile die Steine herbei（七只小山羊急忙把石头拖来）+ und steckten sie ihm in den Bauch（塞进它肚子）+ so viel sie hinein bringen konnten（能塞多少就塞多少）。",
+     "herbeischleppen：拖过来。in aller Eile：匆忙地。",
+     "ihm in den Bauch：塞进它的肚子（与格表示「谁的」）。so viel …：尽……的量。hineinbringen：放进去。"
+    ]
+   },
+   {
+    "de": "Dann nähte ihn die{nf} Alte in aller{df} Geschwindigkeit wieder zu, daß er nichts merkte und sich{refl} nicht einmal regte.",
+    "zh": "然后老山羊飞快地把它缝好，狼什么都没察觉，连动都没动一下。",
+    "n": [
+     "zunähen：缝上（zu 在句末）。ihn = den Wolf。in aller Geschwindigkeit：飞快地。daß：以致。sich regen：动弹。nicht einmal：连……都不。"
+    ]
+   }
+  ]
+ },
+ {
+  "h": "六 · 井边",
+  "t": "Am Brunnen",
+  "k": "6",
+  "s": [
+   {
+    "de": "Als der{nm} Wolf endlich ausgeschlafen hatte, machte er sich{refl} auf die{ap} Beine, und weil ihm die{np} Steine im Magen so großen Durst erregten, so wollte er zu einem{dm} Brunnen gehen und trinken.",
+    "zh": "狼终于睡够了，站起身来；肚子里的石头让它渴得要命，它想到井边去喝水。",
+    "n": [
+     "拆解：① 从句 Als der Wolf endlich ausgeschlafen hatte（狼终于睡够了）→ 主句 machte er sich auf die Beine（它站起身）。② 原因从句 weil ihm die Steine im Magen so großen Durst erregten（因为胃里的石头让它非常口渴）→ 主句 so wollte er zu einem Brunnen gehen und trinken（它想去井边喝水）。",
+     "ausschlafen：睡够。sich auf die Beine machen：起身动身。",
+     "jm Durst erregen：让某人口渴。so großen Durst：没有冠词，阳性宾格 -en。der Brunnen：井。"
+    ]
+   },
+   {
+    "de": "Als er aber anfieng zu gehen und sich{refl} hin und her zu bewegen, so stießen die{np} Steine in seinem{dm} Bauch aneinander und rappelten.",
+    "zh": "可是它一开始走动、左右摇晃，肚子里的石头就互相碰撞，哗啦作响。",
+    "n": [
+     "拆解：从句 Als er aber anfieng zu gehen und sich hin und her zu bewegen（它开始走、左右晃动时）→ 主句 so stießen die Steine in seinem Bauch aneinander und rappelten（肚里的石头互相撞、咔啦响）。",
+     "anfangen zu …：开始……，从句里 anfieng 不拆开。sich bewegen：移动。",
+     "aneinanderstoßen：互相碰撞。rappeln：咔啦作响。"
+    ]
+   },
+   {
+    "de": "Da rief er „was rumpelt und pumpelt in meinem{dm} Bauch herum? ich meinte es{expl} wären sechs Geislein, so sinds lauter Wackerstein.“",
+    "zh": "它就喊道：「是什么在我肚子里叮叮咚咚地响？我以为是六只小山羊，原来全是大石头。」",
+    "n": [
+     "狼的这几句是押韵的童谣：herum / Wackerstein（原文排成诗行）。",
+     "rumpeln und pumpeln：叮咚乱响（拟声，pumpeln 是为押韵造的词）。herumrumpeln：在里面乱响。",
+     "ich meinte es wären sechs Geislein：我以为是六只小山羊（wären：虚拟式，转述想法；没有 daß）。",
+     "so sinds lauter Wackerstein：却全是大石头。sinds = sind es；lauter：全是（不变格）。Wackerstein 用单数是为了押韵。"
+    ]
+   },
+   {
+    "de": "Und als er an den{am} Brunnen kam und sich{refl} über das{an} Wasser bückte und trinken wollte, da zogen ihn die{np} schweren Steine hinein, und er mußte jämmerlich ersaufen.",
+    "zh": "它来到井边，俯身到水面上想喝水，沉重的石头就把它拽了进去，它只好可怜地淹死了。",
+    "n": [
+     "拆解：从句 als er an den Brunnen kam und sich über das Wasser bückte und trinken wollte（它来到井边、俯身向水、想喝时）→ 主句 da zogen ihn die schweren Steine hinein（沉重的石头把它拽了进去）+ und er mußte jämmerlich ersaufen（它只好惨惨地淹死）。",
+     "sich bücken：弯腰（反身）。über das Wasser：到水面上方（宾格，方向）。",
+     "hineinziehen：拽进去。ersaufen：淹死（粗俗说法，用于动物）。jämmerlich：凄惨地。"
+    ]
+   },
+   {
+    "de": "Als die{np} sieben Geislein das{dem:an} sahen, da kamen sie{they} herbei gelaufen, riefen laut „der{nm} Wolf ist todt! der{nm} Wolf ist todt!“ und tanzten mit ihrer{df} Mutter vor Freude um den{am} Brunnen herum.",
+    "zh": "七只小山羊看见了，都跑过来，大声喊：「狼死了！狼死了！」它们和妈妈一起高兴地围着井跳起舞来。",
+    "n": [
+     "拆解：从句 Als die sieben Geislein das sahen（七只小山羊看见了）→ 主句 da kamen sie herbei gelaufen（它们跑了过来）, riefen laut „…“（大声喊）und tanzten mit ihrer Mutter vor Freude um den Brunnen herum（和妈妈高兴地绕井跳舞）。",
+     "herbeigelaufen kommen：跑过来（kommen + 分词表示「以……方式来」）。",
+     "vor Freude：因为高兴。um den Brunnen herum：绕着井。todt = tot。"
+    ]
+   }
+  ]
+ }
+]
