@@ -249,5 +249,190 @@
     "why": "故事讲到最紧张的地方，从过去时换成现在时，让听的人仿佛身临其境。"
    }
   ]
+ },
+ {
+  "id": "r117",
+  "ch": "k117",
+  "t": "读后练习：《任性的孩子》",
+  "de": "Das eigensinnige Kind",
+  "min": 15,
+  "html": "<p>这篇只有 4 句，但可分动词很多。先回答内容题，再把语法题当作可分动词的复习。</p>\n<h4>一、读懂了吗</h4>\n{{quiz:s1}}\n<h4>二、语法回顾：可分动词</h4>\n{{quiz:s2}}\n<h4>三、这篇里的可分动词</h4>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>原文</th><th>不定式</th><th>意思</th></tr></thead><tbody>\n<tr><td>kam … hervor</td><td>hervorkommen</td><td>冒出来</td></tr>\n<tr><td>hingedeckt</td><td>hindecken</td><td>盖上</td></tr>\n<tr><td>hineinlegten</td><td>hineinlegen</td><td>放进去</td></tr>\n<tr><td>kam … heraus</td><td>herauskommen</td><td>出来</td></tr>\n<tr><td>zog sich … hinein</td><td>sich hineinziehen</td><td>缩回去</td></tr>\n</tbody></table></div>\n<p><button class=\"btn\" data-route=\"grimm~ch-k117\">回到原文</button></p>",
+  "quiz": [
+   {
+    "id": "q117a",
+    "sec": "s1",
+    "de": "und that nicht was seine Mutter haben wollte",
+    "opts": [
+     "孩子不做母亲要他做的事",
+     "母亲不让孩子做事"
+    ],
+    "ans": 0,
+    "why": "that nicht：不做；was seine Mutter haben wollte：他母亲想要的事。"
+   },
+   {
+    "id": "q117b",
+    "sec": "s1",
+    "de": "und ließ es krank werden",
+    "opts": [
+     "上帝让孩子生了病",
+     "孩子让母亲生了病"
+    ],
+    "ans": 0,
+    "why": "主语是 der liebe Gott：上帝让他（es，孩子）生病。jn etw. tun lassen：让某人做某事。"
+   },
+   {
+    "id": "q117c",
+    "sec": "s1",
+    "de": "so kam auf einmal sein Ärmchen wieder hervor",
+    "opts": [
+     "孩子的小手臂从坟里伸了出来",
+     "孩子醒过来了"
+    ],
+    "ans": 0,
+    "why": "Ärmchen：小手臂。hervorkommen：冒出来。"
+   },
+   {
+    "id": "q117d",
+    "sec": "s1",
+    "de": "und mit der Ruthe aufs Ärmchen schlagen",
+    "opts": [
+     "母亲用棍子打那只小手臂",
+     "母亲把棍子放进坟里"
+    ],
+    "ans": 0,
+    "why": "mit der Ruthe：用棍子；aufs Ärmchen schlagen：打在小手臂上。之后手臂缩了回去，孩子才得到安宁。"
+   },
+   {
+    "id": "q117e",
+    "sec": "s2",
+    "de": "und das Ärmchen kam immer wieder <<heraus>>",
+    "opts": [
+     "herauskommen 的前缀",
+     "介词"
+    ],
+    "ans": 0,
+    "why": "heraus 在句末，是 herauskommen（出来）的前缀。"
+   },
+   {
+    "id": "q117f",
+    "sec": "s2",
+    "de": "Als es nun ins Grab <<versenkt>> … war",
+    "opts": [
+     "versenken 的过去分词（ver- 不可分）",
+     "versenken 的现在时"
+    ],
+    "ans": 0,
+    "why": "ver- 是不可分前缀，分词不加 ge-：versenkt。sein + 分词：状态（被放下去了）。"
+   },
+   {
+    "id": "q117g",
+    "sec": "s2",
+    "de": "zog es sich <<hinein>>",
+    "opts": [
+     "sich hineinziehen：缩回去",
+     "hinein = in（介词）"
+    ],
+    "ans": 0,
+    "why": "可分动词 hineinziehen 在主句里拆开，前缀 hinein 在句末。"
+   }
+  ]
+ },
+ {
+  "id": "r200",
+  "ch": "k200",
+  "t": "读后练习：《金钥匙》",
+  "de": "Der goldene Schlüssel",
+  "min": 15,
+  "html": "<p>这篇只有 8 句，几乎每句都有情态动词。先回答内容题，再做语法题，复习第 10 课。</p>\n<h4>一、读懂了吗</h4>\n{{quiz:s1}}\n<h4>二、语法回顾：情态动词</h4>\n{{quiz:s2}}\n<h4>三、这篇里的情态动词</h4>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>原文</th><th>情态动词</th><th>支配的不定式</th><th>意思</th></tr></thead><tbody>\n<tr><td>mußte … hinausgehen und … holen</td><td>müssen（过去时）</td><td>hinausgehen、holen</td><td>不得不出门拉柴</td></tr>\n<tr><td>wollte er … nicht … gehen, sondern … anmachen und … wärmen</td><td>wollen（过去时）</td><td>gehen、anmachen、wärmen</td><td>不想回家，想生火取暖</td></tr>\n<tr><td>müßte auch das Schloß dazu sein</td><td>müssen（虚拟式）</td><td>sein</td><td>锁想必也在</td></tr>\n<tr><td>daß man es kaum sehen konnte</td><td>können（过去时，从句末）</td><td>sehen</td><td>几乎看不见</td></tr>\n<tr><td>nun müssen wir warten</td><td>müssen（现在时）</td><td>warten</td><td>我们得等着</td></tr>\n</tbody></table></div>\n<h4>四、想一想</h4>\n<p>格林兄弟为什么用一个没有结局的故事结束整部童话集？最后一句的时态从过去时（drehte）跳到了现在时（müssen wir warten）和将来时（werden wir erfahren）：讲故事的人和我们一起站在匣子前面。匣子里是什么，每个读者自己去想。</p>\n<p><button class=\"btn\" data-route=\"grimm~ch-k200\">回到原文</button></p>",
+  "quiz": [
+   {
+    "id": "q200a",
+    "sec": "s1",
+    "de": "mußte ein armer Junge hinausgehen und Holz auf einem Schlitten holen",
+    "opts": [
+     "穷孩子不得不出门拉柴",
+     "穷孩子想出门玩雪"
+    ],
+    "ans": 0,
+    "why": "mußte：不得不。Holz holen：取柴。"
+   },
+   {
+    "id": "q200b",
+    "sec": "s1",
+    "de": "wollte er, weil er so erfroren war, noch nicht nach Haus gehen",
+    "opts": [
+     "他冻坏了，想先生火暖和一下再回家",
+     "他冻坏了，马上回家"
+    ],
+    "ans": 0,
+    "why": "noch nicht nach Haus gehen, sondern erst Feuer anmachen：还不回家，而是先生火。"
+   },
+   {
+    "id": "q200c",
+    "sec": "s1",
+    "de": "Nun glaubte er wo der Schlüssel wäre, müßte auch das Schloß dazu sein",
+    "opts": [
+     "他想：有钥匙，就该有配它的锁",
+     "他想：钥匙是从城堡里来的"
+    ],
+    "ans": 0,
+    "why": "das Schloß dazu：配钥匙的锁。所以他在土里挖，找到了铁匣子。"
+   },
+   {
+    "id": "q200d",
+    "sec": "s1",
+    "de": "aber so klein daß man es kaum sehen konnte",
+    "opts": [
+     "钥匙孔小得几乎看不见",
+     "钥匙小得几乎看不见"
+    ],
+    "ans": 0,
+    "why": "es 指前面的 eins = ein Schlüsselloch（钥匙孔）。"
+   },
+   {
+    "id": "q200e",
+    "sec": "s1",
+    "de": "dann werden wir erfahren was für wunderbare Sachen in dem Kästchen lagen",
+    "opts": [
+     "故事没有说匣子里有什么",
+     "匣子里是金币"
+    ],
+    "ans": 0,
+    "why": "故事在打开匣子之前结束；werden wir erfahren（我们将会知道）只是许诺。"
+   },
+   {
+    "id": "q200f",
+    "sec": "s2",
+    "de": "daß man es kaum sehen <<konnte>>",
+    "opts": [
+     "从句里，情态动词排在不定式后面",
+     "主句里的第二位"
+    ],
+    "ans": 0,
+    "why": "daß-从句：sehen konnte，变位的情态动词在最后。"
+   },
+   {
+    "id": "q200g",
+    "sec": "s2",
+    "de": "<<müßte>> auch das Schloß dazu sein",
+    "opts": [
+     "虚拟式：想必、应该会",
+     "过去时：不得不"
+    ],
+    "ans": 0,
+    "why": "有变音点的 müßte 是虚拟式；过去时是 mußte。"
+   },
+   {
+    "id": "q200h",
+    "sec": "s2",
+    "de": "mußte ein armer Junge <<hinausgehen>>",
+    "opts": [
+     "不定式，可分前缀不拆开",
+     "主句里被拆开的可分动词"
+    ],
+    "ans": 0,
+    "why": "情态动词句里，hinausgehen 是不定式，前缀和动词连在一起放在句末。"
+   }
+  ]
  }
 ]

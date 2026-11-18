@@ -72,24 +72,22 @@
    "blurb": "约 220 词。会煮粥的小锅。学：现在时和过去时混用、命令式。"
   },
   {
-   "id": "k078",
-   "h": "老祖父和孙子",
-   "t": "Der alte Großvater und der Enkel",
-   "blurb": "约 230 词。学：与格、反身动词、物主代词。",
-   "planned": true
-  },
-  {
    "id": "k117",
    "h": "任性的孩子",
    "t": "Das eigensinnige Kind",
-   "blurb": "约 120 词。学：从句的动词位置。",
-   "planned": true
+   "blurb": "约 120 词。格林童话阴暗的一面。学：可分动词与方向前缀（第 9 课）。"
   },
   {
    "id": "k200",
    "h": "金钥匙",
    "t": "Der goldene Schlüssel",
-   "blurb": "约 160 词。格林童话集的最后一篇。学：情态动词、将来时。",
+   "blurb": "约 160 词。格林童话集的最后一篇。学：情态动词（第 10 课）。"
+  },
+  {
+   "id": "k078",
+   "h": "老祖父和孙子",
+   "t": "Der alte Großvater und der Enkel",
+   "blurb": "约 230 词。学：反身动词、es 的用法（第 11 课）。",
    "planned": true
   },
   {

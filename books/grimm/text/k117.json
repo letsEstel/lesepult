@@ -1,0 +1,43 @@
+[
+ {"h": "一 · 任性的孩子", "t": "Das eigensinnige Kind", "k": "1",
+  "sum": "读前：学完阅读课第 1–9 课（第 9 课是可分动词）。\n这是格林童话里最短、也最阴暗的故事之一，只有 4 句：一个不听话的孩子病死了，下葬以后，他的小手臂一次次从坟里伸出来，直到母亲亲自去打了它一下。格林童话的原版并不都温柔，这一篇就是「警世故事」的一类。语言上，请留意满篇的可分动词：hervorkommen（冒出来）、hineinlegen（放进去）、herauskommen（出来）、sich hineinziehen（缩回去）。das Kind 是中性，所以孩子一直用 es 指代。",
+  "s": [
+  {"de": "Es{expl} war einmal ein{nn} Kind eigensinnig und that nicht was seine{nf} Mutter haben wollte.",
+   "zh": "从前有个孩子很任性，母亲要他做的事，他偏不做。",
+   "n": ["拆解：① Es war einmal ein Kind eigensinnig（从前有个孩子，任性）。② und that nicht, was seine Mutter haben wollte（不做他母亲想要的事）。",
+         "ein Kind eigensinnig：形容词 eigensinnig（任性的）放在名词后面，不带词尾。这是古老的民间说法，今天要说 ein eigensinniges Kind。",
+         "that nicht：不做。that = tat（tun 的过去时）。",
+         "was seine Mutter haben wollte：他母亲想要的（事）。was 引导从句（「……的东西」），从句的变位动词 wollte 在末尾，前面是不定式 haben。etw. haben wollen：想要某事（被做到）。1857 年 was 前面没有逗号。",
+         "seine Mutter：他的母亲。das Kind 是中性，物主代词用 sein。Mutter 阴性主格 → seine。"]},
+  {"de": "Darum hatte der{nm} liebe Gott kein{an} Wohlgefallen an ihm und ließ es{child} krank werden, und kein{nm} Arzt konnte ihm helfen, und in kurzem lag es{child} auf dem{dn} Todtenbettchen.",
+   "zh": "所以亲爱的上帝不喜欢他，让他生了病，没有一个医生能救他，不久他就躺在了临终的小床上。",
+   "n": ["拆解：四个用 und 连起来的主句。① Darum hatte der liebe Gott kein Wohlgefallen an ihm（所以上帝不喜欢他）。② und ließ es krank werden（让他生病）。③ und kein Arzt konnte ihm helfen（没有医生能帮他）。④ und in kurzem lag es auf dem Todtenbettchen（不久他躺在临终的床上）。",
+         "Darum（所以）占第一位 → 变位动词 hatte → 主语 der liebe Gott。",
+         "an jm Wohlgefallen haben：喜欢某人（Wohlgefallen：欢喜、满意）。kein Wohlgefallen：不喜欢。an ihm：与格（an 表示「对……」时多用与格）。",
+         "jn etw. tun lassen：让某人做某事。ließ es krank werden：让他（变得）生病。lassen 的过去时是 ließ。",
+         "jm helfen：帮助某人（与格 ihm）。konnte … helfen：情态动词 können 的过去时 + 不定式（句框）。下一课讲情态动词。",
+         "in kurzem：不久（固定说法）。lag：liegen（躺）的过去时。Todtenbettchen：临终的小床（Tod 死 + Bett 床 + -chen）。1857 年写 Todten，今天写 Toten。"]}
+ ]},
+ {"h": "二 · 伸出坟墓的手臂", "t": "Das Ärmchen kam wieder heraus", "k": "2", "s": [
+  {"de": "Als es{child} nun ins Grab versenkt und Erde über es{child} hingedeckt war, so kam auf einmal sein{nn} Ärmchen wieder hervor und reichte in die{af} Höhe, und wenn sie{they} es{it} hineinlegten und frische Erde darüber thaten, so half das{dem:nn} nicht, und das{nn} Ärmchen kam immer wieder heraus.",
+   "zh": "当他被放进坟墓、身上盖好土以后，他的小手臂忽然又冒了出来，向上伸着；人们把它塞回去，在上面盖上新土，也没有用，那只小手臂总是又伸出来。",
+   "n": ["拆解：① 从句 Als es nun ins Grab versenkt und Erde über es hingedeckt war（当他被放进坟墓、土盖在他身上之后）：als 引导，末尾是 war。② 主句 so kam … sein Ärmchen wieder hervor und reichte in die Höhe（他的小手臂又冒出来，向上伸着）。③ 条件从句 wenn sie es hineinlegten und … thaten（每当他们把它放进去、在上面盖土）。④ 主句 so half das nicht（那也没用）。⑤ und das Ärmchen kam immer wieder heraus（小手臂总是又出来）。",
+         "versenkt … war：被放下去了（状态被动：sein + 过去分词，表示一个完成后的状态）。versenken：沉下、放下（ver- 是不可分前缀，分词不加 ge-）。ins Grab = in das Grab：放进坟墓（宾格，方向）。",
+         "Erde über es hingedeckt war：土盖在他身上。hindecken：盖上（可分动词，分词 hin-ge-deckt：ge 插在前缀和词干中间）。über es：在他上面（es 指孩子，宾格）。",
+         "so kam … hervor：冒出来。hervorkommen：从里面出来、冒出（可分动词，前缀 hervor 在句末）。so 在这里是主句的开头，呼应前面的 als-从句，不必翻译。",
+         "in die Höhe reichen：向上伸。in die Höhe：往高处（宾格，方向）。",
+         "wenn sie es hineinlegten：每当他们把它放进去。wenn 表示「每当」（重复的事）。sie = 人们（复数），es = das Ärmchen。hineinlegen 在从句里不拆开：前缀和动词连在一起，放在末尾。这是可分动词的规则：主句里拆，从句里合。",
+         "frische Erde darüber thaten：在上面盖上新土。darüber = über es（在它上面）。thaten = taten（tun 的过去时复数）。",
+         "so half das nicht：那也没用。helfen 的过去时是 half。das 指上面的做法。",
+         "herauskommen：出来（前缀 heraus 在句末）。hervor、heraus、hinein 这类前缀都表示方向：her- 朝着说话人（向外看的人），hin- 离开说话人。"]},
+  {"de": "Da mußte die{nf} Mutter selbst zum Grabe gehn und mit der{df} Ruthe aufs Ärmchen schlagen, und wie sie{she} das{dem:an} gethan hatte, zog es{it} sich{refl} hinein, und das{nn} Kind hatte nun erst Ruhe unter der{df} Erde.",
+   "zh": "于是母亲只好亲自到坟前，用棍子朝那只小手臂打了一下。她这样做了以后，手臂就缩了回去，孩子这才在地下安息了。",
+   "n": ["拆解：① Da mußte die Mutter selbst zum Grabe gehn und … schlagen（母亲只好亲自去坟前并……打）：情态动词 mußte 在第二位，两个不定式 gehn、schlagen 在后面。② 从句 wie sie das gethan hatte（她这样做了以后）。③ 主句 zog es sich hinein（它缩了回去）。④ und das Kind hatte nun erst Ruhe unter der Erde（孩子这才在地下得到安宁）。",
+         "mußte … gehn：不得不去。mußte = musste。gehn = gehen（口语省掉 e）。zum Grabe = zu dem Grabe（古式与格 -e）：到坟前。",
+         "mit der Ruthe aufs Ärmchen schlagen：用棍子打在小手臂上。Ruthe = 今天的 Rute（细棍、鞭子）。aufs = auf das（宾格：打在……上，表示动作的落点）。",
+         "wie sie das gethan hatte：当她做了这件事之后。gethan = getan（tun 的过去分词）。过去完成时：hatte … gethan。",
+         "sich hineinziehen：缩回去（反身 + 可分动词）。zog … sich … hinein：拆开了。es 指 das Ärmchen。",
+         "nun erst：这才（直到这时才）。Ruhe haben：得到安宁。unter der Erde：在地下（与格，位置）。",
+         "这则故事讲「不听话的孩子会受惩罚」，是 19 世纪教育观念的产物。读的时候不妨留意格林童话的另一面。"]}
+ ]}
+]
