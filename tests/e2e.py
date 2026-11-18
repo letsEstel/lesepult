@@ -108,7 +108,7 @@ with sync_playwright() as p:
                         jb.click(); pg.wait_for_timeout(600)
                         ok(pg.locator(f"#s-{live[0]['id']}-0-0").count() == 1 and "第 " in pg.inner_text("#backLbl"), f"[{tag}] 点出处 → 回到第一章那一句，返回按钮写着章节")
             pg.goto(URL + f"#{cb}~home"); pg.wait_for_timeout(400)
-            ok("1 / " in pg.inner_text("#chlist .ch-row >> nth=0"), f"[{tag}] 目录显示本章进度")
+            ok("1 / " in pg.inner_text(f'#chlist .ch-row[data-route="{cb}~ch-{live[0]['id']}"]'), f"[{tag}] 目录显示本章进度")
             ok("继续" in pg.inner_text("#contLbl"), f"[{tag}] 「继续」按钮跨章节找下一句：{pg.inner_text('#contLbl')}")
             sid = f"{live[-1]['id']}-0-0"
             pg.goto(URL + f"#{cb}~s-{sid}"); pg.wait_for_timeout(600)

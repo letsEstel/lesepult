@@ -306,6 +306,8 @@ def zone_strings(lib):
             yield z, f"{z} chapter {ch.get('id')}", " ".join(str(ch.get(k, "")) for k in ("h", "t", "blurb", "pg"))
         for pre, pi, sec in it.sections():
             yield z, f"{z} {pre}§{pi} title", f"{sec.get('t', '')} {sec.get('h', '')} {sec.get('pg', '')}"
+            if sec.get("sum"):
+                yield z, f"{z} {pre}§{pi} 脉络", sec["sum"]
             for si, s in enumerate(sec.get("s", [])):
                 yield z, f"{z} {pre}§{pi}.{si+1} notes", " ".join(s.get("n", [])) + " " + s.get("pg", "")
                 yield z, f"{z} {pre}§{pi}.{si+1} zh", s.get("zh", "")

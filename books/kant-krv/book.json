@@ -1,0 +1,132 @@
+{
+ "id": "kant-krv",
+ "profile": "de-zh",
+ "title": "Kritik der reinen Vernunft",
+ "short": "纯粹理性批判",
+ "zh": "纯粹理性批判（选读）",
+ "author": "Immanuel Kant",
+ "year": "1787",
+ "level": "高阶 · 连载中",
+ "blurb": "三大批判之一。按康德自己的结构分 10 章，每章精读关键段落，省略的部分用「脉络」串起来，整条论证不断。第 6 章「真理之岛」已上线。",
+ "brandMark": "K",
+ "mast": "Kritik",
+ "eyebrow": "Immanuel Kant · Kritik der reinen Vernunft · 2. Auflage, Riga 1787",
+ "subtitle": "Kritik der reinen Vernunft · Zweite hin und wieder verbesserte Auflage",
+ "lede": "人能知道什么？康德的回答是：我们只能认识显现给我们的东西（现象），而它本身是什么（物自身），我们永远无法认识；但正是这个界限，给道德和信仰留出了地盘。这部书很长，这里不逐页读完，而是像一张思维导图：每章精读最关键的几段，中间省略的论证用「脉络」概述，让你能沿着康德的路一直走到底。",
+ "demo": [
+  "p",
+  0,
+  1
+ ],
+ "demoCaption": "真理之岛 · 点任意一个词",
+ "howto": [
+  {
+   "n": "第 1 步",
+   "h": "先打基础",
+   "p": "先学书架上的德语基础课，最好再读《什么是启蒙》和《纯粹理性批判·导言》。这里的句子常常一句占半页。"
+  },
+  {
+   "n": "第 2 步",
+   "h": "按章读，看「脉络」",
+   "p": "从目录进入。每章开头和段落之间的「脉络」框说明省略的部分讲了什么；精读的句子先开「语法」看骨架，再点词。"
+  },
+  {
+   "n": "第 3 步",
+   "h": "专题课",
+   "p": "每章配专题课：这一章在全书中的位置、关键术语，以及练习。"
+  }
+ ],
+ "intro": {
+  "eyebrow": "Zum Text",
+  "h": "本书专题课",
+  "p": "每章一到两节：这一章回答什么问题，关键术语怎么理解，和前后章怎样衔接。"
+ },
+ "slipEmpty": "点击正文中的任意德语词，这里会显示它的原形、词性、此处的格和用法。<br><br>康德的长句先找主干：主语、变位动词和句末的不定式或分词。",
+ "footer": "原文：Immanuel Kant, Kritik der reinen Vernunft, 2. Auflage, Riga: Hartknoch 1787（公有领域）。据 Projekt Gutenberg #6343 的转录（拼写已现代化），并对照学院版（AA III，1904/1911）改正了转录错误，改动处在注释里注明。页码为 B 版页码。分章与章名为本站所加。注释、讲解与中文译文为本站编写（AI 辅助）。",
+ "fontsHref": "https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,600;1,7..72,400&family=UnifrakturMaguntia&family=IBM+Plex+Mono:wght@400;500&family=Noto+Serif+SC:wght@400;600&display=swap",
+ "fonts": {
+  "text": "\"Literata\",Georgia,\"Times New Roman\",serif",
+  "mast": "\"UnifrakturMaguntia\",\"Literata\",Georgia,serif",
+  "trans": "\"Noto Serif SC\",\"Songti SC\",\"STSong\",\"SimSun\",serif"
+ },
+ "theme": {
+  "accent": "#25385f",
+  "accent2": "#34507f",
+  "accentSoft": "#e1e7f1",
+  "accentDark": "#9fb5e0",
+  "accent2Dark": "#bccbea",
+  "accentSoftDark": "#1b2539"
+ },
+ "description": "康德《纯粹理性批判》逐词精读，按章选读，「脉络」串起省略的论证。",
+ "chapters": [
+  {
+   "id": "v",
+   "h": "序言：思维方式的革命",
+   "t": "Vorrede",
+   "blurb": "形而上学是「无休止争吵的战场」；哥白尼式的革命：不是知识依照对象，而是对象依照我们的认识；「我必须扬弃知识，为信仰留出地盘」。",
+   "planned": true
+  },
+  {
+   "id": "e",
+   "h": "导言：先天综合判断如何可能",
+   "t": "Einleitung",
+   "blurb": "一切知识始于经验，却并不都出于经验；分析判断与综合判断；全书的总问题。（导言前两节另有一本单独精读，见书架。）",
+   "planned": true
+  },
+  {
+   "id": "a",
+   "h": "空间与时间",
+   "t": "Transzendentale Ästhetik",
+   "blurb": "空间和时间不是物自身的性质，而是我们感性直观的形式。",
+   "planned": true
+  },
+  {
+   "id": "k",
+   "h": "范畴与先验演绎",
+   "t": "Transzendentale Analytik · Deduktion",
+   "blurb": "「思维无内容是空的，直观无概念是盲的」；十二范畴；「我思必须能够伴随我的一切表象」。",
+   "planned": true
+  },
+  {
+   "id": "s",
+   "h": "图型法与原理",
+   "t": "Schematismus · Grundsätze",
+   "blurb": "「人类灵魂深处隐藏的技艺」；时间图型；经验的类比：实体常住、一切变化都有原因。",
+   "planned": true
+  },
+  {
+   "id": "p",
+   "h": "现象与本体：真理之岛",
+   "t": "Phaenomena und Noumena",
+   "blurb": "分析论的总结：知性只能作经验的使用。真理之岛被幻相之海包围；本体只是一个「界限概念」。"
+  },
+  {
+   "id": "d",
+   "h": "理性的幻相",
+   "t": "Transzendentale Dialektik",
+   "blurb": "先验幻相不可避免，像海面在远处看起来比岸边高；理性追求无条件者，产生灵魂、世界、上帝三个理念。",
+   "planned": true
+  },
+  {
+   "id": "n",
+   "h": "二律背反",
+   "t": "Die Antinomie der reinen Vernunft",
+   "blurb": "世界有没有开端？有没有自由？理性和自己打架，出路是先验观念论；自由与自然必然性可以并存。",
+   "planned": true
+  },
+  {
+   "id": "g",
+   "h": "上帝存在证明的不可能",
+   "t": "Das Ideal der reinen Vernunft",
+   "blurb": "「存在显然不是实在的谓词」；一百塔勒；本体论、宇宙论、自然神学证明都失败了。",
+   "planned": true
+  },
+  {
+   "id": "m",
+   "h": "方法论：理性的法规",
+   "t": "Transzendentale Methodenlehre",
+   "blurb": "「我能知道什么？我应当做什么？我可以希望什么？」只能学习哲学思考，不能学习哲学。",
+   "planned": true
+  }
+ ]
+}

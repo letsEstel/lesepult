@@ -260,6 +260,10 @@ td .ex,dt .ex{display:inline;margin:0;padding:0;background:none;border:0}
 .para-h{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 12px;border-bottom:1px solid var(--ink);padding-bottom:8px;margin-bottom:14px}
 .para-h h3{font:600 20px/1.35 var(--f-zh);margin:0}
 .para-h .ger{font:italic 15px var(--f-de);color:var(--ink-3)}
+/* "脉络": a summary of the text left out between two read passages, so the thread of the argument is not lost */
+.gap{position:relative;margin:0 0 18px;padding:12px 16px 12px 18px;border-left:3px solid var(--prussian-2);background:var(--prussian-soft);border-radius:0 10px 10px 0;font-size:14.5px;line-height:1.75;color:var(--ink-2)}
+.gap p{margin:0}.gap p+p{margin-top:6px}
+.gap-l{float:left;margin:2px 10px 0 0;font:500 11.5px var(--f-mono);letter-spacing:.08em;color:var(--prussian)}
 .sent{background:var(--sheet);border:1px solid var(--rule);border-radius:12px;padding:14px 16px 10px;margin-bottom:12px;scroll-margin-top:170px;min-width:0}
 .sent.ok{border-color:color-mix(in srgb,var(--ok) 45%,var(--rule))}
 .sent-num{font:500 12px var(--f-mono);color:var(--ink-3);display:flex;gap:8px;align-items:center}
@@ -916,7 +920,7 @@ function renderText(){
       '<button class="tg"'+go(pv)+' aria-label="上一章" title="上一章">←</button><button class="tg"'+go(nx)+' aria-label="下一章" title="下一章">→</button><button class="tg" data-route="'+esc(C.id)+'~toc">目录</button>';
     tail='<div class="chnext"><span class="lab">'+(after?'下一章':'全书完')+'</span>'+(after?chRow(after):'')+'<div><button class="btn" data-route="'+esc(C.id)+'~toc">回到目录</button></div></div>';
   }
-  $('#text').innerHTML=C.TEXT.map((p,pi)=>'<section class="para" id="p-'+pi+'"><div class="para-h"><h3>'+esc(p.h)+'</h3><span class="ger">'+esc(p.t||'')+'</span>'+(p.pg?'<span class="pg">'+esc(p.pg)+'</span>':'')+'</div>'+C.SENTS.filter(x=>x.pi===pi).map(sentHtml).join('')+'</section>').join('')+tail;
+  $('#text').innerHTML=C.TEXT.map((p,pi)=>'<section class="para" id="p-'+pi+'"><div class="para-h"><h3>'+esc(p.h)+'</h3><span class="ger">'+esc(p.t||'')+'</span>'+(p.pg?'<span class="pg">'+esc(p.pg)+'</span>':'')+'</div>'+(p.sum?'<div class="gap" data-linkok><span class="gap-l">脉络</span>'+p.sum.split('\n').map(x=>'<p>'+esc(x)+'</p>').join('')+'</div>':'')+C.SENTS.filter(x=>x.pi===pi).map(sentHtml).join('')+'</section>').join('')+tail;
   $('#ptoc').innerHTML=C.TEXT.map((p,pi)=>'<button class="pchip" data-p="'+pi+'" title="'+esc(p.h)+'">'+esc(p.k!=null?p.k:pi)+'<i></i></button>').join('');
   if(window.__io) window.__io.disconnect();
   if('IntersectionObserver' in window){ const io=window.__io=new IntersectionObserver(es=>{ es.forEach(en=>{ if(en.isIntersecting){ const pi=en.target.id.slice(2); $$('.pchip').forEach(b=>b.classList.toggle('cur',b.dataset.p===pi)); } }); },{rootMargin:'-45% 0px -50% 0px'}); $$('.para').forEach(p=>io.observe(p)); }
