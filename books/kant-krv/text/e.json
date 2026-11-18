@@ -1,0 +1,401 @@
+[
+ {
+  "h": "一 · 轻盈的鸽子",
+  "t": "Die leichte Taube",
+  "k": "1",
+  "pg": "B 7–9",
+  "sum": "导言的前两节（书架上另有一本《纯粹理性批判·导言》逐句精读）确立了两件事：① 一切知识都从经验开始，但并不因此都出于经验；② 「必然性」和「严格的普遍性」是先天知识的可靠标志，而这样的先天知识确实存在（数学、「每个变化都有原因」）。\n第三节更进一步：有些知识甚至离开了一切可能经验的领域，比如关于上帝、自由、灵魂不朽的知识。理性最在意的恰恰是这些问题：",
+  "s": [
+   {
+    "de": "Diese{np} unvermeidlichen Aufgaben der{gf} reinen Vernunft selbst sind Gott, Freiheit und Unsterblichkeit.",
+    "zh": "纯粹理性本身这些不可回避的课题就是：上帝、自由和不朽。",
+    "n": [
+     "拆解：主语 Diese unvermeidlichen Aufgaben der reinen Vernunft selbst（纯粹理性本身这些不可回避的课题）→ 变位动词 sind → 表语 Gott, Freiheit und Unsterblichkeit（上帝、自由和不朽）。",
+     "diese unvermeidlichen Aufgaben：复数主格，diese 后面形容词带 -en。der reinen Vernunft：阴性属格（理性的）。selbst：本身，修饰前面的 Vernunft。",
+     "Gott, Freiheit und Unsterblichkeit：这三个「理念」贯穿全书。纯粹理性批判的结论是：它们都不能被认识，却能被思维；实践理性批判再从道德出发重新给它们地位。",
+     "Unsterblichkeit：不朽（un- 不 + sterblich 会死的 + -keit）。"
+    ]
+   },
+   {
+    "de": "Durch einen{am} solchen Beweis von der{df} Macht der{gf} Vernunft eingenommen, sieht der{nm} Trieb zur Erweiterung keine{ap} Grenzen.",
+    "zh": "被这样一个证明理性力量的例子所吸引，扩展知识的冲动看不到任何边界。",
+    "n": [
+     "拆解：① 分词短语 Durch einen solchen Beweis von der Macht der Vernunft eingenommen（被这样一个关于理性力量的证明所迷住）占第一位，分词 eingenommen 在它的末尾。② 主句 sieht der Trieb zur Erweiterung keine Grenzen（扩展的冲动看不到边界）：动词 sieht 第二位，主语 der Trieb 在后。",
+     "「这样一个证明」指上文的数学：数学不靠经验就走得很远，让人以为理性在哪里都能这样。",
+     "eingenommen：einnehmen 的过去分词，这里是「被……迷住、占据」。durch … eingenommen：被……迷住。这种分词短语相当于一个省略了主语的从句（= weil er durch … eingenommen ist）。",
+     "der Trieb zur Erweiterung：扩展（知识）的冲动。zur = zu der。keine Grenzen：复数宾格，没有任何边界。"
+    ]
+   },
+   {
+    "de": "Die{nf} leichte Taube, indem sie{she} im freien Fluge die{af} Luft teilt, deren{rel:gf} Widerstand sie{she} fühlt, könnte die{af} Vorstellung fassen, daß es{expl} ihr im luftleeren Raum noch viel besser gelingen werde.",
+    "zh": "轻盈的鸽子在自由飞翔中划开空气，感到空气的阻力，也许会生出这样的想法：在没有空气的空间里，它会飞得更好。",
+    "n": [
+     "拆解：① 主语 Die leichte Taube（轻盈的鸽子）。② 插入从句 indem sie im freien Fluge die Luft teilt（当它在自由飞翔中划开空气时），里面又套了一个关系从句 deren Widerstand sie fühlt（它感到空气的阻力）。③ 主句的变位动词 könnte（也许会）+ 句末不定式 fassen：könnte die Vorstellung fassen（可能会形成一个想法）。④ 想法的内容 daß es ihr im luftleeren Raum noch viel besser gelingen werde（在真空里它会更成功）。",
+     "die Taube：鸽子（阴性），所以后面用 sie 和 ihr 指它，中文译「它」。",
+     "indem：当……时、在……的同时（连词，引导从句，动词 teilt 在末尾）。im freien Fluge：在自由的飞行中（Flug 的古式与格 -e）。die Luft teilen：划开空气。",
+     "deren：关系代词，阴性属格，指 die Luft：「空气的阻力」= deren Widerstand。属格关系代词后面直接跟名词，相当于「其……」。",
+     "könnte：können 的虚拟式二（第 22 课）：「也许会、可能会」。die Vorstellung fassen：形成一个想法。",
+     "es gelingt jm：某人成功（无人称 es + 与格）。es ihr … gelingen werde：它（鸽子）会成功。werde：werden 的虚拟式一（第 23 课），转述鸽子的想法。luftleer：没有空气的（真空的）。",
+     "古腾堡转录本此处作 noch viel l besser（多了一个 l），据学院版改正。",
+     "这只鸽子是康德最有名的比喻之一：空气的阻力恰恰是飞行的条件。经验对理性也是这样：它是限制，也是支撑。"
+    ]
+   },
+   {
+    "de": "Ebenso verließ Plato die{af} Sinnenwelt, weil sie{she} dem{dm} Verstande so enge Schranken setzt, und wagte sich{refl} jenseit derselben{gf}, auf den{dp} Flügeln der{gp} Ideen, in den{am} leeren Raum des{gm} reinen Verstandes.",
+    "zh": "柏拉图也是这样离开了感官世界，因为感官世界给知性设下了太窄的界限；他借着理念的翅膀，冒险越过感官世界，进入纯粹知性的虚空。",
+    "n": [
+     "拆解：① Ebenso verließ Plato die Sinnenwelt（柏拉图同样离开了感官世界）。② 原因从句 weil sie dem Verstande so enge Schranken setzt（因为它给知性设下如此狭窄的界限）。③ und wagte sich jenseit derselben … in den leeren Raum des reinen Verstandes（冒险越过它、进入纯粹知性的虚空）。插入 auf den Flügeln der Ideen（乘着理念的翅膀）。",
+     "verließ：verlassen（离开）的过去时。die Sinnenwelt：感官世界（Sinne 感官 + Welt）。",
+     "jm Schranken setzen：给某人设限。dem Verstande：与格（古式 -e）。sie 指 die Sinnenwelt。",
+     "sich wagen：冒险前往（反身动词）。jenseit derselben：在它的那一边（jenseit + 属格；今天写 jenseits）。derselben = der Sinnenwelt。",
+     "in den leeren Raum：进入空的空间（宾格，方向）。鸽子的比喻在这里落到实处：柏拉图就是那只以为真空里飞得更好的鸽子。"
+    ]
+   },
+   {
+    "de": "Er bemerkte nicht, daß er durch seine{af} Bemühungen keinen{am} Weg gewönne, denn er hatte keinen{am} Widerhalt, gleichsam zur Unterlage, worauf er sich{refl} steifen, und woran er seine{ap} Kräfte anwenden konnte, um den{am} Verstand von der{df} Stelle zu bringen.",
+    "zh": "他没有注意到，他的努力并没有让他前进一步；因为他没有任何支撑，可以说没有一块垫脚的东西，让他可以撑住自己、施加力量，从而推动知性离开原地。",
+    "n": [
+     "拆解：① Er bemerkte nicht（他没注意到）。② daß er durch seine Bemühungen keinen Weg gewönne（他的努力没有让他取得进展）。③ denn er hatte keinen Widerhalt, gleichsam zur Unterlage（因为他没有支撑，仿佛是个垫底的东西）。④ 两个关系从句说明 Widerhalt：worauf er sich steifen（他可以撑在上面），und woran er seine Kräfte anwenden konnte（可以在上面用力）——两个不定式共用最后的 konnte。⑤ um den Verstand von der Stelle zu bringen（为了推动知性）。",
+     "durch seine Bemühungen：通过他的努力（复数宾格；seine 后面 -e）。keinen Weg gewinnen：没有取得进展。gewönne：gewinnen 的虚拟式（第 22 课），这里表示转述「他以为」。",
+     "der Widerhalt：支撑点、反作用力（wider 反 + Halt 支撑）。gleichsam：仿佛、可以说。zur Unterlage：作为垫底。",
+     "worauf = auf den / auf dem（在它上面），woran = an dem（在它上面）：wo- 开头的关系副词，指 Widerhalt（第 20 课讲 wo- 代副词）。sich steifen：撑住自己。",
+     "um … zu bringen：为了……（um … zu 表示目的，第 19 课）。von der Stelle bringen：使离开原地、推动。",
+     "物理学的图景：要向前推，就必须有东西可蹬。经验就是理性脚下的地面。"
+    ]
+   },
+   {
+    "de": "Es{expl} ist aber ein{nn} gewöhnliches Schicksal der{gf} menschlichen Vernunft in der{df} Spekulation, ihr{an} Gebäude so früh, wie möglich, fertigzumachen, und hintennach allererst zu untersuchen, ob auch der{nm} Grund dazu gut gelegt sei.",
+    "zh": "然而人类理性在思辨中常有的命运是：尽可能早地把它的大厦建好，事后才去检查，地基到底打得好不好。",
+    "n": [
+     "拆解：① Es ist aber ein gewöhnliches Schicksal der menschlichen Vernunft in der Spekulation（这是人类理性在思辨中常有的命运）：es 预指后面的不定式。② 真正的内容是两个 zu-不定式：ihr Gebäude so früh wie möglich fertigzumachen（尽早建好大厦）und hintennach allererst zu untersuchen（事后才去检查）。③ 检查的内容 ob auch der Grund dazu gut gelegt sei（地基是否打好了）。",
+     "es ist …, … zu tun：预指的 es（第 11 课）：es 先占位，后面的 zu-不定式才是真正的主语。",
+     "fertigzumachen：fertigmachen（做完）的 zu-不定式，zu 插在前缀和动词中间（第 9 课）。so früh, wie möglich：尽可能早。",
+     "hintennach：事后。allererst：才（加强语气的 erst）。",
+     "ob …：是否……。der Grund dazu：为它打的地基。gelegt sei：sei 是虚拟式一（第 23 课），间接问句里常用。",
+     "建筑的比喻贯穿全书：批判就是在盖房子之前先检查地基。"
+    ]
+   }
+  ]
+ },
+ {
+  "h": "二 · 分析判断与综合判断",
+  "t": "Analytische und synthetische Urteile",
+  "k": "2",
+  "pg": "B 10–12",
+  "sum": "第三节接着说：理性的工作有一大部分只是「分解」我们已有的概念，这能给出可靠的先天知识；理性于是不知不觉地把另一种完全不同的主张也偷运进来——给概念加上概念里本来没有的东西。所以康德要先把这两种知识分清楚（第四节）：",
+  "s": [
+   {
+    "de": "In allen{dp} Urteilen, worinnen das{nn} Verhältnis eines{gn} Subjekts zum Prädikat gedacht wird, (wenn ich nur die{ap} bejahenden erwäge, denn auf die{ap} verneinenden ist nachher die{nf} Anwendung leicht,) ist dieses{nn} Verhältnis auf zweierlei Art möglich.",
+    "zh": "在一切思维主词与谓词关系的判断中（我只考虑肯定判断，因为之后应用到否定判断上很容易），这种关系有两种可能的方式。",
+    "n": [
+     "拆解：① In allen Urteilen（在一切判断中）占第一位。② 关系从句 worinnen das Verhältnis eines Subjekts zum Prädikat gedacht wird（在其中主词与谓词的关系被思维）。③ 括号插入（wenn ich nur die bejahenden erwäge, denn …）。④ 主句的变位动词 ist → 主语 dieses Verhältnis → auf zweierlei Art möglich（有两种可能的方式）。",
+     "worinnen = worin（在其中，旧式），指 Urteilen。gedacht wird：被思维（被动态 werden + 分词，第 21 课）。",
+     "das Subjekt：主词（判断里被谈论的东西）；das Prädikat：谓词（说它是什么的部分）。「物体是有广延的」：物体是主词，有广延是谓词。",
+     "die bejahenden（Urteile）：肯定的判断；die verneinenden：否定的判断。形容词名词化，后面省了 Urteile。erwägen：考虑。",
+     "auf zweierlei Art：以两种方式。zweierlei：两种的（不变格）。"
+    ]
+   },
+   {
+    "de": "Entweder das{nn} Prädikat B gehört zum Subjekt A als etwas, was in diesem{dm} Begriffe A (versteckterweise) enthalten ist; oder B liegt ganz außer dem{dm} Begriff A, ob es{it} zwar mit demselben{dm} in Verknüpfung steht.",
+    "zh": "要么谓词 B 作为某种（隐含地）包含在概念 A 中的东西而属于主词 A；要么 B 完全在概念 A 之外，虽然它和 A 有联系。",
+    "n": [
+     "拆解：entweder …; oder …（要么……要么……）。① das Prädikat B gehört zum Subjekt A als etwas（谓词 B 作为某种东西属于主词 A）+ was in diesem Begriffe A enthalten ist（它包含在概念 A 中）。② B liegt ganz außer dem Begriff A（B 完全在 A 之外）+ ob es zwar mit demselben in Verknüpfung steht（虽然它和 A 相联系）。",
+     "entweder 后面的句子语序：entweder 不占位，所以 das Prädikat B 在第一位，gehört 第二位。",
+     "etwas, was …：某种……的东西（was 引导关系从句）。enthalten ist：被包含（状态）。versteckterweise：隐藏地、隐含地。",
+     "außer dem Begriff：在概念之外（außer + 与格）。ob … zwar：虽然（= obwohl，旧式）。mit demselben in Verknüpfung stehen：和它有联系。demselben = dem Begriff A。",
+     "这就是区分的标准：谓词在不在主词概念里面。"
+    ]
+   },
+   {
+    "de": "Im ersten Fall nenne ich das{an} Urteil analytisch, in dem{dm} andern synthetisch.",
+    "zh": "第一种情况，我称这个判断为分析的；另一种情况，称为综合的。",
+    "n": [
+     "拆解：Im ersten Fall（在第一种情况下）→ nenne ich（我称）→ das Urteil analytisch（这个判断为分析的）。后半句 in dem andern (nenne ich es) synthetisch 省掉了重复的部分。",
+     "jn / etw. + Adjektiv nennen：称某物为……。das Urteil 是宾格，analytisch 是对它的称呼。",
+     "analytisch：分析的（来自希腊语「解开」）；synthetisch：综合的（来自希腊语「放到一起」）。"
+    ]
+   },
+   {
+    "de": "Die{np} ersteren könnte man auch Erläuterungs-, die{np} andern Erweiterungs-Urteile heißen, weil jene{np} durch das{an} Prädikat nichts zum Begriff des{gn} Subjekts hinzutun, sondern diesen{am} nur durch Zergliederung in seine{ap} Teilbegriffe zerfällen, die{rel:np} in selbigem schon (obgleich verworren) gedacht waren: dahingegen die{np} letzteren zu dem{dm} Begriffe des{gn} Subjekts ein{an} Prädikat hinzutun, welches{nn} in jenem{dm} gar nicht gedacht war, und durch keine{af} Zergliederung desselben{gm} hätte können herausgezogen werden.",
+    "zh": "前者也可以叫作说明判断，后者叫作扩展判断。因为前者通过谓词并没有给主词概念增加什么，只是通过分解，把主词概念拆成它的部分概念，而这些部分概念在主词中早已（虽然模糊地）被思维了；相反，后者给主词概念加上一个谓词，这个谓词在主词概念中根本没有被思维，也不可能通过对它的任何分解抽取出来。",
+    "n": [
+     "拆解：① 主句 Die ersteren könnte man auch Erläuterungs-, die andern Erweiterungs-Urteile heißen（前者可称为说明判断，后者为扩展判断）。② weil 从句的前半：jene … nichts … hinzutun, sondern diesen nur … zerfällen（前者不添加什么，只是分解它），关系从句 die … gedacht waren 说明 Teilbegriffe。③ 冒号后 dahingegen die letzteren … ein Prädikat hinzutun（后者却添加一个谓词）+ 关系从句 welches … gedacht war, und … hätte können herausgezogen werden。",
+     "die ersteren / die letzteren：前者 / 后者（复数）。jene = die ersteren，diesen = den Begriff des Subjekts。man könnte … heißen：人们可以称……（heißen 在旧德语里 = nennen）。",
+     "Erläuterungs-：连字符表示和后面的 -Urteile 共用：Erläuterungsurteile（说明判断）、Erweiterungsurteile（扩展判断）。这是全书最常引用的一对术语。",
+     "zum Begriff hinzutun：加到概念上。durch Zergliederung in seine Teilbegriffe zerfällen：通过分解拆成部分概念。in selbigem = in demselben（在它里面，旧式；指主词概念）。古腾堡转录本作 selbigen，据学院版改为 selbigem。obgleich verworren：虽然模糊。",
+     "hätte können herausgezogen werden：本来不可能被抽出来（虚拟式二 + 情态动词 + 被动）。在从句里，情态动词的双不定式前置：hätte 跑到了 können herausgezogen werden 前面（第 10 课预告过的双不定式）。"
+    ]
+   },
+   {
+    "de": "Z.B. wenn ich sage: alle{np} Körper sind ausgedehnt, so ist dies ein{nn} analytisch Urteil.",
+    "zh": "例如，我说「一切物体都有广延」，这就是一个分析判断。",
+    "n": [
+     "拆解：wenn ich sage: …（如果我说……）→ 主句 so ist dies ein analytisch Urteil（那么这是一个分析判断）。so 呼应 wenn。",
+     "Z.B. = zum Beispiel（例如）。学院版作 Z. B.。",
+     "alle Körper sind ausgedehnt：一切物体都有广延（占据空间）。ausgedehnt：有广延的（ausdehnen 的分词）。「物体」这个概念里本来就含着「占据空间」，所以只需分析概念。",
+     "ein analytisch Urteil：形容词没有词尾，是 18 世纪的写法（今天要说 ein analytisches Urteil）。"
+    ]
+   },
+   {
+    "de": "Dagegen, wenn ich sage: alle{np} Körper sind schwer, so ist das{nn} Prädikat etwas ganz anderes, als das{dem:nn}, was ich in dem{dm} bloßen Begriff eines{gm} Körpers überhaupt denke.",
+    "zh": "相反，如果我说「一切物体都有重量」，那么这个谓词就是某种完全不同于我在一般物体的单纯概念中所思维的东西。",
+    "n": [
+     "拆解：Dagegen（相反）→ wenn ich sage: alle Körper sind schwer（如果我说一切物体都有重量）→ 主句 so ist das Prädikat etwas ganz anderes（谓词是完全不同的东西）→ als das, was ich … denke（不同于我所思维的东西）。",
+     "etwas ganz anderes als …：和……完全不同的东西。das, was …：……的东西（指示代词 + was-从句）。",
+     "schwer：有重量的。「重」要靠经验才知道：概念「物体」里并没有「重量」。",
+     "in dem bloßen Begriff eines Körpers überhaupt：在一般物体的单纯概念里。überhaupt：一般地、总体上。"
+    ]
+   },
+   {
+    "de": "Die{nf} Hinzufügung eines{gn} solchen Prädikats gibt also ein{an} synthetisch Urteil.",
+    "zh": "所以加上这样一个谓词，就给出一个综合判断。",
+    "n": [
+     "拆解：主语 Die Hinzufügung eines solchen Prädikats（加上这样一个谓词）→ gibt（给出）→ 宾语 ein synthetisch Urteil（一个综合判断）。",
+     "die Hinzufügung：添加（hinzufügen 的名词，-ung）。eines solchen Prädikats：属格（这样一个谓词的）。",
+     "ein synthetisch Urteil：同上，形容词无词尾的旧写法。"
+    ]
+   },
+   {
+    "de": "Erfahrungsurteile, als solche, sind insgesamt synthetisch.",
+    "zh": "经验判断，作为经验判断，全都是综合的。",
+    "n": [
+     "拆解：主语 Erfahrungsurteile（经验判断）+ 插入 als solche（作为这样的判断）→ sind → insgesamt synthetisch（全都是综合的）。",
+     "als solche：作为这样的（东西）。insgesamt：全部。",
+     "康德接着解释：分析判断用不着经验（只要分析概念），所以凡是要靠经验的判断都是综合的。真正的难题在下面：有没有既是综合的、又是先天的判断？"
+    ]
+   }
+  ]
+ },
+ {
+  "h": "三 · 未知的 X",
+  "t": "Das Unbekannte = X",
+  "k": "3",
+  "pg": "B 13",
+  "sum": "经验判断之所以能「综合」，是因为经验把两个概念连在一起：我从经验里知道物体有重量。但如果判断是先天的，这个帮手就不在了：",
+  "s": [
+   {
+    "de": "Aber bei synthetischen Urteilen a priori fehlt dieses{nn} Hilfsmittel ganz und gar.",
+    "zh": "但在先天综合判断中，这个辅助手段就完全没有了。",
+    "n": [
+     "拆解：Aber bei synthetischen Urteilen a priori（但在先天综合判断中）→ fehlt（缺少）→ 主语 dieses Hilfsmittel（这个辅助手段）→ ganz und gar（完全）。",
+     "bei + 与格：在……的情况下。synthetischen Urteilen：复数与格（加 -n）。",
+     "a priori：先天的（拉丁语，「从在先的」）：不依赖经验。dieses Hilfsmittel 指经验。",
+     "jm fehlt etw.：缺少。ganz und gar：完全、彻底。"
+    ]
+   },
+   {
+    "de": "Man nehme den{am} Satz: Alles, was geschieht, hat seine{af} Ursache.",
+    "zh": "我们拿这个命题来看：一切发生的事情都有它的原因。",
+    "n": [
+     "拆解：Man nehme den Satz（我们拿这个命题来看）+ 冒号后的命题 Alles, was geschieht, hat seine Ursache（一切发生的事都有其原因）。",
+     "man nehme：虚拟式一表示建议、要求（「让我们取……」），第 23 课细讲。数学书里的「设……」也是这个形式。",
+     "Alles, was geschieht：一切发生的事情（alles + was-从句）。hat seine Ursache：有它的原因。",
+     "这就是休谟怀疑过的因果律：「发生的事」这个概念里并不含「原因」，可我们却说它必然有原因。"
+    ]
+   },
+   {
+    "de": "Was ist hier das{nn} Unbekannte = X, worauf sich{refl} der{nm} Verstand stützt, wenn er außer dem{dm} Begriff von A ein{an} demselben{dm} fremdes Prädikat B aufzufinden glaubt, welches{an} er gleichwohl damit verknüpft zu sein erachtet?",
+    "zh": "当知性相信在概念 A 之外找到了一个和 A 陌生的谓词 B，却又认为 B 和 A 联结在一起时，知性所依靠的那个未知的 X 到底是什么？",
+    "n": [
+     "拆解：① 主问句 Was ist hier das Unbekannte = X（这里那个未知的 X 是什么）。② 关系从句 worauf sich der Verstand stützt（知性依靠它）。③ wenn 从句 wenn er … ein … Prädikat B aufzufinden glaubt（当知性以为找到了谓词 B）。④ 关系从句 welches er gleichwohl damit verknüpft zu sein erachtet（知性却认为 B 和 A 联结在一起）。",
+     "das Unbekannte：未知的东西（形容词名词化）。= X：等于 X，像代数里的未知数。学院版作小写 x。",
+     "worauf sich … stützt：sich auf etw. stützen（依靠某物），worauf = auf das（指 das Unbekannte）。",
+     "ein demselben fremdes Prädikat B：一个对它（A）来说陌生的谓词 B。这是扩展定语（第 24 课）：demselben fremdes 夹在冠词 ein 和名词之间，fremd + 与格（对……陌生）。",
+     "aufzufinden glaubt：相信找到了（glauben + zu-不定式）。verknüpft zu sein erachtet：认为（它）是联结在一起的。erachten：认为。gleichwohl：然而、尽管如此。",
+     "全书要找的就是这个 X。答案在第 4、5 章：X 是「可能经验」，靠直观的形式（空间、时间）和知性的范畴撑起来。"
+    ]
+   }
+  ]
+ },
+ {
+  "h": "四 · 7 + 5 = 12",
+  "t": "Mathematische Urteile sind synthetisch",
+  "k": "4",
+  "pg": "B 14–16",
+  "sum": "第五节证明：先天综合判断确实存在，而且就在一切理论科学的根基处。首先是数学。在康德之前，人们（包括莱布尼茨的追随者）以为数学命题都是分析的，只靠矛盾律就能证明。康德说：",
+  "s": [
+   {
+    "de": "Mathematische Urteile sind insgesamt synthetisch.",
+    "zh": "数学判断全都是综合的。",
+    "n": [
+     "拆解：主语 Mathematische Urteile（数学判断）→ sind → insgesamt synthetisch（全都是综合的）。",
+     "这是康德最大胆、也最受争议的论断之一。原文前面有编号「1.」，后面还有「2.」自然科学、「3.」形而上学。"
+    ]
+   },
+   {
+    "de": "Man sollte anfänglich zwar denken: daß der{nm} Satz 7 + 5 = 12 ein{nm} bloß analytischer Satz sei, der{rel:nm} aus dem{dm} Begriffe einer{gf} Summe von Sieben und Fünf nach dem{dm} Satze des{gm} Widerspruches erfolge.",
+    "zh": "起初人们自然会想：7 + 5 = 12 这个命题是一个单纯的分析命题，它依照矛盾律从「七与五之和」这个概念中得出。",
+    "n": [
+     "拆解：① Man sollte anfänglich zwar denken（人们起初本会想）。② 想的内容 daß der Satz 7 + 5 = 12 ein bloß analytischer Satz sei（7 + 5 = 12 是一个单纯分析的命题）。③ 关系从句 der aus dem Begriffe einer Summe … nach dem Satze des Widerspruches erfolge（它依照矛盾律从……概念中得出）。",
+     "man sollte … denken：人们本会想（sollte 在这里表示「按理说会」）。zwar：诚然（预告后面有 allein / aber 转折）。",
+     "sei、erfolge：虚拟式一（第 23 课），表示这是别人的看法，不是康德的。",
+     "der Satz des Widerspruches：矛盾律（一个东西不能既是 A 又是非 A）。分析判断只靠它就能证明。",
+     "von Sieben und Fünf：七和五（数词当名词用，大写）。"
+    ]
+   },
+   {
+    "de": "Der{nm} Begriff von Zwölf ist keineswegs dadurch schon gedacht, daß ich mir bloß jene{af} Vereinigung von Sieben und Fünf denke, und, ich mag meinen{am} Begriff von einer{df} solchen möglichen Summe noch solange zergliedern, so werde ich doch darin die{af} Zwölf nicht antreffen.",
+    "zh": "我只是想到七和五的结合，「十二」这个概念绝不会因此就已被思维；我尽可以把关于这样一个可能之和的概念分析得再久，在其中也找不到十二。",
+    "n": [
+     "拆解：① Der Begriff von Zwölf ist keineswegs dadurch schon gedacht（十二的概念绝没有因此就被思维）+ daß ich mir bloß jene Vereinigung von Sieben und Fünf denke（因为我只想到七和五的结合）：dadurch 预指后面的 daß-从句。② 让步 ich mag meinen Begriff … noch solange zergliedern（不管我把概念分析多久）。③ so werde ich doch darin die Zwölf nicht antreffen（我在其中还是找不到十二）。",
+     "dadurch …, daß …：通过……这一点（da- 代副词预指从句，第 20 课）。sich etw. denken：设想某物（与格反身，第 11 课）。",
+     "ich mag … noch solange zergliedern：不管我分析多久。mag 在这里表示让步（第 10 课讲过 mögen 的「尽管」义）。",
+     "werde … antreffen：werden + 不定式 = 将来时（第 17 课），这里是「（无论如何）都不会找到」。darin = in dem Begriff。"
+    ]
+   },
+   {
+    "de": "Man muß über diese{ap} Begriffe hinausgehen, indem man die{af} Anschauung zu Hilfe nimmt, die{rel:nf} einem von beiden korrespondiert, etwa seine{ap} fünf Finger, oder (wie Segner in seiner{df} Arithmetik) fünf Punkte, und so nach und nach die{ap} Einheiten der{gf} in der{df} Anschauung gegebenen Fünf zu dem{dm} Begriffe der{gf} Sieben hinzutut.",
+    "zh": "人们必须超出这些概念，借助与其中一个数相对应的直观，比如自己的五根手指，或者（像泽格纳在他的《算术》里那样）五个点，把直观中给出的「五」的单位一个一个地加到「七」的概念上去。",
+    "n": [
+     "拆解：① Man muß über diese Begriffe hinausgehen（必须超出这些概念）。② indem man die Anschauung zu Hilfe nimmt（借助直观）：die Anschauung 后面接关系从句 die einem von beiden korrespondiert（与两者之一相对应的直观），再举例 etwa seine fünf Finger, oder … fünf Punkte。③ und so nach und nach die Einheiten … zu dem Begriffe der Sieben hinzutut（并这样逐个把单位加到七上）：这一段仍属于 indem 从句，动词 hinzutut 在末尾。",
+     "über etw. hinausgehen：超出某物（可分动词；情态动词 muß 让它保持完整，在句末）。",
+     "die Anschauung：直观（直接呈现在感官或想象中的东西）。这是康德的关键词：概念只是思维，直观才给出对象。zu Hilfe nehmen：借助。",
+     "einem von beiden：两者之一（与格）。korrespondieren + 与格：对应于。",
+     "die Einheiten der in der Anschauung gegebenen Fünf：在直观中给出的「五」的单位。扩展定语：in der Anschauung gegebenen 夹在 der 和 Fünf 之间（第 24 课）。",
+     "Segner：约翰·安德烈亚斯·冯·泽格纳（1704–1777），数学家，他的算术教科书用点来表示数。"
+    ]
+   },
+   {
+    "de": "Daß die{nf} gerade Linie zwischen zwei Punkten die{nf} kürzeste sei, ist ein{nm} synthetischer Satz.",
+    "zh": "两点之间直线最短，这是一个综合命题。",
+    "n": [
+     "拆解：daß-从句 Daß die gerade Linie zwischen zwei Punkten die kürzeste sei（两点之间直线最短）整个充当主语，占第一位 → ist → ein synthetischer Satz。",
+     "主语从句：daß-从句可以当主语，后面的主句直接从变位动词开始。",
+     "die kürzeste：最短的（kurz 的最高级，第 15 课）。sei：虚拟式一，在 daß-从句里转述一个命题。",
+     "古腾堡转录本作 ein synthetischen Satz，据学院版改为 synthetischer。"
+    ]
+   },
+   {
+    "de": "Denn mein{nm} Begriff vom Geraden enthält nichts von Größe, sondern nur eine{af} Qualität.",
+    "zh": "因为我关于「直」的概念不包含任何关于大小的东西，只包含一种性质。",
+    "n": [
+     "拆解：Denn（因为，不占位）→ 主语 mein Begriff vom Geraden（我关于直的概念）→ enthält → nichts von Größe, sondern nur eine Qualität（不含大小，只含一种性质）。",
+     "vom Geraden：关于直的（东西）。das Gerade：直（形容词名词化）。",
+     "「直」是一种质，「最短」是一种量：量的概念是外加上去的，要靠在直观中画线才能看出。所以这个命题是综合的。"
+    ]
+   }
+  ]
+ },
+ {
+  "h": "五 · 总问题",
+  "t": "Wie sind synthetische Urteile a priori möglich?",
+  "k": "5",
+  "pg": "B 19–22",
+  "sum": "第五节接着指出：自然科学的原理（物质的量守恒、作用等于反作用）也是先天综合判断；形而上学至少按它的目的来说，完全由先天综合命题组成（例如「世界必定有一个开端」）。于是第六节把整个研究归结为一个问题：",
+  "s": [
+   {
+    "de": "Die{nf} eigentliche Aufgabe der{gf} reinen Vernunft ist nun in der{df} Frage enthalten: Wie sind synthetische Urteile a priori möglich?",
+    "zh": "纯粹理性真正的课题就包含在这个问题中：先天综合判断是如何可能的？",
+    "n": [
+     "拆解：主语 Die eigentliche Aufgabe der reinen Vernunft（纯粹理性真正的课题）→ ist … enthalten（被包含在）→ in der Frage（在这个问题中）→ 冒号后的问题本身。",
+     "ist … enthalten：包含在……中（状态）。",
+     "Wie sind synthetische Urteile a priori möglich?：全书的总问题。注意它问的是「如何」可能，而不是「是否」可能：第五节已经证明它们存在（数学、物理），现在要解释它们凭什么成立。"
+    ]
+   },
+   {
+    "de": "Daß die{nf} Metaphysik bisher in einem{dm} so schwankenden Zustande der{gf} Ungewißheit und Widersprüche geblieben ist, ist lediglich der{df} Ursache zuzuschreiben, daß man sich diese{af} Aufgabe und vielleicht sogar den{am} Unterschied der{gp} analytischen und synthetischen Urteile nicht früher in Gedanken kommen ließ.",
+    "zh": "形而上学至今一直停留在这样一种摇摆不定、充满不确定和矛盾的状态中，完全只能归因于：人们以前从没想到过这个课题，甚至可能没想到过分析判断和综合判断的区别。",
+    "n": [
+     "拆解：① 主语从句 Daß die Metaphysik bisher in einem so schwankenden Zustande … geblieben ist（形而上学至今停留在……状态）。② 主句 ist lediglich der Ursache zuzuschreiben（只能归因于这个原因）。③ 原因的内容 daß man sich diese Aufgabe und … den Unterschied … nicht früher in Gedanken kommen ließ（人们没有早一点想到这个课题和这个区别）。",
+     "geblieben ist：完成时（第 16 课），sein + 分词。der Ungewißheit und Widersprüche：属格（不确定和矛盾的）。",
+     "etw. einer Sache zuschreiben：把某事归因于……（与格 der Ursache）。ist … zuzuschreiben：sein + zu-不定式 = 「应当 / 只能被……」（第 25 课）。lediglich：仅仅。",
+     "sich etw. in Gedanken kommen lassen：让某事进入自己的思想，即「想到」。ließ：lassen 的过去时。"
+    ]
+   },
+   {
+    "de": "Auf der{df} Auflösung dieser{gf} Aufgabe, oder einem{dm} genugtuenden Beweise, daß die{nf} Möglichkeit, die{rel:af} sie{she} erklärt zu wissen verlangt, in der{df} Tat gar nicht stattfinde, beruht nun das{nn} Stehen und Fallen der{gf} Metaphysik.",
+    "zh": "形而上学的成败就取决于这个课题的解答，或者一个令人满意的证明：证明它所要求解释的那种可能性实际上根本不存在。",
+    "n": [
+     "拆解：① 很长的第一位：Auf der Auflösung dieser Aufgabe, oder einem genugtuenden Beweise（在这个课题的解答上，或在一个充分的证明上）。② 证明的内容 daß die Möglichkeit … in der Tat gar nicht stattfinde（这种可能性实际上并不存在），中间套关系从句 die sie erklärt zu wissen verlangt（这个课题要求解释的那种可能性）。③ 主句的变位动词 beruht（取决于）→ 主语 das Stehen und Fallen der Metaphysik（形而上学的成败）。",
+     "auf etw. beruhen：取决于、建立在……上。所以整个 auf …-短语都是 beruht 的补足语，被提到了句首。读法：先找变位动词 beruht，再回头把 auf … 接上。",
+     "genugtuend：令人满意的、充分的。stattfinden：发生、成立（可分动词，从句里不拆开）；stattfinde 是虚拟式一。",
+     "die sie erklärt zu wissen verlangt：sie = die Aufgabe；etw. erklärt zu wissen verlangen：要求得到解释（字面：要求知道它被解释了）。",
+     "das Stehen und Fallen：存亡、成败（两个动词名词化）。"
+    ]
+   },
+   {
+    "de": "Wie ist reine Mathematik möglich?",
+    "zh": "纯粹数学是如何可能的？",
+    "n": [
+     "第六节把总问题分成四个问题。前两个问的是已经存在的科学：它们确实存在，所以只问「如何」可能。",
+     "答案在第 3 章（空间与时间）：数学依靠空间和时间这两种先天直观形式。"
+    ]
+   },
+   {
+    "de": "Wie ist reine Naturwissenschaft möglich?",
+    "zh": "纯粹自然科学是如何可能的？",
+    "n": [
+     "答案在第 4、5 章（范畴、先验演绎、原理）：知性的范畴给自然立法。",
+     "Naturwissenschaft：自然科学（Natur + Wissenschaft）。reine：纯粹的，指物理学中不靠经验的那一部分原理。"
+    ]
+   },
+   {
+    "de": "Wie ist Metaphysik als Naturanlage möglich?",
+    "zh": "作为自然倾向的形而上学是如何可能的？",
+    "n": [
+     "第三个问题：形而上学作为科学还不存在，但作为人类理性的「自然倾向」却到处都有：人总会问世界有没有开端、灵魂是否不朽。为什么理性会提出这些问题？",
+     "die Naturanlage：天性、自然禀赋（Natur + Anlage）。als：作为。答案在第 7–9 章（理性的幻相、二律背反、上帝存在证明）。"
+    ]
+   },
+   {
+    "de": "Wie ist Metaphysik als Wissenschaft möglich?",
+    "zh": "作为科学的形而上学是如何可能的？",
+    "n": [
+     "第四个问题，也是全书最终的问题：理性能否在这些问题上达到确定性，或者至少确定地知道自己的界限？",
+     "康德的回答（第 10 章和序言）：作为对理性界限的确切知识，形而上学可以成为科学；而这条界限也为道德和信仰留出了地盘。"
+    ]
+   },
+   {
+    "de": "Die{nf} Kritik der{gf} Vernunft führt also zuletzt notwendig zur Wissenschaft; der{nm} dogmatische Gebrauch derselben{gf} ohne Kritik dagegen auf grundlose Behauptungen, denen{rel:dp} man ebenso scheinbare entgegensetzen kann, mithin zum Skeptizismus.",
+    "zh": "所以，理性的批判最终必然通向科学；相反，不经批判而独断地使用理性，则会通向毫无根据的主张，人们可以提出同样貌似有理的相反主张来反对它们，因而通向怀疑论。",
+    "n": [
+     "拆解：分号前后对照。① Die Kritik der Vernunft führt also zuletzt notwendig zur Wissenschaft（理性批判最终必然通向科学）。② der dogmatische Gebrauch derselben ohne Kritik dagegen (führt) auf grundlose Behauptungen（不经批判的独断使用通向无根据的主张）：省掉了重复的 führt。③ 关系从句 denen man ebenso scheinbare entgegensetzen kann（人们可以拿同样貌似有理的主张去对抗它们）。④ mithin zum Skeptizismus（因而通向怀疑论）。",
+     "zu etw. führen / auf etw. führen：通向。derselben = der Vernunft。",
+     "denen：关系代词复数与格，指 Behauptungen。jm etw. entgegensetzen：拿某物对抗某物。ebenso scheinbare (Behauptungen)：同样貌似有理的（主张）。",
+     "dogmatisch（独断的）→ 二律背反 → 怀疑论：这条路正是序言里说的「战场」。批判是第三条路。"
+    ]
+   }
+  ]
+ },
+ {
+  "h": "六 · 先验的 · 两个主干",
+  "t": "Transzendental · Zwei Stämme",
+  "k": "6",
+  "pg": "B 25, 29",
+  "sum": "第七节说明这门新科学叫什么：一门只审查纯粹理性的来源和界限、而不急于扩展知识的学问，只能叫「纯粹理性批判」。它的作用首先是消极的：不是扩展，而是净化理性，使它免于错误。接着康德给出了全书最重要的术语之一：",
+  "s": [
+   {
+    "de": "Ich nenne alle{af} Erkenntnis transzendental, die{rel:nf} sich{refl} nicht sowohl mit Gegenständen, sondern mit unserer{df} Erkenntnisart von Gegenständen, insofern diese{nf} a priori möglich sein soll, überhaupt beschäftigt.",
+    "zh": "我把一切不是处理对象、而是处理我们对对象的认识方式——就这种认识方式应当是先天可能的而言——的知识，称为先验的。",
+    "n": [
+     "拆解：① 主句 Ich nenne alle Erkenntnis transzendental（我称一切知识为先验的）。② 关系从句 die sich nicht sowohl mit Gegenständen, sondern mit unserer Erkenntnisart von Gegenständen … überhaupt beschäftigt（它不是处理对象，而是处理我们对对象的认识方式）。③ 插入的 insofern diese a priori möglich sein soll（只要这种认识方式是先天可能的）。",
+     "jn / etw. + Adjektiv nennen：称……为……（和第二部分的 nenne ich das Urteil analytisch 一样）。alle Erkenntnis：单数（一切知识），关系代词 die 是阴性单数。",
+     "sich mit etw. beschäftigen：从事、处理（反身动词，第 11 课）。nicht sowohl … sondern：与其说是……不如说是……（旧式，今天说 nicht so sehr … sondern）。",
+     "die Erkenntnisart：认识方式（Erkenntnis + Art）。insofern：就……而言。diese = die Erkenntnisart。möglich sein soll：应当是可能的（sollen 表示要求、前提）。",
+     "transzendental（先验的）≠ transzendent（超验的、超出经验的）。先验的知识不是关于超出经验的对象，而是关于「我们怎样先天地认识对象」：认识的条件。"
+    ]
+   },
+   {
+    "de": "Ein{nn} System solcher{gp} Begriffe würde Transzendental-Philosophie heißen.",
+    "zh": "这样一些概念的体系，可以叫作先验哲学。",
+    "n": [
+     "拆解：主语 Ein System solcher Begriffe（这样一些概念的体系）→ würde … heißen（会叫作）→ Transzendental-Philosophie。",
+     "solcher Begriffe：复数属格（这样一些概念的）。würde + 不定式：虚拟式二（第 22 课），「会、可以」。",
+     "康德说，这本书还不是完整的先验哲学，只是它的「完整理念」：它分析概念只到够用为止。"
+    ]
+   },
+   {
+    "de": "Nur so viel scheint zur Einleitung, oder Vorerinnerung, nötig zu sein, daß es{expl} zwei Stämme der{gf} menschlichen Erkenntnis gebe, die{rel:np} vielleicht aus einer{df} gemeinschaftlichen, aber uns unbekannten Wurzel entspringen, nämlich Sinnlichkeit und Verstand, durch deren{rel:gp} ersteren uns Gegenstände gegeben, durch den{am} zweiten aber gedacht werden.",
+    "zh": "作为导言或预先的提醒，似乎只需要说这么多：人类知识有两个主干，它们也许出自一个共同的、但我们不知道的根，这就是感性和知性；通过前者，对象被给予我们，通过后者，对象被思维。",
+    "n": [
+     "拆解：① Nur so viel scheint zur Einleitung … nötig zu sein（作为导言似乎只需要这么多）。② so viel 的内容 daß es zwei Stämme der menschlichen Erkenntnis gebe（人类知识有两个主干）。③ 关系从句 die vielleicht aus einer gemeinschaftlichen, aber uns unbekannten Wurzel entspringen（它们也许出自一个共同的、我们不知道的根）。④ 同位语 nämlich Sinnlichkeit und Verstand（即感性和知性）。⑤ 关系从句 durch deren ersteren uns Gegenstände gegeben, durch den zweiten aber gedacht werden（通过前者对象被给予，通过后者被思维）：两半共用末尾的 werden。",
+     "scheint … nötig zu sein：似乎是必要的（scheinen + zu-不定式）。die Vorerinnerung：预先的提醒。",
+     "es gebe：es gibt（有）的虚拟式一（第 23 课）。der Stamm：树干；die Wurzel：根。这是一个树的比喻。",
+     "aus einer gemeinschaftlichen, aber uns unbekannten Wurzel：两个形容词共用 Wurzel；uns unbekannt：对我们来说未知的（与格）。",
+     "durch deren ersteren：通过其中的前者。deren 是关系代词属格复数（指 Sinnlichkeit und Verstand）。gegeben … gedacht werden：被给予……被思维（被动，第 21 课）。",
+     "这句话预告了全书的结构：第 3 章讲感性（空间和时间），第 4、5 章讲知性（范畴）。下一章就从感性开始。"
+    ]
+   }
+  ]
+ }
+]

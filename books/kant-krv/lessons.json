@@ -54,6 +54,71 @@
   ]
  },
  {
+  "id": "e1",
+  "ch": "e",
+  "t": "先天综合判断：导言的地图",
+  "de": "Wie sind synthetische Urteile a priori möglich?",
+  "min": 20,
+  "html": "<p>导言把全书要回答的问题压缩成一句话：<b>先天综合判断是如何可能的？</b>这一课把导言的四个概念放进一张表，再看这个问题怎样决定了全书的结构。</p>\n<h4>一、两组区分</h4>\n<p>康德用两组区分给判断分类。第一组问<b>知识从哪里来</b>：</p>\n<ul><li><b>a priori</b>（先天的）：不依赖经验，标志是必然性和严格的普遍性。</li><li><b>a posteriori</b>（后天的、经验的）：来自经验。</li></ul>\n<p>第二组问<b>谓词和主词的关系</b>：</p>\n[[Im ersten Fall nenne ich das Urteil analytisch, in dem andern synthetisch.]]\n<ul><li><b>analytisch</b>（分析的）：谓词已经包含在主词概念里，只要分解概念就能得到：「一切物体都有广延」。也叫 Erläuterungsurteil（说明判断）。</li><li><b>synthetisch</b>（综合的）：谓词在主词概念之外，被「加上去」：「一切物体都有重量」。也叫 Erweiterungsurteil（扩展判断）。</li></ul>\n<h4>二、四个格子，三个有人</h4>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th></th><th>分析的</th><th>综合的</th></tr></thead><tbody>\n<tr><th>先天的</th><td>「一切物体都有广延」<br>（只靠矛盾律，没有问题）</td><td><b>7 + 5 = 12</b>；「两点之间直线最短」；「一切发生的事都有原因」<br>（全书的问题：凭什么？）</td></tr>\n<tr><th>后天的</th><td>（不存在：分析不需要经验）</td><td>「一切物体都有重量」<br>（靠经验，没有问题）</td></tr>\n</tbody></table></div>\n<p>分析判断靠矛盾律，经验判断靠经验，都不神秘。只有右上角的格子是个谜：它扩展知识，却不靠经验，又是必然的。那个把主词和谓词连起来的东西，康德叫它「未知的 X」：</p>\n[[Was ist hier das Unbekannte = X, worauf sich der Verstand stützt]]\n<h4>三、四个问题与全书结构</h4>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>问题</th><th>回答在</th><th>答案的要点</th></tr></thead><tbody>\n<tr><td>纯粹数学如何可能？</td><td>第 3 章 空间与时间</td><td>空间和时间是先天直观的形式</td></tr>\n<tr><td>纯粹自然科学如何可能？</td><td>第 4–5 章 范畴、演绎、原理</td><td>知性的范畴使经验成为可能</td></tr>\n<tr><td>作为自然倾向的形而上学如何可能？</td><td>第 7–9 章 幻相、二律背反、上帝证明</td><td>理性必然追求无条件者，由此产生幻相</td></tr>\n<tr><td>作为科学的形而上学如何可能？</td><td>第 6 章（岛）、第 10 章 方法论</td><td>只能作为关于理性界限的科学</td></tr>\n</tbody></table></div>\n<h4>四、先验的 ≠ 超验的</h4>\n<div class=\"tip\"><b>transzendental</b>（先验的）：关于「我们如何先天地认识对象」，也就是认识的条件。<b>transzendent</b>（超验的）：超出一切可能经验的。康德的整本书是「先验的」，他的结论却是：「超验的」知识不可能。</div>\n<p>最后，导言预告了两个主干：感性（对象被<b>给予</b>）和知性（对象被<b>思维</b>）。下一章从感性开始。</p>\n{{quiz:s1}}",
+  "quiz": [
+   {
+    "id": "e1a",
+    "sec": "s1",
+    "de": "alle Körper sind <<ausgedehnt>>",
+    "opts": [
+     "分析判断：广延已经包含在物体的概念里",
+     "综合判断：要靠经验才知道"
+    ],
+    "ans": 0,
+    "why": "物体的概念里就有「占据空间」，只要分解概念即可。"
+   },
+   {
+    "id": "e1b",
+    "sec": "s1",
+    "de": "alle Körper sind <<schwer>>",
+    "opts": [
+     "综合判断：重量不在物体的概念里",
+     "分析判断"
+    ],
+    "ans": 0,
+    "why": "「重」要靠经验加上去，所以是综合的（而且是后天的）。"
+   },
+   {
+    "id": "e1c",
+    "sec": "s1",
+    "de": "Mathematische Urteile sind insgesamt <<synthetisch>>",
+    "opts": [
+     "康德认为数学判断是先天综合的",
+     "康德认为数学判断是分析的"
+    ],
+    "ans": 0,
+    "why": "7 + 5 = 12：分析「七与五之和」找不到十二，必须借助直观（手指、点）。"
+   },
+   {
+    "id": "e1d",
+    "sec": "s1",
+    "de": "Ich nenne alle Erkenntnis <<transzendental>>",
+    "opts": [
+     "关于我们认识对象的方式（认识的条件）",
+     "关于超出经验的对象"
+    ],
+    "ans": 0,
+    "why": "transzendental：先验的，关于认识的先天条件。超出经验的是 transzendent（超验的）。"
+   },
+   {
+    "id": "e1e",
+    "sec": "s1",
+    "de": "durch deren ersteren uns Gegenstände <<gegeben>>, durch den zweiten aber gedacht werden",
+    "opts": [
+     "感性：对象被给予",
+     "知性：对象被思维"
+    ],
+    "ans": 0,
+    "why": "deren ersteren 指 Sinnlichkeit（感性）：对象被给予；知性：对象被思维。"
+   }
+  ]
+ },
+ {
   "id": "p1",
   "ch": "p",
   "t": "岛与海：这一章在全书中的位置",
