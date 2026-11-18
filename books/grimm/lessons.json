@@ -652,5 +652,114 @@
     "why": "1857 年的 wie 常常 = als：这样做好以后。"
    }
   ]
+ },
+ {
+  "id": "r026",
+  "ch": "k026",
+  "t": "读后练习：《小红帽》",
+  "de": "Rothkäppchen",
+  "min": 25,
+  "html": "<p>《小红帽》分六部分。先回答内容题，再做语法题，复习第 16 课的完成时。</p>\n<h4>一、读懂了吗</h4>\n{{quiz:s1}}\n<h4>二、语法回顾：完成时</h4>\n{{quiz:s2}}\n<h4>三、叙述和对话：两种过去</h4>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>叙述（过去时）</th><th>对话（完成时）</th></tr></thead><tbody>\n<tr><td>Der Wolf drückte auf die Klinke</td><td>gestern haben wir gebacken</td></tr>\n<tr><td>und verschluckte sie</td><td>ich habe dich lange gesucht</td></tr>\n<tr><td>Rothkäppchen trug so lange</td><td>gestern hab ich Würste gekocht</td></tr>\n</tbody></table></div>\n<h4>四、想一想</h4>\n<p>格林兄弟的《小红帽》来自法国佩罗的版本（1697），佩罗的故事在狼吃掉小红帽时就结束了，结尾是一段给姑娘们的道德训诫。格林版加了猎人和石头，还加了第二只狼：小红帽这一次没有离开大路。比较一下两个结局各想告诉读者什么。</p>\n<p><button class=\"btn\" data-route=\"grimm~ch-k026\">回到原文</button></p>",
+  "quiz": [
+   {
+    "id": "q026a",
+    "sec": "s1",
+    "de": "und weil ihm das so wohl stand, und es nichts anders mehr tragen wollte",
+    "opts": [
+     "她戴着帽子好看，别的都不想戴",
+     "她不喜欢那顶帽子"
+    ],
+    "ans": 0,
+    "why": "jm gut stehen：（衣物）很配某人。"
+   },
+   {
+    "id": "q026b",
+    "sec": "s1",
+    "de": "und lauf nicht vom Weg ab",
+    "opts": [
+     "妈妈叮嘱她别离开大路",
+     "妈妈叫她快跑"
+    ],
+    "ans": 0,
+    "why": "vom Weg ablaufen：离开道路。"
+   },
+   {
+    "id": "q026c",
+    "sec": "s1",
+    "de": "das wirst du ja wissen",
+    "opts": [
+     "小红帽毫无防备，告诉了狼外婆家在哪",
+     "小红帽怀疑狼"
+    ],
+    "ans": 0,
+    "why": "小红帽详细描述了外婆家的位置，还说「你肯定知道」。"
+   },
+   {
+    "id": "q026d",
+    "sec": "s1",
+    "de": "Daß ich dich besser fressen kann",
+    "opts": [
+     "好更方便地吃掉你",
+     "好更清楚地看你"
+    ],
+    "ans": 0,
+    "why": "fressen：（动物）吃。这是狼的最后一句话。"
+   },
+   {
+    "id": "q026e",
+    "sec": "s1",
+    "de": "damit füllten sie dem Wolf den Leib",
+    "opts": [
+     "他们用石头填满了狼的肚子",
+     "他们用狼皮做了衣服"
+    ],
+    "ans": 0,
+    "why": "damit = mit den Steinen。dem Wolf den Leib：狼的肚子。"
+   },
+   {
+    "id": "q026f",
+    "sec": "s1",
+    "de": "so rutschte er vom Dach herab, gerade in den großen Trog hinein und ertrank",
+    "opts": [
+     "第二只狼掉进石槽淹死了",
+     "第二只狼逃走了"
+    ],
+    "ans": 0,
+    "why": "香肠水的气味引得狼伸长脖子，从屋顶滑进石槽。"
+   },
+   {
+    "id": "q026g",
+    "sec": "s2",
+    "de": "ich habe dich lange <<gesucht>>",
+    "opts": [
+     "完成时：找了很久",
+     "被动"
+    ],
+    "ans": 0,
+    "why": "habe + gesucht。"
+   },
+   {
+    "id": "q026h",
+    "sec": "s2",
+    "de": "Rothkäppchen aber <<war>> nach den Blumen herum gelaufen",
+    "opts": [
+     "过去完成时（laufen 用 sein）",
+     "状态被动"
+    ],
+    "ans": 0,
+    "why": "移动动词用 sein：war … gelaufen。"
+   },
+   {
+    "id": "q026i",
+    "sec": "s2",
+    "de": "und hatte die Haube tief ins Gesicht <<gesetzt>>",
+    "opts": [
+     "过去完成时：（之前已）拉低了",
+     "现在时"
+    ],
+    "ans": 0,
+    "why": "hatte + gesetzt = 过去完成时。"
+   }
+  ]
  }
 ]

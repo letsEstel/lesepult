@@ -1310,5 +1310,102 @@
     "why": "der größte：der + 最高级 + 弱词尾 -e，后面省掉了名词。"
    }
   ]
+ },
+ {
+  "id": "perfekt",
+  "t": "完成时",
+  "de": "Das Perfekt",
+  "min": 100,
+  "html": "<p>童话用过去时讲故事，可是只要人物一开口，说的就多半是完成时：小红帽说 [[gestern haben wir gebacken]]，猎人说 [[ich habe dich lange gesucht]]。德语口语里几乎不用过去时（sein、haben 和情态动词除外），讲已经发生的事都用完成时。康德的书里完成时也很多，而且常常省掉助动词。这一课讲完完成时的形式、助动词的选择、它在句子里的位置，以及几种变形。</p>\n\n<h4>一、完成时 = haben / sein + 过去分词</h4>\n<p>完成时由两部分组成：变位的助动词 haben 或 sein（第二位）+ 过去分词（句末）。这又是一个句框：</p>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>第一位</th><th>助动词（第二位）</th><th>中场</th><th>过去分词（句末）</th></tr></thead><tbody>\n<tr><td>gestern</td><td>haben</td><td>wir</td><td>gebacken</td></tr>\n<tr><td>ich</td><td>habe</td><td>dich lange</td><td>gesucht</td></tr>\n<tr><td>da</td><td>hab</td><td>ich Reißaus</td><td>genommen</td></tr>\n<tr><td>was</td><td>ist</td><td>dir in die Quere</td><td>gekommen</td></tr>\n</tbody></table></div>\n<p>翻译时用「……了」「……过」：我们昨天烤了（点心）；我找了你很久。</p>\n\n<h4>二、过去分词怎么构成</h4>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>动词类型</th><th>构成</th><th>读本里</th></tr></thead><tbody>\n<tr><td>弱变化</td><td>ge- + 词干 + -t</td><td>suchen → gesucht · kochen → gekocht · sagen → gesagt</td></tr>\n<tr><td>强变化</td><td>ge- + 词干（常换元音）+ -en</td><td>backen → gebacken · nehmen → genommen · fressen → gefressen · brechen → gebrochen · stechen → gestochen</td></tr>\n<tr><td>混合变化</td><td>ge- + 换元音的词干 + -t</td><td>bringen → gebracht · denken → gedacht · wissen → gewußt</td></tr>\n<tr><td>可分动词</td><td>前缀 + ge + 词干（第 9 课）</td><td>anhauchen → angehaucht · fortmachen → fortgemacht · zusprechen → zugesprochen</td></tr>\n<tr><td>不可分前缀</td><td>不加 ge-</td><td>verbieten → verboten · begegnen → begegnet · erzählen → erzählt · zerkratzen → zerkratzt</td></tr>\n<tr><td>-ieren 结尾</td><td>不加 ge-</td><td>musizieren → musiziert · studieren → studiert</td></tr>\n</tbody></table></div>\n<div class=\"tip\">强变化动词的分词元音常常和过去时不同：nehmen – nahm – genommen；brechen – brach – gebrochen；helfen – half – geholfen。查词时三个形式（不定式、过去时、分词）一起记。</div>\n\n<h4>三、haben 还是 sein</h4>\n<p>大多数动词用 haben。用 sein 的是两类不及物动词：</p>\n<ul>\n<li><b>位置移动</b>：gehen、kommen、laufen、fallen、fliegen、springen……：[[was ist dir in die{af} Quere gekommen]]、[[Rothkäppchen aber war nach den{dp} Blumen herum gelaufen]]。</li>\n<li><b>状态变化</b>：werden、sterben、einschlafen、aufwachen……：[[es{expl} war schon dunkel geworden]]、[[dem{rel:dn} war Vater und Mutter gestorben]]。</li>\n<li>还有 sein、bleiben、geschehen、begegnen：[[daß es{child} dem{dm} Wolf begegnet wäre]]、[[Wie das{dem:nn} geschehen war]]。</li>\n</ul>\n<p>反身动词一律用 haben：[[ich habe mich zwar noch fortgemacht]]。</p>\n\n<h4>四、过去完成时：hatte / war + 分词</h4>\n<p>第 6 课已经见过：讲故事时说「在那之前已经发生的事」，助动词用过去时：</p>\n<ul>\n<li>[[Kaum hatte der{nm} Wolf das{dem:an} gesagt, so that er einen{am} Satz aus dem{dn} Bette]]：狼刚说完，就跳了起来。</li>\n<li>[[da lag die{nf} Großmutter, und hatte die{af} Haube tief ins Gesicht gesetzt]]：外婆（之前已经）把帽子拉得低低的。</li>\n<li>[[Wie der{nm} Wolf sein{an} Gelüsten gestillt hatte]]：狼满足了馋欲以后。</li>\n</ul>\n\n<h4>五、从句里：助动词在最后</h4>\n<p>从句里，变位的助动词跑到末尾，排在分词后面：</p>\n<ul>\n<li>[[wenn dirs die{nf} Mutter verboten hat]]：要是妈妈不许你。</li>\n<li>[[bis er vollends aufgeschlossen und den{am} Deckel aufgemacht hat]]：两个分词共用一个 hat。</li>\n<li>[[Und der{dem:nm} das{dem:an} zuletzt erzählt hat]]：最后讲这个故事的人。</li>\n</ul>\n\n<h4>六、完成时不定式：「已经……」</h4>\n<p>「分词 + haben / sein」可以作为一个整体，放在情态动词后面，表示「（可能 / 必定）已经……」：</p>\n<p>[[da fiel ihm ein der{nm} Wolf könnte die{af} Großmutter gefressen haben]]：狼可能已经把外婆吞下去了。könnte + gefressen haben。</p>\n\n<h4>七、情态动词的完成时：双不定式</h4>\n<p>第 10 课预告过：情态动词的完成时不用 gewollt、gekonnt，而用不定式本身，于是句末出现两个不定式：</p>\n<ul>\n<li>[[hat mich mein{nm} Herr wollen todt schlagen]]：我的主人想打死我。（hat + todt schlagen + wollen；1857 年的语序把 wollen 放在前面。）</li>\n<li>[[hat mich meine{nf} Frau ersäufen wollen]]：女主人想淹死我。（今天的语序。）</li>\n<li>[[wir hätten uns doch nicht sollen ins Bockshorn jagen lassen]]：我们本不该被吓住。（三个不定式！）</li>\n</ul>\n<p>读法：先找第二位的 hat / hätte，再从句末的不定式串里找出情态动词，剩下的就是实义动词。</p>\n\n<h4>八、省掉的助动词</h4>\n<p>格林和康德都常常省掉从句末尾的助动词，读的时候自己补上：</p>\n<ul>\n<li>[[ob es{kind} gleich sein{an} Hemdlein weg gegeben]]：= weg gegeben hatte。</li>\n<li>[[der{rel:nm} ihm guten Tag gewünscht]]：= gewünscht hätte。</li>\n<li>康德：<i>der von äußeren Erfahrungen abgezogen worden</i>：= abgezogen worden ist。</li>\n</ul>\n\n<h4>九、反推方法</h4>\n<ol>\n<li>句末（或从句末）有 ge-…-t / ge-…-en，或者一个不加 ge- 的分词（verboten、erzählt）？回到第二位找 haben / sein（从句里在末尾）。</li>\n<li>找到 haben / sein + 分词：完成时。hatte / war + 分词：过去完成时。</li>\n<li>小心 sein + 分词的另一种意思：<i>war verlassen</i>、<i>war versenkt</i> 是「被……了」的状态（第 21 课讲）。规则：分词是移动 / 变化动词（gekommen、gestorben）→ 完成时；是及物动词（verlassen、versenkt）→ 状态被动。</li>\n<li>分词前面有冠词、后面有名词（ein hell erleuchtetes Räuberhaus）？那是分词作形容词，按第 14 课读词尾。</li>\n</ol>\n\n<h4>十、马上练</h4>\n{{quiz:s1}}\n\n<h4>十一、小结</h4>\n<ul>\n<li>完成时：haben / sein（第二位）+ 过去分词（句末）；口语和对话里讲过去的事用它。</li>\n<li>分词：ge-…-t（弱）、ge-…-en（强）、前缀 + ge（可分）、不加 ge-（不可分前缀、-ieren）。</li>\n<li>sein：移动、状态变化、sein / bleiben / geschehen / begegnen；其余用 haben。</li>\n<li>过去完成时：hatte / war + 分词。从句里助动词在最后。</li>\n<li>情态动词完成时用双不定式：hat … wollen todt schlagen。</li>\n<li>从句末尾的助动词常被省掉，自己补上。</li>\n</ul>\n\n<h4>十二、读一读</h4>\n<p>《小红帽》约 1260 词，分六部分。叙述用过去时，对话里满是完成时；读的时候把每个完成时的助动词和分词连起来。</p>\n<p><button class=\"btn\" data-route=\"grimm~ch-k026\">读一读：《小红帽》</button> <button class=\"btn\" data-route=\"grimm~intro-7\">读后练习</button></p>",
+  "quiz": [
+   {
+    "id": "pf1",
+    "sec": "s1",
+    "de": "gestern haben wir <<gebacken>>",
+    "opts": [
+     "backen 的过去分词：完成时「烤了」",
+     "不定式"
+    ],
+    "ans": 0,
+    "why": "haben（第二位）+ gebacken（句末）= 完成时。backen 是强变化：ge-back-en。"
+   },
+   {
+    "id": "pf2",
+    "sec": "s1",
+    "de": "was ist dir in die Quere <<gekommen>>",
+    "opts": [
+     "kommen 用 sein 构成完成时",
+     "被动态"
+    ],
+    "ans": 0,
+    "why": "kommen 是移动动词，完成时用 sein：ist gekommen。"
+   },
+   {
+    "id": "pf3",
+    "sec": "s1",
+    "de": "wenn dirs die Mutter verboten <<hat>>",
+    "opts": [
+     "从句里助动词在最后",
+     "主句"
+    ],
+    "ans": 0,
+    "why": "wenn 从句：分词 verboten + 助动词 hat 在末尾。verbieten 有不可分前缀 ver-，分词不加 ge-。"
+   },
+   {
+    "id": "pf4",
+    "sec": "s1",
+    "de": "Kaum <<hatte>> der Wolf das gesagt",
+    "opts": [
+     "过去完成时：狼刚说完",
+     "现在完成时"
+    ],
+    "ans": 0,
+    "why": "hatte（haben 的过去时）+ gesagt = 过去完成时。"
+   },
+   {
+    "id": "pf5",
+    "sec": "s1",
+    "de": "der Wolf könnte die Großmutter <<gefressen haben>>",
+    "opts": [
+     "完成时不定式：可能已经吃了",
+     "被动"
+    ],
+    "ans": 0,
+    "why": "könnte + gefressen haben：可能已经……。"
+   },
+   {
+    "id": "pf6",
+    "sec": "s1",
+    "de": "hat mich meine Frau ersäufen <<wollen>>",
+    "opts": [
+     "双不定式：情态动词的完成时用不定式代替分词",
+     "将来时"
+    ],
+    "ans": 0,
+    "why": "情态动词的完成时：hat + 不定式 + wollen（不用 gewollt）。"
+   },
+   {
+    "id": "pf7",
+    "sec": "s1",
+    "de": "ich habe mich zwar noch <<fortgemacht>>",
+    "opts": [
+     "可分动词的分词：fort-ge-macht",
+     "不可分动词"
+    ],
+    "ans": 0,
+    "why": "fortmachen 是可分动词，ge 插在前缀和词干之间。反身动词用 haben。"
+   },
+   {
+    "id": "pf8",
+    "sec": "s1",
+    "de": "Rothkäppchen aber <<war>> nach den Blumen herum gelaufen",
+    "opts": [
+     "过去完成时，laufen 用 sein",
+     "状态被动"
+    ],
+    "ans": 0,
+    "why": "laufen 是移动动词，用 sein：war … gelaufen（之前一直在跑）。"
+   }
+  ]
  }
 ]
