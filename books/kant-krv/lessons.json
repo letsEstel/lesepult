@@ -1,12 +1,118 @@
 [
- {"id": "p1", "ch": "p", "t": "岛与海：这一章在全书中的位置", "de": "Das Land der Wahrheit", "min": 12,
-  "html": "<p>《纯粹理性批判》分两大部分：「要素论」和「方法论」。要素论又分感性论（讲直观）和逻辑（讲思维），逻辑再分分析论（真理的逻辑）和辩证论（幻相的逻辑）。这一章正好站在分析论的结尾、辩证论的门口。</p>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>部分</th><th>考察什么</th><th>在比喻里</th></tr></thead><tbody>\n<tr><td>先验感性论</td><td>空间、时间：直观的形式</td><td rowspan=\"2\">岛：真理之国</td></tr>\n<tr><td>先验分析论</td><td>范畴、原理：知性的规则</td></tr>\n<tr><td><b>现象与本体（本章）</b></td><td>知性能走多远</td><td>海岸线和地图</td></tr>\n<tr><td>先验辩证论</td><td>灵魂、世界、上帝：理性的理念</td><td>海：幻相的所在</td></tr>\n</tbody></table></div>\n<p>岛的比喻集中在第一段：</p>\n[[Dieses Land aber ist eine Insel, und durch die Natur selbst in unveränderliche Grenzen eingeschlossen.]]\n<p>岛是知性能可靠认识的范围：一切可能经验的对象。它的边界「由自然本身」划定，即由我们认识能力的构造划定，所以不可改变。岛外的大海不是「什么都没有」，而是「幻相的真正所在」：雾堤和冰山看起来像新大陆，引诱航海者（形而上学家）一次次出海，又一次次落空。</p>\n<h4>为什么说「迷人的名字」？</h4>\n<p>「真理之国」听起来很美，但康德马上提醒：它只是一座岛，而且四面是海。我们能确定知道的东西，比我们想知道的少得多：</p>\n[[so scheint es uns doch nicht genug, sich bloß dasjenige vortragen zu lassen, was wahr ist, sondern, was man zu wissen begehrt.]]\n<p>（这句在省略的部分里：只被告诉「真的东西」我们并不满足，我们还想知道自己渴望知道的东西。）</p>\n<div class=\"tip\">这一章的问题，就是出海前的两个问题：我们能满足于这座岛吗？我们凭什么权利占有它？回答是：知性的一切先天概念和原理只对经验有效（这是岛的全部领土），而「本体」只是标出海岸线的界限概念。</div>"},
- {"id": "p2", "ch": "p", "t": "现象、本体与界限概念", "de": "Phaenomena, Noumena, Grenzbegriff", "min": 15,
+ {
+  "id": "v1",
+  "ch": "v",
+  "t": "哥白尼式的革命",
+  "de": "Die Revolution der Denkart",
+  "min": 15,
+  "html": "<p>序言讲了一个故事：人类理性被一些它既不能拒绝、又不能回答的问题困扰，于是形而上学成了「无休止争吵的战场」。出路在哪里？康德看了看两门已经成功的学问：数学和自然科学。</p>\n<h4>一、科学是怎么成功的</h4>\n<p>它们都经历了一场「思维方式的革命」。伽利略、托里拆利、施塔尔的实验告诉人们：</p>\n[[daß die Vernunft nur das einsieht, was sie selbst nach ihrem Entwurfe hervorbringt]]\n<p>理性不是被动地等自然告诉它什么，而是带着自己设计的问题去审问自然，像法官审问证人。</p>\n<h4>二、把方向倒过来</h4>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th></th><th>旧的假定</th><th>新的假定</th></tr></thead><tbody>\n<tr><th>谁依照谁</th><td>知识依照对象</td><td>对象依照我们的认识</td></tr>\n<tr><th>原文</th><td>alle unsere Erkenntnis müsse sich nach den Gegenständen richten</td><td>die Gegenstände müssen sich nach unserem Erkenntnis richten</td></tr>\n<tr><th>结果</th><td>先天知识不可能：只能等对象来了再看</td><td>先天知识可能：凡是对象，都必须符合我们认识的形式</td></tr>\n</tbody></table></div>\n<p>哥白尼的比喻：看起来星星绕着我们转，其实是我们在转。同样，看起来是对象决定我们看到什么，其实是我们的直观形式（空间、时间）和知性概念（范畴）决定了对象怎样显现给我们。</p>\n<h4>三、代价和收获</h4>\n<p>代价：我们只能认识现象，不能认识物自身；上帝、自由、不朽都不能被证明。收获：正因为不能认识物自身，也就不能证明「没有自由」「没有上帝」。思辨理性被限制了，道德就有了地盘：</p>\n[[Ich mußte also das Wissen aufheben, um zum Glauben Platz zu bekommen]]\n<div class=\"tip\">记住这三个词的对比：<b>erkennen</b>（认识，需要直观）· <b>denken</b>（思维，只要不矛盾）· <b>glauben</b>（信仰，出于实践理性的需要）。物自身不能被认识，但能被思维；上帝和不朽不能被认识，但可以被信仰。</div>\n{{quiz:s1}}",
+  "quiz": [
+   {
+    "id": "v1a",
+    "sec": "s1",
+    "de": "die Gegenstände müssen sich nach unserem Erkenntnis <<richten>>",
+    "opts": [
+     "知识依照对象",
+     "对象依照我们的认识"
+    ],
+    "ans": 1,
+    "why": "sich nach etw. richten：依照……。这是新的假定：对象依照我们的认识，这就是「哥白尼式的革命」。"
+   },
+   {
+    "id": "v1b",
+    "sec": "s1",
+    "de": "nicht in der Qualität eines Schülers, …, sondern eines bestallten <<Richters>>",
+    "opts": [
+     "理性像学生一样听自然讲",
+     "理性像法官一样审问自然"
+    ],
+    "ans": 1,
+    "why": "理性带着原则和实验去接近自然，不是让自然想说什么就说什么，而是强迫它回答自己提出的问题。"
+   },
+   {
+    "id": "v1c",
+    "sec": "s1",
+    "de": "daß Erscheinung ohne etwas wäre, was da <<erscheint>>",
+    "opts": [
+     "现象背后必须有显现者，所以物自身至少要能被思维",
+     "现象就是一切，没有物自身"
+    ],
+    "ans": 0,
+    "why": "「没有显现者的现象」是荒谬的。所以同一些对象，虽然不能作为物自身被认识，却至少必须能被思维。"
+   },
+   {
+    "id": "v1d",
+    "sec": "s1",
+    "de": "Ich mußte also das Wissen <<aufheben>>, um zum Glauben Platz zu bekommen",
+    "opts": [
+     "否定一切知识",
+     "在上帝、自由、不朽的问题上取消知识的权利，为道德信仰留出地盘"
+    ],
+    "ans": 1,
+    "why": "康德不是否定知识，而是限制它：在超出经验的问题上，理论理性既不能证明有，也不能证明没有。"
+   }
+  ]
+ },
+ {
+  "id": "p1",
+  "ch": "p",
+  "t": "岛与海：这一章在全书中的位置",
+  "de": "Das Land der Wahrheit",
+  "min": 12,
+  "html": "<p>《纯粹理性批判》分两大部分：「要素论」和「方法论」。要素论又分感性论（讲直观）和逻辑（讲思维），逻辑再分分析论（真理的逻辑）和辩证论（幻相的逻辑）。这一章正好站在分析论的结尾、辩证论的门口。</p>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>部分</th><th>考察什么</th><th>在比喻里</th></tr></thead><tbody>\n<tr><td>先验感性论</td><td>空间、时间：直观的形式</td><td rowspan=\"2\">岛：真理之国</td></tr>\n<tr><td>先验分析论</td><td>范畴、原理：知性的规则</td></tr>\n<tr><td><b>现象与本体（本章）</b></td><td>知性能走多远</td><td>海岸线和地图</td></tr>\n<tr><td>先验辩证论</td><td>灵魂、世界、上帝：理性的理念</td><td>海：幻相的所在</td></tr>\n</tbody></table></div>\n<p>岛的比喻集中在第一段：</p>\n[[Dieses Land aber ist eine Insel, und durch die Natur selbst in unveränderliche Grenzen eingeschlossen.]]\n<p>岛是知性能可靠认识的范围：一切可能经验的对象。它的边界「由自然本身」划定，即由我们认识能力的构造划定，所以不可改变。岛外的大海不是「什么都没有」，而是「幻相的真正所在」：雾堤和冰山看起来像新大陆，引诱航海者（形而上学家）一次次出海，又一次次落空。</p>\n<h4>为什么说「迷人的名字」？</h4>\n<p>「真理之国」听起来很美，但康德马上提醒：它只是一座岛，而且四面是海。我们能确定知道的东西，比我们想知道的少得多：</p>\n[[so scheint es uns doch nicht genug, sich bloß dasjenige vortragen zu lassen, was wahr ist, sondern, was man zu wissen begehrt.]]\n<p>（这句在省略的部分里：只被告诉「真的东西」我们并不满足，我们还想知道自己渴望知道的东西。）</p>\n<div class=\"tip\">这一章的问题，就是出海前的两个问题：我们能满足于这座岛吗？我们凭什么权利占有它？回答是：知性的一切先天概念和原理只对经验有效（这是岛的全部领土），而「本体」只是标出海岸线的界限概念。</div>"
+ },
+ {
+  "id": "p2",
+  "ch": "p",
+  "t": "现象、本体与界限概念",
+  "de": "Phaenomena, Noumena, Grenzbegriff",
+  "min": 15,
   "html": "<p>这一章的术语很少，但每个都要分清：</p>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>术语</th><th>意思</th></tr></thead><tbody>\n<tr><td>Erscheinung / Phaenomenon / Sinnenwesen</td><td>现象：事物显现给我们感性直观的样子。不是假象，而是我们唯一能认识的东西。</td></tr>\n<tr><td>Ding an sich selbst</td><td>物自身：事物不考虑我们怎样直观它时，它本身的样子。</td></tr>\n<tr><td>Noumenon / Verstandeswesen</td><td>本体：只被知性思维、不被感官直观的东西。</td></tr>\n<tr><td>Schein</td><td>幻相：把不是对象的东西当成对象。辩证论讲的就是它。</td></tr>\n</tbody></table></div>\n<h4>消极的本体，积极的本体</h4>\n<p>康德把「本体」分成两种意思：</p>\n[[so ist dieses ein Noumenon im negativen Verstande.]]\n<p><b>消极意义</b>：一个物，只要它<b>不是</b>我们感性直观的对象。这只是撇开我们的直观方式，说「它不是什么」，是允许的。</p>\n[[und das wäre das Noumenon in positiver Bedeutung.]]\n<p><b>积极意义</b>：一种<b>非感性直观</b>（理智直观）的对象。这要假定一种我们没有、也看不出是否可能的直观方式，所以我们不能这样使用这个概念。</p>\n<h4>界限概念</h4>\n[[Der Begriff eines Noumenon ist also bloß ein Grenzbegriff, um die Anmaßung der Sinnlichkeit einzuschränken, und also nur von negativem Gebrauche.]]\n<p>本体概念的作用是消极的：它告诉感性「你看到的只是现象」，从而限制了感性的僭越。可它并不认识任何对象。康德说，它像一个「空的空间」，为某种东西留出了位置，却没有填进任何东西。</p>\n<div class=\"tip\">这个空位很重要。《实践理性批判》里，康德会用自由和道德法则填上它：我们不能<b>认识</b>自己是自由的，但可以、也必须在实践中<b>思维</b>自己是自由的。</div>\n{{quiz:s1}}",
   "quiz": [
-   {"id": "p2a", "sec": "s1", "de": "Dieses Land aber ist eine <<Insel>>", "opts": ["知性能够可靠认识的经验领域", "理性想要追问的灵魂、宇宙和上帝"], "ans": 0, "why": "岛是「纯粹知性的国土」，即可能经验的领域；灵魂、宇宙整体和上帝是岛外的海，是幻相所在的地方。"},
-   {"id": "p2b", "sec": "s1", "de": "so ist dieses ein Noumenon im <<negativen>> Verstande", "opts": ["一种理智直观的对象", "一个物，只要它不是我们感性直观的对象"], "ans": 1, "why": "消极意义的本体只说「它不是什么」：不是我们感性直观的对象。理智直观的对象是积极意义的本体。"},
-   {"id": "p2c", "sec": "s1", "de": "Der Begriff eines Noumenon ist also bloß ein <<Grenzbegriff>>", "opts": ["它让我们认识了经验之外的对象", "它限制感性的僭越，只有消极的用途"], "ans": 1, "why": "界限概念不认识任何对象，它只标出认识的边界：um die Anmaßung der Sinnlichkeit einzuschränken。"},
-   {"id": "p2d", "sec": "s1", "de": "Verstand und Sinnlichkeit können bei uns nur in <<Verbindung>> Gegenstände bestimmen.", "opts": ["知性单独就能认识物自身", "知性和感性必须结合才能规定对象"], "ans": 1, "why": "分开时，我们只有「没有概念的直观」或「没有直观的概念」，两者都关联不到确定的对象。"}
-  ]}
+   {
+    "id": "p2a",
+    "sec": "s1",
+    "de": "Dieses Land aber ist eine <<Insel>>",
+    "opts": [
+     "知性能够可靠认识的经验领域",
+     "理性想要追问的灵魂、宇宙和上帝"
+    ],
+    "ans": 0,
+    "why": "岛是「纯粹知性的国土」，即可能经验的领域；灵魂、宇宙整体和上帝是岛外的海，是幻相所在的地方。"
+   },
+   {
+    "id": "p2b",
+    "sec": "s1",
+    "de": "so ist dieses ein Noumenon im <<negativen>> Verstande",
+    "opts": [
+     "一种理智直观的对象",
+     "一个物，只要它不是我们感性直观的对象"
+    ],
+    "ans": 1,
+    "why": "消极意义的本体只说「它不是什么」：不是我们感性直观的对象。理智直观的对象是积极意义的本体。"
+   },
+   {
+    "id": "p2c",
+    "sec": "s1",
+    "de": "Der Begriff eines Noumenon ist also bloß ein <<Grenzbegriff>>",
+    "opts": [
+     "它让我们认识了经验之外的对象",
+     "它限制感性的僭越，只有消极的用途"
+    ],
+    "ans": 1,
+    "why": "界限概念不认识任何对象，它只标出认识的边界：um die Anmaßung der Sinnlichkeit einzuschränken。"
+   },
+   {
+    "id": "p2d",
+    "sec": "s1",
+    "de": "Verstand und Sinnlichkeit können bei uns nur in <<Verbindung>> Gegenstände bestimmen.",
+    "opts": [
+     "知性单独就能认识物自身",
+     "知性和感性必须结合才能规定对象"
+    ],
+    "ans": 1,
+    "why": "分开时，我们只有「没有概念的直观」或「没有直观的概念」，两者都关联不到确定的对象。"
+   }
+  ]
+ }
 ]
