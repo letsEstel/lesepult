@@ -434,5 +434,103 @@
     "why": "情态动词句里，hinausgehen 是不定式，前缀和动词连在一起放在句末。"
    }
   ]
+ },
+ {
+  "id": "r078",
+  "ch": "k078",
+  "t": "读后练习：《老祖父和孙子》",
+  "de": "Der alte Großvater und der Enkel",
+  "min": 15,
+  "html": "<p>这篇只有 10 句。先回答内容题，再做语法题，复习第 11 课的 sich、es 和「与格表示谁的」。</p>\n<h4>一、读懂了吗</h4>\n{{quiz:s1}}\n<h4>二、语法回顾：sich、es 和与格</h4>\n{{quiz:s2}}\n<h4>三、这篇里的 sich 和与格</h4>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>原文</th><th>类型</th><th>意思</th></tr></thead><tbody>\n<tr><td>ekelten sich davor</td><td>固定反身（sich ekeln vor）</td><td>对此感到恶心</td></tr>\n<tr><td>mußte sich der alte Großvater … setzen</td><td>动作落在自己身上（sich setzen）</td><td>只得坐到……</td></tr>\n<tr><td>sahen sich Mann und Frau … an</td><td>互相（sich ansehen）</td><td>夫妻俩对望</td></tr>\n<tr><td>die Knie zitterten ihm</td><td>与格表示「谁的」</td><td>他的膝盖发抖</td></tr>\n<tr><td>floß ihm … aus dem Mund</td><td>与格表示「谁的」</td><td>从他嘴里流出</td></tr>\n<tr><td>die Augen wurden ihm naß</td><td>与格表示「谁的」</td><td>他的眼睛湿了</td></tr>\n</tbody></table></div>\n<h4>四、想一想</h4>\n<p>这篇故事里没有魔法，也没有坏人受罚，只有一个四岁孩子的一句话。父母看到小木槽，才看清了自己。比较两只碗：irden（陶土的）会碎，hölzern（木头的）摔不坏；而孩子做的 Tröglein 是给牲口吃食用的槽。</p>\n<p><button class=\"btn\" data-route=\"grimm~ch-k078\">回到原文</button></p>",
+  "quiz": [
+   {
+    "id": "q078a",
+    "sec": "s1",
+    "de": "dem waren die Augen trüb geworden, die Ohren taub",
+    "opts": [
+     "老人眼睛昏花、耳朵聋了",
+     "老人的儿子眼睛不好"
+    ],
+    "ans": 0,
+    "why": "dem 指前面的 steinalter Mann：他的眼睛昏花、耳朵聋了。"
+   },
+   {
+    "id": "q078b",
+    "sec": "s1",
+    "de": "Sein Sohn und dessen Frau ekelten sich davor",
+    "opts": [
+     "儿子和儿媳嫌老人吃饭的样子恶心",
+     "儿子和老人的妻子吵架"
+    ],
+    "ans": 0,
+    "why": "dessen Frau：儿子的妻子。davor 指上一句：洒汤、流口水。"
+   },
+   {
+    "id": "q078c",
+    "sec": "s1",
+    "de": "Da kaufte sie ihm ein hölzernes Schüsselchen für ein paar Heller",
+    "opts": [
+     "儿媳花几个铜板给老人买了个木碗",
+     "老人给孙子买了个木碗"
+    ],
+    "ans": 0,
+    "why": "sie 是儿媳，ihm 是老人（与格：给他）。木碗摔不碎。"
+   },
+   {
+    "id": "q078d",
+    "sec": "s1",
+    "de": "daraus sollen Vater und Mutter essen, wenn ich groß bin",
+    "opts": [
+     "孩子做小木槽，准备将来给父母用",
+     "孩子做小木槽给祖父用"
+    ],
+    "ans": 0,
+    "why": "孩子学大人对待祖父的样子：等我长大了，爸爸妈妈用它吃饭。"
+   },
+   {
+    "id": "q078e",
+    "sec": "s1",
+    "de": "und ließen ihn von nun an immer mit essen",
+    "opts": [
+     "从此让老人一起上桌吃饭",
+     "从此不让老人吃饭"
+    ],
+    "ans": 0,
+    "why": "ließen ihn mit essen：让他一起吃。von nun an：从此。"
+   },
+   {
+    "id": "q078f",
+    "sec": "s2",
+    "de": "Da sahen <<sich>> Mann und Frau eine Weile an",
+    "opts": [
+     "互相",
+     "自己"
+    ],
+    "ans": 0,
+    "why": "主语是两个人：互相看。"
+   },
+   {
+    "id": "q078g",
+    "sec": "s2",
+    "de": "die Augen wurden <<ihm>> naß",
+    "opts": [
+     "与格：他的（眼睛）",
+     "宾格：他"
+    ],
+    "ans": 0,
+    "why": "与格代词表示身体部位属于谁。"
+   },
+   {
+    "id": "q078h",
+    "sec": "s2",
+    "de": "<<es>> fiel zur Erde und zerbrach",
+    "opts": [
+     "它：das Schüsselchen",
+     "无人称 es"
+    ],
+    "ans": 0,
+    "why": "es 指前面的中性名词 das Schüsselchen。"
+   }
+  ]
  }
 ]

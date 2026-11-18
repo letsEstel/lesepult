@@ -858,5 +858,102 @@
     "why": "kann 既可以是 ich 也可以是 er 形式，看主语：这里是 ich。"
    }
   ]
+ },
+ {
+  "id": "reflexiv",
+  "t": "反身动词与 es 的用法",
+  "de": "sich und es",
+  "min": 100,
+  "html": "<p>读到现在，你已经见过很多 sich 和 es。sich 常常不用译出来，es 有时是「它」，有时是「她」，有时什么都不是。这一课把两个小词讲清楚，再加上一个和它们关系密切的现象：用与格表示「谁的」身体部位。学完以后，读《老祖父和孙子》里的 [[ekelten sich{refl} davor]]、[[sahen sich{recip} Mann und Frau eine{af} Weile an]]、[[die{np} Knie zitterten ihm]] 就不会卡住。</p>\n\n<h4>一、反身代词全表</h4>\n<p>反身代词指回主语自己。第一、二人称直接借用人称代词；只有第三人称（er、sie、es、复数 sie、敬称 Sie）有专门的形式 sich，而且宾格、与格都是 sich。</p>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>主语</th><th>宾格</th><th>与格</th><th>例子</th></tr></thead><tbody>\n<tr><th>ich</th><td>mich</td><td>mir</td><td><i>ich wärme mich</i>：我取暖</td></tr>\n<tr><th>du</th><td>dich</td><td>dir</td><td><i>du wärmst dich</i></td></tr>\n<tr><th>er / sie / es</th><td><b>sich</b></td><td><b>sich</b></td><td>[[sich{refl} ein bischen wärmen]]</td></tr>\n<tr><th>wir</th><td>uns</td><td>uns</td><td><i>wir wärmen uns</i></td></tr>\n<tr><th>ihr</th><td>euch</td><td>euch</td><td><i>ihr wärmt euch</i></td></tr>\n<tr><th>sie / Sie</th><td><b>sich</b></td><td><b>sich</b></td><td>[[ekelten sich{refl} davor]]</td></tr>\n</tbody></table></div>\n<div class=\"tip\">sich 永远指回<b>本句的主语</b>。比较：<i>er wärmt sich</i>（他给自己取暖）和 <i>er wärmt ihn</i>（他给另一个人取暖）。看到 ihn、ihm、sie，主语以外另有其人；看到 sich，就是主语自己。</div>\n\n<h4>二、反身动词的四种情况</h4>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>类型</th><th>说明</th><th>读本里</th><th>怎么译</th></tr></thead><tbody>\n<tr><td>① 固定的反身动词</td><td>动词离不开 sich，sich 本身没有意思</td><td>[[ekelten sich{refl} davor]]（sich ekeln：感到恶心）</td><td>不译 sich</td></tr>\n<tr><td>② 动作落在自己身上</td><td>普通及物动词，宾语恰好是自己</td><td>[[sich{refl} ein bischen wärmen]]（暖和自己）· [[mußte sich{refl} der{nm} alte Großvater … setzen]]（让自己坐下 = 坐下）</td><td>常常不译，或译「自己」</td></tr>\n<tr><td>③ 互相</td><td>主语是两个或更多人</td><td>[[sahen sich{recip} Mann und Frau eine{af} Weile an]]（互相看）</td><td>译「互相、彼此」</td></tr>\n<tr><td>④ 与格 sich：为自己</td><td>动作为了自己，另有宾格宾语</td><td>[[sammelte es{kind} sich die{ap} Thaler hinein]]（给自己收进去）</td><td>译「给自己」，或不译</td></tr>\n</tbody></table></div>\n<p>还有一类：sich 加上结果，表示「把自己弄成……」：[[sie{she} ißt sich{refl} satt]]（她把自己吃饱 = 吃饱了）；[[der{dem:nm} mußte sich{refl} durchessen]]（一路吃过去）。</p>\n<p>和第 9 课的可分动词结合：[[zog es{it} sich{refl} hinein]]：sich hineinziehen（缩回去），前缀 hinein 照样跑到句末。</p>\n<p>词典里反身动词写作 <i>sich setzen</i>、<i>sich ekeln vor</i>：sich 是动词的一部分，查词时要连 sich 一起查，意思可能和不带 sich 时很不一样（setzen：放；sich setzen：坐下）。</p>\n\n<h4>三、sich 放在哪里</h4>\n<p>sich 喜欢尽量靠前，紧跟在变位动词后面（从句里紧跟在连词后面）。它和主语的先后有一条简单的规则：</p>\n<ul>\n<li>主语是<b>代词</b>：代词在前，sich 在后：[[zog es{it} sich{refl} hinein]]、[[sie{she} ißt sich{refl} satt]]。</li>\n<li>主语是<b>名词</b>：sich 常常抢到名词前面：[[mußte sich{refl} der{nm} alte Großvater … setzen]]、[[sahen sich{recip} Mann und Frau … an]]。</li>\n</ul>\n<div class=\"tip\">所以读到「动词 + sich + 名词」的时候，别把 sich 后面的名词当成宾语：der alte Großvater 是主格，是主语。先看冠词的格（第 3 课），再定谁是主语。</div>\n\n<h4>四、与格表示「谁的」</h4>\n<p>说到身体部位、衣服时，德语常常不用物主代词（sein、ihr），而是用一个与格的人称代词表示「这是谁的」，中文译成「他的、她的」：</p>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>原文</th><th>字面</th><th>译法</th></tr></thead><tbody>\n<tr><td>[[die{np} Knie zitterten ihm]]</td><td>膝盖对他发抖</td><td>他的膝盖发抖</td></tr>\n<tr><td>[[es{expl} floß ihm auch etwas wieder aus dem{dm} Mund]]</td><td>对他从嘴里流出一些</td><td>他嘴里也往外淌</td></tr>\n<tr><td>[[die{np} Augen wurden ihm naß]]</td><td>眼睛对他变湿了</td><td>他的眼睛湿了</td></tr>\n<tr><td>[[dem{rel:dm} waren die{np} Augen trüb geworden]]</td><td>对他来说眼睛变昏了</td><td>他的眼睛昏花了</td></tr>\n</tbody></table></div>\n<p>这个与格也可以是反身的：<i>er wäscht sich die Hände</i>（他洗自己的手）。读的时候遇到一个「多出来」的与格代词，先想想它是不是在说「谁的」。</p>\n\n<h4>五、es 的五种用法</h4>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>用法</th><th>怎么认</th><th>读本里</th><th>译法</th></tr></thead><tbody>\n<tr><td>① 代替中性名词</td><td>前面有一个中性名词（das …）</td><td>[[es{it} fiel zur Erde und zerbrach]]（es = das Schüsselchen）</td><td>它</td></tr>\n<tr><td>② 代替中性的「人」</td><td>das Mädchen、das Kind 是中性</td><td>[[und es{kind} war so arm]] · [[ließ es{child} krank werden]]</td><td>她、他、这孩子</td></tr>\n<tr><td>③ 占位 es</td><td>真正的主语在后面；动词跟真主语一致</td><td>[[Es{expl} war einmal ein{nm} steinalter Mann]] · [[es{expl} sind gewiß kostbare Sachen in dem{dn} Kästchen]]</td><td>不译（「有……」）</td></tr>\n<tr><td>④ 无人称 es</td><td>天气、时间、感觉；没有真正的主语</td><td>[[es{expl} war schon dunkel geworden]] · [[es{expl} friert mich so an meinem{dm} Kopfe]]</td><td>不译（「天黑了」「我冷」）</td></tr>\n<tr><td>⑤ 预指 es</td><td>es 先占位，后面的 daß-从句或 zu-不定式才是真正的内容</td><td><i>es ist gut, daß …</i>（……是好的）：康德常用</td><td>不译，把后面的从句提上来</td></tr>\n</tbody></table></div>\n<p>③ 和 ⑤ 的 es 只是为了让动词站在第二位。如果别的成分占了第一位，占位 es 就消失：<i>Es war einmal ein Mann</i> → <i>Einmal war ein Mann</i>。动词跟后面的真主语变：[[es{expl} sind … Sachen]] 用 sind，因为主语是复数 Sachen。</p>\n<div class=\"tip\">判断 es 的步骤：① 前面有没有中性名词（das Schüsselchen、das Kind）？有，就是「它 / 她」。② 后面有没有一个名词做主语，动词跟它一致？有，es 是占位的。③ 都没有，且说的是天气、时间、感觉？是无人称的 es。④ 后面跟着 daß 或 zu？是预指的 es。本站词卡会标出每个 es 属于哪一种。</div>\n\n<h4>六、马上练</h4>\n{{quiz:s1}}\n\n<h4>七、小结</h4>\n<ul>\n<li>反身代词：mich / mir、dich / dir、<b>sich</b>、uns、euch、<b>sich</b>。sich 指回本句主语。</li>\n<li>四种情况：固定反身（sich ekeln）、动作落在自己身上（sich setzen、sich wärmen）、互相（sich ansehen）、与格「为自己」。</li>\n<li>查词连 sich 一起查：setzen 放 / sich setzen 坐下。</li>\n<li>sich 很靠前：代词主语之后，名词主语之前。</li>\n<li>与格代词常表示「谁的」：die Knie zitterten ihm = 他的膝盖发抖。</li>\n<li>es 五种：它、她（中性的人）、占位、无人称、预指。占位和预指的 es 不译。</li>\n</ul>\n\n<h4>八、读一读</h4>\n<p>《老祖父和孙子》只有 10 句，是格林童话里最动人的短篇之一。sich 出现了三次，三种意思都不一样；还有三个「身体部位 + 与格」。</p>\n<p><button class=\"btn\" data-route=\"grimm~ch-k078\">读一读：《老祖父和孙子》</button> <button class=\"btn\" data-route=\"grimm~intro-5\">读后练习</button></p>",
+  "quiz": [
+   {
+    "id": "rf1",
+    "sec": "s1",
+    "de": "Sein Sohn und dessen Frau ekelten <<sich>> davor",
+    "opts": [
+     "固定的反身动词 sich ekeln：不译",
+     "互相"
+    ],
+    "ans": 0,
+    "why": "sich ekeln vor：对……感到恶心。sich 是动词的一部分。"
+   },
+   {
+    "id": "rf2",
+    "sec": "s1",
+    "de": "Da sahen <<sich>> Mann und Frau eine Weile an",
+    "opts": [
+     "互相：夫妻俩对望",
+     "看自己"
+    ],
+    "ans": 0,
+    "why": "主语是两个人，sich ansehen = 互相看。"
+   },
+   {
+    "id": "rf3",
+    "sec": "s1",
+    "de": "mußte sich <<der>> alte Großvater endlich hinter den Ofen in die Ecke setzen",
+    "opts": [
+     "主格：der alte Großvater 是主语",
+     "宾格：sich 的宾语"
+    ],
+    "ans": 0,
+    "why": "der 是阳性主格。sich 抢到了名词主语前面；主语是老祖父。"
+   },
+   {
+    "id": "rf4",
+    "sec": "s1",
+    "de": "die Knie zitterten <<ihm>>",
+    "opts": [
+     "与格，表示「谁的」：他的膝盖",
+     "宾格：膝盖抖他"
+    ],
+    "ans": 0,
+    "why": "ihm 是与格，表示身体部位属于谁：他的膝盖发抖。"
+   },
+   {
+    "id": "rf5",
+    "sec": "s1",
+    "de": "<<es>> fiel zur Erde und zerbrach",
+    "opts": [
+     "它：指 das Schüsselchen",
+     "占位的 es"
+    ],
+    "ans": 0,
+    "why": "前一句提到中性名词 das Schüsselchen，es 就是它。"
+   },
+   {
+    "id": "rf6",
+    "sec": "s1",
+    "de": "<<es>> sind gewiß kostbare Sachen in dem Kästchen",
+    "opts": [
+     "占位 es：真正的主语是 Sachen",
+     "它：指 das Kästchen"
+    ],
+    "ans": 0,
+    "why": "动词是复数 sind，跟着后面的 Sachen 变：es 只占位。"
+   },
+   {
+    "id": "rf7",
+    "sec": "s1",
+    "de": "<<es>> war schon dunkel geworden",
+    "opts": [
+     "无人称 es：天黑了",
+     "它：指 das Mädchen"
+    ],
+    "ans": 0,
+    "why": "说的是天色，没有真正的主语。"
+   },
+   {
+    "id": "rf8",
+    "sec": "s1",
+    "de": "und sie ißt <<sich>> satt",
+    "opts": [
+     "sich + 结果：把自己吃饱",
+     "互相"
+    ],
+    "ans": 0,
+    "why": "sich satt essen：吃饱。主语只有一个人，不是「互相」。"
+   }
+  ]
  }
 ]
