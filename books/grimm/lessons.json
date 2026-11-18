@@ -532,5 +532,125 @@
     "why": "es 指前面的中性名词 das Schüsselchen。"
    }
   ]
+ },
+ {
+  "id": "r027",
+  "ch": "k027",
+  "t": "读后练习：《不来梅的音乐家》",
+  "de": "Die Bremer Stadtmusikanten",
+  "min": 25,
+  "html": "<p>这篇有五部分。先回答内容题，再做语法题，复习第 15 课的比较级、最高级，以及前面学过的从句和关系从句。</p>\n<h4>一、读懂了吗</h4>\n{{quiz:s1}}\n<h4>二、语法回顾</h4>\n{{quiz:s2}}\n<h4>三、四只动物，四个怪物</h4>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>动物</th><th>它做了什么</th><th>强盗以为是</th></tr></thead><tbody>\n<tr><td>猫（Katze）</td><td>spie und kratzte（啐、抓）</td><td>eine gräuliche Hexe（可怕的巫婆）</td></tr>\n<tr><td>狗（Hund）</td><td>biß ihn ins Bein（咬腿）</td><td>ein Mann mit einem Messer（拿刀的人）</td></tr>\n<tr><td>驴（Esel）</td><td>gab ihm einen Schlag mit dem Hinterfuß（后蹄一踢）</td><td>ein schwarzes Ungethüm mit einer Holzkeule（拿木棒的黑怪物）</td></tr>\n<tr><td>公鸡（Hahn）</td><td>rief „kikeriki!“</td><td>der Richter（法官：bringt mir den Schelm her）</td></tr>\n</tbody></table></div>\n<h4>四、想一想</h4>\n<p>四只动物都因为「老了、没用了」被主人抛弃，结果在一起找到了新家。它们其实一直没到不来梅。驴的那句 etwas besseres als den Tod findest du überall（比死好的东西到处都找得到）后来成了德国人常说的话。</p>\n<p><button class=\"btn\" data-route=\"grimm~ch-k027\">回到原文</button></p>",
+  "quiz": [
+   {
+    "id": "q027a",
+    "sec": "s1",
+    "de": "dessen Kräfte aber nun zu Ende giengen",
+    "opts": [
+     "驴老了，力气快用完了",
+     "驴的主人老了"
+    ],
+    "ans": 0,
+    "why": "dessen 指 Esel：它的力气快耗尽了。"
+   },
+   {
+    "id": "q027b",
+    "sec": "s1",
+    "de": "hat mich mein Herr wollen todt schlagen",
+    "opts": [
+     "狗的主人想打死它",
+     "狗想咬死主人"
+    ],
+    "ans": 0,
+    "why": "主语是 mein Herr；mich（我）是宾语。"
+   },
+   {
+    "id": "q027c",
+    "sec": "s1",
+    "de": "hat mich meine Frau ersäufen wollen",
+    "opts": [
+     "猫的女主人想淹死它",
+     "猫想去河边"
+    ],
+    "ans": 0,
+    "why": "ersäufen：淹死。猫老了，不再抓老鼠。"
+   },
+   {
+    "id": "q027d",
+    "sec": "s1",
+    "de": "und hat der Köchin gesagt sie wollte mich Morgen in der Suppe essen",
+    "opts": [
+     "女主人要把公鸡做成汤",
+     "公鸡要喝汤"
+    ],
+    "ans": 0,
+    "why": "明天有客人来，女主人要把公鸡炖汤。"
+   },
+   {
+    "id": "q027e",
+    "sec": "s1",
+    "de": "meinten nicht anders als ein Gespenst käme herein",
+    "opts": [
+     "强盗以为有鬼进来了",
+     "强盗以为是邻居来了"
+    ],
+    "ans": 0,
+    "why": "Gespenst：鬼。käme：虚拟式，转述他们的想法。"
+   },
+   {
+    "id": "q027f",
+    "sec": "s1",
+    "de": "weil er die glühenden, feurigen Augen der Katze für lebendige Kohlen ansah",
+    "opts": [
+     "强盗把猫眼当成了烧着的炭",
+     "强盗想烧死猫"
+    ],
+    "ans": 0,
+    "why": "etw. für etw. ansehen：把……当成……。"
+   },
+   {
+    "id": "q027g",
+    "sec": "s2",
+    "de": "und jeden Tag <<schwächer>> werde",
+    "opts": [
+     "比较级：一天比一天弱",
+     "形容词词尾"
+    ],
+    "ans": 0,
+    "why": "schwach → schwächer（变音），在 werde 前作表语。"
+   },
+   {
+    "id": "q027h",
+    "sec": "s2",
+    "de": "bis sie vor ein hell <<erleuchtetes>> Räuberhaus kamen",
+    "opts": [
+     "分词作形容词，ein 后中性宾格 -es",
+     "比较级"
+    ],
+    "ans": 0,
+    "why": "erleuchtet（被照亮的）+ -es：ein 在中性宾格没有词尾，形容词补上。"
+   },
+   {
+    "id": "q027i",
+    "sec": "s2",
+    "de": "aber der Hund, <<der>> da lag, sprang auf",
+    "opts": [
+     "关系代词，指 der Hund",
+     "定冠词"
+    ],
+    "ans": 0,
+    "why": "der 后面是从句（lag 在末尾），指前面的 der Hund：躺在那里的狗。"
+   },
+   {
+    "id": "q027j",
+    "sec": "s2",
+    "de": "<<Wie>> das geschehen war, fiengen sie … an",
+    "opts": [
+     "当……之后（= als）",
+     "怎样"
+    ],
+    "ans": 0,
+    "why": "1857 年的 wie 常常 = als：这样做好以后。"
+   }
+  ]
  }
 ]

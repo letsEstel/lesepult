@@ -1224,5 +1224,91 @@
     "why": "Kästchen 是中性；ein 没有词尾，形容词补上 -es。"
    }
   ]
+ },
+ {
+  "id": "komparativ",
+  "t": "比较级与最高级",
+  "de": "Komparativ und Superlativ",
+  "min": 90,
+  "html": "<p>《不来梅的音乐家》里，动物们都在「比」：狗「一天比一天虚弱」，猫「宁愿」坐在炉子后面，驴说「比死好的东西到处都有」，公鸡飞到「最安全」的树梢。比较级和最高级的形式很规则，难点在于：比较级的 -er 和形容词词尾 -er 长得一样。这一课讲清楚形式、用法，以及怎样不把两种 -er 弄混。</p>\n\n<h4>一、三个级：原级、比较级、最高级</h4>\n<p>比较级加 <b>-er</b>，最高级加 <b>-(e)st</b>，后面再按需要加形容词词尾（第 14 课）：</p>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>原级</th><th>比较级</th><th>最高级</th><th>读本里</th></tr></thead><tbody>\n<tr><td>hell 亮</td><td>heller</td><td>am hellsten</td><td>[[sahen es{it} bald heller schimmern]]</td></tr>\n<tr><td>sicher 安全</td><td>sicherer</td><td>am sichersten</td><td>[[wo es{expl} am sichersten für ihn war]]</td></tr>\n<tr><td>untauglich 不中用</td><td>untauglicher</td><td>am untauglichsten</td><td>[[so daß er zur Arbeit immer untauglicher ward]]</td></tr>\n<tr><td>fein 精细</td><td>feiner</td><td>am feinsten</td><td>[[vom allerfeinsten Linnen]]</td></tr>\n</tbody></table></div>\n<p>词干以 -d、-t、-s、-ß、-z 结尾时，最高级加 -est，好读一些：alt → am ältesten，kurz → am kürzesten。</p>\n\n<h4>二、变音：短小的形容词常常变音</h4>\n<p>很多单音节形容词在比较级和最高级里把 a、o、u 变成 ä、ö、ü：</p>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>原级</th><th>比较级</th><th>最高级</th><th>读本里</th></tr></thead><tbody>\n<tr><td>groß 大</td><td>größer</td><td>am größten</td><td>[[es{it} ward immer größer]] · [[als der{nm} größte]]</td></tr>\n<tr><td>schwach 弱</td><td>schwächer</td><td>am schwächsten</td><td>[[jeden{am} Tag schwächer werde]]</td></tr>\n<tr><td>alt 老</td><td>älter</td><td>am ältesten</td><td></td></tr>\n<tr><td>jung 年轻</td><td>jünger</td><td>am jüngsten</td><td></td></tr>\n<tr><td>kurz 短</td><td>kürzer</td><td>am kürzesten</td><td><i>die kürzeste</i>（康德：两点之间直线最短）</td></tr>\n<tr><td>warm 暖</td><td>wärmer</td><td>am wärmsten</td><td></td></tr>\n</tbody></table></div>\n<div class=\"tip\">变音是认出比较级的好线索：größer、älter、schwächer 一看就不是原级。</div>\n\n<h4>三、不规则的几个</h4>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>原级</th><th>比较级</th><th>最高级</th><th>读本里</th></tr></thead><tbody>\n<tr><td>gut 好</td><td><b>besser</b></td><td>am <b>besten</b></td><td>[[etwas besseres als den{am} Tod findest du überall]]</td></tr>\n<tr><td>gern 乐意</td><td><b>lieber</b>（宁愿）</td><td>am <b>liebsten</b></td><td>[[zieh lieber mit uns fort]]</td></tr>\n<tr><td>viel 多</td><td><b>mehr</b></td><td>am <b>meisten</b></td><td>[[gar nichts mehr]]（mehr 在否定后 = 「再也」）</td></tr>\n<tr><td>hoch 高</td><td>höher</td><td>am höchsten</td><td></td></tr>\n<tr><td>nah 近</td><td>näher</td><td>am nächsten</td><td></td></tr>\n</tbody></table></div>\n<p>mehr 和 weniger 不加词尾：mehr Brot、weniger Zeit。</p>\n\n<h4>四、比较级怎么用</h4>\n<ul>\n<li><b>als = 比</b>：[[etwas besseres als den{am} Tod]]：比死更好的东西。als 后面的名词和被比的东西同格：etwas besseres 是 findest 的宾语，所以 den Tod 也是宾格。</li>\n<li><b>lieber … als … = 宁愿……而不……</b>：[[ich lieber hinter dem{dm} Ofen sitze und spinne, als nach Mäusen herum jage]]。</li>\n<li><b>immer + 比较级 = 越来越……</b>：[[es{it} ward immer größer]]、[[immer untauglicher]]。</li>\n<li><b>noch / viel / weit + 比较级 = 还要、……得多</b>：<i>noch viel besser</i>（康德：还要好得多）。</li>\n<li><b>je … desto … = 越……越……</b>：<i>je größer, desto besser</i>。康德常用。</li>\n</ul>\n\n<h4>五、最高级怎么用</h4>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>形式</th><th>用在哪里</th><th>读本里</th></tr></thead><tbody>\n<tr><td>am …-sten</td><td>表语、副词</td><td>[[wo es{expl} am sichersten für ihn war]]</td></tr>\n<tr><td>der / die / das …-ste</td><td>名词前（或省掉名词）</td><td>[[als der{nm} größte]] · [[ist die{nf} größte Noth]]</td></tr>\n<tr><td>没有冠词：强词尾</td><td>名词前</td><td>[[in größter Furcht]]（阴性与格 -er）</td></tr>\n<tr><td>aller- + 最高级</td><td>加强：「最最……」</td><td>[[vom allerfeinsten Linnen]]</td></tr>\n</tbody></table></div>\n<p>没有冠词的最高级常常不是真的比较，而是「极其」：in größter Furcht = 极度恐惧之中。</p>\n\n<h4>六、两种 -er：比较级还是词尾？</h4>\n<p>-er 可能是比较级，也可能是形容词词尾（阳性主格、阴性与格 / 属格）。读本里两种都有：</p>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>句子</th><th>-er 是</th><th>理由</th></tr></thead><tbody>\n<tr><td>[[immer untauglicher ward]]</td><td>比较级</td><td>表语位置（ward 后），表语不加词尾，所以 -er 只能是比较级</td></tr>\n<tr><td>[[alter Bartputzer]]</td><td>词尾（阳性主格）</td><td>名词前，没有冠词，称呼用主格：强词尾 -er</td></tr>\n<tr><td>[[kein{nm} guter Wind]]</td><td>词尾</td><td>kein 后阳性主格：补 -er</td></tr>\n<tr><td>[[jeden{am} Tag schwächer werde]]</td><td>比较级</td><td>表语，还有变音 ä</td></tr>\n<tr><td>[[in größter Furcht]]</td><td>最高级 + 词尾</td><td>größt- 是最高级，-er 是阴性与格词尾</td></tr>\n</tbody></table></div>\n<div class=\"tip\">判断法：① -er 在表语或副词位置（动词后、不跟名词）→ 比较级。② 在名词前：先看有没有变音或 als；再看去掉 -er 后剩下的是不是原级。größer + 名词 = 比较级 + 词尾（ein größerer Baum：-er-er）。</div>\n\n<h4>七、康德的比较级</h4>\n<p>康德写论证时离不开比较：<i>weit vorzüglicher</i>（远为优越）、<i>viel erhabener</i>（崇高得多）、<i>das beschwerlichste aller ihrer Geschäfte</i>（它一切工作中最艰难的一项）。最后一个是最高级 + 属格复数：「……之中最……的」。</p>\n\n<h4>八、马上练</h4>\n{{quiz:s1}}\n\n<h4>九、小结</h4>\n<ul>\n<li>比较级 -er，最高级 -(e)st；短形容词常变音：groß → größer → größt-。</li>\n<li>不规则：gut → besser → best-；gern → lieber → liebst-；viel → mehr → meist-。</li>\n<li>als = 比；lieber … als = 宁愿……而不；immer + 比较级 = 越来越。</li>\n<li>最高级：am …-sten（表语 / 副词）；der …-ste（名词前）；aller- 加强。</li>\n<li>-er 在表语位置是比较级，在名词前多半是词尾。</li>\n</ul>\n\n<h4>十、读一读</h4>\n<p>《不来梅的音乐家》是这个读本里第一篇长故事（约 1200 词，分五部分）。慢慢读，每部分读完先看「脉络」和译文，再做下一部分。</p>\n<p><button class=\"btn\" data-route=\"grimm~ch-k027\">读一读：《不来梅的音乐家》</button> <button class=\"btn\" data-route=\"grimm~intro-6\">读后练习</button></p>",
+  "quiz": [
+   {
+    "id": "cp1",
+    "sec": "s1",
+    "de": "so daß er zur Arbeit immer <<untauglicher>> ward",
+    "opts": [
+     "比较级：越来越不中用",
+     "形容词词尾（阳性主格）"
+    ],
+    "ans": 0,
+    "why": "在 ward 后作表语，表语不加词尾，所以 -er 是比较级。immer + 比较级 = 越来越。"
+   },
+   {
+    "id": "cp2",
+    "sec": "s1",
+    "de": "<<alter>> Bartputzer",
+    "opts": [
+     "形容词词尾：阳性主格（没有冠词）",
+     "比较级：更老的"
+    ],
+    "ans": 0,
+    "why": "名词前、没有冠词的称呼：强词尾 -er。比较级应是 älter（变音）。"
+   },
+   {
+    "id": "cp3",
+    "sec": "s1",
+    "de": "etwas besseres als den Tod findest du überall",
+    "opts": [
+     "比死更好的东西，你到处都找得到",
+     "死比什么都好"
+    ],
+    "ans": 0,
+    "why": "besser：gut 的比较级；als：比。"
+   },
+   {
+    "id": "cp4",
+    "sec": "s1",
+    "de": "wo es am <<sichersten>> für ihn war",
+    "opts": [
+     "最高级：最安全",
+     "比较级：更安全"
+    ],
+    "ans": 0,
+    "why": "am + -sten：表语位置的最高级。"
+   },
+   {
+    "id": "cp5",
+    "sec": "s1",
+    "de": "und ich <<lieber>> hinter dem Ofen sitze und spinne, als nach Mäusen herum jage",
+    "opts": [
+     "gern 的比较级：宁愿……而不……",
+     "形容词：亲爱的"
+    ],
+    "ans": 0,
+    "why": "lieber … als …：宁愿坐在炉子后面，也不愿去追老鼠。"
+   },
+   {
+    "id": "cp6",
+    "sec": "s1",
+    "de": "flohen in <<größter>> Furcht",
+    "opts": [
+     "最高级 + 阴性与格词尾：在极度恐惧中",
+     "比较级"
+    ],
+    "ans": 0,
+    "why": "größt- 是 groß 的最高级；没有冠词，阴性与格加强词尾 -er。"
+   },
+   {
+    "id": "cp7",
+    "sec": "s1",
+    "de": "Der Esel, als der <<größte>>",
+    "opts": [
+     "最高级：作为最大的那个",
+     "比较级"
+    ],
+    "ans": 0,
+    "why": "der größte：der + 最高级 + 弱词尾 -e，后面省掉了名词。"
+   }
+  ]
  }
 ]

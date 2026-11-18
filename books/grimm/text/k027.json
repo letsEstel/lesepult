@@ -1,0 +1,497 @@
+[
+ {
+  "h": "一 · 驴和狗",
+  "t": "Der Esel und der Hund",
+  "k": "1",
+  "sum": "读前：学完阅读课第 1–15 课（第 15 课是比较级与最高级）。\n《不来梅的音乐家》是格林童话第 27 篇，约 1200 词，是这个读本里第一篇「长篇」。四只老了、被主人嫌弃的动物——驴、狗、猫、公鸡——结伴去不来梅当城市乐手，路上用它们的「音乐」吓跑了一伙强盗。故事里对话很多，有不少口语缩写（wars = war es，hab = habe）。语法上，比较级到处都是（schwächer、lieber、heller、größer、am sichersten）；还有几个后面才细讲的形式，注释里会先解释：完成时（第 16 课）、虚拟式（第 22 课），以及情态动词的「双不定式」（hat mich wollen todt schlagen）。",
+  "s": [
+   {
+    "de": "Es{expl} hatte ein{nm} Mann einen{am} Esel, der{rel:nm} schon lange Jahre die{ap} Säcke unverdrossen zur Mühle getragen hatte, dessen{rel:gm} Kräfte aber nun zu Ende giengen, so daß er zur Arbeit immer untauglicher ward.",
+    "zh": "从前有个人养了一头驴，这头驴多年来不辞辛苦地把一袋袋粮食驮到磨坊去；可是现在它的力气快用尽了，越来越干不动活了。",
+    "n": [
+     "拆解：① Es hatte ein Mann einen Esel（有个人有一头驴）：es 只占位，主语是 ein Mann。② 关系从句 der schon lange Jahre die Säcke … zur Mühle getragen hatte（它多年来把口袋驮到磨坊）。③ 第二个关系从句 dessen Kräfte aber nun zu Ende giengen（它的力气却快完了）。④ 结果从句 so daß er zur Arbeit immer untauglicher ward（以致它越来越干不了活）。",
+     "der：关系代词，阳性主格，指 einen Esel（第 13 课）。getragen hatte：过去完成时（「已经驮了多年」）。lange Jahre：多年（宾格表示时间长度）。unverdrossen：不知疲倦地。zur Mühle：到磨坊。",
+     "dessen Kräfte：它的力气。dessen 是关系代词属格（阳性），指 Esel（第 13 课）。zu Ende gehen：快完了、耗尽。giengen = gingen。",
+     "so daß：以致（第 12 课）。untauglicher：untauglich（不中用的）的比较级（第 15 课）。immer + 比较级：越来越……。ward = wurde（werden 的过去时，旧式）。"
+    ]
+   },
+   {
+    "de": "Da dachte der{nm} Herr daran, ihn aus dem{dn} Futter zu schaffen, aber der{nm} Esel merkte daß kein{nm} guter Wind wehte, lief fort und machte sich{refl} auf den{am} Weg nach Bremen: dort, meinte er, könnte er ja Stadtmusikant werden.",
+    "zh": "于是主人打算不再喂它了。驴看出风向不对，就跑掉了，上路去不来梅：它想，在那里它总可以当个城市乐手。",
+    "n": [
+     "拆解：① Da dachte der Herr daran, ihn aus dem Futter zu schaffen（主人打算不再喂它）：daran 预指后面的 zu-不定式。② aber der Esel merkte, daß kein guter Wind wehte（驴发觉风向不好）。③ lief fort und machte sich auf den Weg nach Bremen（跑掉，上路去不来梅）。④ 冒号后 dort, meinte er, könnte er ja Stadtmusikant werden（它想：在那里总能当城市乐手）。",
+     "an etw. denken：想到、打算。daran … zu schaffen：da- 预指后面的不定式（第 20 课）。jn aus dem Futter schaffen：不再喂某人（字面：把它从饲料里弄走），就是要宰掉它。",
+     "kein guter Wind wehte：吹的不是好风（形势不妙）。kein 在阳性主格没有词尾，形容词补 -er（第 14 课）。",
+     "fortlaufen：跑掉（lief … fort 拆开）。sich auf den Weg machen：上路（反身）。",
+     "könnte：können 的虚拟式二（第 22 课）：「总可以、说不定能」。meinte er 插在中间。Stadtmusikant：城市乐手（Stadt + Musikant），中世纪城市雇用的乐师。ja：表示「当然、总归」的语气词，不译。"
+    ]
+   },
+   {
+    "de": "Als er ein{an} Weilchen fortgegangen war, fand er einen{am} Jagdhund auf dem{dm} Wege liegen, der{rel:nm} jappte wie einer, der{rel:nm} sich{refl} müde gelaufen hat.",
+    "zh": "走了一小会儿，它看见一只猎狗躺在路上，喘得像一个跑累了的人。",
+    "n": [
+     "拆解：① 从句 Als er ein Weilchen fortgegangen war（它走了一小会儿以后）。② 主句 fand er einen Jagdhund auf dem Wege liegen（它发现一只猎狗躺在路上）。③ 关系从句 der jappte wie einer（它喘得像一个人）。④ 套在里面的关系从句 der sich müde gelaufen hat（那个跑累了的人）。",
+     "fortgegangen war：过去完成时（走了之后）。ein Weilchen：一小会儿（Weile + -chen，宾格表示时长）。",
+     "jn liegen finden：发现某人躺着。finden + 不定式（不带 zu）。auf dem Wege：在路上（古式与格 -e）。",
+     "jappen：大口喘气（方言）。wie einer：像一个人（einer 是代词，「某人」）。",
+     "sich müde laufen：跑得筋疲力尽（反身 + 结果，第 11 课）。gelaufen hat：完成时（第 16 课）。"
+    ]
+   },
+   {
+    "de": "„Nun, was jappst du so, Packan?“ fragte der{nm} Esel.",
+    "zh": "「喂，你喘什么呀，咬住儿？」驴问。",
+    "n": [
+     "拆解：问句 was jappst du so（你为什么这样喘）+ 称呼 Packan + 插入 fragte der Esel。",
+     "was 在这里 = warum（为什么），口语。",
+     "Packan：狗的名字，来自 pack an!（咬住！），猎狗的口令。这篇里动物互相叫外号：Packan、Bartputzer（擦胡子的）、Rothkopf（红脑袋）、Grauschimmel（灰毛驴）。"
+    ]
+   },
+   {
+    "de": "„Ach,“ sagte der{nm} Hund, „weil ich alt bin und jeden{am} Tag schwächer werde, auch auf der{df} Jagd nicht mehr fort kann, hat mich mein{nm} Herr wollen todt schlagen, da hab ich Reißaus genommen; aber womit soll ich nun mein{an} Brot verdienen?“",
+    "zh": "「唉，」狗说，「因为我老了，一天比一天虚弱，打猎也跟不上了，我的主人就想打死我，我就溜了；可是我现在靠什么糊口呢？」",
+    "n": [
+     "拆解：① 原因从句 weil ich alt bin und jeden Tag schwächer werde, auch auf der Jagd nicht mehr fort kann（因为我老了、一天天变弱、打猎也跑不动了）：三个动词 bin、werde、kann 各在一段末尾。② 主句 hat mich mein Herr wollen todt schlagen（我的主人想打死我）。③ da hab ich Reißaus genommen（我就溜了）。④ aber womit soll ich nun mein Brot verdienen?（我现在靠什么谋生？）",
+     "jeden Tag：每天（宾格表示时间）。schwächer：schwach（弱）的比较级，变音（第 15 课）。schwächer werden：变得更弱。",
+     "nicht mehr fort können：再也跑不动了（省掉了 laufen）。fort kann 今天写 fortkann。",
+     "hat mich … wollen todt schlagen：「双不定式」：情态动词的完成时不用 gewollt，而用不定式 wollen，句末出现两个不定式（第 10 课预告过）。字面「主人已经想要打死我」。todt = tot（死）；todt schlagen = totschlagen（打死）。",
+     "Reißaus nehmen：逃跑（固定说法）。hab ich … genommen：完成时（第 16 课），hab = habe（口语）。",
+     "womit：用什么（疑问词，wo + mit）。sein Brot verdienen：谋生（字面：挣自己的面包）。"
+    ]
+   },
+   {
+    "de": "„Weißt du was,“ sprach der{nm} Esel, „ich gehe nach Bremen und werde dort Stadtmusikant, geh mit und laß dich auch bei der{df} Musik annehmen.",
+    "zh": "「你知道吗，」驴说，「我要去不来梅当城市乐手，你跟我一起去，也让乐队收下你吧。",
+    "n": [
+     "拆解：① Weißt du was（你知道吗：「我有个主意」）。② ich gehe nach Bremen und werde dort Stadtmusikant（我去不来梅当城市乐手）。③ 两个命令式：geh mit（一起去）und laß dich … annehmen（让人收下你）。",
+     "Weißt du was：口语，引出一个提议。weißt：wissen 的 du 形式。",
+     "werde … Stadtmusikant：成为城市乐手（werden + 名词 = 成为）。现在时表示将来的打算。",
+     "geh mit：mitgehen（一起去）的命令式。laß dich … annehmen：让自己被接纳。lassen + sich + 不定式 = 让自己被……（第 25 课）。laß = lass。bei der Musik：在乐队里。"
+    ]
+   },
+   {
+    "de": "Ich spiele die{af} Laute, und du schlägst die{ap} Pauken.“",
+    "zh": "我弹琉特琴，你敲鼓。」",
+    "n": [
+     "拆解：两个并列主句。Ich spiele die Laute（我弹琉特琴）und du schlägst die Pauken（你敲定音鼓）。",
+     "die Laute：琉特琴（一种弦乐器）。die Pauke：定音鼓，复数 Pauken。schlägst：schlagen 的 du 形式（a → ä）。",
+     "一头驴弹琴，这本身就是个笑话：中世纪就有「驴弹竖琴」的谚语画，比喻笨拙的人。"
+    ]
+   },
+   {
+    "de": "Der{nm} Hund wars zufrieden, und sie{they} giengen weiter.",
+    "zh": "狗同意了，它们就一起往前走。",
+    "n": [
+     "拆解：Der Hund wars zufrieden（狗对此很满意）+ und sie giengen weiter（它们继续走）。",
+     "wars = war es。etw. zufrieden sein：对某事满意（旧说法，es 是宾格的「这件事」）。",
+     "sie：它们（驴和狗）。weitergehen：继续走。"
+    ]
+   }
+  ]
+ },
+ {
+  "h": "二 · 猫和公鸡",
+  "t": "Die Katze und der Hahn",
+  "k": "2",
+  "s": [
+   {
+    "de": "Es{expl} dauerte nicht lange, so saß da eine{nf} Katze an dem{dm} Weg und machte ein{an} Gesicht wie drei Tage Regenwetter.",
+    "zh": "没过多久，路边坐着一只猫，一张脸阴得像连下了三天雨。",
+    "n": [
+     "拆解：① Es dauerte nicht lange（没过多久）。② so saß da eine Katze an dem Weg（就有一只猫坐在路边）：so 接上主句，动词 saß 紧跟。③ und machte ein Gesicht wie drei Tage Regenwetter（摆着一张像三天阴雨的脸）。",
+     "es dauert lange：要很久（无人称 es，第 11 课）。",
+     "ein Gesicht machen：摆出一副脸色。wie drei Tage Regenwetter：像三天下雨的天气（Regen + Wetter）：愁眉苦脸。"
+    ]
+   },
+   {
+    "de": "„Nun, was ist dir in die{af} Quere gekommen, alter Bartputzer?“ sprach der{nm} Esel.",
+    "zh": "「喂，什么事让你不顺心啦，老擦胡子的？」驴说。",
+    "n": [
+     "拆解：was ist dir in die Quere gekommen（什么挡了你的道）+ 称呼 alter Bartputzer + sprach der Esel。",
+     "jm in die Quere kommen：碍某人的事、让某人不顺。ist … gekommen：完成时（第 16 课），kommen 用 sein 作助动词。dir：与格（对你）。",
+     "alter Bartputzer：老擦胡子的（猫老在舔胡子）。称呼时没有冠词，形容词用强词尾 -er（第 14 课）。"
+    ]
+   },
+   {
+    "de": "„Wer kann da lustig sein, wenns einem an den{am} Kragen geht,“ antwortete die{nf} Katze, „weil ich nun zu Jahren komme, meine{np} Zähne stumpf werden, und ich lieber hinter dem{dm} Ofen sitze und spinne, als nach Mäusen herum jage, hat mich meine{nf} Frau ersäufen wollen; ich habe mich zwar noch fortgemacht, aber nun ist guter Rath theuer: wo soll ich hin?“",
+    "zh": "「性命难保的时候，谁还高兴得起来？」猫回答，「因为我上了年纪，牙齿钝了，宁愿坐在炉子后面打呼噜，也不想到处追老鼠，我的女主人就想把我淹死。我虽然逃出来了，可现在怎么办才好呢：我能上哪儿去？」",
+    "n": [
+     "拆解：① Wer kann da lustig sein, wenns einem an den Kragen geht（性命攸关时谁高兴得起来）。② 原因从句 weil ich nun zu Jahren komme, meine Zähne stumpf werden, und ich lieber … sitze und spinne, als nach Mäusen herum jage（因为我老了、牙钝了、宁愿坐着……也不愿追老鼠）。③ 主句 hat mich meine Frau ersäufen wollen（我的女主人想淹死我）。④ ich habe mich zwar noch fortgemacht（我虽然逃了出来）。⑤ aber nun ist guter Rath theuer（可现在没主意了）。⑥ wo soll ich hin?（我该去哪儿？）",
+     "es geht jm an den Kragen：某人性命难保（字面：事情冲着领子来了）。wenns = wenn es。einem：与格的 man（「一个人」）。",
+     "zu Jahren kommen：上年纪。stumpf：钝的。",
+     "lieber … als …：宁愿……而不……。lieber 是 gern 的比较级（第 15 课）。spinnen：（猫）打呼噜（字面：纺纱，纺车的声音）。nach Mäusen jagen：追老鼠（Maus → Mäuse，复数与格 Mäusen）。herum jage = herumjage（到处追）。",
+     "hat mich … ersäufen wollen：双不定式（同上一部分 hat … wollen todt schlagen）。ersäufen：淹死（使溺死）。meine Frau：我的女主人。",
+     "sich fortmachen：溜走。habe … fortgemacht：完成时。guter Rath ist theuer：好主意很贵 = 一筹莫展（谚语）。Rath = Rat，theuer = teuer。",
+     "wo soll ich hin?：我该去哪？情态动词后省掉了 gehen（第 10 课）。"
+    ]
+   },
+   {
+    "de": "„Geh mit uns nach Bremen, du verstehst dich{refl} doch auf die{af} Nachtmusik, da kannst du ein{nm} Stadtmusikant werden.“",
+    "zh": "「跟我们去不来梅吧，你不是很懂小夜曲吗，在那里你可以当个城市乐手。」",
+    "n": [
+     "拆解：① Geh mit uns nach Bremen（跟我们去不来梅）。② du verstehst dich doch auf die Nachtmusik（你可是懂夜曲的）。③ da kannst du ein Stadtmusikant werden（在那里你能当城市乐手）。",
+     "sich auf etw. verstehen：精通某事（反身动词）。doch：「可是、不是吗」的语气。",
+     "die Nachtmusik：小夜曲。猫在夜里叫春，这是驴的玩笑。dich 在这里是反身代词（du 的宾格）。"
+    ]
+   },
+   {
+    "de": "Die{nf} Katze hielt das{dem:an} für gut und gieng mit.",
+    "zh": "猫觉得这主意不错，就跟着去了。",
+    "n": [
+     "拆解：Die Katze hielt das für gut（猫认为这很好）+ und gieng mit（一起去了）。",
+     "etw. für gut halten：认为某事好。hielt：halten 的过去时。das 是指示代词，指驴的提议。",
+     "mitgehen：一起去（gieng … mit）。"
+    ]
+   },
+   {
+    "de": "Darauf kamen die{np} drei Landesflüchtigen an einem{dm} Hof vorbei, da saß auf dem{dn} Thor der{nm} Haushahn und schrie aus Leibeskräften.",
+    "zh": "然后，三个逃亡者经过一个农庄，大门上坐着一只家养的公鸡，正在拼命地叫。",
+    "n": [
+     "拆解：① Darauf kamen die drei Landesflüchtigen an einem Hof vorbei（然后三个逃亡者经过一个农庄）：an … vorbeikommen 拆开。② da saß auf dem Thor der Haushahn（大门上坐着家里的公鸡）：主语 der Haushahn 排在最后。③ und schrie aus Leibeskräften（拼尽全力地叫）。",
+     "darauf：然后。an etw. vorbeikommen：经过某处（可分动词）。",
+     "die Landesflüchtigen：逃离本乡的人（Land + flüchtig，形容词名词化，第 14 课）。说的是三只动物，带着点玩笑的庄重。",
+     "das Thor = das Tor：大门。der Haushahn：家养的公鸡。",
+     "schrie：schreien 的过去时。aus Leibeskräften：用尽全身力气（Leib 身体 + Kräfte）。"
+    ]
+   },
+   {
+    "de": "„Du schreist einem durch Mark und Bein,“ sprach der{nm} Esel, „was hast du vor?“",
+    "zh": "「你叫得人骨头都发麻，」驴说，「你这是要干什么？」",
+    "n": [
+     "拆解：① Du schreist einem durch Mark und Bein（你的叫声穿透人的骨髓）。② was hast du vor?（你打算干什么？）",
+     "durch Mark und Bein gehen：刺透骨髓（形容声音刺耳）。einem：与格的 man（一个人、人家）。",
+     "etw. vorhaben：打算做某事（可分动词，vor 在句末）。"
+    ]
+   },
+   {
+    "de": "„Da hab ich gut Wetter prophezeit,“ sprach der{nm} Hahn, „weil unserer{gf} lieben Frauen Tag ist, wo sie{she} dem{dn} Christkindlein die{ap} Hemdchen gewaschen hat und sie{them} trocknen will; aber weil Morgen zum Sonntag Gäste kommen, so hat die{nf} Hausfrau doch kein{an} Erbarmen, und hat der{df} Köchin gesagt sie{she} wollte mich Morgen in der{df} Suppe essen, und da soll ich mir heut Abend den{am} Kopf abschneiden lassen.",
+    "zh": "「我在预报好天气，」公鸡说，「因为今天是圣母节，圣母给小基督洗了小衣服，要把它们晾干；可是明天星期天要来客人，女主人一点也不留情，跟厨娘说明天要把我炖汤吃，所以今天晚上我就得让人砍掉脑袋。",
+    "n": [
+     "拆解：① Da hab ich gut Wetter prophezeit（我预报了好天气）。② 原因从句 weil unserer lieben Frauen Tag ist（因为今天是圣母节），里面套一个关系从句 wo sie dem Christkindlein die Hemdchen gewaschen hat und sie trocknen will（这一天她给小基督洗了衣服、要晾干）。③ aber weil Morgen zum Sonntag Gäste kommen（可是因为明天星期天有客人来）。④ 主句 so hat die Hausfrau doch kein Erbarmen（女主人毫不怜悯）。⑤ und hat der Köchin gesagt（并对厨娘说）+ 没有 daß 的从句 sie wollte mich Morgen in der Suppe essen（她明天要把我做成汤吃）。⑥ und da soll ich mir heut Abend den Kopf abschneiden lassen（今晚我就得被砍头）。",
+     "hab … prophezeit：完成时（第 16 课）。prophezeien：预言。gut Wetter：好天气（形容词没有词尾，口语）。",
+     "unserer lieben Frauen Tag：圣母节（「我们亲爱的女士」= 圣母马利亚）。unserer lieben Frauen 是属格，放在 Tag 前面（第 18 课讲属格前置）。Frauen 是旧式的阴性单数属格。",
+     "wo：在这一天（关系副词，指时间）。dem Christkindlein：给小基督（与格）。sie trocknen will：sie = die Hemdchen（它们），trocknen：晾干。民间说法：圣母节天晴，好让圣母晾衣服。",
+     "Morgen（明天，今天写小写 morgen）。zum Sonntag：在星期天。Gäste：客人（der Gast 的复数）。kein Erbarmen haben：毫不怜悯。",
+     "sie wollte …：没有 daß 的转述从句（第 12 课），wollte 在这里是虚拟式（和过去时同形）。",
+     "sich (Dat.) den Kopf abschneiden lassen：让人把自己的头砍掉。mir 是与格（「我的」头，第 11 课），lassen + 不定式（第 25 课）。heut Abend：今晚（heute Abend）。"
+    ]
+   },
+   {
+    "de": "Nun schrei ich aus vollem Hals, so lang ich noch kann.“",
+    "zh": "所以趁我还能叫，就扯开嗓子叫个够。」",
+    "n": [
+     "拆解：Nun schrei ich aus vollem Hals（现在我放开喉咙叫）+ 从句 so lang ich noch kann（只要我还能）。",
+     "schrei = schreie（口语省 e）。aus vollem Hals：放开嗓门（没有冠词，形容词强词尾 -em = 与格，第 14 课）。",
+     "so lang(e) …：只要……（从属连词，kann 在末尾）。情态动词 kann 后省掉了 schreien。"
+    ]
+   },
+   {
+    "de": "„Ei was, du Rothkopf,“ sagte der{nm} Esel, „zieh lieber mit uns fort, wir gehen nach Bremen, etwas besseres als den{am} Tod findest du überall; du hast eine{af} gute Stimme, und wenn wir zusammen musicieren, so muß es{expl} eine{af} Art haben.“",
+    "zh": "「哎呀，你这个红脑袋，」驴说，「还不如跟我们走吧，我们去不来梅；比死好的东西，到哪儿都找得到。你嗓子好，要是我们一起奏乐，一定有模有样。」",
+    "n": [
+     "拆解：① Ei was, du Rothkopf（哎呀，你这红脑袋）。② zieh lieber mit uns fort（不如跟我们走）。③ wir gehen nach Bremen。④ etwas besseres als den Tod findest du überall（比死更好的东西你到处都找得到）：宾语 etwas besseres als den Tod 提到第一位。⑤ du hast eine gute Stimme。⑥ und wenn wir zusammen musicieren, so muß es eine Art haben（要是我们一起奏乐，一定像个样子）。",
+     "Rothkopf = Rotkopf：红脑袋（指鸡冠）。zieh … fort：fortziehen（走掉）的命令式。lieber：最好还是（gern 的比较级，第 15 课）。",
+     "etwas besseres als den Tod：比死更好的东西。besser：gut 的比较级（不规则，第 15 课）；etwas 后形容词名词化用 -es（今天大写 Besseres）。als：比（比较）。den Tod 是宾格，因为它和 etwas besseres 一样都是 findest 的宾语。这句话后来成了德国谚语。",
+     "musicieren = musizieren（奏乐）。es muß eine Art haben：这一定像样（es hat Art：有模有样，口语）。"
+    ]
+   },
+   {
+    "de": "Der{nm} Hahn ließ sich{refl} den{am} Vorschlag gefallen, und sie{they} giengen alle{np} viere zusammen fort.",
+    "zh": "公鸡同意了这个提议，四个就一起走了。",
+    "n": [
+     "拆解：Der Hahn ließ sich den Vorschlag gefallen（公鸡接受了这个提议）+ und sie giengen alle viere zusammen fort（四个一起走了）。",
+     "sich (Dat.) etw. gefallen lassen：接受、容忍某事。ließ：lassen 的过去时。der Vorschlag：建议。",
+     "alle viere：四个全部（viere 是数词的旧式，加 -e）。fortgehen：走掉。"
+    ]
+   }
+  ]
+ },
+ {
+  "h": "三 · 森林里的灯光",
+  "t": "Ein Licht im Wald",
+  "k": "3",
+  "s": [
+   {
+    "de": "Sie{they} konnten aber die{af} Stadt Bremen in einem{dm} Tag nicht erreichen und kamen Abends in einen{am} Wald, wo sie{they} übernachten wollten.",
+    "zh": "可是它们一天到不了不来梅城，晚上来到一片森林，打算在那里过夜。",
+    "n": [
+     "拆解：① Sie konnten aber die Stadt Bremen in einem Tag nicht erreichen（它们一天到不了不来梅）：情态动词 konnten + 句末 erreichen。② und kamen Abends in einen Wald（晚上来到一片森林）。③ 关系从句 wo sie übernachten wollten（它们想在那里过夜）。",
+     "in einem Tag：一天之内。Abends：晚上（今天写小写 abends）。in einen Wald：进入森林（宾格，方向）。",
+     "wo：关系副词，指地点（= in dem）。übernachten：过夜。"
+    ]
+   },
+   {
+    "de": "Der{nm} Esel und der{nm} Hund legten sich{refl} unter einen{am} großen Baum, die{nf} Katze und der{nm} Hahn machten sich{refl} in die{ap} Äste, der{nm} Hahn aber flog bis in die{af} Spitze, wo es{expl} am sichersten für ihn war.",
+    "zh": "驴和狗躺在一棵大树下，猫和公鸡上了树枝，公鸡还一直飞到树梢，那里对它来说最安全。",
+    "n": [
+     "拆解：三个并列的主句。① Der Esel und der Hund legten sich unter einen großen Baum（驴和狗躺到大树下）。② die Katze und der Hahn machten sich in die Äste（猫和公鸡上了树枝）。③ der Hahn aber flog bis in die Spitze（公鸡却飞到树梢）+ 关系从句 wo es am sichersten für ihn war（那里对它最安全）。",
+     "sich unter etw. legen：躺到……下面（宾格，方向）。einen großen Baum：阳性宾格，einen 后 -en（第 14 课）。",
+     "sich in die Äste machen：到树枝上去（口语）。der Ast → die Äste。",
+     "aber 插在主语后面（第 12 课）。bis in die Spitze：一直到顶端。",
+     "am sichersten：最高级（第 15 课）。am + -sten 用作表语或副词：「最安全」。es 是无人称的 es。"
+    ]
+   },
+   {
+    "de": "Ehe er einschlief, sah er sich{refl} noch einmal nach allen{dp} vier Winden um, da däuchte ihn er sähe in der{df} Ferne ein{an} Fünkchen brennen und rief seinen{dp} Gesellen zu es{expl} müßte nicht gar weit ein{nn} Haus sein, denn es{expl} scheine ein{nn} Licht.",
+    "zh": "睡着之前，它又朝四面八方看了一圈，觉得好像看见远处有一点火光在闪，就朝同伴们喊：不太远的地方一定有一座房子，因为那儿有亮光。",
+    "n": [
+     "拆解：① 从句 Ehe er einschlief（在它睡着之前）。② 主句 sah er sich noch einmal nach allen vier Winden um（它又向四面八方看了一圈）：sich umsehen 拆开。③ da däuchte ihn（它觉得）+ 转述 er sähe in der Ferne ein Fünkchen brennen（它看见远处一点火在燃）。④ und rief seinen Gesellen zu（并朝同伴喊）+ 转述 es müßte nicht gar weit ein Haus sein, denn es scheine ein Licht（不远处一定有房子，因为有光）。",
+     "ehe：在……之前（从属连词，第 12 课）。einschlafen：睡着（从句里不拆开）。",
+     "sich nach etw. umsehen：环顾。nach allen vier Winden：朝四面八方（四个风向）。",
+     "es däuchte ihn：他觉得（旧词 dünken 的过去时，今天说 es dünkte ihn / ihm schien）。ihn 是宾格。",
+     "er sähe、es müßte、es scheine：都是虚拟式（第 22–23 课），用来转述它看到的、喊出的内容；省掉了 daß，从句用第二位语序（第 12 课）。jn etw. tun sehen：看见某物在做……（brennen 不带 zu）。",
+     "jm zurufen：朝某人喊。seinen Gesellen：给它的同伴们（复数与格）。der Geselle：伙伴。",
+     "das Fünkchen：一点小火星（Funke + -chen）。es scheint ein Licht：有光照着（占位 es）。"
+    ]
+   },
+   {
+    "de": "Sprach der{nm} Esel „so müssen wir uns aufmachen und noch hingehen, denn hier ist die{nf} Herberge schlecht.“",
+    "zh": "驴就说：「那我们得动身，再走过去，因为这里的住处太差了。」",
+    "n": [
+     "拆解：Sprach der Esel（驴说）：动词放在最前面，是讲故事的口吻，相当于 Da sprach der Esel。引号里：① so müssen wir uns aufmachen und noch hingehen（那我们得动身过去）。② denn hier ist die Herberge schlecht（因为这里住得不好）。",
+     "动词开头的陈述句：民间故事里常见，表示紧接着上文（= da / und so）。不是问句。",
+     "sich aufmachen：动身（反身，可分）。hingehen：到那儿去。两个不定式都由 müssen 支配（第 10 课）。",
+     "denn：因为（并列连词，不改语序，第 12 课）。die Herberge：住处、客栈。"
+    ]
+   },
+   {
+    "de": "Der{nm} Hund meinte ein paar Knochen und etwas Fleisch dran, thäten ihm auch gut.",
+    "zh": "狗想，有几根骨头、上面带点肉，对它也很有好处。",
+    "n": [
+     "拆解：Der Hund meinte（狗认为）+ 转述 ein paar Knochen und etwas Fleisch dran, thäten ihm auch gut（几根带点肉的骨头对它也有好处）。",
+     "ein paar Knochen：几根骨头。etwas Fleisch dran：上面带点肉（dran = daran）。",
+     "jm gut tun：对某人有好处。thäten = täten，tun 的虚拟式二（第 22 课），转述狗的想法。没有 daß（第 12 课）。"
+    ]
+   },
+   {
+    "de": "Also machten sie{they} sich{refl} auf den{am} Weg nach der{df} Gegend, wo das{nn} Licht war, und sahen es{it} bald heller schimmern, und es{it} ward immer größer, bis sie{they} vor ein{an} hell erleuchtetes Räuberhaus kamen.",
+    "zh": "于是它们朝着有光的地方走去，很快就看见光越来越亮，越来越大，最后来到一座灯火通明的强盗窝前。",
+    "n": [
+     "拆解：① Also machten sie sich auf den Weg nach der Gegend（于是它们朝那个地方出发）+ 关系从句 wo das Licht war（光所在的地方）。② und sahen es bald heller schimmern（不久看见它闪得更亮）。③ und es ward immer größer（它越来越大）。④ bis sie vor ein hell erleuchtetes Räuberhaus kamen（直到它们来到一座灯火通明的强盗屋前）。",
+     "also：于是（连接副词，占第一位，第 12 课）。die Gegend：地方、方向。",
+     "es … heller schimmern sehen：看见它闪得更亮。heller：hell 的比较级（第 15 课）。es 指 das Licht。",
+     "immer größer：越来越大（immer + 比较级）。größer：groß 的比较级，变音。ward = wurde。",
+     "vor ein … Räuberhaus kommen：来到强盗屋前（宾格，方向）。hell erleuchtet：灯火通明的（erleuchten 的分词作形容词，中性宾格 -es）。"
+    ]
+   },
+   {
+    "de": "Der{nm} Esel, als der{nm} größte, näherte sich{refl} dem{dn} Fenster und schaute hinein.",
+    "zh": "驴个子最大，它走近窗户，往里瞧。",
+    "n": [
+     "拆解：主语 Der Esel + 插入 als der größte（作为最大的）→ näherte sich dem Fenster（走近窗户）und schaute hinein（往里看）。",
+     "als der größte：作为最大的那个。der größte：最高级（第 15 课），der 后面加 -e。",
+     "sich jm / etw. nähern：走近（反身 + 与格）。dem Fenster：中性与格。",
+     "hineinschauen：往里看（hinein 在句末）。"
+    ]
+   },
+   {
+    "de": "„Was siehst du, Grauschimmel?“ fragte der{nm} Hahn.",
+    "zh": "「你看见什么了，灰毛驴？」公鸡问。",
+    "n": [
+     "拆解：Was siehst du（你看见什么）+ 称呼 Grauschimmel + fragte der Hahn。",
+     "siehst：sehen 的 du 形式（e → ie）。",
+     "der Grauschimmel：灰白色的马（这里指灰驴）。"
+    ]
+   },
+   {
+    "de": "„Was ich sehe?“ antwortete der{nm} Esel, „einen{am} gedeckten Tisch mit schönem Essen und Trinken, und Räuber sitzen daran und lassens sich{refl} wohl sein.“",
+    "zh": "「我看见什么？」驴回答，「一张摆满了好吃好喝的桌子，强盗们坐在桌边，享受着呢。」",
+    "n": [
+     "拆解：① Was ich sehe?（我看见什么？）：重复对方的问题，所以是从句语序（sehe 在末尾）。② einen gedeckten Tisch mit schönem Essen und Trinken（一张摆着好吃好喝的桌子）：省掉了 ich sehe，所以是宾格。③ und Räuber sitzen daran（强盗坐在旁边）。④ und lassens sich wohl sein（尽情享受）。",
+     "einen gedeckten Tisch：一张摆好的桌子（decken：摆桌子；分词作形容词）。宾格，因为是「看见」的对象。",
+     "mit schönem Essen und Trinken：有好吃好喝（没有冠词，形容词强词尾 -em = 与格，第 14 课）。Essen und Trinken：吃的和喝的（动词名词化）。",
+     "daran：在它旁边（指桌子）。es sich wohl sein lassen：尽情享受（固定说法）。lassens = lassen es。"
+    ]
+   },
+   {
+    "de": "„Das{dem:nn} wäre was für uns“ sprach der{nm} Hahn.",
+    "zh": "「那正合我们的意。」公鸡说。",
+    "n": [
+     "拆解：Das wäre was für uns（那会是适合我们的东西）+ sprach der Hahn。",
+     "wäre：sein 的虚拟式二（第 22 课）：「（要是能有）那该多好」。was = etwas（口语）。",
+     "das 是指示代词，指驴看到的那桌饭菜。"
+    ]
+   },
+   {
+    "de": "„Ja, ja, ach, wären wir da!“ sagte der{nm} Esel.",
+    "zh": "「是啊，是啊，唉，要是我们在那儿就好了！」驴说。",
+    "n": [
+     "拆解：wären wir da!（要是我们在那儿就好了！）：动词放在最前面的愿望句。",
+     "wären：sein 的虚拟式二（复数）。动词开头 + 虚拟式二 + 感叹号 = 不现实的愿望：「要是……就好了」（第 22 课）。比较《金钥匙》里的 Wenn der Schlüssel nur paßt!：用 wenn 也能表示愿望。"
+    ]
+   }
+  ]
+ },
+ {
+  "h": "四 · 四重奏",
+  "t": "Die Musik",
+  "k": "4",
+  "s": [
+   {
+    "de": "Da rathschlagten die{np} Thiere wie sie{they} es{it} anfangen müßten, um die{ap} Räuber hinaus zu jagen und fanden endlich ein{an} Mittel.",
+    "zh": "于是动物们商量，该怎么下手才能把强盗赶出去，最后终于想出了一个办法。",
+    "n": [
+     "拆解：① Da rathschlagten die Thiere（于是动物们商量）。② 间接问句 wie sie es anfangen müßten（它们该怎么下手）。③ um die Räuber hinaus zu jagen（为了把强盗赶出去）。④ und fanden endlich ein Mittel（最后想出一个办法）。",
+     "rathschlagen = ratschlagen：商量。die Thiere = die Tiere（动物们）。",
+     "wie …：怎样……（间接问句，第 12 课）。es anfangen：着手做这件事。müßten：虚拟式（第 22 课），间接问句里常用。",
+     "um … zu …：为了……（第 19 课）。hinaus zu jagen：赶出去（今天写 hinauszujagen：zu 插在前缀和动词之间）。",
+     "das Mittel：办法、手段。"
+    ]
+   },
+   {
+    "de": "Der{nm} Esel mußte sich{refl} mit den{dp} Vorderfüßen auf das{an} Fenster stellen, der{nm} Hund auf des{gm} Esels Rücken springen, die{nf} Katze auf den{am} Hund klettern, und endlich flog der{nm} Hahn hinauf, und setzte sich{refl} der{df} Katze auf den{am} Kopf.",
+    "zh": "驴得用两只前蹄搭在窗台上，狗跳到驴背上，猫爬到狗身上，最后公鸡飞上去，站在猫的头上。",
+    "n": [
+     "拆解：① Der Esel mußte sich mit den Vorderfüßen auf das Fenster stellen（驴得用前蹄站上窗台）。② der Hund (mußte) auf des Esels Rücken springen（狗跳上驴背）。③ die Katze (mußte) auf den Hund klettern（猫爬到狗身上）：②③ 共用 mußte，省掉了。④ und endlich flog der Hahn hinauf, und setzte sich der Katze auf den Kopf（最后公鸡飞上去，站在猫头上）。",
+     "sich auf etw. stellen：站到……上（宾格，方向）。mit den Vorderfüßen：用前脚（Vorder + Fuß，复数与格加 -n）。",
+     "auf des Esels Rücken：到驴的背上。属格 des Esels 放在名词前面（第 18 课），= auf den Rücken des Esels。",
+     "sich der Katze auf den Kopf setzen：坐到猫的头上。der Katze 是与格，表示「谁的」头（第 11 课）。",
+     "四只动物叠成一座塔：这正是不来梅市政厅旁那座著名铜像的样子。"
+    ]
+   },
+   {
+    "de": "Wie das{dem:nn} geschehen war, fiengen sie{they} auf ein{an} Zeichen insgesammt an ihre{af} Musik zu machen: der{nm} Esel schrie, der{nm} Hund bellte, die{nf} Katze miaute und der{nm} Hahn krähte; dann stürzten sie{they} durch das{an} Fenster in die{af} Stube hinein daß die{np} Scheiben klirrten.",
+    "zh": "一切就绪，它们一声令下，一齐奏起音乐来：驴叫，狗吠，猫喵喵，鸡啼；接着它们从窗户冲进屋里，震得玻璃哗啦作响。",
+    "n": [
+     "拆解：① 从句 Wie das geschehen war（这样做好以后）。② 主句 fiengen sie auf ein Zeichen insgesammt an ihre Musik zu machen（它们按信号一齐开始奏乐）。③ 冒号后四个短句：der Esel schrie, der Hund bellte, die Katze miaute und der Hahn krähte。④ dann stürzten sie durch das Fenster in die Stube hinein（然后冲进屋里）+ 结果从句 daß die Scheiben klirrten（以致玻璃哗啦响）。",
+     "wie = als（第 12 课）。geschehen war：过去完成时（「发生了以后」）。",
+     "anfangen … zu machen：开始做（fiengen … an 拆开，后面接 zu-不定式）。auf ein Zeichen：一声信号。insgesammt = insgesamt（一齐）。",
+     "schreien（驴叫）、bellen（狗吠）、miauen（猫叫）、krähen（鸡啼）：德语给每种动物的叫声一个动词。",
+     "hineinstürzen：冲进去。in die Stube：进屋（宾格）。daß：以致（= so daß），1857 年前面没有逗号。die Scheibe：玻璃窗片；klirren：哗啦作响。"
+    ]
+   },
+   {
+    "de": "Die{np} Räuber fuhren bei dem{dn} entsetzlichen Geschrei in die{af} Höhe, meinten nicht anders als ein{nn} Gespenst käme herein und flohen in größter Furcht in den{am} Wald hinaus.",
+    "zh": "强盗们听到这可怕的叫声，吓得跳了起来，以为一定是鬼进来了，惊恐万状地逃进了森林。",
+    "n": [
+     "拆解：一个主语 Die Räuber，三个动词。① fuhren bei dem entsetzlichen Geschrei in die Höhe（听到可怕的叫声跳起来）。② meinten nicht anders als ein Gespenst käme herein（以为准是鬼进来了）。③ und flohen in größter Furcht in den Wald hinaus（极度惊恐地逃进森林）。",
+     "in die Höhe fahren：跳起来、惊起。bei dem … Geschrei：在……叫声中。entsetzlich：可怕的。das Geschrei：叫喊声。",
+     "nicht anders meinen als …：只能以为……。ein Gespenst käme herein：有个鬼进来（käme：kommen 的虚拟式二，转述他们的想法；hereinkommen 拆开）。",
+     "flohen：fliehen（逃）的过去时。in größter Furcht：在极度恐惧中。größter：最高级，没有冠词，阴性与格强词尾 -er（第 14、15 课）。"
+    ]
+   },
+   {
+    "de": "Nun setzten sich{refl} die{np} vier Gesellen an den{am} Tisch, nahmen mit dem{dem:dn} vorlieb, was übrig geblieben war, und aßen als wenn sie{they} vier Wochen hungern sollten.",
+    "zh": "四个伙伴在桌边坐下，剩下什么就吃什么，吃得好像接下来要饿四个星期似的。",
+    "n": [
+     "拆解：① Nun setzten sich die vier Gesellen an den Tisch（四个伙伴在桌边坐下）。② nahmen mit dem vorlieb, was übrig geblieben war（将就着吃剩下的东西）。③ und aßen, als wenn sie vier Wochen hungern sollten（吃得好像要饿四个星期一样）。",
+     "sich an den Tisch setzen：坐到桌边（宾格，方向）。sich 排在名词主语前面（第 11 课）。",
+     "mit etw. vorliebnehmen：将就、凑合（可分动词，vorlieb 在后面）。dem, was …：……的东西（指示代词 + was-从句，第 13 课）。übrig geblieben war：剩下了（过去完成时）。",
+     "als wenn …：好像……（= als ob）。vier Wochen：四个星期（宾格表示时长）。hungern：挨饿。"
+    ]
+   }
+  ]
+ },
+ {
+  "h": "五 · 黑夜里的强盗",
+  "t": "Der Räuber in der Nacht",
+  "k": "5",
+  "s": [
+   {
+    "de": "Wie die{np} vier Spielleute fertig waren, löschten sie{they} das{an} Licht aus und suchten sich{refl} eine{af} Schlafstätte, jeder{nm} nach seiner{df} Natur und Bequemlichkeit.",
+    "zh": "四个乐手吃完以后，熄了灯，各自按照自己的天性和习惯找了个睡觉的地方。",
+    "n": [
+     "拆解：① 从句 Wie die vier Spielleute fertig waren（四个乐手吃完以后）。② 主句 löschten sie das Licht aus（它们熄了灯）und suchten sich eine Schlafstätte（找了个睡处）。③ 补充 jeder nach seiner Natur und Bequemlichkeit（各按自己的天性和习惯）。",
+     "die Spielleute：乐手们（der Spielmann 的复数）。fertig sein：做完了。",
+     "auslöschen：熄灭（aus 在句末）。sich eine Schlafstätte suchen：给自己找个睡处（与格 sich，第 11 课）。",
+     "jeder：每一个（代词，阳性主格）。nach seiner Natur：按照它的天性。die Bequemlichkeit：舒适、习惯。"
+    ]
+   },
+   {
+    "de": "Der{nm} Esel legte sich{refl} auf den{am} Mist, der{nm} Hund hinter die{af} Thüre, die{nf} Katze auf den{am} Herd bei die{af} warme Asche, und der{nm} Hahn setzte sich{refl} auf den{am} Hahnenbalken: und weil sie{they} müde waren von ihrem{dm} langen Weg, schliefen sie{they} auch bald ein.",
+    "zh": "驴躺在粪堆上，狗躺在门后，猫躺在灶台上温热的灰旁边，公鸡蹲在房梁上；因为走了很长的路，它们都累了，很快就睡着了。",
+    "n": [
+     "拆解：① Der Esel legte sich auf den Mist（驴躺到粪堆上）。② der Hund (legte sich) hinter die Thüre（狗到门后）。③ die Katze (legte sich) auf den Herd bei die warme Asche（猫到灶台上热灰旁）。④ und der Hahn setzte sich auf den Hahnenbalken（公鸡蹲上鸡栖梁）。⑤ und weil sie müde waren von ihrem langen Weg, schliefen sie auch bald ein（因为走累了，它们很快睡着了）。",
+     "②③ 省掉了 legte sich，介词短语都是宾格，表示「躺到哪里去」（第 8 课）。der Mist：粪堆。die Thüre = die Tür。der Herd：灶台。",
+     "bei die warme Asche：在热灰旁边。bei 本该要求与格（bei der warmen Asche），这里是方言里的宾格，表示「躺到……旁边去」。",
+     "der Hahnenbalken：鸡栖的横梁（Hahn + Balken）。",
+     "müde von ihrem langen Weg：被长路累坏了。ihrem langen Weg：ihr 后阳性与格，形容词 -en。einschlafen：睡着（ein 在句末）。"
+    ]
+   },
+   {
+    "de": "Als Mitternacht vorbei war, und die{np} Räuber von weitem sahen daß kein{nn} Licht mehr im Haus brannte, auch alles{nn} ruhig schien, sprach der{nm} Hauptmann „wir hätten uns doch nicht sollen ins Bockshorn jagen lassen,“ und hieß einen hingehen und das{an} Haus untersuchen.",
+    "zh": "过了半夜，强盗们远远看见屋里不再亮灯，一切也好像都安静了，头领就说：「我们本来不该被吓破胆的。」他叫一个人过去查看那座房子。",
+    "n": [
+     "拆解：① 两个 als 从句共用一个 als：Als Mitternacht vorbei war, und die Räuber von weitem sahen（过了半夜，强盗们远远看见）+ 看见的内容 daß kein Licht mehr im Haus brannte, auch alles ruhig schien（屋里不再亮灯，一切也似乎安静）。② 主句 sprach der Hauptmann „…“（头领说）。③ und hieß einen hingehen und das Haus untersuchen（叫一个人过去查看）。",
+     "vorbei sein：过去了。von weitem：从远处。brennen：（灯）亮着。schien：scheinen（显得）的过去时。",
+     "wir hätten uns doch nicht sollen ins Bockshorn jagen lassen：我们本不该被吓住。hätten … sollen … lassen：虚拟式二的过去 + 双不定式（第 10、22 课）：「本不应该……（但已经发生了）」。sich ins Bockshorn jagen lassen：被吓住（成语，字面：让人把自己赶进羊角里）。",
+     "jn etw. tun heißen：命令某人做某事（旧义，今天用 lassen / befehlen）。einen：一个人（代词）。hingehen、untersuchen：不带 zu 的不定式。"
+    ]
+   },
+   {
+    "de": "Der{nm} Abgeschickte fand alles{an} still, gieng in die{af} Küche, ein{an} Licht anzuzünden, und weil er die{ap} glühenden, feurigen Augen der{gf} Katze für lebendige Kohlen ansah, hielt er ein{an} Schwefelhölzchen daran, daß es{it} Feuer fangen sollte.",
+    "zh": "被派去的人发现一切都静悄悄的，就进厨房去点灯；他把猫那双发亮的、火一样的眼睛当成了烧着的炭，就把一根火柴凑过去，想把它点着。",
+    "n": [
+     "拆解：① Der Abgeschickte fand alles still（被派去的人发现一切安静）。② gieng in die Küche, ein Licht anzuzünden（进厨房去点灯）。③ 原因从句 weil er die glühenden, feurigen Augen der Katze für lebendige Kohlen ansah（因为他把猫的眼睛看成燃着的炭）。④ 主句 hielt er ein Schwefelhölzchen daran（他把火柴凑上去）+ 目的从句 daß es Feuer fangen sollte（好让它着火）。",
+     "der Abgeschickte：被派去的人（abschicken 的分词名词化，第 14 课）。etw. still finden：发现……很安静。",
+     "ein Licht anzuzünden：去点灯（不带 um 的目的不定式，第 19 课）。anzünden 的 zu 插在中间：an-zu-zünden。",
+     "etw. für etw. ansehen：把……当成……。die glühenden, feurigen Augen der Katze：猫那双发亮的、火一般的眼睛（die 后复数 -en；der Katze 是属格）。lebendige Kohlen：活炭、烧着的炭（无冠词复数 -e）。",
+     "das Schwefelhölzchen：火柴（Schwefel 硫磺 + Hölzchen 小木棍）。daran：凑到它（眼睛）上。daß es Feuer fangen sollte：好让它着火（daß 表示目的，= damit）。es 指火柴。"
+    ]
+   },
+   {
+    "de": "Aber die{nf} Katze verstand keinen{am} Spaß, sprang ihm ins Gesicht, spie und kratzte.",
+    "zh": "可是猫不懂开玩笑，一下子跳到他脸上，又啐又抓。",
+    "n": [
+     "拆解：一个主语 die Katze，四个动词：verstand keinen Spaß（不懂玩笑）、sprang ihm ins Gesicht（跳到他脸上）、spie（啐）、kratzte（抓）。",
+     "keinen Spaß verstehen：开不起玩笑（固定说法）。",
+     "jm ins Gesicht springen：跳到某人脸上。ihm 是「谁的」脸（第 11 课）。ins = in das。",
+     "spie：speien（吐、啐）的过去时。kratzen：抓。"
+    ]
+   },
+   {
+    "de": "Da erschrack er gewaltig, lief und wollte zur Hinterthüre hinaus, aber der{nm} Hund, der{rel:nm} da lag, sprang auf und biß ihn ins Bein: und als er über den{am} Hof an dem{dm} Miste vorbei rannte, gab ihm der{nm} Esel noch einen{am} tüchtigen Schlag mit dem{dm} Hinterfuß; der{nm} Hahn aber, der{rel:nm} vom Lärmen aus dem{dm} Schlaf geweckt und munter geworden war, rief vom Balken herab „kikeriki!“",
+    "zh": "他吓坏了，拔腿就想从后门逃出去，可是躺在那儿的狗跳起来，咬了他的腿；他从院子里跑过粪堆旁边时，驴又用后蹄狠狠地踢了他一脚；公鸡被吵醒了，精神抖擞，从梁上叫道：「喔喔喔！」",
+    "n": [
+     "拆解：① Da erschrack er gewaltig, lief und wollte zur Hinterthüre hinaus（他吓坏了，跑着想从后门出去）。② aber der Hund, der da lag, sprang auf und biß ihn ins Bein（可躺在那里的狗跳起来咬了他的腿）。③ 从句 als er über den Hof an dem Miste vorbei rannte（当他从院子里跑过粪堆旁）。④ 主句 gab ihm der Esel noch einen tüchtigen Schlag mit dem Hinterfuß（驴又用后蹄狠狠踢了他一下）。⑤ der Hahn aber, der … munter geworden war, rief vom Balken herab „kikeriki!“（公鸡被吵醒，从梁上叫）。",
+     "erschrack = erschrak（erschrecken 吓一跳）。gewaltig：非常、猛烈地。",
+     "wollte zur Hinterthüre hinaus：想从后门出去（情态动词后省掉 laufen，第 10 课）。",
+     "der da lag：关系从句，「躺在那里的」。aufspringen：跳起来。biß：beißen（咬）的过去时。ihn ins Bein beißen：咬他的腿（宾格 ihn 表示「谁」）。",
+     "an etw. vorbeirennen：从旁边跑过。dem Miste：古式与格。jm einen Schlag geben：给某人一下。tüchtig：结实的、狠狠的。",
+     "vom Lärmen … geweckt und munter geworden war：被吵醒、变得精神了（过去完成时，两个分词共用 war；geweckt 是被动意义）。",
+     "herabrufen：从上往下喊。kikeriki：喔喔喔（德语的鸡叫声）。"
+    ]
+   },
+   {
+    "de": "Da lief der{nm} Räuber, was er konnte, zu seinem{dm} Hauptmann zurück und sprach „ach, in dem{dn} Haus sitzt eine{nf} gräuliche Hexe, die{rel:nf} hat mich angehaucht und mit ihren{dp} langen Fingern mir das{an} Gesicht zerkratzt: und vor der{df} Thüre steht ein{nm} Mann mit einem{dn} Messer, der{rel:nm} hat mich ins Bein gestochen: und auf dem{dm} Hof liegt ein{nn} schwarzes Ungethüm, das{rel:nn} hat mit einer{df} Holzkeule auf mich losgeschlagen: und oben auf dem{dn} Dache, da sitzt der{nm} Richter, der{rel:nm} rief bringt mir den{am} Schelm her.",
+    "zh": "强盗拼命跑回头领那里，说：「哎呀，屋里坐着一个可怕的巫婆，她朝我吹气，还用长长的手指抓破了我的脸；门口站着一个拿刀的人，他捅了我的腿；院子里躺着一个黑色的怪物，它抡起木棒朝我打；屋顶上还坐着法官，他喊：『把这个坏蛋给我带过来！』",
+    "n": [
+     "拆解：Da lief der Räuber, was er konnte, zu seinem Hauptmann zurück und sprach（强盗拼命跑回头领那里说）+ 引语。引语里四段，每段一个地点、一个「怪物」，后面跟一个古老语序的关系从句（第 13 课）：① in dem Haus sitzt eine gräuliche Hexe, die hat mich angehaucht und … mir das Gesicht zerkratzt（屋里有个巫婆，她朝我吹气、抓破我的脸）。② vor der Thüre steht ein Mann mit einem Messer, der hat mich ins Bein gestochen（门前有个拿刀的人，他捅了我的腿）。③ auf dem Hof liegt ein schwarzes Ungethüm, das hat … auf mich losgeschlagen（院子里有个黑怪物，它朝我打）。④ oben auf dem Dache, da sitzt der Richter, der rief: bringt mir den Schelm her（屋顶上坐着法官，他喊：把坏蛋带来）。",
+     "was er konnte：尽他所能（= so schnell er konnte）。zurücklaufen：跑回去。",
+     "强盗把四只动物都看成了可怕的东西：猫 = 巫婆（吹气、抓），狗 = 拿刀的人（咬），驴 = 黑怪物拿木棒（踢），公鸡 = 法官（kikeriki 听成了 bringt mir den Schelm her）。",
+     "hat … angehaucht、zerkratzt、gestochen、losgeschlagen：都是完成时（第 16 课）：口头讲刚发生的事，用完成时，不用过去时。anhauchen：朝……吹气；zerkratzen：抓破；stechen：刺；auf jn losschlagen：朝某人打过去。",
+     "die、der、das + 动词第二位：格林童话的古老关系从句语序（第 13 课）。mir das Gesicht：我的脸（与格表示「谁的」）。",
+     "gräulich：可怕的。die Holzkeule：木棒。der Schelm：坏蛋、无赖。bringt … her：herbringen 的命令式（对 ihr 说）。"
+    ]
+   },
+   {
+    "de": "Da machte ich daß ich fortkam.“",
+    "zh": "我就赶紧逃了出来。」",
+    "n": [
+     "拆解：Da machte ich（我于是赶紧）+ daß ich fortkam（让自己离开）。",
+     "machen, daß …：赶紧做到……（口语）。fortkommen：走掉、脱身（从句里不拆开）。"
+    ]
+   },
+   {
+    "de": "Von nun an getrauten sich{refl} die{np} Räuber nicht weiter in das{an} Haus, den{dp} vier Bremer Musikanten gefiels aber so wohl darin, daß sie{they} nicht wieder heraus wollten.",
+    "zh": "从此强盗们再也不敢进那座房子；而不来梅的四个乐手却在里面住得非常舒服，再也不想出来了。",
+    "n": [
+     "拆解：① Von nun an getrauten sich die Räuber nicht weiter in das Haus（从此强盗不敢再进那房子）。② den vier Bremer Musikanten gefiels aber so wohl darin（四个不来梅乐手却很喜欢那里）。③ daß sie nicht wieder heraus wollten（以致不想再出来）。",
+     "sich getrauen：敢（反身，旧词，今天说 sich trauen）。后面省掉了 zu gehen。",
+     "jm gefallen：让某人喜欢（与格）。den vier Bremer Musikanten：与格复数，占第一位。gefiels = gefiel es（es 只占位）。so wohl：如此舒服。",
+     "Bremer：不来梅的（城市名 + -er，不变格）。它们其实根本没到不来梅，却成了「不来梅的音乐家」。",
+     "heraus wollen：想出来（省掉了 gehen，第 10 课）。"
+    ]
+   },
+   {
+    "de": "Und der{dem:nm} das{dem:an} zuletzt erzählt hat, dem{dem:dm} ist der{nm} Mund noch warm.",
+    "zh": "最后讲这个故事的人，嘴巴还是热的呢。",
+    "n": [
+     "拆解：① 主语从句 der das zuletzt erzählt hat（最后讲这件事的人）。② 主句 dem ist der Mund noch warm（他的嘴还热着）：dem 重提前面的 der。",
+     "der …, dem …：「……的那个人，他……」，和《甜粥》的 wer …, der … 一样（第 12、13 课）。第一个 der 是「那个人」，das 指这个故事。erzählt hat：完成时。",
+     "dem ist der Mund noch warm：他的嘴还热着（与格表示「谁的」，第 11 课）。",
+     "民间讲故事人的收尾套话：故事刚讲完、嘴还热着，所以是真的。"
+    ]
+   }
+  ]
+ }
+]
