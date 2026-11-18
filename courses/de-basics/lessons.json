@@ -955,5 +955,274 @@
     "why": "sich satt essen：吃饱。主语只有一个人，不是「互相」。"
    }
   ]
+ },
+ {
+  "id": "konj",
+  "t": "从句与连词",
+  "de": "Konjunktionen und Nebensätze",
+  "min": 110,
+  "html": "<p>第 7 课讲了从句的基本规则：从属连词把变位动词赶到末尾。这一课把连接句子的小词全部讲完：哪些连词让动词留在原地，哪些把它赶到末尾，哪些自己占掉第一位；每个从属连词是什么意思；als、wenn、wie、da 这几个多义词怎么分；从句一个套一个时怎么拆。读完这一课，童话里所有的句子结构你都认得了，康德的长句也只是同样的零件更多而已。</p>\n\n<h4>一、三种连接词，三种语序</h4>\n<p>把两个句子接起来的词分三类。判断它属于哪类，只要看它后面<b>变位动词在哪里</b>：</p>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>类别</th><th>词</th><th>语序</th><th>读本里</th></tr></thead><tbody>\n<tr><td>① 并列连词</td><td>und、oder、aber、denn、sondern、allein（但是）</td><td>不占位置：后面照常是「第一位 + 动词」</td><td>[[aber es{expl} war kein{nn} Schlüsselloch da]]</td></tr>\n<tr><td>② 连接副词</td><td>da、dann、so、nun、also、darum、deswegen、endlich</td><td>自己占第一位：动词紧跟在后面，主语排到动词后面</td><td>[[Darum hatte der{nm} liebe Gott kein{an} Wohlgefallen an ihm]]</td></tr>\n<tr><td>③ 从属连词</td><td>daß、weil、als、wenn、ob、bis……</td><td>引出从句：变位动词到末尾</td><td>[[weil er so erfroren war]]</td></tr>\n</tbody></table></div>\n<p>比较同一个意思的三种说法：</p>\n<ul>\n<li>并列：<i>…, denn er war erfroren</i>（因为他冻坏了）：denn 后面 er 第一位、war 第二位。</li>\n<li>副词：<i>…, darum wollte er nicht nach Haus gehen</i>：darum 第一位，wollte 紧跟。</li>\n<li>从属：[[weil er so erfroren war]]：war 到了末尾。</li>\n</ul>\n<div class=\"tip\">aber 还有一个特点：它可以插在句子中间，不占任何位置：[[er sagte aber nichts und seufzte nur]] = aber er sagte nichts。看到句中的 aber，把它挪到句首理解就行。</div>\n\n<h4>二、从属连词总表</h4>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>意思</th><th>连词</th><th>读本里 / 例子</th></tr></thead><tbody>\n<tr><th>时间</th><td>als（……的时候，过去一次）· wenn（每当；将来的「等……时」）· wie（旧：= als）· bis（直到）· nachdem（在……之后）· bevor / ehe（在……之前）· seit（自从）· während（在……期间）· sobald（一……就）· so oft（每次……）</td><td>[[als einmal ein{nm} tiefer Schnee lag]] · [[bis er vollends aufgeschlossen … hat]] · [[so oft sie{they} wollten]]</td></tr>\n<tr><th>原因</th><td>weil（因为）· da（既然、因为）</td><td>[[weil er so erfroren war]]</td></tr>\n<tr><th>条件</th><td>wenn（如果）· falls（万一）</td><td>[[wenn ich groß bin]]（这里是「等到」）</td></tr>\n<tr><th>让步</th><td>obgleich · obwohl · wenngleich（虽然）· ob … gleich（旧，拆开用）</td><td>[[ob es{kind} gleich sein{an} Hemdlein weg gegeben]]：虽然她把衬衣送掉了</td></tr>\n<tr><th>结果</th><td>so … daß（如此……以至于）</td><td>[[so klein daß man es{it} kaum sehen konnte]]</td></tr>\n<tr><th>目的</th><td>damit（为了，以便）</td><td><i>damit er sich wärmen kann</i>：好让他暖和</td></tr>\n<tr><th>方式</th><td>indem（通过……；在……的同时）· wie（像……那样）</td><td><i>indem sie die Luft teilt</i>（康德：鸽子划开空气时）</td></tr>\n<tr><th>内容</th><td>daß（……这件事）· ob（是否）· w-词（was、wer、wo、wie、warum……）</td><td>[[nun will sie{she} daß das{nn} Töpfchen wieder aufhören soll]] · [[was für wunderbare Sachen in dem{dn} Kästchen lagen]]</td></tr>\n</tbody></table></div>\n<p>表里最要紧的是左栏：从属连词决定从句和主句是什么关系。读康德时，一个句子里常有四五个从句，先把每个从句的连词圈出来、标上「时间」「原因」「让步」，句子的逻辑就出来了。</p>\n\n<h4>三、als、wenn、wie：都可能是「当……时」</h4>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>词</th><th>什么时候用</th><th>读本里</th></tr></thead><tbody>\n<tr><td>als</td><td>过去发生<b>一次</b>的事</td><td>[[Und als es{kind} noch eine{af} Weile gegangen war]]</td></tr>\n<tr><td>wenn</td><td>① 过去<b>反复</b>发生（每当）② 现在 / 将来（等……时）③ 如果</td><td>① [[wenn sie{they} es{it} hineinlegten]] ② [[wenn ich groß bin]]</td></tr>\n<tr><td>wie</td><td>1857 年的童话里常常 = als</td><td>[[wie er so den{am} Erdboden aufräumte]]</td></tr>\n</tbody></table></div>\n<p>als 还有两个别的身份，读的时候要分开：① 比较：「比……」「除了……」：[[gar nichts mehr als die{ap} Kleider auf dem{dm} Leib]]（除了身上的衣服什么都没有）；② als + 动词第二位 = 「好像」：[[als wollts die{af} ganze Welt satt machen]]（好像要让全世界都吃饱）。判断：als 后面紧跟名词 → 比较；紧跟变位动词 → 「好像」；动词在末尾 → 「当……时」。</p>\n<p>wie 也有三个身份：「当……时」（旧）、「怎样」（问句和 w-从句）、「像……一样」。</p>\n\n<h4>四、da：三个词长得一样</h4>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>da 是</th><th>意思</th><th>怎么认</th><th>读本里</th></tr></thead><tbody>\n<tr><td>副词（时间）</td><td>那时、于是</td><td>在第一位，动词<b>紧跟</b></td><td>[[Da kaufte sie{she} ihm ein{an} hölzernes Schüsselchen]]</td></tr>\n<tr><td>副词（地点）</td><td>那里、在场</td><td>在句中或句末</td><td>[[es{expl} war kein{nn} Schlüsselloch da]]</td></tr>\n<tr><td>连词</td><td>既然、因为</td><td>变位动词在<b>末尾</b></td><td><i>da er so erfroren war</i>（既然他冻坏了）</td></tr>\n</tbody></table></div>\n<p>童话里的 da 几乎都是「于是」；康德的 da 常常是「既然」。一看动词位置就知道。</p>\n\n<h4>五、从句在前，主句怎么开头</h4>\n<p>第 7 课讲过：从句占了第一位，主句就从动词开始。童话里还常在中间加一个 so 或 da，把主句「接」上来，不必翻译：</p>\n<ul>\n<li>[[Als es{child} nun ins Grab versenkt … war, so kam auf einmal sein{nn} Ärmchen wieder hervor]]</li>\n<li>[[wenn sie{they} es{it} hineinlegten und frische Erde darüber thaten, so half das{dem:nn} nicht]]</li>\n<li>[[wie nur noch ein{nn} einziges Haus übrig ist, da kommt das{nn} Kind heim]]</li>\n</ul>\n<p>所以读到「从句，so / da + 动词」时：so / da 是主句的起点，不是新的从句。</p>\n\n<h4>六、w-从句和「谁……谁就……」</h4>\n<p>w-词（was、wer、wo、womit……）也能引出从句，动词在末尾。它们有两种用法：</p>\n<ul>\n<li>间接问句：[[dann werden wir erfahren was für wunderbare Sachen in dem{dn} Kästchen lagen]]（我们会知道匣子里有什么）。</li>\n<li>没有先行词的关系从句：[[that nicht was seine{nf} Mutter haben wollte]]（不做母亲想要的事）；[[wer wieder in die{af} Stadt wollte, der{dem:nm} mußte sich{refl} durchessen]]（谁想进城，谁就得一路吃过去）：wer-从句占第一位，der 在主句里把它重新提起。</li>\n</ul>\n<p>前面有名词的 w-从句是真正的关系从句：[[schenk mir etwas, womit ich ihn bedecken kann]]。下一课专讲关系从句。</p>\n\n<h4>七、没有 daß 的从句</h4>\n<p>转述别人的想法时，daß 可以省掉；这时从句用正常的第二位语序，动词常用虚拟式：[[Nun glaubte er wo der{nm} Schlüssel wäre, müßte auch das{nn} Schloß dazu sein]]：「他想：钥匙在哪里，锁就该在哪里」。müßte 在第二位，说明这一段不是从句语序，而是被转述的「主句」。第 23 课讲间接引语时细讲。</p>\n\n<h4>八、从句末尾的动词串</h4>\n<p>从句末尾常有两三个动词。规则：<b>变位的那个在最后</b>，前面是分词或不定式，从左往右读就是从「做什么」到「怎么样」：</p>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>从句末尾</th><th>结构</th></tr></thead><tbody>\n<tr><td>[[den{am} Löffel kaum halten konnte]]</td><td>不定式 + 情态动词</td></tr>\n<tr><td>[[wie sie{she} das{dem:an} gethan hatte]]</td><td>分词 + 助动词（过去完成时）</td></tr>\n<tr><td>[[bis er vollends aufgeschlossen und den{am} Deckel aufgemacht hat]]</td><td>两个分词共用一个助动词</td></tr>\n<tr><td>[[was seine{nf} Mutter haben wollte]]</td><td>不定式 + 情态动词</td></tr>\n</tbody></table></div>\n\n<h4>九、1857 年的逗号靠不住</h4>\n<p>今天的德语在每个从句前都加逗号；格林童话常常不加：[[that nicht was seine{nf} Mutter haben wollte]]、[[so klein daß man es{it} kaum sehen konnte]]、[[sagten auch nichts wenn er ein wenig verschüttete]]。所以不要靠逗号找从句，要靠连词和末尾的动词。</p>\n\n<h4>十、套在一起的从句：一步步拆</h4>\n<p>[[Wie er es{it} nun zusammengesucht und aufgeladen hatte, wollte er, weil er so erfroren war, noch nicht nach Haus gehen, sondern erst Feuer anmachen und sich{refl} ein bischen wärmen.]]</p>\n<ol>\n<li>圈出连词：Wie（当……之后）、weil（因为）、sondern（而是）。</li>\n<li>找每个从句的末尾动词：Wie … hatte；weil … war。</li>\n<li>剩下的是主句：wollte er … noch nicht nach Haus gehen, sondern erst Feuer anmachen und sich … wärmen。</li>\n<li>画成括号：[Wie … hatte], wollte er, (weil … war), noch nicht … gehen, sondern … anmachen und … wärmen。</li>\n<li>翻译：先从句后主句：「他把柴捡齐装好以后，因为冻坏了，还不想回家，而是想先生火暖和一下。」</li>\n</ol>\n\n<h4>十一、马上练</h4>\n{{quiz:s1}}\n\n<h4>十二、小结</h4>\n<ul>\n<li>并列连词（und、aber、denn、sondern、oder）不占位；连接副词（da、dann、darum、deswegen、so、nun）占第一位，动词紧跟；从属连词把动词赶到末尾。</li>\n<li>als = 过去一次；wenn = 每当 / 等到 / 如果；wie（旧）= als。als + 名词 = 比较；als + 动词 = 好像。</li>\n<li>da：动词紧跟 → 于是；动词在末尾 → 既然；句中 → 那里。</li>\n<li>从句在前，主句可用 so / da 接上，不译。</li>\n<li>wer …, der …：谁……谁就……。</li>\n<li>从句末尾：变位动词在最后。逗号靠不住，靠连词和动词。</li>\n</ul>\n\n<h4>十三、回头再读</h4>\n<p>带着这一课的眼光，重读前面两篇：圈出每个连词，判断它是哪一类。</p>\n<p><button class=\"btn\" data-route=\"grimm~ch-k153\">重读《星星金币》</button> <button class=\"btn\" data-route=\"grimm~ch-k200\">重读《金钥匙》</button></p>",
+  "quiz": [
+   {
+    "id": "cj1",
+    "sec": "s1",
+    "de": "Er suchte, <<aber>> es war kein Schlüsselloch da",
+    "opts": [
+     "并列连词：不占位，后面 es 第一位、war 第二位",
+     "从属连词：动词到末尾"
+    ],
+    "ans": 0,
+    "why": "aber 是并列连词，不影响语序。"
+   },
+   {
+    "id": "cj2",
+    "sec": "s1",
+    "de": "<<Darum>> hatte der liebe Gott kein Wohlgefallen an ihm",
+    "opts": [
+     "连接副词：自己占第一位，动词 hatte 紧跟",
+     "从属连词"
+    ],
+    "ans": 0,
+    "why": "darum（所以）占第一位，主语 der liebe Gott 排到动词后面。"
+   },
+   {
+    "id": "cj3",
+    "sec": "s1",
+    "de": "<<als>> einmal ein tiefer Schnee lag",
+    "opts": [
+     "当……时（过去一次）：动词 lag 在末尾",
+     "比较：比……"
+    ],
+    "ans": 0,
+    "why": "als 引导从句，lag 在末尾；说的是过去某一次。"
+   },
+   {
+    "id": "cj4",
+    "sec": "s1",
+    "de": "gar nichts mehr <<als>> die Kleider auf dem Leib",
+    "opts": [
+     "比较 / 除了：后面直接跟名词",
+     "当……时"
+    ],
+    "ans": 0,
+    "why": "als 后面是名词 die Kleider，没有从句：nichts … als = 除了……什么都没有。"
+   },
+   {
+    "id": "cj5",
+    "sec": "s1",
+    "de": "<<Da>> kaufte sie ihm ein hölzernes Schüsselchen",
+    "opts": [
+     "副词：于是（动词紧跟）",
+     "连词：既然（动词在末尾）"
+    ],
+    "ans": 0,
+    "why": "Da 后面紧跟变位动词 kaufte，是副词「于是」。"
+   },
+   {
+    "id": "cj6",
+    "sec": "s1",
+    "de": "und <<wenn>> sie es hineinlegten und frische Erde darüber thaten",
+    "opts": [
+     "每当（过去反复发生）",
+     "如果（假设）"
+    ],
+    "ans": 0,
+    "why": "过去反复发生的事用 wenn：每次他们把它塞回去……"
+   },
+   {
+    "id": "cj7",
+    "sec": "s1",
+    "de": "wer wieder in die Stadt wollte, <<der>> mußte sich durchessen",
+    "opts": [
+     "指示代词：重新提起 wer-从句（谁……谁就）",
+     "定冠词"
+    ],
+    "ans": 0,
+    "why": "der 后面没有名词，紧跟动词 mußte：它是主句的主语，指前面的 wer。"
+   },
+   {
+    "id": "cj8",
+    "sec": "s1",
+    "de": "ob es gleich sein Hemdlein weg <<gegeben>>",
+    "opts": [
+     "让步从句：虽然她送掉了（省掉了助动词 hatte）",
+     "主句"
+    ],
+    "ans": 0,
+    "why": "ob … gleich = obgleich（虽然）。从句末尾本该是 gegeben hatte，童话省掉了助动词。"
+   }
+  ]
+ },
+ {
+  "id": "relativ",
+  "t": "关系从句",
+  "de": "Relativsätze",
+  "min": 100,
+  "html": "<p>关系从句是「……的」：<i>一个穷人，他说……</i>；<i>一块好心人送给她的面包</i>。德语的关系从句放在名词<b>后面</b>，由关系代词引出。中文的定语放在名词前面，所以翻译时要把它挪到前面；太长的时候干脆拆成两句。康德的句子之所以长，一大半就是因为关系从句一个接一个。这一课讲清楚关系代词的形式、怎样找它指的名词、怎样定它的格。</p>\n\n<h4>一、关系代词全表</h4>\n<p>关系代词和定冠词几乎一样，只有五个形式不同（表中加粗）：</p>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th></th><th>阳性</th><th>阴性</th><th>中性</th><th>复数</th></tr></thead><tbody>\n<tr><th>主格</th><td>der</td><td>die</td><td>das</td><td>die</td></tr>\n<tr><th>宾格</th><td>den</td><td>die</td><td>das</td><td>die</td></tr>\n<tr><th>与格</th><td>dem</td><td>der</td><td>dem</td><td><b>denen</b></td></tr>\n<tr><th>属格</th><td><b>dessen</b></td><td><b>deren</b></td><td><b>dessen</b></td><td><b>deren</b></td></tr>\n</tbody></table></div>\n<p>书面语还常用 <b>welcher</b>（welche、welches、welchem、welchen）作关系代词，意思和 der 一样，词尾跟 dieser 一样。康德两种都用：<i>ein Prädikat, welches in jenem gar nicht gedacht war</i>。</p>\n\n<h4>二、两条规则</h4>\n<div class=\"tip\"><b>规则一：性和数看先行词</b>（关系代词指的那个名词）。<br><b>规则二：格看它在从句里做什么</b>（主语用主格，宾语用宾格，介词决定的就按介词）。<br>两条规则互不干涉：先行词可以是宾格，关系代词照样可以是主格。</div>\n<p>用这两条规则走一遍读本里的句子：</p>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>句子</th><th>先行词 → 性数</th><th>在从句里的作用 → 格</th></tr></thead><tbody>\n<tr><td>[[Da begegnete ihm ein{nm} armer Mann, der{rel:nm} sprach …]]</td><td>ein armer Mann → 阳性单数</td><td>「他说」：主语 → 主格 der</td></tr>\n<tr><td>[[Da kam ein{nn} Kind das{rel:nn} jammerte]]</td><td>ein Kind → 中性</td><td>「它哭诉」：主语 → 主格 das</td></tr>\n<tr><td>[[ein{an} Stückchen Brot in der{df} Hand, das{rel:an} ihm ein{nn} mitleidiges Herz geschenkt hatte]]</td><td>Stückchen → 中性（不是 Hand！）</td><td>「好心人送给她的」：送的东西 → 宾格 das；主语是 ein mitleidiges Herz</td></tr>\n<tr><td>[[ein{an} Töpfchen, zu dem{rel:dn} sollt es{kind} sagen …]]</td><td>Töpfchen → 中性</td><td>zu + 与格 → dem</td></tr>\n<tr><td>[[ein{nn} kleines Mädchen, dem{rel:dn} war Vater und Mutter gestorben]]</td><td>Mädchen → 中性</td><td>「对她来说父母死了」：与格 → dem</td></tr>\n</tbody></table></div>\n<p>第三行最值得注意：das 前面紧挨着的是 in der Hand（阴性），但 das 是中性，所以它不可能指 Hand，只能指更前面的 Stückchen Brot。<b>性数是找先行词的线索</b>：先行词不一定紧挨着关系代词。</p>\n\n<h4>三、属格 dessen、deren：「其……」</h4>\n<p>属格关系代词后面紧跟一个名词，意思是「它的 / 他的……」：</p>\n<ul>\n<li><i>die Luft, deren Widerstand sie fühlt</i>：空气，它（鸽子）感到空气的阻力（deren = der Luft，阴性）。</li>\n<li><i>die Wissenschaft, deren Endabsicht …</i>：这门科学，它的最终目的……</li>\n</ul>\n<p>dessen、deren 后面的名词不受它影响，按自己在从句里的作用变格：deren Widerstand 是宾格（感到阻力）。</p>\n<p>dessen 也能当指示代词：[[Sein{nm} Sohn und dessen{dem:gm} Frau]]：儿子和儿子的妻子。</p>\n\n<h4>四、介词 + 关系代词，以及 wo-</h4>\n<p>介词总在关系代词前面，一起放在从句开头：[[zu dem{rel:dn} sollt es{kind} sagen]]（对着它说）。指物时，「介词 + 关系代词」常常换成 wo(r)- + 介词：</p>\n<ul>\n<li>[[schenk mir etwas, womit ich ihn bedecken kann]]：womit = mit dem（我可以用来盖住它的东西）。</li>\n<li><i>worauf sich der Verstand stützt</i>：worauf = auf das（知性所依靠的）。</li>\n</ul>\n<p>先行词是 etwas、nichts、alles、das 或整句话时，关系代词用 <b>was</b>：<i>etwas, was in diesem Begriffe enthalten ist</i>（康德）；<i>das, was ich denke</i>（我所思维的东西）。</p>\n\n<h4>五、关系从句的语序：童话里的例外</h4>\n<p>关系从句是从句，变位动词应在末尾：[[das{rel:an} ihm ein{nn} mitleidiges Herz geschenkt hatte]]、[[das{rel:nn} jammerte]]。但格林童话保留了一种古老的说法，关系代词后面直接跟动词：</p>\n<ul>\n<li>[[ein{nm} armer Mann, der{rel:nm} sprach …]]</li>\n<li>[[eine{nf} alte Frau, die{rel:nf} wußte seinen{am} Jammer schon]]</li>\n<li>[[ein{nn} armes frommes Mädchen, das{rel:nn} lebte mit seiner{df} Mutter allein]]</li>\n<li>[[dem{rel:dm} waren die{np} Augen trüb geworden]]</li>\n</ul>\n<p>这些 der / die / das 处在「关系代词」和「指示代词」（他、她）之间，译成「他 / 她……」或「……的」都行。今天和康德的书面语里，关系从句一律动词在末尾。</p>\n\n<h4>六、一个 der，三种身份</h4>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>身份</th><th>怎么认</th><th>读本里</th></tr></thead><tbody>\n<tr><td>定冠词</td><td>后面跟（形容词 +）名词</td><td>[[der{nm} alte Großvater]]</td></tr>\n<tr><td>关系代词</td><td>前面有先行词（常隔一个逗号），后面是从句，动词在末尾</td><td>[[das{rel:an} ihm ein{nn} mitleidiges Herz geschenkt hatte]]</td></tr>\n<tr><td>指示代词</td><td>单独站着，后面直接是动词：「这个、他、那件」</td><td>[[der{dem:nm} mußte sich{refl} durchessen]] · [[das{dem:an} gab es{kind} auch von sich hin]]</td></tr>\n</tbody></table></div>\n<p>本站的词卡会标出每个 der 是哪一种：「定冠词」「关系」「指示」。</p>\n\n<h4>七、怎样翻译</h4>\n<ul>\n<li>短的关系从句：译成「……的」放在名词前：<i>ein Kind, das jammerte</i> → 一个哭诉的孩子。</li>\n<li>长的关系从句：拆成两句，用「他 / 它」重提：<i>ein armer Mann, der sprach „…“</i> → 一个穷人，他说：「……」。</li>\n<li>康德的长句：先把关系从句整个括起来，读完主干再回来读它。</li>\n</ul>\n\n<h4>八、反推方法</h4>\n<ol>\n<li>逗号后面一个 der / die / das / dem / den / dessen / deren / denen / welch-，后面不是名词？可能是关系代词。看句末有没有变位动词。</li>\n<li>看它的性数，往前找性数相同的名词，那就是先行词（可能隔着别的名词）。</li>\n<li>看它在从句里的作用定格：从句里另有主格吗？没有，它多半就是主语。</li>\n<li>dessen / deren + 名词 = 「其……」。</li>\n</ol>\n\n<h4>九、马上练</h4>\n{{quiz:s1}}\n\n<h4>十、小结</h4>\n<ul>\n<li>关系代词 = 定冠词，除了 dessen、deren、denen（还有属格复数 deren）。书面语也用 welcher。</li>\n<li>性数看先行词，格看从句里的作用。</li>\n<li>介词在前：zu dem；指物常用 wo(r)-：womit、worauf。etwas、alles、das 后面用 was。</li>\n<li>从句动词在末尾；格林童话里有「der sprach」这样的古老语序。</li>\n<li>der 的三种身份：冠词（跟名词）、关系代词（引从句）、指示代词（单独站着）。</li>\n</ul>\n\n<h4>十一、回头再读</h4>\n<p>《星星金币》和《甜粥》里有六个关系从句。重读时把每个关系代词和它的先行词连起来。</p>\n<p><button class=\"btn\" data-route=\"grimm~ch-k153\">重读《星星金币》</button> <button class=\"btn\" data-route=\"grimm~ch-k103\">重读《甜粥》</button></p>",
+  "quiz": [
+   {
+    "id": "rl1",
+    "sec": "s1",
+    "de": "ein Stückchen Brot in der Hand, <<das>> ihm ein mitleidiges Herz geschenkt hatte",
+    "opts": [
+     "关系代词，指 das Stückchen Brot（中性），宾格",
+     "关系代词，指 die Hand"
+    ],
+    "ans": 0,
+    "why": "das 是中性，Hand 是阴性，所以先行词是 Stückchen。从句的主语是 ein mitleidiges Herz，das 是被送的东西：宾格。"
+   },
+   {
+    "id": "rl2",
+    "sec": "s1",
+    "de": "Da begegnete ihm ein armer Mann, <<der>> sprach",
+    "opts": [
+     "关系代词，阳性主格（指 Mann）",
+     "定冠词"
+    ],
+    "ans": 0,
+    "why": "der 后面不是名词，是动词 sprach；它指前面的 ein armer Mann，是「说」的主语。"
+   },
+   {
+    "id": "rl3",
+    "sec": "s1",
+    "de": "ein Töpfchen, zu <<dem>> sollt es sagen",
+    "opts": [
+     "关系代词，中性与格（zu 要求与格）",
+     "定冠词"
+    ],
+    "ans": 0,
+    "why": "先行词 Töpfchen 是中性；zu 要求与格 → dem。"
+   },
+   {
+    "id": "rl4",
+    "sec": "s1",
+    "de": "ein kleines Mädchen, <<dem>> war Vater und Mutter gestorben",
+    "opts": [
+     "关系代词，中性与格：对她来说",
+     "阳性与格的定冠词"
+    ],
+    "ans": 0,
+    "why": "先行词 Mädchen 是中性；「对她来说父母死了」：与格。"
+   },
+   {
+    "id": "rl5",
+    "sec": "s1",
+    "de": "schenk mir etwas, <<womit>> ich ihn bedecken kann",
+    "opts": [
+     "wo- + 介词 = mit dem：我可以用来……的",
+     "疑问词：用什么？"
+    ],
+    "ans": 0,
+    "why": "womit 引出关系从句，先行词是 etwas：我可以用来盖住它的东西。"
+   },
+   {
+    "id": "rl6",
+    "sec": "s1",
+    "de": "wer wieder in die Stadt wollte, <<der>> mußte sich durchessen",
+    "opts": [
+     "指示代词（单独站着，后跟动词）",
+     "关系代词（引出从句）"
+    ],
+    "ans": 0,
+    "why": "der 后面是 mußte，而且 mußte 在第二位、不在末尾：这是主句，der 是指示代词，重提前面的 wer。"
+   },
+   {
+    "id": "rl7",
+    "sec": "s1",
+    "de": "eine alte Frau, <<die>> wußte seinen Jammer schon",
+    "opts": [
+     "关系代词，阴性主格（古老语序：动词紧跟）",
+     "定冠词"
+    ],
+    "ans": 0,
+    "why": "先行词 eine alte Frau；die 是「知道」的主语。格林童话里关系代词后可以直接跟动词。"
+   }
+  ]
+ },
+ {
+  "id": "adjektiv",
+  "t": "形容词词尾",
+  "de": "Adjektivendungen",
+  "min": 110,
+  "html": "<p>形容词放在名词前面时要加词尾：der <b>alte</b> Großvater、ein <b>armer</b> Mann、<b>frische</b> Erde。词尾看起来五花八门，其实只有一个原则：<b>格的信号只需要出现一次</b>。冠词已经清楚地标出了格，形容词就只加一个弱的 -e 或 -en；冠词没标出（或者根本没有冠词），形容词就自己加上强的词尾。学会这一条，所有表格都能自己推出来；更重要的是，读的时候可以<b>从词尾反推格</b>，这是读长句的利器。</p>\n\n<h4>一、形容词什么时候不加词尾</h4>\n<p>形容词作表语（在 sein、werden、bleiben 后面）或作副词时，不加词尾：[[Es{kind} war aber gut und fromm]]、[[die{np} Augen wurden ihm naß]]、[[der{nm} Schlüssel paßte glücklich]]。只有放在名词前面（作定语）时才加词尾。</p>\n\n<h4>二、强词尾：冠词的词尾搬到形容词上</h4>\n<p>没有冠词时，形容词就要自己标出格。它的词尾几乎就是定冠词 der / die / das 的最后一个字母：</p>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th></th><th>阳性</th><th>阴性</th><th>中性</th><th>复数</th></tr></thead><tbody>\n<tr><th>主格</th><td>-er（像 der）</td><td>-e（像 die）</td><td>-es（像 das）</td><td>-e（像 die）</td></tr>\n<tr><th>宾格</th><td>-en（像 den）</td><td>-e</td><td>-es</td><td>-e</td></tr>\n<tr><th>与格</th><td>-em（像 dem）</td><td>-er（像 der）</td><td>-em</td><td>-en（像 den）</td></tr>\n<tr><th>属格</th><td>-en</td><td>-er</td><td>-en</td><td>-er</td></tr>\n</tbody></table></div>\n<p>唯一的例外是阳性和中性属格用 -en（不是 -es），因为名词自己已经带了 -s：<i>guten Mutes</i>。</p>\n<p>读本里没有冠词的例子：</p>\n<ul>\n<li>[[aßen süßen Brei]]：Brei 阳性，宾格 → -en。</li>\n<li>[[frische Erde darüber thaten]]：Erde 阴性，宾格 → -e。</li>\n<li>[[es{expl} ist dunkle Nacht]]：Nacht 阴性，主格 → -e。</li>\n<li>[[waren lauter harte blanke Thaler]]：复数主格 → -e。</li>\n<li>[[es{expl} sind gewiß kostbare Sachen in dem{dn} Kästchen]]：复数主格 → -e。</li>\n</ul>\n\n<h4>三、弱词尾：冠词已经说清楚了</h4>\n<p>在 der / die / das 以及 dieser、jener、jeder、welcher、alle 后面，冠词把格标得很清楚，形容词只加 -e 或 -en。规则简单到一句话：<b>五个位置用 -e，其余都是 -en</b>。</p>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th></th><th>阳性</th><th>阴性</th><th>中性</th><th>复数</th></tr></thead><tbody>\n<tr><th>主格</th><td>der alte</td><td>die junge</td><td>das fromme</td><td>die …-en</td></tr>\n<tr><th>宾格</th><td>den …-en</td><td>die …<b>e</b></td><td>das …<b>e</b></td><td>die …-en</td></tr>\n<tr><th>与格</th><td>dem …-en</td><td>der …-en</td><td>dem …-en</td><td>den …-en</td></tr>\n<tr><th>属格</th><td>des …-en</td><td>der …-en</td><td>des …-en</td><td>der …-en</td></tr>\n</tbody></table></div>\n<ul>\n<li>[[der{nm} liebe Gott]]（阳性主格 -e）→ [[auf den{am} lieben Gott]]（阳性宾格 -en）。</li>\n<li>[[das{nn} fromme Mädchen]]（中性主格 -e）。</li>\n<li>[[Die{nf} junge Frau schalt]]（阴性主格 -e）。</li>\n<li>[[holten alsofort den{am} alten Großvater an den{am} Tisch]]（阳性宾格 -en）。</li>\n<li>[[vom allerfeinsten Linnen]]（vom = von dem，中性与格 -en）。</li>\n</ul>\n\n<h4>四、混合词尾：ein 家族后面</h4>\n<p>ein、kein 和物主冠词（mein、sein、ihr、unser……）在三个位置上没有词尾：阳性主格、中性主格、中性宾格（ein、kein、sein）。这三处冠词没说清楚，形容词就补上强词尾；其余位置冠词有词尾，形容词用弱的 -en：</p>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th></th><th>阳性</th><th>阴性</th><th>中性</th><th>复数（kein、sein……）</th></tr></thead><tbody>\n<tr><th>主格</th><td>ein armer</td><td>eine alte</td><td>ein armes</td><td>keine …-en</td></tr>\n<tr><th>宾格</th><td>einen …-en</td><td>eine …<b>e</b></td><td>ein …<b>es</b></td><td>keine …-en</td></tr>\n<tr><th>与格</th><td>einem …-en</td><td>einer …-en</td><td>einem …-en</td><td>keinen …-en</td></tr>\n<tr><th>属格</th><td>eines …-en</td><td>einer …-en</td><td>eines …-en</td><td>keiner …-en</td></tr>\n</tbody></table></div>\n<p>读本里：</p>\n<ul>\n<li>[[mußte ein{nm} armer Junge hinausgehen]]、[[ein{nm} steinalter Mann]]、[[ein{nm} tiefer Schnee]]：阳性主格 -er。</li>\n<li>[[ein{nn} armes frommes Mädchen]]、[[ein{nn} mitleidiges Herz]]：中性主格 -es（两个形容词都加）。</li>\n<li>[[fand ein{an} eisernes Kästchen]]、[[ein{an} hölzernes Schüsselchen]]：中性宾格 -es。</li>\n<li>[[fand er einen{am} kleinen goldenen Schlüssel]]：阳性宾格，einen 已经标清楚 → -en。</li>\n<li>[[seine{np} zitterigen Hände]]：复数，seine 后面 → -en。</li>\n</ul>\n\n<h4>五、反推：从词尾到格</h4>\n<p>读的时候反过来用：看到形容词词尾，就能缩小格的范围。</p>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>看到</th><th>可能是</th></tr></thead><tbody>\n<tr><td>（无冠词）-er + 单数名词</td><td>阳性主格；或阴性与格 / 属格</td></tr>\n<tr><td>（无冠词）-es</td><td>中性主格 / 宾格</td></tr>\n<tr><td>（无冠词）-em</td><td>阳性 / 中性与格：一定是与格</td></tr>\n<tr><td>（无冠词）-en + 阳性单数名词</td><td>阳性宾格（或属格）</td></tr>\n<tr><td>ein + -er</td><td>阳性主格</td></tr>\n<tr><td>ein + -es</td><td>中性主格或宾格</td></tr>\n<tr><td>der + -e</td><td>阳性主格（或阴性与格 / 属格要看名词：der alten Frau 是 -en）</td></tr>\n<tr><td>-en</td><td>最不确定：要看冠词和名词</td></tr>\n</tbody></table></div>\n<div class=\"tip\">康德常省掉冠词，一串形容词直接跟名词：<i>in strenger Allgemeinheit</i>（在严格的普遍性中）：-er + 阴性名词 → 与格。<i>reiner Grundsätze</i>：-er + 复数 → 属格。这时形容词词尾就是唯一的格标记。</div>\n\n<h4>六、几个旧形式和特例</h4>\n<ul>\n<li>18、19 世纪有时不加词尾：[[Es{expl} war einmal ein{nn} Kind eigensinnig]]（形容词放在名词后面）；康德写 <i>ein analytisch Urteil</i>（今天是 analytisches）。</li>\n<li>以 -el 结尾的形容词加词尾时丢掉 e：dunkel → [[es{expl} ist dunkle Nacht]]。</li>\n<li>几个形容词并列，词尾都一样：[[guten süßen Hirsenbrei]]、[[einen{am} kleinen goldenen Schlüssel]]。</li>\n</ul>\n\n<h4>七、形容词当名词用</h4>\n<p>形容词前面加冠词、首字母大写，就成了名词，词尾照样按上面的表变：der Alte（老人）、ein Alter；das Gute（善）、das Schöne（美）；康德的 <i>das Unbekannte</i>（未知的东西）、<i>etwas Empirisches</i>（某种经验性的东西：etwas、nichts 后面用强词尾 -es）。康德书里的大量术语都是这样造出来的。</p>\n\n<h4>八、马上练</h4>\n{{quiz:s1}}\n\n<h4>九、小结</h4>\n<ul>\n<li>原则：格的信号只出现一次。冠词标清楚了 → 弱词尾 -e / -en；没标清楚或没有冠词 → 强词尾。</li>\n<li>强词尾 ≈ der / die / das 的词尾：-er、-e、-es、-en、-em。</li>\n<li>弱词尾（der 后）：主格单数三个 + 阴性、中性宾格用 -e，其余 -en。</li>\n<li>混合（ein 后）：ein + -er（阳主）、ein + -es（中主 / 中宾），其余同弱词尾。</li>\n<li>表语、副词不加词尾。形容词名词化：das Gute、etwas Empirisches。</li>\n<li>没有冠词时，形容词词尾就是格的线索。</li>\n</ul>\n\n<h4>十、回头再读</h4>\n<p>《星星金币》第一句就有四个带词尾的形容词。重读时，给每个形容词说出：前面是什么冠词、名词是什么性、所以是什么格。</p>\n<p><button class=\"btn\" data-route=\"grimm~ch-k153\">重读《星星金币》</button> <button class=\"btn\" data-route=\"grimm~ch-k200\">重读《金钥匙》</button></p>",
+  "quiz": [
+   {
+    "id": "aj1",
+    "sec": "s1",
+    "de": "mußte ein <<armer>> Junge hinausgehen",
+    "opts": [
+     "ein 后阳性主格：形容词补上 -er",
+     "阳性宾格"
+    ],
+    "ans": 0,
+    "why": "ein 在阳性主格没有词尾，形容词补上强词尾 -er。"
+   },
+   {
+    "id": "aj2",
+    "sec": "s1",
+    "de": "fand er einen kleinen <<goldenen>> Schlüssel",
+    "opts": [
+     "einen 已标出阳性宾格，形容词用 -en",
+     "复数"
+    ],
+    "ans": 0,
+    "why": "einen 本身就说明是阳性宾格，形容词只加弱词尾 -en。"
+   },
+   {
+    "id": "aj3",
+    "sec": "s1",
+    "de": "aßen <<süßen>> Brei",
+    "opts": [
+     "没有冠词，阳性宾格：强词尾 -en",
+     "与格复数"
+    ],
+    "ans": 0,
+    "why": "Brei 阳性，aßen 的宾语 → 宾格；没有冠词，形容词用强词尾 -en（= den）。"
+   },
+   {
+    "id": "aj4",
+    "sec": "s1",
+    "de": "es ist <<dunkle>> Nacht",
+    "opts": [
+     "没有冠词，阴性主格 -e（dunkel 丢掉了 e）",
+     "复数"
+    ],
+    "ans": 0,
+    "why": "Nacht 阴性，主格；dunkel 加词尾时丢掉 e：dunkle。"
+   },
+   {
+    "id": "aj5",
+    "sec": "s1",
+    "de": "der liebe Gott → auf den <<lieben>> Gott",
+    "opts": [
+     "阳性宾格，den 后弱词尾 -en",
+     "阳性主格"
+    ],
+    "ans": 0,
+    "why": "auf den lieben Gott：auf 这里要求宾格（信赖于），den 后面形容词 -en。"
+   },
+   {
+    "id": "aj6",
+    "sec": "s1",
+    "de": "Es war aber gut und <<fromm>>",
+    "opts": [
+     "表语：不加词尾",
+     "副词"
+    ],
+    "ans": 0,
+    "why": "在 war 后面作表语，形容词不加词尾。"
+   },
+   {
+    "id": "aj7",
+    "sec": "s1",
+    "de": "fand ein <<eisernes>> Kästchen",
+    "opts": [
+     "ein 后中性宾格：形容词补上 -es",
+     "阳性主格"
+    ],
+    "ans": 0,
+    "why": "Kästchen 是中性；ein 没有词尾，形容词补上 -es。"
+   }
+  ]
  }
 ]
