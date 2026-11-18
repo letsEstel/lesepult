@@ -134,8 +134,6 @@ class Course:
         self.profile, self.lex, self.lex_errors = self.source.profile, self.source.lex, []
         self.text, self.tok, self.keyre = [], self.source.tok, self.source.keyre
         self.chapters = None
-        if self.source.chapters is not None:
-            sys.exit(f"共用课程 {self.dir.name} 的 lexiconFrom 不能是分章的书（{self.meta['lexiconFrom']}）")
 
     sections = Book.sections
     snippets = Book.snippets

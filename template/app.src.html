@@ -1006,8 +1006,9 @@ function slipHtml(r, surface, sid, el){
   const occ=C.OCC[r.id]||[];
   const where=C.kind==='course'?'在《'+esc(BOOKS[C.textBook].meta.short||BOOKS[C.textBook].meta.title)+'》中':C.ch?'在本章':'在文中';
   if(occ.length) h+='<div class="sl-sec"><h4>'+where+'出现 '+occ.length+' 次（同一用法）</h4><div class="occ">'+occ.slice(0,40).map(id=>{const x=C.SENTS.find(z=>z.id===id);return '<button data-jump="'+id+'"'+(id===sid?' aria-current="true"':'')+'>§ '+esc(x.label)+'</button>'}).join('')+'</div></div>';
-  const others=C.kind==='book'&&C.OCCX&&C.OCCX[r.id]?C.OCCX[r.id].filter(o=>o[0]!==C.cid&&chOf(C.id,o[0])):[];
-  if(others.length) h+='<div class="sl-sec"><h4>'+(C.ch?'在其他章节':'在书中')+'出现</h4><div class="occ">'+others.map(o=>'<button data-route="'+esc(C.id)+'~s-'+esc(o[2])+'">第 '+esc(chOf(C.id,o[0]).n)+' 章 × '+o[1]+'</button>').join('')+'</div></div>';
+  // where else the word occurs in a chaptered book (for a course: in the reader its examples come from)
+  const tb=C.textBook, others=C.OCCX&&C.OCCX[r.id]?C.OCCX[r.id].filter(o=>o[0]!==C.cid&&chOf(tb,o[0])):[];
+  if(others.length) h+='<div class="sl-sec"><h4>'+(C.kind==='course'?'在《'+esc(BOOKS[tb].meta.short||BOOKS[tb].meta.title)+'》中':C.ch?'在其他章节':'在书中')+'出现</h4><div class="occ">'+others.map(o=>'<button data-route="'+esc(tb)+'~s-'+esc(o[2])+'">第 '+esc(chOf(tb,o[0]).n)+' 章 × '+o[1]+'</button>').join('')+'</div></div>';
   return h+rep;
 }
 const SLIP={hist:[], cur:null};
