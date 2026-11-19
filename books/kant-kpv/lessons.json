@@ -63,5 +63,70 @@
     "why": "所以书名不叫「纯粹实践理性批判」。"
    }
   ]
+ },
+ {
+  "id": "p1",
+  "ch": "p",
+  "t": "原理：定言命令",
+  "de": "Grundsätze der reinen praktischen Vernunft",
+  "min": 30,
+  "html": "<p>这一章是全书的核心：康德从「准则」和「法则」的区分出发，一步步推出纯粹实践理性的基本法则——定言命令，并说明我们是怎样从道德法则知道自己是自由的。</p>\n<h4>一、准则与法则</h4>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th></th><th>准则（Maxime）</th><th>实践法则（praktisches Gesetz）</th></tr></thead><tbody>\n<tr><th>有效范围</th><td>只对「我」的意志</td><td>对每个理性存在者的意志</td></tr>\n<tr><th>性质</th><td>主观的</td><td>客观的</td></tr>\n<tr><th>例子</th><td>「受辱必报」「用一切稳妥手段增加财产」</td><td>「要这样行动，使你的准则能成为普遍立法的原则」</td></tr>\n</tbody></table></div>\n<p>每个人都按准则行动。道德的问题是：我的准则能不能同时是法则？</p>\n<h4>二、质料与形式</h4>\n<p>以欲望对象（质料）为根据的原则都是经验的，最终归于自爱，不能普遍化：每个人想要的东西不一样。把一切质料抽掉，剩下的只有「普遍立法的形式」。所以道德法则只能是形式的。</p>\n[[Nun bleibt von einem Gesetze … nichts übrig, als die bloße Form einer allgemeinen Gesetzgebung]]\n<h4>三、寄存物的检验</h4>\n<ol>\n<li>我的准则：用一切稳妥的手段增加财产。</li>\n<li>情况：手里有一笔无据可查的寄存物，主人已去世。</li>\n<li>普遍化：「任何人都可以否认无人能证明的寄存物。」</li>\n<li>结果：没有人会再寄存东西，法则自我毁灭。所以这条准则不道德。</li>\n</ol>\n<h4>四、绞架：你能够，因为你应当</h4>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>情境</th><th>对立的两方</th><th>他会怎么说</th><th>说明了什么</th></tr></thead><tbody>\n<tr><td>竖着绞架，享乐之后就吊死</td><td>欲望 vs 求生</td><td>当然能克制</td><td>「无法抗拒」只是托辞</td></tr>\n<tr><td>君主以死相逼，要他作伪证</td><td>求生 vs 道德</td><td>不敢说一定会拒绝，但承认<b>能</b>拒绝</td><td>「应当」让他知道自己「能够」：自由</td></tr>\n</tbody></table></div>\n[[Er urteilt also, daß er etwas kann, darum weil er sich bewußt ist, daß er es soll]]\n<h4>五、定言命令与理性的事实</h4>\n<p><b>Handle so, daß die Maxime deines Willens jederzeit zugleich als Prinzip einer allgemeinen Gesetzgebung gelten könne.</b></p>\n<p>它是「定言的」：不说「如果你想要什么，就该怎样」（那是假言命令），而是无条件地说「应当」。我们对它的意识是一个「理性的事实」：它不是从别的东西推出来的，而是直接在那里。</p>\n<h4>六、语法小结</h4>\n<ul>\n<li><b>der Materie nach / der Form nach</b>：nach 后置（第 8 课）。</li>\n<li><b>es … zur Maxime machen, … zu</b>：es 预指 zu-不定式（第 19 课）。</li>\n<li><b>zu-分词作定语</b>：ein durch keine sinnliche Bedingungen zu überwiegender Bestimmungsgrund（第 24 课）。</li>\n<li><b>Setzet / Fragt</b>：ihr 命令式，康德对读者说话。</li>\n<li><b>geblieben wäre</b>：虚拟式二的过去时（第 22 课）。</li>\n</ul>\n{{quiz:s1}}",
+  "quiz": [
+   {
+    "id": "p1a",
+    "sec": "s1",
+    "de": "Sie sind subjektiv oder <<Maximen>>, wenn die Bedingung nur als für den Willen des Subjekts gültig … angesehen wird",
+    "opts": [
+     "准则：只对自己的意志有效的原则",
+     "法则：对每个理性存在者有效"
+    ],
+    "ans": 0,
+    "why": "客观的、对所有人有效的才叫实践法则。"
+   },
+   {
+    "id": "p1b",
+    "sec": "s1",
+    "de": "nichts übrig, als die bloße <<Form>> einer allgemeinen Gesetzgebung",
+    "opts": [
+     "抽掉一切质料，只剩普遍立法的形式",
+     "只剩欲望的对象"
+    ],
+    "ans": 0,
+    "why": "道德法则只能是形式的。"
+   },
+   {
+    "id": "p1c",
+    "sec": "s1",
+    "de": "daß ein solches Prinzip, als Gesetz, sich selbst <<vernichten>> würde",
+    "opts": [
+     "普遍化后寄存这回事就不存在了",
+     "因为会被法律惩罚"
+    ],
+    "ans": 0,
+    "why": "准则一旦普遍化就自相矛盾。"
+   },
+   {
+    "id": "p1d",
+    "sec": "s1",
+    "de": "Er urteilt also, daß er etwas <<kann>>, darum weil er sich bewußt ist, daß er es soll",
+    "opts": [
+     "从「应当」推知「能够」，即自由",
+     "从「能够」推出「应当」"
+    ],
+    "ans": 0,
+    "why": "道德法则是自由的认识根据。"
+   },
+   {
+    "id": "p1e",
+    "sec": "s1",
+    "de": "Man kann das Bewußtsein dieses Grundgesetzes ein <<Faktum>> der Vernunft nennen",
+    "opts": [
+     "它不是推出来的，而是直接在那里",
+     "它是经验中观察到的事实"
+    ],
+    "ans": 0,
+    "why": "康德强调：它是「纯粹理性的唯一事实」，不是经验的。"
+   }
+  ]
  }
 ]
