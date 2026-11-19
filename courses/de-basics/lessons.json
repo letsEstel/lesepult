@@ -1996,5 +1996,69 @@
     "why": "bespannt 是分词，补充说明 Wagen：套着八匹白马。"
    }
   ]
+ },
+ {
+  "id": "lassen",
+  "t": "lassen、sein + zu、haben + zu",
+  "de": "lassen, sein zu, haben zu",
+  "min": 80,
+  "html": "<p>这一课讲几个和不定式搭配、意思却不能按字面理解的结构：lassen（让、叫人、任凭）、sich lassen（能被）、sein + zu（能被 / 应被）、haben + zu（必须），还有 brauchen、scheinen、pflegen + zu。它们在童话里常见，在康德那里更是随处可见：<i>ist vorzuziehen</i>、<i>ist zuzuschreiben</i>、<i>läßt sich verstehen</i>。</p>\n\n<h4>一、lassen + 不定式：三个意思</h4>\n<p>lassen 后面的不定式不带 zu，句框和情态动词一样（第 10 课）。它有三个意思，要看上下文：</p>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>意思</th><th>读本里</th><th>中文</th></tr></thead><tbody>\n<tr><td>① 允许、让</td><td>[[und ließen ihn von nun an immer mit essen]]</td><td>（夫妻俩）让他一起吃饭</td></tr>\n<tr><td>② 叫人做、使</td><td>[[Er ließ die{af} Müllerstochter in eine{af} andere Kammer voll Stroh bringen]] · [[und ließ es{child} krank werden]]</td><td>（国王）叫人把她带到……· （上帝）使他生病</td></tr>\n<tr><td>③ 任凭、让……留下</td><td>[[hast du die{af} Spule hinunterfallen lassen]]</td><td>你（不小心）让纺锤掉下去了</td></tr>\n</tbody></table></div>\n<p>lassen 的宾语（被让、被叫的人）用宾格：ließen <b>ihn</b> … essen、ließ <b>es</b> krank werden。</p>\n<p>完成时也用双不定式（第 16 课）：[[hast du die{af} Spule hinunterfallen lassen]]、[[daß er drei eiserne Bande hatte um sein{an} Herz legen lassen]]（他叫人在心上箍了三道铁箍）。</p>\n\n<h4>二、sich + 宾格 + lassen：让自己被……</h4>\n<ul>\n<li>[[laß dich auch bei der{df} Musik annehmen]]：让乐队收下你（让自己被收下）。</li>\n<li>[[wir hätten uns doch nicht sollen ins Bockshorn jagen lassen]]：我们本不该让自己被吓住。</li>\n<li>固定说法：[[Der{nm} Hahn ließ sich{refl} den{am} Vorschlag gefallen]]（接受了提议）· [[Der{nm} Frosch ließ sichs gut schmecken]]（吃得津津有味）。</li>\n</ul>\n\n<h4>三、sich lassen = 能被（被动 + 可能）</h4>\n<p>没有人称宾语时，「sich lassen + 不定式」相当于「能被……」：</p>\n<ul>\n<li>康德：<i>indem die Rundung … sich im letzteren anschauen läßt</i>：圆形在后者中能被直观。</li>\n<li>康德：<i>Aus dieser ursprünglichen Verbindung läßt sich vieles folgern</i>：从这个本源的联结中可以推出很多东西。</li>\n<li>康德：<i>alle transzendentalen Ideen werden sich unter drei Klassen bringen lassen</i>：一切先验理念都能被归入三类。</li>\n</ul>\n\n<h4>四、sein + zu-不定式：能被 / 应被</h4>\n<p>sein + zu-不定式是被动的意思，再加上「可能」或「必须」，要看上下文：</p>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>例子</th><th>意思</th></tr></thead><tbody>\n<tr><td>[[aber nirgend waren sie{they} zu finden]]</td><td>哪儿也找不到（= konnten nicht gefunden werden）</td></tr>\n<tr><td>[[und sie{she} wäre noch zu retten]]</td><td>她还能救（= könnte gerettet werden）</td></tr>\n<tr><td>康德：<i>Eine Illusion, die gar nicht zu vermeiden ist</i></td><td>根本无法避免的错觉</td></tr>\n<tr><td>康德：<i>ist lediglich der Ursache zuzuschreiben</i></td><td>只能归因于……（= muß zugeschrieben werden）</td></tr>\n<tr><td>康德：<i>Keine dieser Eigenschaften ist der anderen vorzuziehen</i></td><td>两者没有哪个应被优先</td></tr>\n</tbody></table></div>\n<p>放在名词前就成了第 24 课的 zu-分词：<i>der zu subsumierende Gegenstand</i>（要被归摄的对象）。</p>\n\n<h4>五、haben + zu-不定式：必须</h4>\n<ul>\n<li><i>du hast zu gehorchen</i>：你必须服从（= du mußt gehorchen）。</li>\n<li>注意别和「有东西可……」混淆：[[sie{they} hatten nichts mehr zu essen]]（他们没有东西吃了）：这里 nichts 是 haben 的宾语，zu essen 修饰 nichts。</li>\n</ul>\n\n<h4>六、brauchen、scheinen、pflegen + zu</h4>\n<ul>\n<li><b>nicht brauchen zu = 不必</b>：<i>weil sie sich nicht mehr zu fürchten brauchten</i>（《亨塞尔与格蕾特》：因为他们不必再害怕了）。brauchen 只在否定时这样用，相当于 nicht müssen。</li>\n<li><b>scheinen zu = 似乎</b>：康德：<i>scheint … nötig zu sein</i>（似乎是必要的）。</li>\n<li><b>pflegen zu = 惯于</b>：<i>er pflegt früh aufzustehen</i>：他习惯早起。</li>\n</ul>\n\n<h4>七、反推方法</h4>\n<ol>\n<li>看到 lassen 的变位形式，句末有不带 zu 的不定式：先找宾格宾语（被让 / 被叫的人），再判断是「让」「叫人」还是「任凭」。</li>\n<li>sich … lassen，没有别的宾语：「能被……」。</li>\n<li>sein + zu-不定式：「能被」或「应被」。</li>\n<li>haben + zu-不定式，前面没有 nichts / etwas：「必须」。</li>\n<li>nicht brauchen zu：「不必」。</li>\n</ol>\n\n<h4>八、马上练</h4>\n{{quiz:s1}}\n\n<h4>九、小结</h4>\n<ul>\n<li>lassen + 不定式：让 / 叫人 / 任凭；完成时用双不定式。</li>\n<li>sich lassen：让自己被……；无人称时 = 能被。</li>\n<li>sein + zu = 能被 / 应被；haben + zu = 必须。</li>\n<li>nicht brauchen zu = 不必；scheinen zu = 似乎；pflegen zu = 惯于。</li>\n</ul>\n\n<h4>十、读一读</h4>\n<p>学完这一课，就可以读这个读本的毕业篇《亨塞尔与格蕾特》了（约 2700 词）。</p>\n<p><button class=\"btn\" data-route=\"grimm~ch-k015\">读一读：《亨塞尔与格蕾特》</button></p>",
+  "quiz": [
+   {
+    "id": "ls1",
+    "sec": "s1",
+    "de": "und ließen ihn von nun an immer mit essen",
+    "opts": [
+     "让他（允许）一起吃",
+     "叫人喂他"
+    ],
+    "ans": 0,
+    "why": "lassen = 允许：夫妻俩让老祖父上桌。"
+   },
+   {
+    "id": "ls2",
+    "sec": "s1",
+    "de": "Er ließ die Müllerstochter in eine andere Kammer voll Stroh <<bringen>>",
+    "opts": [
+     "叫人把她带去",
+     "允许她去"
+    ],
+    "ans": 0,
+    "why": "国王自己不带，而是让人带：lassen = 叫人做。"
+   },
+   {
+    "id": "ls3",
+    "sec": "s1",
+    "de": "laß dich auch bei der Musik <<annehmen>>",
+    "opts": [
+     "让自己被收下",
+     "你去收下乐队"
+    ],
+    "ans": 0,
+    "why": "sich … lassen：让自己被……。"
+   },
+   {
+    "id": "ls4",
+    "sec": "s1",
+    "de": "aber nirgend waren sie zu <<finden>>",
+    "opts": [
+     "sein + zu：找不到（不能被找到）",
+     "将来时"
+    ],
+    "ans": 0,
+    "why": "waren … zu finden = konnten gefunden werden。"
+   },
+   {
+    "id": "ls5",
+    "sec": "s1",
+    "de": "hast du die Spule hinunterfallen <<lassen>>",
+    "opts": [
+     "双不定式：lassen 的完成时",
+     "不定式「离开」"
+    ],
+    "ans": 0,
+    "why": "lassen 的完成时用不定式 lassen，不用 gelassen。"
+   }
+  ]
  }
 ]
