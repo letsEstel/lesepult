@@ -184,6 +184,60 @@
   ]
  },
  {
+  "id": "k1",
+  "ch": "k",
+  "t": "范畴与先验演绎",
+  "de": "Die transzendentale Analytik",
+  "min": 20,
+  "html": "<p>这一章回答导言的第二个问题：纯粹自然科学是如何可能的？答案是：因为知性有自己的先天概念（范畴），而一切能被我们经验到的东西都必须服从它们。</p>\n<h4>一、两个来源，缺一不可</h4>\n[[Gedanken ohne Inhalt sind leer, Anschauungen ohne Begriffe sind blind.]]\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th></th><th>感性 Sinnlichkeit</th><th>知性 Verstand</th></tr></thead><tbody>\n<tr><th>方式</th><td>接受性（Rezeptivität）</td><td>自发性（Spontaneität）</td></tr>\n<tr><th>产物</th><td>直观</td><td>概念</td></tr>\n<tr><th>对象怎样</th><td>被给予</td><td>被思维</td></tr>\n<tr><th>先天形式</th><td>空间、时间</td><td>十二范畴</td></tr>\n</tbody></table></div>\n<h4>二、范畴表</h4>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>量</th><th>质</th><th>关系</th><th>模态</th></tr></thead><tbody>\n<tr><td>单一性</td><td>实在性</td><td>实体与偶性</td><td>可能 / 不可能</td></tr>\n<tr><td>多数性</td><td>否定性</td><td>原因与结果</td><td>存在 / 不存在</td></tr>\n<tr><td>全体性</td><td>限制性</td><td>协同（交互作用）</td><td>必然 / 偶然</td></tr>\n</tbody></table></div>\n<p>范畴从判断的逻辑形式中推出：判断里统一表象的功能，就是在直观里统一杂多的功能。</p>\n<h4>三、演绎的三步</h4>\n<ol><li><b>权利问题</b>（quid juris）：范畴不来自经验，凭什么有权用于经验对象？</li>\n<li><b>我思</b>：一切表象要成为「我的」，必须能被同一个「我思」伴随；这种统一靠知性的联结，也就是靠范畴。</li>\n<li><b>结论</b>：凡是能被我们经验到的东西都从属于范畴，所以知性「给自然规定法则」；但先天知识只对可能经验的对象有效。</li></ol>\n<div class=\"tip\"><b>denken</b>（思维）只需要范畴；<b>erkennen</b>（认识）还需要直观。超出经验的东西可以被思维，却不能被认识。</div>\n{{quiz:s1}}",
+  "quiz": [
+   {
+    "id": "k1a",
+    "sec": "s1",
+    "de": "Gedanken ohne Inhalt sind <<leer>>",
+    "opts": [
+     "没有直观的概念是空的",
+     "没有概念的直观是空的"
+    ],
+    "ans": 0,
+    "why": "内容由直观提供；没有直观，思想就没有对象。"
+   },
+   {
+    "id": "k1b",
+    "sec": "s1",
+    "de": "Anschauungen ohne Begriffe sind <<blind>>",
+    "opts": [
+     "没有概念的直观不能被认识为什么东西",
+     "没有直观的概念是盲的"
+    ],
+    "ans": 0,
+    "why": "直观需要概念才能被认识。"
+   },
+   {
+    "id": "k1c",
+    "sec": "s1",
+    "de": "Das: Ich denke, muß alle meine Vorstellungen <<begleiten>> können",
+    "opts": [
+     "「我思」必须能够伴随一切表象",
+     "「我思」总是伴随一切表象"
+    ],
+    "ans": 0,
+    "why": "注意 können：是「能够」伴随。"
+   },
+   {
+    "id": "k1d",
+    "sec": "s1",
+    "de": "Folglich ist uns keine Erkenntnis a priori möglich, als lediglich von Gegenständen möglicher Erfahrung",
+    "opts": [
+     "先天知识只对可能经验的对象有效",
+     "先天知识不存在"
+    ],
+    "ans": 0,
+    "why": "先天知识存在，但只限于可能经验的对象。"
+   }
+  ]
+ },
+ {
   "id": "p1",
   "ch": "p",
   "t": "岛与海：这一章在全书中的位置",

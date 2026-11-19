@@ -1,0 +1,291 @@
+[
+ {
+  "h": "一 · 两个来源",
+  "t": "Gedanken ohne Inhalt sind leer",
+  "k": "1",
+  "pg": "B 74–76",
+  "sum": "感性论讲完了直观的形式；「先验逻辑」转向知性。它的开头把导言里说的两个主干又说了一遍，这一次说得更锋利：",
+  "s": [
+   {
+    "de": "Unsere{nf} Erkenntnis entspringt aus zwei Grundquellen des{gn} Gemüts, deren{rel:gp} die{nf} erste ist, die{ap} Vorstellungen zu empfangen (die{nf} Rezeptivität der{gp} Eindrücke), die{nf} zweite das{nn} Vermögen, durch diese{ap} Vorstellungen einen{am} Gegenstand zu erkennen (Spontaneität der{gp} Begriffe); durch die{af} erstere wird uns ein{nm} Gegenstand gegeben, durch die{af} zweite wird dieser{nm} im Verhältnis auf jene{af} Vorstellung (als bloße Bestimmung des{gn} Gemüts) gedacht.",
+    "zh": "我们的知识出自心灵的两个基本来源：第一个是接受表象的能力（印象的接受性），第二个是通过这些表象认识一个对象的能力（概念的自发性）。通过前者，一个对象被给予我们；通过后者，这个对象在与那个表象（作为心灵的单纯规定）的关系中被思维。",
+    "n": [
+     "拆解：① Unsere Erkenntnis entspringt aus zwei Grundquellen des Gemüts（我们的知识出自心灵的两个基本来源）。② 关系从句 deren die erste ist, die Vorstellungen zu empfangen（其中第一个是接受表象）+ 括号（印象的接受性）。③ die zweite (ist) das Vermögen, durch diese Vorstellungen einen Gegenstand zu erkennen（第二个是通过表象认识对象的能力）+ 括号（概念的自发性）。④ 分号后两个被动句：durch die erstere wird uns ein Gegenstand gegeben（通过前者对象被给予），durch die zweite wird dieser … gedacht（通过后者它被思维）。",
+     "die Grundquelle：基本来源（Grund + Quelle）。deren die erste：它们之中的第一个（deren：关系代词属格复数，指 Grundquellen，第 13 课）。",
+     "die Vorstellungen zu empfangen：接受表象（zu-不定式作表语）。die Rezeptivität der Eindrücke：印象的接受性。der Eindruck：印象。",
+     "die Spontaneität：自发性：知性主动产生概念。接受性 vs 自发性，是感性与知性的根本区别。",
+     "wird … gegeben / gedacht：被动现在时（第 17 课：werden + 分词）。dieser = der Gegenstand。im Verhältnis auf：在与……的关系中。"
+    ]
+   },
+   {
+    "de": "Anschauung und Begriffe machen also die{ap} Elemente aller{gf} unserer{gf} Erkenntnis aus, so daß weder Begriffe, ohne ihnen auf einige Art korrespondierende Anschauung, noch Anschauung ohne Begriffe, ein{an} Erkenntnis abgeben können.",
+    "zh": "所以，直观和概念构成我们一切知识的要素；无论是没有以某种方式与之对应的直观的概念，还是没有概念的直观，都不能产生知识。",
+    "n": [
+     "拆解：① Anschauung und Begriffe machen also die Elemente aller unserer Erkenntnis aus（直观和概念构成我们一切知识的要素）：ausmachen 拆开，aus 在句末。② 结果从句 so daß weder Begriffe, ohne … Anschauung, noch Anschauung ohne Begriffe, ein Erkenntnis abgeben können（以至于没有直观的概念、没有概念的直观都不能产生知识）。",
+     "aller unserer Erkenntnis：我们一切知识的（属格，第 18 课）。",
+     "weder … noch …：既不……也不……。ohne ihnen auf einige Art korrespondierende Anschauung：没有以某种方式与它们对应的直观。扩展定语（第 24 课）：ihnen auf einige Art korrespondierende 夹在 ohne 和 Anschauung 之间；ihnen = den Begriffen（与格）。",
+     "ein Erkenntnis：康德常把 Erkenntnis 用作中性（今天只用阴性 die Erkenntnis）。abgeben：提供、构成。"
+    ]
+   },
+   {
+    "de": "Keine{nf} dieser{gp} Eigenschaften ist der{df} anderen vorzuziehen.",
+    "zh": "这两种性能，哪一种也不比另一种更优先。",
+    "n": [
+     "拆解：Keine dieser Eigenschaften（这些性能中没有一种）→ ist … vorzuziehen（应被优先于）→ der anderen（另一种）。",
+     "keine dieser Eigenschaften：这些性能中没有一个（属格表示部分，第 18 课）。",
+     "etw. einer Sache vorziehen：更喜欢某物胜过……（与格）。ist vorzuziehen：sein + zu-不定式 = 应该被……（第 25 课）。der anderen：与格。",
+     "这一句针对的是莱布尼茨（看重知性，把感性当作模糊的思维）和洛克（看重感性，把概念当作从感觉中抽出的东西）。"
+    ]
+   },
+   {
+    "de": "Ohne Sinnlichkeit würde uns kein{nm} Gegenstand gegeben, und ohne Verstand keiner gedacht werden.",
+    "zh": "没有感性，就不会有对象被给予我们；没有知性，就不会有对象被思维。",
+    "n": [
+     "拆解：Ohne Sinnlichkeit würde uns kein Gegenstand gegeben (werden), und ohne Verstand keiner gedacht werden（没有感性就没有对象被给予；没有知性就没有对象被思维）。两半共用 würde … werden。",
+     "würde … gegeben … gedacht werden：虚拟式二的被动（würde + 分词 + werden）：「（假如没有……）就不会被……」（第 17、22 课）。",
+     "keiner：没有一个（代词，= kein Gegenstand）。"
+    ]
+   },
+   {
+    "de": "Gedanken ohne Inhalt sind leer, Anschauungen ohne Begriffe sind blind.",
+    "zh": "思维无内容是空的，直观无概念是盲的。",
+    "n": [
+     "拆解：两个并列的短句。Gedanken ohne Inhalt sind leer（没有内容的思想是空的）；Anschauungen ohne Begriffe sind blind（没有概念的直观是盲的）。",
+     "der Gedanke：思想。der Inhalt：内容（由直观提供）。leer：空的；blind：盲的。",
+     "这是《纯粹理性批判》最有名的一句话。「空」：概念没有直观就没有对象；「盲」：直观没有概念就不能被认识为什么东西。"
+    ]
+   },
+   {
+    "de": "Daher ist es{expl} ebenso notwendig, seine{ap} Begriffe sinnlich zu machen, (d.i. ihnen den{am} Gegenstand in der{df} Anschauung beizufügen,) als seine{ap} Anschauungen sich{refl} verständlich zu machen (d.i. sie{them} unter Begriffe zu bringen).",
+    "zh": "因此，使自己的概念成为感性的（即在直观中给概念加上对象），与使自己的直观成为可理解的（即把直观带到概念之下），是同样必要的。",
+    "n": [
+     "拆解：Daher ist es ebenso notwendig, … zu machen, … als … zu machen（因此，……和……同样必要）：es 预指两个 zu-不定式（第 11 课）。① seine Begriffe sinnlich zu machen（使概念感性化）+ 括号 d.i. ihnen den Gegenstand in der Anschauung beizufügen（即在直观中给它们加上对象）。② seine Anschauungen sich verständlich zu machen（使直观对自己可理解）+ 括号 d.i. sie unter Begriffe zu bringen（即把它们带到概念之下）。",
+     "ebenso … als …：和……同样（今天说 ebenso … wie）。",
+     "jm etw. beifügen：给……加上。beizufügen：bei-zu-fügen。",
+     "sich etw. verständlich machen：使某物对自己可理解（与格 sich）。unter Begriffe bringen：归到概念之下。"
+    ]
+   },
+   {
+    "de": "Der{nm} Verstand vermag nichts anzuschauen, und die{np} Sinne nichts zu denken.",
+    "zh": "知性不能直观任何东西，感官也不能思维任何东西。",
+    "n": [
+     "拆解：Der Verstand vermag nichts anzuschauen（知性不能直观任何东西）, und die Sinne (vermögen) nichts zu denken（感官不能思维任何东西）。",
+     "vermögen + zu-不定式：能够（书面语，= können）。anzuschauen：an-zu-schauen。",
+     "die Sinne：感官（复数）。第二半省掉了 vermögen。"
+    ]
+   },
+   {
+    "de": "Nur daraus, daß sie{they} sich{refl} vereinigen, kann Erkenntnis entspringen.",
+    "zh": "只有从它们的结合中，知识才能产生。",
+    "n": [
+     "拆解：Nur daraus, daß sie sich vereinigen（只有从它们的结合中）→ kann Erkenntnis entspringen（知识才能产生）。",
+     "daraus, daß …：从……这件事中（da- 预指 daß-从句，第 20 课）。sich vereinigen：结合。",
+     "整个 daraus …-短语占第一位，所以 kann 紧跟。"
+    ]
+   }
+  ]
+ },
+ {
+  "h": "二 · 范畴表",
+  "t": "Tafel der Kategorien",
+  "k": "2",
+  "pg": "B 105–107",
+  "sum": "知性的一切活动都可以归结为判断，所以康德从形式逻辑的判断表（量、质、关系、模态，各三种）出发，找出知性的纯粹概念。他的论证是：判断里把不同表象统一起来的功能，也就是在直观里把杂多统一起来的功能。",
+  "s": [
+   {
+    "de": "Auf solche Weise entspringen gerade so viel reine Verstandesbegriffe, welche{np} a priori auf Gegenstände der{gf} Anschauung überhaupt gehen, als es{expl} in der{df} vorigen Tafel logische Funktionen in allen{dp} möglichen Urteilen gab: denn der{nm} Verstand ist durch gedachte Funktionen völlig erschöpft, und sein{nn} Vermögen dadurch gänzlich ausgemessen.",
+    "zh": "这样，先天地关系到一般直观对象的纯粹知性概念，恰好和上一张表中一切可能判断的逻辑功能一样多；因为知性被这些功能完全穷尽了，它的能力也由此被完全测定了。",
+    "n": [
+     "拆解：① Auf solche Weise entspringen gerade so viel reine Verstandesbegriffe, … als es in der vorigen Tafel logische Funktionen … gab（这样产生的纯粹知性概念恰好和上表中的逻辑功能一样多）：so viel … als …（和……一样多）。② 关系从句 welche a priori auf Gegenstände der Anschauung überhaupt gehen（先天地关系到一般直观对象的）。③ 冒号后 denn der Verstand ist durch gedachte Funktionen völlig erschöpft（因为知性被这些功能完全穷尽了）, und sein Vermögen dadurch gänzlich ausgemessen (ist)（它的能力也被完全测定了）。",
+     "der Verstandesbegriff：知性概念（Verstand + es + Begriff）。auf etw. gehen：关系到。",
+     "es gab：有（es gibt 的过去时）。die vorige Tafel：上一张表（判断表）。",
+     "gedacht：这里是「上述的」（旧义），不是「被思维的」。erschöpft：穷尽的。ausmessen：测量完。"
+    ]
+   },
+   {
+    "de": "Wir wollen diese{ap} Begriffe, nach dem{dm} Aristoteles Kategorien nennen, indem unsere{nf} Absicht uranfänglich mit der{df} seinigen zwar einerlei ist, ob sie{she} sich{refl} gleich davon in der{df} Ausführung gar sehr entfernt.",
+    "zh": "我们按照亚里士多德的说法，把这些概念叫作范畴，因为我们的意图本来和他的意图是一致的，尽管在实行中与之相去甚远。",
+    "n": [
+     "拆解：① Wir wollen diese Begriffe, nach dem Aristoteles, Kategorien nennen（我们要按亚里士多德把这些概念称为范畴）。② indem unsere Absicht uranfänglich mit der seinigen zwar einerlei ist（因为我们的意图本来和他的一致）。③ ob sie sich gleich davon in der Ausführung gar sehr entfernt（虽然在实行中与之相距甚远）。",
+     "nach dem Aristoteles：按照亚里士多德（人名前加冠词是旧用法）。etw. … nennen：称……为……。",
+     "die Kategorie：范畴。亚里士多德列出十个范畴（实体、量、质、关系、地点、时间……）；康德说他是「凑出来的」，自己的十二范畴则从判断表系统地推出。",
+     "der seinigen：他的（物主代词名词化，= seiner Absicht）。einerlei：一致的。ob … gleich：虽然（第 12 课）。sich von etw. entfernen：远离。",
+     "（康德的范畴表：量：单一性、多数性、全体性；质：实在性、否定性、限制性；关系：实体与偶性、因果、协同；模态：可能 / 不可能、存在 / 不存在、必然 / 偶然。）"
+    ]
+   },
+   {
+    "de": "Dieses{nn} ist nun die{nf} Verzeichnung aller{gp} ursprünglich reinen Begriffe der{gf} Synthesis, die{rel:ap} der{nm} Verstand a priori in sich{refl} enthält, und um derentwillen er auch nur ein{nm} reiner Verstand ist; indem er durch sie{them} allein etwas bei dem{dn} Mannigfaltigen der{gf} Anschauung verstehen, d.i. ein{an} Objekt derselben{gf} denken kann.",
+    "zh": "这就是知性先天地包含在自身中的一切本源的纯粹综合概念的清单；也正因为它们，知性才是纯粹知性；因为唯有通过它们，知性才能在直观的杂多中理解某种东西，即思维直观的一个客体。",
+    "n": [
+     "拆解：① Dieses ist nun die Verzeichnung aller ursprünglich reinen Begriffe der Synthesis（这就是一切本源的纯粹综合概念的清单）。② 关系从句 die der Verstand a priori in sich enthält（知性先天包含在自身中的）。③ und um derentwillen er auch nur ein reiner Verstand ist（也正是因为它们，知性才是纯粹知性）。④ indem er durch sie allein etwas bei dem Mannigfaltigen der Anschauung verstehen, d.i. ein Objekt derselben denken kann（因为唯有通过它们，知性才能理解杂多中的某物，即思维一个客体）。",
+     "die Verzeichnung：清单、列举。aller ursprünglich reinen Begriffe：一切本源纯粹概念的（ursprünglich 是副词，修饰 rein，不变格）。der Synthesis：综合的（阴性属格）。",
+     "die：关系代词，复数宾格（指 Begriffe，enthält 的宾语）。um derentwillen：为了它们的缘故（属格介词 um … willen，第 18 课）。",
+     "indem：因为、在于（第 12 课）。etwas bei … verstehen：在……中理解某物。verstehen 和 Verstand 同根：知性就是「理解」的能力。derselben = der Anschauung。"
+    ]
+   }
+  ]
+ },
+ {
+  "h": "三 · 权利问题",
+  "t": "Quid juris",
+  "k": "3",
+  "pg": "B 116–117",
+  "sum": "有了范畴表，问题就来了：这些不是从经验中来的概念，凭什么能用在经验对象上？这就是「先验演绎」要回答的问题。康德借用了法学的说法：",
+  "s": [
+   {
+    "de": "Die{np} Rechtslehrer, wenn sie{they} von Befugnissen und Anmaßungen reden, unterscheiden in einem{dm} Rechtshandel die{af} Frage über das{dem:an}, was Rechtens ist, (quid juris) von der{dem:df}, die{rel:nf} die{af} Tatsache angeht, (quid facti) und indem sie{they} von beiden Beweis fordern, so nennen sie{they} den{dem:am} ersteren, der{rel:nm} die{af} Befugnis, oder auch den{am} Rechtsanspruch dartun soll, die{af} Deduktion.",
+    "zh": "法学家谈到权限和僭越时，在一桩诉讼中区分关于什么是合法的问题（quid juris，权利问题）和关于事实的问题（quid facti，事实问题）；他们要求对两者都给出证明，而把前一种、即要证明权限或权利要求的证明，称为「演绎」。",
+    "n": [
+     "拆解：① 主语 Die Rechtslehrer（法学家们）+ 插入从句 wenn sie von Befugnissen und Anmaßungen reden（当他们谈到权限和僭越时）。② 主句 unterscheiden in einem Rechtshandel die Frage über das, was Rechtens ist, … von der, die die Tatsache angeht（在诉讼中区分「什么是合法的」这个问题和关于事实的问题）：etw. von etw. unterscheiden。③ indem sie von beiden Beweis fordern（因为他们要求两方面的证明）。④ 主句 so nennen sie den ersteren, der die Befugnis … dartun soll, die Deduktion（他们把前一种、要证明权限的证明，叫作演绎）。",
+     "der Rechtslehrer：法学家。die Befugnis：权限；die Anmaßung：僭越、非分的要求。der Rechtshandel：诉讼。",
+     "was Rechtens ist：什么是合法的（Rechtens 是固定的属格形式）。quid juris / quid facti：拉丁语「根据什么法？」/「事实如何？」。",
+     "von der, die die Tatsache angeht：关于事实的那个（问题）。der = der Frage（指示代词与格），die 是关系代词。etw. angehen：涉及。",
+     "den ersteren：前者（指 Beweis）。dartun：证明、表明。etw. … nennen：称……为……（第二个宾格 die Deduktion 是名称）。",
+     "「演绎」在这里不是逻辑学的「从一般推出特殊」，而是法律意义上的「证明权利」：证明我们有权把范畴用于对象。"
+    ]
+   }
+  ]
+ },
+ {
+  "h": "四 · 我思",
+  "t": "Das: Ich denke",
+  "k": "4",
+  "pg": "B 129–132",
+  "sum": "演绎从「联结」（Verbindung）开始（§15）：杂多本身的联结绝不能通过感官进入我们，它是知性自发性的行动。「我们不能表象任何在客体中联结起来的东西，除非我们自己先把它联结起来。」一切联结又预设一个更高的统一性。这个统一性在哪里？",
+  "s": [
+   {
+    "de": "Das{dem:nn}: Ich denke, muß alle{ap} meine{ap} Vorstellungen begleiten können; denn sonst würde etwas in mir vorgestellt werden, was garnicht gedacht werden könnte, welches{nn} ebensoviel heißt, als die{nf} Vorstellung würde entweder unmöglich, oder wenigstens für mich nichts sein.",
+    "zh": "「我思」必须能够伴随我的一切表象；否则就会有某种东西在我之中被表象，而它却根本不能被思维；这等于说，这个表象要么是不可能的，要么至少对我来说什么也不是。",
+    "n": [
+     "拆解：① 主语 Das: Ich denke（「我思」这个表象）→ muß alle meine Vorstellungen begleiten können（必须能够伴随我的一切表象）。② denn sonst würde etwas in mir vorgestellt werden（否则会有某种东西在我之中被表象）+ 关系从句 was garnicht gedacht werden könnte（它根本不能被思维）。③ welches ebensoviel heißt, als …（这等于说……）+ die Vorstellung würde entweder unmöglich, oder wenigstens für mich nichts sein（这个表象要么不可能，要么对我什么也不是）。",
+     "Das: Ich denke：「我思」这几个字本身被当作一个名词（中性），冒号是康德的写法。",
+     "muß … begleiten können：必须能够伴随。注意 können：不是说「我思」时时刻刻都伴随着，而是它必须「能够」伴随。",
+     "würde … vorgestellt werden：会被表象（虚拟式二的被动，第 17 课）。könnte：虚拟式二。garnicht = gar nicht。",
+     "welches ebensoviel heißt, als …：这等于说……（welches 指前面整句话）。als 后面是 V2 语序的虚拟句。",
+     "这就是「先验统觉」：一切表象之所以是「我的」表象，在于它们都能被同一个「我思」统一起来。"
+    ]
+   },
+   {
+    "de": "Diejenige{nf} Vorstellung, die{rel:nf} vor allem{dn} Denken gegeben sein kann, heißt Anschauung.",
+    "zh": "能够在一切思维之前被给予的那种表象，叫作直观。",
+    "n": [
+     "拆解：主语 Diejenige Vorstellung, die vor allem Denken gegeben sein kann（能在一切思维之前被给予的那种表象）→ heißt Anschauung（叫作直观）。",
+     "diejenige …, die …：……的那个（第 13 课）。vor allem Denken：在一切思维之前（allem：中性与格）。",
+     "gegeben sein kann：能够是被给予的（状态被动 + 情态）。"
+    ]
+   },
+   {
+    "de": "Also hat alles{nn} Mannigfaltige der{gf} Anschauung eine{af} notwendige Beziehung auf das{dem:an}: Ich denke, in demselben{dn} Subjekt, darin dieses{nn} Mannigfaltige angetroffen wird.",
+    "zh": "所以，直观的一切杂多，在它被发现于其中的同一个主体里，都与「我思」有一种必然的关系。",
+    "n": [
+     "拆解：Also hat alles Mannigfaltige der Anschauung eine notwendige Beziehung auf das: Ich denke（所以直观的一切杂多都必然关系到「我思」）+ in demselben Subjekt, darin dieses Mannigfaltige angetroffen wird（在这杂多所在的同一个主体中）。",
+     "alles Mannigfaltige：一切杂多（alles 后面形容词名词化用弱词尾 -e）。die Beziehung auf：与……的关系。",
+     "in demselben Subjekt：在同一个主体中。darin = worin（在其中，关系副词）。angetroffen wird：被发现（被动）。"
+    ]
+   },
+   {
+    "de": "Diese{nf} Vorstellung aber ist ein{nm} Aktus der{gf} Spontaneität, d.i. sie{she} kann nicht als zur Sinnlichkeit gehörig angesehen werden.",
+    "zh": "但这个表象是一个自发性的行动，也就是说，它不能被看作属于感性。",
+    "n": [
+     "拆解：Diese Vorstellung aber ist ein Aktus der Spontaneität（这个表象是自发性的行动）+ d.i. sie kann nicht als zur Sinnlichkeit gehörig angesehen werden（它不能被看作属于感性）。",
+     "der Aktus：行动（拉丁语 actus）。der Spontaneität：自发性的（属格）。",
+     "als … gehörig ansehen：看作属于……。angesehen werden：被看作（被动 + 情态动词 kann）。",
+     "康德把它叫作「纯粹统觉」或「本源的统觉」，它的统一性叫作「自我意识的先验统一」。"
+    ]
+   }
+  ]
+ },
+ {
+  "h": "五 · 知性为自然立法",
+  "t": "Gesetze a priori",
+  "k": "5",
+  "pg": "B 163–166",
+  "sum": "演绎的第二步（§§ 20–26）说明：直观中的杂多，只要要被我意识到，就必然从属于范畴；连我们在空间和时间中的一切知觉（「把握的综合」），也都从属于范畴。于是结论是：",
+  "s": [
+   {
+    "de": "Kategorien sind Begriffe, welche{np} den{dp} Erscheinungen, mithin der{df} Natur, als dem{dm} Inbegriffe aller{gp} Erscheinungen (natura materialiter spectata), Gesetze a priori vorschreiben, und nun fragt sich, da sie{they} nicht von der{df} Natur abgeleitet werden und sich{refl} nach ihr als ihrem{dn} Muster richten (weil sie{they} sonst bloß empirisch sein würden), wie es{expl} zu begreifen sei, daß die{nf} Natur sich{refl} nach ihnen richten müsse, d.i. wie sie{they} die{af} Verbindung des{gn} Mannigfaltigen der{gf} Natur, ohne sie{her} von dieser{df} abzunehmen, a priori bestimmen können.",
+    "zh": "范畴是这样一些概念：它们先天地给现象、因而给作为一切现象之总和的自然（质料上看的自然）规定法则。现在要问：既然范畴不是从自然中推导出来、不以自然为蓝本（否则它们就只是经验性的），那么，自然必须遵循范畴，这一点该怎样理解？也就是说，范畴怎么能不从自然中取得自然杂多的联结，却先天地规定这种联结？",
+    "n": [
+     "拆解：① Kategorien sind Begriffe, welche den Erscheinungen, mithin der Natur, … Gesetze a priori vorschreiben（范畴是先天地给现象、即给自然规定法则的概念）：vorschreiben 拆开，vor 在后面。② und nun fragt sich（现在要问）。③ 原因从句 da sie nicht von der Natur abgeleitet werden und sich nach ihr als ihrem Muster richten（既然它们不是从自然推出、也不以自然为样板）。④ 问题本身 wie es zu begreifen sei, daß die Natur sich nach ihnen richten müsse（自然必须遵循它们，这该怎样理解）。⑤ d.i. wie sie die Verbindung des Mannigfaltigen der Natur, ohne sie von dieser abzunehmen, a priori bestimmen können（即它们怎么能不从自然中取来，却先天地规定自然杂多的联结）。",
+     "jm etw. vorschreiben：给某人规定。den Erscheinungen, der Natur：与格（给谁规定）；Gesetze：宾格（规定什么）。",
+     "als dem Inbegriffe aller Erscheinungen：作为一切现象的总和。der Inbegriff：总和。拉丁语括号：质料上看的自然。",
+     "es fragt sich：要问（反身，无人称）。sich nach etw. richten：遵循、依照（序言里「哥白尼式的革命」用的正是这个动词）。",
+     "wie es zu begreifen sei：该怎样理解（sein + zu-不定式，sei：虚拟式一）。müsse、können：间接问句里的虚拟式 / 直陈式。",
+     "ohne sie von dieser abzunehmen：不从自然中取得它（sie = die Verbindung，dieser = der Natur）。ohne … zu：不……（第 19 课）。"
+    ]
+   },
+   {
+    "de": "Hier ist die{nf} Auflösung dieses{gn} Rätsels.",
+    "zh": "这里是这个谜的解答。",
+    "n": [
+     "das Rätsel：谜。dieses Rätsels：中性属格（-s）。"
+    ]
+   },
+   {
+    "de": "Denn Gesetze existieren ebensowenig in den{dp} Erscheinungen, sondern nur relativ auf das{an} Subjekt, dem{rel:dn} die{np} Erscheinungen inhärieren, sofern es{it} Verstand hat, als Erscheinungen nicht an sich existieren, sondern nur relativ auf dasselbe{an} Wesen, sofern es{it} Sinne hat.",
+    "zh": "因为，正如现象不是自在地存在、而只是相对于具有感官的那个存在者而存在一样，法则也不存在于现象之中，而只是相对于现象所依附的那个主体、就它具有知性而言才存在。",
+    "n": [
+     "拆解：一个大比较 ebensowenig … als …（正如……不……一样，……也不……）。① 前半：Gesetze existieren ebensowenig in den Erscheinungen, sondern nur relativ auf das Subjekt, dem die Erscheinungen inhärieren, sofern es Verstand hat（法则不在现象之中，而只相对于现象所依附的、有知性的主体）。② 后半：als Erscheinungen nicht an sich existieren, sondern nur relativ auf dasselbe Wesen, sofern es Sinne hat（正如现象不自在存在，而只相对于同一个有感官的存在者）。",
+     "ebensowenig … als …：和……一样不……。这种比较句的两半要对齐读：法则之于知性 = 现象之于感官。",
+     "relativ auf：相对于。dem die Erscheinungen inhärieren：现象依附于它（inhärieren + 与格：内在于、依附于）。",
+     "sofern es Verstand hat：就它有知性而言。es = das Subjekt。dasselbe Wesen：同一个存在者。",
+     "这就是那句常被概括为「知性为自然立法」的思想：自然的法则性来自我们的知性，正如现象的空间时间形式来自我们的感性。"
+    ]
+   },
+   {
+    "de": "Allein Erscheinungen sind nur Vorstellungen von Dingen, die{rel:np}, nach dem{dem:dn}, was sie{they} an sich sein mögen, unerkannt da sind.",
+    "zh": "然而，现象只是事物的表象，而这些事物就它们自身可能是什么而言，始终未被认识。",
+    "n": [
+     "拆解：Allein Erscheinungen sind nur Vorstellungen von Dingen（现象只是事物的表象）+ 关系从句 die, nach dem, was sie an sich sein mögen, unerkannt da sind（这些事物就其自身可能是什么而言，是未被认识的）。",
+     "allein：然而（连词，书面语）。",
+     "nach dem, was sie an sich sein mögen：就它们自身可能是的样子而言。mögen：表示推测（第 10 课）。",
+     "unerkannt da sein：在那里却未被认识。物自身存在，但不被认识：这和感性论的结论一致。"
+    ]
+   }
+  ]
+ },
+ {
+  "h": "六 · 结论",
+  "t": "Resultat dieser Deduktion",
+  "k": "6",
+  "pg": "B 165–166",
+  "sum": "§ 27 是演绎的结论：",
+  "s": [
+   {
+    "de": "Wir können uns{refl} keinen{am} Gegenstand denken, ohne durch Kategorien; wir können keinen{am} gedachten Gegenstand erkennen, ohne durch Anschauungen, die{rel:np} jenen{dp} Begriffen entsprechen.",
+    "zh": "没有范畴，我们就不能思维任何对象；没有与那些概念相应的直观，我们就不能认识任何被思维的对象。",
+    "n": [
+     "拆解：分号前后两句平行。① Wir können uns keinen Gegenstand denken, ohne durch Kategorien（没有范畴就不能思维对象）。② wir können keinen gedachten Gegenstand erkennen, ohne durch Anschauungen, die jenen Begriffen entsprechen（没有与之相应的直观就不能认识被思维的对象）。",
+     "sich etw. denken：设想、思维（与格 sich）。ohne durch …：不通过……。",
+     "denken（思维）和 erkennen（认识）的区别是康德的核心：思维只需要范畴，认识还需要直观。所以上帝、自由可以被思维，却不能被认识。",
+     "jm entsprechen：与……相应（与格 jenen Begriffen）。"
+    ]
+   },
+   {
+    "de": "Nun sind alle{np} unsere{np} Anschauungen sinnlich, und diese{nf} Erkenntnis, sofern der{nm} Gegenstand derselben{gf} gegeben ist, ist empirisch.",
+    "zh": "而我们的一切直观都是感性的；这种知识，就其对象被给予而言，是经验性的。",
+    "n": [
+     "拆解：Nun sind alle unsere Anschauungen sinnlich（我们的一切直观都是感性的）+ und diese Erkenntnis, sofern der Gegenstand derselben gegeben ist, ist empirisch（这种知识就其对象被给予而言是经验性的）。",
+     "alle unsere：两个限定词连用（复数主格）。sofern：就……而言。derselben = dieser Erkenntnis。"
+    ]
+   },
+   {
+    "de": "Empirische Erkenntnis aber ist Erfahrung.",
+    "zh": "而经验性的知识就是经验。",
+    "n": [
+     "Empirische Erkenntnis：没有冠词的阴性主格（形容词 -e）。Erfahrung：经验。这是一个三段论的小前提。"
+    ]
+   },
+   {
+    "de": "Folglich ist uns keine{nf} Erkenntnis a priori möglich, als lediglich von Gegenständen möglicher Erfahrung.",
+    "zh": "因此，除了关于可能经验之对象的先天知识以外，我们不可能有任何先天知识。",
+    "n": [
+     "拆解：Folglich ist uns keine Erkenntnis a priori möglich（因此我们不可能有先天知识）+ als lediglich von Gegenständen möglicher Erfahrung（除了关于可能经验对象的）。",
+     "folglich：因此（连接副词，第一位）。keine … als …：除了……没有。",
+     "möglicher Erfahrung：可能经验的（没有冠词，属格，强词尾 -er，第 14、18 课）。原文这里有一个脚注记号（*）。",
+     "这是全书的转折点：先天知识是可能的，但只对可能经验的对象有效。超出经验的理念（上帝、灵魂、世界整体）就不能被认识。第 6 章的「岛」就是这个界限的图像。"
+    ]
+   }
+  ]
+ }
+]
