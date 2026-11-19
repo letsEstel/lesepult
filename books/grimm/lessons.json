@@ -859,5 +859,103 @@
     "why": "wäre：sein 的虚拟式二；gekommen wäre = 来过了（转述）。"
    }
   ]
+ },
+ {
+  "id": "r024",
+  "ch": "k024",
+  "t": "读后练习：《霍勒太太》",
+  "de": "Frau Holle",
+  "min": 20,
+  "html": "<p>先回答内容题，再做语法题，复习第 19 课（zu-不定式）和第 20 课（代副词）。</p>\n<h4>一、读懂了吗</h4>\n{{quiz:s1}}\n<h4>二、语法回顾</h4>\n{{quiz:s2}}\n<h4>三、两个姑娘，同一条路</h4>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th></th><th>勤快的姑娘</th><th>懒姑娘</th></tr></thead><tbody>\n<tr><td>面包</td><td>holte … alles nach einander heraus</td><td>da hätt ich Lust mich schmutzig zu machen</td></tr>\n<tr><td>苹果树</td><td>schüttelte den Baum</td><td>es könnte mir einer auf den Kopf fallen</td></tr>\n<tr><td>霍勒太太的床</td><td>schüttelte ihr das Bett immer gewaltig auf</td><td>schüttelte es nicht</td></tr>\n<tr><td>大门下</td><td>ein gewaltiger Goldregen</td><td>ein großer Kessel voll Pech</td></tr>\n<tr><td>公鸡</td><td>unsere goldene Jungfrau</td><td>unsere schmutzige Jungfrau</td></tr>\n</tbody></table></div>\n<p><button class=\"btn\" data-route=\"grimm~ch-k024\">回到原文</button></p>",
+  "quiz": [
+   {
+    "id": "q024a",
+    "sec": "s1",
+    "de": "weil sie ihre rechte Tochter war",
+    "opts": [
+     "丑而懒的是寡妇的亲生女儿",
+     "勤快的是亲生女儿"
+    ],
+    "ans": 0,
+    "why": "所以寡妇偏爱懒的那个，勤快的继女干所有的活。"
+   },
+   {
+    "id": "q024b",
+    "sec": "s1",
+    "de": "und in seiner Herzensangst sprang es in den Brunnen hinein, um die Spule zu holen",
+    "opts": [
+     "她害怕继母，跳进井里去捞纺锤",
+     "她不小心掉进了井里"
+    ],
+    "ans": 0,
+    "why": "继母逼她把纺锤捞上来，她害怕就跳了下去。"
+   },
+   {
+    "id": "q024c",
+    "sec": "s1",
+    "de": "daß die Federn fliegen, dann schneit es in der Welt",
+    "opts": [
+     "霍勒太太抖被子，人间就下雪",
+     "霍勒太太下雪时抖被子"
+    ],
+    "ans": 0,
+    "why": "羽毛飞起来，人间就下雪。"
+   },
+   {
+    "id": "q024d",
+    "sec": "s1",
+    "de": "endlich merkte es daß es Heimweh war",
+    "opts": [
+     "她想家了",
+     "她生病了"
+    ],
+    "ans": 0,
+    "why": "das Heimweh：思乡。"
+   },
+   {
+    "id": "q024e",
+    "sec": "s1",
+    "de": "ward statt des Goldes ein großer Kessel voll Pech ausgeschüttet",
+    "opts": [
+     "懒姑娘得到的是沥青而不是金子",
+     "懒姑娘也得到了金子"
+    ],
+    "ans": 0,
+    "why": "statt des Goldes：不是金子。"
+   },
+   {
+    "id": "q024f",
+    "sec": "s2",
+    "de": "um die Spule zu <<holen>>",
+    "opts": [
+     "um … zu：为了",
+     "介词 zu"
+    ],
+    "ans": 0,
+    "why": "目的。"
+   },
+   {
+    "id": "q024g",
+    "sec": "s2",
+    "de": "<<dafür>> hatte es auch ein gut Leben bei ihr",
+    "opts": [
+     "作为回报（= für das）",
+     "为了"
+    ],
+    "ans": 0,
+    "why": "dafür 指前面她勤快干活这件事。"
+   },
+   {
+    "id": "q024h",
+    "sec": "s2",
+    "de": "so daß es über und über <<davon>> bedeckt war",
+    "opts": [
+     "被它（金子）",
+     "关于这个"
+    ],
+    "ans": 0,
+    "why": "davon = von dem Gold。"
+   }
+  ]
  }
 ]

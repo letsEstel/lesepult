@@ -1568,5 +1568,166 @@
     "why": "seines Wegs gehen：走自己的路。Weg + s。"
    }
   ]
+ },
+ {
+  "id": "zuinf",
+  "t": "zu-不定式",
+  "de": "Der Infinitiv mit zu",
+  "min": 90,
+  "html": "<p>德语的不定式有两种：不带 zu 的（在情态动词、werden、lassen 后面）和带 zu 的。带 zu 的不定式（zu-不定式）在书面语里极多：康德的一个长句里常有两三个。它相当于一个省掉了主语的从句，翻译时常译成「去……」「……的」「为了……」。这一课讲 zu-不定式的形式、它挂在哪些词后面，以及什么时候不用 zu。</p>\n\n<h4>一、形式</h4>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>动词类型</th><th>zu-不定式</th><th>读本里</th></tr></thead><tbody>\n<tr><td>普通动词</td><td>zu + 不定式</td><td>[[um die{af} Spule zu holen]] · [[fiengen endlich an zu weinen]]</td></tr>\n<tr><td>可分动词</td><td>前缀 + zu + 动词（写成一个词）</td><td>[[ein{an} Licht anzuzünden]]（an-zu-zünden）· aufzuschneiden · fertigzumachen</td></tr>\n<tr><td>反身动词</td><td>sich … zu + 不定式</td><td>[[Lust mich schmutzig zu machen]]</td></tr>\n<tr><td>完成 / 被动</td><td>分词 + zu haben / zu werden</td><td><i>gesehen zu haben</i>（看过）· <i>gefressen zu werden</i>（被吃掉）</td></tr>\n</tbody></table></div>\n<div class=\"tip\">可分动词的 zu 插在中间，所以 anzuzünden、aufzuschneiden 要拆开看：an + zu + zünden。1857 年有时还分开写：[[um die{ap} Räuber hinaus zu jagen]]。</div>\n\n<h4>二、zu-不定式挂在什么后面</h4>\n<p>zu-不定式总是补充前面某个词的意思。读的时候先找到它挂在哪里：</p>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>挂在</th><th>常见的词</th><th>读本里</th></tr></thead><tbody>\n<tr><td>动词后</td><td>anfangen（开始）· vergessen（忘记）· suchen（设法）· versuchen · scheinen（似乎）· glauben · pflegen（惯于）· vermögen（能够）· hoffen</td><td>[[am zweiten Tag aber fieng sie{she} schon an zu faullenzen]] · [[vergiß nicht guten Morgen zu sagen]]</td></tr>\n<tr><td>名词后</td><td>Lust（兴致）· Zeit · Mut（勇气）· Fähigkeit（能力）· Recht（权利）</td><td>[[da hätt ich Lust mich schmutzig zu machen]]</td></tr>\n<tr><td>etwas / nichts 后</td><td>有东西可……</td><td>[[gib mir etwas zu essen]] · [[sie{they} hatten nichts mehr zu essen]]</td></tr>\n<tr><td>形容词 + es</td><td>es ist notwendig / leicht / schwer, … zu</td><td>康德：<i>es ist ebenso notwendig, seine Begriffe sinnlich zu machen</i></td></tr>\n</tbody></table></div>\n\n<h4>三、um … zu、ohne … zu、statt … zu</h4>\n<p>三个介词引出整个 zu-不定式短语，意思很固定：</p>\n<ul>\n<li><b>um … zu</b>：为了……（目的）：[[sprang es{child} in den{am} Brunnen hinein, um die{af} Spule zu holen]]。</li>\n<li><b>ohne … zu</b>：不……（就）、没有……：[[er gieng, ohne ein{an} Wort zu sprechen, gerade zum Bett der{gf} Großmutter]]。</li>\n<li><b>(an)statt … zu</b>：不……而……：<i>statt zu arbeiten, schlief sie</i>：她不干活，却睡觉。</li>\n</ul>\n<p>没有 um 的 zu-不定式有时也表示目的：[[gieng in die{af} Küche, ein{an} Licht anzuzünden]]：进厨房去点灯。</p>\n\n<h4>四、es 预指 zu-不定式</h4>\n<p>第 11 课讲过预指的 es：zu-不定式是真正的主语，es 先占位。康德极常用：</p>\n<ul>\n<li><i>Es ist aber ein gewöhnliches Schicksal der menschlichen Vernunft …, ihr Gebäude so früh, wie möglich, fertigzumachen</i>：人类理性常有的命运是：尽早把大厦建好。</li>\n</ul>\n<p>动词也可以用 da- 预指 zu-不定式（第 20 课）：[[Da dachte der{nm} Herr daran, ihn aus dem{dn} Futter zu schaffen]]：主人打算不再喂它。</p>\n\n<h4>五、sein / haben + zu</h4>\n<p>两个特别的组合（第 25 课细讲）：</p>\n<ul>\n<li><b>sein + zu = 能被 / 应被</b>：[[aber nirgend waren sie{they} zu finden]]（哪儿也找不到）· [[und sie{she} wäre noch zu retten]]（还能救）。</li>\n<li><b>haben + zu = 必须</b>：<i>du hast zu gehorchen</i>：你必须服从。</li>\n</ul>\n\n<h4>六、什么时候不用 zu</h4>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>在……后面</th><th>读本里</th></tr></thead><tbody>\n<tr><td>情态动词</td><td>[[mußte ein{nm} armer Junge hinausgehen]]</td></tr>\n<tr><td>werden（将来）</td><td>[[dann werden wir erfahren]]</td></tr>\n<tr><td>lassen</td><td>[[und ließ es{child} krank werden]]</td></tr>\n<tr><td>sehen、hören、fühlen</td><td>[[da sah er das{an} rothe Käppchen leuchten]]</td></tr>\n<tr><td>finden、bleiben、gehen</td><td>[[fand er einen{am} Jagdhund auf dem{dm} Wege liegen]] · [[blieb an ihm hängen]]</td></tr>\n</tbody></table></div>\n\n<h4>七、zu 是介词还是不定式符号？</h4>\n<p>zu 还是一个常用介词（到……，+ 与格）。分辨：介词 zu 后面跟冠词或名词（zu dem Brunnen、zur Mutter、zum Bett）；不定式的 zu 后面跟小写的动词不定式，而且常在短语末尾。</p>\n\n<h4>八、反推方法</h4>\n<ol>\n<li>在一段的末尾看到「zu + 动词」或「…zu…」形式（anzuzünden），就是 zu-不定式。</li>\n<li>往前找它挂在哪里：um / ohne / statt？某个动词（anfangen）、名词（Lust）、形容词（notwendig）？一个预指的 es 或 da-？</li>\n<li>把它译成「去……」「……的」「为了……」，挂在找到的词上。</li>\n<li>zu-不定式里没有主语：它的主语通常就是主句的主语（um … zu 一定是），或者是泛指的「人」。</li>\n</ol>\n\n<h4>九、马上练</h4>\n{{quiz:s1}}\n\n<h4>十、小结</h4>\n<ul>\n<li>zu + 不定式；可分动词 an-zu-zünden。</li>\n<li>挂在动词（anfangen、vergessen）、名词（Lust）、etwas / nichts、形容词 + es 后面。</li>\n<li>um … zu 为了；ohne … zu 不……；statt … zu 不……而……。</li>\n<li>sein + zu 能被；haben + zu 必须。</li>\n<li>情态动词、werden、lassen、感官动词后面不用 zu。</li>\n</ul>\n\n<h4>十一、读一读</h4>\n<p>第 19、20 课学完后读《霍勒太太》。</p>\n<p><button class=\"btn\" data-route=\"grimm~ch-k024\">读一读：《霍勒太太》</button></p>",
+  "quiz": [
+   {
+    "id": "zi1",
+    "sec": "s1",
+    "de": "sprang es in den Brunnen hinein, um die Spule zu <<holen>>",
+    "opts": [
+     "um … zu：为了取回纺锤",
+     "介词 zu"
+    ],
+    "ans": 0,
+    "why": "um … zu 表示目的。"
+   },
+   {
+    "id": "zi2",
+    "sec": "s1",
+    "de": "gieng in die Küche, ein Licht <<anzuzünden>>",
+    "opts": [
+     "anzünden 的 zu-不定式：去点灯",
+     "介词"
+    ],
+    "ans": 0,
+    "why": "可分动词 anzünden：an-zu-zünden。这里表示目的。"
+   },
+   {
+    "id": "zi3",
+    "sec": "s1",
+    "de": "da hätt ich Lust mich schmutzig zu <<machen>>",
+    "opts": [
+     "挂在名词 Lust 后：把自己弄脏的兴致",
+     "挂在 hätt 后"
+    ],
+    "ans": 0,
+    "why": "Lust haben, … zu …：有兴致做……。"
+   },
+   {
+    "id": "zi4",
+    "sec": "s1",
+    "de": "ohne ein Wort zu <<sprechen>>",
+    "opts": [
+     "ohne … zu：一句话不说",
+     "为了说话"
+    ],
+    "ans": 0,
+    "why": "ohne … zu：不……就……。"
+   },
+   {
+    "id": "zi5",
+    "sec": "s1",
+    "de": "aber nirgend waren sie zu <<finden>>",
+    "opts": [
+     "sein + zu：能被找到",
+     "将来时"
+    ],
+    "ans": 0,
+    "why": "waren … zu finden = konnten gefunden werden。"
+   },
+   {
+    "id": "zi6",
+    "sec": "s1",
+    "de": "und ließ es krank <<werden>>",
+    "opts": [
+     "lassen 后不用 zu",
+     "zu-不定式"
+    ],
+    "ans": 0,
+    "why": "lassen + 不带 zu 的不定式：让它生病。"
+   },
+   {
+    "id": "zi7",
+    "sec": "s1",
+    "de": "fieng sie schon an <<zu>> faullenzen",
+    "opts": [
+     "不定式符号，挂在 anfangen 上",
+     "介词「到」"
+    ],
+    "ans": 0,
+    "why": "zu 后面是小写动词 faullenzen：anfangen zu …：开始偷懒。"
+   }
+  ]
+ },
+ {
+  "id": "dawo",
+  "t": "da- / wo- 代副词",
+  "de": "Pronominaladverbien",
+  "min": 80,
+  "html": "<p>damit、davon、daraus、darunter、worauf、womit……这些词由 da- 或 wo- 加上一个介词组成，叫「代副词」。童话里它们代替「介词 + 它」；康德的句子里，它们还常常预告后面的一个从句或 zu-不定式：<i>dadurch, daß …</i>、<i>daran, … zu …</i>。读不懂它们，长句的骨架就会断。这一课讲清楚它们的构成和三种用法。</p>\n\n<h4>一、构成：da(r)- / wo(r)- + 介词</h4>\n<p>介词以元音开头时，中间加 r：da + aus → da<b>r</b>aus；wo + auf → wo<b>r</b>auf。</p>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>介词</th><th>da-</th><th>wo-</th><th>读本里</th></tr></thead><tbody>\n<tr><td>mit</td><td>damit</td><td>womit</td><td>[[da bückte es{child} sich{refl} damit in den{am} Brunnen]] · [[womit ich ihn bedecken kann]]</td></tr>\n<tr><td>aus</td><td>daraus</td><td>woraus</td><td>[[daraus mußte er nun essen]]</td></tr>\n<tr><td>von</td><td>davon</td><td>wovon</td><td>[[davon war die{nf} eine schön und fleißig]]</td></tr>\n<tr><td>für</td><td>dafür</td><td>wofür</td><td>[[dafür hatte es{child} auch ein{an} gut Leben bei ihr]]</td></tr>\n<tr><td>unter</td><td>darunter</td><td>worunter</td><td>[[wie das{nn} Mädchen gerade darunter stand]]</td></tr>\n<tr><td>an</td><td>daran</td><td>woran</td><td>[[Räuber sitzen daran]]</td></tr>\n<tr><td>in</td><td>darin</td><td>worin</td><td>[[daß der{nm} Wolf darin lag]] · [[worin sie{they} gekocht sind]]</td></tr>\n<tr><td>auf</td><td>darauf</td><td>worauf</td><td>[[gab ihr die{af} Hand darauf]] · <i>worauf sich der Verstand stützt</i></td></tr>\n<tr><td>über</td><td>darüber</td><td>worüber</td><td>[[frische Erde darüber thaten]]</td></tr>\n<tr><td>zu</td><td>dazu</td><td>wozu</td><td>[[müßte auch das{nn} Schloß dazu sein]]</td></tr>\n<tr><td>nach</td><td>danach / darnach</td><td>wonach</td><td>[[und lief darnach]]</td></tr>\n</tbody></table></div>\n<p>旧写法和口语里还有缩短的形式：dran = daran（[[etwas Fleisch dran]]），drauf = darauf，drin = darin。</p>\n\n<h4>二、用法一：代替「介词 + 它 / 它们」</h4>\n<p>介词后面要说「它」（指东西，不指人）时，德语不说 mit ihr、aus ihm，而说 damit、daraus：</p>\n<ul>\n<li>[[da bückte es{child} sich{refl} damit in den{am} Brunnen]]：damit = mit der Spule（拿着纺锤）。</li>\n<li>[[daraus mußte er nun essen]]：daraus = aus dem Schüsselchen（用那个木碗）。</li>\n<li>[[so daß es{child} über und über davon bedeckt war]]：davon = von dem Gold（被金子）。</li>\n</ul>\n<p>翻译时把 da- 换成它所指的东西：「拿着它」「用它」「被它」。指人时仍用介词 + 代词：mit ihm（和他）、bei ihr（在她那里）。</p>\n\n<h4>三、用法二：预告后面的从句或 zu-不定式</h4>\n<p>很多动词、形容词有固定的介词（denken an、bestehen in、sich freuen über）。当这个介词的内容是一整句话时，就先用 da(r)- + 介词占位，后面再接 daß-从句或 zu-不定式：</p>\n<ul>\n<li>[[Da dachte der{nm} Herr daran, ihn aus dem{dn} Futter zu schaffen]]：an etw. denken → daran, … zu …（主人想着要……）。</li>\n<li>康德：<i>Nur daraus, daß sie sich vereinigen, kann Erkenntnis entspringen</i>：只有从它们的结合中……（aus etw. entspringen → daraus, daß …）。</li>\n<li>康德：<i>dadurch, daß ich mir bloß jene Vereinigung von Sieben und Fünf denke</i>：通过我只想到七和五的结合这一点。</li>\n</ul>\n<div class=\"tip\">读法：看到 daran、darauf、dadurch 后面紧跟逗号和 daß / zu，就知道 da- 只是占位，真正的内容在后面的从句里。翻译时把从句的内容放到 da- 的位置上。</div>\n\n<h4>四、用法三：wo(r)- 引出问句和关系从句</h4>\n<ul>\n<li>问句：[[aber womit soll ich nun mein{an} Brot verdienen?]]：我靠什么糊口呢？</li>\n<li>关系从句（第 13 课）：[[schenk mir etwas, womit ich ihn bedecken kann]]；[[da trag das{an} Wasser, worin sie{they} gekocht sind, in den{am} Trog]]。</li>\n</ul>\n\n<h4>五、几个容易混淆的词</h4>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>词</th><th>代副词</th><th>另一种身份</th><th>分辨</th></tr></thead><tbody>\n<tr><td>damit</td><td>用它：[[damit füllten sie{they} dem{dm} Wolf den{am} Leib]]</td><td>连词「为了」：[[damit ihre{nf} Spule blutig ward]]</td><td>后面紧跟动词 → 代副词；动词在末尾 → 连词</td></tr>\n<tr><td>da</td><td>（da- 只是前半）</td><td>于是 / 那里 / 既然（第 12 课）</td><td>单独的 da 不是代副词</td></tr>\n<tr><td>darauf</td><td>在上面：[[gab ihr die{af} Hand darauf]]</td><td>然后：[[Darauf ward das{nn} Thor verschlossen]]</td><td>看意思：时间还是位置</td></tr>\n<tr><td>dazu</td><td>与之配套：[[das{nn} Schloß dazu]]</td><td>而且：[[noch dazu nicht einmal satt]]</td><td>看上下文</td></tr>\n</tbody></table></div>\n\n<h4>六、反推方法</h4>\n<ol>\n<li>看到 da(r)- / wo(r)- + 介词：先拆开，da- = 「它 / 那件事」，wo- = 「什么 / 那个」。</li>\n<li>往前找 da- 指的东西（一个名词或前一句话）；或往后看有没有 daß / zu，有就是预告。</li>\n<li>wo- 在句首带问号 → 问句；在逗号后、动词在末尾 → 关系从句。</li>\n</ol>\n\n<h4>七、马上练</h4>\n{{quiz:s1}}\n\n<h4>八、小结</h4>\n<ul>\n<li>da(r)- / wo(r)- + 介词：damit、daraus、darin、womit、worauf……</li>\n<li>代替「介词 + 它」（只指东西）。</li>\n<li>da(r)- + 介词常预告后面的 daß-从句或 zu-不定式。</li>\n<li>wo(r)- 引出问句或关系从句。</li>\n<li>damit：动词紧跟 = 用它；动词在末尾 = 为了。</li>\n</ul>\n\n<h4>九、读一读</h4>\n<p>《霍勒太太》约 1100 词，分六部分。读的时候把每个 da- 代副词换回「介词 + 它」，说出它指什么。</p>\n<p><button class=\"btn\" data-route=\"grimm~ch-k024\">读一读：《霍勒太太》</button> <button class=\"btn\" data-route=\"grimm~intro-9\">读后练习</button></p>",
+  "quiz": [
+   {
+    "id": "dw1",
+    "sec": "s1",
+    "de": "da bückte es sich <<damit>> in den Brunnen",
+    "opts": [
+     "代副词：拿着它（纺锤）",
+     "连词：为了"
+    ],
+    "ans": 0,
+    "why": "damit 后面没有从句，指前面的 die Spule：mit der Spule。"
+   },
+   {
+    "id": "dw2",
+    "sec": "s1",
+    "de": "und <<damit>> ihre Spule blutig ward",
+    "opts": [
+     "连词：为了让……",
+     "代副词：用它"
+    ],
+    "ans": 0,
+    "why": "动词 ward 在末尾：damit 是从属连词「为了」。"
+   },
+   {
+    "id": "dw3",
+    "sec": "s1",
+    "de": "Da dachte der Herr <<daran>>, ihn aus dem Futter zu schaffen",
+    "opts": [
+     "预告后面的 zu-不定式：想着要……",
+     "在它上面"
+    ],
+    "ans": 0,
+    "why": "an etw. denken；daran 预告后面的 zu-不定式。"
+   },
+   {
+    "id": "dw4",
+    "sec": "s1",
+    "de": "wie das Mädchen gerade <<darunter>> stand",
+    "opts": [
+     "在它下面（= unter dem Thor）",
+     "在它们中间"
+    ],
+    "ans": 0,
+    "why": "darunter 指前面的大门：站在门下。"
+   },
+   {
+    "id": "dw5",
+    "sec": "s1",
+    "de": "aber <<womit>> soll ich nun mein Brot verdienen?",
+    "opts": [
+     "疑问：用什么？",
+     "关系：用来……的"
+    ],
+    "ans": 0,
+    "why": "句首、带问号：问句「靠什么」。"
+   },
+   {
+    "id": "dw6",
+    "sec": "s1",
+    "de": "<<davon>> war die eine schön und fleißig",
+    "opts": [
+     "其中（= von ihnen）",
+     "关于这个"
+    ],
+    "ans": 0,
+    "why": "davon 指前面的 zwei Töchter：其中一个。"
+   }
+  ]
  }
 ]
