@@ -258,5 +258,70 @@
     "why": "「虽然意识到是艺术」。"
    }
   ]
+ },
+ {
+  "id": "y1",
+  "ch": "y",
+  "t": "美是德性的象征",
+  "de": "Dialektik des Geschmacks",
+  "min": 25,
+  "html": "<p>美和道德有什么关系？康德不说美就是善，也不说艺术要宣扬道德。他说：美是德性的<b>象征</b>。这一章先解决鉴赏的二律背反，再说明这种象征关系。</p>\n<h4>一、鉴赏的二律背反</h4>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th></th><th>正题</th><th>反题</th></tr></thead><tbody>\n<tr><th>主张</th><td>鉴赏判断不以概念为根据</td><td>鉴赏判断以概念为根据</td></tr>\n<tr><th>理由</th><td>否则就能用证明来裁决（disputieren）</td><td>否则就连争执（streiten）都不可能</td></tr>\n<tr><th>解决</th><td>不以「确定的」知性概念为根据</td><td>以「不确定的」概念为根据：超感性的东西</td></tr>\n</tbody></table></div>\n<p>和第一批判的第三组二律背反一样：两边说的不是同一个层面，所以都可以真。</p>\n<h4>二、例子、图型、象征</h4>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>概念</th><th>它的直观</th><th>例</th></tr></thead><tbody>\n<tr><td>经验概念</td><td>例子</td><td>「狗」→ 这条狗</td></tr>\n<tr><td>知性概念（范畴）</td><td>图型（直接的）</td><td>「实体」→ 时间中的持存</td></tr>\n<tr><td>理性的理念</td><td>象征（间接的，按类比）</td><td>专制国家 → 手推磨</td></tr>\n</tbody></table></div>\n<h4>三、美与德性的四个类比</h4>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th></th><th>美</th><th>德性</th></tr></thead><tbody>\n<tr><td>1</td><td>直接令人喜欢（在反思的直观中）</td><td>直接令人喜欢（在概念中）</td></tr>\n<tr><td>2</td><td>不带利害</td><td>带着利害，但利害是由道德判断引起的，不在它之前</td></tr>\n<tr><td>3</td><td>想象力的自由与知性的合规律相一致</td><td>意志的自由与理性的法则相一致</td></tr>\n<tr><td>4</td><td>要求普遍有效，却不凭概念</td><td>普遍有效，凭概念</td></tr>\n</tbody></table></div>\n[[Nun sage ich: das Schöne ist das Symbol des Sittlich-Guten]]\n<h4>四、鉴赏是道德的预备</h4>\n<p>我们说树「庄严」，原野「欢笑」，颜色「天真」「谦逊」：日常语言早就感到了美与德性的类比。鉴赏教人在没有感官魅力时也能自由地喜欢，于是让人从感官享受走向道德兴趣，「不必有过于猛烈的跳跃」。这就是导言所寻找的桥梁的一种形态。</p>\n<h4>五、语法小结</h4>\n<ul>\n<li><b>ließe sich</b>：sich lassen 的虚拟式二（就能被……，第 25 课）。</li>\n<li><b>zwar …, wohl aber</b>：固然不……，却……。</li>\n<li><b>etwas + 名词化形容词</b>：etwas … Analogisches（第 26 课）。</li>\n<li><b>属格前置</b>：jedes andern Beistimmung · anderer Wert（别人的价值）。</li>\n</ul>\n{{quiz:s1}}",
+  "quiz": [
+   {
+    "id": "y1a",
+    "sec": "s1",
+    "de": "Thesis. Das Geschmacksurteil gründet sich nicht auf Begriffen; denn sonst ließe sich darüber <<disputieren>>",
+    "opts": [
+     "否则就能用证明来裁决",
+     "否则就不能争执"
+    ],
+    "ans": 0,
+    "why": "disputieren（证明）与 streiten（要求同意）不同。"
+   },
+   {
+    "id": "y1b",
+    "sec": "s1",
+    "de": "Denn zwischen einem despotischen Staate und einer <<Handmühle>> ist zwar keine Ähnlichkeit",
+    "opts": [
+     "相似的是我们反思它们的规则",
+     "专制国家和手推磨本身相似"
+    ],
+    "ans": 0,
+    "why": "象征是按类比的间接表现。"
+   },
+   {
+    "id": "y1c",
+    "sec": "s1",
+    "de": "Nun sage ich: das Schöne ist das <<Symbol>> des Sittlich-Guten",
+    "opts": [
+     "美是德性的象征",
+     "美就是德性"
+    ],
+    "ans": 0,
+    "why": "不是等同，而是类比。"
+   },
+   {
+    "id": "y1d",
+    "sec": "s1",
+    "de": "Wir nennen Gebäude oder Bäume majestätisch und prächtig, oder Gefilde <<lachend>> und fröhlich",
+    "opts": [
+     "日常语言用道德词形容美",
+     "这些词只是修辞，没有意义"
+    ],
+    "ans": 0,
+    "why": "语言反映了美与德性的类比。"
+   },
+   {
+    "id": "y1e",
+    "sec": "s1",
+    "de": "Der Geschmack macht gleichsam den <<Übergang>> vom Sinnenreiz zum habituellen moralischen Interesse … möglich",
+    "opts": [
+     "鉴赏是从感官到道德的桥梁",
+     "鉴赏取代道德"
+    ],
+    "ans": 0,
+    "why": "「不必有过于猛烈的跳跃」。"
+   }
+  ]
  }
 ]
