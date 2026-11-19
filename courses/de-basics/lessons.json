@@ -2066,7 +2066,7 @@
   "t": "构词（一）：后缀与名词化",
   "de": "Wortbildung: Suffixe",
   "min": 80,
-  "html": "<p>到这里，语法的大框架已经学完了。剩下的难点主要是<b>词</b>：康德书里满是 <i>Hoffnungslosigkeit</i>、<i>Unbegreiflichkeit</i>、<i>Sinnlichkeit</i> 这样的长词，词典里不一定都有。好消息是：德语造词非常规则，一个词根加上前缀、后缀，就能生出一整家子词。这一课学后缀和名词化，下一课学复合词。学会了，你就能自己「拆」出生词的意思。</p>\n\n<h4>一、一个词根，一家子词</h4>\n<p>看一个康德第 8 章里的词怎么一层层长出来：</p>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>词</th><th>怎么来的</th><th>词性</th><th>意思</th></tr></thead><tbody>\n<tr><td>hoffen</td><td>词根</td><td>动词</td><td>希望</td></tr>\n<tr><td>die Hoffnung</td><td>hoffen + -ung</td><td>名词</td><td>希望（这件事）</td></tr>\n<tr><td>hoffnungslos</td><td>Hoffnung + -los</td><td>形容词</td><td>没有希望的</td></tr>\n<tr><td>die Hoffnungslosigkeit</td><td>hoffnungslos + -igkeit</td><td>名词</td><td>绝望（没有希望的状态）</td></tr>\n</tbody></table></div>\n<p>每加一个后缀，词性就变一次：动词 → 名词 → 形容词 → 名词。<b>最后一个后缀决定整个词的词性，名词还决定它的性。</b></p>\n\n<h4>二、名词后缀：看后缀就知道性</h4>\n<p>这是这一课最有用的一张表。名词的性大多要死记，但带这些后缀的名词，性是固定的：</p>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>后缀</th><th>性</th><th>从什么来 → 意思</th><th>读本里</th><th>康德</th></tr></thead><tbody>\n<tr><td>-ung</td><td>die</td><td>动词 → 动作或结果</td><td>erlösen → die Erlösung（解救）· retten → die Rettung（得救）· öffnen → die Öffnung（开口）</td><td><i>die Erfahrung, die Vorstellung, die Anschauung</i></td></tr>\n<tr><td>-heit</td><td>die</td><td>形容词 → 性质</td><td>dunkel → die Dunkelheit（黑暗）· zufrieden → die Zufriedenheit（满意）</td><td><i>die Freiheit, die Wahrheit</i></td></tr>\n<tr><td>-keit / -igkeit</td><td>die</td><td>形容词（常以 -ig、-lich、-bar、-sam 结尾）→ 性质</td><td>traurig → die Traurigkeit（悲伤）· müde → die Müdigkeit（疲倦）· bequem → die Bequemlichkeit（舒适）</td><td><i>die Möglichkeit, die Notwendigkeit, die Sinnlichkeit</i></td></tr>\n<tr><td>-schaft</td><td>die</td><td>名词 → 集体、状态</td><td>der Nachbar → die Nachbarschaft（邻里）</td><td><i>die Wissenschaft</i></td></tr>\n<tr><td>-in</td><td>die</td><td>阳性名词 → 女性</td><td>der König → die Königin · der Koch → die Köchin · der Müller → die Müllerin</td><td></td></tr>\n<tr><td>-nis</td><td>多为 die，少数 das</td><td>动词、形容词 → 结果、状态</td><td>finster → die Finsternis（黑暗）· das Gefängnis（监狱）</td><td><i>die Erkenntnis</i>（知识）</td></tr>\n<tr><td>-tum</td><td>多为 das</td><td>名词、形容词 → 集合、状态</td><td>reich → der Reichtum（财富，例外是阳性）</td><td><i>das Eigentum</i>（财产）· <i>der Irrtum</i>（错误，例外）</td></tr>\n<tr><td>-er</td><td>der</td><td>动词 → 做这件事的人</td><td>jagen → der Jäger（猎人）· rauben → der Räuber（强盗）</td><td></td></tr>\n<tr><td>-chen / -lein</td><td>das</td><td>名词 → 小的、可爱的（元音常变音）</td><td>das Haus → das Häuslein · der Mann → das Männlein / Männchen · die Taube → das Täubchen</td><td></td></tr>\n</tbody></table></div>\n<p>记住两条最实用的规则：</p>\n<ul>\n<li><b>-ung、-heit、-keit、-schaft 一律是阴性</b>，复数一律加 -en：die Erfahrungen, die Möglichkeiten。</li>\n<li><b>-chen、-lein 一律是中性</b>，不管原来是什么性，也不管指的是男是女：<b>das</b> Mädchen（女孩）· [[Als das{nn} Mädchen allein war, kam das{nn} Männlein]]。所以《格林童话》里指女孩的代词常常是 es（第 4 课）。</li>\n</ul>\n\n<h4>三、形容词后缀</h4>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>后缀</th><th>意思</th><th>读本里</th><th>康德</th></tr></thead><tbody>\n<tr><td>-lich</td><td>有……性质的；每……的</td><td>froh → fröhlich（快乐的）· der Tag → täglich（每天的）· der Freund → freundlich（友好的）</td><td><i>sinnlich</i>（感性的）· <i>möglich</i>（可能的）</td></tr>\n<tr><td>-ig</td><td>有……的</td><td>der Hunger → hungrig（饿的）· der Fleiß → fleißig（勤快的）</td><td><i>notwendig</i>（必然的）</td></tr>\n<tr><td>-los</td><td>没有……的</td><td>Gott → gottlos（不敬神的、坏透的）</td><td><i>hoffnungslos</i></td></tr>\n<tr><td>-sam</td><td>倾向于……的</td><td>seltsam（奇怪的）</td><td></td></tr>\n<tr><td>-isch</td><td>……式的；属于……的</td><td>der Hohn → höhnisch（嘲讽的）</td><td><i>dogmatisch, skeptisch</i></td></tr>\n<tr><td>-bar</td><td>能被……的</td><td></td><td><i>denkbar</i>（可以设想的）</td></tr>\n</tbody></table></div>\n<p>前缀 <b>un-</b> 表示否定，可以加在形容词和名词上：barmherzig → [[so unbarmherzig]]（毫无怜悯的）· das Glück → das Unglück（不幸）。康德：<i>unbedingt</i>（无条件的）· <i>unmöglich</i> · <i>unendlich</i>。</p>\n\n<h4>四、名词化：任何词都能当名词用</h4>\n<p>德语把动词、形容词变成名词，只要<b>大写</b>并加冠词。读康德最常遇到的就是这一种。</p>\n<p><b>① 动词不定式 → 中性名词</b>，表示「做这件事」：</p>\n<ul>\n<li>[[In den{dp} alten Zeiten, wo das{nn} Wünschen noch geholfen hat]]：在许愿还管用的古时候（das Wünschen = 许愿这件事）。</li>\n<li>康德：<i>das Sollen</i>（应当）· <i>das Dasein</i>（存在）· <i>das Denken</i>（思维）。</li>\n</ul>\n<p><b>② 形容词 → 名词</b>，照样按第 14 课变词尾，性看指的是什么：</p>\n<ul>\n<li>指人：[[Da meckerte die{nf} Alte]]（老太婆，阴性）· der Alte（老头）。</li>\n<li>指抽象的东西，用中性：康德 <i>das Unbedingte</i>（无条件者）· <i>das Mannigfaltige</i>（杂多）· <i>im Allgemeinen</i>（一般地）。</li>\n<li>词尾照变：das Unbedingte（主格）· des Unbedingten（属格）· zu dem Unbedingten（与格）。</li>\n</ul>\n<p><b>③ etwas / nichts / viel + 中性形容词</b>：[[etwas besseres als den{am} Tod findest du überall]]（比死更好的东西你到处都找得到）。1857 年的原文这里写小写，今天要大写：etwas Besseres。</p>\n\n<h4>五、反推：剥洋葱</h4>\n<p>遇到一个查不到的长词，从外往里一层层剥：</p>\n<ol>\n<li>先去掉格和复数的词尾（-en、-e、-s）。</li>\n<li>从右往左剥后缀，每剥一层，想想剩下的是什么词性。</li>\n<li>再剥前缀（un-、ge- 等）。</li>\n<li>找到词根查词典，再从里往外把意思一层层加回去。</li>\n</ol>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>剥</th><th>得到</th><th>意思</th></tr></thead><tbody>\n<tr><td>Unbegreiflichkeit</td><td>名词，阴性（-keit）</td><td>？</td></tr>\n<tr><td>去掉 -keit</td><td>unbegreiflich</td><td>不可理解的</td></tr>\n<tr><td>去掉 un-</td><td>begreiflich</td><td>可理解的</td></tr>\n<tr><td>去掉 -lich</td><td>begreifen</td><td>理解、把握（greifen 抓）</td></tr>\n<tr><td>加回去</td><td colspan=\"2\">die Unbegreiflichkeit = 不可理解性</td></tr>\n</tbody></table></div>\n<p>同样：<i>Sinnlichkeit</i> = Sinn（感官）+ -lich + -keit = 感性；<i>Notwendigkeit</i> = notwendig + -keit = 必然性。注意：剥出来的意思只是线索，最后要回到句子里核对。比如 <i>Willkür</i> 在康德那里是「选择能力」，不是今天的「专断」。</p>\n\n<h4>六、马上练</h4>\n{{quiz:s1}}\n\n<h4>七、小结</h4>\n<ul>\n<li>最后一个后缀决定词性；名词后缀还决定性。</li>\n<li>-ung / -heit / -keit / -schaft / -in → die；-chen / -lein → das；-er（人）→ der。</li>\n<li>-lich、-ig、-los、-sam、-isch、-bar 造形容词；un- 表示否定。</li>\n<li>名词化：das + 不定式（das Wünschen）；冠词 + 形容词（die Alte, das Unbedingte）；etwas + 中性形容词。</li>\n<li>生词从外往里剥：词尾 → 后缀 → 前缀 → 词根。</li>\n</ul>\n\n<h4>八、读一读</h4>\n<p>去《纯粹理性批判》第 8 章试试剥洋葱：第一句里就有 <i>Antithetik</i>、<i>Hoffnungslosigkeit</i>、<i>Gerechtigkeit</i>。</p>\n<p><button class=\"btn\" data-route=\"kant-krv~ch-n\">读一读：二律背反</button></p>",
+  "html": "<p>到这里，语法的大框架已经学完了。剩下的难点主要是<b>词</b>：康德书里满是 <i>Hoffnungslosigkeit</i>、<i>Unbegreiflichkeit</i>、<i>Sinnlichkeit</i> 这样的长词，词典里不一定都有。好消息是：德语造词非常规则，一个词根加上前缀、后缀，就能生出一整家子词。这一课学后缀和名词化，下一课学复合词。学会了，你就能自己「拆」出生词的意思。</p>\n\n<h4>一、一个词根，一家子词</h4>\n<p>看一个康德第 8 章里的词怎么一层层长出来：</p>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>词</th><th>怎么来的</th><th>词性</th><th>意思</th></tr></thead><tbody>\n<tr><td>hoffen</td><td>词根</td><td>动词</td><td>希望</td></tr>\n<tr><td>die Hoffnung</td><td>hoffen + -ung</td><td>名词</td><td>希望（这件事）</td></tr>\n<tr><td>hoffnungslos</td><td>Hoffnung + -los</td><td>形容词</td><td>没有希望的</td></tr>\n<tr><td>die Hoffnungslosigkeit</td><td>hoffnungslos + -igkeit</td><td>名词</td><td>绝望（没有希望的状态）</td></tr>\n</tbody></table></div>\n<p>每加一个后缀，词性就变一次：动词 → 名词 → 形容词 → 名词。<b>最后一个后缀决定整个词的词性，名词还决定它的性。</b></p>\n\n<h4>二、名词后缀：看后缀就知道性</h4>\n<p>这是这一课最有用的一张表。名词的性大多要死记，但带这些后缀的名词，性是固定的：</p>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>后缀</th><th>性</th><th>从什么来 → 意思</th><th>读本里</th><th>康德</th></tr></thead><tbody>\n<tr><td>-ung</td><td>die</td><td>动词 → 动作或结果</td><td>erlösen → die Erlösung（解救）· retten → die Rettung（得救）· öffnen → die Öffnung（开口）</td><td><i>die Erfahrung, die Vorstellung, die Anschauung</i></td></tr>\n<tr><td>-heit</td><td>die</td><td>形容词 → 性质</td><td>dunkel → die Dunkelheit（黑暗）· zufrieden → die Zufriedenheit（满意）</td><td><i>die Freiheit, die Wahrheit</i></td></tr>\n<tr><td>-keit / -igkeit</td><td>die</td><td>形容词（常以 -ig、-lich、-bar、-sam 结尾）→ 性质</td><td>traurig → die Traurigkeit（悲伤）· müde → die Müdigkeit（疲倦）· bequem → die Bequemlichkeit（舒适）</td><td><i>die Möglichkeit, die Notwendigkeit, die Sinnlichkeit</i></td></tr>\n<tr><td>-schaft</td><td>die</td><td>名词 → 集体、状态</td><td>der Nachbar → die Nachbarschaft（邻里）</td><td><i>die Wissenschaft</i></td></tr>\n<tr><td>-in</td><td>die</td><td>阳性名词 → 女性</td><td>der König → die Königin · der Koch → die Köchin · der Müller → die Müllerin</td><td></td></tr>\n<tr><td>-nis</td><td>多为 die，少数 das</td><td>动词、形容词 → 结果、状态</td><td>finster → die Finsternis（黑暗）· das Gefängnis（监狱）</td><td><i>die Erkenntnis</i>（知识）</td></tr>\n<tr><td>-tum</td><td>多为 das</td><td>名词、形容词 → 集合、状态</td><td>reich → der Reichtum（财富，例外是阳性）</td><td><i>das Eigentum</i>（财产）· <i>der Irrtum</i>（错误，例外）</td></tr>\n<tr><td>-er</td><td>der</td><td>动词 → 做这件事的人</td><td>jagen → der Jäger（猎人）· rauben → der Räuber（强盗）</td><td></td></tr>\n<tr><td>-chen / -lein</td><td>das</td><td>名词 → 小的、可爱的（元音常变音）</td><td>das Haus → das Häuslein · der Mann → das Männlein / Männchen · die Taube → das Täubchen</td><td></td></tr>\n</tbody></table></div>\n<p>记住两条最实用的规则：</p>\n<ul>\n<li><b>-ung、-heit、-keit、-schaft 一律是阴性</b>，复数一律加 -en：die Erfahrungen, die Möglichkeiten。</li>\n<li><b>-chen、-lein 一律是中性</b>，不管原来是什么性，也不管指的是男是女：<b>das</b> Mädchen（女孩）。所以《格林童话》里指女孩的代词常常是 es（第 4 课）。[[Als das{nn} Mädchen allein war, kam das{nn} Männlein]]女孩独自一人时，小矮人来了。</li>\n</ul>\n\n<h4>三、形容词后缀</h4>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>后缀</th><th>意思</th><th>读本里</th><th>康德</th></tr></thead><tbody>\n<tr><td>-lich</td><td>有……性质的；每……的</td><td>froh → fröhlich（快乐的）· der Tag → täglich（每天的）· der Freund → freundlich（友好的）</td><td><i>sinnlich</i>（感性的）· <i>möglich</i>（可能的）</td></tr>\n<tr><td>-ig</td><td>有……的</td><td>der Hunger → hungrig（饿的）· der Fleiß → fleißig（勤快的）</td><td><i>notwendig</i>（必然的）</td></tr>\n<tr><td>-los</td><td>没有……的</td><td>Gott → gottlos（不敬神的、坏透的）</td><td><i>hoffnungslos</i></td></tr>\n<tr><td>-sam</td><td>倾向于……的</td><td>seltsam（奇怪的）</td><td></td></tr>\n<tr><td>-isch</td><td>……式的；属于……的</td><td>der Hohn → höhnisch（嘲讽的）</td><td><i>dogmatisch, skeptisch</i></td></tr>\n<tr><td>-bar</td><td>能被……的</td><td></td><td><i>denkbar</i>（可以设想的）</td></tr>\n</tbody></table></div>\n<p>前缀 <b>un-</b> 表示否定，可以加在形容词和名词上：barmherzig → unbarmherzig（毫无怜悯的）· das Glück → das Unglück（不幸）。康德：<i>unbedingt</i>（无条件的）· <i>unmöglich</i> · <i>unendlich</i>。</p>\n\n<h4>四、名词化：任何词都能当名词用</h4>\n<p>德语把动词、形容词变成名词，只要<b>大写</b>并加冠词。读康德最常遇到的就是这一种。</p>\n<p><b>① 动词不定式 → 中性名词</b>，表示「做这件事」：</p>\n<ul>\n<li>[[In den{dp} alten Zeiten, wo das{nn} Wünschen noch geholfen hat]]：在许愿还管用的古时候（das Wünschen = 许愿这件事）。</li>\n<li>康德：<i>das Sollen</i>（应当）· <i>das Dasein</i>（存在）· <i>das Denken</i>（思维）。</li>\n</ul>\n<p><b>② 形容词 → 名词</b>，照样按第 14 课变词尾，性看指的是什么：</p>\n<ul>\n<li>指人：[[Da meckerte die{nf} Alte]]（老太婆，阴性）· der Alte（老头）。</li>\n<li>指抽象的东西，用中性：康德 <i>das Unbedingte</i>（无条件者）· <i>das Mannigfaltige</i>（杂多）· <i>im Allgemeinen</i>（一般地）。</li>\n<li>词尾照变：das Unbedingte（主格）· des Unbedingten（属格）· zu dem Unbedingten（与格）。</li>\n</ul>\n<p><b>③ etwas / nichts / viel + 中性形容词</b>，1857 年的原文写小写，今天要大写：etwas Besseres。</p>\n<ul><li>[[etwas besseres als den{am} Tod findest du überall]]比死更好的东西你到处都找得到。</li></ul>\n\n<h4>五、反推：剥洋葱</h4>\n<p>遇到一个查不到的长词，从外往里一层层剥：</p>\n<ol>\n<li>先去掉格和复数的词尾（-en、-e、-s）。</li>\n<li>从右往左剥后缀，每剥一层，想想剩下的是什么词性。</li>\n<li>再剥前缀（un-、ge- 等）。</li>\n<li>找到词根查词典，再从里往外把意思一层层加回去。</li>\n</ol>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>剥</th><th>得到</th><th>意思</th></tr></thead><tbody>\n<tr><td>Unbegreiflichkeit</td><td>名词，阴性（-keit）</td><td>？</td></tr>\n<tr><td>去掉 -keit</td><td>unbegreiflich</td><td>不可理解的</td></tr>\n<tr><td>去掉 un-</td><td>begreiflich</td><td>可理解的</td></tr>\n<tr><td>去掉 -lich</td><td>begreifen</td><td>理解、把握（greifen 抓）</td></tr>\n<tr><td>加回去</td><td colspan=\"2\">die Unbegreiflichkeit = 不可理解性</td></tr>\n</tbody></table></div>\n<p>同样：<i>Sinnlichkeit</i> = Sinn（感官）+ -lich + -keit = 感性；<i>Notwendigkeit</i> = notwendig + -keit = 必然性。注意：剥出来的意思只是线索，最后要回到句子里核对。比如 <i>Willkür</i> 在康德那里是「选择能力」，不是今天的「专断」。</p>\n\n<h4>六、马上练</h4>\n{{quiz:s1}}\n\n<h4>七、小结</h4>\n<ul>\n<li>最后一个后缀决定词性；名词后缀还决定性。</li>\n<li>-ung / -heit / -keit / -schaft / -in → die；-chen / -lein → das；-er（人）→ der。</li>\n<li>-lich、-ig、-los、-sam、-isch、-bar 造形容词；un- 表示否定。</li>\n<li>名词化：das + 不定式（das Wünschen）；冠词 + 形容词（die Alte, das Unbedingte）；etwas + 中性形容词。</li>\n<li>生词从外往里剥：词尾 → 后缀 → 前缀 → 词根。</li>\n</ul>\n\n<h4>八、读一读</h4>\n<p>去《纯粹理性批判》第 8 章试试剥洋葱：第一句里就有 <i>Antithetik</i>、<i>Hoffnungslosigkeit</i>、<i>Gerechtigkeit</i>。</p>\n<p><button class=\"btn\" data-route=\"kant-krv~ch-n\">读一读：二律背反</button></p>",
   "quiz": [
    {
     "id": "wb1",
@@ -2155,6 +2155,92 @@
     ],
     "ans": 0,
     "why": "-in 造阴性名词，指女性。"
+   }
+  ]
+ },
+ {
+  "id": "komposita",
+  "t": "构词（二）：复合词",
+  "de": "Zusammengesetzte Wörter",
+  "min": 70,
+  "html": "<p>德语可以把几个词直接连成一个新词，而且几乎没有长度限制。这是德语最出名的特点，也是读康德时最常碰到的「拦路虎」：<i>Erkenntnisvermögen</i>、<i>Verstandesbegriff</i>、<i>Einbildungskraft</i>。好在规则只有一条，学会了就能自己拆。</p>\n\n<h4>一、唯一的规则：最后一个词说了算</h4>\n<p>复合词由两部分组成：后面的<b>基本词</b>决定词性、性和核心意思；前面的<b>限定词</b>说明「什么样的」。</p>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>复合词</th><th>限定词</th><th>基本词</th><th>意思</th></tr></thead><tbody>\n<tr><td><b>das</b> Tischtuch</td><td>der Tisch（桌子）</td><td><b>das</b> Tuch（布）</td><td>桌布（一种布，不是一种桌子）</td></tr>\n<tr><td><b>die</b> Hausthür</td><td>das Haus（房子）</td><td><b>die</b> Thür（门）</td><td>（房子的）大门</td></tr>\n<tr><td><b>der</b> Backofen</td><td>backen（烤）</td><td><b>der</b> Ofen（炉子）</td><td>烤炉</td></tr>\n<tr><td><b>die</b> Großmutter</td><td>groß（大）</td><td><b>die</b> Mutter（母亲）</td><td>祖母、外婆</td></tr>\n</tbody></table></div>\n<p>所以复合词的性<b>永远看最后一个词</b>：der Tisch + das Tuch → <b>das</b> Tischtuch。中文其实也一样：「桌布」是一种布，「布桌」才是一种桌子。</p>\n<p>读本里：</p>\n<ul>\n<li>[[schüttete er Suppe auf das{an} Tischtuch]]汤洒在桌布上。</li>\n<li>[[so klopfte jemand an die{af} Hausthür]]有人敲大门。</li>\n</ul>\n\n<h4>二、哪些词能连起来</h4>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>组合</th><th>读本里</th><th>拆开</th></tr></thead><tbody>\n<tr><td>名词 + 名词</td><td>die Schneeflocken · die Kieselsteine · der Königssohn</td><td>Schnee 雪 + Flocken 片 · Kiesel 卵石 + Steine 石头 · König 国王 + Sohn 儿子</td></tr>\n<tr><td>形容词 + 名词</td><td>die Großmutter · der Graukopf</td><td>groß + Mutter · grau 灰 + Kopf 头</td></tr>\n<tr><td>动词词干 + 名词</td><td>der Backofen · die Schlafstätte · die Spielleute</td><td>back(en) + Ofen · schlaf(en) 睡 + Stätte 处所 · spiel(en) 演奏 + Leute 人们（乐师们）</td></tr>\n<tr><td>名词 + 形容词</td><td>schneeweiß</td><td>Schnee + weiß：雪一样白的</td></tr>\n<tr><td>三段以上</td><td>das Brothäuslein · das Todtenbettchen</td><td>Brot 面包 + Häuslein 小房子 · Todte(n) 死人 + Bett 床 + -chen：临终的小床</td></tr>\n</tbody></table></div>\n<ul>\n<li>[[Da schien der{nm} Mond ganz helle, und die{np} weißen Kieselsteine]]月光很亮，白色的卵石……</li>\n<li>[[daß die{np} Federn wie Schneeflocken umher flogen]]羽毛像雪花一样四处飞。</li>\n<li>[[sahen sie{they} ein{an} schönes schneeweißes Vöglein]]他们看见一只漂亮的雪白小鸟。</li>\n</ul>\n\n<h4>三、接缝：中间多出来的 -s-、-es-、-n-</h4>\n<p>两个词之间常常夹着一个小音节，叫<b>连接音</b>。它不改变意思，只是为了好念。拆的时候要把它去掉：</p>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>连接音</th><th>例子</th><th>拆开</th></tr></thead><tbody>\n<tr><td>-s-</td><td>die Müllerstochter · der Königssohn · die Königstochter · das Bockshorn</td><td>Müller | s | Tochter（磨坊主的女儿）· König | s | Sohn · Bock | s | Horn</td></tr>\n<tr><td>-es-</td><td>康德 <i>der Verstandesbegriff</i></td><td>Verstand | es | Begriff：知性概念</td></tr>\n<tr><td>-n- / -en-</td><td>das Todtenbettchen · 康德 <i>die Sinnenwelt</i></td><td>Todte | n | Bett | chen · Sinne | n | Welt：感官世界</td></tr>\n<tr><td>-s- 在 -ung、-heit、-keit 后</td><td>康德 <i>die Einbildungskraft</i></td><td>Einbildung | s | Kraft：想象力</td></tr>\n</tbody></table></div>\n<p>最后一条很有用：以 -ung、-heit、-keit、-schaft 结尾的词（第 26 课）后面再接名词，几乎总要加 -s-。看到 <i>-ungs-</i>，就知道这里是接缝。</p>\n<ul>\n<li>[[Da saß nun die{nf} arme Müllerstochter]]可怜的磨坊主女儿坐在那里。</li>\n<li>[[sondern ein{nm} Königssohn mit schönen und freundlichen Augen]]而是一位有着美丽、和善眼睛的王子。</li>\n</ul>\n\n<h4>四、意思不一定是相加</h4>\n<p>先按字面拆，再回到上下文核对。有些复合词早已有了固定的意思：</p>\n<ul>\n<li><b>die Hochzeit</b>：hoch（高）+ Zeit（时候）→ 婚礼。[[hüpften wie ein{nm} Schneider, der{rel:nm} Hochzeit hält]]像办婚礼的裁缝那样蹦跳。</li>\n<li><b>der Lebtag</b>：Leben + Tag → 一辈子。[[wo sie{they} ihr{an} Lebtag noch nicht gewesen waren]]他们这辈子从没去过的地方。</li>\n<li><b>der Graukopf</b>：灰脑袋 → 在《小红帽》里指狼（用特征代替名字）。</li>\n<li><b>das Bockshorn</b>：公羊角；jn. ins Bockshorn jagen 是成语「吓唬某人」。</li>\n</ul>\n\n<h4>五、康德的复合词</h4>\n<p>康德的术语大多是复合词。拆开以后，它们并不神秘：</p>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>复合词</th><th>拆开</th><th>术语</th></tr></thead><tbody>\n<tr><td><i>der Gegenstand</i></td><td>gegen（对着）+ Stand（站立）</td><td>对象：站在对面的东西</td></tr>\n<tr><td><i>der Grundsatz</i></td><td>Grund（基础）+ Satz（命题）</td><td>原理</td></tr>\n<tr><td><i>das Erkenntnisvermögen</i></td><td>Erkenntnis（知识）+ Vermögen（能力）</td><td>认识能力</td></tr>\n<tr><td><i>der Verstandesbegriff</i></td><td>Verstand + es + Begriff</td><td>知性概念（= 范畴）</td></tr>\n<tr><td><i>die Einbildungskraft</i></td><td>Einbildung + s + Kraft</td><td>想象力</td></tr>\n<tr><td><i>die Sinnenwelt</i></td><td>Sinne + n + Welt</td><td>感官世界</td></tr>\n<tr><td><i>das Naturgesetz</i></td><td>Natur + Gesetz</td><td>自然法则</td></tr>\n<tr><td><i>das Selbstbewußtsein</i></td><td>selbst + Bewußtsein（意识，bewußt + sein）</td><td>自我意识</td></tr>\n<tr><td><i>der Trugschluß</i></td><td>Trug（欺骗）+ Schluß（推论）</td><td>错误推论</td></tr>\n</tbody></table></div>\n\n<h4>六、反推方法</h4>\n<ol>\n<li>遇到长词，先从<b>右边</b>找一个你认识的名词：它就是基本词，决定性和核心意思。</li>\n<li>找接缝：-s-、-es-、-n-、-en-，尤其是 -ungs-、-heits-、-keits-。</li>\n<li>左边剩下的部分如果还长，再按同样的方法拆。</li>\n<li>用「……的……」「用来……的……」「……一样的……」试着组合意思。</li>\n<li>回到句子里核对；如果字面意思讲不通，就是固定词，去查词典。</li>\n</ol>\n<p>试一试：<i>Kausalverhältnis</i> → Verhältnis（关系）是基本词，前面 kausal（因果的）→ 因果关系。</p>\n\n<h4>七、马上练</h4>\n{{quiz:s1}}\n\n<h4>八、小结</h4>\n<ul>\n<li>复合词的性和核心意思看最后一个词。</li>\n<li>名词、形容词、动词词干都可以作限定词。</li>\n<li>接缝 -s-、-es-、-n- 不带意思，拆的时候去掉；-ung、-heit、-keit 后面几乎总有 -s-。</li>\n<li>字面意思是线索，固定词（Hochzeit、Lebtag）要查词典。</li>\n</ul>\n\n<h4>九、读一读</h4>\n<p>回到《亨塞尔与格蕾特》找找复合词（Brothäuslein、Backofen、Kieselsteine），再去康德的「空间与时间」一章看看术语是怎么拼起来的。</p>\n<p><button class=\"btn\" data-route=\"grimm~ch-k015\">《亨塞尔与格蕾特》</button> <button class=\"btn\" data-route=\"kant-krv~ch-a\">空间与时间</button></p>",
+  "quiz": [
+   {
+    "id": "kp1",
+    "sec": "s1",
+    "de": "ich habe den <<Backofen>> schon eingeheizt",
+    "opts": [
+     "烤炉（der：看 Ofen）",
+     "烤面包（动词）"
+    ],
+    "ans": 0,
+    "why": "backen + der Ofen：基本词 Ofen 决定性：der Backofen。"
+   },
+   {
+    "id": "kp2",
+    "sec": "s1",
+    "de": "schüttete er Suppe auf das <<Tischtuch>>",
+    "opts": [
+     "桌布（das：看 Tuch）",
+     "布做的桌子"
+    ],
+    "ans": 0,
+    "why": "最后一个词说了算：是一种布。"
+   },
+   {
+    "id": "kp3",
+    "sec": "s1",
+    "de": "Da saß nun die arme <<Müllerstochter>>",
+    "opts": [
+     "磨坊主的女儿（Müller + s + Tochter）",
+     "磨坊主们和女儿"
+    ],
+    "ans": 0,
+    "why": "-s- 是接缝，不表示复数。"
+   },
+   {
+    "id": "kp4",
+    "sec": "s1",
+    "de": "hüpften wie ein Schneider, der <<Hochzeit>> hält",
+    "opts": [
+     "婚礼",
+     "高的时候"
+    ],
+    "ans": 0,
+    "why": "固定的复合词，不能按字面相加。"
+   },
+   {
+    "id": "kp5",
+    "sec": "s1",
+    "de": "wo sie ihr <<Lebtag>> noch nicht gewesen waren",
+    "opts": [
+     "一辈子",
+     "生日"
+    ],
+    "ans": 0,
+    "why": "Leben + Tag：一生中的每一天 → 一辈子。"
+   },
+   {
+    "id": "kp6",
+    "sec": "s1",
+    "de": "sahen sie ein schönes <<schneeweißes>> Vöglein",
+    "opts": [
+     "雪白的（Schnee + weiß）",
+     "雪和白色的"
+    ],
+    "ans": 0,
+    "why": "名词 + 形容词：像雪一样白。"
+   },
+   {
+    "id": "kp7",
+    "sec": "s1",
+    "de": "sondern ein <<Königssohn>> mit schönen und freundlichen Augen",
+    "opts": [
+     "王子（König + s + Sohn）",
+     "国王的儿子们"
+    ],
+    "ans": 0,
+    "why": "-s- 接缝；Sohn 是单数。"
    }
   ]
  }
