@@ -128,5 +128,70 @@
     "why": "看起来像设计好的，却说不出目的。"
    }
   ]
+ },
+ {
+  "id": "h1",
+  "ch": "h",
+  "t": "崇高",
+  "de": "Analytik des Erhabenen",
+  "min": 25,
+  "html": "<p>美之外，还有另一种审美判断：崇高。面对暴风雨中的大海、高耸的山峰、无边的星空，我们感到的不是和谐的愉悦，而是一种夹着恐惧和震撼的敬畏。康德的分析得出一个惊人的结论：崇高不在自然里，而在我们心中。</p>\n<h4>一、美与崇高</h4>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th></th><th>美</th><th>崇高</th></tr></thead><tbody>\n<tr><th>对象的形式</th><td>有限、和谐</td><td>无形式、无限制</td></tr>\n<tr><th>对判断力</th><td>合目的：好像为我们安排好的</td><td>违反目的：压倒想象力</td></tr>\n<tr><th>愉悦</th><td>直接的、平静的、游戏</td><td>间接的、激动的、严肃（先受阻，再涌出）</td></tr>\n<tr><th>在哪里</th><td>对象的形式上</td><td>我们的心灵中</td></tr>\n</tbody></table></div>\n<h4>二、两种崇高</h4>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th></th><th>数学的崇高</th><th>力学的崇高</th></tr></thead><tbody>\n<tr><th>对象</th><td>绝对地大的东西：星空、金字塔</td><td>有强力的东西：雷暴、火山、风暴中的大海</td></tr>\n<tr><th>想象力的失败</th><td>无法一下子把握整体</td><td>我们的抵抗能力微不足道</td></tr>\n<tr><th>心中发现的</th><td>理性的「无限」理念，超越一切感官尺度</td><td>另一种抵抗能力：作为道德存在者，自然对我们没有支配力</td></tr>\n</tbody></table></div>\n[[Also ist die Erhabenheit in keinem Dinge der Natur, sondern nur in unserm Gemüte enthalten]]\n<h4>三、为什么要安全</h4>\n<p>真正害怕的人不能判断崇高，就像饥饿的人不能判断美。只有在安全的地方看雷暴，它才「越可怕越吸引人」。但这不说明崇高感是假的：它揭示的是我们心中一种真实的能力——理性和道德使命不受自然支配。</p>\n<h4>四、语法小结</h4>\n<ul>\n<li><b>长串主语</b>：Kühne … Felsen, … Donnerwolken, … Vulkane, … Orkane, … Ozean, … Wasserfall … machen …：动词在一长串主语之后才出现。</li>\n<li><b>分词短语后置</b>：Donnerwolken, mit Blitzen und Krachen einherziehend · der grenzenlose Ozean, in Empörung gesetzt。</li>\n<li><b>um desto …, je …</b>：越……越……（第 15 课）。</li>\n<li><b>zu-不定式作主语</b>：was auch nur denken zu können … beweist。</li>\n</ul>\n{{quiz:s1}}",
+  "quiz": [
+   {
+    "id": "h1a",
+    "sec": "s1",
+    "de": "Erhaben nennen wir das, was <<schlechthin>> groß ist",
+    "opts": [
+     "绝对地大：与它相比一切都小",
+     "比较地大"
+    ],
+    "ans": 0,
+    "why": "数学的崇高。"
+   },
+   {
+    "id": "h1b",
+    "sec": "s1",
+    "de": "Die Natur, im ästhetischen Urteile als Macht, die über uns keine <<Gewalt>> hat, betrachtet, ist dynamisch-erhaben",
+    "opts": [
+     "自然有强力，却对我们没有支配力",
+     "自然对我们有绝对的支配力"
+    ],
+    "ans": 0,
+    "why": "力学的崇高。"
+   },
+   {
+    "id": "h1c",
+    "sec": "s1",
+    "de": "Aber ihr Anblick wird nur um desto anziehender, je furchtbarer er ist, wenn wir uns nur in <<Sicherheit>> befinden",
+    "opts": [
+     "只有在安全中才能感到崇高",
+     "越危险越崇高"
+    ],
+    "ans": 0,
+    "why": "真正害怕的人不能判断崇高。"
+   },
+   {
+    "id": "h1d",
+    "sec": "s1",
+    "de": "Also ist die Erhabenheit in keinem Dinge der Natur, sondern nur in unserm <<Gemüte>> enthalten",
+    "opts": [
+     "崇高在心中，不在自然里",
+     "崇高是自然的性质"
+    ],
+    "ans": 0,
+    "why": "所以把自然对象叫崇高，严格说不准确。"
+   },
+   {
+    "id": "h1e",
+    "sec": "s1",
+    "de": "die Naturschönheit … eine Zweckmäßigkeit in ihrer Form … bei sich führt; hingegen das, was … das Gefühl des Erhabenen erregt, der Form nach zwar <<zweckwidrig>> … erscheinen mag",
+    "opts": [
+     "崇高的对象在形式上违反目的",
+     "崇高的对象形式最和谐"
+    ],
+    "ans": 0,
+    "why": "却因此被判断为更崇高。"
+   }
+  ]
  }
 ]
