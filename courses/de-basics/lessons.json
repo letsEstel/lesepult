@@ -2543,5 +2543,69 @@
     "why": "所以 ß 的样子像长 s 后面挂一个 z。"
    }
   ]
+ },
+ {
+  "id": "aufklaerung",
+  "t": "从童话到哲学：读《什么是启蒙》",
+  "de": "Was ist Aufklärung?",
+  "min": 60,
+  "html": "<p>这是最后一课。三十一课以前，你从发音和名词的性学起；读完了十二篇格林童话；学会了七种从句、虚拟式、分词定语、构词和长句拆解法。这一课不讲新语法，而是把学过的东西拿到一篇真正的哲学文章上：康德 1784 年的《答复这个问题：什么是启蒙？》。它只有四页，却是德语思想史上最有名的文章之一。读完它，你就真正跨过了「从童话到哲学」这道门槛。</p>\n\n<h4>一、你已经学会的</h4>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>课</th><th>学会了什么</th><th>在康德那里的用处</th></tr></thead><tbody>\n<tr><td>1–9</td><td>发音、性和格、代词、动词、语序、介词、可分动词</td><td>每一句的地基</td></tr>\n<tr><td>10–15</td><td>情态动词、反身动词、从句、关系从句、形容词词尾、比较级</td><td>康德的句子几乎都由从句和关系从句堆成</td></tr>\n<tr><td>16–21</td><td>完成时、werden、属格、zu-不定式、代副词、被动态</td><td>sich einer Sache bedienen、um … zu、wodurch</td></tr>\n<tr><td>22–25</td><td>虚拟式、分词定语、lassen / sein + zu</td><td>转述、假设、扩展定语、ist zu …</td></tr>\n<tr><td>26–31</td><td>构词、复合词、长句拆解、连词、老书面语、尖角体</td><td>生词自己拆，长句自己拆，原版书自己读</td></tr>\n</tbody></table></div>\n\n<h4>二、精读第一段</h4>\n<p>《什么是启蒙》的第一段只有四句。下面一句一句拆，每一步都注明用到的是第几课。</p>\n\n<p><b>第 1 句</b></p>\n<ul><li><i>Aufklärung ist der Ausgang des Menschen aus seiner selbstverschuldeten Unmündigkeit.</i></li></ul>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>成分</th><th>分析</th><th>课</th></tr></thead><tbody>\n<tr><td><i>Aufklärung ist der Ausgang</i></td><td>主语 + sein + 表语：启蒙就是走出</td><td>5</td></tr>\n<tr><td><i>des Menschen</i></td><td>属格：人的（走出）</td><td>18</td></tr>\n<tr><td><i>aus seiner … Unmündigkeit</i></td><td>aus + 与格；seiner 是阴性与格</td><td>8</td></tr>\n<tr><td><i>selbstverschuldeten</i></td><td>形容词弱变化词尾 -en；selbst（自己）+ verschuldet（招致的，过去分词）</td><td>14 · 24 · 27</td></tr>\n<tr><td><i>Unmündigkeit</i></td><td>un- + mündig + -keit：不成年状态</td><td>26</td></tr>\n</tbody></table></div>\n<p>译：启蒙就是人从他自己招致的不成年状态中走出。</p>\n\n<p><b>第 2 句</b></p>\n<ul><li><i>Unmündigkeit ist das Unvermögen, sich seines Verstandes ohne Leitung eines anderen zu bedienen.</i></li></ul>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>成分</th><th>分析</th><th>课</th></tr></thead><tbody>\n<tr><td><i>das Unvermögen</i></td><td>un- + Vermögen（能力）：无能</td><td>26</td></tr>\n<tr><td><i>…, sich … zu bedienen</i></td><td>zu-不定式，说明是什么样的无能</td><td>19</td></tr>\n<tr><td><i>sich seines Verstandes bedienen</i></td><td>反身动词 + 属格宾语：运用自己的知性</td><td>11 · 18</td></tr>\n<tr><td><i>ohne Leitung eines anderen</i></td><td>ohne + 宾格；eines anderen：别人的（形容词名词化）</td><td>8 · 26</td></tr>\n</tbody></table></div>\n<p>译：不成年状态，就是不经别人引导便无法运用自己的知性。</p>\n\n<p><b>第 3 句</b></p>\n<ul><li><i>Selbstverschuldet ist diese Unmündigkeit, wenn die Ursache derselben nicht am Mangel des Verstandes, sondern der Entschließung und des Mutes liegt, sich seiner ohne Leitung eines andern zu bedienen.</i></li></ul>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>成分</th><th>分析</th><th>课</th></tr></thead><tbody>\n<tr><td><i>Selbstverschuldet ist diese Unmündigkeit</i></td><td>表语放在前场，表示强调；主语在动词后</td><td>7 · 28</td></tr>\n<tr><td><i>wenn … liegt</i></td><td>条件从句，变位动词 liegt 在末尾</td><td>12</td></tr>\n<tr><td><i>die Ursache derselben</i></td><td>derselben = der Unmündigkeit（属格）</td><td>18</td></tr>\n<tr><td><i>nicht am Mangel des Verstandes, sondern der Entschließung und des Mutes</i></td><td>nicht …, sondern：不在于缺乏知性，而在于缺乏决心和勇气。Mangel 管后面三个属格</td><td>29</td></tr>\n<tr><td><i>sich seiner … zu bedienen</i></td><td>zu-不定式挂在后场，说明是什么决心和勇气；seiner = 他自己的（知性），属格代词</td><td>19 · 28</td></tr>\n</tbody></table></div>\n<p>译：如果这种不成年状态的原因不在于缺乏知性，而在于不经别人引导就缺乏运用它的决心和勇气，那它就是自己招致的。</p>\n\n<p><b>第 4 句</b></p>\n<ul><li><i>Sapere aude! Habe Mut, dich deines eigenen Verstandes zu bedienen! ist also der Wahlspruch der Aufklärung.</i></li></ul>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>成分</th><th>分析</th><th>课</th></tr></thead><tbody>\n<tr><td><i>Sapere aude!</i></td><td>拉丁语：敢于求知！（贺拉斯的诗句）</td><td>30</td></tr>\n<tr><td><i>Habe Mut</i></td><td>du 的命令式：要有勇气</td><td>5</td></tr>\n<tr><td><i>dich deines eigenen Verstandes zu bedienen</i></td><td>同第 2 句，换成了 du：dich、deines</td><td>11 · 18 · 19</td></tr>\n<tr><td><i>ist also der Wahlspruch</i></td><td>整个引语当主语；also 插在中场：所以</td><td>29</td></tr>\n</tbody></table></div>\n<p>译：Sapere aude！要有勇气运用你自己的知性！这就是启蒙的格言。</p>\n\n<h4>三、一个词族</h4>\n<p>这篇文章围绕一个词展开。用第 26 课的方法拆开它：</p>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>词</th><th>意思</th></tr></thead><tbody>\n<tr><td>mündig</td><td>成年的、能自己做主的（来自古德语「监护」一词，和 Mund「嘴」无关）</td></tr>\n<tr><td>die Mündigkeit</td><td>成年状态：能自己做主</td></tr>\n<tr><td>unmündig</td><td>未成年的、要别人做主的</td></tr>\n<tr><td>die Unmündigkeit</td><td>不成年状态</td></tr>\n</tbody></table></div>\n<p>康德说的「不成年」不是年龄，而是一种习惯：让书本替我思考，让牧师替我判断良心，让医生替我决定饮食。启蒙就是走出这种习惯。</p>\n\n<h4>四、接下来读什么</h4>\n<ol>\n<li><b>《什么是启蒙》</b>：全文精读，四页。现在就去读。</li>\n<li><b>《纯粹理性批判·导言》</b>：康德最重要的一组概念：先天 / 后天、分析 / 综合。</li>\n<li><b>《纯粹理性批判》</b>：十章选读，从序言一直到方法论的最后一句。</li>\n<li><b>《未来形而上学导论》</b>和<b>韦伯《以政治为业》</b>：换一种文体和年代。</li>\n</ol>\n<p>读的时候，你会时常遇到不会的地方。那时就用这门课教你的方法：先圈变位动词，找主句，挂从句；生词先剥后缀、拆复合词；讲不通就想想是不是老意思。最后，用康德自己的话说：只能学习哲学思考，不能学习哲学。这门课也一样：它能教你的是读的方法，读本身要你自己去走。</p>\n\n<h4>五、马上练</h4>\n{{quiz:s1}}\n\n<h4>六、小结</h4>\n<ul>\n<li>《什么是启蒙》第一段用到的语法：属格、zu-不定式、反身动词 + 属格宾语、形容词词尾、构词、nicht … sondern、前场强调、命令式。</li>\n<li>Unmündigkeit = un- + mündig + -keit。</li>\n<li>启蒙 = 有勇气不经别人引导运用自己的知性。</li>\n</ul>\n\n<p><button class=\"btn\" data-route=\"kant-aufklaerung~read\">读一读：《什么是启蒙》</button> <button class=\"btn\" data-route=\"kant-krv-einleitung~home\">纯粹理性批判·导言</button> <button class=\"btn\" data-route=\"kant-krv~toc\">纯粹理性批判</button></p>",
+  "quiz": [
+   {
+    "id": "ab1",
+    "sec": "s1",
+    "de": "und es war so arm, daß es kein Kämmerchen mehr hatte darin zu <<wohnen>>",
+    "opts": [
+     "zu-不定式挂在后场：可以住的（小屋）",
+     "主句的动词"
+    ],
+    "ans": 0,
+    "why": "和康德第 3 句一样：zu-不定式挂在后面补充说明（第 19、28 课）。"
+   },
+   {
+    "id": "ab2",
+    "sec": "s1",
+    "de": "Es war einmal ein kleines <<Mädchen>>, dem war Vater und Mutter gestorben",
+    "opts": [
+     "das Mädchen：-chen 一律中性",
+     "die Mädchen：女孩是阴性"
+    ],
+    "ans": 0,
+    "why": "第 26 课：后缀决定性。"
+   },
+   {
+    "id": "ab3",
+    "sec": "s1",
+    "de": "es ist kein Riese, <<sondern>> ein garstiger Frosch",
+    "opts": [
+     "nicht / kein …, sondern：不是……而是",
+     "但是"
+    ],
+    "ans": 0,
+    "why": "康德第 3 句：nicht am Mangel des Verstandes, sondern der Entschließung。"
+   },
+   {
+    "id": "ab4",
+    "sec": "s1",
+    "de": "Grethel nahm das Brot unter die Schürze, <<weil>> Hänsel die Steine in der Tasche hatte",
+    "opts": [
+     "从属连词，动词在末",
+     "并列连词，动词在第二位"
+    ],
+    "ans": 0,
+    "why": "康德第 3 句的 wenn … liegt 也是这样。"
+   },
+   {
+    "id": "ab5",
+    "sec": "s1",
+    "de": "Da machte ich daß ich <<fortkam>>",
+    "opts": [
+     "fortkommen 的过去式：逃掉",
+     "fort + kam 是两个词"
+    ],
+    "ans": 0,
+    "why": "可分动词在从句末尾合写（第 9 课）。"
+   }
+  ]
  }
 ]
