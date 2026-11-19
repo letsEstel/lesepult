@@ -493,5 +493,81 @@
     "why": "康德只证明自由「不矛盾」，没证明它真实。"
    }
   ]
+ },
+ {
+  "id": "g1",
+  "ch": "g",
+  "t": "上帝存在证明的不可能",
+  "de": "Das Ideal der reinen Vernunft",
+  "min": 25,
+  "html": "<p>第 7 章的三个理念，到这里只剩最后一个：上帝。灵魂的证明是谬误推理，世界的证明陷入二律背反，上帝的证明又如何？康德的回答很干脆：思辨理性证明不了上帝存在——但也驳不倒。</p>\n<h4>一、三种证明，一个根</h4>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>证明</th><th>出发点</th><th>代表</th><th>康德的批评</th></tr></thead><tbody>\n<tr><td>本体论证明</td><td>上帝的概念</td><td>安瑟伦、笛卡尔</td><td>存在不是实在的谓词，不能从概念里推出来</td></tr>\n<tr><td>宇宙论证明</td><td>有某物存在</td><td>莱布尼茨</td><td>从「必然存在者」到「上帝」，偷偷用上了本体论证明</td></tr>\n<tr><td>自然神学证明</td><td>世界的秩序与目的</td><td>自古就有</td><td>至多推出一个世界建筑师，要推出创造者，又得回到前两种</td></tr>\n</tbody></table></div>\n<p>所以康德倒着审查：本体论证明一倒，另外两个也跟着倒。</p>\n<h4>二、「存在」不是谓词</h4>\n<p>「上帝是全能的」：全能是一个实在的谓词，它说上帝<b>是什么</b>。「上帝存在」：并没有给上帝的概念增加任何内容，只是说：有一个对象对应这个概念。</p>\n[[Sein ist offenbar kein reales Prädikat]]\n<p>用康德的例子：一百个现实的塔勒和一百个可能的塔勒，概念完全一样；区别不在概念里，而在我的钱包里。一个东西存在不存在，概念说不了算，只有经验能告诉我们。而上帝恰恰不能是经验的对象。</p>\n[[Hundert wirkliche Taler enthalten nicht das mindeste mehr, als hundert mögliche]]\n<h4>三、理性的深渊</h4>\n<p>但康德没有嘲笑追问上帝的理性。理性必须为一切有条件的东西寻找无条件的根据，又无法想象一个「不问从哪里来」的存在者。这个张力，康德称之为「理性真正的深渊」。</p>\n<h4>四、无瑕的理想</h4>\n<p>结论：上帝对理论理性来说是一个<b>理想</b>，既不能被证明，也不能被驳倒。它有一个正面的用处：作为「范导性原理」，引导我们把自然看作一个有秩序的整体去研究。真正通向上帝的路在实践理性：这就是《实践理性批判》里的「道德神学」。</p>\n<h4>五、语法小结</h4>\n<ul>\n<li><b>复合词</b>：Kassenbestand、Vermögenszustand、Weltbaumeister（第 27 课）。</li>\n<li><b>形容词名词化</b>：das Wirkliche、das bloß Mögliche、das mindeste（第 26 课）。</li>\n<li><b>ebensowenig … als</b>：和……一样不。</li>\n<li><b>扩展定语</b>：einer durch Sinnlichkeit oft genug getäuschten … Vernunft（第 24 课）。</li>\n</ul>\n{{quiz:s1}}\n<p>下一章：方法论。康德从「建什么」转到「怎么建」，并提出三个问题：我能知道什么？我应当做什么？我可以希望什么？</p>",
+  "quiz": [
+   {
+    "id": "g1a",
+    "sec": "s1",
+    "de": "Der erste Beweis ist der physikotheologische, der zweite der kosmologische, der dritte der <<ontologische>> Beweis",
+    "opts": [
+     "本体论证明：从上帝的概念推出上帝存在",
+     "从世界的秩序推出设计者"
+    ],
+    "ans": 0,
+    "why": "康德先审查它，因为另外两种都依靠它。"
+   },
+   {
+    "id": "g1b",
+    "sec": "s1",
+    "de": "Sein ist offenbar kein reales <<Prädikat>>",
+    "opts": [
+     "「存在」不给概念增加任何内容",
+     "上帝不存在"
+    ],
+    "ans": 0,
+    "why": "康德没有说上帝不存在，只说存在不能从概念推出。"
+   },
+   {
+    "id": "g1c",
+    "sec": "s1",
+    "de": "Hundert wirkliche Taler enthalten nicht das <<mindeste>> mehr, als hundert mögliche",
+    "opts": [
+     "概念上一模一样，区别只在概念之外",
+     "现实的塔勒更值钱，所以概念也更多"
+    ],
+    "ans": 0,
+    "why": "区别在「我的财产状况」，不在概念。"
+   },
+   {
+    "id": "g1d",
+    "sec": "s1",
+    "de": "seinem Kassenbestande einige <<Nullen>> anhängen wollte",
+    "opts": [
+     "在账上添零，钱并不会变多",
+     "商人变得更富了"
+    ],
+    "ans": 0,
+    "why": "嘲讽本体论证明：概念里添上「存在」，上帝并没有因此存在。"
+   },
+   {
+    "id": "g1e",
+    "sec": "s1",
+    "de": "Der Beweis könnte also höchstens einen <<Weltbaumeister>> … dartun",
+    "opts": [
+     "自然神学证明至多推出一个整理材料的建筑师",
+     "自然神学证明推出了创造者"
+    ],
+    "ans": 0,
+    "why": "要推出创造者，又得回到宇宙论和本体论证明。"
+   },
+   {
+    "id": "g1f",
+    "sec": "s1",
+    "de": "Das höchste Wesen bleibt also … ein bloßes, aber doch fehlerfreies <<Ideal>>",
+    "opts": [
+     "既不能被证明，也不能被驳倒",
+     "已经被驳倒了"
+    ],
+    "ans": 0,
+    "why": "道路留给了实践理性（道德神学）。"
+   }
+  ]
  }
 ]
