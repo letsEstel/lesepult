@@ -193,5 +193,70 @@
     "why": "却因此被判断为更崇高。"
    }
   ]
+ },
+ {
+  "id": "g1",
+  "ch": "g",
+  "t": "艺术与天才",
+  "de": "Von der Kunst und vom Genie",
+  "min": 25,
+  "html": "<p>前两章分析的主要是自然美和自然的崇高。这一章转向人做出来的美：美的艺术。艺术是有意制作的，美却不能有意为之。康德的解决办法是「天才」：在天才身上，是自然在给艺术立规则。这一节对后来的浪漫主义影响极大。</p>\n<h4>一、自然美与艺术美的对称</h4>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th></th><th>自然美</th><th>艺术美</th></tr></thead><tbody>\n<tr><th>它是</th><td>自然</td><td>艺术（人有意做出来的）</td></tr>\n<tr><th>它看起来像</th><td>艺术：好像经过设计</td><td>自然：好像不是刻意的</td></tr>\n<tr><th>合目的性</th><td>无目的的合目的性</td><td>有意的，却必须显得不是有意的</td></tr>\n</tbody></table></div>\n[[Die Natur war schön, wenn sie zugleich als Kunst aussah; und die Kunst kann nur schön genannt werden, wenn wir uns bewußt sind, sie sei Kunst, und sie uns doch als Natur aussieht]]\n<h4>二、天才的四个特点</h4>\n<ol>\n<li><b>独创性</b>：产生的东西给不出确定的规则，不是靠学习规则学来的。</li>\n<li><b>典范性</b>：作品本身成为别人的尺度（否则独创也可能是胡闹）。</li>\n<li><b>不自知</b>：天才自己说不出作品是怎么产生的，不能把方法传授给人。</li>\n<li><b>只在艺术</b>：自然通过天才给艺术立规则，不给科学立规则。</li>\n</ol>\n<h4>三、牛顿与荷马</h4>\n<p>牛顿的《原理》再深奥，也能一步一步学会：牛顿能把每一步都展示出来。荷马却说不出他的诗是怎么在头脑中生成的。科学中最伟大的发现者与最勤奋的学生只有程度之差；天才与他们却是种类之别。（康德并不因此贬低科学：科学的进步能无限积累，艺术却会在某处停下。）</p>\n<h4>四、语法小结</h4>\n<ul>\n<li><b>als ob + 虚拟式一</b>：so frei scheinen, als ob es ein Produkt der bloßen Natur sei（第 22 课）。</li>\n<li><b>ob … zwar …, doch</b>：虽然……却（第 29 课）。</li>\n<li><b>sein + zu</b>：muß als Natur anzusehen sein（必须能被看作自然，第 25 课）。</li>\n<li><b>so … auch … mögen</b>：so ausführlich auch … und so vortrefflich auch … sein mögen（不管多么……）。</li>\n</ul>\n{{quiz:s1}}",
+  "quiz": [
+   {
+    "id": "g1a",
+    "sec": "s1",
+    "de": "aber doch muß die Zweckmäßigkeit in der Form desselben von allem Zwange willkürlicher Regeln so frei scheinen, als ob es ein Produkt der bloßen <<Natur>> sei",
+    "opts": [
+     "艺术美要显得像自然",
+     "艺术美要显得像机器"
+    ],
+    "ans": 0,
+    "why": "有意，却不露刻意的痕迹。"
+   },
+   {
+    "id": "g1b",
+    "sec": "s1",
+    "de": "Genie ist das Talent (Naturgabe), welches der Kunst die <<Regel>> gibt",
+    "opts": [
+     "天才给艺术立规则",
+     "天才遵守既定的规则"
+    ],
+    "ans": 0,
+    "why": "在天才身上，是自然在立规则。"
+   },
+   {
+    "id": "g1c",
+    "sec": "s1",
+    "de": "folglich daß <<Originalität>> seine erste Eigenschaft sein müsse",
+    "opts": [
+     "独创性是天才的第一特性",
+     "模仿是天才的第一特性"
+    ],
+    "ans": 0,
+    "why": "天才产生的东西给不出确定的规则。"
+   },
+   {
+    "id": "g1d",
+    "sec": "s1",
+    "de": "aber man kann nicht geistreich <<dichten>> lernen",
+    "opts": [
+     "作诗的灵气学不会",
+     "作诗可以照规范学会"
+    ],
+    "ans": 0,
+    "why": "牛顿的科学可以学，荷马的诗学不会。"
+   },
+   {
+    "id": "g1e",
+    "sec": "s1",
+    "de": "d.i. schöne Kunst muß als Natur anzusehen sein, ob man sich ihrer zwar als <<Kunst>> bewußt ist",
+    "opts": [
+     "我们知道它是艺术，它却看起来像自然",
+     "我们以为它是自然"
+    ],
+    "ans": 0,
+    "why": "「虽然意识到是艺术」。"
+   }
+  ]
  }
 ]
