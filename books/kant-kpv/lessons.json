@@ -258,5 +258,70 @@
     "why": "自然法则的形式是道德法则的「典型」。"
    }
   ]
+ },
+ {
+  "id": "t1",
+  "ch": "t",
+  "t": "敬重与义务",
+  "de": "Von den Triebfedern",
+  "min": 25,
+  "html": "<p>顺序的最后一步：从概念到感性。道德法则是理性的，人却是有感性的存在者。法则怎样在人心里起作用？康德的回答是一种独特的情感：<b>敬重</b>。这一章也包含全书最有名的段落：「义务！你这崇高而伟大的名字……」</p>\n<h4>一、合法性与道德性</h4>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th></th><th>合法性（Legalität）</th><th>道德性（Moralität）</th></tr></thead><tbody>\n<tr><th>行动</th><td>合乎义务（pflichtmäßig）</td><td>出于义务（aus Pflicht）</td></tr>\n<tr><th>规定意志的</th><td>某种情感、爱好、利益</td><td>法则本身，经由敬重</td></tr>\n<tr><th>例子</th><td>店主诚实找零，因为怕坏了名声</td><td>店主诚实找零，因为这是义务</td></tr>\n<tr><th>道德价值</th><td>没有</td><td>有</td></tr>\n</tbody></table></div>\n<h4>二、敬重是什么样的情感</h4>\n<ul>\n<li><b>消极的一面</b>：法则压下与它冲突的一切爱好，打倒「自负」——这对感性是一种痛苦。</li>\n<li><b>积极的一面</b>：意识到自己能服从理性自己的法则——这是一种提升。</li>\n<li><b>独特之处</b>：别的情感都是经验的；敬重是由理性引起的，是唯一能先天认识的情感。</li>\n<li><b>对象</b>：只针对人，不针对物。事物可以引起喜爱、恐惧、惊叹，但不引起敬重。</li>\n</ul>\n[[Vor einem Vornehmen bücke ich mich, aber mein Geist bückt sich nicht]]\n<p>在一个比我正直的普通人面前，我的精神会鞠躬：他的榜样让我看到法则是能被遵守的。</p>\n<h4>三、义务的起源：人格</h4>\n<p>「义务！」那段呼告最后问：你的高贵出身在哪里？康德答：在<b>人格</b>（Persönlichkeit），也就是人作为自由的、自己给自己立法的存在者。人同时属于两个世界：作为感官世界的一员，他服从自然；作为理知世界的一员，他服从自己的理性。</p>\n[[nur der Mensch und mit ihm jedes vernünftige Geschöpf ist Zweck an sich selbst]]\n<h4>四、语法小结</h4>\n<ul>\n<li><b>der du …</b>：称呼对方时的关系从句，动词按 du 变位：der du … fassest, … verlangst, … aufstellst。</li>\n<li><b>um … willen</b>：um des Gesetzes willen（为了法则的缘故，第二格夹在中间）。</li>\n<li><b>mögen 表让步</b>：ich mag wollen oder nicht（不管我愿不愿意，第 4 章见过）。</li>\n<li><b>zu-不定式作主语</b>：von welcher Wurzel abzustammen … ist（出自这个根，是……）。</li>\n</ul>\n{{quiz:s1}}",
+  "quiz": [
+   {
+    "id": "t1a",
+    "sec": "s1",
+    "de": "so wird die Handlung zwar <<Legalität>>, aber nicht Moralität enthalten",
+    "opts": [
+     "合乎法则，但不是出于法则",
+     "既合法又道德"
+    ],
+    "ans": 0,
+    "why": "借助情感规定意志，就只有合法性。"
+   },
+   {
+    "id": "t1b",
+    "sec": "s1",
+    "de": "dieses Gefühl ist das einzige, welches wir völlig a priori <<erkennen>>",
+    "opts": [
+     "敬重是唯一能先天认识的情感",
+     "一切情感都是先天的"
+    ],
+    "ans": 0,
+    "why": "敬重由理性引起，不来自经验。"
+   },
+   {
+    "id": "t1c",
+    "sec": "s1",
+    "de": "Achtung geht jederzeit nur auf <<Personen>>, niemals auf Sachen",
+    "opts": [
+     "敬重只针对人",
+     "敬重也可以针对高山大海"
+    ],
+    "ans": 0,
+    "why": "事物只能引起喜爱、恐惧或惊叹。"
+   },
+   {
+    "id": "t1d",
+    "sec": "s1",
+    "de": "pflichtmäßig und <<aus>> Pflicht",
+    "opts": [
+     "出于义务才有道德价值",
+     "合乎义务就够了"
+    ],
+    "ans": 0,
+    "why": "合乎义务只是合法性。"
+   },
+   {
+    "id": "t1e",
+    "sec": "s1",
+    "de": "aber die Menschheit in seiner Person muß ihm <<heilig>> sein",
+    "opts": [
+     "人格中的人性是神圣的",
+     "人本身是神圣的"
+    ],
+    "ans": 0,
+    "why": "「人固然够不神圣」，但人性必须是神圣的。"
+   }
+  ]
  }
 ]

@@ -1,0 +1,175 @@
+[
+ {
+  "h": "一 · 合法性与道德性",
+  "t": "Von den Triebfedern",
+  "k": "1",
+  "pg": "AA V 71",
+  "sum": "顺序的第三步：从概念到感性。道德法则怎样在一个有感性的存在者（人）心里起作用？康德把推动意志的主观根据叫「动机」（Triebfeder，本义「发条」）。先说结论：",
+  "s": [
+   {
+    "de": "Das{nn} Wesentliche alles sittlichen Werts der{gp} Handlungen kommt darauf an, daß das{nn} moralische Gesetz unmittelbar den{am} Willen bestimme.",
+    "zh": "行动的一切道德价值，其本质在于：道德法则直接规定意志。",
+    "n": [
+     "das Wesentliche：本质的东西（形容词名词化，第 26 课）。alles sittlichen Werts：一切道德价值的（alles 修饰属格）。",
+     "auf etw. ankommen：取决于、在于（kommt … darauf an）。darauf 预指后面的 daß-从句（第 20 课）。bestimme：虚拟式一。",
+     "unmittelbar：直接地——不经过任何情感、欲望作中介。"
+    ]
+   },
+   {
+    "de": "Geschieht die{nf} Willensbestimmung zwar gemäß dem{dn} moralischen Gesetze, aber nur vermittelst eines{gn} Gefühls, welcher{gf} Art es{it} auch sei, das{rel:nn} vorausgesetzt werden muß, damit jenes{nn} ein{nm} hinreichender Bestimmungsgrund des{gm} Willens werde, mithin nicht um des{gn} Gesetzes willen: so wird die{nf} Handlung zwar Legalität, aber nicht Moralität enthalten.",
+    "zh": "如果意志的规定虽然符合道德法则，却只是借助一种情感——不论哪一种——而这种情感必须先被预设，法则才能成为意志的充分规定根据，因而不是为了法则的缘故，那么这个行动虽然具有合法性，却不具有道德性。",
+    "n": [
+     "拆解：动词开头的条件句 Geschieht die Willensbestimmung zwar gemäß dem moralischen Gesetze, aber nur vermittelst eines Gefühls（如果意志规定虽合乎法则，却只借助一种情感）+ 插入 welcher Art es auch sei（不论哪一种）+ 关系从句 das vorausgesetzt werden muß, damit jenes … werde（这种情感必须先被预设，法则才能……）+ mithin nicht um des Gesetzes willen（因而不是为了法则）→ so wird die Handlung zwar Legalität, aber nicht Moralität enthalten（行动有合法性，没有道德性）。",
+     "gemäß + 第三格：符合。vermittelst + 第二格：借助。welcher Art es auch sei：不论它是哪一种（第二格表性质；auch + 虚拟式一表让步）。",
+     "jenes = das moralische Gesetz。um … willen：为了……的缘故（um des Gesetzes willen，第二格夹在中间）。",
+     "die Legalität：合法性（行为合乎法则）。die Moralität：道德性（出于对法则的敬重）。例：店主诚实找零，如果只是怕坏了名声，就只有合法性。"
+    ]
+   }
+  ]
+ },
+ {
+  "h": "二 · 敬重：唯一的道德情感",
+  "t": "Achtung",
+  "k": "2",
+  "pg": "AA V 73",
+  "sum": "道德法则直接规定意志，就要压下一切与它冲突的爱好。这对感性来说是一种痛苦。所有爱好合起来叫「自私」，它分两种：自爱（对自己过分的好意）和自负（对自己的自满）。道德法则只限制自爱，使它成为「合理的自爱」；却把自负彻底打倒：",
+  "s": [
+   {
+    "de": "Also schlägt das{nn} moralische Gesetz den{am} Eigendünkel nieder.",
+    "zh": "所以，道德法则打倒了自负。",
+    "n": [
+     "niederschlagen：打倒（schlägt … nieder，可分动词）。der Eigendünkel：自负、自以为了不起（eigen + Dünkel 傲慢）。",
+     "为什么？因为人的一切价值，首先取决于他的意念是否与道德法则一致；在此之前的一切自我评价都是空的。"
+    ]
+   },
+   {
+    "de": "Also ist Achtung fürs moralische Gesetz ein{nn} Gefühl, welches{nn} durch einen{am} intellektuellen Grund gewirkt wird, und dieses{nn} Gefühl ist das{nn} einzige, welches{an} wir völlig a priori erkennen, und dessen{rel:gn} Notwendigkeit wir einsehen können.",
+    "zh": "所以，对道德法则的敬重是一种由理智的根据所引起的情感；这种情感是我们完全先天地认识、并能看出其必然性的唯一情感。",
+    "n": [
+     "拆解：① Also ist Achtung fürs moralische Gesetz ein Gefühl（对道德法则的敬重是一种情感）+ welches durch einen intellektuellen Grund gewirkt wird（它由理智的根据引起）。② dieses Gefühl ist das einzige（这是唯一的情感）+ 两个关系从句：welches wir völlig a priori erkennen（我们完全先天认识的）, und dessen Notwendigkeit wir einsehen können（我们能看出其必然性的）。",
+     "die Achtung：敬重。fürs = für das。gewirkt werden：被引起（wirken 产生作用）。",
+     "一般的情感都是经验的（先有对象刺激，才有感受）；敬重却是理性自己引起的。它一面是痛苦（压下爱好），一面是提升（意识到自己能服从理性的法则）。"
+    ]
+   }
+  ]
+ },
+ {
+  "h": "三 · 我的精神在他面前鞠躬",
+  "t": "Achtung geht auf Personen",
+  "k": "3",
+  "pg": "AA V 76–77",
+  "sum": "敬重是什么样的感受？",
+  "s": [
+   {
+    "de": "Achtung geht jederzeit nur auf Personen, niemals auf Sachen.",
+    "zh": "敬重永远只针对人，从不针对事物。",
+    "n": [
+     "auf etw. gehen：针对、指向。康德接着说：事物可以引起爱好、喜爱（如马、狗），或者恐惧（如大海、火山、猛兽），甚至惊叹（如高山），但从不引起敬重。"
+    ]
+   },
+   {
+    "de": "Fontenelle sagt: Vor einem{dm} Vornehmen bücke ich mich, aber mein{nm} Geist bückt sich{refl} nicht.",
+    "zh": "丰特奈尔说：在一个显贵面前，我弯腰，但我的精神不弯腰。",
+    "n": [
+     "Fontenelle：丰特奈尔（法国作家，1657–1757）。der Vornehme：显贵（形容词名词化，第 26 课）。",
+     "sich bücken：弯腰、鞠躬。bücke ich mich：前场是 Vor einem Vornehmen，所以主语 ich 在动词后（第 7 课）。der Geist：精神。"
+    ]
+   },
+   {
+    "de": "Ich kann hinzusetzen: Vor einem{dm} niedrigen, bürgerlich gemeinen Mann, an dem{rel:dm} ich eine{af} Rechtschaffenheit des{gm} Charakters in einem{dn} gewissen Maße, als ich mir von mir selbst nicht bewußt bin, wahrnehme, bückt sich{refl} mein{nm} Geist, ich mag wollen oder nicht und den{am} Kopf noch so hoch tragen, um ihn meinen{am} Vorrang nicht übersehen zu lassen.",
+    "zh": "我可以补充一句：在一个地位低微的普通市民面前，如果我在他身上看到一种品格的正直，其程度是我在自己身上意识不到的，那么我的精神就会鞠躬，不管我愿不愿意，也不管我为了不让他忽视我的优越地位而把头抬得多高。",
+    "n": [
+     "拆解：前场 Vor einem niedrigen, bürgerlich gemeinen Mann（在一个低微的普通市民面前）+ 关系从句 an dem ich eine Rechtschaffenheit des Charakters in einem gewissen Maße, als ich mir von mir selbst nicht bewußt bin, wahrnehme（我在他身上看到某种程度的正直，是我在自己身上意识不到的）→ bückt sich mein Geist（我的精神鞠躬）+ 让步 ich mag wollen oder nicht und den Kopf noch so hoch tragen（不管我愿不愿意、把头抬得多高）+ um … zu …（为了……）。",
+     "niedrig：低微的。bürgerlich gemein：普通市民的（gemein = 普通，第 30 课）。die Rechtschaffenheit：正直。in einem gewissen Maße, als …：达到……那种程度。wahrnehmen：察觉。",
+     "ich mag … noch so hoch tragen：不管我抬得多高（mögen + noch so：让步）。der Vorrang：优越地位。jn. etw. übersehen lassen：让某人忽视某事。"
+    ]
+   },
+   {
+    "de": "Warum das{dem:nn}?",
+    "zh": "为什么呢？",
+    "n": [
+     "das：指示代词，指上面的事。"
+    ]
+   },
+   {
+    "de": "Sein{nn} Beispiel hält mir ein{an} Gesetz vor, das{rel:an} meinen{am} Eigendünkel niederschlägt, wenn ich es{it} mit meinem{dn} Verhalten vergleiche, und dessen{rel:gn} Befolgung, mithin die{af} Tunlichkeit desselben{gn}, ich durch die{af} Tat bewiesen vor mir sehe.",
+    "zh": "他的榜样在我面前举起一条法则：当我把它和我自己的行为相比时，它打倒了我的自负；而它的遵守，因而它的可行性，我亲眼看到已经被事实证明了。",
+    "n": [
+     "拆解：Sein Beispiel hält mir ein Gesetz vor（他的榜样在我面前举起一条法则）+ 两个关系从句：① das meinen Eigendünkel niederschlägt, wenn ich es mit meinem Verhalten vergleiche（当我拿它比照自己的行为，它打倒我的自负）② und dessen Befolgung, mithin die Tunlichkeit desselben, ich durch die Tat bewiesen vor mir sehe（它的被遵守、因而可行性，我看到已被事实证明）。",
+     "jm. etw. vorhalten：在某人面前举起……（hält … vor）。das Beispiel：榜样。",
+     "die Befolgung：遵守。die Tunlichkeit：可行性（tun + -lich + -keit，第 26 课）。etw. bewiesen vor sich sehen：亲眼看到……被证明。",
+     "敬重的对象其实不是这个人，而是他身上体现的法则：他证明了这条法则是能被遵守的。"
+    ]
+   }
+  ]
+ },
+ {
+  "h": "四 · 合乎义务与出于义务",
+  "t": "Pflicht",
+  "k": "4",
+  "pg": "AA V 81",
+  "sum": "由此可以定义义务：",
+  "s": [
+   {
+    "de": "Der{nm} Begriff der{gf} Pflicht fordert also an der{df} Handlung objektiv Übereinstimmung mit dem{dn} Gesetze, an der{df} Maxime derselben{gf} aber subjektiv Achtung fürs Gesetz, als die{af} alleinige Bestimmungsart des{gm} Willens durch dasselbe{an}.",
+    "zh": "所以，义务的概念在行动上客观地要求与法则一致，在行动的准则上则主观地要求对法则的敬重，作为法则规定意志的唯一方式。",
+    "n": [
+     "拆解：Der Begriff der Pflicht fordert（义务概念要求）：an der Handlung objektiv Übereinstimmung mit dem Gesetze（在行动上客观地与法则一致）, an der Maxime derselben aber subjektiv Achtung fürs Gesetz（在准则上主观地敬重法则）。",
+     "an etw. fordern：在……上要求。die Übereinstimmung：一致。derselben = der Handlung。",
+     "die Bestimmungsart：规定方式。durch dasselbe：通过它（法则）。"
+    ]
+   },
+   {
+    "de": "Und darauf beruht der{nm} Unterschied zwischen dem{dn} Bewußtsein, pflichtmäßig und aus Pflicht, d.i. aus Achtung fürs Gesetz, gehandelt zu haben, davon das{nn} erstere (die{nf} Legalität) auch möglich ist, wenn Neigungen bloß die{np} Bestimmungsgründe des{gm} Willens gewesen wären, das{nn} zweite aber (die{nf} Moralität), der{nm} moralische Wert, lediglich darin gesetzt werden muß, daß die{nf} Handlung aus Pflicht, d.i. bloß um des{gn} Gesetzes Willen{um}, geschehe.",
+    "zh": "由此就有了这样的区别：意识到自己是合乎义务地行动的，还是出于义务、即出于对法则的敬重而行动的。前者（合法性）即使在爱好是意志的唯一规定根据时也是可能的；后者（道德性），即道德价值，却只能在于行动是出于义务、也就是仅仅为了法则的缘故而发生的。",
+    "n": [
+     "拆解：darauf beruht der Unterschied zwischen dem Bewußtsein, pflichtmäßig und aus Pflicht … gehandelt zu haben（由此有了「合乎义务」和「出于义务」行动的意识的区别）+ davon（其中）：das erstere (die Legalität) auch möglich ist, wenn …（前者在……时也可能）, das zweite aber (die Moralität) … lediglich darin gesetzt werden muß, daß …（后者只能在于……）。",
+     "pflichtmäßig：合乎义务的（Pflicht + mäßig）。aus Pflicht：出于义务。gehandelt zu haben：已经行动了（完成时 zu-不定式）。",
+     "gewesen wären：虚拟式二过去时（即使只是……）。etw. in etw. setzen：把……放在……上（被动：gesetzt werden muß）。geschehe：虚拟式一。um des Gesetzes Willen：为了法则（Willen 这里大写，是康德的写法）。",
+     "这是康德伦理学最有名的区分：合乎义务的行动可以出于任何动机；只有出于义务的行动才有道德价值。"
+    ]
+   }
+  ]
+ },
+ {
+  "h": "五 · 义务！",
+  "t": "Pflicht! Du erhabener, großer Name",
+  "k": "5",
+  "pg": "AA V 86–87",
+  "sum": "康德批评了把道德建立在热情、英雄气概或多愁善感之上的「道德狂热」，然后写下了全书最著名的一段：",
+  "s": [
+   {
+    "de": "Pflicht! Du erhabener, großer Name, der{rel:nm} du nichts Beliebtes, was Einschmeichelung bei sich{refl} führt, in dir fassest, sondern Unterwerfung verlangst, doch auch nichts drohest, was natürliche Abneigung im Gemüte erregte und schreckte, um den{am} Willen zu bewegen, sondern bloß ein{an} Gesetz aufstellst, welches{nn} von selbst im Gemüte Eingang findet und doch sich{refl} selbst wider Willen Verehrung (wenn gleich nicht immer Befolgung) erwirbt, vor dem{rel:dn} alle{np} Neigungen verstummen, wenn sie{they} gleich insgeheim ihm entgegen wirken: welches{nn} ist der{nm} deiner würdige Ursprung, und wo findet man die{af} Wurzel deiner{gf} edlen Abkunft, welche{nf} alle{af} Verwandtschaft mit Neigungen stolz ausschlägt, und von welcher{df} Wurzel abzustammen, die{nf} unnachlaßliche Bedingung desjenigen{gm} Werts ist, den{rel:am} sich{refl} Menschen allein selbst geben können?",
+    "zh": "义务！你这崇高而伟大的名字！你身上没有任何讨人喜欢、令人逢迎的东西，你要求的是服从；可你也不用任何会在心中引起天然的厌恶和恐惧的东西来威胁人，以此推动意志；你只是立起一条法则，它自己就进入人心，甚至违背人的意愿也为自己赢得尊崇（虽然并不总是被遵守）；在它面前，一切爱好都沉默了，即使它们暗中与它作对。什么才是配得上你的起源？在哪里能找到你高贵出身的根——它骄傲地拒绝与爱好有任何亲缘关系——而出自这个根，正是人唯一能自己给予自己的那种价值的不可或缺的条件？",
+    "n": [
+     "拆解：这是一个长长的呼告句。① Pflicht! Du erhabener, großer Name（义务！你这崇高伟大的名字），后面一串关系从句，主语都是 du：der du nichts Beliebtes … in dir fassest, sondern Unterwerfung verlangst（你不包含讨好的东西，而要求服从）, doch auch nichts drohest, …, sondern bloß ein Gesetz aufstellst（你也不威胁，只是立起一条法则）。② 法则又带关系从句：welches von selbst im Gemüte Eingang findet und … Verehrung … erwirbt（它自己进入人心，赢得尊崇）, vor dem alle Neigungen verstummen（在它面前爱好都沉默）。③ 冒号后才是真正的问题：welches ist der deiner würdige Ursprung（什么是配得上你的起源）, und wo findet man die Wurzel deiner edlen Abkunft（你高贵出身的根在哪里）。",
+     "der du …：关系代词 + du（称呼对方时的关系从句，动词跟 du 变位：fassest, verlangst, drohest, aufstellst）。erhaben：崇高的。",
+     "nichts Beliebtes：没有讨喜的东西（形容词名词化）。die Einschmeichelung：逢迎。bei sich führen：带着。die Unterwerfung：服从。",
+     "erregte und schreckte：虚拟式二（会引起……的东西）。die Abneigung：厌恶。das Gemüt：心灵（古式与格 im Gemüte）。",
+     "Eingang finden：被接受、进入。wider Willen：违背意愿。die Verehrung：尊崇。erwerben：赢得。verstummen：沉默。wenn … gleich：即使。insgeheim：暗中。entgegen wirken：对抗。",
+     "der deiner würdige Ursprung：配得上你的起源（deiner：du 的第二格；einer Sache würdig sein：配得上，扩展定语）。die Abkunft：出身。ausschlagen：拒绝。",
+     "von welcher Wurzel abzustammen：出自这个根（zu-不定式作主语）。unnachlaßlich：不可或缺的。desjenigen Werts, den …：那种……的价值。",
+     "答案在下一句：它的根就是人格，即人作为自由的、自己立法的存在者。"
+    ]
+   },
+   {
+    "de": "Der{nm} Mensch ist zwar unheilig genug, aber die{nf} Menschheit in seiner{df} Person muß ihm heilig sein.",
+    "zh": "人固然是够不神圣的，但他人格中的人性对他来说必须是神圣的。",
+    "n": [
+     "zwar …, aber：固然……但是（第 29 课）。unheilig：不神圣的。",
+     "die Menschheit：这里不是「人类」，而是「人性」：人作为理性存在者的那个部分。in seiner Person：在他的人格中。jm. heilig sein：对某人是神圣的。"
+    ]
+   },
+   {
+    "de": "In der{df} ganzen Schöpfung kann alles, was man will, und worüber man etwas vermag, auch bloß als Mittel gebraucht werden; nur der{nm} Mensch und mit ihm jedes{nn} vernünftige Geschöpf ist Zweck an sich{refl} selbst.",
+    "zh": "在整个造物界，一切人们想要的、能够支配的东西，都可以仅仅被当作手段来使用；只有人，以及与人一起的每一个理性造物，才是目的本身。",
+    "n": [
+     "拆解：① In der ganzen Schöpfung kann alles, was man will, und worüber man etwas vermag, auch bloß als Mittel gebraucht werden（造物界一切……都可以仅被当作手段）。② nur der Mensch und mit ihm jedes vernünftige Geschöpf ist Zweck an sich selbst（只有人和理性造物是目的本身）。",
+     "die Schöpfung：造物、创造物的总和。worüber man etwas vermag：人们对它有支配力的（über etw. etwas vermögen：对……有能力）。",
+     "als Mittel gebraucht werden：被当作手段使用。der Zweck an sich selbst：目的本身。",
+     "这就是《道德形而上学奠基》里定言命令的第二个表述：要这样行动，永远把人性——无论是你自己的还是别人的——同时当作目的，而绝不仅仅当作手段。"
+    ]
+   }
+  ]
+ }
+]
