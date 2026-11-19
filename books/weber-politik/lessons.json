@@ -214,5 +214,92 @@
     "why": "卡里斯马领袖想自己当主人；第二种职业政治家则为君主效力，以此谋生，也以此为生活内容。"
    }
   ]
+ },
+ {
+  "id": "w5",
+  "ch": "k3",
+  "t": "为政治而活，靠政治而活",
+  "de": "Für die Politik und von der Politik leben",
+  "min": "25",
+  "html": "<p>第 2 章讲了统治的装备。第 3 章转向使用这些装备的<b>人</b>：职业政治家。Weber 先分出三种搞政治的方式，再提出全书最有名的一对概念：<b>为</b>政治而活（für）与<b>靠</b>政治而活（von）。</p>\n<h4>一、三种搞政治的方式</h4>\n[[sowohl als »Gelegenheits«politiker wie als nebenberuflicher oder hauptberuflicher Politiker]]\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th></th><th>临时（Gelegenheits-）</th><th>兼职（nebenberuflich）</th><th>专职（hauptberuflich）</th></tr></thead><tbody>\n<tr><th>做什么</th><td>投票、鼓掌、抗议、演说</td><td>只在需要时活动</td><td>以政治为本职</td></tr>\n<tr><th>今天</th><td>我们每个人</td><td>党务受托人、咨议机构成员、只在会期搞政治的议员</td><td>本章和下面几章的主角</td></tr>\n<tr><th>过去</th><td>—</td><td>各「等级」，君主的「家外顾问」</td><td>君主必须建立的专职班子</td></tr>\n</tbody></table></div>\n<h4>二、为政治而活，靠政治而活</h4>\n[[Entweder: man lebt »für« die Politik – oder aber: »von« der Politik.]]\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th></th><th>für：为政治而活</th><th>von：靠政治而活</th></tr></thead><tbody>\n<tr><th>精神上</th><td colspan=\"2\">分不开：为一项事业而活的人，也在精神上靠这项事业而活（享受权力，或从「为事业服务」中获得生活的意义）</td></tr>\n<tr><th>经济上</th><td>不靠政治挣钱</td><td>力求把政治变成持久的收入来源</td></tr>\n</tbody></table></div>\n<p>所以这对概念<b>不互斥</b>：真正的区别在经济上。</p>\n<h4>三、在经济上「为」政治而活的两个前提</h4>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>前提</th><th>意思</th><th>例子</th></tr></thead><tbody>\n<tr><th>有财产（vermögend）</th><td>不依赖政治带来的收入</td><td>自己有财产，或有足够收入的私人职位</td></tr>\n<tr><th>抽得开身（abkömmlich）</th><td>收入不依赖于自己天天去干活</td><td>最能抽身：食利者（Rentner）。抽不开身：工人、企业家、医生。比较容易：律师</td></tr>\n</tbody></table></div>\n<p>战争首领和街头革命英雄的追随者靠战利品、没收、摊派过活，不问正常经济的条件；但那是非日常的现象。</p>\n<h4>四、反推方法</h4>\n<ol>\n<li><b>小介词定大意</b>：für die Politik（为了，政治是目的）与 von der Politik（从中获取，政治是生计）。读 Weber 时，把这两个介词圈出来，整段的论证就清楚了。</li>\n<li><b>省略句</b>：Ebenso jene Mitglieder …、Ebenso aber auch … Parlamentarier …、Nicht anders auch ein Teil …：没有动词，把上一句的谓语（sind nebenberufliche Politiker）补进去读。</li>\n<li><b>表语提前</b>：»Gelegenheits«politiker sind wir alle、Abkömmlich in diesem Sinne ist … der Rentner：句首是表语，主语在后面。</li>\n<li><b>wer-从句当主语放在最后</b>：»Von« der Politik als Beruf lebt, wer …：先读 wer 之后的部分（谁），再回来读前面（怎样）。</li>\n<li><b>预指词 davon / danach</b>：Davon, woher er diese nahm, hing … ab；wer danach strebt, daraus … zu machen：先找后面的从句或 zu-不定式。</li>\n</ol>\n<h4>五、马上练</h4>\n{{quiz:s1}}\n<h4>六、小结</h4>\n<ul>\n<li>搞政治有三种方式：临时、兼职、专职。</li>\n<li>君主要摆脱等级，必须建立专职的助手班子；从哪里找这些人，决定了国家和文化的面貌。</li>\n<li>为政治而活（für）与靠政治而活（von）在精神上分不开，区别在经济上。</li>\n<li>在经济上为政治而活，需要有财产，还要抽得开身：食利者最容易，企业家最难，律师比较容易。</li>\n</ul>\n<h4>七、读一读</h4>\n<p>回到第 3 章，先读每节的「读前」，再逐句精读；读完做上面的练习。本章还在连载：下一部分讲这两个前提带来的后果。</p>\n<p><button class=\"btn\" data-route=\"weber-politik~ch-k3\">第 3 章</button></p>",
+  "quiz": [
+   {
+    "id": "w5a",
+    "sec": "s1",
+    "de": "»<<Gelegenheits>>«politiker sind wir alle, wenn wir unseren Wahlzettel abgeben",
+    "opts": [
+     "临时政治家：投票时人人都是",
+     "专职政治家：以政治为本职"
+    ],
+    "ans": 0,
+    "why": "Gelegenheit：场合、机会。投票、鼓掌、演说时，我们都临时搞了一下政治。"
+   },
+   {
+    "id": "w5b",
+    "sec": "s1",
+    "de": "welche diese Tätigkeit … nur im <<Bedarfsfalle>> ausüben",
+    "opts": [
+     "兼职政治家：只在需要时活动",
+     "专职政治家：随时在活动"
+    ],
+    "ans": 0,
+    "why": "im Bedarfsfalle：在需要时。这是兼职（nebenberuflich）政治家的特征。"
+   },
+   {
+    "id": "w5c",
+    "sec": "s1",
+    "de": "Aber mit diesen nur gelegentlichen oder nebenberuflichen Hilfskräften kam der Fürst natürlich nicht <<aus>>.",
+    "opts": [
+     "君主靠这些人不够用",
+     "君主不需要这些人"
+    ],
+    "ans": 0,
+    "why": "mit etw. auskommen：靠……够用。kam … nicht aus：不够用，所以他必须建立专职的班子。"
+   },
+   {
+    "id": "w5d",
+    "sec": "s1",
+    "de": "Der Gegensatz ist keineswegs ein <<exklusiver>>.",
+    "opts": [
+     "为政治而活和靠政治而活并不互斥",
+     "两者完全对立"
+    ],
+    "ans": 0,
+    "why": "keineswegs：绝不。在精神上，人通常两者兼有；区别只在经济上。"
+   },
+   {
+    "id": "w5e",
+    "sec": "s1",
+    "de": "»<<Von>>« der Politik als Beruf lebt, wer danach strebt, daraus eine dauernde Einnahmequelle zu machen",
+    "opts": [
+     "靠政治而活：把政治当收入来源",
+     "为政治而活：不靠政治挣钱"
+    ],
+    "ans": 0,
+    "why": "von etw. leben：靠……生活。wer-从句是主语：力求把政治变成持久收入来源的人。"
+   },
+   {
+    "id": "w5f",
+    "sec": "s1",
+    "de": "Abkömmlich in diesem Sinne ist nun am unbedingtesten: der <<Rentner>>",
+    "opts": [
+     "食利者最能抽身",
+     "企业家最能抽身"
+    ],
+    "ans": 0,
+    "why": "食利者的收入（地租、利息）不依赖于他天天去干活。企业家被拴在企业上，抽不开身。"
+   },
+   {
+    "id": "w5g",
+    "sec": "s1",
+    "de": "Leichter schon, aus rein betriebstechnischen Gründen, der <<Advokat>>",
+    "opts": [
+     "律师比较容易抽身，所以在政治中很重要",
+     "律师和医生一样抽不开身"
+    ],
+    "ans": 0,
+    "why": "省略句：Leichter (abkömmlich ist) der Advokat。因此律师作为职业政治家扮演了大得多的角色。"
+   }
+  ]
  }
 ]
