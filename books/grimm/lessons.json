@@ -1153,5 +1153,125 @@
     "why": "gelingt es dir = wenn es dir gelingt。"
    }
   ]
+ },
+ {
+  "id": "r015",
+  "ch": "k015",
+  "t": "读后练习：《亨塞尔与格蕾特》",
+  "de": "Hänsel und Grethel",
+  "min": 30,
+  "html": "<p>毕业篇的读后练习。内容题检查你是否读懂了整个故事；语法题从前面二十五课里各挑一个点，做一次总复习。</p>\n<h4>一、读懂了吗</h4>\n{{quiz:s1}}\n<h4>二、总复习</h4>\n{{quiz:s2}}\n<h4>三、两次被扔进森林</h4>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th></th><th>第一次</th><th>第二次</th></tr></thead><tbody>\n<tr><td>亨塞尔扔的</td><td>weiße Kieselsteine（白石子）</td><td>Brotbröcklein（面包屑）</td></tr>\n<tr><td>借口</td><td>mein weißes Kätzchen（小白猫）</td><td>mein Täubchen（小鸽子）</td></tr>\n<tr><td>结果</td><td>月光下石子发亮，回到家</td><td>鸟把面包屑吃光，迷了路</td></tr>\n</tbody></table></div>\n<h4>四、读完这个读本</h4>\n<p>从《星星金币》的 300 词到这里的 2700 词，你已经读完了十二篇格林童话。下一步可以去读书架上的《什么是启蒙》：康德的句子更长，但用的语法，你都已经学过了。</p>\n<p><button class=\"btn\" data-route=\"grimm~ch-k015\">回到原文</button></p>",
+  "quiz": [
+   {
+    "id": "q015a",
+    "sec": "s1",
+    "de": "wir wollen Morgen in aller Frühe die Kinder hinaus in den Wald führen",
+    "opts": [
+     "继母要把孩子扔在森林里",
+     "继母要带孩子去砍柴挣钱"
+    ],
+    "ans": 0,
+    "why": "「我们就甩掉他们了」：继母的计划。"
+   },
+   {
+    "id": "q015b",
+    "sec": "s1",
+    "de": "und die weißen Kieselsteine, die vor dem Haus lagen, glänzten wie lauter Batzen",
+    "opts": [
+     "月光下白石子闪闪发亮",
+     "石子是银币"
+    ],
+    "ans": 0,
+    "why": "wie lauter Batzen：像银币一样（比喻）。"
+   },
+   {
+    "id": "q015c",
+    "sec": "s1",
+    "de": "denn die viel tausend Vögel … die hatten sie weggepickt",
+    "opts": [
+     "面包屑被鸟吃光了",
+     "面包屑被风吹走了"
+    ],
+    "ans": 0,
+    "why": "所以第二次他们迷了路。"
+   },
+   {
+    "id": "q015d",
+    "sec": "s1",
+    "de": "Hänsel streckte ihr aber ein Knöchlein heraus",
+    "opts": [
+     "亨塞尔伸出一根小骨头骗女巫",
+     "亨塞尔伸出了手指"
+    ],
+    "ans": 0,
+    "why": "女巫眼睛昏花，以为是他的手指。"
+   },
+   {
+    "id": "q015e",
+    "sec": "s1",
+    "de": "Da gab ihr Grethel einen Stoß daß sie weit hinein fuhr",
+    "opts": [
+     "格蕾特把女巫推进了烤炉",
+     "女巫把格蕾特推进了烤炉"
+    ],
+    "ans": 0,
+    "why": "ihr = der Hexe（与格）。"
+   },
+   {
+    "id": "q015f",
+    "sec": "s2",
+    "de": "die Kinder <<dauern>> mich doch",
+    "opts": [
+     "让我心疼（主语是孩子）",
+     "持续"
+    ],
+    "ans": 0,
+    "why": "jn dauern：旧用法，让某人怜悯。"
+   },
+   {
+    "id": "q015g",
+    "sec": "s2",
+    "de": "Wer A sagt <<muß>> auch B sagen",
+    "opts": [
+     "wer …, (der) muß：谁……谁就得",
+     "情态动词：必须（主语是 A）"
+    ],
+    "ans": 0,
+    "why": "谚语：wer-从句当主语（第 12 课）。"
+   },
+   {
+    "id": "q015h",
+    "sec": "s2",
+    "de": "weil sie sich nicht mehr zu fürchten <<brauchten>>",
+    "opts": [
+     "nicht brauchen zu：不必",
+     "需要"
+    ],
+    "ans": 0,
+    "why": "第 25 课。"
+   },
+   {
+    "id": "q015i",
+    "sec": "s2",
+    "de": "hätten uns nur die wilden Thiere im Wald gefressen",
+    "opts": [
+     "虚拟式二表示愿望：要是野兽吃了我们就好了",
+     "野兽吃了我们"
+    ],
+    "ans": 0,
+    "why": "动词开头 + 虚拟式二：愿望（第 22 课）。"
+   },
+   {
+    "id": "q015j",
+    "sec": "s2",
+    "de": "Das Reisig <<ward>> angezündet",
+    "opts": [
+     "被动：被点着",
+     "变成"
+    ],
+    "ans": 0,
+    "why": "ward + 分词（第 21 课）。"
+   }
+  ]
  }
 ]

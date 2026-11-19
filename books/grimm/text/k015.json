@@ -1,0 +1,986 @@
+[
+ {
+  "h": "一 · 饥荒",
+  "t": "Große Theuerung",
+  "k": "1",
+  "sum": "读前：学完阅读课第 1–25 课。这是这个读本的毕业篇。\n《亨塞尔与格蕾特》是格林童话第 15 篇，约 2700 词，分九部分，是这个读本里最长的故事。饥荒里，继母逼着樵夫两次把孩子扔进森林；亨塞尔用白石子找回了家，第二次的面包屑却被鸟吃了；兄妹俩找到一座面包糖果做的小房子，房子的主人是吃小孩的女巫。前面学过的语法这里几乎都会出现：情态动词、完成时、被动、虚拟式、lassen……注释会一一指出对应的课。",
+  "s": [
+   {
+    "de": "Vor einem{dm} großen Walde wohnte ein{nm} armer Holzhacker mit seiner{df} Frau und seinen{dp} zwei Kindern; das{nn} Bübchen hieß Hänsel und das{nn} Mädchen Grethel.",
+    "zh": "在一片大森林前面，住着一个穷樵夫和他的妻子、两个孩子；男孩叫亨塞尔，女孩叫格蕾特。",
+    "n": [
+     "拆解：① Vor einem großen Walde wohnte ein armer Holzhacker mit seiner Frau und seinen zwei Kindern（大森林前住着一个穷樵夫和妻子、两个孩子）。② das Bübchen hieß Hänsel und das Mädchen (hieß) Grethel。",
+     "der Holzhacker：樵夫。das Bübchen：小男孩（Bube + -chen）。Hänsel = Hans 的小称；Grethel = Margarete 的小称（今天写 Gretel）。"
+    ]
+   },
+   {
+    "de": "Er hatte wenig zu beißen und zu brechen, und einmal, als große Theuerung ins Land kam, konnte er auch das{an} täglich Brot nicht mehr schaffen.",
+    "zh": "他家里吃的东西很少，有一次，国内闹起大饥荒，他连每天的面包都弄不到了。",
+    "n": [
+     "wenig zu beißen und zu brechen haben：没什么可吃的（固定说法：「没什么可咬可掰的」，zu-不定式修饰 wenig，第 19 课）。",
+     "die Theuerung = Teuerung：物价飞涨、饥荒。das täglich Brot：每天的面包（主祷文里的说法，形容词无词尾）。schaffen：弄到。"
+    ]
+   },
+   {
+    "de": "Wie er sich{refl} nun Abends im Bette Gedanken machte und sich{refl} vor Sorgen herum wälzte, seufzte er und sprach zu seiner{df} Frau „was soll aus uns werden? wie können wir unsere{ap} armen Kinder ernähren, da wir für uns selbst nichts mehr haben?“",
+    "zh": "一天晚上他躺在床上胡思乱想，愁得翻来覆去，叹着气对妻子说：「我们会怎样呢？我们自己都没吃的了，怎么养活可怜的孩子们？」",
+    "n": [
+     "拆解：从句 Wie er sich nun Abends im Bette Gedanken machte und sich vor Sorgen herum wälzte（他晚上在床上想心事、愁得翻来覆去时）→ seufzte er und sprach zu seiner Frau „…“。",
+     "sich Gedanken machen：发愁。sich herumwälzen：翻来覆去。vor Sorgen：因为忧愁。",
+     "was soll aus uns werden?：我们会变成什么样？ernähren：养活。da：既然（第 12 课）。"
+    ]
+   },
+   {
+    "de": "„Weißt du was, Mann,“ antwortete die{nf} Frau, „wir wollen Morgen in aller{df} Frühe die{ap} Kinder hinaus in den{am} Wald führen, wo er am dicksten ist: da machen wir ihnen ein{an} Feuer an und geben jedem{dn} noch ein{an} Stückchen Brot, dann gehen wir an unsere{af} Arbeit und lassen sie{them} allein.",
+    "zh": "「你知道吗，当家的，」妻子回答，「明天一大早，我们把孩子带到林子最密的地方去，给他们生一堆火，每人再给一小块面包，然后我们去干活，把他们留在那里。",
+    "n": [
+     "in aller Frühe：一大早。wo er am dicksten ist：林子最密的地方（最高级，第 15 课；er = der Wald）。",
+     "jm ein Feuer anmachen：给某人生火（可分动词，an 在后面）。jedem：每个人（与格）。",
+     "jn allein lassen：把某人留下不管（lassen 的第三个意思，第 25 课）。"
+    ]
+   },
+   {
+    "de": "Sie{they} finden den{am} Weg nicht wieder nach Haus und wir sind sie{them} los.“",
+    "zh": "他们找不到回家的路，我们就甩掉他们了。」",
+    "n": [
+     "现在时表示将来。jn los sein：摆脱了某人。"
+    ]
+   },
+   {
+    "de": "„Nein, Frau,“ sagte der{nm} Mann, „das{dem:an} thue ich nicht; wie sollt ichs übers Herz bringen meine{ap} Kinder im Walde allein zu lassen, die{np} wilden Thiere würden bald kommen und sie{them} zerreißen.“",
+    "zh": "「不，老婆，」男人说，「这我不干；我怎么忍心把孩子们单独留在林子里，野兽很快就会来把他们撕碎的。」",
+    "n": [
+     "das thue ich nicht：这我不做（das 是宾语，提前）。",
+     "es übers Herz bringen, … zu …：忍心做……。sollt ichs = sollte ich es（虚拟式）。",
+     "würden … kommen und … zerreißen：会来、会撕碎（würde + 不定式，第 17、22 课）。"
+    ]
+   },
+   {
+    "de": "„O du Narr,“ sagte sie{she}, „dann müssen wir alle{np} viere Hungers sterben, du kannst nur die{ap} Bretter für die{ap} Särge hobelen,“ und ließ ihm keine{af} Ruhe bis er einwilligte.",
+    "zh": "「你这个傻瓜，」她说，「那我们四个就都得饿死，你就只管刨棺材板吧。」她纠缠着他，直到他同意为止。",
+    "n": [
+     "der Narr：傻瓜。Hungers sterben：饿死（属格表示原因，第 18 课）。",
+     "das Brett：木板；der Sarg → die Särge：棺材。hobelen = hobeln：刨。",
+     "jm keine Ruhe lassen：不让某人安宁。einwilligen：同意（从句里不拆）。"
+    ]
+   },
+   {
+    "de": "„Aber die{np} armen Kinder dauern mich doch“ sagte der{nm} Mann.",
+    "zh": "「可是那两个可怜的孩子，我还是心疼啊。」男人说。",
+    "n": [
+     "jn dauern：让某人心疼、怜悯（旧用法，主语是被怜悯的人）：die Kinder dauern mich = 孩子们让我心疼。"
+    ]
+   }
+  ]
+ },
+ {
+  "h": "二 · 白石子",
+  "t": "Die Kieselsteine",
+  "k": "2",
+  "s": [
+   {
+    "de": "Die{np} zwei Kinder hatten vor Hunger auch nicht einschlafen können und hatten gehört was die{nf} Stiefmutter zum Vater gesagt hatte.",
+    "zh": "两个孩子饿得也睡不着，听见了继母对父亲说的话。",
+    "n": [
+     "hatten … nicht einschlafen können：双不定式（过去完成时，第 16 课）。",
+     "was … gesagt hatte：她说过的话（过去完成时）。"
+    ]
+   },
+   {
+    "de": "Grethel weinte bittere Thränen und sprach zu Hänsel „nun ists um uns geschehen.“",
+    "zh": "格蕾特伤心地哭了，对亨塞尔说：「这下我们完了。」",
+    "n": [
+     "bittere Thränen weinen：伤心地流泪（Thränen = Tränen）。es ist um jn geschehen：某人完了（ists = ist es）。"
+    ]
+   },
+   {
+    "de": "„Still, Grethel,“ sprach Hänsel, „gräme dich{refl} nicht, ich will uns{refl} schon helfen.“",
+    "zh": "「别出声，格蕾特，」亨塞尔说，「别难过，我会想办法的。」",
+    "n": [
+     "sich grämen：发愁（命令式 gräme dich nicht）。ich will uns schon helfen：我一定会帮我们（wollen 表示决心）。"
+    ]
+   },
+   {
+    "de": "Und als die{np} Alten eingeschlafen waren, stand er auf, zog sein{an} Röcklein an, machte die{af} Unterthüre auf und schlich sich{refl} hinaus.",
+    "zh": "等两个大人睡着了，他就起来，穿上小外衣，打开下半扇门，溜了出去。",
+    "n": [
+     "die Alten：两个大人（形容词名词化）。eingeschlafen waren：过去完成时（用 sein）。",
+     "aufstehen、anziehen、aufmachen：可分动词，前缀都在各段末尾（第 9 课）。die Unterthüre：上下分开的门的下半扇。sich hinausschleichen：溜出去。"
+    ]
+   },
+   {
+    "de": "Da schien der{nm} Mond ganz helle, und die{np} weißen Kieselsteine, die{rel:np} vor dem{dn} Haus lagen, glänzten wie lauter Batzen.",
+    "zh": "月光很亮，屋前的白石子闪闪发光，像一枚枚银币。",
+    "n": [
+     "helle = hell。der Kieselstein：鹅卵石。glänzen：闪光。",
+     "der Batzen：巴岑（一种旧银币）。wie lauter Batzen：像满地的银币（lauter：全是，不变格）。"
+    ]
+   },
+   {
+    "de": "Hänsel bückte sich{refl} und steckte so viel in sein{an} Rocktäschlein, als nur hinein wollten.",
+    "zh": "亨塞尔弯下腰，往外衣口袋里塞石子，能塞多少塞多少。",
+    "n": [
+     "so viel …, als nur hinein wollten：能装多少就装多少（hineinwollen：想进去，省掉了 gehen；主语是石子）。das Rocktäschlein：外衣的小口袋。"
+    ]
+   },
+   {
+    "de": "Dann gieng er wieder zurück, sprach zu Grethel „sei getrost, liebes Schwesterchen und schlaf nur ruhig ein, Gott wird uns nicht verlassen,“ und legte sich{refl} wieder in sein{an} Bett.",
+    "zh": "然后他回去对格蕾特说：「放心吧，好妹妹，安心睡吧，上帝不会抛弃我们的。」说完又躺回了床上。",
+    "n": [
+     "sei getrost：放心（sein 的命令式）。einschlafen：睡着（命令式 schlaf … ein）。",
+     "wird … verlassen：将来时（第 17 课）。verlassen：抛弃。"
+    ]
+   },
+   {
+    "de": "Als der{nm} Tag anbrach, noch ehe die{nf} Sonne aufgegangen war, kam schon die{nf} Frau und weckte die{ap} beiden Kinder, „steht auf, ihr{you} Faullenzer, wir wollen in den{am} Wald gehen und Holz holen.“",
+    "zh": "天刚破晓，太阳还没出来，那女人就来叫醒两个孩子：「起来，你们这两个懒虫，我们要到林子里去拉柴。」",
+    "n": [
+     "anbrechen：（天）破晓。ehe：在……之前。aufgegangen war：（太阳）升起了。",
+     "wecken：叫醒。die beiden Kinder：两个孩子。steht auf：命令式（对 ihr）。der Faullenzer = Faulenzer：懒虫。"
+    ]
+   },
+   {
+    "de": "Dann gab sie{she} jedem{dn} ein{an} Stückchen Brot und sprach „da habt ihr{you} etwas für den{am} Mittag, aber eßts nicht vorher auf, weiter kriegt ihr{you} nichts.“",
+    "zh": "然后她给每人一小块面包，说：「这是你们的午饭，可别提前吃掉，再没别的了。」",
+    "n": [
+     "da habt ihr …：给你们……。eßts … auf = eßt es auf：把它吃光（aufessen 的命令式）。kriegen：得到（口语）。"
+    ]
+   },
+   {
+    "de": "Grethel nahm das{an} Brot unter die{af} Schürze, weil Hänsel die{ap} Steine in der{df} Tasche hatte.",
+    "zh": "格蕾特把面包放在围裙底下，因为亨塞尔的口袋里装着石子。",
+    "n": [
+     "unter die Schürze：放到围裙下（宾格，方向）。die Tasche：口袋。"
+    ]
+   },
+   {
+    "de": "Danach machten sie{they} sich{refl} alle{np} zusammen auf den{am} Weg nach dem{dm} Wald.",
+    "zh": "然后他们一起上路往林子去。",
+    "n": [
+     "sich auf den Weg machen：上路。alle zusammen：全都一起。"
+    ]
+   },
+   {
+    "de": "Als sie{they} ein{an} Weilchen gegangen waren, stand Hänsel still und guckte nach dem{dn} Haus zurück und that das{dem:an} wieder und immer wieder.",
+    "zh": "走了一会儿，亨塞尔站住，回头望着房子，一次又一次。",
+    "n": [
+     "stillstehen：站住。zurückgucken：回头看。immer wieder：一次又一次。"
+    ]
+   },
+   {
+    "de": "Der{nm} Vater sprach „Hänsel, was guckst du da und bleibst zurück, hab Acht und vergiß deine{ap} Beine nicht.“",
+    "zh": "父亲说：「亨塞尔，你在那里看什么，落在后面了，小心点，别忘了走路。」",
+    "n": [
+     "zurückbleiben：落在后面。hab Acht：小心（haben 的命令式）。vergiß deine Beine nicht：别忘了你的腿（＝好好走路，玩笑话）。"
+    ]
+   },
+   {
+    "de": "„Ach, Vater,“ sagte Hänsel, „ich sehe nach meinem{dn} weißen Kätzchen, das{dem:nn} sitzt oben auf dem{dn} Dach und will mir Ade sagen.“",
+    "zh": "「啊，爸爸，」亨塞尔说，「我在看我的小白猫，它坐在屋顶上，想跟我说再见。」",
+    "n": [
+     "nach etw. sehen：看着……。das Kätzchen：小猫。das sitzt：它坐着（指示代词）。Ade sagen：说再见（Ade = adieu）。"
+    ]
+   },
+   {
+    "de": "Die{nf} Frau sprach „Narr, das{dem:nn} ist dein{nn} Kätzchen nicht, das{dem:nn} ist die{nf} Morgensonne, die{rel:nf} auf den{am} Schornstein scheint.“",
+    "zh": "女人说：「傻瓜，那不是你的小猫，那是照在烟囱上的朝阳。」",
+    "n": [
+     "die Morgensonne：朝阳。der Schornstein：烟囱。auf den Schornstein scheinen：照在烟囱上（宾格）。"
+    ]
+   },
+   {
+    "de": "Hänsel aber hatte nicht nach dem{dn} Kätzchen gesehen, sondern immer einen von den{dp} blanken Kieselsteinen aus seiner{df} Tasche auf den{am} Weg geworfen.",
+    "zh": "其实亨塞尔看的不是小猫，而是每次都从口袋里掏出一颗亮晶晶的石子扔在路上。",
+    "n": [
+     "hatte … gesehen / geworfen：过去完成时（「一直在做」）。nicht …, sondern …。",
+     "einen von den blanken Kieselsteinen：亮石子中的一颗（einen 是代词，阳性宾格）。blank：亮的。"
+    ]
+   }
+  ]
+ },
+ {
+  "h": "三 · 回家",
+  "t": "Der Weg nach Haus",
+  "k": "3",
+  "s": [
+   {
+    "de": "Als sie{they} mitten in den{am} Wald gekommen waren, sprach der{nm} Vater „nun sammelt Holz, ihr{you} Kinder, ich will ein{an} Feuer anmachen, damit ihr{you} nicht friert.“",
+    "zh": "他们走到林子中间，父亲说：「孩子们，捡些柴来，我生个火，免得你们冷。」",
+    "n": [
+     "mitten in den Wald：到林子中间。sammelt：命令式（对 ihr）。damit：免得（连词）。friert：frieren 的 ihr 形式。"
+    ]
+   },
+   {
+    "de": "Hänsel und Grethel trugen Reisig zusammen, einen{am} kleinen Berg hoch.",
+    "zh": "亨塞尔和格蕾特把细柴堆起来，堆得像一座小山那么高。",
+    "n": [
+     "das Reisig：细柴枝。zusammentragen：搬到一起。einen kleinen Berg hoch：一座小山那么高（宾格表示量度）。"
+    ]
+   },
+   {
+    "de": "Das{nn} Reisig ward angezündet, und als die{nf} Flamme recht hoch brannte, sagte die{nf} Frau „nun legt euch{refl} ans Feuer, ihr{you} Kinder und ruht euch{refl} aus, wir gehen in den{am} Wald und hauen Holz.",
+    "zh": "柴被点着了，火焰烧得很旺的时候，女人说：「孩子们，躺到火边好好歇着，我们到林子里砍柴去。",
+    "n": [
+     "ward angezündet：被点着（被动，第 21 课）。die Flamme：火焰。",
+     "sich ans Feuer legen：躺到火边。sich ausruhen：休息（命令式 ruht euch aus）。Holz hauen：砍柴。"
+    ]
+   },
+   {
+    "de": "Wenn wir fertig sind, kommen wir wieder und holen euch ab.“",
+    "zh": "干完活，我们就回来接你们。」",
+    "n": [
+     "abholen：接（holen … ab）。这当然是谎话。"
+    ]
+   },
+   {
+    "de": "Hänsel und Grethel saßen am Feuer, und als der{nm} Mittag kam, aß jedes{nn} sein{an} Stücklein Brot.",
+    "zh": "亨塞尔和格蕾特坐在火边，到了中午，各自吃了自己的那一小块面包。",
+    "n": [
+     "jedes：每一个（中性，指 Kind）。das Stücklein：小块。"
+    ]
+   },
+   {
+    "de": "Und weil sie{they} die{ap} Schläge der{gf} Holzaxt hörten, so glaubten sie{they} ihr{nm} Vater wäre in der{df} Nähe.",
+    "zh": "他们听见斧头砍木头的声音，以为父亲就在附近。",
+    "n": [
+     "die Schläge der Holzaxt：斧子的砍击声（属格）。",
+     "glaubten sie, ihr Vater wäre in der Nähe：以为父亲在附近（转述，虚拟式二，第 22–23 课）。"
+    ]
+   },
+   {
+    "de": "Es{expl} war aber nicht die{nf} Holzaxt, es{expl} war ein{nm} Ast, den{rel:am} er an einen{am} dürren Baum gebunden hatte und den{rel:am} der{nm} Wind hin und her schlug.",
+    "zh": "可那不是斧头，而是父亲绑在一棵枯树上的一根树枝，被风吹得来回敲打。",
+    "n": [
+     "两个关系从句共用先行词 ein Ast：den er an einen dürren Baum gebunden hatte（他绑在枯树上的）和 den der Wind hin und her schlug（风来回吹打的）。两个 den 都是宾格，主语分别是 er 和 der Wind（第 13 课）。",
+     "dürr：干枯的。binden：绑（gebunden）。"
+    ]
+   },
+   {
+    "de": "Und als sie{they} so lange gesessen hatten, fielen ihnen die{np} Augen vor Müdigkeit zu, und sie{they} schliefen fest ein.",
+    "zh": "他们坐了那么久，困得眼皮直打架，就睡熟了。",
+    "n": [
+     "jm fallen die Augen zu：某人眼皮合上（zufallen；ihnen 是「谁的」）。vor Müdigkeit：因为困。fest einschlafen：睡熟。"
+    ]
+   },
+   {
+    "de": "Als sie{they} endlich erwachten, war es{expl} schon finstere Nacht.",
+    "zh": "他们终于醒来时，已经是漆黑的夜了。",
+    "n": [
+     "finster：漆黑的。es war … Nacht：无人称 es。"
+    ]
+   },
+   {
+    "de": "Grethel fieng an zu weinen und sprach „wie sollen wir nun aus dem{dm} Wald kommen!“",
+    "zh": "格蕾特哭了起来，说：「我们现在怎么走出林子啊！」",
+    "n": [
+     "anfangen zu weinen。wie sollen wir …：我们该怎么……（感叹）。"
+    ]
+   },
+   {
+    "de": "Hänsel aber tröstete sie{her}, „wart nur ein{an} Weilchen, bis der{nm} Mond aufgegangen ist, dann wollen wir den{am} Weg schon finden.“",
+    "zh": "亨塞尔安慰她：「等一会儿，等月亮升起来，我们就能找到路了。」",
+    "n": [
+     "trösten：安慰。wart = warte。aufgegangen ist：完成时，表示将来已完成（等月亮出来以后）。"
+    ]
+   },
+   {
+    "de": "Und als der{nm} volle Mond aufgestiegen war, so nahm Hänsel sein{an} Schwesterchen an der{df} Hand und gieng den{dp} Kieselsteinen nach, die{rel:np} schimmerten wie neu geschlagene Batzen und zeigten ihnen den{am} Weg.",
+    "zh": "满月升起来了，亨塞尔拉着妹妹的手，沿着石子往前走；石子像刚铸出来的银币一样闪闪发亮，给他们指着路。",
+    "n": [
+     "der volle Mond：满月。aufsteigen：升起（aufgestiegen war）。",
+     "jm / etw. nachgehen：跟着走（与格 den Kieselsteinen）。",
+     "die schimmerten …：古老语序的关系从句。neu geschlagene Batzen：刚铸出的银币（分词作定语，第 24 课）。"
+    ]
+   },
+   {
+    "de": "Sie{they} giengen die{af} ganze Nacht hindurch und kamen bei anbrechendem Tag wieder zu ihres{gm} Vaters Haus.",
+    "zh": "他们走了一整夜，天亮时又回到了父亲的房子。",
+    "n": [
+     "die ganze Nacht hindurch：整整一夜。bei anbrechendem Tag：天亮时（现在分词，无冠词与格 -em）。zu ihres Vaters Haus：属格前置（第 18 课）。"
+    ]
+   },
+   {
+    "de": "Sie{they} klopften an die{af} Thür, und als die{nf} Frau aufmachte und sah daß es{expl} Hänsel und Grethel war, sprach sie{she} „ihr{you} bösen Kinder, was habt ihr{you} so lange im Walde geschlafen, wir haben geglaubt ihr{you} wolltet gar nicht wieder kommen.“",
+    "zh": "他们敲门，女人开门一看是亨塞尔和格蕾特，就说：「你们这两个坏孩子，在林子里睡那么久干什么，我们还以为你们不想回来了呢。」",
+    "n": [
+     "daß es Hänsel und Grethel war：是亨塞尔和格蕾特（es 占位）。",
+     "was habt ihr … geschlafen：你们怎么睡了那么久（完成时，was = warum）。wir haben geglaubt：完成时。ihr wolltet：你们想（虚拟式，转述）。继母假装生气。"
+    ]
+   },
+   {
+    "de": "Der{nm} Vater aber freute sich{refl}, denn es{expl} war ihm zu Herzen gegangen daß er sie{them} so allein zurück gelassen hatte.",
+    "zh": "父亲却很高兴，因为把孩子们这样孤零零地丢下，让他很难过。",
+    "n": [
+     "jm zu Herzen gehen：让某人很难过。es 预指后面的 daß-从句（第 11 课）。",
+     "zurück gelassen hatte：抛下了（zurücklassen，过去完成时）。"
+    ]
+   }
+  ]
+ },
+ {
+  "h": "四 · 第二次",
+  "t": "Zum zweiten Mal",
+  "k": "4",
+  "s": [
+   {
+    "de": "Nicht lange danach war wieder Noth in allen{dp} Ecken, und die{np} Kinder hörten wie die{nf} Mutter Nachts im Bette zu dem{dm} Vater sprach „alles{nn} ist wieder aufgezehrt, wir haben noch einen{am} halben Laib Brot, hernach hat das{nn} Lied ein{an} Ende.",
+    "zh": "不久，家里又到处都缺吃的了，孩子们听见母亲夜里在床上对父亲说：「东西又吃光了，我们只剩半个面包，吃完就到头了。",
+    "n": [
+     "Noth in allen Ecken：处处是困境。die Mutter：这里格林写的是 Mutter（指继母）。",
+     "aufgezehrt：吃光了（状态被动）。der Laib：（一整个）面包。das Lied hat ein Ende：歌唱完了（＝完了）。"
+    ]
+   },
+   {
+    "de": "Die{np} Kinder müssen fort, wir wollen sie{them} tiefer in den{am} Wald hineinführen, damit sie{they} den{am} Weg nicht wieder heraus finden; es{expl} ist sonst keine{nf} Rettung für uns.“",
+    "zh": "孩子们必须走，我们把他们带到林子更深处去，让他们找不到出来的路；否则我们没救了。」",
+    "n": [
+     "müssen fort：必须离开（省掉了 gehen）。tiefer：更深（比较级）。hineinführen：领进去。damit：为了。die Rettung：得救。"
+    ]
+   },
+   {
+    "de": "Dem{dm} Mann fiels schwer aufs Herz und er dachte „es{expl} wäre besser, daß du den{am} letzten Bissen mit deinen{dp} Kindern theiltest.“",
+    "zh": "男人心里很沉重，想：「还不如和孩子们分着吃最后一口呢。」",
+    "n": [
+     "jm fällt es schwer aufs Herz：某人心里沉重（fiels = fiel es）。",
+     "es wäre besser, daß …：还不如……（虚拟式二）。theiltest = teiltest：teilen 的虚拟式二（弱变化，与过去时同形）。"
+    ]
+   },
+   {
+    "de": "Aber die{nf} Frau hörte auf nichts, was er sagte, schalt ihn und machte ihm Vorwürfe.",
+    "zh": "可是女人什么也不听，骂他，责怪他。",
+    "n": [
+     "auf etw. hören：听从。jm Vorwürfe machen：责备某人。"
+    ]
+   },
+   {
+    "de": "Wer A sagt muß auch B sagen, und weil er das{an} erste Mal nachgegeben hatte, so mußte er es{it} auch zum zweiten Mal.",
+    "zh": "说了 A 就得说 B，他第一次让了步，第二次也只好照办。",
+    "n": [
+     "Wer A sagt, muß auch B sagen：谚语：做了第一步就得做第二步（wer …, (der) …）。",
+     "nachgeben：让步。das erste Mal：第一次（宾格表示时间）。es auch zum zweiten Mal (tun)：第二次也（做）。"
+    ]
+   },
+   {
+    "de": "Die{np} Kinder waren aber noch wach gewesen und hatten das{an} Gespräch mit angehört.",
+    "zh": "孩子们还没睡着，把这番话都听到了。",
+    "n": [
+     "wach gewesen：醒着（过去完成时）。das Gespräch：谈话。mit anhören：旁听到。"
+    ]
+   },
+   {
+    "de": "Als die{np} Alten schliefen, stand Hänsel wieder auf, wollte hinaus und Kieselsteine auflesen, wie das{nn} vorigemal, aber die{nf} Frau hatte die{af} Thür verschlossen, und Hänsel konnte nicht heraus.",
+    "zh": "两个大人睡着了，亨塞尔又起来，想出去捡石子，像上次那样；可是女人把门锁上了，亨塞尔出不去。",
+    "n": [
+     "wollte hinaus：想出去（省掉了 gehen）。auflesen：捡起。das vorigemal：上一次。",
+     "hatte … verschlossen：锁上了（过去完成时）。konnte nicht heraus：出不去。"
+    ]
+   },
+   {
+    "de": "Aber er tröstete sein{an} Schwesterchen und sprach „weine nicht, Grethel, und schlaf nur ruhig, der{nm} liebe Gott wird uns schon helfen.“",
+    "zh": "可他安慰妹妹说：「别哭，格蕾特，安心睡吧，亲爱的上帝一定会帮我们的。」",
+    "n": [
+     "wird … helfen：将来时。schon：一定。"
+    ]
+   },
+   {
+    "de": "Am frühen Morgen kam die{nf} Frau und holte die{ap} Kinder aus dem{dn} Bette.",
+    "zh": "一大早，女人就来把孩子们从床上叫起来。",
+    "n": [
+     "am frühen Morgen：一大早。aus dem Bette：古式与格。"
+    ]
+   },
+   {
+    "de": "Sie{they} erhielten ihr{an} Stückchen Brot, das{dem:nn} war aber noch kleiner als das{nn} vorigemal.",
+    "zh": "他们拿到了自己的那小块面包，可这次比上次还小。",
+    "n": [
+     "erhalten：得到（erhielten）。noch kleiner als：比……还小（比较级）。"
+    ]
+   },
+   {
+    "de": "Auf dem{dm} Wege nach dem{dm} Wald bröckelte es{child} Hänsel in der{df} Tasche, stand oft still und warf ein{an} Bröcklein auf die{af} Erde.",
+    "zh": "往林子去的路上，亨塞尔在口袋里把面包掰碎，常常站住，往地上扔一点面包屑。",
+    "n": [
+     "es：这里指面包（das Stückchen Brot），es bröckeln：把它掰碎。主语是 Hänsel（放在后面）。",
+     "das Bröcklein：碎屑（Brocken + -lein）。"
+    ]
+   },
+   {
+    "de": "„Hänsel, was stehst du und guckst dich{refl} um,“ sagte der{nm} Vater, „geh deiner{gp} Wege.“",
+    "zh": "「亨塞尔，你站着东张西望干什么，」父亲说，「好好走你的路。」",
+    "n": [
+     "sich umgucken：四处看。geh deiner Wege：走你的路（属格表示方式，第 18 课）。"
+    ]
+   },
+   {
+    "de": "„Ich sehe nach meinem{dn} Täubchen, das{dem:nn} sitzt auf dem{dn} Dache und will mir Ade sagen,“ antwortete Hänsel.",
+    "zh": "「我在看我的小鸽子，它坐在屋顶上，想跟我说再见。」亨塞尔回答。",
+    "n": [
+     "das Täubchen：小鸽子（Taube + -chen）。和上次一样的借口。"
+    ]
+   },
+   {
+    "de": "„Narr,“ sagte die{nf} Frau, „das{dem:nn} ist dein{nn} Täubchen nicht, das{dem:nn} ist die{nf} Morgensonne, die{rel:nf} auf den{am} Schornstein oben scheint.“",
+    "zh": "「傻瓜，」女人说，「那不是你的小鸽子，那是照在烟囱上的朝阳。」",
+    "n": [
+     "和第二部分几乎一字不差：童话的重复。"
+    ]
+   },
+   {
+    "de": "Hänsel aber warf nach und nach alle{ap} Bröcklein auf den{am} Weg.",
+    "zh": "亨塞尔把面包屑一点一点全扔在了路上。",
+    "n": [
+     "nach und nach：一点一点。"
+    ]
+   }
+  ]
+ },
+ {
+  "h": "五 · 面包屑",
+  "t": "Die Brotbröcklein",
+  "k": "5",
+  "s": [
+   {
+    "de": "Die{nf} Frau führte die{ap} Kinder noch tiefer in den{am} Wald, wo sie{they} ihr{an} Lebtag noch nicht gewesen waren.",
+    "zh": "女人把孩子们领到林子更深处，那是他们这辈子从没到过的地方。",
+    "n": [
+     "ihr Lebtag：这辈子（宾格表示时间）。gewesen waren：过去完成时。"
+    ]
+   },
+   {
+    "de": "Da ward wieder ein{nn} großes Feuer angemacht, und die{nf} Mutter sagte „bleibt nur da sitzen, ihr{you} Kinder, und wenn ihr{you} müde seid, könnt ihr{you} ein wenig schlafen: wir gehen in den{am} Wald und hauen Holz, und Abends, wenn wir fertig sind, kommen wir und holen euch ab.“",
+    "zh": "又生起了一大堆火，母亲说：「孩子们，就在这里坐着，困了就睡一会儿；我们到林子里砍柴，晚上干完活就来接你们。」",
+    "n": [
+     "ward … angemacht：被生起（被动）。sitzen bleiben：坐着别动（bleiben + 不定式）。"
+    ]
+   },
+   {
+    "de": "Als es{expl} Mittag war, theilte Grethel ihr{an} Brot mit Hänsel, der{rel:nm} sein{an} Stück auf den{am} Weg gestreut hatte.",
+    "zh": "到了中午，格蕾特把自己的面包分给亨塞尔，因为他的那块已经撒在路上了。",
+    "n": [
+     "theilen = teilen：分享。der … gestreut hatte：关系从句，过去完成时（streuen：撒）。"
+    ]
+   },
+   {
+    "de": "Dann schliefen sie{they} ein, und der{nm} Abend vergieng, aber niemand kam zu den{dp} armen Kindern.",
+    "zh": "然后他们睡着了，天黑了，可是谁也没来找这两个可怜的孩子。",
+    "n": [
+     "vergehen：过去（vergieng）。niemand：没有人。"
+    ]
+   },
+   {
+    "de": "Sie{they} erwachten erst in der{df} finstern Nacht, und Hänsel tröstete sein{an} Schwesterchen und sagte, „wart nur, Grethel, bis der{nm} Mond aufgeht, dann werden wir die{ap} Brotbröcklein sehen, die{rel:ap} ich ausgestreut habe, die{dem:np} zeigen uns den{am} Weg nach Haus.“",
+    "zh": "他们直到漆黑的夜里才醒来，亨塞尔安慰妹妹说：「等着吧，格蕾特，等月亮出来，我们就能看见我撒下的面包屑，它们会给我们指回家的路。」",
+    "n": [
+     "erst：直到……才。finstern = finsteren。",
+     "werden … sehen：将来时。die ich ausgestreut habe：我撒下的（关系从句，完成时）。die zeigen uns …：它们会给我们指路（指示代词重提）。"
+    ]
+   },
+   {
+    "de": "Als der{nm} Mond kam, machten sie{they} sich{refl} auf, aber sie{they} fanden kein{an} Bröcklein mehr, denn die{np} viel tausend Vögel, die{rel:np} im Walde und im Felde umher fliegen, die{dem:np} hatten sie{them} weggepickt.",
+    "zh": "月亮出来了，他们动身，可是一点面包屑也找不到了，因为林子里、田野上飞来飞去的成千上万只鸟，把面包屑都啄光了。",
+    "n": [
+     "sich aufmachen：动身。kein … mehr：再也没有。",
+     "die viel tausend Vögel, die …, die hatten sie weggepickt：成千上万的鸟……它们把面包屑啄光了。第二个 die 重提主语（口语式）。wegpicken：啄掉。"
+    ]
+   },
+   {
+    "de": "Hänsel sagte zu Grethel „wir werden den{am} Weg schon finden,“ aber sie{they} fanden ihn nicht.",
+    "zh": "亨塞尔对格蕾特说：「我们一定能找到路的。」可他们没有找到。",
+    "n": [
+     "werden … finden：将来时。ihn = den Weg。"
+    ]
+   },
+   {
+    "de": "Sie{they} giengen die{af} ganze Nacht und noch einen{am} Tag von Morgen bis Abend, aber sie{they} kamen aus dem{dm} Wald nicht heraus, und waren so hungrig, denn sie{they} hatten nichts als die{ap} paar Beeren, die{rel:np} auf der{df} Erde standen.",
+    "zh": "他们走了一整夜，又从早到晚走了一整天，可还是走不出林子；他们饿极了，因为除了地上长的几颗浆果，什么吃的也没有。",
+    "n": [
+     "die ganze Nacht、einen Tag：宾格表示时长。herauskommen：出来。nichts als：只有。die paar Beeren：那几颗浆果。"
+    ]
+   },
+   {
+    "de": "Und weil sie{they} so müde waren daß die{np} Beine sie{them} nicht mehr tragen wollten, so legten sie{they} sich{refl} unter einen{am} Baum und schliefen ein.",
+    "zh": "他们累得腿都走不动了，就躺在一棵树下睡着了。",
+    "n": [
+     "so müde, daß …：累得……。die Beine wollten sie nicht mehr tragen：腿不愿再撑着他们（wollen 用于物：「不肯」）。"
+    ]
+   },
+   {
+    "de": "Nun wars schon der{nm} dritte Morgen, daß sie{they} ihres{gm} Vaters Haus verlassen hatten.",
+    "zh": "这已经是他们离开父亲家的第三个早上了。",
+    "n": [
+     "wars = war es。daß：自从（这里相当于 seit）。ihres Vaters Haus：属格前置。"
+    ]
+   },
+   {
+    "de": "Sie{they} fiengen wieder an zu gehen, aber sie{they} geriethen immer tiefer in den{am} Wald und wenn nicht bald Hilfe kam, so mußten sie{they} verschmachten.",
+    "zh": "他们又开始走，却越走越深；要是再没人来救，他们就要饿死了。",
+    "n": [
+     "geraten：（不知不觉）走到（geriethen）。immer tiefer：越来越深。verschmachten：渴死、饿死。mußten：必定会（这里用过去时表示必然的后果）。"
+    ]
+   },
+   {
+    "de": "Als es{expl} Mittag war, sahen sie{they} ein{an} schönes schneeweißes Vöglein auf einem{dm} Ast sitzen, das{rel:nn} sang so schön, daß sie{they} stehen blieben und ihm zuhörten.",
+    "zh": "到了中午，他们看见一只美丽的雪白小鸟停在树枝上，它唱得那么好听，他们都站住了听它唱。",
+    "n": [
+     "jn / etw. sitzen sehen：看见……停着（第 19 课）。das sang …：古老语序的关系从句。",
+     "stehen bleiben：站住。jm zuhören：听某人（与格）。"
+    ]
+   }
+  ]
+ },
+ {
+  "h": "六 · 糖果屋",
+  "t": "Das Brothäuslein",
+  "k": "6",
+  "s": [
+   {
+    "de": "Und als es{it} fertig war, schwang es{it} seine{ap} Flügel und flog vor ihnen her, und sie{they} giengen ihm nach, bis sie{they} zu einem{dn} Häuschen gelangten, auf dessen{rel:gn} Dach es{it} sich{refl} setzte, und als sie{they} ganz nah heran kamen, so sahen sie{they} daß das{nn} Häuslein aus Brot gebaut war, und mit Kuchen gedeckt; aber die{np} Fenster waren von hellem Zucker.",
+    "zh": "它唱完以后，扇动翅膀，在他们前面飞，他们就跟着它走，一直走到一座小房子前，小鸟落在房顶上。他们走近一看，原来那小房子是用面包盖的，屋顶铺着蛋糕，窗户是透明的糖做的。",
+    "n": [
+     "拆解：① als es fertig war, schwang es seine Flügel und flog vor ihnen her（它唱完，扇翅飞在他们前面）。② und sie giengen ihm nach, bis sie zu einem Häuschen gelangten（他们跟着走，直到来到一座小房子）+ 关系从句 auf dessen Dach es sich setzte（它落在它的屋顶上）。③ als sie ganz nah heran kamen, so sahen sie, daß das Häuslein aus Brot gebaut war, und mit Kuchen gedeckt（走近一看，房子是面包盖的，屋顶铺着蛋糕）。④ aber die Fenster waren von hellem Zucker（窗户是透明的糖做的）。",
+     "es = das Vöglein。schwingen：挥动（schwang）。vor ihnen herfliegen：在前面飞。jm nachgehen：跟着走。",
+     "auf dessen Dach：在它的屋顶上（dessen：关系代词属格，指 Häuschen，第 13 课）。",
+     "aus Brot gebaut war、mit Kuchen gedeckt：状态被动（第 21 课）。hell：透明的、亮的。der Zucker：糖。"
+    ]
+   },
+   {
+    "de": "„Da wollen wir uns{refl} dran machen,“ sprach Hänsel, „und eine{af} gesegnete Mahlzeit halten.",
+    "zh": "「我们来吃吧，」亨塞尔说，「好好吃一顿。」",
+    "n": [
+     "sich dranmachen：动手（dran = daran）。eine gesegnete Mahlzeit halten：吃一顿丰盛的饭（gesegnet：蒙福的）。"
+    ]
+   },
+   {
+    "de": "Ich will ein{an} Stück vom Dach essen, Grethel, du kannst vom Fenster essen, das{dem:nn} schmeckt süß.“",
+    "zh": "我吃一块屋顶，格蕾特，你吃窗户，窗户是甜的。」",
+    "n": [
+     "vom = von dem。das schmeckt süß：那个尝起来甜。"
+    ]
+   },
+   {
+    "de": "Hänsel reichte in die{af} Höhe und brach sich{refl} ein wenig vom Dach ab, um zu versuchen wie es{it} schmeckte, und Grethel stellte sich{refl} an die{ap} Scheiben und knuperte daran.",
+    "zh": "亨塞尔伸手到高处，从屋顶上掰下一点来，尝尝是什么味道；格蕾特站到窗玻璃前，啃了起来。",
+    "n": [
+     "sich etw. abbrechen：给自己掰下来（与格 sich）。um zu versuchen：为了尝尝（第 19 课）。",
+     "knupern：啃（方言，= knuspern）。daran：在上面（第 20 课）。"
+    ]
+   },
+   {
+    "de": "Da rief eine{nf} feine Stimme aus der{df} Stube heraus „knuper, knuper, kneischen, wer knupert an meinem{dn} Häuschen?“ die{np} Kinder antworteten „der{nm} Wind, der{nm} Wind, das{nn} himmlische Kind,“ und aßen weiter, ohne sich{refl} irre machen zu lassen.",
+    "zh": "这时屋里传出一个细细的声音：「咔嚓咔嚓，嚼呀嚼，谁在啃我的小房子？」孩子们答道：「是风，是风，天上的孩子。」接着又吃，一点也不慌。",
+    "n": [
+     "这一段是押韵的问答：Häuschen / kneischen，Wind / Kind。",
+     "knuper, knuper, kneischen：拟声（咔嚓咔嚓）。das himmlische Kind：天上的孩子（这里指风）。",
+     "ohne sich irre machen zu lassen：不让自己被搅乱（ohne … zu + lassen，第 19、25 课）。irre machen：使困惑。"
+    ]
+   },
+   {
+    "de": "Hänsel, dem{rel:dm} das{nn} Dach sehr gut schmeckte, riß sich{refl} ein{an} großes Stück davon herunter, und Grethel stieß eine{af} ganze runde Fensterscheibe heraus, setzte sich{refl} nieder, und that sich{refl} wohl damit.",
+    "zh": "亨塞尔觉得屋顶很好吃，就扯下一大块；格蕾特捅下一整块圆窗玻璃，坐下来，美滋滋地吃着。",
+    "n": [
+     "dem das Dach sehr gut schmeckte：屋顶让他觉得很好吃（jm schmecken + 与格）。",
+     "sich etw. herunterreißen：扯下来。davon：从它（屋顶）上。herausstoßen：捅出来。",
+     "sich niedersetzen：坐下。sich wohl tun mit：尽情享用。"
+    ]
+   },
+   {
+    "de": "Da gieng auf einmal die{nf} Thüre auf, und eine{nf} steinalte Frau, die{rel:nf} sich{refl} auf eine{af} Krücke stützte, kam heraus geschlichen.",
+    "zh": "忽然门开了，一个拄着拐杖、老得不能再老的女人悄悄走了出来。",
+    "n": [
+     "sich auf etw. stützen：靠……支撑。die Krücke：拐杖。herausgeschlichen kommen：悄悄走出来。"
+    ]
+   },
+   {
+    "de": "Hänsel und Grethel erschracken so gewaltig, daß sie{they} fallen ließen was sie{they} in den{dp} Händen hielten.",
+    "zh": "亨塞尔和格蕾特吓得厉害，手里拿的东西都掉了。",
+    "n": [
+     "fallen lassen：让……掉下（lassen 的第三个意思，第 25 课）。was sie … hielten：他们拿着的东西。"
+    ]
+   },
+   {
+    "de": "Die{nf} Alte aber wackelte mit dem{dm} Kopfe und sprach „ei, ihr{you} lieben Kinder, wer hat euch hierher gebracht? kommt nur herein und bleibt bei mir, es{expl} geschieht euch kein{nn} Leid.“",
+    "zh": "老太婆却摇着头说：「哎呀，亲爱的孩子们，是谁把你们带到这里来的？进来吧，留在我这里，不会有人伤害你们的。」",
+    "n": [
+     "mit dem Kopfe wackeln：摇头晃脑。hat … gebracht：完成时。es geschieht euch kein Leid：你们不会受伤害（占位 es）。"
+    ]
+   },
+   {
+    "de": "Sie{she} faßte beide{ap} an der{df} Hand und führte sie{them} in ihr{an} Häuschen.",
+    "zh": "她拉着两个孩子的手，把他们领进了她的小房子。",
+    "n": [
+     "jn an der Hand fassen：拉住某人的手。"
+    ]
+   },
+   {
+    "de": "Da ward gutes Essen aufgetragen, Milch und Pfannekuchen mit Zucker, Äpfel und Nüsse.",
+    "zh": "桌上摆出了好吃的：牛奶、撒了糖的煎饼、苹果和坚果。",
+    "n": [
+     "ward … aufgetragen：被端上来（被动）。der Pfannekuchen：煎饼。die Nuß → die Nüsse：坚果。"
+    ]
+   },
+   {
+    "de": "Hernach wurden zwei schöne Bettlein weiß gedeckt, und Hänsel und Grethel legten sich{refl} hinein und meinten sie{they} wären im Himmel.",
+    "zh": "然后两张漂亮的小床铺上了白床单，亨塞尔和格蕾特躺进去，以为自己在天堂里。",
+    "n": [
+     "wurden … gedeckt：被铺好（被动）。weiß：（铺）白的。",
+     "meinten, sie wären im Himmel：以为在天堂（转述，虚拟式二）。"
+    ]
+   }
+  ]
+ },
+ {
+  "h": "七 · 女巫",
+  "t": "Die Hexe",
+  "k": "7",
+  "s": [
+   {
+    "de": "Die{nf} Alte hatte sich{refl} nur so freundlich angestellt, sie{she} war aber eine{nf} böse Hexe, die{rel:nf} den{dp} Kindern auflauerte, und hatte das{an} Brothäuslein bloß gebaut, um sie{them} herbeizulocken.",
+    "zh": "老太婆只是装得那么和气，其实她是个专门等着抓小孩的恶女巫，她盖那座面包房子，就是为了把孩子们引来。",
+    "n": [
+     "sich freundlich anstellen：装得和气。jm auflauern：埋伏等候某人（与格 den Kindern）。",
+     "bloß：只是。um … herbeizulocken：为了引来（herbei-zu-locken，第 19 课）。"
+    ]
+   },
+   {
+    "de": "Wenn eins in ihre{af} Gewalt kam, so machte sie{she} es{child} todt, kochte es{child} und aß es{child}, und das{dem:nn} war ihr ein{nm} Festtag.",
+    "zh": "要是有一个孩子落到她手里，她就把他弄死，煮了吃掉，那对她来说就是过节。",
+    "n": [
+     "eins：一个（孩子）。in js Gewalt kommen：落到某人手里。wenn：每当。todt machen：弄死。der Festtag：节日。"
+    ]
+   },
+   {
+    "de": "Die{np} Hexen haben rothe Augen und können nicht weit sehen, aber sie{they} haben eine{af} feine Witterung, wie die{np} Thiere, und merkens wenn Menschen heran kommen.",
+    "zh": "女巫们眼睛是红的，看不远，可是她们的嗅觉像动物一样灵，人一走近她们就察觉到了。",
+    "n": [
+     "讲故事的人插入的「常识」，用现在时。die Witterung：嗅觉。merkens = merken es。herankommen：走近。"
+    ]
+   },
+   {
+    "de": "Als Hänsel und Grethel in ihre{af} Nähe kamen, da lachte sie{she} boshaft und sprach höhnisch „die{dem:ap} habe ich, die{dem:np} sollen mir nicht wieder entwischen.“",
+    "zh": "亨塞尔和格蕾特走近时，她恶毒地笑着，嘲讽地说：「这两个我抓住了，可别让他们再溜掉。」",
+    "n": [
+     "boshaft：恶毒地。höhnisch：嘲讽地。die habe ich：这两个我到手了。jm entwischen：从某人手里溜走。"
+    ]
+   },
+   {
+    "de": "Früh Morgens ehe die{np} Kinder erwacht waren, stand sie{she} schon auf, und als sie{she} beide{ap} so lieblich ruhen sah, mit den{dp} vollen rothen Backen, so murmelte sie{she} vor sich{refl} hin „das{dem:nn} wird ein{nm} guter Bissen werden.“",
+    "zh": "一大早，孩子们还没醒，她就起来了；看见两个孩子红扑扑的脸蛋，睡得那么香，她就自言自语：「这会是一口好肉。」",
+    "n": [
+     "jn ruhen sehen：看见某人在睡（第 19 课）。die Backe：脸颊。vor sich hin murmeln：自言自语。wird … werden：将来时。"
+    ]
+   },
+   {
+    "de": "Da packte sie{she} Hänsel mit ihrer{df} dürren Hand und trug ihn in einen{am} kleinen Stall und sperrte ihn mit einer{df} Gitterthüre ein; er mochte schreien wie er wollte, es{expl} half ihm nichts.",
+    "zh": "她用干瘦的手抓起亨塞尔，把他带进一个小棚子，用栅栏门关起来；他怎么喊都没用。",
+    "n": [
+     "der Stall：小棚、厩。einsperren：关起来。die Gitterthüre：栅栏门。",
+     "er mochte schreien, wie er wollte：随他怎么喊（mögen 表示让步，第 10 课）。es half ihm nichts：都没用。"
+    ]
+   },
+   {
+    "de": "Dann gieng sie{she} zur Grethel, rüttelte sie{her} wach und rief „steh auf, Faullenzerin, trag Wasser und koch deinem{dm} Bruder etwas gutes, der{dem:nm} sitzt draußen im Stall und soll fett werden.",
+    "zh": "然后她走到格蕾特那里，把她摇醒，喊道：「起来，懒丫头，去提水，给你哥哥做点好吃的，他坐在外面的棚子里，要把他养肥。",
+    "n": [
+     "zur Grethel：人名前加冠词（口语）。jn wach rütteln：把某人摇醒。",
+     "koch：命令式。etwas gutes：好吃的（今天大写 Gutes）。soll fett werden：要（被我）养肥（sollen 表示别人的意愿）。"
+    ]
+   },
+   {
+    "de": "Wenn er fett ist, so will ich ihn essen.“",
+    "zh": "等他肥了，我就吃掉他。」",
+    "n": [
+     "wenn：等到。"
+    ]
+   },
+   {
+    "de": "Grethel fieng an bitterlich zu weinen, aber es{expl} war alles{nn} vergeblich, sie{she} mußte thun was die{nf} böse Hexe verlangte.",
+    "zh": "格蕾特伤心地哭起来，可是一切都没用，她只得照女巫的吩咐去做。",
+    "n": [
+     "bitterlich：伤心地。vergeblich：徒劳的。was … verlangte：她要求的（事）。"
+    ]
+   },
+   {
+    "de": "Nun ward dem{dm} armen Hänsel das{nn} beste Essen gekocht, aber Grethel bekam nichts als Krebsschalen.",
+    "zh": "从此可怜的亨塞尔吃的是最好的饭菜，格蕾特却只能吃虾蟹壳。",
+    "n": [
+     "ward … gekocht：被煮（被动）。dem armen Hänsel：给可怜的亨塞尔（与格）。das beste：最好的（最高级）。die Krebsschale：螃蟹壳。"
+    ]
+   },
+   {
+    "de": "Jeden{am} Morgen schlich die{nf} Alte zu dem{dn} Ställchen und rief „Hänsel, streck deine{ap} Finger heraus, damit ich fühle ob du bald fett bist.“",
+    "zh": "每天早上老太婆都悄悄走到小棚子前喊：「亨塞尔，把手指伸出来，让我摸摸你是不是快肥了。」",
+    "n": [
+     "jeden Morgen：每天早上（宾格）。das Ställchen：小棚。herausstrecken：伸出来。ob：是否。"
+    ]
+   },
+   {
+    "de": "Hänsel streckte ihr aber ein{an} Knöchlein heraus, und die{nf} Alte, die{rel:nf} trübe Augen hatte, konnte es{it} nicht sehen, und meinte es{expl} wären Hänsels Finger, und verwunderte sich{refl} daß er gar nicht fett werden wollte.",
+    "zh": "亨塞尔却伸出一根小骨头，老太婆眼睛昏花看不清，以为那是亨塞尔的手指，奇怪他怎么一点也胖不起来。",
+    "n": [
+     "das Knöchlein：小骨头。trübe Augen：昏花的眼睛（呼应前面「女巫看不远」）。",
+     "meinte, es wären Hänsels Finger：以为那是亨塞尔的手指（虚拟式；Hänsels：人名属格，第 18 课）。",
+     "sich verwundern：奇怪。fett werden wollte：就是不肯胖（wollen 用于不受控制的事：「就是不……」）。"
+    ]
+   },
+   {
+    "de": "Als vier Wochen herum waren und Hänsel immer mager blieb, da übernahm sie{her} die{nf} Ungeduld, und sie{she} wollte nicht länger warten.",
+    "zh": "过了四个星期，亨塞尔还是瘦瘦的，女巫不耐烦了，不想再等下去。",
+    "n": [
+     "herum sein：过去了。mager：瘦的。jn übernimmt die Ungeduld：某人不耐烦起来（sie 是宾格，主语 die Ungeduld）。länger：更久（比较级）。"
+    ]
+   },
+   {
+    "de": "„Heda, Grethel,“ rief sie{she} den{dp} Mädchen zu, „sei flink und trag Wasser: Hänsel mag fett oder mager sein, morgen will ich ihn schlachten und kochen.“",
+    "zh": "「喂，格蕾特，」她朝姑娘喊，「快去提水；亨塞尔不管肥还是瘦，明天我都要宰了他煮来吃。」",
+    "n": [
+     "heda：喂（招呼声）。den Mädchen：原文如此（应为单数 dem Mädchen），可能是古式与格。flink：麻利。",
+     "Hänsel mag fett oder mager sein：不管亨塞尔肥还是瘦（mögen 表示让步）。schlachten：宰杀。"
+    ]
+   },
+   {
+    "de": "Ach, wie jammerte das{nn} arme Schwesterchen, als es{child} das{an} Wasser tragen mußte, und wie flossen ihm die{np} Thränen über die{ap} Backen herunter!",
+    "zh": "唉，可怜的小妹妹提水的时候，哭得多伤心啊，眼泪顺着她的脸颊往下流！",
+    "n": [
+     "wie …!：多么……！（感叹句，动词第二位）。jammern：哀叹。",
+     "ihm … über die Backen：顺着她的脸颊（ihm 表示「谁的」）。herunterfließen：流下来（flossen）。"
+    ]
+   },
+   {
+    "de": "„Lieber Gott, hilf uns doch,“ rief sie{she} aus, „hätten uns nur die{np} wilden Thiere im Wald gefressen, so wären wir doch zusammen gestorben.“",
+    "zh": "「亲爱的上帝，救救我们吧，」她喊道，「要是当初林子里的野兽把我们吃了就好了，那样我们至少能死在一起。」",
+    "n": [
+     "hilf：helfen 的命令式。ausrufen：喊。",
+     "hätten uns nur die wilden Thiere … gefressen：要是野兽把我们吃了就好了（愿望，虚拟式二过去式，动词开头，第 22 课）。",
+     "so wären wir doch zusammen gestorben：那我们至少会一起死（与过去事实相反的结果）。"
+    ]
+   },
+   {
+    "de": "„Spar nur dein{an} Geblärre,“ sagte die{nf} Alte, „es{expl} hilft dir alles{nn} nichts.“",
+    "zh": "「省省你的哭嚎吧，」老太婆说，「什么都帮不了你。」",
+    "n": [
+     "spar：sparen 的命令式（省下）。das Geblärre：哭嚎（贬义）。es hilft dir alles nichts：一切都对你没用。"
+    ]
+   }
+  ]
+ },
+ {
+  "h": "八 · 烤炉",
+  "t": "Der Backofen",
+  "k": "8",
+  "s": [
+   {
+    "de": "Früh Morgens mußte Grethel heraus, den{am} Kessel mit Wasser aufhängen und Feuer anzünden.",
+    "zh": "一大早，格蕾特就得出去，挂上装满水的锅，生火。",
+    "n": [
+     "mußte heraus：得出去（省掉了 gehen）。aufhängen：挂起来。anzünden：点火。两个不定式都由 mußte 支配。"
+    ]
+   },
+   {
+    "de": "„Erst wollen wir backen“ sagte die{nf} Alte, „ich habe den{am} Backofen schon eingeheizt und den{am} Teig geknätet.“",
+    "zh": "「我们先烤面包，」老太婆说，「我已经把烤炉烧热了，面也揉好了。」",
+    "n": [
+     "einheizen：烧热。kneten：揉面（geknätet：旧拼写）。两个分词共用 habe（完成时）。"
+    ]
+   },
+   {
+    "de": "Sie{she} stieß das{an} arme Grethel hinaus zu dem{dm} Backofen, aus dem{rel:dm} die{np} Feuerflammen schon heraus schlugen.",
+    "zh": "她把可怜的格蕾特推到烤炉前，炉子里火焰已经往外窜了。",
+    "n": [
+     "das arme Grethel：格林在这里用中性 das（Grethel 是小称，像 Mädchen）。hinausstoßen：推出去。",
+     "aus dem：从其中（关系代词）。herausschlagen：（火焰）窜出来。"
+    ]
+   },
+   {
+    "de": "„Kriech hinein,“ sagte die{nf} Hexe, „und sieh zu ob recht eingeheizt ist, damit wir das{an} Brot hineinschießen können.“",
+    "zh": "「爬进去，」女巫说，「看看烧得够不够热，好把面包送进去。」",
+    "n": [
+     "kriech：kriechen（爬）的命令式。zusehen：看看。ob recht eingeheizt ist：是否烧够热了（无主语的状态被动）。",
+     "hineinschießen：（用铲子）送进炉里。damit：好让。"
+    ]
+   },
+   {
+    "de": "Und wenn Grethel darin war, wollte sie{she} den{am} Ofen zumachen, und Grethel sollte darin braten, und dann wollte sies auch aufessen.",
+    "zh": "等格蕾特进去了，她就要关上炉门，把格蕾特烤了，然后把她也吃掉。",
+    "n": [
+     "讲故事的人揭示女巫的打算。zumachen：关上。sollte … braten：要被烤（sollen：女巫的安排）。sies = sie es（es = Grethel）。aufessen：吃光。"
+    ]
+   },
+   {
+    "de": "Aber Grethel merkte was sie{she} im Sinn hatte und sprach „ich weiß nicht wie ichs machen soll; wie komm ich da hinein?“",
+    "zh": "可是格蕾特看出了她的心思，说：「我不知道该怎么做；我怎么进去呢？」",
+    "n": [
+     "im Sinn haben：心里打算。ichs = ich es。komm = komme。格蕾特装傻。"
+    ]
+   },
+   {
+    "de": "„Dumme Gans,“ sagte die{nf} Alte, „die{nf} Öffnung ist groß genug, siehst du wohl, ich könnte selbst hinein,“ krappelte heran und steckte den{am} Kopf in den{am} Backofen.",
+    "zh": "「蠢鹅，」老太婆说，「炉口够大了，你看，连我自己都进得去。」她一边说一边爬过去，把头伸进了烤炉。",
+    "n": [
+     "die Gans：鹅（骂人蠢）。die Öffnung：口子。genug：足够。",
+     "ich könnte selbst hinein：我自己都能进去（虚拟式二，省掉了 kriechen）。",
+     "heran krappeln：爬过去（krappeln 是方言，= krabbeln）。"
+    ]
+   },
+   {
+    "de": "Da gab ihr Grethel einen{am} Stoß daß sie{she} weit hinein fuhr, machte die{af} eiserne Thür zu und schob den{am} Riegel vor.",
+    "zh": "格蕾特趁机猛推了她一把，把她推进炉子深处，关上铁门，插上门闩。",
+    "n": [
+     "jm einen Stoß geben：推某人一把。daß：以致。hineinfahren：栽进去。",
+     "zumachen：关上。den Riegel vorschieben：插上门闩（schob … vor）。"
+    ]
+   },
+   {
+    "de": "Hu! da fieng sie{she} an zu heulen, ganz grauselich; aber Grethel lief fort, und die{nf} gottlose Hexe mußte elendiglich verbrennen.",
+    "zh": "呼！女巫开始嚎叫，叫得怕人；可是格蕾特跑开了，恶毒的女巫只能惨惨地被烧死。",
+    "n": [
+     "heulen：嚎叫。grauselich：可怕地（方言）。elendiglich：凄惨地。verbrennen：烧死。"
+    ]
+   }
+  ]
+ },
+ {
+  "h": "九 · 回家",
+  "t": "Mein Märchen ist aus",
+  "k": "9",
+  "s": [
+   {
+    "de": "Grethel aber lief schnurstracks zum Hänsel, öffnete sein{an} Ställchen und rief „Hänsel, wir sind erlöst, die{nf} alte Hexe ist todt.“",
+    "zh": "格蕾特一直跑到亨塞尔那里，打开小棚子，喊道：「亨塞尔，我们得救了，老女巫死了。」",
+    "n": [
+     "schnurstracks：径直。wir sind erlöst：我们得救了（状态被动）。"
+    ]
+   },
+   {
+    "de": "Da sprang Hänsel heraus, wie ein{nm} Vogel aus dem{dm} Käfig, wenn ihm die{nf} Thüre aufgemacht wird.",
+    "zh": "亨塞尔跳了出来，像一只笼门打开时飞出笼子的鸟。",
+    "n": [
+     "der Käfig：笼子。wenn ihm die Thüre aufgemacht wird：当门为它打开时（被动现在时）。"
+    ]
+   },
+   {
+    "de": "Wie haben sie{they} sich{refl} gefreut, sind sich{recip} um den{am} Hals gefallen, sind herumgesprungen und haben sich{recip} geküßt!",
+    "zh": "他们多么高兴啊，搂着脖子拥抱，蹦蹦跳跳，互相亲吻！",
+    "n": [
+     "感叹句，全用完成时（讲故事的人对听众说话的口气）。注意助动词的选择：sich freuen、sich küssen 用 haben；fallen、springen 用 sein（第 16 课）。",
+     "sich um den Hals fallen：互相搂住脖子（sich = 互相，第 11 课）。"
+    ]
+   },
+   {
+    "de": "Und weil sie{they} sich{refl} nicht mehr zu fürchten brauchten, so giengen sie{they} in das{an} Haus der{gf} Hexe hinein, da standen in allen{dp} Ecken Kasten mit Perlen und Edelsteinen.",
+    "zh": "因为再也不用害怕了，他们就走进女巫的房子，只见每个角落里都放着装满珍珠宝石的箱子。",
+    "n": [
+     "nicht zu … brauchen：不必（第 25 课）。sich fürchten：害怕。",
+     "das Haus der Hexe：女巫的房子（属格）。Kasten：箱子（复数同形）。"
+    ]
+   },
+   {
+    "de": "„Die{dem:np} sind noch besser als Kieselsteine“ sagte Hänsel und steckte in seine{ap} Taschen was hinein wollte, und Grethel sagte „ich will auch etwas mit nach Haus bringen“ und füllte sich{refl} sein{an} Schürzchen voll.",
+    "zh": "「这些可比石子好多了。」亨塞尔说着，往口袋里塞，能塞多少塞多少；格蕾特说：「我也要带些回家。」她把小围裙装得满满的。",
+    "n": [
+     "die：这些（珍珠宝石）。noch besser als：比……还好（第 15 课）。",
+     "was hinein wollte：能装进去的（东西）。",
+     "sich etw. vollfüllen：给自己装满。sein Schürzchen：Grethel 用中性 sein（像 das Mädchen）。"
+    ]
+   },
+   {
+    "de": "„Aber jetzt wollen wir fort,“ sagte Hänsel, „damit wir aus dem{dm} Hexenwald herauskommen.“",
+    "zh": "「可是现在我们得走了，」亨塞尔说，「好走出这片女巫的森林。」",
+    "n": [
+     "wollen fort：要离开（省掉了 gehen）。der Hexenwald：女巫的森林。"
+    ]
+   },
+   {
+    "de": "Als sie{they} aber ein paar Stunden gegangen waren, gelangten sie{they} an ein{an} großes Wasser.",
+    "zh": "走了几个钟头，他们来到一片大水前。",
+    "n": [
+     "ein großes Wasser：一大片水。"
+    ]
+   },
+   {
+    "de": "„Wir können nicht hinüber,“ sprach Hänsel, „ich sehe keinen{am} Steg und keine{af} Brücke.“",
+    "zh": "「我们过不去，」亨塞尔说，「我看不见小桥，也看不见大桥。」",
+    "n": [
+     "hinüber können：能过去（省掉了 gehen）。der Steg：小桥。die Brücke：桥。"
+    ]
+   },
+   {
+    "de": "„Hier fährt auch kein{nn} Schiffchen,“ antwortete Grethel, „aber da schwimmt eine{nf} weiße Ente, wenn ich die{dem:af} bitte, so hilft sie{she} uns hinüber.“",
+    "zh": "「这里也没有小船，」格蕾特答道，「可那儿游着一只白鸭子，我求求它，它会帮我们过去的。」",
+    "n": [
+     "das Schiffchen：小船。die Ente：鸭子。die bitte：求它（die 是宾格指示代词）。jm hinüberhelfen：帮某人过去。"
+    ]
+   },
+   {
+    "de": "Da rief sie{she} „Entchen, Entchen, da steht Grethel und Hänsel. Kein{nm} Steg und keine{nf} Brücke, nimm uns auf deinen{am} weißen Rücken.“",
+    "zh": "她就喊道：「小鸭子，小鸭子，格蕾特和亨塞尔站在这儿。没有小桥也没有大桥，把我们驮到你白白的背上吧。」",
+    "n": [
+     "押韵的歌谣：Brücke / Rücken。das Entchen：小鸭子。",
+     "da steht Grethel und Hänsel：动词用单数 steht（歌谣里不讲究）。nimm uns auf deinen weißen Rücken：把我们驮到你背上（宾格，方向）。"
+    ]
+   },
+   {
+    "de": "Das{nn} Entchen kam auch heran, und Hänsel setzte sich{refl} auf und bat sein{an} Schwesterchen sich{refl} zu ihm zu setzen.",
+    "zh": "小鸭子果然游了过来，亨塞尔坐了上去，叫妹妹也坐到他身边来。",
+    "n": [
+     "herankommen：过来。sich aufsetzen：坐上去。jn bitten, … zu …：请某人做……（zu-不定式，第 19 课）。"
+    ]
+   },
+   {
+    "de": "„Nein,“ antwortete Grethel, „es{expl} wird dem{dn} Entchen zu schwer, es{it} soll uns nach einander hinüber bringen.“",
+    "zh": "「不，」格蕾特答道，「那样小鸭子太累了，让它一个一个地把我们驮过去吧。」",
+    "n": [
+     "es wird dem Entchen zu schwer：对小鸭子来说太重了。es soll …：让它……（sollen：建议）。nach einander：一个接一个。"
+    ]
+   },
+   {
+    "de": "Das{dem:an} that das{nn} gute Thierchen, und als sie{they} glücklich drüben waren und ein{an} Weilchen fortgiengen, da kam ihnen der{nm} Wald immer bekannter und immer bekannter vor, und endlich erblickten sie{they} von weitem ihres{gm} Vaters Haus.",
+    "zh": "好心的小动物照办了。他们平安过了河，又走了一会儿，觉得林子越来越眼熟，最后远远地看见了父亲的房子。",
+    "n": [
+     "das that das gute Thierchen：好心的小动物照这样做了（das 是宾语）。drüben：在对岸。",
+     "jm bekannt vorkommen：让某人觉得眼熟（kam … vor）。immer bekannter：越来越熟（第 15 课）。",
+     "von weitem：远远地。ihres Vaters Haus：属格前置。"
+    ]
+   },
+   {
+    "de": "Da fiengen sie{they} an zu laufen, stürzten in die{af} Stube hinein und fielen ihrem{dm} Vater um den{am} Hals.",
+    "zh": "他们就跑起来，冲进屋里，搂住了父亲的脖子。",
+    "n": [
+     "anfangen zu laufen。hineinstürzen：冲进去。jm um den Hals fallen：搂住某人的脖子。"
+    ]
+   },
+   {
+    "de": "Der{nm} Mann hatte keine{af} frohe Stunde gehabt, seitdem er die{ap} Kinder im Walde gelassen hatte, die{nf} Frau aber war gestorben.",
+    "zh": "自从把孩子们丢在林子里，这男人没有过一刻快乐的时光；那女人呢，已经死了。",
+    "n": [
+     "hatte … gehabt：过去完成时。seitdem：自从（第 12 课）。gelassen hatte：丢下了（lassen 单独用时分词是 gelassen）。",
+     "die Frau aber war gestorben：继母已经死了（没有解释原因：有人认为继母和女巫是同一个人）。"
+    ]
+   },
+   {
+    "de": "Grethel schüttete sein{an} Schürzchen aus daß die{np} Perlen und Edelsteine in der{df} Stube herumsprangen, und Hänsel warf eine{af} Handvoll nach der{df} andern aus seiner{df} Tasche dazu.",
+    "zh": "格蕾特把小围裙一抖，珍珠宝石在屋里蹦得到处都是；亨塞尔也从口袋里一把一把地往外掏。",
+    "n": [
+     "ausschütten：倒出来。daß：以致。herumspringen：到处蹦。",
+     "eine Handvoll nach der andern：一把接一把。dazu：再加上。"
+    ]
+   },
+   {
+    "de": "Da hatten alle{np} Sorgen ein{an} Ende, und sie{they} lebten in lauter Freude zusammen.",
+    "zh": "从此一切忧愁都结束了，他们快快乐乐地生活在一起。",
+    "n": [
+     "ein Ende haben：结束。in lauter Freude：满是欢乐。"
+    ]
+   },
+   {
+    "de": "Mein{nn} Märchen ist aus, dort lauft eine{nf} Maus, wer sie{her} fängt, darf sich{refl} eine{af} große große Pelzkappe daraus machen.",
+    "zh": "我的故事讲完了，那边跑过一只老鼠，谁抓住它，就可以用它给自己做一顶大大的皮帽子。",
+    "n": [
+     "讲故事人的收尾套话（押韵：aus / Maus）。",
+     "das Märchen：童话。aus sein：结束了。lauft = läuft（方言）。",
+     "wer sie fängt, (der) darf …：谁抓住它，谁就可以……（第 12 课）。daraus：用它（第 20 课）。die Pelzkappe：皮帽子。",
+     "这个读本到这里就读完了。下一步：带着这些语法，去读康德的《什么是启蒙》。"
+    ]
+   }
+  ]
+ }
+]
