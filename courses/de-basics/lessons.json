@@ -2479,5 +2479,69 @@
     "why": "今天写 dessen Töchter alle schön waren。"
    }
   ]
+ },
+ {
+  "id": "fraktur",
+  "t": "尖角体 Fraktur",
+  "de": "Fraktur lesen",
+  "min": 60,
+  "html": "<p>直到二十世纪中叶，德语书大多不是用今天的拉丁字体（Antiqua）印的，而是用<b>尖角体</b>（Fraktur，「断裂体」，因为笔画像折断的线条）。康德的《纯粹理性批判》1781 年和 1787 年的初版、格林兄弟 1857 年版的童话，原书都是尖角体。如果你以后想看原版书影、去图书馆翻旧书，或者读数字化的古籍（比如德国的 Deutsches Textarchiv），就得认得它。好消息是：只要两三个小时就能读，因为它就是同一套字母，只是样子不同。</p>\n\n<h4>一、字母表</h4>\n<p>大写：</p>\n<p><span class=\"fk\">A B C D E F G H I J K L M N O P Q R S T U V W X Y Z</span></p>\n<p>A B C D E F G H I J K L M N O P Q R S T U V W X Y Z</p>\n<p>小写（注意 s 有两个：长 s「ſ」和圆 s「s」）：</p>\n<p><span class=\"fk\">a b c d e f g h i j k l m n o p q r ſ s t u v w x y z ä ö ü ß</span></p>\n<p>a b c d e f g h i j k l m n o p q r ſ s t u v w x y z ä ö ü ß</p>\n<p>先慢慢对照着看一遍。大多数字母猜得出来；真正要学的只有下面几组。</p>\n\n<h4>二、容易认错的字母</h4>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>尖角体</th><th>是</th><th>怎么区分</th></tr></thead><tbody>\n<tr><td><span class=\"fk\">ſ f</span></td><td>长 s · f</td><td>最重要的一组。f 的横杠穿过竖笔；ſ 的横杠只在左边一点或没有。看到像 f 的字母读不通，就试试 s。</td></tr>\n<tr><td><span class=\"fk\">A U</span></td><td>A · U</td><td>形状接近，靠上下文区分。</td></tr>\n<tr><td><span class=\"fk\">B V</span></td><td>B · V</td><td>B 下面是封口的，V 下面是开口的。</td></tr>\n<tr><td><span class=\"fk\">C E</span></td><td>C · E</td><td>E 中间多一笔。</td></tr>\n<tr><td><span class=\"fk\">G S</span></td><td>G · S</td><td>大写 S 和 G 很像，靠单词判断。</td></tr>\n<tr><td><span class=\"fk\">K R</span></td><td>K · R</td><td>R 右下方多一个向下的尾巴。</td></tr>\n<tr><td><span class=\"fk\">I J</span></td><td>I · J</td><td>旧书里常常是同一个字形，按单词判断。</td></tr>\n<tr><td><span class=\"fk\">n u</span></td><td>n · u</td><td>n 上面连着，u 下面连着；u 上面有时加一个小钩。</td></tr>\n<tr><td><span class=\"fk\">r x</span></td><td>r · x</td><td>x 往下多一个尾巴。</td></tr>\n<tr><td><span class=\"fk\">k t</span></td><td>k · t</td><td>k 上面有一个圈或钩，t 是平的。</td></tr>\n<tr><td><span class=\"fk\">c e</span></td><td>c · e</td><td>e 上面封口，c 不封口。</td></tr>\n</tbody></table></div>\n\n<h4>三、长 s 和圆 s 的规则</h4>\n<p>尖角体有两种 s，规则很简单：<b>音节或词的末尾用圆 s，其余地方都用长 ſ</b>。</p>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>位置</th><th>用</th><th>尖角体</th><th>今天</th></tr></thead><tbody>\n<tr><td>词首、音节开头</td><td>ſ</td><td><span class=\"fk\">ſein · ſo · geſtorben</span></td><td>sein · so · gestorben</td></tr>\n<tr><td>词中</td><td>ſ</td><td><span class=\"fk\">Wiſſenſchaft · Erkenntniſſe</span></td><td>Wissenschaft · Erkenntnisse</td></tr>\n<tr><td>词尾</td><td>s</td><td><span class=\"fk\">das · es · Haus</span></td><td>das · es · Haus</td></tr>\n<tr><td>复合词里前一个词的末尾</td><td>s</td><td><span class=\"fk\">Hausthür · Königsſohn</span></td><td>Haustür · Königssohn</td></tr>\n</tbody></table></div>\n<p>反过来，这条规则也帮你拆复合词（第 27 课）：词中间出现一个圆 s，那里多半是两个词的接缝。</p>\n\n<h4>四、连写字母</h4>\n<p>有几组字母在尖角体里总是连在一起印：<span class=\"fk\">ch · ck · tz · ſt · ß</span>。ß 就是从 ſ 和 z 连写来的，所以它的样子像 ſ 后面挂一个 z。有些旧书里变音字母不是写两点，而是在字母上方写一个小小的 e：这就是 ä、ö、ü 的来历。</p>\n\n<h4>五、读两段原文</h4>\n<p>《星星金币》的开头：</p>\n<p><span class=\"fk\">Es war einmal ein kleines Mädchen, dem war Vater und Mutter geſtorben, und es war ſo arm, daß es kein Kämmerchen mehr hatte darin zu wohnen.</span></p>\n<ul><li>[[Es{expl} war einmal ein{nn} kleines Mädchen, dem{rel:dn} war Vater und Mutter gestorben]]从前有个小女孩，她的爸爸妈妈都死了。</li></ul>\n<p>《纯粹理性批判》第二版序言的第一句（拼写照 1787 年原版）：</p>\n<p><span class=\"fk\">Ob die Bearbeitung der Erkenntniſſe, die zum Vernunftgeſchäfte gehören, den ſicheren Gang einer Wiſſenſchaft gehe oder nicht, das läßt ſich bald aus dem Erfolg beurtheilen.</span></p>\n<p>转写：<i>Ob die Bearbeitung der Erkenntnisse, die zum Vernunftgeschäfte gehören, den sicheren Gang einer Wissenschaft gehe oder nicht, das läßt sich bald aus dem Erfolg beurteilen.</i>（这句在第 1 章读过：处理理性事务的知识是否走上了科学的可靠道路，从结果很快就能判断。注意 Erfolg = 结果，第 30 课。）</p>\n\n<h4>六、练习方法</h4>\n<ol>\n<li>先把第一节的字母表对照读两遍。</li>\n<li>读一段熟悉的文字（比如上面两句），遇到认不出的字母先跳过，从上下文猜。</li>\n<li>遇到「f」读不通，换成 s 试试；遇到大写字母读不通，查第二节的对照表。</li>\n<li>每天读几行，一周后就会和读普通字体差不多快。</li>\n</ol>\n\n<h4>七、马上练</h4>\n{{quiz:s1}}\n\n<h4>八、小结</h4>\n<ul>\n<li>尖角体（Fraktur）是 1940 年代以前德语书的主要字体，康德和格林的初版都是。</li>\n<li>最重要的区分：长 ſ 和 f；音节末尾用圆 s，其余用 ſ。</li>\n<li>容易混的大写：A / U、B / V、C / E、G / S、K / R、I / J。</li>\n<li>连写：ch、ck、tz、ſt、ß（= ſ + z）。</li>\n</ul>",
+  "quiz": [
+   {
+    "id": "fk1",
+    "sec": "s1",
+    "de": "dem war Vater und Mutter <<gestorben>>",
+    "opts": [
+     "长 s：geſtorben（音节开头）",
+     "圆 s：gestorben"
+    ],
+    "ans": 0,
+    "why": "这个 s 在音节开头，用长 ſ。"
+   },
+   {
+    "id": "fk2",
+    "sec": "s1",
+    "de": "und <<es>> war so arm",
+    "opts": [
+     "圆 s：es（词尾）",
+     "长 s：eſ"
+    ],
+    "ans": 0,
+    "why": "词尾一律用圆 s。"
+   },
+   {
+    "id": "fk3",
+    "sec": "s1",
+    "de": "und es war <<so>> arm",
+    "opts": [
+     "长 s：ſo（词首）",
+     "圆 s：so"
+    ],
+    "ans": 0,
+    "why": "词首用长 ſ。"
+   },
+   {
+    "id": "fk4",
+    "sec": "s1",
+    "de": "klopfte an die <<Hausthür>>",
+    "opts": [
+     "Haus|thür：圆 s，标出复合词的接缝",
+     "Hauſthür：长 s"
+    ],
+    "ans": 0,
+    "why": "Haus 是一个完整的词，它的 s 在词尾。"
+   },
+   {
+    "id": "fk5",
+    "sec": "s1",
+    "de": "daß es kein Kämmerchen mehr hatte",
+    "opts": [
+     "ß 是 ſ 和 z 连写来的",
+     "ß 是两个圆 s"
+    ],
+    "ans": 0,
+    "why": "所以 ß 的样子像长 s 后面挂一个 z。"
+   }
+  ]
  }
 ]

@@ -245,7 +245,7 @@ def validate(book):
 # clickable at runtime. These helpers list those strings so check.py can make sure each
 # word has a dictionary entry somewhere (own book → shared lexicon → any other book).
 
-WORD = re.compile(r"[A-Za-zÀ-ÖØ-öø-ÿẞ]+")
+WORD = re.compile(r"[A-Za-zÀ-ÖØ-öø-ÿẞſ]+")
 _PROFILE_SKIP = {"_about", "lang", "tts", "letters", "keyPattern", "css", "when", "verbPos", "verbLightPos",
                  "taggedPos", "contentPos", "posFilter", "caseOrder", "genderOrder", "plural", "governors"}
 
@@ -388,7 +388,7 @@ def build_dict(lib):
 def chains(text):
     """tokenise like the browser does: hyphen/·-joined chains, tried whole first, then part by part"""
     text = re.sub(r"\[\[.*?\]\]|\{\{[^}]*\}\}|\{\w+\}|<[^>]+>|&\w+;", " ", text)
-    for m in re.finditer(r"(-?)([A-Za-zÀ-ÖØ-öø-ÿẞ]+(?:[-·][A-Za-zÀ-ÖØ-öø-ÿẞ]+)*)(-?)", text):
+    for m in re.finditer(r"(-?)([A-Za-zÀ-ÖØ-öø-ÿẞſ]+(?:[-·][A-Za-zÀ-ÖØ-öø-ÿẞſ]+)*)(-?)", text.replace("ſ", "s")):
         yield m.group(1), m.group(2), m.group(3)
 
 

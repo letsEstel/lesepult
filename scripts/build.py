@@ -148,7 +148,7 @@ def main():
             old.unlink()
         for k, v in blob.items():
             (dd / f"{k}.json").write_text(v, encoding="utf8")
-        for f in ("sw.js", "manifest.webmanifest", "icon.svg"):
+        for f in ("sw.js", "manifest.webmanifest", "icon.svg", "fraktur.woff", "fraktur-OFL.txt"):
             shutil.copy(KIT / "template" / f, out.parent / f)
         sizes = ", ".join(f"{k} {len(v.encode())/1024:.0f} KB" for k, v in blob.items())
         print(f"数据文件 {dd}：{sizes}")

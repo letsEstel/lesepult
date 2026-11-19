@@ -84,6 +84,8 @@ a{color:var(--prussian)}
 .top{position:sticky;top:env(safe-area-inset-top,0px);z-index:30;background:color-mix(in srgb,var(--paper) 92%,transparent);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-bottom:1px solid var(--rule)}
 .top-in{display:flex;align-items:center;gap:12px;min-height:54px}
 .brand{display:flex;align-items:baseline;gap:8px;text-decoration:none;color:var(--ink);flex:none}
+@font-face{font-family:"LP Fraktur";src:url(fraktur.woff) format("woff");font-display:swap}
+.fk{font-family:"LP Fraktur","UnifrakturMaguntia",serif;font-size:1.3em;line-height:1.7;letter-spacing:.02em}
 .brand .frak{font:28px/1 var(--f-frak);color:var(--prussian)}
 .brand .bt{font:600 15px/1.2 var(--f-de);white-space:nowrap}
 @media (max-width:560px){.brand .bt{display:none}}
@@ -1352,7 +1354,7 @@ document.addEventListener('keydown',e=>{
    word-slip text, footers — is scanned when it appears: Latin-script words are wrapped in .lw links,
    looked up first in the current book's lexicon, then in the shared dictionary (DICT). Hyphenated
    breakdowns (Mün-dig-keit, -ung, ver-) are tried whole first, then as prefix / suffix / stem. */
-const LWRE=/(-?)([A-Za-zÀ-ÖØ-öø-ÿẞ]+(?:[-·][A-Za-zÀ-ÖØ-öø-ÿẞ]+)*)(-?)/g;
+const LWRE=/(-?)([A-Za-zÀ-ÖØ-öø-ÿẞſ]+(?:[-·][A-Za-zÀ-ÖØ-öø-ÿẞſ]+)*)(-?)/g;  // ſ (long s, Fraktur) is looked up as s
 const HARD='.de,.w,.lw,script,style,svg,input,textarea,select,option,title,#toast,.sl-word,[data-nolink]';
 const CTRL='button,a,[data-open],[data-route],[data-jump],[role="button"],.qopt,.tab';
 function lk(key){
@@ -1367,9 +1369,9 @@ function linkText(text){
     const [,lead,chain,trail]=m, st=m.index+lead.length;
     out+=esc(text.slice(last,st)); last=st+chain.length;
     const parts=chain.split(/([-·])/);
-    if(parts.length>1){ const id=lk(chain.replace(/[-·]/g,'').toLowerCase()); if(id){ out+=span(chain,id); continue; } }
+    if(parts.length>1){ const id=lk(chain.replace(/[-·]/g,'').toLowerCase().replace(/ſ/g,'s')); if(id){ out+=span(chain,id); continue; } }
     for(let i=0;i<parts.length;i+=2){
-      const p=parts[i], lw=p.toLowerCase(), keys=[];
+      const p=parts[i], lw=p.toLowerCase().replace(/ſ/g,'s'), keys=[];
       if(i>0||lead) keys.push('-'+lw); if(i<parts.length-1||trail) keys.push(lw+'-'); keys.push(lw);
       let id=null; for(const k of keys){ id=lk(k); if(id) break; }
       out+=id?span(p,id):esc(p); if(i+1<parts.length) out+=esc(parts[i+1]);
