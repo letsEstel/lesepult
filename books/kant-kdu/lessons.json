@@ -63,5 +63,70 @@
     "why": "它是先天的。"
    }
   ]
+ },
+ {
+  "id": "s1",
+  "ch": "s",
+  "t": "美的分析",
+  "de": "Analytik des Schönen",
+  "min": 30,
+  "html": "<p>「这朵花是美的。」这样一句话有什么特别？康德借用第一批判判断表的四个标题，把它分析成四个「契机」，每个契机得出一个美的定义。合起来，它们描述了一种独特的愉悦：既不是感官的快适，也不是对善的赞许。</p>\n<h4>一、四个契机</h4>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>契机</th><th>判断表标题</th><th>美的定义</th><th>要点</th></tr></thead><tbody>\n<tr><td>一</td><td>质</td><td>无利害的愉悦的对象</td><td>不关心对象是否存在，只看它的表象</td></tr>\n<tr><td>二</td><td>量</td><td>不凭概念而普遍令人喜欢</td><td>要求每个人同意，却不能证明</td></tr>\n<tr><td>三</td><td>关系</td><td>无目的的合目的性的形式</td><td>看起来像按目的安排，却说不出目的</td></tr>\n<tr><td>四</td><td>模态</td><td>不凭概念而被认作必然愉悦的对象</td><td>预设人人都有「共通感」</td></tr>\n</tbody></table></div>\n<h4>二、三种愉悦</h4>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th></th><th>快适（das Angenehme）</th><th>美（das Schöne）</th><th>善（das Gute）</th></tr></thead><tbody>\n<tr><th>与利害</th><td>有：刺激欲望</td><td>无</td><td>有：理性的关切</td></tr>\n<tr><th>有效范围</th><td>只对我：「它对我是快适的」</td><td>要求每个人同意</td><td>按概念对每个人有效</td></tr>\n<tr><th>例子</th><td>加那利葡萄酒</td><td>一朵花</td><td>一个正直的行为</td></tr>\n</tbody></table></div>\n[[Schön ist das, was ohne Begriff allgemein gefällt]]\n<h4>三、宫殿的例子</h4>\n<p>问我宫殿美不美，我可以说它浪费民脂民膏，可以说在荒岛上我宁愿要一间小屋——这些都可能对，但都答非所问。它们关心的是宫殿的「存在」；美的判断只关心它的「表象」是否让我愉悦。</p>\n<h4>四、自由美与依附美</h4>\n<p>花是「自由美」：判断它美，不需要知道它是什么（连植物学家也不考虑它是生殖器官）。一座教堂、一匹马的美却「依附」于「它应当是什么」的概念。纯粹的鉴赏判断只针对自由美。</p>\n<h4>五、语法小结</h4>\n<ul>\n<li><b>was für ein 被拆开</b>：Was eine Blume für ein Ding sein soll。</li>\n<li><b>一连串虚拟式二</b>：wenn ich mich … befände, und … hinzaubern könnte, … würde, wenn ich … hätte, die … wäre（第 22 课）。</li>\n<li><b>so … auch … mag</b>：so gleichgültig ich auch immer … sein mag（不管多么……）。</li>\n<li><b>muß … nicht = 不可以</b>：er muß es nicht schön nennen（第 30 课：老用法）。</li>\n</ul>\n{{quiz:s1}}",
+  "quiz": [
+   {
+    "id": "s1a",
+    "sec": "s1",
+    "de": "Interesse wird das Wohlgefallen genannt, was wir mit der Vorstellung der <<Existenz>> eines Gegenstandes verbinden",
+    "opts": [
+     "利害 = 关心对象是否存在；美的愉悦没有它",
+     "利害 = 对对象的好奇心"
+    ],
+    "ans": 0,
+    "why": "Interesse = 与对象存在联结在一起的愉悦。"
+   },
+   {
+    "id": "s1b",
+    "sec": "s1",
+    "de": "er solle sagen: er ist mir <<angenehm>>",
+    "opts": [
+     "快适只对我有效",
+     "美只对我有效"
+    ],
+    "ans": 0,
+    "why": "「各人有各人的口味」只适用于快适。"
+   },
+   {
+    "id": "s1c",
+    "sec": "s1",
+    "de": "Denn er muß es nicht schön nennen, wenn es bloß <<ihm>> gefällt",
+    "opts": [
+     "说一个东西美，就是要求别人也同意",
+     "美是纯私人的"
+    ],
+    "ans": 0,
+    "why": "美的判断要求「主观的普遍性」。"
+   },
+   {
+    "id": "s1d",
+    "sec": "s1",
+    "de": "Blumen sind <<freie>> Naturschönheiten",
+    "opts": [
+     "判断花美，不需要知道它是什么",
+     "花是免费的"
+    ],
+    "ans": 0,
+    "why": "自由美不依附于「它应当是什么」的概念。"
+   },
+   {
+    "id": "s1e",
+    "sec": "s1",
+    "de": "Schönheit ist Form der <<Zweckmäßigkeit>> eines Gegenstandes, sofern sie ohne Vorstellung eines Zwecks an ihm wahrgenommen wird",
+    "opts": [
+     "无目的的合目的性",
+     "有明确目的的合用性"
+    ],
+    "ans": 0,
+    "why": "看起来像设计好的，却说不出目的。"
+   }
+  ]
  }
 ]
