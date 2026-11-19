@@ -2243,5 +2243,80 @@
     "why": "-s- 接缝；Sohn 是单数。"
    }
   ]
+ },
+ {
+  "id": "satzbau",
+  "t": "句框与长句拆解法",
+  "de": "Satzklammer und lange Sätze",
+  "min": 90,
+  "html": "<p>第 7 课学过德语句子的三条基本规则：主句变位动词在第二位；句框把动词的另一半推到句末；从句的变位动词在最后。这一课把它们合起来，再加上前面学过的从句、关系从句、分词和 zu-不定式，变成一套<b>拆长句的固定步骤</b>。童话里的长句有三四层，康德的长句可以有七八层，但步骤是一样的。</p>\n\n<h4>一、一个句子的五个区</h4>\n<p>德语语法把一个主句分成五个区。记住这张图，任何句子都能对号入座：</p>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>前场</th><th>左框</th><th>中场</th><th>右框</th><th>后场</th></tr></thead><tbody>\n<tr><td>任何一个成分（只能一个）</td><td>变位动词</td><td>主语、宾语、状语……</td><td>不定式、分词、可分前缀</td><td>挂在后面的从句、比较</td></tr>\n<tr><td>Morgen in aller Frühe</td><td>wollen</td><td>wir die Kinder hinaus in den Wald</td><td>führen</td><td>, wo er am dicksten ist</td></tr>\n</tbody></table></div>\n<p>从句也一样，只是左框换成了连接词（daß、weil、wenn、关系代词），变位动词跑进右框，排在最后：</p>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>左框（连接词）</th><th>中场</th><th>右框（动词群）</th></tr></thead><tbody>\n<tr><td>daß</td><td>das Häuslein aus Brot</td><td>gebaut war</td></tr>\n<tr><td>die</td><td>doch so vieles</td><td>gesehen hat</td></tr>\n</tbody></table></div>\n<ul>\n<li>[[Die{nf} Frau führte die{ap} Kinder noch tiefer in den{am} Wald, wo sie{they} ihr{an} Lebtag noch nicht gewesen waren]]妻子把孩子们带到森林更深处，他们这辈子从没到过的地方。</li>\n</ul>\n<p>主句：Die Frau | führte | die Kinder noch tiefer in den Wald |（空）| , wo … （后场）。从句：wo | sie ihr Lebtag noch nicht | gewesen waren。</p>\n\n<h4>二、右框里的动词群：倒着读</h4>\n<p>从句末尾常常堆着两三个动词。中文的顺序和它正好相反，所以<b>从右往左读</b>：</p>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>句末动词群</th><th>从右往左</th><th>中文</th></tr></thead><tbody>\n<tr><td>gesehen hat</td><td>hat ← gesehen</td><td>已经见过</td></tr>\n<tr><td>gebaut war</td><td>war ← gebaut</td><td>是（用……）造的</td></tr>\n<tr><td>康德 <i>gesucht werden muß</i></td><td>muß ← werden ← gesucht</td><td>必须被寻找</td></tr>\n<tr><td>康德 <i>abgeleitet werden können</i></td><td>können ← werden ← abgeleitet</td><td>能够被推导出来</td></tr>\n<tr><td>康德 <i>habe bestimmen können und sollen</i></td><td>habe ← können und sollen ← bestimmen</td><td>本可以也本应当决定</td></tr>\n</tbody></table></div>\n<p>规律：最右边的是变位动词（时态、情态），往左依次是 werden（被动）、分词或不定式（真正的动作）。把它们倒过来念，就是中文的顺序。</p>\n<div class=\"tip\">一个例外：情态动词的完成时用「双不定式」，这时变位的 habe / hat 不在最右边，而是跑到整个动词群的<b>最前面</b>：habe | bestimmen können und sollen。读法是：先读最前面的 habe（完成），再从右往左读剩下的。</div>\n\n<h4>三、后场：动词后面还有东西</h4>\n<p>今天的德语，右框后面一般只放从句和比较。老的书面语却常把东西挂到动词后面，读的时候别以为句子到这儿就完了：</p>\n<ul>\n<li>[[so sahen sie{they} daß das{nn} Häuslein aus Brot gebaut war, und mit Kuchen gedeckt]]他们看到小房子是用面包造的，屋顶盖的是蛋糕。（mit Kuchen gedeckt 挂在 war 后面，补出另一个分词。）</li>\n<li>康德：<i>daß die Vernunft … vergeblich ihre Flügel ausspanne, um über die Sinnenwelt … hinaus zu kommen</i>：um … zu 挂在后场（第 19 课）。</li>\n</ul>\n\n<h4>四、五步拆句法</h4>\n<ol>\n<li><b>圈出所有变位动词</b>。有几个变位动词，就有几个分句。</li>\n<li><b>找分句的边界</b>：逗号后面跟着连接词（daß、weil、wenn、als、wo、bis）或关系词（der / die / das、welcher、dessen、wo-），就是一个从句的开始；它的变位动词在末尾，那就是终点。</li>\n<li><b>找主句</b>：变位动词在第二位（或第一位，表示条件），前面没有连接词的那个。先只读主句，译出骨架。</li>\n<li><b>挂从句</b>：关系从句挂在它前面的名词上；连词从句挂在整个主句上（什么时候、为什么、什么条件）；daß-从句常常当主语或宾语。</li>\n<li><b>从骨架往外加</b>，每次加一层，最后回头读一遍原文。</li>\n</ol>\n\n<h4>五、实例一：《青蛙王子》的第一句</h4>\n<ul>\n<li>[[In den{dp} alten Zeiten, wo das{nn} Wünschen noch geholfen hat, lebte ein{nm} König, dessen{rel:gm} Töchter waren alle{np} schön, aber die{nf} jüngste war so schön, daß die{nf} Sonne selber, die{rel:nf} doch so vieles gesehen hat, sich{refl} verwunderte so oft sie{she} ihr ins Gesicht schien.]]</li>\n</ul>\n<p>第 1 步，变位动词：hat · lebte · waren · war · hat · verwunderte · schien，共七个。第 2–4 步，排成层级（缩进 = 挂在上一层上）：</p>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>层</th><th>分句</th><th>作用</th></tr></thead><tbody>\n<tr><td>主</td><td>In den alten Zeiten … lebte ein König</td><td>骨架：古时候有一位国王</td></tr>\n<tr><td>└ 1</td><td>wo das Wünschen noch geholfen hat</td><td>挂在 Zeiten 上：许愿还管用的（时候）</td></tr>\n<tr><td>└ 1</td><td>dessen Töchter waren alle schön</td><td>挂在 König 上：他的女儿们都很美（老式写法：关系从句里动词没放到最后）</td></tr>\n<tr><td>主</td><td>aber die jüngste war so schön</td><td>第二个主句：但最小的那个美得……</td></tr>\n<tr><td>└ 1</td><td>daß die Sonne selber … sich verwunderte</td><td>挂在 so 上：so …, daß：美得连太阳都惊奇</td></tr>\n<tr><td>　└ 2</td><td>die doch so vieles gesehen hat</td><td>挂在 Sonne 上：见过那么多东西的（太阳）</td></tr>\n<tr><td>　└ 2</td><td>so oft sie ihr ins Gesicht schien</td><td>在后场，挂在 verwunderte 上：每次照到她脸上时</td></tr>\n</tbody></table></div>\n<p>第 5 步，从骨架往外加：古时候有一位国王 → 在许愿还管用的古时候，有一位国王，他的女儿个个美丽 → 但最小的那个美得连太阳都惊奇 → 连见多识广的太阳，每次照到她脸上都感到惊奇。</p>\n\n<h4>六、实例二：《亨塞尔与格蕾特》里最长的一句</h4>\n<ul>\n<li>[[und sie{they} giengen ihm nach, bis sie{they} zu einem{dn} Häuschen gelangten, auf dessen{rel:gn} Dach es{it} sich{refl} setzte, und als sie{they} ganz nah heran kamen, so sahen sie{they} daß das{nn} Häuslein aus Brot gebaut war]]</li>\n</ul>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>层</th><th>分句</th><th>中文</th></tr></thead><tbody>\n<tr><td>主</td><td>und sie giengen ihm nach</td><td>他们跟着它（小鸟）走</td></tr>\n<tr><td>└ 1</td><td>bis sie zu einem Häuschen gelangten</td><td>直到来到一座小房子前</td></tr>\n<tr><td>　└ 2</td><td>auf dessen Dach es sich setzte</td><td>它落在（小房子的）屋顶上</td></tr>\n<tr><td>└ 1</td><td>und als sie ganz nah heran kamen</td><td>他们走近时</td></tr>\n<tr><td>主</td><td>so sahen sie</td><td>就看到</td></tr>\n<tr><td>└ 1</td><td>daß das Häuslein aus Brot gebaut war</td><td>小房子是面包造的</td></tr>\n</tbody></table></div>\n<p>注意 als …, so …：als-从句占了前场，后面的主句用 so 接上，变位动词 sahen 照样在第二位（第 12 课）。</p>\n\n<h4>七、实例三：康德</h4>\n<p>同样的步骤用在康德第 8 章的一句上（只列骨架）：</p>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>层</th><th>分句</th><th>中文</th></tr></thead><tbody>\n<tr><td>主</td><td><i>Hier zeigt sich nämlich ein neues Phänomen der menschlichen Vernunft</i></td><td>这里出现了人类理性的一个新现象</td></tr>\n<tr><td>同位</td><td><i>eine ganz natürliche Antithetik</i></td><td>一种完全自然的对立论</td></tr>\n<tr><td>└ 1</td><td><i>auf die keiner zu grübeln … braucht</i></td><td>没人需要为它苦思</td></tr>\n<tr><td>└ 1</td><td><i>sondern in welche die Vernunft von selbst … gerät</i></td><td>理性是自己陷进去的</td></tr>\n<tr><td>　└ 2</td><td><i>sich entweder … zu überlassen, oder … anzunehmen</i></td><td>（受到诱惑）要么听任……，要么采取……</td></tr>\n</tbody></table></div>\n<p>康德的句子长，但层数并不神秘：一个主句、一个同位语、两个关系从句、几个 zu-不定式。先找骨架，剩下的都是挂件。</p>\n\n<h4>八、马上练</h4>\n{{quiz:s1}}\n\n<h4>九、小结</h4>\n<ul>\n<li>五个区：前场 · 左框（变位动词 / 连接词）· 中场 · 右框（动词群）· 后场。</li>\n<li>句末动词群从右往左读。</li>\n<li>老的书面语常在右框后面再挂东西。</li>\n<li>五步：圈动词 → 找边界 → 找主句 → 挂从句 → 从骨架往外加。</li>\n</ul>\n\n<h4>十、读一读</h4>\n<p>回到《青蛙王子》再读一遍开头，然后去康德第 8 章，用五步法拆第一句。</p>\n<p><button class=\"btn\" data-route=\"grimm~ch-k001\">《青蛙王子》</button> <button class=\"btn\" data-route=\"kant-krv~ch-n\">二律背反</button></p>",
+  "quiz": [
+   {
+    "id": "sk1",
+    "sec": "s1",
+    "de": "In den alten Zeiten, wo das Wünschen noch geholfen hat, <<lebte>> ein König",
+    "opts": [
+     "主句的变位动词，主语是 ein König",
+     "从句的动词，主语是 das Wünschen"
+    ],
+    "ans": 0,
+    "why": "前场是 In den alten Zeiten + wo-从句，lebte 占第二位。"
+   },
+   {
+    "id": "sk2",
+    "sec": "s1",
+    "de": "daß die Sonne selber, die doch so vieles gesehen hat, sich <<verwunderte>>",
+    "opts": [
+     "daß-从句的变位动词，主语 die Sonne",
+     "关系从句的动词，主语 die"
+    ],
+    "ans": 0,
+    "why": "die … gesehen hat 是插在中间的关系从句，跳过它就看到主干。"
+   },
+   {
+    "id": "sk3",
+    "sec": "s1",
+    "de": "die doch so vieles gesehen <<hat>>",
+    "opts": [
+     "从右往左：hat gesehen = 已经见过",
+     "两个独立的动词"
+    ],
+    "ans": 0,
+    "why": "右框动词群倒着读。"
+   },
+   {
+    "id": "sk4",
+    "sec": "s1",
+    "de": "bis sie zu einem Häuschen gelangten, auf <<dessen>> Dach es sich setzte",
+    "opts": [
+     "dessen 指 Häuschen：在它的屋顶上",
+     "dessen 指 sie"
+    ],
+    "ans": 0,
+    "why": "关系从句挂在前面的名词上；dessen 是中性属格。"
+   },
+   {
+    "id": "sk5",
+    "sec": "s1",
+    "de": "wir wollen Morgen in aller Frühe die Kinder hinaus in den Wald <<führen>>",
+    "opts": [
+     "句框：wollen … führen，中间是中场",
+     "führen 是另一个句子的开头"
+    ],
+    "ans": 0,
+    "why": "情态动词在左框，不定式在右框。"
+   },
+   {
+    "id": "sk6",
+    "sec": "s1",
+    "de": "so sahen sie daß das Häuslein aus Brot gebaut war, und mit Kuchen <<gedeckt>>",
+    "opts": [
+     "挂在后场，补出 war 的另一个分词",
+     "新句子的开头"
+    ],
+    "ans": 0,
+    "why": "老的书面语常在动词后面再挂东西。"
+   }
+  ]
  }
 ]
