@@ -957,5 +957,103 @@
     "why": "davon = von dem Gold。"
    }
   ]
+ },
+ {
+  "id": "r001",
+  "ch": "k001",
+  "t": "读后练习：《青蛙王子》",
+  "de": "Der Froschkönig oder der eiserne Heinrich",
+  "min": 25,
+  "html": "<p>先回答内容题，再做语法题，复习第 21 课的被动态。</p>\n<h4>一、读懂了吗</h4>\n{{quiz:s1}}\n<h4>二、语法回顾：被动态</h4>\n{{quiz:s2}}\n<h4>三、结尾的被动</h4>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>原文</th><th>类型</th><th>意思</th></tr></thead><tbody>\n<tr><td>er wäre von einer bösen Hexe verwünscht worden</td><td>过程被动（虚拟式，过去完成）</td><td>他被女巫施了魔法</td></tr>\n<tr><td>als sein Herr war in einen Frosch verwandelt worden</td><td>过程被动（过去完成）</td><td>主人被变成青蛙时</td></tr>\n<tr><td>mit acht weißen Pferden bespannt</td><td>分词（状态）</td><td>套着八匹白马</td></tr>\n<tr><td>weil sein Herr erlöst und glücklich war</td><td>状态被动</td><td>因为主人得救了</td></tr>\n</tbody></table></div>\n<h4>四、想一想</h4>\n<p>今天人们讲这个故事，常说公主「吻了」青蛙；格林的原文里，她是把青蛙狠狠摔到墙上。故事的道德不在爱情，而在国王那句话：Was du versprochen hast, das mußt du auch halten。</p>\n<p><button class=\"btn\" data-route=\"grimm~ch-k001\">回到原文</button></p>",
+  "quiz": [
+   {
+    "id": "q001a",
+    "sec": "s1",
+    "de": "die doch so vieles gesehen hat, sich verwunderte so oft sie ihr ins Gesicht schien",
+    "opts": [
+     "连太阳都为最小公主的美丽惊奇",
+     "太阳不愿照公主"
+    ],
+    "ans": 0,
+    "why": "开头一句：最小的公主美得连太阳都惊奇。"
+   },
+   {
+    "id": "q001b",
+    "sec": "s1",
+    "de": "wenn du mir das versprichst, so will ich hinunter steigen",
+    "opts": [
+     "青蛙要公主答应它的条件才去捞球",
+     "青蛙不想去捞球"
+    ],
+    "ans": 0,
+    "why": "条件是做她的伙伴、同桌吃、同床睡。"
+   },
+   {
+    "id": "q001c",
+    "sec": "s1",
+    "de": "was du versprochen hast, das mußt du auch halten",
+    "opts": [
+     "国王说：答应了的就要做到",
+     "国王说：别理青蛙"
+    ],
+    "ans": 0,
+    "why": "这是故事的转折。"
+   },
+   {
+    "id": "q001d",
+    "sec": "s1",
+    "de": "und warf ihn aus allen Kräften wider die Wand",
+    "opts": [
+     "公主把青蛙摔到墙上，它就变成了王子",
+     "公主吻了青蛙"
+    ],
+    "ans": 0,
+    "why": "格林原文里没有吻。"
+   },
+   {
+    "id": "q001e",
+    "sec": "s1",
+    "de": "daß er drei eiserne Bande hatte um sein Herz legen lassen",
+    "opts": [
+     "亨利在心上箍了三道铁箍",
+     "亨利给车套了三道铁箍"
+    ],
+    "ans": 0,
+    "why": "免得心因悲伤裂开；回程时铁箍一道道崩落。"
+   },
+   {
+    "id": "q001f",
+    "sec": "s2",
+    "de": "er wäre von einer bösen Hexe verwünscht <<worden>>",
+    "opts": [
+     "被动：被施了魔法",
+     "变成"
+    ],
+    "ans": 0,
+    "why": "worden：被动。"
+   },
+   {
+    "id": "q001g",
+    "sec": "s2",
+    "de": "Das Thor <<ward>> aufgethan",
+    "opts": [
+     "被动过去时",
+     "将来时"
+    ],
+    "ans": 0,
+    "why": "ward + 分词。这一句在《霍勒太太》。"
+   },
+   {
+    "id": "q001h",
+    "sec": "s2",
+    "de": "weil sein Herr <<erlöst>> und glücklich war",
+    "opts": [
+     "状态被动：得救了",
+     "主动"
+    ],
+    "ans": 0,
+    "why": "sein + 及物动词分词。"
+   }
+  ]
  }
 ]

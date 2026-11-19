@@ -1729,5 +1729,80 @@
     "why": "davon 指前面的 zwei Töchter：其中一个。"
    }
   ]
+ },
+ {
+  "id": "passiv",
+  "t": "被动态",
+  "de": "Das Passiv",
+  "min": 90,
+  "html": "<p>第 17 课说过：werden + 过去分词 = 被动。这一课把被动讲完整。童话里被动不多，可一到结尾就集中出现：王子「被女巫施了魔法」，又「被变成了青蛙」。而在康德的书里，被动几乎是默认的语态：对象「被给予」、「被思维」、「被认识」。认不出被动，就分不清谁在做、谁在被做。</p>\n\n<h4>一、过程被动：werden + 过去分词</h4>\n<p>被动态把动作的承受者变成主语。变位的 werden 在第二位，过去分词在句末：</p>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>时态</th><th>形式</th><th>读本里</th></tr></thead><tbody>\n<tr><td>现在时</td><td>wird + 分词</td><td>[[Es{expl} wird auch erzählt]] · 康德：<i>durch den Verstand aber werden sie gedacht</i></td></tr>\n<tr><td>过去时</td><td>wurde / ward + 分词</td><td>[[Das{nn} Thor ward aufgethan]] · [[Darauf ward das{nn} Thor verschlossen]]</td></tr>\n<tr><td>完成时</td><td>ist + 分词 + <b>worden</b></td><td><i>es ist gesagt worden</i>：已经被说过</td></tr>\n<tr><td>过去完成时</td><td>war + 分词 + worden</td><td>[[als sein{nm} Herr war in einen{am} Frosch verwandelt worden]]</td></tr>\n<tr><td>情态动词</td><td>muß / kann + 分词 + werden</td><td>康德：<i>kann … angetroffen werden</i></td></tr>\n<tr><td>虚拟式</td><td>wäre + 分词 + worden</td><td>[[er wäre von einer{df} bösen Hexe verwünscht worden]]</td></tr>\n</tbody></table></div>\n<div class=\"tip\">被动的完成时用 <b>worden</b>，不用 geworden：<i>er ist alt geworden</i>（他变老了）对 <i>er ist verwandelt worden</i>（他被变了）。看到 worden，一定是被动。</div>\n\n<h4>二、「被谁」：von 和 durch</h4>\n<ul>\n<li><b>von + 与格</b>：动作的施行者（人或拟人的东西）：[[ward es{child} von ihr und der{df} Schwester gut aufgenommen]]：被母亲和姐妹好好接待。[[von einer{df} bösen Hexe verwünscht]]：被一个恶女巫施了魔法。</li>\n<li><b>durch + 宾格</b>：手段、中介：康德：<i>durch die erstere wird uns ein Gegenstand gegeben</i>：通过前者（感性），对象被给予我们。</li>\n</ul>\n<p>很多被动句根本不说「被谁」：[[Das{nn} Thor ward aufgethan]]（门开了，谁开的不重要）。</p>\n\n<h4>三、状态被动：sein + 过去分词</h4>\n<p>sein + 分词表示动作完成以后留下的<b>状态</b>：</p>\n<ul>\n<li>[[Tisch, Stühle und Bänke waren umgeworfen]]：桌椅凳都翻倒着。</li>\n<li>[[weil es{kind} so von aller{df} Welt verlassen war]]：因为她被全世界抛弃了。</li>\n<li>[[so daß es{child} über und über davon bedeckt war]]：浑身都被金子盖满。</li>\n<li>[[weil sein{nm} Herr erlöst und glücklich war]]：因为主人得救了、幸福了。</li>\n</ul>\n<p>比较：<i>das Thor ward verschlossen</i>（门被锁上了：动作）和 <i>das Thor war verschlossen</i>（门锁着：状态）。</p>\n<div class=\"tip\">sein + 分词有两种可能：① 不及物的移动 / 变化动词（gekommen、gestorben、gefallen）→ 完成时（第 16 课）；② 及物动词（verlassen、bedeckt、umgeworfen）→ 状态被动。看动词能不能带宾语。</div>\n\n<h4>四、没有主语的被动</h4>\n<p>不及物动词也能用被动，这时 es 占位，或者干脆没有主语：[[Es{expl} wird auch erzählt, daß …]]：人们还讲……。<i>Hier wird getanzt</i>：这里在跳舞。这种句子译成「人们……」最自然。</p>\n\n<h4>五、被动的替代说法</h4>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>说法</th><th>例子</th><th>意思</th></tr></thead><tbody>\n<tr><td>man + 主动</td><td><i>man sagt</i></td><td>人们说 = 据说</td></tr>\n<tr><td>sich lassen + 不定式</td><td>康德：<i>sich im letzteren anschauen läßt</i></td><td>能被……</td></tr>\n<tr><td>sein + zu-不定式</td><td>[[aber nirgend waren sie{they} zu finden]]</td><td>能被 / 应被……（第 25 课）</td></tr>\n<tr><td>bekommen + 分词</td><td><i>er bekam es geschenkt</i></td><td>得到……（口语）</td></tr>\n</tbody></table></div>\n\n<h4>六、为什么康德爱用被动</h4>\n<p>康德讨论的是认识的条件，而不是某个具体的人在做什么。所以他常说「对象被给予」「被思维」「被表象」，主语是对象和表象，真正的施行者（我们的感性、知性）藏在 durch 后面或干脆不说。读康德时，看到被动，问一问：谁在做这件事？答案通常是感性或知性。</p>\n\n<h4>七、反推方法</h4>\n<ol>\n<li>句末（或从句末）是过去分词，第二位是 werden 的变位形式 → 被动。</li>\n<li>句末是「分词 + worden」→ 被动完成时；「分词 + werden」+ 情态动词 → 被动不定式。</li>\n<li>主语是承受者；找 von / durch 看施行者。</li>\n<li>sein + 及物动词的分词 → 状态被动。</li>\n</ol>\n\n<h4>八、马上练</h4>\n{{quiz:s1}}\n\n<h4>九、小结</h4>\n<ul>\n<li>过程被动：werden + 分词；完成时用 worden。</li>\n<li>施行者：von + 与格；手段：durch + 宾格。</li>\n<li>状态被动：sein + 及物动词的分词。</li>\n<li>无主语被动：es wird erzählt = 人们讲。</li>\n<li>替代：man、sich lassen、sein + zu。</li>\n</ul>\n\n<h4>十、读一读</h4>\n<p>《青蛙王子》是格林童话集的第一篇，约 1300 词，分五部分。结尾的被动态请特别注意。</p>\n<p><button class=\"btn\" data-route=\"grimm~ch-k001\">读一读：《青蛙王子》</button> <button class=\"btn\" data-route=\"grimm~intro-10\">读后练习</button></p>",
+  "quiz": [
+   {
+    "id": "ps1",
+    "sec": "s1",
+    "de": "Darauf <<ward>> das Thor verschlossen",
+    "opts": [
+     "过程被动（过去时）：门被关上了",
+     "变成"
+    ],
+    "ans": 0,
+    "why": "ward + 分词 verschlossen = 被动。"
+   },
+   {
+    "id": "ps2",
+    "sec": "s1",
+    "de": "er wäre von einer bösen Hexe verwünscht <<worden>>",
+    "opts": [
+     "被动的完成形式：被施了魔法",
+     "werden 的独立用法（变成）"
+    ],
+    "ans": 0,
+    "why": "worden 只出现在被动里。"
+   },
+   {
+    "id": "ps3",
+    "sec": "s1",
+    "de": "ward es <<von>> ihr und der Schwester gut aufgenommen",
+    "opts": [
+     "引出施行者：被母亲和姐妹",
+     "从……来"
+    ],
+    "ans": 0,
+    "why": "被动句里 von + 与格 = 被谁。"
+   },
+   {
+    "id": "ps4",
+    "sec": "s1",
+    "de": "weil sein Herr erlöst und glücklich <<war>>",
+    "opts": [
+     "状态被动：得救了（的状态）",
+     "完成时"
+    ],
+    "ans": 0,
+    "why": "erlösen 是及物动词，sein + erlöst = 状态。"
+   },
+   {
+    "id": "ps5",
+    "sec": "s1",
+    "de": "Rothkäppchen aber war nach den Blumen herum <<gelaufen>>",
+    "opts": [
+     "完成时（移动动词用 sein）",
+     "状态被动"
+    ],
+    "ans": 0,
+    "why": "laufen 不及物，sein + gelaufen 是完成时。"
+   },
+   {
+    "id": "ps6",
+    "sec": "s1",
+    "de": "Es <<wird>> auch erzählt",
+    "opts": [
+     "无主语被动：人们讲",
+     "将来时"
+    ],
+    "ans": 0,
+    "why": "wird + 分词 erzählt：被动；es 只占位。"
+   }
+  ]
  }
 ]

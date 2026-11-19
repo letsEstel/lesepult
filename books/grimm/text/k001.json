@@ -1,0 +1,458 @@
+[
+ {
+  "h": "一 · 金球",
+  "t": "Die goldene Kugel",
+  "k": "1",
+  "sum": "读前：学完阅读课第 1–21 课（第 21 课是被动态）。\n《青蛙王子》（原名「青蛙国王或铁亨利」）是格林童话集的第 1 篇，约 1300 词，分五部分。公主的金球掉进井里，青蛙替她捞上来，条件是做她的伙伴；公主答应了却想赖账，国王坚持「答应了的就要做到」。语言上，结尾有好几个被动态（verwünscht worden、verwandelt worden），正好复习第 21 课；还有不少虚拟式（käme、wäre、bräche），第 22 课细讲。",
+  "s": [
+   {
+    "de": "In den{dp} alten Zeiten, wo das{nn} Wünschen noch geholfen hat, lebte ein{nm} König, dessen{rel:gm} Töchter waren alle{np} schön, aber die{nf} jüngste war so schön, daß die{nf} Sonne selber, die{rel:nf} doch so vieles gesehen hat, sich{refl} verwunderte so oft sie{she} ihr ins Gesicht schien.",
+    "zh": "在很久很久以前，那时许愿还管用，有一位国王，他的女儿们个个美丽，而最小的那个美得连见多识广的太阳每次照在她脸上时都感到惊奇。",
+    "n": [
+     "拆解：① In den alten Zeiten（在古时候）+ 关系从句 wo das Wünschen noch geholfen hat（那时许愿还有用）。② 主句 lebte ein König（住着一位国王）+ 关系从句 dessen Töchter waren alle schön（他的女儿们都很美）：古老语序。③ aber die jüngste war so schön, daß die Sonne selber … sich verwunderte（最小的美得连太阳都惊奇）。④ 插入 die doch so vieles gesehen hat（太阳见过那么多东西）。⑤ so oft sie ihr ins Gesicht schien（每当它照在她脸上时）。",
+     "das Wünschen：许愿（动词名词化）。geholfen hat：完成时。这是格林童话集的第一句，也是最有名的开头之一。",
+     "dessen Töchter：他的女儿们（关系代词属格，第 13 课）。die jüngste：最小的（最高级）。",
+     "sich verwundern：惊奇（反身）。so oft：每当（第 12 课）。sie = die Sonne，ihr = 公主（与格，「她的」脸）。"
+    ]
+   },
+   {
+    "de": "Nahe bei dem{dn} Schlosse des{gm} Königs lag ein{nm} großer dunkler Wald, und in dem{dm} Walde unter einer{df} alten Linde war ein{nm} Brunnen: wenn nun der{nm} Tag recht heiß war, so ging das{nn} Königskind hinaus in den{am} Wald und setzte sich{refl} an den{am} Rand des{gm} kühlen Brunnens: und wenn sie{she} Langeweile hatte, so nahm sie{she} eine{af} goldene Kugel, warf sie{her} in die{af} Höhe und fieng sie{her} wieder; und das{dem:nn} war ihr{nn} liebstes Spielwerk.",
+    "zh": "国王的宫殿附近有一片又大又暗的森林，林中一棵老椴树下有一口井。天气很热的时候，公主就到林子里去，坐在凉爽的井边；她觉得无聊时，就拿出一个金球，抛到空中再接住；这是她最喜欢的玩具。",
+    "n": [
+     "拆解：① Nahe bei dem Schlosse des Königs lag ein großer dunkler Wald（王宫附近有一片大黑森林）。② und in dem Walde unter einer alten Linde war ein Brunnen（林中老椴树下有口井）。③ wenn nun der Tag recht heiß war, so ging das Königskind hinaus … und setzte sich an den Rand des kühlen Brunnens（天热时公主出去坐到井边）。④ und wenn sie Langeweile hatte, so nahm sie eine goldene Kugel, warf sie in die Höhe und fieng sie wieder（无聊时就拿金球抛起再接住）。⑤ und das war ihr liebstes Spielwerk（这是她最喜欢的玩具）。",
+     "das Schloß：宫殿（古式与格 Schlosse）。des Königs：国王的（属格）。ein großer dunkler Wald：ein 后阳性主格 -er（两个形容词都加）。die Linde：椴树。",
+     "wenn：每当（反复，第 12 课）。das Königskind：王的孩子（中性），后面却用 sie 指她：格林在这里按自然性别。",
+     "an den Rand des kühlen Brunnens：到凉井的边上（宾格 + 属格）。Langeweile haben：无聊。",
+     "ihr liebstes Spielwerk：她最喜欢的玩具（最高级，第 15 课）。"
+    ]
+   },
+   {
+    "de": "Nun trug es{expl} sich{refl} einmal zu, daß die{nf} goldene Kugel der{gf} Königstochter nicht in ihr{an} Händchen fiel, das{rel:an} sie{she} in die{af} Höhe gehalten hatte, sondern vorbei auf die{af} Erde schlug und geradezu ins Wasser hinein rollte.",
+    "zh": "有一次，公主的金球没有落进她举起的小手里，而是擦过手掉在地上，一直滚进了水里。",
+    "n": [
+     "拆解：Nun trug es sich einmal zu（有一次发生了）+ daß die goldene Kugel der Königstochter nicht in ihr Händchen fiel, …, sondern vorbei auf die Erde schlug und geradezu ins Wasser hinein rollte（金球没落进她手里，而是擦过落地，直滚进水里）+ 关系从句 das sie in die Höhe gehalten hatte（她举到高处的〔小手〕）。",
+     "es trug sich zu：发生了（sich zutragen）。der Königstochter：公主的（属格）。",
+     "das Händchen：小手（中性，所以关系代词 das）。gehalten hatte：过去完成时。",
+     "vorbei：擦过去。geradezu：径直。hineinrollen：滚进去。"
+    ]
+   },
+   {
+    "de": "Die{nf} Königstochter folgte ihr mit den{dp} Augen nach, aber die{nf} Kugel verschwand, und der{nm} Brunnen war tief, so tief daß man keinen{am} Grund sah.",
+    "zh": "公主的眼睛跟着金球看，可是球不见了；那口井很深，深得看不到底。",
+    "n": [
+     "jm nachfolgen：跟随（这里是「用眼睛追着」）。ihr = der Kugel。verschwinden：消失。so tief, daß …：深得……。der Grund：底。"
+    ]
+   },
+   {
+    "de": "Da fieng sie{she} an zu weinen und weinte immer lauter und konnte sich{refl} gar nicht trösten.",
+    "zh": "她就哭了起来，越哭越响，怎么也安慰不了自己。",
+    "n": [
+     "anfangen zu …：开始（第 19 课）。immer lauter：越来越响（第 15 课）。sich trösten：安慰自己。"
+    ]
+   }
+  ]
+ },
+ {
+  "h": "二 · 青蛙的条件",
+  "t": "Der Frosch",
+  "k": "2",
+  "s": [
+   {
+    "de": "Und wie sie{she} so klagte, rief ihr jemand zu „was hast du vor, Königstochter, du schreist ja daß sich{refl} ein{nm} Stein erbarmen möchte.“",
+    "zh": "她正这样哭诉着，有人朝她喊：「你怎么了，公主？你哭得连石头都要可怜你了。」",
+    "n": [
+     "klagen：哭诉。jm zurufen：朝某人喊。was hast du vor：你怎么了（字面：你打算干什么）。",
+     "daß sich ein Stein erbarmen möchte：以至于石头都要动怜悯之心。sich erbarmen：怜悯。möchte：虚拟式（第 22 课），「会、要」。"
+    ]
+   },
+   {
+    "de": "Sie{she} sah sich{refl} um, woher die{nf} Stimme käme, da erblickte sie{she} einen{am} Frosch, der{rel:nm} seinen{am} dicken häßlichen Kopf aus dem{dn} Wasser streckte.",
+    "zh": "她四下张望，看声音是从哪里来的，看见一只青蛙把它又肥又丑的脑袋伸出水面。",
+    "n": [
+     "sich umsehen：环顾。woher die Stimme käme：声音从哪里来（间接问句，käme：虚拟式）。erblicken：看见。",
+     "der … streckte：关系从句。seinen dicken häßlichen Kopf：阳性宾格，两个形容词都 -en。"
+    ]
+   },
+   {
+    "de": "„Ach, du bists, alter Wasserpatscher,“ sagte sie{she}, „ich weine über meine{af} goldene Kugel, die{rel:nf} mir in den{am} Brunnen hinab gefallen ist.“",
+    "zh": "「啊，是你呀，老拍水的，」她说，「我在为我的金球哭，它掉进井里去了。」",
+    "n": [
+     "bists = bist es。der Wasserpatscher：拍水的（对青蛙的戏称）。",
+     "über etw. weinen：为……哭。die mir … gefallen ist：关系从句，完成时（fallen 用 sein）。mir：「我的」（与格）。hinabfallen：掉下去。"
+    ]
+   },
+   {
+    "de": "„Sei still und weine nicht“, antwortete der{nm} Frosch, „ich kann wohl Rath schaffen, aber was gibst du mir, wenn ich dein{an} Spielwerk wieder heraufhole“?",
+    "zh": "「别出声，也别哭了，」青蛙答道，「我倒是有办法，可是我要是把你的玩具捞上来，你给我什么呢？」",
+    "n": [
+     "sei：sein 的命令式。weine：命令式。Rath schaffen：想办法（Rath = Rat）。",
+     "heraufholen：取上来（从句里不拆）。1857 年版问号放在引号外面。"
+    ]
+   },
+   {
+    "de": "„Was du haben willst, lieber Frosch,“ sagte sie{she}, „meine{ap} Kleider, meine{ap} Perlen und Edelsteine, auch noch die{af} goldene Krone, die{rel:af} ich trage.“",
+    "zh": "「你想要什么都行，亲爱的青蛙，」她说，「我的衣服、我的珍珠宝石，还有我戴的这顶金冠。」",
+    "n": [
+     "Was du haben willst：你想要的（东西），省掉了主句（= ich gebe dir, was …）。",
+     "die Perle：珍珠；der Edelstein：宝石；die Krone：王冠。die ich trage：我戴着的（die 是宾格）。"
+    ]
+   },
+   {
+    "de": "Der{nm} Frosch antwortete „deine{ap} Kleider, deine{ap} Perlen und Edelsteine, und deine{af} goldene Krone, die{dem:ap} mag ich nicht: aber wenn du mich lieb haben willst, und ich soll dein{nm} Geselle und Spielkamerad sein, an deinem{dn} Tischlein neben dir sitzen, von deinem{dn} goldenen Tellerlein essen, aus deinem{dn} Becherlein trinken, in deinem{dn} Bettlein schlafen: wenn du mir das{dem:an} versprichst, so will ich hinunter steigen und dir die{af} goldene Kugel wieder herauf holen.“",
+    "zh": "青蛙回答：「你的衣服、你的珍珠宝石、你的金冠，这些我都不要。可是，要是你肯喜欢我，让我做你的伙伴和玩伴，在你的小桌旁坐在你身边，用你的小金盘吃饭，用你的小杯喝水，睡在你的小床上，要是你答应我这些，我就下去把金球给你捞上来。」",
+    "n": [
+     "拆解：① deine Kleider, … deine goldene Krone, die mag ich nicht（你的衣服……金冠，这些我都不要）：die 重提前面列举的东西（宾语）。② aber wenn du mich lieb haben willst, und ich soll dein Geselle … sein, … sitzen, … essen, … trinken, … schlafen（要是你愿意喜欢我，让我做你的伙伴，坐在……吃……喝……睡……）：soll 管着一长串不定式。③ wenn du mir das versprichst（要是你答应我这些）→ so will ich hinunter steigen und dir die goldene Kugel wieder herauf holen（我就下去给你把金球捞上来）。",
+     "mögen：喜欢、想要（第 10 课）。",
+     "und ich soll …：注意这一段在 wenn 后面却是第二位语序（ich soll），是口语的松散连接。",
+     "Tischlein、Tellerlein、Becherlein、Bettlein：-lein 的小称（第 2 课），都是中性，所以 deinem。",
+     "versprechen：答应（versprichst：du 形式，e → i）。hinuntersteigen、heraufholen：1857 年分开写。"
+    ]
+   },
+   {
+    "de": "„Ach ja,“ sagte sie{she}, „ich verspreche dir alles{an}, was du willst, wenn du mir nur die{af} Kugel wieder bringst.“",
+    "zh": "「好啊，」她说，「只要你把金球给我拿回来，你要什么我都答应。」",
+    "n": [
+     "alles, was du willst：你想要的一切。nur：只要。"
+    ]
+   },
+   {
+    "de": "Sie{she} dachte aber „was der{nm} einfältige Frosch schwätzt, der{dem:nm} sitzt im Wasser bei seines{gm} Gleichen und quackt, und kann keines{gm} Menschen Geselle sein.“",
+    "zh": "她心里却想：「这只傻青蛙胡说些什么，它在水里和它的同类一起呱呱叫，怎么能做人的伙伴。」",
+    "n": [
+     "拆解：was der einfältige Frosch schwätzt（这傻青蛙胡扯什么）！der sitzt im Wasser bei seines Gleichen und quackt（它和同类坐在水里呱呱叫），und kann keines Menschen Geselle sein（不可能做人的伙伴）。",
+     "einfältig：头脑简单的。schwätzen：胡扯。der：指示代词，重提青蛙。",
+     "bei seines Gleichen：和它的同类在一起（今天写 seinesgleichen）。quacken：呱呱叫。",
+     "keines Menschen Geselle：任何人的伙伴都不能（属格前置，第 18 课）。"
+    ]
+   },
+   {
+    "de": "Der{nm} Frosch, als er die{af} Zusage erhalten hatte, tauchte seinen{am} Kopf unter, sank hinab und über ein{an} Weilchen kam er wieder herauf gerudert, hatte die{af} Kugel im Maul und warf sie{her} ins Gras.",
+    "zh": "青蛙得到了许诺，就把头一钻，沉了下去；过了一会儿，它又划水游了上来，嘴里衔着金球，把它扔到了草地上。",
+    "n": [
+     "拆解：主语 Der Frosch + 插入 als er die Zusage erhalten hatte（得到许诺以后）→ tauchte seinen Kopf unter（把头潜下去）, sank hinab（沉下去）, und über ein Weilchen kam er wieder herauf gerudert（过一会儿又划上来）, hatte die Kugel im Maul（嘴里衔着球）und warf sie ins Gras（扔到草里）。",
+     "die Zusage：许诺。untertauchen：潜下去。sinken：沉（sank）。",
+     "über ein Weilchen：过了一会儿。heraufgerudert kommen：划着上来（kommen + 分词表示方式）。"
+    ]
+   },
+   {
+    "de": "Die{nf} Königstochter war voll Freude, als sie{she} ihr{an} schönes Spielwerk wieder erblickte, hob es{it} auf und sprang damit fort.",
+    "zh": "公主又看见了她漂亮的玩具，高兴极了，把它捡起来就跑了。",
+    "n": [
+     "voll Freude：满心欢喜。aufheben：捡起（hob … auf）。damit：拿着它（第 20 课）。fortspringen：跑开。"
+    ]
+   },
+   {
+    "de": "„Warte, warte,“ rief der{nm} Frosch, „nimm mich mit, ich kann nicht so laufen wie du.“",
+    "zh": "「等等，等等，」青蛙喊，「带上我，我没法跑得像你那么快。」",
+    "n": [
+     "warte：命令式。mitnehmen：带上（nimm … mit）。so … wie：和……一样。"
+    ]
+   },
+   {
+    "de": "Aber was half ihm daß er ihr sein{an} quack quack so laut nachschrie als er konnte! sie{she} hörte nicht darauf, eilte nach Haus und hatte bald den{am} armen Frosch vergessen, der{rel:nm} wieder in seinen{am} Brunnen hinab steigen mußte.",
+    "zh": "可是它在她身后拼命地呱呱叫，又有什么用！她根本不理，急急忙忙跑回家，很快就把那只可怜的青蛙忘了，青蛙只好又回到它的井里去。",
+    "n": [
+     "拆解：① Aber was half ihm, daß er ihr sein quack quack so laut nachschrie, als er konnte!（它拼命在她身后呱呱叫又有什么用！）② sie hörte nicht darauf（她不理）, eilte nach Haus（跑回家）und hatte bald den armen Frosch vergessen（很快忘了可怜的青蛙）。③ 关系从句 der wieder in seinen Brunnen hinab steigen mußte（它只好又回井里）。",
+     "was half ihm, daß …：……对它有什么用（反问）。jm nachschreien：在某人后面喊。so laut … als er konnte：尽它所能地响。",
+     "auf etw. hören：听从。darauf：对此（第 20 课）。eilen：赶紧。hatte … vergessen：过去完成时。"
+    ]
+   }
+  ]
+ },
+ {
+  "h": "三 · 敲门",
+  "t": "Königstochter, jüngste, mach mir auf",
+  "k": "3",
+  "s": [
+   {
+    "de": "Am andern Tage, als sie{she} mit dem{dm} König und allen{dp} Hofleuten sich{refl} zur Tafel gesetzt hatte und von ihrem{dn} goldenen Tellerlein aß, da kam, plitsch platsch, plitsch platsch, etwas die{af} Marmortreppe herauf gekrochen, und als es{it} oben angelangt war, klopfte es{it} an der{df} Thür und rief „Königstochter, jüngste, mach mir auf.“",
+    "zh": "第二天，她和国王以及所有朝臣一起坐在桌边，正用她的小金盘吃饭，只听见扑嗒扑嗒、扑嗒扑嗒，有个东西顺着大理石台阶爬了上来；爬到上面，它敲门喊道：「最小的公主，给我开门。」",
+    "n": [
+     "拆解：① 从句 Am andern Tage, als sie … sich zur Tafel gesetzt hatte und von ihrem goldenen Tellerlein aß（第二天，她已入席、正用金盘吃饭时）。② 主句 da kam, plitsch platsch, …, etwas die Marmortreppe herauf gekrochen（有个东西顺大理石台阶爬了上来）。③ als es oben angelangt war（它到了上面）→ klopfte es an der Thür und rief „…“（敲门喊道）。",
+     "am andern Tage：第二天。die Hofleute：朝臣（Hof + Leute）。sich zur Tafel setzen：入席。",
+     "plitsch platsch：扑嗒扑嗒（拟声）。die Marmortreppe heraufgekrochen kommen：顺着大理石台阶爬上来（宾格表示路线；kommen + 分词，第 16 课）。",
+     "angelangt war：到达了（anlangen 用 sein）。es = etwas（中性）。",
+     "Königstochter, jüngste：最小的公主（形容词放在后面，民谣式的称呼）。"
+    ]
+   },
+   {
+    "de": "Sie{she} lief und wollte sehen wer draußen wäre, als sie{she} aber aufmachte, so saß der{nm} Frosch davor.",
+    "zh": "她跑过去想看看外面是谁，可是一开门，青蛙就坐在门前。",
+    "n": [
+     "wer draußen wäre：外面是谁（间接问句，虚拟式）。aufmachen：开门。davor：在它前面（= vor der Thür，第 20 课）。"
+    ]
+   },
+   {
+    "de": "Da warf sie{she} die{af} Thür hastig zu, setzte sich{refl} wieder an den{am} Tisch, und war ihr ganz angst.",
+    "zh": "她急忙把门砰地关上，又坐回桌边，心里怕得很。",
+    "n": [
+     "zuwerfen：猛地关上（warf … zu）。hastig：急忙。und war ihr ganz angst：她非常害怕（jm ist angst；省掉了 es）。"
+    ]
+   },
+   {
+    "de": "Der{nm} König sah wohl daß ihr das{nn} Herz gewaltig klopfte und sprach „mein{nn} Kind, was fürchtest du dich{refl}, steht etwa ein{nm} Riese vor der{df} Thür und will dich holen?“",
+    "zh": "国王看出她心跳得厉害，就说：「孩子，你怕什么？难道门外站着一个巨人要来抓你吗？」",
+    "n": [
+     "ihr das Herz：她的心（与格表示「谁的」）。klopfen：（心）跳。etwa：难道。der Riese：巨人。"
+    ]
+   },
+   {
+    "de": "„Ach nein,“ antwortete sie{she}, „es{expl} ist kein{nm} Riese, sondern ein{nm} garstiger Frosch.“",
+    "zh": "「不是，」她回答，「不是巨人，是一只讨厌的青蛙。」",
+    "n": [
+     "kein …, sondern …：不是……而是……。garstig：讨厌的、丑恶的。"
+    ]
+   },
+   {
+    "de": "„Was will der{nm} Frosch von dir?“",
+    "zh": "「青蛙找你要什么？」",
+    "n": [
+     "etw. von jm wollen：向某人要什么。"
+    ]
+   },
+   {
+    "de": "„Ach lieber Vater, als ich gestern im Wald bei dem{dm} Brunnen saß und spielte, da fiel meine{nf} goldene Kugel ins Wasser.",
+    "zh": "「唉，亲爱的爸爸，昨天我在林子里井边坐着玩的时候，我的金球掉进了水里。",
+    "n": [
+     "als：过去一次（第 12 课）。da：接上主句。"
+    ]
+   },
+   {
+    "de": "Und weil ich so weinte, hat sie{her} der{nm} Frosch wieder heraufgeholt, und weil er es{it} durchaus verlangte, so versprach ich ihm er sollte mein{nm} Geselle werden, ich dachte aber nimmermehr daß er aus seinem{dn} Wasser heraus könnte.",
+    "zh": "因为我哭得厉害，青蛙就把它捞了上来；它一定要我答应，我就答应让它做我的伙伴，可我万万没想到它能从水里出来。",
+    "n": [
+     "拆解：① weil ich so weinte, hat sie der Frosch wieder heraufgeholt（因为我哭，青蛙把它捞上来了）：完成时，sie = die Kugel（宾语在主语前，代词优先）。② weil er es durchaus verlangte, so versprach ich ihm（因为它坚持要，我就答应它）+ 转述 er sollte mein Geselle werden（它可以做我的伙伴）。③ ich dachte aber nimmermehr, daß er aus seinem Wasser heraus könnte（我万万没想到它能出水）。",
+     "hat … heraufgeholt：完成时（对话里讲过去，第 16 课）。durchaus：坚决。",
+     "er sollte …：没有 daß 的转述（第 12 课）。nimmermehr：绝不。heraus könnte：能出来（省掉了 kommen）。"
+    ]
+   },
+   {
+    "de": "Nun ist er draußen und will zu mir herein.“",
+    "zh": "现在它就在外面，要进来找我。」",
+    "n": [
+     "will … herein：想进来（省掉了 kommen，第 10 课）。"
+    ]
+   },
+   {
+    "de": "Indem klopfte es{it} zum zweitenmal und rief „Königstochter, jüngste, mach mir auf, weißt du nicht was gestern du zu mir gesagt bei dem{dn} kühlen Brunnenwasser?",
+    "zh": "这时又敲了第二次门，喊道：「最小的公主，给我开门，你忘了昨天在清凉的井水边你对我说过的话吗？",
+    "n": [
+     "indem：（旧义）就在这时。zum zweitenmal：第二次。",
+     "was gestern du zu mir gesagt：你昨天对我说过的话（省掉了 hast；du 放在 gestern 后面是为了押韵的节奏）。这段话是押韵的歌谣。",
+     "das Brunnenwasser：井水（中性，dem）。"
+    ]
+   },
+   {
+    "de": "Königstochter, jüngste, mach mir auf.“",
+    "zh": "最小的公主，给我开门。」",
+    "n": [
+     "歌谣重复第一句。"
+    ]
+   }
+  ]
+ },
+ {
+  "h": "四 · 同桌同床",
+  "t": "Was du versprochen hast",
+  "k": "4",
+  "s": [
+   {
+    "de": "Da sagte der{nm} König „was du versprochen hast, das{dem:an} mußt du auch halten; geh nur und mach ihm auf.“",
+    "zh": "国王就说：「你答应了的事，就必须做到；去吧，给它开门。」",
+    "n": [
+     "拆解：was du versprochen hast, das mußt du auch halten（你答应的事，就必须遵守）：was-从句占第一位，das 重提它（第 12 课）。geh nur und mach ihm auf（去给它开门吧）。",
+     "versprochen hast：完成时。ein Versprechen halten：遵守诺言。这是整个故事的转折：国王坚持诺言必须兑现。"
+    ]
+   },
+   {
+    "de": "Sie{she} gieng und öffnete die{af} Thüre, da hüpfte der{nm} Frosch herein, ihr immer auf dem{dm} Fuße nach, bis zu ihrem{dm} Stuhl.",
+    "zh": "她去开了门，青蛙跳了进来，一直紧跟在她脚后，跳到她的椅子边。",
+    "n": [
+     "öffnen：打开。hereinhüpfen：跳进来。jm auf dem Fuße nach：紧跟在某人脚后。bis zu：直到。"
+    ]
+   },
+   {
+    "de": "Da saß er und rief „heb mich herauf zu dir.“",
+    "zh": "它坐在那里喊：「把我抱上去，到你身边。」",
+    "n": [
+     "heb … herauf：heraufheben（举上去）的命令式。"
+    ]
+   },
+   {
+    "de": "Sie{she} zauderte bis es{it} endlich der{nm} König befahl.",
+    "zh": "她犹豫着，直到国王最后下了命令。",
+    "n": [
+     "zaudern：犹豫。bis：直到。es befehlen：命令这件事（es 是宾语，主语 der König 在后）。befahl：befehlen 的过去时。"
+    ]
+   },
+   {
+    "de": "Als der{nm} Frosch erst auf dem{dm} Stuhl war, wollte er auf den{am} Tisch, und als er da saß, sprach er „nun schieb mir dein{an} goldenes Tellerlein näher, damit wir zusammen essen.“",
+    "zh": "青蛙一上了椅子，又想上桌子；坐到桌上以后，它说：「把你的小金盘推近一点，好让我们一起吃。」",
+    "n": [
+     "erst：一……就。wollte er auf den Tisch：想上桌子（省掉了动词）。",
+     "schieb：schieben（推）的命令式。näher：更近（比较级）。damit：好让（连词，第 12 课）。"
+    ]
+   },
+   {
+    "de": "Das{dem:an} that sie{she} zwar, aber man sah wohl daß sies nicht gerne that.",
+    "zh": "她虽然照做了，可是谁都看得出她很不情愿。",
+    "n": [
+     "das that sie zwar：这个她倒是做了（das 是宾语，提到前面）。sies = sie es。nicht gerne：不情愿。"
+    ]
+   },
+   {
+    "de": "Der{nm} Frosch ließ sichs gut schmecken, aber ihr blieb fast jedes{nn} Bißlein im Halse.",
+    "zh": "青蛙吃得津津有味，她却几乎每一口都咽不下去。",
+    "n": [
+     "sich etw. gut schmecken lassen：吃得津津有味（sichs = sich es）。",
+     "jm im Halse bleiben：卡在某人喉咙里。das Bißlein：一小口（Biss + -lein）。jedes：中性主格。"
+    ]
+   },
+   {
+    "de": "Endlich sprach er „ich habe mich{refl} satt gegessen, und bin müde, nun trag mich in dein{an} Kämmerlein und mach dein{an} seiden Bettlein zurecht, da wollen wir uns{refl} schlafen legen.“",
+    "zh": "最后它说：「我吃饱了，也累了，现在把我抱到你的小房间去，把你的丝绸小床铺好，我们要睡觉了。」",
+    "n": [
+     "sich satt essen：吃饱（反身，完成时 habe … gegessen）。",
+     "trag：tragen 的命令式。das Kämmerlein：小房间。zurechtmachen：铺好（mach … zurecht）。seiden：丝绸的（形容词无词尾的旧式）。",
+     "sich schlafen legen：躺下睡觉。uns：反身（wir）。"
+    ]
+   },
+   {
+    "de": "Die{nf} Königstochter fieng an zu weinen und fürchtete sich{refl} vor dem{dm} kalten Frosch, den{rel:am} sie{she} nicht anzurühren getraute, und der{rel:nm} nun in ihrem{dn} schönen reinen Bettlein schlafen sollte.",
+    "zh": "公主哭了起来，她害怕那只冰冷的青蛙，连碰都不敢碰，现在它却要睡在她那漂亮干净的小床上。",
+    "n": [
+     "拆解：Die Königstochter fieng an zu weinen und fürchtete sich vor dem kalten Frosch（公主哭起来，害怕冰冷的青蛙）+ 两个关系从句：den sie nicht anzurühren getraute（她不敢碰的）, und der nun in ihrem … Bettlein schlafen sollte（而它现在却要睡在她的小床上）。",
+     "den：关系代词宾格（被碰的是青蛙）；der：主格（睡的是青蛙）。同一个先行词，两个格（第 13 课）。",
+     "sich getrauen + zu：敢于。anzurühren：an-zu-rühren（碰）。"
+    ]
+   },
+   {
+    "de": "Der{nm} König aber ward zornig und sprach „wer dir geholfen hat, als du in der{df} Noth warst, den{dem:am} sollst du hernach nicht verachten.“",
+    "zh": "国王却生气了，说：「在你有难时帮过你的人，事后你不该看不起他。」",
+    "n": [
+     "拆解：Der König aber ward zornig（国王生气了）+ 引号：wer dir geholfen hat, als du in der Noth warst, den sollst du hernach nicht verachten（谁在你有难时帮过你，你事后就不该轻视他）。",
+     "wer …, den …：谁……，就……他（wer-从句 + 指示代词 den，宾格，第 12 课）。",
+     "geholfen hat：完成时。in der Noth：在困境中（Noth = Not）。hernach：事后。verachten：轻视。"
+    ]
+   },
+   {
+    "de": "Da packte sie{she} ihn mit zwei Fingern, trug ihn hinauf und setzte ihn in eine{af} Ecke.",
+    "zh": "她只好用两根手指捏起它，带上楼，把它放在一个角落里。",
+    "n": [
+     "packen：抓。hinauftragen：拿上去。in eine Ecke：到角落里（宾格）。"
+    ]
+   },
+   {
+    "de": "Als sie{she} aber im Bett lag, kam er gekrochen und sprach „ich bin müde, ich will schlafen so gut wie du: heb mich herauf, oder ich sags deinem{dm} Vater.“",
+    "zh": "可是她躺到床上时，它爬了过来说：「我累了，我也要像你一样好好睡觉：把我抱上去，不然我告诉你爸爸。」",
+    "n": [
+     "kam er gekrochen：爬过来（kommen + 分词）。so gut wie du：和你一样好。sags = sage es。"
+    ]
+   },
+   {
+    "de": "Da ward sie{she} erst bitterböse, holte ihn herauf und warf ihn aus allen{dp} Kräften wider die{af} Wand, „nun wirst du Ruhe haben, du garstiger Frosch.“",
+    "zh": "这下她可气坏了，把它拿起来，用尽全身力气朝墙上摔去：「这下你该安静了吧，你这讨厌的青蛙。」",
+    "n": [
+     "erst：这才。bitterböse：气极了。heraufholen：拿上来。",
+     "aus allen Kräften：用尽全力。wider die Wand：朝墙上（wider + 宾格 = gegen）。",
+     "nun wirst du Ruhe haben：这下你该安静了（将来时 / 推测）。"
+    ]
+   }
+  ]
+ },
+ {
+  "h": "五 · 王子与铁亨利",
+  "t": "Der treue Heinrich",
+  "k": "5",
+  "s": [
+   {
+    "de": "Als er aber herab fiel, war er kein{nm} Frosch, sondern ein{nm} Königssohn mit schönen und freundlichen Augen.",
+    "zh": "可是它掉下来时，已经不是青蛙，而是一位眼睛美丽又和善的王子。",
+    "n": [
+     "herabfallen：掉下来。kein …, sondern …。der Königssohn：王子。mit schönen und freundlichen Augen：复数与格，没有冠词 -en。"
+    ]
+   },
+   {
+    "de": "Der{dem:nm} war nun nach ihres{gm} Vaters Willen ihr{nm} lieber Geselle und Gemahl.",
+    "zh": "按照她父亲的意愿，他成了她亲爱的伴侣和丈夫。",
+    "n": [
+     "der：他（指示代词）。nach ihres Vaters Willen：按照她父亲的意愿（属格前置，第 18 课）。der Gemahl：丈夫。"
+    ]
+   },
+   {
+    "de": "Da erzählte er ihr, er wäre von einer{df} bösen Hexe verwünscht worden, und Niemand hätte ihn aus dem{dm} Brunnen erlösen können als sie{she} allein, und morgen wollten sie{they} zusammen in sein{an} Reich gehen.",
+    "zh": "他告诉她，他被一个恶毒的女巫施了魔法，除了她，谁也不能把他从井里解救出来；明天他们要一起回他的王国去。",
+    "n": [
+     "拆解：Da erzählte er ihr（他告诉她）+ 三段转述（虚拟式，第 23 课）：① er wäre von einer bösen Hexe verwünscht worden（他被一个恶女巫施了魔法）。② und Niemand hätte ihn aus dem Brunnen erlösen können als sie allein（除了她谁也救不了他）。③ und morgen wollten sie zusammen in sein Reich gehen（明天他们要一起去他的王国）。",
+     "wäre … verwünscht worden：被动的过去完成时（虚拟式）：被施了魔法。von + 与格 = 被谁（第 21 课）。verwünschen：诅咒、施魔法。worden：被动里的 werden 的分词（第 17 课）。",
+     "hätte … erlösen können：本能够救（虚拟式 + 双不定式）。niemand … als sie allein：除她以外没有人。",
+     "das Reich：王国。"
+    ]
+   },
+   {
+    "de": "Dann schliefen sie{they} ein, und am andern Morgen, als die{nf} Sonne sie{them} aufweckte, kam ein{nm} Wagen heran gefahren mit acht weißen Pferden bespannt, die{rel:np} hatten weiße Straußfedern auf dem{dm} Kopf, und giengen in goldenen Ketten, und hinten stand der{nm} Diener des{gm} jungen Königs, das{dem:nn} war der{nm} treue Heinrich.",
+    "zh": "然后他们睡着了。第二天早上，太阳唤醒他们的时候，来了一辆八匹白马拉的车，马头上插着白色的鸵鸟羽毛，套着金链子；车后面站着年轻国王的仆人，就是忠实的亨利。",
+    "n": [
+     "拆解：① Dann schliefen sie ein（然后他们睡着了）。② am andern Morgen, als die Sonne sie aufweckte（第二天早上太阳唤醒他们时）→ kam ein Wagen heran gefahren mit acht weißen Pferden bespannt（驶来一辆套着八匹白马的车）。③ die hatten weiße Straußfedern auf dem Kopf, und giengen in goldenen Ketten（马头上插着白鸵鸟羽、套着金链）。④ und hinten stand der Diener des jungen Königs, das war der treue Heinrich（车后站着年轻国王的仆人，就是忠实的亨利）。",
+     "aufwecken：唤醒。herangefahren kommen：驶过来。",
+     "mit acht weißen Pferden bespannt：套着八匹白马（bespannt：分词，状态，第 21 课）。",
+     "die Straußfeder：鸵鸟羽毛。die Kette：链子。der Diener：仆人。treu：忠实的。"
+    ]
+   },
+   {
+    "de": "Der{nm} treue Heinrich hatte sich{refl} so betrübt, als sein{nm} Herr war in einen{am} Frosch verwandelt worden, daß er drei eiserne Bande hatte um sein{an} Herz legen lassen, damit es{it} ihm nicht vor Weh und Traurigkeit zerspränge.",
+    "zh": "忠实的亨利在主人被变成青蛙的时候，悲伤极了，他叫人在自己心上箍了三道铁箍，免得心因为痛苦和悲伤而裂开。",
+    "n": [
+     "拆解：① Der treue Heinrich hatte sich so betrübt（忠实的亨利那么悲伤）。② 时间从句 als sein Herr war in einen Frosch verwandelt worden（当他的主人被变成青蛙时）：被动的过去完成时；1857 年的语序把 war 提前了（今天说 verwandelt worden war）。③ daß er drei eiserne Bande hatte um sein Herz legen lassen（以致他让人在心上箍了三道铁箍）：从句里双不定式，助动词 hatte 排在前面（第 16 课）。④ damit es ihm nicht vor Weh und Traurigkeit zerspränge（好让心不会因痛苦悲伤而裂开）。",
+     "sich betrüben：悲伤（反身）。",
+     "in etw. verwandelt werden：被变成……（被动，第 21 课）。verwandeln：变化。",
+     "das Band → die Bande：箍、带子。um sein Herz legen lassen：让人箍在心上（lassen + 不定式，第 25 课）。",
+     "zerspränge：zerspringen（裂开）的虚拟式二。es = das Herz。vor Weh und Traurigkeit：因为痛苦和悲伤。"
+    ]
+   },
+   {
+    "de": "Der{nm} Wagen aber sollte den{am} jungen König in sein{an} Reich abholen; der{nm} treue Heinrich hob beide{ap} hinein, stellte sich{refl} wieder hinten auf und war voller Freude über die{af} Erlösung.",
+    "zh": "这辆车是来接年轻的国王回他的王国的；忠实的亨利把两人扶上车，自己又站到车后，为主人的得救满心欢喜。",
+    "n": [
+     "abholen：接走。hineinheben：扶进去（hob … hinein）。sich hinten aufstellen：站到后面。",
+     "voller Freude über：为……满心欢喜。die Erlösung：解救。"
+    ]
+   },
+   {
+    "de": "Und als sie{they} ein{an} Stück Wegs gefahren waren, hörte der{nm} Königssohn daß es{expl} hinter ihm krachte, als wäre etwas zerbrochen.",
+    "zh": "走了一段路，王子听见身后咔嚓一声，好像有什么东西碎了。",
+    "n": [
+     "ein Stück Wegs：一段路（属格）。gefahren waren：完成（fahren 用 sein）。",
+     "es krachte：咔嚓响（无人称）。als wäre etwas zerbrochen：好像有东西碎了（als + 虚拟式 = als ob，第 12 课）。"
+    ]
+   },
+   {
+    "de": "Da drehte er sich{refl} um und rief „Heinrich, der{nm} Wagen bricht.“",
+    "zh": "他转过身来喊：「亨利，车坏了。」",
+    "n": [
+     "sich umdrehen：转身。brechen：断、坏。"
+    ]
+   },
+   {
+    "de": "„Nein, Herr, der{nm} Wagen nicht, es{expl} ist ein{nn} Band von meinem{dn} Herzen, das{rel:nn} da lag in großen Schmerzen, als ihr{you} in dem{dm} Brunnen saßt, als ihr{you} eine{nf} Fretsche (Frosch) wast (wart).“",
+    "zh": "「不，主人，不是车，是我心上的一道箍；您待在井里、变成青蛙的时候，它箍在我心上，让我万分痛苦。」",
+    "n": [
+     "这是押韵的歌谣：Herzen / Schmerzen，saßt / wast。",
+     "ein Band von meinem Herzen：我心上的一道箍。das da lag in großen Schmerzen：它箍在那里、充满痛苦（关系从句，动词 lag 没有放在末尾，是诗的语序）。",
+     "ihr：您（亨利对主人用旧式敬称 Ihr，第 18 课读本里小山羊对妈妈也这样）。saßt：sitzen 的 ihr 过去时。",
+     "Fretsche、wast：方言，格林在括号里注明了标准形式 Frosch、wart。"
+    ]
+   },
+   {
+    "de": "Noch einmal und noch einmal krachte es{expl} auf dem{dm} Weg, und der{nm} Königssohn meinte immer der{nm} Wagen bräche, und es{expl} waren doch nur die{np} Bande, die{rel:np} vom Herzen des{gm} treuen Heinrich absprangen, weil sein{nm} Herr erlöst und glücklich war.",
+    "zh": "路上又响了一次、又一次，王子每次都以为车坏了，可那其实只是一道道铁箍，从忠实的亨利心上崩了下来，因为他的主人得救了，幸福了。",
+    "n": [
+     "拆解：① Noch einmal und noch einmal krachte es auf dem Weg（路上又响了一次又一次）。② und der Königssohn meinte immer, der Wagen bräche（王子总以为车坏了）：bräche 是虚拟式（第 22 课）。③ und es waren doch nur die Bande（其实只是那些箍）+ 关系从句 die vom Herzen des treuen Heinrich absprangen（从亨利心上崩落的）。④ weil sein Herr erlöst und glücklich war（因为他的主人得救了、幸福了）。",
+     "es waren …：占位 es，动词跟复数 Bande（第 11 课）。",
+     "des treuen Heinrich：人名在属格里不加 -s（因为前面有冠词）。abspringen：崩落。",
+     "erlöst war：被解救了（状态被动，第 21 课）。故事的标题本来就有「铁亨利」：真正的结尾不是公主，而是这个忠实的仆人。"
+    ]
+   }
+  ]
+ }
+]
