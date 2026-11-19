@@ -57,6 +57,7 @@
     "de": "Es{expl} muß also entweder die{nf} Begierde nach Glückseligkeit die{nf} Bewegursache zu Maximen der{gf} Tugend, oder die{nf} Maxime der{gf} Tugend muß die{nf} wirkende Ursache der{gf} Glückseligkeit sein.",
     "zh": "所以，要么对幸福的欲求是德行准则的动因，要么德行的准则是幸福的起作用的原因。",
     "n": [
+     "拆解：entweder … oder 两半：① Es muß also entweder die Begierde nach Glückseligkeit die Bewegursache zu Maximen der Tugend（要么对幸福的欲求必须是德性准则的动因；es 只是占位，句末省略了 sein）② oder die Maxime der Tugend muß die wirkende Ursache der Glückseligkeit sein（要么德性的准则必须是幸福的起作用的原因）。",
      "entweder …, oder：要么……要么（第 29 课）。第一半省略了 sein。",
      "die Begierde nach：对……的欲求。die Bewegursache：动因（旧词，= Beweggrund）。wirkend：起作用的（现在分词）。"
     ]
@@ -65,6 +66,7 @@
     "de": "Das{nn} erste ist schlechterdings unmöglich: weil (wie in der{df} Analytik bewiesen worden) Maximen, die{rel:np} den{am} Bestimmungsgrund des{gm} Willens in dem{dn} Verlangen nach seiner{df} Glückseligkeit setzen, gar nicht moralisch sind und keine{af} Tugend gründen können.",
     "zh": "第一种是绝对不可能的：因为（正如分析论所证明的）把意志的规定根据放在对自己幸福的渴望中的准则，根本不是道德的，也不能建立任何德行。",
     "n": [
+     "拆解：Das erste ist schlechterdings unmöglich（前者绝对不可能）。冒号后原因 weil … Maximen … gar nicht moralisch sind und keine Tugend gründen können（因为这种准则根本不是道德的，也不能建立德性）。Maximen 后关系从句 die den Bestimmungsgrund des Willens in dem Verlangen nach seiner Glückseligkeit setzen（把意志的规定根据放在对自身幸福的渴求中）。括号 wie in der Analytik bewiesen worden（正如分析论中证明过的；省略了 ist）。",
      "wie in der Analytik bewiesen worden：如分析论所证明的（省略了 ist，第 30 课）。",
      "das Verlangen nach：对……的渴望（不定式名词化）。gründen：建立。",
      "第二种看起来也不可能：世上的因果联系服从自然法则，不服从道德意念；最严格地遵守道德法则，也不能保证幸福。这就是实践理性的二律背反。康德的解决和第一批判第 8 章一样：第二种只是「有条件地」假——如果人只存在于感官世界。人也属于理知世界，而且也许有一个理知的自然创造者，那么德与福的结合就不是不可能的。"
@@ -83,6 +85,7 @@
     "de": "Die{nf} völlige Angemessenheit des{gm} Willens aber zum moralischen Gesetze ist Heiligkeit, eine{nf} Vollkommenheit, deren{rel:gf} kein{nn} vernünftiges Wesen der{gf} Sinnenwelt in keinem{dm} Zeitpunkte seines{gn} Daseins fähig ist.",
     "zh": "而意志与道德法则的完全相合就是神圣性，这是一种完满，感官世界中的任何理性存在者在他存在的任何时刻都不能具有。",
     "n": [
+     "拆解：Die völlige Angemessenheit des Willens aber zum moralischen Gesetze ist Heiligkeit（意志与道德法则完全切合，就是神圣性）。同位语 eine Vollkommenheit（一种完满性）+ 关系从句 deren kein vernünftiges Wesen der Sinnenwelt in keinem Zeitpunkte seines Daseins fähig ist（感官世界中没有任何理性存在者在其存在的任何时刻能够达到；einer Sache fähig，deren = 第二格；kein … in keinem 是加强的否定）。",
      "die Angemessenheit zu：与……的相合（angemessen 相称的 + -heit）。die Heiligkeit：神圣性。",
      "eine Vollkommenheit, deren … fähig ist：一种……能具有的完满（einer Sache fähig sein：第二格，所以用 deren）。",
      "kein … in keinem：双重否定在旧德语里是加强否定，不是肯定：没有任何存在者在任何时刻能……。"
@@ -130,6 +133,7 @@
     "de": "Also ist das{nn} höchste Gut in der{df} Welt nur möglich, sofern eine{nf} oberste Ursache der{gf} Natur angenommen wird, die{rel:nf} eine{af} der{df} moralischen Gesinnung gemäße Kausalität hat.",
     "zh": "所以，只有假定一个自然的至上原因，它具有一种与道德意念相符的因果性，至善在世上才是可能的。",
     "n": [
+     "拆解：Also ist das höchste Gut in der Welt nur möglich（所以世界上的至善只有在……时才可能）, sofern eine oberste Ursache der Natur angenommen wird（只要假定一个自然的最高原因；被动）+ 关系从句 die eine der moralischen Gesinnung gemäße Kausalität hat（它具有一种与道德意向相符的因果性；der moralischen Gesinnung gemäß：扩展定语，gemäß + 第三格）。",
      "sofern：只要、在……的条件下（第 29 课）。angenommen wird：被假定。",
      "eine der moralischen Gesinnung gemäße Kausalität：一种与道德意念相符的因果性（扩展定语：der moralischen Gesinnung gemäß = 与道德意念相符，gemäß 支配第三格）。",
      "康德接着说：能按法则的表象行动的存在者是理智，它的因果性是意志；所以这个原因是一个凭知性和意志成为自然创造者的存在者——上帝。"
@@ -148,6 +152,7 @@
     "de": "Hier ist nun wohl zu merken, daß diese{nf} moralische Notwendigkeit subjektiv, d.i. Bedürfnis, und nicht objektiv, d.i. selbst Pflicht, sei; denn es{expl} kann gar keine Pflicht geben, die{af} Existenz eines{gn} Dinges anzunehmen (weil dieses{nn} bloß den{am} theoretischen Gebrauch der{gf} Vernunft angeht).",
     "zh": "这里必须好好注意：这种道德的必然性是主观的，即一种需要，而不是客观的，即本身是一种义务；因为根本不可能有假定某个事物存在的义务（因为这只关系到理性的理论运用）。",
     "n": [
+     "拆解：分号前：Hier ist nun wohl zu merken, daß …（这里要注意……；sein + zu）。daß-从句 diese moralische Notwendigkeit subjektiv, d.i. Bedürfnis, und nicht objektiv, d.i. selbst Pflicht, sei（这种道德必然性是主观的即需要，而不是客观的即义务本身）。分号后原因 denn es kann gar keine Pflicht geben, die Existenz eines Dinges anzunehmen（因为根本不可能有假定某物存在的义务）；括号 weil dieses bloß den theoretischen Gebrauch der Vernunft angeht（因为这只涉及理性的理论运用；angehen 在从句末合写）。",
      "ist … zu merken：须注意（sein + zu，第 25 课）。subjektiv, d.i. Bedürfnis：主观的，即需要。sei：虚拟式一。",
      "es kann … keine Pflicht geben, … anzunehmen：不可能有假定……的义务。angehen：关系到。",
      "很重要的限定：相信上帝不是义务；道德也不以上帝为根据（那就成了他律）。只是道德要求的至善，需要我们假定上帝存在。"
@@ -166,6 +171,7 @@
     "de": "Daher ist auch die{nf} Moral nicht eigentlich die{nf} Lehre, wie wir uns{refl} glücklich machen, sondern wie wir der{gf} Glückseligkeit würdig werden sollen.",
     "zh": "所以，道德学本来就不是教我们怎样使自己幸福的学说，而是教我们怎样才能配得上幸福的学说。",
     "n": [
+     "拆解：Daher ist auch die Moral nicht eigentlich die Lehre（所以道德学本来也不是这样的学说）, nicht … sondern 接两个间接问句：wie wir uns glücklich machen（我们怎样使自己幸福）· sondern wie wir der Glückseligkeit würdig werden sollen（而是我们应当怎样配得上幸福；einer Sache würdig，第二格）。",
      "nicht …, sondern：不是……而是。die Lehre, wie …：关于怎样……的学说。",
      "sich glücklich machen：使自己幸福。einer Sache würdig werden：变得配得上……（第二格）。sollen：应当（属于后半句：wie wir … würdig werden sollen）。",
      "这是康德伦理学最简洁的概括之一。"

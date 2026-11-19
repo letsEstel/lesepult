@@ -10,6 +10,7 @@
     "de": "Ich würde vorläufig sagen: ein{nn} Ding existiert als Naturzweck, wenn es{it} von sich{refl} selbst (obgleich in zwiefachem Sinne) Ursache und Wirkung ist.",
     "zh": "我暂且会说：一个事物作为自然目的而存在，如果它是它自身的原因和结果（虽然是在双重的意义上）。",
     "n": [
+     "拆解：Ich würde vorläufig sagen（我暂且会说；würde = 虚拟式二，委婉）。冒号后 ein Ding existiert als Naturzweck（一个事物作为自然目的而存在）, wenn es von sich selbst … Ursache und Wirkung ist（如果它自己是自己的原因和结果）；括号 obgleich in zwiefachem Sinne（虽然是在双重意义上）。",
      "würde … sagen：会说（虚拟式二，委婉）。vorläufig：暂且。der Naturzweck：自然目的（Natur + Zweck）。",
      "von sich selbst Ursache und Wirkung：自己的原因和结果。zwiefach：双重的（旧词，= zweifach）。",
      "这很奇怪：通常一个东西不能是自己的原因。康德接着用一棵树来说明。"
@@ -46,6 +47,7 @@
     "de": "In einer{df} Uhr ist ein{nm} Teil das{nn} Werkzeug der{gf} Bewegung der{gp} andern, aber nicht ein{nn} Rad die{nf} wirkende Ursache der{gf} Hervorbringung des{gn} andern; ein{nm} Teil ist zwar um des{gm} andern Willen{um}, aber nicht durch denselben{am} da.",
     "zh": "在一只钟表里，一个部件是其他部件运动的工具，但一个齿轮并不是另一个齿轮被产生出来的起作用的原因；一个部件固然是为了另一个部件而存在，却不是通过它而存在。",
     "n": [
+     "拆解：分号前用 aber 对照：In einer Uhr ist ein Teil das Werkzeug der Bewegung der andern（在钟表里，一个部件是另一个部件运动的工具）, aber nicht ein Rad die wirkende Ursache der Hervorbringung des andern（但一个齿轮不是产生另一个齿轮的起作用的原因；省略了 ist）。分号后 ein Teil ist zwar um des andern Willen, aber nicht durch denselben da（一个部件固然是为了另一个而存在，却不是通过另一个而存在；da sein：存在，um … Willen：为了）。",
      "die Uhr：钟表。das Werkzeug：工具。das Rad：齿轮。die Hervorbringung：产生。",
      "zwar …, aber：固然……但是。um des andern Willen：为了另一个（um … willen：为了……的缘故）。durch denselben：通过它。da sein：存在、在那里。",
      "所以钟表不是有机体：齿轮坏了，钟表不会自己长出新齿轮；它的原因在钟表之外（钟表匠）。"
@@ -55,6 +57,7 @@
     "de": "Dieses{nn} Prinzip, zugleich die{nf} Definition derselben{gf}, heißt: ein{nn} organisiertes Produkt der{gf} Natur ist das{nn}, in welchem{dn} alles Zweck und wechselseitig auch Mittel ist.",
     "zh": "这个原则，同时也是内在合目的性的定义，就是：自然的有机产物，是这样一种东西，在它里面，一切都是目的，同时也交互地是手段。",
     "n": [
+     "拆解：主语 Dieses Prinzip, zugleich die Definition derselben（这个原则，同时也是有机物的定义）→ heißt（就是）。冒号后 ein organisiertes Produkt der Natur ist das（一个有机的自然产物就是这样的东西）+ 关系从句 in welchem alles Zweck und wechselseitig auch Mittel ist（在其中一切都是目的，同时也相互是手段）。",
      "derselben = der inneren Zweckmäßigkeit（§66 的标题：有机体中内在合目的性的评判原则）。",
      "organisiert：有机的、有组织的（学院版作 organisirt）。in welchem alles Zweck und wechselseitig auch Mittel ist：在其中一切都是目的、也交互地是手段。",
      "例：心脏为了身体，身体也为了心脏；每个器官既是目的也是手段。"
@@ -110,6 +113,7 @@
     "de": "Von dem{dm} Menschen nun (und so jedem{dn} vernünftigen Wesen in der{df} Welt), als einem{dm} moralischen Wesen, kann nicht weiter gefragt werden: wozu (quem in finem) er existiere.",
     "zh": "而对于人（以及世上每一个理性存在者），作为一个道德的存在者，就不能再问：他是为了什么而存在的（quem in finem）。",
     "n": [
+     "拆解：无人称被动：Von dem Menschen nun … kann nicht weiter gefragt werden（关于人，不能再进一步问）。插入括号 und so jedem vernünftigen Wesen in der Welt（以及世上每个理性存在者）, als einem moralischen Wesen（作为道德存在者）。冒号后间接问句 wozu (quem in finem) er existiere（他为了什么而存在；existiere = 虚拟式一）。",
      "Von dem Menschen … kann nicht weiter gefragt werden：对于人不能再问（无人称被动，第 21 课）。als einem moralischen Wesen：作为道德存在者（与 dem Menschen 同格，第三格）。",
      "wozu：为了什么。quem in finem：拉丁语「为了什么目的」。existiere：虚拟式一（间接问句）。",
      "康德之前说：人作为自然存在者，还可以问他为了什么（比如为了幸福——可自然并没有特别照顾人的幸福）。只有作为道德存在者，作为自由的、自己立法的人格，人才不再是手段。"

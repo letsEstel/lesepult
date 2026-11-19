@@ -10,6 +10,7 @@
     "de": "Verstand und Vernunft haben also zwei verschiedene Gesetzgebungen auf einem{dm} und demselben{dm} Boden der{gf} Erfahrung, ohne daß eine{nf} der{df} anderen Eintrag tun darf.",
     "zh": "所以，知性和理性在同一块经验的土地上有两种不同的立法，而哪一个都不可以妨碍另一个。",
     "n": [
+     "拆解：Verstand und Vernunft haben also zwei verschiedene Gesetzgebungen auf einem und demselben Boden der Erfahrung（知性和理性在同一块经验的土地上有两种不同的立法）, ohne daß eine der anderen Eintrag tun darf（而一方不得损害另一方；jm. Eintrag tun：损害某人，der anderen = 第三格）。",
      "auf einem und demselben Boden：在同一块土地上（einem und demselben：同一个，第三格）。der Boden：土地、地基。",
      "ohne daß …：而不……（从句，动词在末）。eine der anderen：一方对另一方（der anderen：第三格）。jm. Eintrag tun：妨碍、损害（旧说法，和 Abbruch tun 同义）。darf：可以（否定中 = 不可以）。"
     ]
@@ -18,6 +19,7 @@
     "de": "Denn so wenig der{nm} Naturbegriff auf die{af} Gesetzgebung durch den{am} Freiheitsbegriff Einfluß hat, ebensowenig stört dieser{nm} die{af} Gesetzgebung der{gf} Natur.",
     "zh": "因为，正如自然概念对通过自由概念进行的立法没有影响一样，自由概念也不干扰自然的立法。",
     "n": [
+     "拆解：so wenig …, ebensowenig …（正如……很少，……也同样很少）：① Denn so wenig der Naturbegriff auf die Gesetzgebung durch den Freiheitsbegriff Einfluß hat（因为正如自然概念对通过自由概念的立法没有影响）② ebensowenig stört dieser die Gesetzgebung der Natur（自由概念也同样不干扰自然的立法；dieser = 后者）。",
      "so wenig …, ebensowenig …：正如……不……，……也不……（第 29 课的成对连词）。",
      "der Naturbegriff：自然概念（Natur + Begriff）。der Freiheitsbegriff：自由概念（Freiheit + s + Begriff，第 27 课）。dieser = der Freiheitsbegriff。stören：干扰。",
      "这是第一批判第 8 章的结论：自由与自然必然性可以并存，因为它们管的是不同的层面（物自身与现象）。"
@@ -133,6 +135,7 @@
     "de": "D.i. die{nf} Natur wird durch diesen{am} Begriff so vorgestellt, als ob ein{nm} Verstand den{am} Grund der{gf} Einheit des{gn} Mannigfaltigen ihrer{gf} empirischen Gesetze enthalte.",
     "zh": "也就是说，通过这个概念，自然被表象得好像有一个知性包含着它的经验法则之多样性的统一的根据。",
     "n": [
+     "拆解：D.i. die Natur wird durch diesen Begriff so vorgestellt（也就是说，自然通过这个概念被这样表象）, als ob ein Verstand den Grund der Einheit des Mannigfaltigen ihrer empirischen Gesetze enthalte（好像有一个知性包含着自然经验法则之多样性的统一根据；so … als ob + 虚拟式一）。属格链：der Grund（根据）← der Einheit（统一的）← des Mannigfaltigen（多样性的）← ihrer empirischen Gesetze（它的经验法则的）。",
      "so …, als ob：被表象得好像……（als ob + 虚拟式，第 22 课；enthalte 是虚拟式一）。",
      "der Grund der Einheit des Mannigfaltigen：杂多之统一的根据（das Mannigfaltige：杂多，第一批判的术语）。ihrer = der Natur。",
      "关键词是 als ob（好像）：判断力并不断言真有一个设计自然的知性，只是为了反思而「好像」有。"
@@ -142,6 +145,7 @@
     "de": "Die{nf} Zweckmäßigkeit der{gf} Natur ist also ein{nm} besonderer Begriff a priori, der{rel:nm} lediglich in der{df} reflektierenden Urteilskraft seinen{am} Ursprung hat.",
     "zh": "所以，自然的合目的性是一个特殊的先天概念，它的起源仅仅在于反思的判断力。",
     "n": [
+     "拆解：Die Zweckmäßigkeit der Natur ist also ein besonderer Begriff a priori（所以自然的合目的性是一个特殊的先天概念）+ 关系从句 der lediglich in der reflektierenden Urteilskraft seinen Ursprung hat（它只在反思判断力中有其来源）。",
      "besonder：特殊的。lediglich：仅仅。der Ursprung：起源。",
      "康德接着说：我们不能把「目的」实际地归给自然产物，只能用这个概念来反思它们。这个概念也不同于实践的合目的性（人的技艺或道德），虽然是类比着它们来设想的。",
      "全书的结构由此而来：自然的合目的性被我们「感觉」到，就是审美判断（第 2–5 章）；被我们「思维」为客观的，就是目的论判断（第 6 章）。"

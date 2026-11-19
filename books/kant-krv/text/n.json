@@ -50,6 +50,7 @@
     "de": "Die{nf} Welt hat keinen Anfang, und keine Grenzen im Raume, sondern ist, sowohl in Ansehung der{gf} Zeit, als des{gm} Raumes, unendlich.",
     "zh": "【反题】世界没有开端，在空间中也没有界限，而是无论就时间还是就空间而言，都是无限的。",
     "n": [
+     "拆解：反题：Die Welt hat keinen Anfang, und keine Grenzen im Raume（世界没有开端，在空间中也没有边界）, sondern ist, sowohl in Ansehung der Zeit, als des Raumes, unendlich（而是在时间和空间方面都是无限的；sowohl … als：既……又）。",
      "这是反题（转录本漏了「Antithesis」这个小标题，两句连在一起）。",
      "nicht/kein …, sondern：不是……而是。sowohl … als：既……又……。in Ansehung + 第二格：就……而言。",
      "反题的证明：如果世界有开端，那么开端之前就是一段「空的时间」；可在空的时间里，没有任何一刻比别的时刻更有理由让世界开始。所以世界不可能有开端。",
@@ -134,6 +135,7 @@
     "de": "Der{nm} Realist in transzendentaler Bedeutung macht aus diesen{dp} Modifikationen unserer Sinnlichkeit an sich subsistierende Dinge, und daher bloße Vorstellungen zu Sachen an sich selbst.",
     "zh": "先验意义上的实在论者，把我们感性的这些变状变成了自身持存的事物，因而把单纯的表象变成了事情本身。",
     "n": [
+     "拆解：主语 Der Realist in transzendentaler Bedeutung（先验意义上的实在论者）。aus A B machen（把 A 变成 B）用了两次：① macht aus diesen Modifikationen unserer Sinnlichkeit an sich subsistierende Dinge（把我们感性的这些变形变成自身持存的事物）② und daher bloße Vorstellungen zu Sachen an sich selbst（因而把单纯的表象变成物自身；第二次省略了 macht aus，用 zu 代替）。",
      "aus A B machen：把 A 变成 B。A = diesen Modifikationen unserer Sinnlichkeit（我们感性的这些变状），B = an sich subsistierende Dinge（自身持存的物）。第二组：bloße Vorstellungen zu Sachen an sich selbst（把表象变成物自身），用的是 etw. zu etw. machen，动词 macht 省略。",
      "die Modifikation：变状、样态。subsistieren：独立持存。an sich subsistierend：现在分词作定语，带修饰语 an sich。",
      "二律背反的双方都是这种「先验实在论者」：他们都以为世界本身是一个现成的整体，所以它要么有限、要么无限。"

@@ -30,6 +30,7 @@
     "de": "Jene{nf} Unabhängigkeit aber ist Freiheit im negativen, diese{nf} eigene Gesetzgebung aber der{gf} reinen und als solche praktischen Vernunft ist Freiheit im positiven Verstande.",
     "zh": "前一种独立性是消极意义上的自由，而纯粹的、并且作为纯粹理性就是实践的理性的这种自己立法，则是积极意义上的自由。",
     "n": [
+     "拆解：两句对照，用 aber 连接。① Jene Unabhängigkeit aber ist Freiheit im negativen（前者即独立性是消极意义上的自由；句末省略了 Verstande）。② diese eigene Gesetzgebung aber der reinen und als solche praktischen Vernunft ist Freiheit im positiven Verstande（后者即纯粹的、作为纯粹的就是实践的理性的自己立法，是积极意义上的自由）。der reinen … Vernunft 是 Gesetzgebung 的属格，被 aber 隔开了。",
      "jene … diese：前者……后者。im negativen (Verstande) / im positiven Verstande：消极 / 积极意义上（Verstand 旧义「意义」，第 30 课；第一个 Verstande 省略了）。",
      "die eigene Gesetzgebung der reinen … Vernunft：纯粹理性自己的立法。als solche：作为这样的（纯粹理性）。",
      "消极自由 = 不受欲望和自然原因的决定（第一批判第 8 章的「先验自由」）；积极自由 = 自己给自己立法（自律）。康德的自由不是「想干什么就干什么」——那恰恰是被欲望支配的他律。"
@@ -67,6 +68,7 @@
     "de": "Das{nn} moralische Gesetz wird aber nur darum als objektiv notwendig gedacht, weil es{it} für jedermann gelten soll, der{rel:nm} Vernunft und Willen hat.",
     "zh": "而道德法则之所以被设想为客观必然的，仅仅是因为它应当对每一个有理性和意志的人都有效。",
     "n": [
+     "拆解：Das moralische Gesetz wird aber nur darum als objektiv notwendig gedacht（道德法则之所以被设想为客观必然的，只是因为……；darum 预指 weil）, weil es für jedermann gelten soll（因为它应当对每个人有效）+ 关系从句 der Vernunft und Willen hat（凡是有理性和意志的人）。",
      "darum …, weil：之所以……是因为（darum 预指后面的 weil）。als objektiv notwendig gedacht wird：被设想为客观必然的（被动）。",
      "jedermann, der …：每一个……的人（关系代词 der 指 jedermann）。",
      "幸福原则做不到这一点：每个人认为什么让自己幸福，各不相同，而且一直在变。所以它只能给出「一般适用」的规则，给不出「普遍有效」的法则。"
@@ -84,6 +86,7 @@
     "de": "Es{expl} ist aber doch ein{nm} großer Unterschied zwischen dem{dem:dn}, wozu man uns anrätig ist, und dem{dem:dn}, wozu wir verbindlich sind.",
     "zh": "而人们劝我们去做的事，和我们有义务去做的事，毕竟有很大的区别。",
     "n": [
+     "拆解：Es ist aber doch ein großer Unterschied zwischen dem, …, und dem, …（……和……之间却有很大区别）。两个 dem 各带关系从句：wozu man uns anrätig ist（别人劝我们去做的事）· wozu wir verbindlich sind（我们有义务去做的事；zu etw. verbindlich sein）。",
      "es ist … ein großer Unterschied zwischen A und B：A 和 B 之间有很大区别（es 是形式主语）。",
      "dem, wozu …：……的那件事（指示代词 + 关系代副词，第 20 课）。anrätig sein：劝（旧词，= anraten）。verbindlich：有义务的。"
     ]
