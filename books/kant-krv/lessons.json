@@ -352,5 +352,59 @@
     "why": "分开时，我们只有「没有概念的直观」或「没有直观的概念」，两者都关联不到确定的对象。"
    }
   ]
+ },
+ {
+  "id": "d1",
+  "ch": "d",
+  "t": "理性的幻相",
+  "de": "Der transzendentale Schein",
+  "min": 20,
+  "html": "<p>第 6 章说：知性的国土是一座岛，四周是幻相的海洋。从这一章起，康德出海了：他要考察理性超出经验时做出的那些判断。</p>\n<h4>一、两种幻相</h4>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th></th><th>逻辑的幻相</th><th>先验的幻相</th></tr></thead><tbody>\n<tr><th>来源</th><td>不留意逻辑规则</td><td>理性自身的本性</td></tr>\n<tr><th>看穿以后</th><td>完全消失</td><td>仍然存在，只是不再骗人</td></tr>\n<tr><th>比喻</th><td>算错了一道题</td><td>初升的月亮看起来更大</td></tr>\n</tbody></table></div>\n[[Der transzendentale Schein dagegen hört gleichwohl nicht auf]]\n<h4>二、幻相从哪里来</h4>\n<p>理性总在为有条件的东西寻找条件，为条件再找条件：这是一条正当的<b>准则</b>（「去找」）。幻相产生于把它偷换成一条<b>原理</b>（「条件的整个序列已经被给予了」），于是理性以为自己能认识那个「无条件者」。</p>\n<h4>三、三个理念，三门假学问</h4>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>理念</th><th>学问</th><th>批判在</th></tr></thead><tbody>\n<tr><td>灵魂（思维主体的绝对统一）</td><td>理性心理学</td><td>谬误推理（本章）</td></tr>\n<tr><td>世界（条件序列的绝对统一）</td><td>理性宇宙论</td><td>二律背反（第 8 章）</td></tr>\n<tr><td>上帝（一切对象之条件的绝对统一）</td><td>理性神学</td><td>上帝存在证明（第 9 章）</td></tr>\n</tbody></table></div>\n<h4>四、「我思」不是灵魂</h4>\n<p>理性心理学只有一个文本：Ich denke。它想从这里推出灵魂是实体、单纯、不朽。康德说：「我」只是伴随一切表象的空的形式，一个 = x；我们要谈论它，就得先用到它，所以永远在兜圈子。把这个形式当成可认识的实体，就是「谬误推理」。</p>\n{{quiz:s1}}",
+  "quiz": [
+   {
+    "id": "d1a",
+    "sec": "s1",
+    "de": "Der transzendentale Schein dagegen hört gleichwohl nicht <<auf>>",
+    "opts": [
+     "先验幻相即使被看穿也不会消失",
+     "先验幻相一经看穿就消失"
+    ],
+    "ans": 0,
+    "why": "就像天文学家眼里的月亮照样大。"
+   },
+   {
+    "id": "d1b",
+    "sec": "s1",
+    "de": "das <<Unbedingte>> zu finden",
+    "opts": [
+     "无条件者：不再依赖别的条件的东西",
+     "有条件的知识"
+    ],
+    "ans": 0,
+    "why": "理性总想找到最后的条件。"
+   },
+   {
+    "id": "d1c",
+    "sec": "s1",
+    "de": "Ich denke, ist also der alleinige Text der rationalen <<Psychologie>>",
+    "opts": [
+     "理性心理学只能从「我思」出发",
+     "心理学是经验科学"
+    ],
+    "ans": 0,
+    "why": "这里是「理性」心理学，不靠经验。"
+   },
+   {
+    "id": "d1d",
+    "sec": "s1",
+    "de": "eine Illusion, die gar nicht zu <<vermeiden>> ist",
+    "opts": [
+     "一种根本无法避免的错觉",
+     "一种容易避免的错误"
+    ],
+    "ans": 0,
+    "why": "sein + zu：能被……；这里是不能被避免。"
+   }
+  ]
  }
 ]
