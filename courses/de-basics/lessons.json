@@ -2318,5 +2318,91 @@
     "why": "老的书面语常在动词后面再挂东西。"
    }
   ]
+ },
+ {
+  "id": "konnektoren",
+  "t": "连词与逻辑",
+  "de": "Konjunktionen und Argumente",
+  "min": 80,
+  "html": "<p>读论证，最重要的不是名词，而是那些小小的连接词：「因为」「所以」「虽然」「但是」「如果」。它们是论证的关节。康德的一段话可能有一页长，可只要把 <i>also</i>、<i>mithin</i>、<i>allein</i>、<i>gleichwohl</i> 圈出来，论证的骨架就出来了。这一课把散在前面各课里的连接词整理成一张地图，并解决一个关键问题：<b>每种连接词后面的语序不一样</b>。</p>\n\n<h4>一、三种连接词，三种语序</h4>\n<p>意思相同的两个词，语序可以完全不同。比如 denn 和 weil 都是「因为」：</p>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>类型</th><th>例词</th><th>语序</th><th>读本里</th></tr></thead><tbody>\n<tr><td>① 并列连词</td><td>und, aber, oder, denn, sondern</td><td>不占位置，后面照常：主语 + 变位动词</td><td>denn | hier <b>ist</b> die Herberge schlecht</td></tr>\n<tr><td>② 从属连词</td><td>weil, da, daß, wenn, obwohl, damit, bevor, ehe</td><td>引出从句，变位动词在最后</td><td>weil Hänsel die Steine in der Tasche <b>hatte</b></td></tr>\n<tr><td>③ 连接副词</td><td>also, daher, deswegen, sonst, dennoch, mithin</td><td>自己占前场，变位动词紧跟在后，主语排到动词后面</td><td>deswegen <b>mußte</b> sich der alte Großvater …</td></tr>\n</tbody></table></div>\n<ul>\n<li>[[so müssen wir uns{refl} aufmachen und noch hingehen, denn hier ist die{nf} Herberge schlecht]]我们得动身往前走，因为这里的住处不好。</li>\n<li>[[Grethel nahm das{an} Brot unter die{af} Schürze, weil Hänsel die{ap} Steine in der{df} Tasche hatte]]格蕾特把面包放在围裙里，因为亨塞尔的口袋里装着石子。</li>\n<li>[[und deswegen mußte sich{refl} der{nm} alte Großvater endlich hinter den{am} Ofen in die{af} Ecke setzen]]所以老祖父最后只好坐到炉子后面的角落里去。</li>\n<li>[[zieh mich raus, sonst verbrenn ich]]把我拉出来，不然我就烤焦了。（sonst 占前场，verbrenn 紧跟）</li>\n</ul>\n<p>连接副词还有一个特点：它可以不在句首，而是放进中场，意思不变。[[sie{she} versprach also dem{dn} Männchen]]（她于是答应了小矮人）。康德：<i>Sobald daher diese auf den vorliegenden Fall geschärft wird</i>（daher 插在从句里）。所以看到 also、daher 在句子中间，也要把它当「所以」读。</p>\n<div class=\"tip\">陷阱：<b>allein</b> 有两个意思。作并列连词（在句首、后面有逗号或直接接主语）= 「但是」，康德常用：<i>Allein ich finde nicht, daß …</i>（但我并不认为……）。作副词 = 「只有、单独」：<i>unter der allein uns äußere Anschauung möglich ist</i>（只有在它之下）· [[und sie{she} blieb allein darin]]（她独自留在里面）。</div>\n\n<h4>二、按逻辑分类</h4>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>关系</th><th>并列连词</th><th>从属连词（动词在末）</th><th>连接副词（动词紧跟）</th></tr></thead><tbody>\n<tr><td>原因</td><td>denn</td><td>weil, da</td><td>nämlich（就是说、因为）</td></tr>\n<tr><td>结果</td><td></td><td>so daß</td><td>also, daher, deswegen, darum, folglich, mithin, demnach</td></tr>\n<tr><td>让步</td><td></td><td>obwohl, obgleich, obschon, obzwar, wiewohl, wenngleich, ob … schon</td><td>dennoch, gleichwohl, trotzdem, doch</td></tr>\n<tr><td>条件</td><td></td><td>wenn, falls, sofern, insofern；或动词开头（第 12 课）</td><td>sonst（否则）</td></tr>\n<tr><td>转折、对立</td><td>aber, sondern, allein</td><td>während</td><td>dagegen, hingegen, jedoch</td></tr>\n<tr><td>目的</td><td></td><td>damit；um … zu</td><td></td></tr>\n<tr><td>时间</td><td></td><td>als, wenn, bevor, ehe, nachdem, sobald</td><td>da, dann, darauf</td></tr>\n</tbody></table></div>\n<p>两个要特别注意的从属连词：</p>\n<ul>\n<li><b>da</b>：作从属连词（动词在末）= 「既然、因为」；作副词（动词紧跟）= 「这时、那里」。康德第 7 章：<i>Da nun diese Regel wiederum … ausgesetzt ist</i>（既然……）。童话：[[Da begegnete ihm ein{nm} armer Mann]]（这时）。</li>\n<li><b>indem</b>：康德最常用的意思不是「当……时」，而是「由于、通过……」：<i>indem die Rundung … sich im letzteren anschauen läßt</i>（因为圆形能在后者中被直观）。</li>\n</ul>\n\n<h4>三、成对的连接词</h4>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>成对</th><th>意思</th><th>例子</th></tr></thead><tbody>\n<tr><td>zwar … aber</td><td>虽然……但是</td><td>[[Das{dem:an} that sie{she} zwar, aber man sah wohl daß sies nicht gerne that]] 她虽然照做了，但看得出她不情愿。</td></tr>\n<tr><td>nicht / kein …, sondern</td><td>不是……而是</td><td>[[es{expl} ist kein{nm} Riese, sondern ein{nm} garstiger Frosch]] 不是巨人，而是一只丑青蛙。</td></tr>\n<tr><td>entweder … oder</td><td>要么……要么</td><td>康德 <i>entweder nach der Natur, oder aus Freiheit</i></td></tr>\n<tr><td>weder … noch</td><td>既不……也不</td><td>康德 <i>wird … weder vermehrt noch vermindert</i></td></tr>\n<tr><td>sowohl … als (auch)</td><td>既……又……</td><td>康德 <i>sowohl in Ansehung der Zeit, als des Raumes</i></td></tr>\n<tr><td>nicht sowohl … sondern / als</td><td>与其说……不如说</td><td>康德 <i>die sich nicht sowohl mit Gegenständen, sondern mit unserer Erkenntnisart … beschäftigt</i></td></tr>\n<tr><td>so …, daß</td><td>如此……以至于</td><td>[[aber die{nf} jüngste war so schön, daß die{nf} Sonne selber]] ……美得连太阳都……</td></tr>\n</tbody></table></div>\n<p>nicht sowohl … sondern 最容易读反：它不是「不仅……而且」，而是<b>否定前者、肯定后者</b>（与其说 A，不如说 B）。</p>\n\n<h4>四、用连接词读论证</h4>\n<p>读康德的一段话，先别管别的，只把连接词圈出来。比如第 3 章的一句：</p>\n<ul>\n<li>康德：<i>Vermittelst der Sinnlichkeit <b>also</b> werden uns Gegenstände gegeben, und sie <b>allein</b> liefert uns Anschauungen; durch den Verstand <b>aber</b> werden sie gedacht, und von ihm entspringen Begriffe.</i></li>\n</ul>\n<p>also（所以：这是前面推出来的结论）· allein（副词：只有感性）· aber（插在中场的转折：而知性……）。骨架就是：<b>所以</b>，对象通过感性被给予，<b>只有</b>感性提供直观；<b>而</b>通过知性，对象被思维。</p>\n<p>康德论证里的四个关键信号：</p>\n<ul>\n<li><b>also / mithin / folglich / demnach</b>：结论来了。</li>\n<li><b>nämlich / d.i.</b>：解释、举例，不是新论点。</li>\n<li><b>allein / aber / dagegen</b>：转折，常常是康德要反驳的地方。</li>\n<li><b>gleichwohl / dennoch / doch</b>：让步之后的「然而」：前面承认了什么，这里要坚持什么。</li>\n</ul>\n\n<h4>五、马上练</h4>\n{{quiz:s1}}\n\n<h4>六、小结</h4>\n<ul>\n<li>并列连词（und, aber, oder, denn, sondern）不占位置；从属连词把动词推到最后；连接副词占前场，动词紧跟。</li>\n<li>denn / weil 同义不同语序；da、allein、indem 都有两个意思，看语序和上下文。</li>\n<li>nicht sowohl … sondern = 与其说……不如说。</li>\n<li>读论证先圈连接词：also / mithin 是结论，allein / aber 是转折，gleichwohl 是让步后的坚持。</li>\n</ul>\n\n<h4>七、读一读</h4>\n<p>去康德「空间与时间」一章，只看连接词，画出论证的骨架，再逐句精读。</p>\n<p><button class=\"btn\" data-route=\"kant-krv~ch-a\">空间与时间</button></p>",
+  "quiz": [
+   {
+    "id": "kj1",
+    "sec": "s1",
+    "de": "so müssen wir uns aufmachen und noch hingehen, <<denn>> hier ist die Herberge schlecht",
+    "opts": [
+     "因为（并列连词，不占位，ist 仍在第二位）",
+     "因为（从属连词，动词在末）"
+    ],
+    "ans": 0,
+    "why": "denn 和 weil 意思相同，语序不同。"
+   },
+   {
+    "id": "kj2",
+    "sec": "s1",
+    "de": "Grethel nahm das Brot unter die Schürze, <<weil>> Hänsel die Steine in der Tasche hatte",
+    "opts": [
+     "因为（从属连词，hatte 在末尾）",
+     "所以"
+    ],
+    "ans": 0,
+    "why": "weil 引出从句，变位动词放最后。"
+   },
+   {
+    "id": "kj3",
+    "sec": "s1",
+    "de": "und <<deswegen>> mußte sich der alte Großvater endlich hinter den Ofen in die Ecke setzen",
+    "opts": [
+     "所以（连接副词占前场，mußte 紧跟）",
+     "因为"
+    ],
+    "ans": 0,
+    "why": "主语 der alte Großvater 排到动词后面。"
+   },
+   {
+    "id": "kj4",
+    "sec": "s1",
+    "de": "zieh mich raus, <<sonst>> verbrenn ich",
+    "opts": [
+     "否则",
+     "然后"
+    ],
+    "ans": 0,
+    "why": "sonst 占前场，verbrenn 紧跟。"
+   },
+   {
+    "id": "kj5",
+    "sec": "s1",
+    "de": "es ist kein Riese, <<sondern>> ein garstiger Frosch",
+    "opts": [
+     "不是……而是",
+     "但是"
+    ],
+    "ans": 0,
+    "why": "前面有否定 kein，才用 sondern。"
+   },
+   {
+    "id": "kj6",
+    "sec": "s1",
+    "de": "Das that sie <<zwar>>, aber man sah wohl daß sies nicht gerne that",
+    "opts": [
+     "虽然……但是",
+     "确实，而且"
+    ],
+    "ans": 0,
+    "why": "zwar … aber：让步。"
+   },
+   {
+    "id": "kj7",
+    "sec": "s1",
+    "de": "„Aber jetzt wollen wir fort,“ sagte Hänsel, „<<damit>> wir aus dem Hexenwald herauskommen.“",
+    "opts": [
+     "为了（目的从句）",
+     "因此"
+    ],
+    "ans": 0,
+    "why": "damit 引出目的从句，herauskommen 在末尾。"
+   }
+  ]
  }
 ]
