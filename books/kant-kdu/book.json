@@ -13,8 +13,8 @@
  "zh": "判断力批判（选读）",
  "author": "Immanuel Kant",
  "year": "1790",
- "level": "高阶 · 连载中",
- "blurb": "三大批判之三：自然与自由之间有一道鸿沟，判断力是桥梁。美是无利害的愉悦、无目的的合目的性；崇高、天才、美是德性的象征；有机体与自然的目的。按 6 章选读。连载中。",
+ "level": "高阶",
+ "blurb": "三大批判之三：自然与自由之间有一道鸿沟，判断力是桥梁。美是无利害的愉悦、无目的的合目的性；崇高、天才、美是德性的象征；有机体与自然的目的。按 6 章选读。",
  "brandMark": "U",
  "mast": "Kritik",
  "eyebrow": "Immanuel Kant · Kritik der Urteilskraft · Berlin und Libau 1790",
@@ -93,8 +93,7 @@
    "id": "t",
    "h": "自然的目的",
    "t": "Kritik der teleologischen Urteilskraft",
-   "blurb": "有机体是自然目的；「草茎的牛顿」不可能出现；人作为道德存在者是创造的终极目的。",
-   "planned": true
+   "blurb": "有机体是自然目的；「草茎的牛顿」不可能出现；人作为道德存在者是创造的终极目的。"
   }
  ]
 }
