@@ -2404,5 +2404,80 @@
     "why": "damit 引出目的从句，herauskommen 在末尾。"
    }
   ]
+ },
+ {
+  "id": "altdeutsch",
+  "t": "18、19 世纪的书面语",
+  "de": "Ältere Schriftsprache",
+  "min": 70,
+  "html": "<p>《格林童话》这个读本用的是 1857 年版的原文，康德写作于 1780 年代。两百年前的德语和今天的教科书德语不完全一样：拼写不同，有些词尾和语序不同，还有一些词的意思变了。这一课把你在读本和康德书里遇到的「老德语」现象集中整理一遍。好消息是：它们都很有规律，认识了就不再是障碍。</p>\n\n<h4>一、拼写：看上去陌生，读起来一样</h4>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>老拼写</th><th>今天</th><th>读本里</th></tr></thead><tbody>\n<tr><td>th</td><td>t</td><td>das Thier → Tier · die Thür(e) → Tür · thun → tun · der Rath → Rat · die Noth → Not · der Muth → Mut</td></tr>\n<tr><td>ie（过去式）</td><td>i</td><td>gieng → ging · fieng → fing · hieng → hing</td></tr>\n<tr><td>dt</td><td>t</td><td>todt → tot（Todtenbettchen）</td></tr>\n<tr><td>c</td><td>k / z</td><td>musicieren → musizieren；康德原版 <i>Causalität</i> → Kausalität · <i>Cirkel</i> → Zirkel · <i>Principium</i> → Prinzip</td></tr>\n<tr><td>ß 和 ss</td><td>按新规则</td><td>daß → dass · muß → muss · Schluß → Schluss</td></tr>\n</tbody></table></div>\n<ul>\n<li>[[Rothkäppchen aber wußte nicht was das{dem:nn} für ein{nn} böses Thier war]]小红帽不知道那是一只多么坏的动物。</li>\n<li>[[Grethel fieng an zu weinen]]格蕾特哭了起来。</li>\n</ul>\n<p>本站的康德文本用的是拼写已现代化的版本（Kausalität、Gegenteil），所以你主要在童话里看到老拼写。但如果你去读学院版或初版的康德，会看到 <i>genöthigt</i>、<i>sceptischen</i>、<i>Gegentheils</i>：把 th 读成 t、c 读成 k 就行。</p>\n\n<h4>二、词尾和词形</h4>\n<ul>\n<li><b>阳性、中性单数与格加 -e</b>：[[Nicht lange danach kam die{nf} alte Geis aus dem{dm} Walde wieder heim]]（aus dem Walde = aus dem Wald）。康德：<i>im Raume, dem Verstande, im logischen Gebrauche</i>。看到 -e 不要以为是复数。</li>\n<li><b>ward = wurde</b>（werden 的过去式）：[[Das{dem:an} ward die{nf} Frau Holle bald müde]]。被动也用它：ward angezündet = wurde angezündet（第 21 课）。</li>\n<li><b>动词的老形式</b>：thäten = täten（tun 的虚拟式二）· gienge = ginge。</li>\n<li><b>der Gedanke 的属格</b>：康德写 <i>des Gedanken</i>，今天是 des Gedankens。</li>\n</ul>\n\n<h4>三、缩写：代词贴在前一个词上</h4>\n<p>口语里的 es 常常缩成 -s，贴在前一个词后面，童话里写出来了：</p>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>缩写</th><th>展开</th><th>读本里</th></tr></thead><tbody>\n<tr><td>wenns</td><td>wenn es</td><td>wenns nicht auf offner Straße gewesen wäre：要不是在大路上</td></tr>\n<tr><td>mirs</td><td>mir es</td><td>wie ängstlich wird mirs heute zu Muth：我今天怎么这么心慌</td></tr>\n<tr><td>sichs</td><td>sich es</td><td>[[Der{nm} Frosch ließ sichs gut schmecken]]：青蛙吃得津津有味</td></tr>\n<tr><td>dirs</td><td>dir es</td><td>so soll dirs gut gehn：你就会过得好</td></tr>\n</tbody></table></div>\n<p>顺便：offner = offener，gehn = gehen，老文本常省掉一个不重读的 e。</p>\n\n<h4>四、大小写</h4>\n<ul>\n<li>名词化的形容词有时小写：[[etwas besseres als den{am} Tod findest du überall]]（今天 etwas Besseres）。</li>\n<li>时间副词有时大写：Abends（今天 abends）· Morgen（明天，今天小写 morgen）。</li>\n<li>称呼对方的代词有时大写：von Euch（今天 von euch）。</li>\n</ul>\n\n<h4>五、语序</h4>\n<ul>\n<li><b>关系从句里动词不一定在最后</b>：[[lebte ein{nm} König, dessen{rel:gm} Töchter waren alle{np} schön]]（今天：dessen Töchter alle schön waren）。</li>\n<li><b>动词群的顺序</b>：康德 <i>ohne Zurückhalten muß äußern können</i>（今天：äußern können muß）；童话 [[daß er drei eiserne Bande hatte um sein{an} Herz legen lassen]]（hatte 提前）。</li>\n<li><b>从句里省掉助动词</b>：康德常把 hat、ist 省掉，读的时候要自己补上：<i>die selbst geschehen, oder entstanden</i>（= die selbst geschehen oder entstanden ist）。看到从句末尾只有一个分词，就想想是不是省了 ist / hat。</li>\n</ul>\n\n<h4>六、意思变了的词</h4>\n<p>这是最危险的一类：词你认识，意思却不是今天的意思。下面都是康德书里出现过的：</p>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>词</th><th>今天</th><th>康德那里</th></tr></thead><tbody>\n<tr><td>der Erfolg</td><td>成功</td><td>结果、后果</td></tr>\n<tr><td>die Konkurrenz</td><td>竞争</td><td>协同作用</td></tr>\n<tr><td>die Willkür</td><td>专断、任意妄为</td><td>选择的能力</td></tr>\n<tr><td>gemein</td><td>卑鄙的</td><td>普通的、共同的</td></tr>\n<tr><td>besorgen</td><td>办理、购买</td><td>担心</td></tr>\n<tr><td>der Verstand</td><td>理智</td><td>① 知性 ② 意义（im kosmologischen Verstande）</td></tr>\n<tr><td>das Vermögen</td><td>财产</td><td>多指「能力」（Erkenntnisvermögen）</td></tr>\n<tr><td>allein</td><td>单独</td><td>常作连词「但是」（第 29 课）</td></tr>\n<tr><td>übersehen</td><td>忽略</td><td>纵览、看清</td></tr>\n</tbody></table></div>\n<p>本站的词典会给出「此处」的意思，但读别的版本时要自己留心：一个句子按今天的意思讲不通，先想想是不是词义变了。</p>\n\n<h4>七、拉丁语</h4>\n<p>18 世纪的学者把拉丁语当作国际学术语言，康德常在德语里夹拉丁词：<i>a priori</i>（先天的）· <i>a posteriori</i>（后天的）· <i>in concreto</i>（具体地）· <i>quid juris</i>（权利问题）· <i>data</i>（材料）· <i>veto</i>（否决）· <i>etc.</i>（等等）。它们不变格，当作固定短语记就行。</p>\n\n<h4>八、反推方法</h4>\n<ol>\n<li>查不到的词：把 th → t、c → k / z、ie → i、dt → t 换一换再查。</li>\n<li>名词后面多一个 -e，前面是 dem / im：古式与格，不是复数。</li>\n<li>词尾 -s 贴在 wenn、mir、dir、sich 后面：es 的缩写。</li>\n<li>从句末尾只有分词：补上 ist / hat。</li>\n<li>认识的词讲不通：查一查老意思。</li>\n</ol>\n\n<h4>九、马上练</h4>\n{{quiz:s1}}\n\n<h4>十、小结</h4>\n<ul>\n<li>拼写：th → t，ie → i，c → k / z，dt → t。</li>\n<li>词形：dem Walde（古式与格）· ward = wurde。</li>\n<li>缩写：wenns、mirs、sichs = wenn es、mir es、sich es。</li>\n<li>语序：关系从句动词可能不在末尾；从句里常省 ist / hat。</li>\n<li>词义：Erfolg、Willkür、gemein、Vermögen 在康德那里不是今天的意思。</li>\n</ul>\n\n<h4>十一、读一读</h4>\n<p>回到《小红帽》，把里面的老拼写都找出来；再去康德第 10 章读「理性的共和国」那一段，注意 <i>muß äußern können</i>。</p>\n<p><button class=\"btn\" data-route=\"grimm~ch-k026\">《小红帽》</button> <button class=\"btn\" data-route=\"kant-krv~ch-m\">方法论</button></p>",
+  "quiz": [
+   {
+    "id": "al1",
+    "sec": "s1",
+    "de": "was das für ein böses <<Thier>> war",
+    "opts": [
+     "Tier（th → t）：动物",
+     "一种特别的怪物"
+    ],
+    "ans": 0,
+    "why": "老拼写 th 今天写 t。"
+   },
+   {
+    "id": "al2",
+    "sec": "s1",
+    "de": "Grethel <<fieng>> an zu weinen",
+    "opts": [
+     "fing（anfangen 的过去式）",
+     "找到"
+    ],
+    "ans": 0,
+    "why": "ie → i：fieng = fing。"
+   },
+   {
+    "id": "al3",
+    "sec": "s1",
+    "de": "Nicht lange danach kam die alte Geis aus dem <<Walde>> wieder heim",
+    "opts": [
+     "古式与格 = aus dem Wald",
+     "复数：从森林们"
+    ],
+    "ans": 0,
+    "why": "dem 说明是单数与格；-e 是古式词尾。"
+   },
+   {
+    "id": "al4",
+    "sec": "s1",
+    "de": "Das <<ward>> die Frau Holle bald müde",
+    "opts": [
+     "= wurde（werden 的过去式）",
+     "= war"
+    ],
+    "ans": 0,
+    "why": "ward 是 werden 的老过去式。"
+   },
+   {
+    "id": "al5",
+    "sec": "s1",
+    "de": "Der Frosch ließ <<sichs>> gut schmecken",
+    "opts": [
+     "sich es 的缩写",
+     "sich 的复数"
+    ],
+    "ans": 0,
+    "why": "-s 是贴上去的 es。"
+   },
+   {
+    "id": "al6",
+    "sec": "s1",
+    "de": "lebte ein König, dessen Töchter <<waren>> alle schön",
+    "opts": [
+     "老式语序：关系从句的动词没放到最后",
+     "主句的动词"
+    ],
+    "ans": 0,
+    "why": "今天写 dessen Töchter alle schön waren。"
+   }
+  ]
  }
 ]
