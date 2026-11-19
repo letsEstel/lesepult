@@ -1,0 +1,67 @@
+[
+ {
+  "id": "v1",
+  "ch": "v",
+  "t": "序言与导言：自由是拱顶石",
+  "de": "Vorrede · Einleitung",
+  "min": 25,
+  "html": "<p>《纯粹理性批判》回答了「我能知道什么」，并在结尾提出了第二个问题：「我应当做什么？」这本书就是对它的回答。序言和导言很短，却把全书的逻辑讲清楚了：道德法则让我们知道自己是自由的，自由又托起了上帝和不朽。</p>\n<h4>一、两部批判的对照</h4>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th></th><th>纯粹理性批判（1781 / 1787）</th><th>实践理性批判（1788）</th></tr></thead><tbody>\n<tr><th>问题</th><td>我能知道什么？</td><td>我应当做什么？</td></tr>\n<tr><th>理性的对象</th><td>对象（自然）</td><td>意志</td></tr>\n<tr><th>批判谁</th><td>纯粹理性：它会越出经验</td><td>经验性的实践理性：它想让欲望单独决定意志</td></tr>\n<tr><th>顺序</th><td>感性 → 概念 → 原理</td><td>原理 → 概念 → 感性（情感）</td></tr>\n<tr><th>自由</th><td>不矛盾，但不能证明</td><td>由道德法则证明是实在的</td></tr>\n</tbody></table></div>\n<h4>二、为什么书名里没有「纯粹」</h4>\n<p>纯粹理性一旦被证明是实践的，就不需要被批判：它本身就是批判的准绳。需要批判的是那个只听欲望和爱好的、「受经验制约的」实践理性。</p>\n[[Denn reine Vernunft, wenn allererst dargetan worden, daß es eine solche gebe, bedarf keiner Kritik]]\n<h4>三、存在根据与认识根据</h4>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th></th><th>自由</th><th>道德法则</th></tr></thead><tbody>\n<tr><th>在事情本身的顺序上</th><td>先：自由是道德法则的<b>存在根据</b>（ratio essendi）</td><td>后</td></tr>\n<tr><th>在我们认识的顺序上</th><td>后</td><td>先：道德法则是自由的<b>认识根据</b>（ratio cognoscendi）</td></tr>\n</tbody></table></div>\n<p>就像火和烟：火使烟存在；烟使我们知道有火。我们并不直接看到自由；我们意识到「我应当」，由此知道「我能够」。</p>\n[[die Freiheit allerdings die ratio essendi des moralischen Gesetzes, das moralische Gesetz aber die ratio cognoscendi der Freiheit sei]]\n<h4>四、自由与上帝、不朽的不同</h4>\n<p>自由是道德法则的<b>条件</b>，所以随着道德法则一起被证明。上帝和不朽却只是道德法则所要求的客体（至善）的条件：我们不能认识它们，甚至不能认识它们的可能性，只能在实践上「假定」它们。这就是第 6 章「公设」的伏笔。</p>\n<h4>五、语法小结</h4>\n<ul>\n<li><b>动词开头的条件句 + 虚拟式二</b>：wäre nicht …, so würden wir … · Wäre aber keine Freiheit, so würde …（第 12、22 课）。</li>\n<li><b>省略助动词</b>：wenn allererst dargetan worden (ist)（第 30 课）。</li>\n<li><b>强调句</b>：Sie ist es, welche …（正是它……）。</li>\n<li><b>haben + zu</b>：werden … zu bearbeiten haben（第 25 课）。</li>\n</ul>\n{{quiz:s1}}",
+  "quiz": [
+   {
+    "id": "v1a",
+    "sec": "s1",
+    "de": "Sie soll bloß dartun, daß es reine praktische Vernunft <<gebe>>",
+    "opts": [
+     "本书只需证明有纯粹实践理性",
+     "本书要批判纯粹实践理性"
+    ],
+    "ans": 0,
+    "why": "纯粹实践理性一旦被证明存在，就不需要批判。"
+   },
+   {
+    "id": "v1b",
+    "sec": "s1",
+    "de": "macht nun den <<Schlußstein>> von dem ganzen Gebäude … aus",
+    "opts": [
+     "自由是整个理性体系的拱顶石",
+     "上帝是拱顶石"
+    ],
+    "ans": 0,
+    "why": "上帝和不朽「依附于」自由的概念。"
+   },
+   {
+    "id": "v1c",
+    "sec": "s1",
+    "de": "die Freiheit allerdings die ratio <<essendi>> des moralischen Gesetzes",
+    "opts": [
+     "自由是道德法则的存在根据",
+     "自由是道德法则的认识根据"
+    ],
+    "ans": 0,
+    "why": "道德法则才是自由的认识根据。"
+   },
+   {
+    "id": "v1d",
+    "sec": "s1",
+    "de": "Wäre aber keine Freiheit, so würde das moralische Gesetz in uns gar nicht <<anzutreffen>> sein",
+    "opts": [
+     "没有自由，就没有道德法则",
+     "没有道德法则，就没有自由"
+    ],
+    "ans": 0,
+    "why": "sein + zu：能被碰到；整句是虚拟式二的假设。"
+   },
+   {
+    "id": "v1e",
+    "sec": "s1",
+    "de": "Denn reine Vernunft … bedarf keiner <<Kritik>>",
+    "opts": [
+     "要批判的是受经验制约的实践理性",
+     "纯粹理性永远需要批判"
+    ],
+    "ans": 0,
+    "why": "所以书名不叫「纯粹实践理性批判」。"
+   }
+  ]
+ }
+]

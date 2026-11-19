@@ -1,0 +1,111 @@
+{
+ "profile": "de-zh",
+ "fontsHref": "https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,600;1,7..72,400&family=UnifrakturMaguntia&family=IBM+Plex+Mono:wght@400;500&family=Noto+Serif+SC:wght@400;600&display=swap",
+ "fonts": {
+  "text": "\"Literata\",Georgia,\"Times New Roman\",serif",
+  "mast": "\"UnifrakturMaguntia\",\"Literata\",Georgia,serif",
+  "trans": "\"Noto Serif SC\",\"Songti SC\",\"STSong\",\"SimSun\",serif"
+ },
+ "id": "kant-kpv",
+ "title": "Kritik der praktischen Vernunft",
+ "short": "实践理性批判",
+ "zh": "实践理性批判（选读）",
+ "author": "Immanuel Kant",
+ "year": "1788",
+ "level": "高阶 · 连载中",
+ "blurb": "三大批判之二：我应当做什么？道德法则、自由、敬重与义务，直到「头上的星空和心中的道德法则」。按康德的结构分 7 章，每章精读关键段落，「脉络」串起省略的论证。连载中。",
+ "brandMark": "P",
+ "mast": "Kritik",
+ "eyebrow": "Immanuel Kant · Kritik der praktischen Vernunft · Riga 1788",
+ "subtitle": "Kritik der praktischen Vernunft",
+ "lede": "《纯粹理性批判》说：我们不能知道上帝、自由和不朽。这本书接着问：那我应当做什么？康德的回答是一条人人心中都有的法则：「要这样行动，使你意志的准则任何时候都能同时作为普遍立法的原则。」正是这条法则让我们知道自己是自由的，而自由又为上帝和不朽打开了一扇实践的门。和《纯粹理性批判》一样，这里每章精读最关键的段落，省略的论证用「脉络」概述。",
+ "demo": [
+  "v",
+  2,
+  0
+ ],
+ "demoCaption": "自由是道德法则的存在根据 · 点任意一个词",
+ "howto": [
+  {
+   "n": "第 1 步",
+   "h": "先读《纯粹理性批判》",
+   "p": "这本书处处接着第一批判说话：现象与物自身、二律背反、自由的可能性。至少先读第一批判的第 8 章（二律背反）和第 10 章（方法论）。"
+  },
+  {
+   "n": "第 2 步",
+   "h": "按章读，看「脉络」",
+   "p": "从目录进入。每章开头和段落之间的「脉络」框说明省略的部分讲了什么；精读的句子先开「语法」看骨架，再点词。"
+  },
+  {
+   "n": "第 3 步",
+   "h": "专题课",
+   "p": "每章配专题课：这一章回答什么问题，关键术语怎么理解，和《纯粹理性批判》怎样对照。"
+  }
+ ],
+ "intro": {
+  "eyebrow": "Zum Text",
+  "h": "本书专题课",
+  "p": "每章一节：这一章回答什么问题，关键术语怎么理解，和前后章、和第一批判怎样衔接。"
+ },
+ "slipEmpty": "点击正文中的任意德语词，这里会显示它的原形、词性、此处的格和用法。<br><br>康德的长句先找主干：主语、变位动词和句末的不定式或分词。",
+ "footer": "原文：Immanuel Kant, Kritik der praktischen Vernunft, Riga: Hartknoch 1788（公有领域）。据学院版（AA V，1908/1913；Projekt Gutenberg #49543 的转录），拼写按今天的习惯作了现代化（与本站《纯粹理性批判》一致：th → t、c → k / z 等），用词和语序不改。页码为学院版第 5 卷页码。分章与章名为本站所加。注释、讲解与中文译文为本站编写（AI 辅助）。",
+ "theme": {
+  "accent": "#1f4d4a",
+  "accent2": "#2c6662",
+  "accentSoft": "#e0edeb",
+  "accentDark": "#9fd0ca",
+  "accent2Dark": "#bfe0dc",
+  "accentSoftDark": "#15282a"
+ },
+ "description": "康德《实践理性批判》逐词精读，按章选读，「脉络」串起省略的论证。",
+ "chapters": [
+  {
+   "id": "v",
+   "h": "序言与导言：自由是拱顶石",
+   "t": "Vorrede · Einleitung",
+   "blurb": "只需证明有纯粹实践理性；自由是整个理性体系的拱顶石；自由是道德法则的存在根据，道德法则是自由的认识根据。"
+  },
+  {
+   "id": "p",
+   "h": "原理：定言命令",
+   "t": "Grundsätze der reinen praktischen Vernunft",
+   "blurb": "准则与法则；「要这样行动……」；理性的事实；绞架的例子：你能够，因为你应当。",
+   "planned": true
+  },
+  {
+   "id": "f",
+   "h": "自律与自由",
+   "t": "Autonomie · Deduktion",
+   "blurb": "意志自律是道德的唯一原则；道德法则证明了自由的实在性。",
+   "planned": true
+  },
+  {
+   "id": "b",
+   "h": "善与恶",
+   "t": "Vom Begriffe eines Gegenstandes",
+   "blurb": "善的概念不先于道德法则，而是由它规定的；福与善的区分。",
+   "planned": true
+  },
+  {
+   "id": "t",
+   "h": "敬重与义务",
+   "t": "Von den Triebfedern",
+   "blurb": "敬重是唯一的道德情感；「义务！你这崇高伟大的名字」。",
+   "planned": true
+  },
+  {
+   "id": "d",
+   "h": "至善与公设",
+   "t": "Dialektik",
+   "blurb": "德行与幸福相配的至善；灵魂不朽与上帝存在作为实践理性的公设。",
+   "planned": true
+  },
+  {
+   "id": "m",
+   "h": "结论：星空与道德法则",
+   "t": "Methodenlehre · Beschluß",
+   "blurb": "「头上的星空和心中的道德法则」。",
+   "planned": true
+  }
+ ]
+}
