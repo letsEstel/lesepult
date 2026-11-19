@@ -7,7 +7,7 @@
  "author": "Max Weber",
  "year": "1919",
  "level": "进阶 · 连载中",
- "blurb": "现代政治学最有名的演讲：国家的定义、三种正当统治、激情 · 责任感 · 分寸感、信念伦理与责任伦理。全书分 9 章连载，第 1 章已上线。",
+ "blurb": "现代政治学最有名的演讲：国家的定义、三种正当统治、激情 · 责任感 · 分寸感、信念伦理与责任伦理。全书分 9 章连载，前 2 章已上线。",
  "brandMark": "W",
  "mast": "Politik als Beruf",
  "eyebrow": "Max Weber · München 1919 · Vortrag",
@@ -28,7 +28,7 @@
   {
    "n": "第 2 步",
    "h": "本书专题课",
-   "p": "每章配专题课：第 1 章讲国家的定义、三种正当支配，以及怎么读 Weber 的长句（带练习）。"
+   "p": "每章配专题课：第 1 章讲国家的定义、三种正当支配，以及怎么读 Weber 的长句；第 2 章讲统治的「装备」：行政班子与行政手段（都带练习）。"
   },
   {
    "n": "第 3 步",
@@ -42,7 +42,7 @@
   "p": "读 Weber 需要的背景和语法：这场演讲的来历、核心概念，以及他那种层层加插入语的长句怎么拆。"
  },
  "slipEmpty": "点击正文中的任意德语词，这里会显示它的原形、词性、此处的格和用法。<br><br>Weber 爱用冒号和破折号层层补充，读不通时先找句子的主干动词。",
- "footer": "原文：Max Weber, Politik als Beruf, München und Leipzig: Duncker & Humblot 1919（公有领域）。据 Projekt Gutenberg-DE 的转录（所据为 J. Winckelmann 编，Tübingen: Mohr 1958），保留其拼写，把 ihren Wunsch 改正为 Ihren Wunsch。分章与章名为本站所加。注释、讲解与中文译文为本站编写（AI 辅助）。",
+ "footer": "原文：Max Weber, Politik als Beruf, München und Leipzig: Duncker & Humblot 1919（公有领域）。据德语维基文库对 1919 年初版的转录，保留初版的拼写与段落顺序；每节标出初版页码。按文意改正一处：entlehnte → entlohnte（第 2 章）。分章与章名为本站所加。注释、讲解与中文译文为本站编写（AI 辅助）。",
  "fontsHref": "https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,600;1,7..72,400&family=UnifrakturMaguntia&family=IBM+Plex+Mono:wght@400;500&family=Noto+Serif+SC:wght@400;600&display=swap",
  "fonts": {
   "text": "\"Literata\",Georgia,\"Times New Roman\",serif",
@@ -69,7 +69,7 @@
    "id": "k2",
    "h": "行政班子与职业政治家",
    "t": "Verwaltungsstab und Berufspolitiker",
-   "planned": true
+   "blurb": "统治的「装备」：人和物。等级制与主人自营；现代国家如何剥夺私人的行政手段；革命与第二种职业政治家。"
   },
   {
    "id": "k3",

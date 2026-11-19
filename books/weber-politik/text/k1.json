@@ -11,7 +11,7 @@
      "骨架：Der Vortrag … wird Sie … enttäuschen（这场演讲会让诸位失望）。中间的 den ich … zu halten habe 是关系从句，修饰 Vortrag。",
      "den：关系代词，阳性宾格，指 Vortrag，在从句里是 halten 的宾语（einen Vortrag halten：作演讲）。",
      "zu halten haben：haben + zu-不定式 = 得做、必须做。",
-     "auf Ihren Wunsch：应您（们）的要求。Sie / Ihr 大写是尊称「您、诸位」。Projekt Gutenberg 的转录作小写 ihren，这里按原版改为 Ihren。",
+     "auf Ihren Wunsch：应您（们）的要求。Sie / Ihr 大写是尊称「您、诸位」。",
      "notwendig 在这里作副词：必然地。nach verschiedenen Richtungen：在不同方向上，即「在好几个方面」。",
      "背景：1919 年 1 月 28 日，Weber 在慕尼黑应「自由学生联合会」的邀请作这场演讲，听众多是刚从战场回来的大学生。同年 10 月成书出版。"
     ]
@@ -69,7 +69,8 @@
      "zur Sache：到事情本身上来。zur = zu der。Sache 在后文会变得很重要：政治家要献身于一项「事业」（Sache）。"
     ]
    }
-  ]
+  ],
+  "pg": "1919 版 S. 3"
  },
  {
   "h": "二 · 什么是政治",
@@ -124,7 +125,8 @@
      "heute also: eines Staates：今天也就是「一个国家的」。仍是属格，与 eines politischen Verbandes 并列。"
     ]
    }
-  ]
+  ],
+  "pg": "1919 版 S. 3"
  },
  {
   "h": "三 · 国家：从手段来定义",
@@ -158,16 +160,17 @@
     ]
    },
    {
-    "de": "Es{expl} gibt fast keine{af} Aufgabe, die{rel:af} nicht ein{nm} politischer Verband hier und da in die{af} Hand genommen hätte, andererseits auch keine{af}, von der{rel:df} man sagen könnte, daß sie{she} jederzeit, vollends: daß sie{she} immer ausschließlich denjenigen{dp} Verbänden, die{rel:ap} man als politische, heute: als Staaten, bezeichnet, oder welche{np} geschichtlich die{np} Vorfahren des{gm} modernen Staates waren, eigen gewesen wäre.",
+    "de": "Es{expl} gibt fast keine{af} Aufgabe, die{rel:af} nicht ein{nm} politischer Verband hier und da in die{af} Hand genommen hätte, anderseits auch keine{af}, von der{rel:df} man sagen könnte, daß sie{she} jederzeit, vollends: daß sie{she} immer ausschließlich denjenigen{dp} Verbänden, die{rel:ap} man als politische, heute: als Staaten, bezeichnet, oder welche{np} geschichtlich die{np} Vorfahren des{gm} modernen Staates waren, eigen gewesen wäre.",
     "zh": "几乎没有哪项任务是政治团体不曾在某时某地承担过的；另一方面，也没有哪项任务能说在任何时候、更不用说永远，都专属于那些被称为政治团体（今天称为国家）的团体，或者历史上作为现代国家前身的那些团体。",
     "n": [
-     "拆解：两个 keine 对照：① Es gibt fast keine Aufgabe（几乎没有任何任务）+ die nicht ein politischer Verband hier und da in die Hand genommen hätte（是政治团体不曾在某处承担过的；hätte = 虚拟式二）。② andererseits auch keine（另一方面也没有任何任务）+ von der man sagen könnte, daß sie jederzeit, vollends: daß sie immer ausschließlich denjenigen Verbänden … eigen gewesen wäre（可以说它始终、甚至总是专属于这些团体；einer Sache eigen sein：专属于）。Verbänden 后两个关系从句：die man als politische, heute: als Staaten, bezeichnet（被称为政治团体、今天称为国家的）· oder welche geschichtlich die Vorfahren des modernen Staates waren（或在历史上是现代国家前身的）。",
-     "两个并列的 keine：fast keine Aufgabe, die …（几乎没有哪项任务……不曾……）；andererseits auch keine, von der …（另一方面，也没有哪项任务……）。",
+     "拆解：两个 keine 对照：① Es gibt fast keine Aufgabe（几乎没有任何任务）+ die nicht ein politischer Verband hier und da in die Hand genommen hätte（是政治团体不曾在某处承担过的；hätte = 虚拟式二）。② anderseits auch keine（另一方面也没有任何任务）+ von der man sagen könnte, daß sie jederzeit, vollends: daß sie immer ausschließlich denjenigen Verbänden … eigen gewesen wäre（可以说它始终、甚至总是专属于这些团体；einer Sache eigen sein：专属于）。Verbänden 后两个关系从句：die man als politische, heute: als Staaten, bezeichnet（被称为政治团体、今天称为国家的）· oder welche geschichtlich die Vorfahren des modernen Staates waren（或在历史上是现代国家前身的）。",
+     "两个并列的 keine：fast keine Aufgabe, die …（几乎没有哪项任务……不曾……）；anderseits auch keine, von der …（另一方面，也没有哪项任务……）。",
      "die nicht ein politischer Verband … in die Hand genommen hätte：关系从句，die 是宾格（任务被接手）。etw. in die Hand nehmen：接手、承担。hätte 是虚拟式：先行词被否定时（keine Aufgabe），关系从句常用虚拟式。",
      "von der man sagen könnte, daß …：关于它，人们可以说……。daß sie … eigen gewesen wäre：它曾专属于……。jm eigen sein：为……所特有（与格）。",
      "vollends：「甚至、更不用说」，加强语气：不仅「在任何时候」，更是「永远、排他地」。",
      "denjenigen Verbänden（与格复数）后面跟两个关系从句：die man als politische … bezeichnet（被称为政治团体的），oder welche … die Vorfahren des modernen Staates waren（或者历史上是现代国家前身的）。",
-     "这是典型的 Weber 长句：先抛出主干，再用冒号和插入语一层层修正。读的时候先抓住 keine … eigen gewesen wäre 这条线。"
+     "这是典型的 Weber 长句：先抛出主干，再用冒号和插入语一层层修正。读的时候先抓住 keine … eigen gewesen wäre 这条线。",
+     "anderseits：= andererseits（另一方面），1919 年原版的写法。"
     ]
    },
    {
@@ -183,11 +186,11 @@
     ]
    },
    {
-    "de": "»Jeder{nm} Staat wird auf Gewalt gegründet«, sagte seinerzeit Trotzkij in Brest-Litowsk.",
+    "de": "»Jeder{nm} Staat wird auf Gewalt gegründet,« sagte seinerzeit Trozkij in Brest-Litowsk.",
     "zh": "「一切国家都建立在暴力之上」，托洛茨基当年在布列斯特-立托夫斯克这样说过。",
     "n": [
      "auf etw. gründen：建立在……之上。wird … gegründet：被动态现在时。",
-     "seinerzeit：当时、那时。Trotzkij：托洛茨基，1917–1918 年作为苏俄外交人民委员，在布列斯特-立托夫斯克与德国谈判和约。",
+     "seinerzeit：当时、那时。Trozkij：托洛茨基（今天通常写作 Trotzki），1917–1918 年作为苏俄外交人民委员，在布列斯特-立托夫斯克与德国谈判和约。",
      "Weber 引用一位革命家的话来支持自己的定义。演讲时的听众里有不少同情革命的学生。"
     ]
    },
@@ -211,7 +214,8 @@
      "Anarchie 字面意思是「没有统治」：没有暴力手段，就没有国家。"
     ]
    }
-  ]
+  ],
+  "pg": "1919 版 S. 3–4"
  },
  {
   "h": "四 · 正当暴力的垄断",
@@ -247,13 +251,13 @@
     ]
    },
    {
-    "de": "Heute dagegen werden wir sagen müssen: Staat ist diejenige{nf} menschliche Gemeinschaft, welche{nf} innerhalb eines{gn} bestimmten Gebietes – dies: das{nn} »Gebiet« gehört zum Merkmal – das{an} Monopol legitimer physischer Gewaltsamkeit für sich (mit Erfolg) beansprucht.",
+    "de": "Heute dagegen werden wir sagen müssen: Staat ist diejenige{nf} menschliche Gemeinschaft, welche{nf} innerhalb eines{gn} bestimmten Gebietes – dies: das{nn} »Gebiet«, gehört zum Merkmal – das{an} Monopol legitimer physischer Gewaltsamkeit für sich (mit Erfolg) beansprucht.",
     "zh": "今天我们则必须说：国家是这样一个人类共同体，它在一定的疆域之内（「疆域」也是特征之一）为自己（成功地）要求对正当的物理暴力的垄断。",
     "n": [
-     "拆解：Heute dagegen werden wir sagen müssen（今天我们却必须说；werden + 情态动词不定式）。冒号后定义：Staat ist diejenige menschliche Gemeinschaft（国家是这样一种人类共同体）+ 关系从句 welche innerhalb eines bestimmten Gebietes … das Monopol legitimer physischer Gewaltsamkeit für sich (mit Erfolg) beansprucht（在一定领土内为自己（成功地）要求合法物理暴力的垄断）。破折号插入 dies: das »Gebiet« gehört zum Merkmal（「领土」属于特征之一）。",
+     "拆解：Heute dagegen werden wir sagen müssen（今天我们却必须说；werden + 情态动词不定式）。冒号后定义：Staat ist diejenige menschliche Gemeinschaft（国家是这样一种人类共同体）+ 关系从句 welche innerhalb eines bestimmten Gebietes … das Monopol legitimer physischer Gewaltsamkeit für sich (mit Erfolg) beansprucht（在一定领土内为自己（成功地）要求合法物理暴力的垄断）。破折号插入 dies: das »Gebiet«, gehört zum Merkmal（「领土」属于特征之一）。",
      "全书最有名的一句：国家的定义。骨架：Staat ist diejenige … Gemeinschaft, welche … das Monopol … beansprucht（国家是……要求垄断……的那种共同体）。",
      "diejenige …, welche …：「……的那种」。derjenige 预告后面有一个关系从句；welche 是关系代词，阴性主格，指 Gemeinschaft。",
-     "innerhalb eines bestimmten Gebietes：在一定的疆域之内（属格）。插入语 dies: das »Gebiet« gehört zum Merkmal：「这一点，即『疆域』，也属于特征」。",
+     "innerhalb eines bestimmten Gebietes：在一定的疆域之内（属格）。插入语 dies: das »Gebiet«, gehört zum Merkmal：「这一点，即『疆域』，也属于特征」。",
      "das Monopol legitimer physischer Gewaltsamkeit：对正当物理暴力的垄断。legitimer physischer 是无冠词的阴性属格，形容词带 -er。",
      "für sich beanspruchen：为自己要求。括号里的 mit Erfolg（成功地）很关键：光要求不够，还得在事实上做到。",
      "三个要素：疆域、正当性（被认为是合法的）、垄断。后面讲「三种正当性」，就是在回答「正当」从哪里来。"
@@ -272,7 +276,8 @@
      "例子：正当防卫，是国家法律允许个人使用的暴力。"
     ]
    }
-  ]
+  ],
+  "pg": "1919 版 S. 4"
  },
  {
   "h": "五 · 政治：争取权力",
@@ -288,6 +293,18 @@
      "Streben nach etw.：对……的追求（动词 streben 名词化）。Machtanteil：权力份额；Machtverteilung：权力分配。",
      "sei es …, sei es …：无论是……还是……（虚拟式一的固定用法）。",
      "die er umschließt：它（国家）所包含的。die 是宾格复数，指 Menschengruppen。"
+    ]
+   },
+   {
+    "de": "Jeder{nm} Herrschaftsbetrieb, welcher{nm} kontinuierliche Verwaltung erheischt, braucht einerseits die{af} Einstellung menschlichen Handelns auf den{am} Gehorsam gegenüber jenen{dp} Herren, welche{np} Träger der{gf} legitimen Gewalt zu sein beanspruchen, und andrerseits, vermittelst dieses{gm} Gehorsams, die{af} Verfügung über diejenigen{ap} Sachgüter, welche{np} gegebenenfalls zur Durchführung der{gf} physischen Gewaltanwendung erforderlich sind: den{am} personalen Verwaltungsstab und die{ap} sachlichen Verwaltungsmittel.",
+    "zh": "每一种需要持续管理的统治经营，一方面需要人的行动调整为服从那些自称是正当权力承担者的主人，另一方面，借助这种服从，需要支配那些在必要时为实施物理暴力所需的物资：即人的行政班子和物的行政手段。",
+    "n": [
+     "拆解：主语 Jeder Herrschaftsbetrieb + 关系从句 welcher kontinuierliche Verwaltung erheischt（每一种需要持续管理的统治经营）→ 动词 braucht（需要），宾语用 einerseits … andrerseits 分两半：① die Einstellung menschlichen Handelns auf den Gehorsam gegenüber jenen Herren（人的行动调整为对那些主人的服从）+ welche Träger der legitimen Gewalt zu sein beanspruchen（他们自称是正当权力的承担者）② vermittelst dieses Gehorsams, die Verfügung über diejenigen Sachgüter（借助这种服从，对那些物资的支配）+ welche gegebenenfalls zur Durchführung der physischen Gewaltanwendung erforderlich sind（必要时实施物理暴力所需的）。冒号后总结成两个词：den personalen Verwaltungsstab und die sachlichen Verwaltungsmittel。",
+     "der Herrschaftsbetrieb：统治经营（Herrschaft + s + Betrieb；Betrieb 是 Weber 的关键词：像企业一样持续运转的组织）。kontinuierlich：持续的。erheischen：要求、需要（书面旧词）。",
+     "die Einstellung auf etw.：对……的态度、调整。menschlichen Handelns：人的行动的（属格，形容词强变化 -en）。gegenüber + 第三格：对……。der Träger：承担者。zu sein beanspruchen：自称是（beanspruchen：要求、声称）。",
+     "andrerseits：= andererseits。vermittelst + 第二格：借助。die Verfügung über：对……的支配权。das Sachgut：物资（复数 Sachgüter）。gegebenenfalls：必要时、在某种情况下。die Gewaltanwendung：使用暴力。erforderlich：必需的。",
+     "der Verwaltungsstab：行政班子（人）。die Verwaltungsmittel：行政手段（物：钱、建筑、武器、车马）。personal / sachlich：人的 / 物的。第 2 章就从这两样东西讲起。",
+     "这一句在 1919 年原版中就在这里；后来 Winckelmann 编的版本把它挪到了下一章开头。"
     ]
    },
    {
@@ -311,18 +328,19 @@
     ]
    },
    {
-    "de": "– Wer Politik treibt, erstrebt Macht: – Macht entweder als Mittel im Dienst anderer Ziele (idealer oder egoistischer), – oder Macht »um ihrer{gpron} selbst willen«: um das{an} Prestigegefühl, das{rel:an} sie{she} gibt, zu genießen.",
+    "de": "– Wer Politik treibt, erstrebt Macht, – Macht entweder als Mittel im Dienst anderer Ziele – idealer oder egoistischer – oder Macht »um ihrer{gpron} selbst willen«: um das{an} Prestigegefühl, das{rel:an} sie{she} gibt, zu genießen.",
     "zh": "——搞政治的人追求权力：要么把权力当作手段，为其他目标（理想的或自私的）服务；要么「为了权力本身」而追求权力：为了享受权力带来的威望感。",
     "n": [
-     "拆解：Wer Politik treibt, erstrebt Macht（搞政治的人追求权力；wer-从句当主语）。冒号后分两种：① Macht entweder als Mittel im Dienst anderer Ziele（或者把权力当作服务于其他目标——理想的或自私的——的手段）② oder Macht »um ihrer selbst willen«（或者为了权力本身；um … willen + 第二格）。最后 um das Prestigegefühl, das sie gibt, zu genießen（为了享受它带来的威望感；um … zu 中间夹关系从句）。",
+     "拆解：Wer Politik treibt, erstrebt Macht（搞政治的人追求权力；wer-从句当主语）。破折号后分两种：① Macht entweder als Mittel im Dienst anderer Ziele（或者把权力当作服务于其他目标——理想的或自私的——的手段）② oder Macht »um ihrer selbst willen«（或者为了权力本身；um … willen + 第二格）。最后 um das Prestigegefühl, das sie gibt, zu genießen（为了享受它带来的威望感；um … zu 中间夹关系从句）。",
      "骨架：Wer Politik treibt, erstrebt Macht（搞政治的人追求权力）。wer 引导的从句作主语：「……的人」。",
-     "entweder … oder …：要么……要么……。im Dienst + 属格：为……服务。anderer Ziele：其他目标的（属格复数）；括号里的 idealer oder egoistischer 也是属格，省略了 Ziele。",
+     "entweder … oder …：要么……要么……。im Dienst + 属格：为……服务。anderer Ziele：其他目标的（属格复数）；破折号之间的 idealer oder egoistischer 也是属格，省略了 Ziele。",
      "um ihrer selbst willen：为了它本身。um … willen 中间夹一个属格；ihrer 是 sie（= die Macht）的属格。",
      "um … zu genießen：为了享受。das Prestigegefühl, das sie gibt：权力带来的威望感，das 是关系代词宾格。",
      "第 7 章会说：为权力本身而追求权力的「权力政治家」，是政治的堕落形式。"
     ]
    }
-  ]
+  ],
+  "pg": "1919 版 S. 4–5"
  },
  {
   "h": "六 · 支配：人对人的统治",
@@ -367,7 +385,8 @@
      "两个问题预告了下文：内在理由，即下面的三种正当性；外在手段，即第 2 章的行政班子与物质手段。"
     ]
    }
-  ]
+  ],
+  "pg": "1919 版 S. 5"
  },
  {
   "h": "七 · 三种正当的支配",
@@ -422,7 +441,8 @@
      "三种类型：传统型（习俗）、卡里斯玛型（个人魅力）、法理型（规则）。这是 Weber《经济与社会》中支配类型学的简要版本。"
     ]
    }
-  ]
+  ],
+  "pg": "1919 版 S. 5–6"
  },
  {
   "h": "八 · 纯粹类型",
@@ -482,7 +502,8 @@
      "zu etw. gehören：属于。allgemeine Staatslehre：一般国家学，当时德国大学里的一门课。"
     ]
    }
-  ]
+  ],
+  "pg": "1919 版 S. 6"
  },
  {
   "h": "九 · 卡里斯玛：「天职」的源头",
@@ -544,14 +565,14 @@
     ]
    },
    {
-    "de": "In den{dp} beiden in der{df} Vergangenheit wichtigsten Figuren: des{gm} Magiers und Propheten einerseits, des{gm} gekorenen Kriegsfürsten, Bandenführers, Kondottiere andererseits, ist das{nn} Führertum in allen{dp} Gebieten und historischen Epochen aufgetreten.",
+    "de": "In den{dp} beiden in der{df} Vergangenheit wichtigsten Figuren: des{gm} Magiers und Propheten einerseits, des{gm} gekorenen Kriegsfürsten, Bandenführers, Condottiere anderseits, ist das{nn} Führertum in allen{dp} Gebieten und historischen Epochen aufgetreten.",
     "zh": "领袖制度在一切地区、一切历史时代都出现过，过去最重要的两种形象是：一方面是巫师和先知，另一方面是被推举的战争领袖、匪帮首领和雇佣兵队长。",
     "n": [
-     "拆解：介词短语在前场：In den beiden in der Vergangenheit wichtigsten Figuren（在过去两种最重要的形象中；扩展定语）。冒号后列出：des Magiers und Propheten einerseits（一方面是巫师和先知）, des gekorenen Kriegsfürsten, Bandenführers, Kondottiere andererseits（另一方面是被推选的战争首领、匪帮头目、雇佣兵队长）。→ ist das Führertum in allen Gebieten und historischen Epochen aufgetreten（领袖制在一切领域和历史时代都出现过；完成时 ist … aufgetreten）。",
+     "拆解：介词短语在前场：In den beiden in der Vergangenheit wichtigsten Figuren（在过去两种最重要的形象中；扩展定语）。冒号后列出：des Magiers und Propheten einerseits（一方面是巫师和先知）, des gekorenen Kriegsfürsten, Bandenführers, Condottiere anderseits（另一方面是被推选的战争首领、匪帮头目、雇佣兵队长）。→ ist das Führertum in allen Gebieten und historischen Epochen aufgetreten（领袖制在一切领域和历史时代都出现过；完成时 ist … aufgetreten）。",
      "骨架：In den beiden … Figuren … ist das Führertum … aufgetreten（领袖制度以两种形象出现过）。现在完成时 ist … aufgetreten。",
      "den beiden in der Vergangenheit wichtigsten Figuren：扩展定语，「两个在过去最重要的形象」。",
-     "冒号后用属格说明这两个形象：des Magiers und Propheten（巫师和先知的），des gekorenen Kriegsfürsten, Bandenführers, Kondottiere（战争领袖、匪帮首领、雇佣兵队长的）。einerseits … andererseits：一方面……另一方面。",
-     "Kondottiere：意大利语 condottiere，文艺复兴时期的雇佣兵队长。"
+     "冒号后用属格说明这两个形象：des Magiers und Propheten（巫师和先知的），des gekorenen Kriegsfürsten, Bandenführers, Condottiere（战争领袖、匪帮首领、雇佣兵队长的）。einerseits … anderseits：一方面……另一方面。",
+     "Condottiere：意大利语，文艺复兴时期的雇佣兵队长。"
     ]
    },
    {
@@ -567,6 +588,7 @@
      "这句话把话题引向下文：职业政治家是怎样在西方的国家里出现的（第 2 章）。"
     ]
    }
-  ]
+  ],
+  "pg": "1919 版 S. 6–7"
  }
 ]
