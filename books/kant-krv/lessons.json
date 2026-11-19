@@ -569,5 +569,81 @@
     "why": "道路留给了实践理性（道德神学）。"
    }
   ]
+ },
+ {
+  "id": "m1",
+  "ch": "m",
+  "t": "方法论：三个问题",
+  "de": "Transzendentale Methodenlehre",
+  "min": 25,
+  "html": "<p>这是全书的最后一章。前九章是「要素论」：清点理性的材料，划定它的界限。「方法论」只有全书的六分之一，却回答了一个读者一路都在问的问题：<b>批判完了，然后呢？</b></p>\n<h4>一、全书地图</h4>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>部分</th><th>本站章节</th><th>问题</th><th>答案</th></tr></thead><tbody>\n<tr><td>先验感性论</td><td>第 3 章</td><td>数学何以可能？</td><td>空间和时间是直观的形式</td></tr>\n<tr><td>先验分析论</td><td>第 4–6 章</td><td>自然科学何以可能？</td><td>范畴使经验可能；知性只能用于经验</td></tr>\n<tr><td>先验辩证论</td><td>第 7–9 章</td><td>形而上学何以可能？</td><td>作为科学不可能：灵魂、世界、上帝都不能被认识</td></tr>\n<tr><td>方法论</td><td>第 10 章</td><td>理性的正当用途是什么？</td><td>在实践中：道德与希望</td></tr>\n</tbody></table></div>\n<h4>二、住房而非高塔</h4>\n<p>形而上学想盖通天塔，材料只够盖一座住房：经验知识。这不是失败，而是安顿：这座房子「恰好够宽敞、够高」，让我们看清自己的事务。</p>\n[[Der kritische Weg ist allein noch offen]]\n<h4>三、理性是一个共和国</h4>\n<p>理性没有国王：它的裁决只是「自由公民的一致同意」，每个人都能说出疑虑甚至否决。没有什么神圣到可以逃避批判。三年后的《什么是启蒙》（1784）把这个原则带进了公共生活：「要有勇气运用你自己的理智！」</p>\n<h4>四、三个问题</h4>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>问题</th><th>性质</th><th>回答它的书</th></tr></thead><tbody>\n<tr><td>Was kann ich wissen?</td><td>思辨的</td><td>《纯粹理性批判》（1781 / 1787）</td></tr>\n<tr><td>Was soll ich tun?</td><td>实践的</td><td>《道德形而上学奠基》（1785）·《实践理性批判》（1788）</td></tr>\n<tr><td>Was darf ich hoffen?</td><td>实践的兼理论的</td><td>《实践理性批判》的「至善」·《单纯理性限度内的宗教》（1793）</td></tr>\n</tbody></table></div>\n<p>注意三个情态动词：kann（能力）· soll（义务）· darf（许可）。第 10 课学的区别，在这里成了哲学的结构。</p>\n<h4>五、知道、相信、确信</h4>\n<p>上帝和来世，我们不能「知道」。但康德说，我可以「在道德上确信」：这种信仰和我的道德意念交织在一起，失去一个就失去另一个。它是我的确信，不是可以拿去证明给别人的知识。这就是序言里那句话的意思：「我必须扬弃知识，为信仰留出地盘。」</p>\n<h4>六、只能学习哲学思考</h4>\n<p>数学可以学会，哲学不能：哲学从来没有作为完成的体系存在过。能学的只是 philosophieren——在前人的尝试上练习自己的理性，并保留审查、肯定或否定它们的权利。你一路读到这里，做的正是这件事。</p>\n<h4>七、语法小结</h4>\n<ul>\n<li><b>老式语序</b>：muß äußern können（今天 äußern können muß）。</li>\n<li><b>es fand sich, daß …</b>：结果发现（无人称）。</li>\n<li><b>扩展定语</b>：einen ihr nachteiligen Verdacht（第 24 课）。</li>\n<li><b>虚拟式一</b>：zulange（间接问句）· möge · könne。</li>\n</ul>\n{{quiz:s1}}\n<p>读完了《纯粹理性批判》的十章。下一步：《实践理性批判》，回答第二个问题。</p>",
+  "quiz": [
+   {
+    "id": "m1a",
+    "sec": "s1",
+    "de": "der Vorrat der Materialien doch nur zu einem <<Wohnhause>> zureichte",
+    "opts": [
+     "材料只够盖一座住房：经验知识",
+     "材料足够盖通天塔"
+    ],
+    "ans": 0,
+    "why": "巴别塔的比喻：形而上学想通天，批判后剩下的是经验的住房。"
+   },
+   {
+    "id": "m1b",
+    "sec": "s1",
+    "de": "deren Ausspruch jederzeit nichts als die <<Einstimmung>> freier Bürger ist",
+    "opts": [
+     "理性的裁决是自由公民的一致同意",
+     "理性有独裁的权威"
+    ],
+    "ans": 0,
+    "why": "理性是一个共和国，每个人都可以否决。"
+   },
+   {
+    "id": "m1c",
+    "sec": "s1",
+    "de": "Was <<darf>> ich hoffen?",
+    "opts": [
+     "可以（许可）",
+     "必须"
+    ],
+    "ans": 0,
+    "why": "kann 能力 · soll 义务 · darf 许可。"
+   },
+   {
+    "id": "m1d",
+    "sec": "s1",
+    "de": "sondern, ich bin moralisch <<gewiß>> etc.",
+    "opts": [
+     "道德信仰是我的确信，不是客观知识",
+     "上帝的存在在逻辑上是确定的"
+    ],
+    "ans": 0,
+    "why": "es ist gewiß（客观）↔ ich bin gewiß（主观确信）。"
+   },
+   {
+    "id": "m1e",
+    "sec": "s1",
+    "de": "Man kann nur <<philosophieren>> lernen",
+    "opts": [
+     "只能学习哲学思考的活动",
+     "可以学会完整的哲学体系"
+    ],
+    "ans": 0,
+    "why": "哲学从未作为完成的体系存在过。"
+   },
+   {
+    "id": "m1f",
+    "sec": "s1",
+    "de": "der Philosoph ist nicht ein Vernunftkünstler, sondern der <<Gesetzgeber>> der menschlichen Vernunft",
+    "opts": [
+     "立法者：为理性规定目的",
+     "技师：熟练运用推理技巧"
+    ],
+    "ans": 0,
+    "why": "nicht …, sondern：不是……而是。"
+   }
+  ]
  }
 ]

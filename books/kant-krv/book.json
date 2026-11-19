@@ -6,8 +6,8 @@
  "zh": "纯粹理性批判（选读）",
  "author": "Immanuel Kant",
  "year": "1787",
- "level": "高阶 · 连载中",
- "blurb": "三大批判之一。按康德自己的结构分 10 章，每章精读关键段落，省略的部分用「脉络」串起来，整条论证不断。连载中。",
+ "level": "高阶",
+ "blurb": "三大批判之一。按康德自己的结构分 10 章，从序言一直读到方法论的最后一句；每章精读关键段落，省略的部分用「脉络」串起来，整条论证不断。",
  "brandMark": "K",
  "mast": "Kritik",
  "eyebrow": "Immanuel Kant · Kritik der reinen Vernunft · 2. Auflage, Riga 1787",
@@ -117,8 +117,7 @@
    "id": "m",
    "h": "方法论：理性的法规",
    "t": "Transzendentale Methodenlehre",
-   "blurb": "「我能知道什么？我应当做什么？我可以希望什么？」只能学习哲学思考，不能学习哲学。",
-   "planned": true
+   "blurb": "「我能知道什么？我应当做什么？我可以希望什么？」只能学习哲学思考，不能学习哲学。"
   }
  ]
 }
