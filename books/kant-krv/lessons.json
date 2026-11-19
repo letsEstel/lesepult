@@ -238,6 +238,60 @@
   ]
  },
  {
+  "id": "s1",
+  "ch": "s",
+  "t": "图型与原理",
+  "de": "Schematismus und Grundsätze",
+  "min": 20,
+  "html": "<p>演绎说范畴<b>有权</b>用于经验；这一章说它们<b>怎样</b>用于经验，以及用了以后得出哪些先天原理。</p>\n<h4>一、为什么需要图型</h4>\n<p>把对象归到概念之下，二者必须同类：盘子和「圆」同类，因为盘子的圆可以在圆形中直观到。可是范畴（比如因果性）和现象完全不同类：没有人能「看见」因果性。所以需要一个第三者：</p>\n[[Eine solche ist das transzendentale Schema.]]\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>范畴</th><th>图型（时间规定）</th></tr></thead><tbody>\n<tr><td>实体</td><td>在时间中持存的东西</td></tr>\n<tr><td>原因</td><td>按规则的相继：一个东西出现，另一个总跟着出现</td></tr>\n<tr><td>协同</td><td>按规则的同时并存</td></tr>\n<tr><td>必然性</td><td>在一切时间中存在</td></tr>\n</tbody></table></div>\n<p>时间既是先天的（像范畴），又是一切直观的形式（像现象），所以正好做中介。</p>\n<h4>二、最高原理</h4>\n[[die Bedingungen der Möglichkeit der Erfahrung überhaupt sind zugleich Bedingungen der Möglichkeit der Gegenstände der Erfahrung]]\n<p>这句话就是导言总问题的答案：使经验可能的条件，也就是使经验对象可能的条件。所以先天综合判断对一切可能经验的对象都有效。</p>\n<h4>三、船和房子</h4>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th></th><th>房子</th><th>顺流而下的船</th></tr></thead><tbody>\n<tr><td>知觉的顺序</td><td>可以从上到下，也可以从下到上</td><td>只能先上游、后下游</td></tr>\n<tr><td>相继是</td><td>主观的（各部分同时存在）</td><td>客观的（一个事件）</td></tr>\n</tbody></table></div>\n<p>我们靠什么区分两者？靠因果规则：只有按照规则规定了顺序，「发生了什么」才是客观的。这是对休谟的回答。</p>\n{{quiz:s1}}",
+  "quiz": [
+   {
+    "id": "s1a",
+    "sec": "s1",
+    "de": "Eine solche ist das transzendentale <<Schema>>",
+    "opts": [
+     "图型：沟通范畴与现象的第三者",
+     "图像"
+    ],
+    "ans": 0,
+    "why": "图型不是图像，而是时间的先天规定，是使用概念的规则。"
+   },
+   {
+    "id": "s1b",
+    "sec": "s1",
+    "de": "Alle Veränderungen geschehen nach dem Gesetze der Verknüpfung der Ursache und Wirkung",
+    "opts": [
+     "第二类比：一切变化都按因果律发生",
+     "第一类比：实体持存"
+    ],
+    "ans": 0,
+    "why": "这是第二类比，即因果原理。"
+   },
+   {
+    "id": "s1c",
+    "sec": "s1",
+    "de": "Ich sehe z.B. ein Schiff den Strom hinabtreiben",
+    "opts": [
+     "客观的相继：知觉顺序不能颠倒",
+     "主观的相继：顺序任意"
+    ],
+    "ans": 0,
+    "why": "船的位置只能先上游后下游。"
+   },
+   {
+    "id": "s1d",
+    "sec": "s1",
+    "de": "Bei allem Wechsel der Erscheinungen beharrt die <<Substanz>>",
+    "opts": [
+     "实体在一切变化中持存",
+     "实体在变化中消失"
+    ],
+    "ans": 0,
+    "why": "第一类比：实体的量既不增也不减。"
+   }
+  ]
+ },
+ {
   "id": "p1",
   "ch": "p",
   "t": "岛与海：这一章在全书中的位置",
