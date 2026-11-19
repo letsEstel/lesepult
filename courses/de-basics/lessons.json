@@ -1890,5 +1890,111 @@
     "why": "könnte：可能性。"
    }
   ]
+ },
+ {
+  "id": "konj1",
+  "t": "虚拟式一与间接引语",
+  "de": "Konjunktiv I und indirekte Rede",
+  "min": 80,
+  "html": "<p>虚拟式二说「假如」；虚拟式一主要做一件事：<b>转述</b>。报纸、学术书、康德和韦伯，凡是要说「某人说……」「有人认为……」而自己不表态的地方，都用虚拟式一。此外它还有几个固定的用法：愿望（<i>Gott segne dich</i>）、要求（<i>man nehme</i>）。童话里不多，康德书里却俯拾皆是。</p>\n\n<h4>一、形式：不定式词干 + -e</h4>\n<p>虚拟式一用不定式的词干（不换元音），加上 -e 系的词尾。实际上只有第三人称单数和 sein 最常见，因为其他人称大多和直陈式同形：</p>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th></th><th>sein</th><th>haben</th><th>werden</th><th>können</th><th>geben</th></tr></thead><tbody>\n<tr><th>ich</th><td>sei</td><td>habe</td><td>werde</td><td>könne</td><td>gebe</td></tr>\n<tr><th>du</th><td>seiest</td><td>habest</td><td>werdest</td><td>könnest</td><td>gebest</td></tr>\n<tr><th>er / sie / es</th><td><b>sei</b></td><td><b>habe</b></td><td><b>werde</b></td><td><b>könne</b></td><td><b>gebe</b></td></tr>\n<tr><th>wir</th><td>seien</td><td>haben</td><td>werden</td><td>können</td><td>geben</td></tr>\n<tr><th>sie</th><td>seien</td><td>haben</td><td>werden</td><td>können</td><td>geben</td></tr>\n</tbody></table></div>\n<div class=\"tip\">最好认的是第三人称单数：直陈式是 er hat、er kann、er gibt、er ist，虚拟式一是 er habe、er könne、er gebe、er sei。看到这几个形式出现在 er / sie / es 后面，就是虚拟式一。</div>\n\n<h4>二、用法一：间接引语（转述）</h4>\n<p>把别人的话转述出来，动词用虚拟式一，表示「这是他说的，不是我说的」：</p>\n<ul>\n<li>直接：<i>Er sagt: „Ich bin krank.“</i> → 间接：<i>Er sagt, er sei krank.</i>（他说他病了。）</li>\n<li>daß 可有可无：<i>Er sagt, daß er krank sei.</i></li>\n</ul>\n<p>时态只有三种：</p>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>原话的时间</th><th>虚拟式一</th><th>例子</th></tr></thead><tbody>\n<tr><td>现在</td><td>sei / habe / gebe</td><td><i>er sei krank</i></td></tr>\n<tr><td>过去（无论原话用什么过去时态）</td><td>sei / habe + 分词</td><td><i>er sei krank gewesen</i>（他说他之前病了）</td></tr>\n<tr><td>将来</td><td>werde + 不定式</td><td><i>er werde kommen</i></td></tr>\n</tbody></table></div>\n\n<h4>三、替换规则：同形时改用虚拟式二</h4>\n<p>如果虚拟式一和直陈式长得一样（多半是复数和 ich），就改用虚拟式二，免得读者分不出是转述：</p>\n<ul>\n<li><i>sie sagen, sie haben Hunger</i>（haben 同直陈式）→ <i>sie sagen, sie hätten Hunger</i>。</li>\n</ul>\n<p>童话里的转述大多是虚拟式二，就是这个原因（第 22 课）：[[er wäre von einer{df} bösen Hexe verwünscht worden]]、[[der{nm} Königssohn meinte immer der{nm} Wagen bräche]]。也有虚拟式一：[[es{expl} müßte nicht gar weit ein{nn} Haus sein, denn es{expl} scheine ein{nn} Licht]]（公鸡喊：一定不远有房子，因为有光）。</p>\n\n<h4>四、用法二：愿望和祝福</h4>\n<ul>\n<li>[[Gott segne dirs]]：愿上帝赐福给你（《星星金币》）。segne 是虚拟式一。</li>\n<li><i>Es lebe die Freiheit!</i>：自由万岁！</li>\n<li><i>Dein Reich komme</i>：愿你的国降临（主祷文）。</li>\n</ul>\n\n<h4>五、用法三：要求、假设（书面语）</h4>\n<ul>\n<li>菜谱和数学：<i>Man nehme drei Eier</i>：取三个鸡蛋。康德：<i>Man nehme den Satz: Alles, was geschieht, hat seine Ursache</i>：设有这个命题……</li>\n<li>假设：<i>Die Linie AB sei gegeben</i>：设线段 AB 已给出。</li>\n<li>让步：<i>es sei für …, es sei für …</i>：无论是为了……还是为了……；<i>wie dem auch sei</i>：无论如何。</li>\n</ul>\n\n<h4>六、康德书里的虚拟式一</h4>\n<p>康德的 daß-从句、间接问句里，虚拟式一极多。有时它只是语法上的习惯（间接问句），有时却很要紧：它表示「这是别人的看法，不是我的」：</p>\n<ul>\n<li><i>Man sollte anfänglich zwar denken: daß der Satz 7 + 5 = 12 ein bloß analytischer Satz sei</i>：起初人们会以为 7 + 5 = 12 是分析命题（康德不同意）。</li>\n<li><i>da doch niemand sagen wird: diese … könne auch durch Sinne angeschaut werden und sei in der Erscheinung enthalten</i>：没有人会说因果性能被感官直观（康德否定）。</li>\n</ul>\n<div class=\"tip\">读康德时，看到 sei、habe、könne、werde：先问一句「这是谁的主张？」常常是康德要反驳的观点，或者是一个假设。</div>\n\n<h4>七、反推方法</h4>\n<ol>\n<li>er / sie / es 后面是 sei、habe、könne、müsse、werde、gebe：虚拟式一。</li>\n<li>前面有 sagen、meinen、behaupten、fragen、glauben 之类：转述。</li>\n<li>句首 man + 虚拟式一（man nehme）或「设……」：要求、假设。</li>\n<li>独立的祝愿句（Gott segne …）：愿望。</li>\n<li>转述里出现 wäre、hätte、würde：可能只是替换形式，仍然是转述。</li>\n</ol>\n\n<h4>八、马上练</h4>\n{{quiz:s1}}\n\n<h4>九、小结</h4>\n<ul>\n<li>虚拟式一：不定式词干 + -e：er sei、habe、könne、werde、gebe。</li>\n<li>主要用于转述；同形时改用虚拟式二。</li>\n<li>转述的过去：sei / habe + 分词；将来：werde + 不定式。</li>\n<li>愿望（Gott segne dich）、要求（man nehme）、假设（es sei）。</li>\n<li>康德的虚拟式一常标出「别人的观点」。</li>\n</ul>\n\n<h4>十、回头再读</h4>\n<p><button class=\"btn\" data-route=\"grimm~ch-k027\">重读《不来梅的音乐家》</button></p>",
+  "quiz": [
+   {
+    "id": "k1a",
+    "sec": "s1",
+    "de": "Gott <<segne>> dirs",
+    "opts": [
+     "虚拟式一表示愿望：愿上帝赐福",
+     "直陈式"
+    ],
+    "ans": 0,
+    "why": "segne：segnen 的虚拟式一（直陈式是 segnet）。"
+   },
+   {
+    "id": "k1b",
+    "sec": "s1",
+    "de": "denn es <<scheine>> ein Licht",
+    "opts": [
+     "虚拟式一：转述公鸡的话",
+     "命令式"
+    ],
+    "ans": 0,
+    "why": "直陈式是 es scheint；scheine 是虚拟式一。"
+   },
+   {
+    "id": "k1c",
+    "sec": "s1",
+    "de": "der Königssohn meinte immer der Wagen <<bräche>>",
+    "opts": [
+     "转述里用虚拟式二代替",
+     "过去时"
+    ],
+    "ans": 0,
+    "why": "bräche 是虚拟式二；转述常用它代替虚拟式一。"
+   },
+   {
+    "id": "k1d",
+    "sec": "s1",
+    "de": "er wäre von einer bösen Hexe verwünscht worden",
+    "opts": [
+     "王子转述：他被女巫施了魔法",
+     "讲故事的人断定他被施了魔法"
+    ],
+    "ans": 0,
+    "why": "虚拟式标出这是王子说的话。"
+   }
+  ]
+ },
+ {
+  "id": "partizip",
+  "t": "分词定语与扩展定语",
+  "de": "Partizipien und erweiterte Attribute",
+  "min": 90,
+  "html": "<p>德语可以把一整句话塞进冠词和名词之间：<i>eine ins Unendliche fortgehende Linie</i>（一条无限延伸的线）；<i>in dem darunter zu subsumierenden Gegenstande</i>（在被归摄于它之下的对象中）。这叫「扩展定语」，是书面德语，尤其是哲学和法律文本最难读的结构之一。好在它有一个固定的读法。这一课先讲分词作定语，再讲怎样拆扩展定语。</p>\n\n<h4>一、两种分词</h4>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th></th><th>现在分词（分词一）</th><th>过去分词（分词二）</th></tr></thead><tbody>\n<tr><th>形式</th><td>不定式 + -d：schlafend、glänzend、denkend</td><td>ge-…-t / -en：gedeckt、erleuchtet、angefüllt</td></tr>\n<tr><th>意思</th><td>主动、正在进行：「正在……的」</td><td>被动或已完成：「被……的」「已……的」</td></tr>\n<tr><th>读本里</th><td>[[dem{dm} schlafenden Wolf]]（正在睡的狼）· [[zu glänzendem Gold]]（闪亮的金子）</td><td>[[einen{am} gedeckten Tisch]]（摆好的桌子）· [[in seinem{dm} angefüllten Bauch]]（塞满的肚子）</td></tr>\n</tbody></table></div>\n<p>分词作定语时和普通形容词一样加词尾（第 14 课）：ein hell erleuchtet<b>es</b> Räuberhaus、dem schlafend<b>en</b> Wolf。</p>\n\n<h4>二、分词前面可以带修饰语</h4>\n<p>分词本来是动词，所以它可以带上动词能带的一切：副词、宾语、介词短语。这些东西都放在分词<b>前面</b>：</p>\n<ul>\n<li>[[bis sie{they} vor ein{an} hell erleuchtetes Räuberhaus kamen]]：hell（明亮地）修饰 erleuchtet → 灯火通明的强盗屋。</li>\n<li>[[ein{nn} gar zu lächerliches Männchen]]：gar zu（极其）修饰 lächerlich。</li>\n<li>康德：<i>eine ins Unendliche fortgehende Linie</i>：ins Unendliche（向无限）修饰 fortgehend → 一条向无限延伸的线。</li>\n</ul>\n\n<h4>三、扩展定语的读法：冠词 → 名词 → 回头</h4>\n<p>扩展定语的形状总是：<b>冠词 [ 一串修饰语 + 分词 / 形容词 ] 名词</b>。读法分三步：</p>\n<ol>\n<li>看到冠词（或介词 + 冠词）后面不是名词，而是一串别的词：警觉，这可能是扩展定语。</li>\n<li>往后跳，找到和冠词的性、数、格相配的名词（它前面那个词有形容词词尾）。</li>\n<li>把中间那一串当作一个关系从句来读：名词 + 「……的」。</li>\n</ol>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>扩展定语（康德）</th><th>拆开</th><th>中文</th></tr></thead><tbody>\n<tr><td><i>eine [ins Unendliche fortgehende] Linie</i></td><td>eine Linie, die ins Unendliche fortgeht</td><td>一条向无限延伸的线</td></tr>\n<tr><td><i>ein [demselben fremdes] Prädikat</i></td><td>ein Prädikat, das demselben fremd ist</td><td>一个对它来说陌生的谓词</td></tr>\n<tr><td><i>der [in der Anschauung gegebenen] Fünf</i></td><td>der Fünf, die in der Anschauung gegeben ist</td><td>在直观中给出的「五」的</td></tr>\n<tr><td><i>ohne [ihnen auf einige Art korrespondierende] Anschauung</i></td><td>ohne Anschauung, die ihnen auf einige Art korrespondiert</td><td>没有以某种方式与之对应的直观</td></tr>\n</tbody></table></div>\n\n<h4>四、zu + 现在分词：「要被……的」</h4>\n<p>zu 加在现在分词前面，意思是「应被、能被、要被……的」（被动 + 必要 / 可能）：</p>\n<ul>\n<li>康德：<i>in dem darunter zu subsumierenden Gegenstande</i>：在要被归摄于它之下的对象中。</li>\n<li><i>die zu lösende Aufgabe</i>：要解决的课题。</li>\n</ul>\n<p>它对应第 25 课的 sein + zu：<i>die Aufgabe ist zu lösen</i> → <i>die zu lösende Aufgabe</i>。</p>\n\n<h4>五、分词放在名词后面</h4>\n<p>分词短语也可以跟在名词后面，不加词尾，常用逗号隔开，相当于一个省略的从句：</p>\n<ul>\n<li>[[kam ein{nm} Wagen heran gefahren mit acht weißen Pferden bespannt]]：一辆套着八匹白马的车。</li>\n<li>康德：<i>Durch einen solchen Beweis von der Macht der Vernunft eingenommen, sieht der Trieb …</i>：被这样的证明所吸引，冲动……（分词短语在句首，相当于一个原因从句）。</li>\n</ul>\n\n<h4>六、反推方法</h4>\n<ol>\n<li>冠词后面跟着介词、副词或另一个名词，而不是形容词或名词？可能是扩展定语。</li>\n<li>往后找带形容词词尾的分词（-ende / -enden / -te / -ten），它后面就是被修饰的名词。</li>\n<li>冠词 + 名词先连起来读，再把中间的部分改写成「……的」。</li>\n<li>-end 是主动「正在……」，ge-…-t 是被动「被……」，zu …-end 是「要被……」。</li>\n</ol>\n\n<h4>七、马上练</h4>\n{{quiz:s1}}\n\n<h4>八、小结</h4>\n<ul>\n<li>现在分词 -end（主动）；过去分词 ge-…-t / -en（被动、完成）。作定语时加形容词词尾。</li>\n<li>分词前面可带修饰语：hell erleuchtet、ins Unendliche fortgehend。</li>\n<li>扩展定语：冠词 [……] 名词；先连冠词和名词，再把中间读成关系从句。</li>\n<li>zu + 现在分词 = 要被……的。</li>\n<li>分词短语也可以放在名词后或句首，相当于省略的从句。</li>\n</ul>\n\n<h4>九、回头再读</h4>\n<p>扩展定语在童话里很少，在康德里很多。学完这一课，可以回到《纯粹理性批判》的导言和空间时间两章，找出其中的扩展定语。</p>\n<p><button class=\"btn\" data-route=\"grimm~ch-k027\">重读《不来梅的音乐家》</button></p>",
+  "quiz": [
+   {
+    "id": "pa1",
+    "sec": "s1",
+    "de": "an dem <<schlafenden>> Wolf",
+    "opts": [
+     "现在分词：正在睡的",
+     "过去分词：睡过的"
+    ],
+    "ans": 0,
+    "why": "schlafend + -en：主动、进行中。"
+   },
+   {
+    "id": "pa2",
+    "sec": "s1",
+    "de": "vor ein hell <<erleuchtetes>> Räuberhaus",
+    "opts": [
+     "过去分词作定语：被照亮的",
+     "现在分词"
+    ],
+    "ans": 0,
+    "why": "erleuchtet + -es（ein 后中性宾格）；hell 修饰它。"
+   },
+   {
+    "id": "pa3",
+    "sec": "s1",
+    "de": "in seinem <<angefüllten>> Bauch",
+    "opts": [
+     "过去分词：塞满的",
+     "不定式"
+    ],
+    "ans": 0,
+    "why": "anfüllen 的分词 angefüllt + 词尾 -en。"
+   },
+   {
+    "id": "pa4",
+    "sec": "s1",
+    "de": "mit acht weißen Pferden <<bespannt>>",
+    "opts": [
+     "分词放在名词后面，不加词尾",
+     "动词过去时"
+    ],
+    "ans": 0,
+    "why": "bespannt 是分词，补充说明 Wagen：套着八匹白马。"
+   }
+  ]
  }
 ]
