@@ -406,5 +406,92 @@
     "why": "sein + zu：能被……；这里是不能被避免。"
    }
   ]
+ },
+ {
+  "id": "n1",
+  "ch": "n",
+  "t": "二律背反",
+  "de": "Die Antinomie der reinen Vernunft",
+  "min": 25,
+  "html": "<p>第 7 章的三个理念里，「世界」最特别：在这里理性不只是被骗，而是和自己吵起来。康德称之为二律背反（Antinomie，「法则的冲突」）。这一章是全书的枢纽：康德后来说，正是二律背反把他从「独断的迷梦」中唤醒。</p>\n<h4>一、四组二律背反</h4>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th></th><th>正题（Thesis）</th><th>反题（Antithesis）</th><th>类型</th></tr></thead><tbody>\n<tr><th>①</th><td>世界在时间上有开端，在空间上有界限</td><td>世界在时间和空间上都无限</td><td rowspan=\"2\">数学的</td></tr>\n<tr><th>②</th><td>每个复合实体都由单纯的部分构成</td><td>世界上没有单纯的东西</td></tr>\n<tr><th>③</th><td>除了自然因果性，还有出于自由的因果性</td><td>没有自由，一切都按自然法则发生</td><td rowspan=\"2\">力学的</td></tr>\n<tr><th>④</th><td>有一个绝对必然的存在者</td><td>没有绝对必然的存在者</td></tr>\n</tbody></table></div>\n<p>正题一边是独断论者（柏拉图、莱布尼茨），反题一边是经验论者（伊壁鸠鲁）。每个证明都是反证：驳倒对方，于是宣布自己赢了。</p>\n[[Die Welt hat einen Anfang in der Zeit]]\n<h4>二、数学的二律背反：两边都假</h4>\n<p>反证只在两个命题<b>矛盾</b>（A 与非 A）时才有效。「世界无限」和「世界有限」却只是<b>冲突</b>：它们共用一个前提——世界本身有一个确定的大小。就像「物体气味好闻 / 不好闻」共用「物体有气味」这个前提，一旦物体根本没有气味，两句都假。</p>\n<p>先验观念论拿走了这个前提：世界不是物自身，只是我们经验不断推进的序列，它的大小从来不是「给定的」。所以第①②组的正反两题<b>都假</b>。</p>\n[[so fallen sie alle beide weg]]\n<h4>三、力学的二律背反：两边都可以真</h4>\n<p>第③④组不同：自由与必然说的可以不是同一个层面。</p>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th></th><th>经验品格</th><th>理知品格</th></tr></thead><tbody>\n<tr><th>属于</th><td>现象</td><td>物自身</td></tr>\n<tr><th>在时间中吗</th><td>在</td><td>不在</td></tr>\n<tr><th>受什么支配</th><td>自然法则，原则上可预测</td><td>理性，可以自行开始</td></tr>\n<tr><th>对应命题</th><td>反题：一切按自然发生</td><td>正题：有出于自由的因果性</td></tr>\n</tbody></table></div>\n<p>同一个行动，作为现象是必然的，就其理知原因而言又可以是自由的。前提是：现象不是物自身。「如果现象是物自身，自由就无法挽救。」</p>\n<h4>四、「是」与「应当」</h4>\n<p>自然里只有「是」：问圆<b>应当</b>有什么性质是荒谬的。「应当」只对理性存在者有意义。我们谴责说谎的人，哪怕清楚他的成长和处境，这说明我们认为他本可以不说谎。这一点理论理性证明不了，只能表明它<b>不矛盾</b>；真正的论证要等到《实践理性批判》。</p>\n[[Das Sollen drückt eine Art von Notwendigkeit aus]]\n<h4>五、语法小结</h4>\n<ul>\n<li><b>动词开头的条件句</b>：sind Erscheinungen Dinge an sich selbst, so … = wenn Erscheinungen … sind（第 12 课）。</li>\n<li><b>sein + zu</b>：nicht zu retten sein（无法挽救）· ist beizumessen（应归于）（第 25 课）。</li>\n<li><b>虚拟式一转述</b>：daß … beruhe, daß … widerstreite（第 23 课）。</li>\n<li><b>情态动词完成时的双重不定式</b>：habe bestimmen können und sollen（本可以并本应决定）。</li>\n</ul>\n{{quiz:s1}}\n<p>下一章：理性的第三个理念——上帝。</p>",
+  "quiz": [
+   {
+    "id": "n1a",
+    "sec": "s1",
+    "de": "Die Welt hat einen Anfang in der Zeit … Die Welt hat keinen <<Anfang>>",
+    "opts": [
+     "两个命题的证明都是反证，都挑不出毛病",
+     "正题被证明是对的"
+    ],
+    "ans": 0,
+    "why": "这就是二律背反：理性和自己打架。"
+   },
+   {
+    "id": "n1b",
+    "sec": "s1",
+    "de": "so fallen sie alle beide <<weg>>",
+    "opts": [
+     "两个对立判断共用的前提不成立，于是都失效",
+     "两个判断中必有一个为真"
+    ],
+    "ans": 0,
+    "why": "冲突（Widerstreit）不是矛盾（Widerspruch）。"
+   },
+   {
+    "id": "n1c",
+    "sec": "s1",
+    "de": "Diesen Lehrbegriff nenne ich den transzendentalen <<Idealism>>",
+    "opts": [
+     "我们认识的只是现象，不是物自身",
+     "外部事物根本不存在"
+    ],
+    "ans": 0,
+    "why": "后者是康德所拒绝的「质料的」观念论。"
+   },
+   {
+    "id": "n1d",
+    "sec": "s1",
+    "de": "sind Erscheinungen Dinge an sich selbst, so ist Freiheit nicht zu <<retten>>",
+    "opts": [
+     "只有区分现象与物自身，自由才有可能",
+     "现象就是物自身，所以没有自由"
+    ],
+    "ans": 0,
+    "why": "动词开头的条件句：如果现象是物自身。"
+   },
+   {
+    "id": "n1e",
+    "sec": "s1",
+    "de": "Ich nenne dasjenige an einem Gegenstande der Sinne, was selbst nicht Erscheinung ist, <<intelligibel>>",
+    "opts": [
+     "理知的：本身不是现象、只能被思维的",
+     "可理解的、容易懂的"
+    ],
+    "ans": 0,
+    "why": "intelligibler Charakter：理知品格。"
+   },
+   {
+    "id": "n1f",
+    "sec": "s1",
+    "de": "Das <<Sollen>> drückt eine Art von Notwendigkeit aus",
+    "opts": [
+     "自然中没有的一种必然性",
+     "自然法则的必然性"
+    ],
+    "ans": 0,
+    "why": "自然中只有「是」。"
+   },
+   {
+    "id": "n1g",
+    "sec": "s1",
+    "de": "woran es uns auch einzig und allein gelegen war",
+    "opts": [
+     "我们唯一关心的：证明自然与自由不冲突",
+     "我们证明了自由是真实的"
+    ],
+    "ans": 0,
+    "why": "康德只证明自由「不矛盾」，没证明它真实。"
+   }
+  ]
  }
 ]
