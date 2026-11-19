@@ -128,5 +128,70 @@
     "why": "康德强调：它是「纯粹理性的唯一事实」，不是经验的。"
    }
   ]
+ },
+ {
+  "id": "f1",
+  "ch": "f",
+  "t": "自律与自由",
+  "de": "Autonomie · Deduktion",
+  "min": 25,
+  "html": "<p>第 2 章给出了定言命令；这一章说明它的本质是<b>自律</b>，并完成全书最关键的一步：从道德法则推出自由的实在性。</p>\n<h4>一、自律与他律</h4>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th></th><th>自律（Autonomie）</th><th>他律（Heteronomie）</th></tr></thead><tbody>\n<tr><th>法则从哪里来</th><td>意志自己给自己立法</td><td>意志之外：欲望、对象、他人的命令</td></tr>\n<tr><th>规定根据</th><td>准则的普遍立法形式</td><td>被欲求的客体（质料）</td></tr>\n<tr><th>命令的方式</th><td>命令（gebietet）</td><td>劝告（rät an）</td></tr>\n<tr><th>结果</th><td>道德</td><td>至多「合法」，不是道德</td></tr>\n</tbody></table></div>\n<h4>二、两种自由</h4>\n<ul>\n<li><b>消极自由</b>：独立于一切质料，不被欲望和自然原因决定。</li>\n<li><b>积极自由</b>：纯粹理性自己立法，也就是自律。</li>\n</ul>\n[[Jene Unabhängigkeit aber ist Freiheit im negativen, diese eigene Gesetzgebung aber der reinen und als solche praktischen Vernunft ist Freiheit im positiven Verstande]]\n<p>所以康德的自由不是「想做什么就做什么」：随心所欲恰恰是被欲望牵着走，是他律。自由是服从自己给自己的法则。</p>\n<h4>三、德性与自爱</h4>\n<p>以自己的幸福为原则，只能得到「一般适用」的规则，得不到「普遍有效」的法则：每个人认为什么让自己幸福，各不相同，而且一直在变。界限清楚到连最普通的人都不会弄错：一个为自己的伪证辩解说「我在追求自己的幸福」的朋友，只会让人发笑或厌恶。</p>\n<h4>四、演绎的反转</h4>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th></th><th>纯粹理性批判</th><th>实践理性批判</th></tr></thead><tbody>\n<tr><th>出发点</th><td>感性直观（空间、时间）</td><td>原理（道德法则）</td></tr>\n<tr><th>演绎什么</th><td>范畴：证明它们对经验对象有效</td><td>不演绎道德法则（它是理性的事实）</td></tr>\n<tr><th>反过来</th><td></td><td>从道德法则演绎出自由</td></tr>\n<tr><th>关于物自身</th><td>只能思维，一无所知</td><td>知道它的一条法则：道德法则</td></tr>\n</tbody></table></div>\n<p>道德法则让我们知道一个「超感性的自然」的法则。我们的任务，是让这个理想的世界在感官世界中有它的「摹本」，又不打破自然法则。</p>\n<h4>五、语法小结</h4>\n<ul>\n<li><b>einer Sache fähig / entgegen / gemäß sein</b>：形容词支配属格或与格。</li>\n<li><b>Verstand = 意义</b>：im negativen / positiven / allgemeinsten Verstande（第 30 课）。</li>\n<li><b>否定的辖域</b>：durch keine Deduktion … bewiesen und … bestätigt … werden：keine 管到后面所有的分词。</li>\n<li><b>远距离的冠词和名词</b>：ein … unerklärliches Faktum（第 24 课）。</li>\n</ul>\n{{quiz:s1}}",
+  "quiz": [
+   {
+    "id": "f1a",
+    "sec": "s1",
+    "de": "Die <<Autonomie>> des Willens ist das alleinige Prinzip aller moralischen Gesetze",
+    "opts": [
+     "意志自己给自己立法",
+     "意志按欲望行事"
+    ],
+    "ans": 0,
+    "why": "他律才是按欲望和对象行事。"
+   },
+   {
+    "id": "f1b",
+    "sec": "s1",
+    "de": "diese eigene Gesetzgebung … ist Freiheit im <<positiven>> Verstande",
+    "opts": [
+     "积极自由 = 自律",
+     "积极自由 = 想做什么就做什么"
+    ],
+    "ans": 0,
+    "why": "消极自由是独立于质料，积极自由是自己立法。"
+   },
+   {
+    "id": "f1c",
+    "sec": "s1",
+    "de": "Die Maxime der Selbstliebe (Klugheit) rät bloß an; das Gesetz der Sittlichkeit <<gebietet>>",
+    "opts": [
+     "德性法则命令，自爱只是劝告",
+     "两者都只是劝告"
+    ],
+    "ans": 0,
+    "why": "对应定言命令和假言命令。"
+   },
+   {
+    "id": "f1d",
+    "sec": "s1",
+    "de": "daß es umgekehrt selbst zum Prinzip der <<Deduktion>> eines unerforschlichen Vermögens dient",
+    "opts": [
+     "道德法则不被演绎，反而演绎出自由",
+     "自由演绎出道德法则"
+    ],
+    "ans": 0,
+    "why": "这就是「演绎的反转」。"
+   },
+   {
+    "id": "f1e",
+    "sec": "s1",
+    "de": "Nun ist Natur im allgemeinsten Verstande die Existenz der Dinge unter <<Gesetzen>>",
+    "opts": [
+     "所以可以有一个按道德法则存在的「超感性的自然」",
+     "自然只指物理世界"
+    ],
+    "ans": 0,
+    "why": "感性的自然按经验法则（他律），超感性的自然按自律的法则。"
+   }
+  ]
  }
 ]
