@@ -193,5 +193,70 @@
     "why": "感性的自然按经验法则（他律），超感性的自然按自律的法则。"
    }
   ]
+ },
+ {
+  "id": "b1",
+  "ch": "b",
+  "t": "善与恶",
+  "de": "Vom Begriffe eines Gegenstandes",
+  "min": 25,
+  "html": "<p>原理有了，现在讲概念：实践理性的对象是善与恶。这一章最重要的是一个「方法的悖论」：不是先知道什么是善、再定出法则，而是先有法则，再由法则规定什么是善。</p>\n<h4>一、善 / 恶 与 福 / 祸</h4>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>拉丁语</th><th>德语（道德）</th><th>德语（处境）</th></tr></thead><tbody>\n<tr><td>bonum</td><td>das Gute（善）</td><td>das Wohl（福）</td></tr>\n<tr><td>malum</td><td>das Böse（恶）</td><td>das Übel / Weh（祸）</td></tr>\n<tr><td>关系到</td><td>意志、行动、人的价值</td><td>感受状态、处境的价值</td></tr>\n</tbody></table></div>\n<p>拉丁语一个词有两个意思，经院哲学的「我们欲求的一切都是在善的名义下」因此含混；德语把它们分开了。</p>\n<h4>二、斯多亚派与痛风</h4>\n<p>痛风发作的斯多亚派哲人喊「痛苦，我绝不承认你是恶！」——他是对的。痛苦是祸，减损的是处境的价值；只有说谎这类行为才是恶，减损的是人的价值。</p>\n[[denn der Schmerz verringert den Wert seiner Person nicht im mindesten, sondern nur den Wert seines Zustandes]]\n<h4>三、方法的悖论</h4>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th></th><th>以往的哲学家</th><th>康德</th></tr></thead><tbody>\n<tr><th>顺序</th><td>先定「善」（幸福、完满、道德情感、上帝的意志）→ 再推出法则</td><td>先有道德法则 → 法则规定什么是善</td></tr>\n<tr><th>结果</th><td>他律：善要靠情感来认定，情感是经验的</td><td>自律：法则直接规定意志</td></tr>\n</tbody></table></div>\n<h4>四、判断力的规则（典型）</h4>\n<p>道德法则怎样用到具体行动上？问自己：如果我的准则变成一条<b>自然规律</b>，人人必然这样做，而我也生活在那个世界里，我还能愿意吗？自然法则的「形式」充当了道德法则的「典型」（Typus），就像第一批判的图型充当范畴和直观之间的桥梁。</p>\n<h4>五、语法小结</h4>\n<ul>\n<li><b>连字符省略</b>：des Begehrungs-, … des Verabscheuungsvermögens（第 27 课）。</li>\n<li><b>mögen 表让步</b>：Man mochte … auslachen（尽可以嘲笑）· du magst mich noch so sehr foltern（不管你怎样折磨）· Nun mochten sie … setzen, so …（不论他们……）。</li>\n<li><b>情态动词虚拟式二过去时</b>：hätte … niederschlagen müssen（本该使……沮丧）。</li>\n<li><b>宾语提前再复指</b>：ob die Handlung, …, sie du wohl … ansehen könntest。</li>\n</ul>\n{{quiz:s1}}",
+  "quiz": [
+   {
+    "id": "b1a",
+    "sec": "s1",
+    "de": "für bonum das Gute und das <<Wohl>>",
+    "opts": [
+     "福：关乎处境",
+     "善：关乎意志"
+    ],
+    "ans": 0,
+    "why": "das Gute（善）和 das Wohl（福）是两种不同的判断。"
+   },
+   {
+    "id": "b1b",
+    "sec": "s1",
+    "de": "denn der Schmerz verringert den Wert seiner Person nicht im mindesten, sondern nur den Wert seines <<Zustandes>>",
+    "opts": [
+     "痛苦是祸，不是恶",
+     "痛苦是恶"
+    ],
+    "ans": 0,
+    "why": "所以斯多亚派是对的。"
+   },
+   {
+    "id": "b1c",
+    "sec": "s1",
+    "de": "daß nämlich der Begriff des Guten und Bösen nicht vor dem moralischen Gesetze …, sondern nur … <<nach>> demselben … bestimmt werden müsse",
+    "opts": [
+     "先有法则，再由法则规定善",
+     "先定善，再推出法则"
+    ],
+    "ans": 0,
+    "why": "这就是「方法的悖论」。"
+   },
+   {
+    "id": "b1d",
+    "sec": "s1",
+    "de": "so war ihr Grundsatz allemal <<Heteronomie>>",
+    "opts": [
+     "以幸福、完满、情感或上帝意志为善，都是他律",
+     "只有幸福论是他律"
+    ],
+    "ans": 0,
+    "why": "它们都要靠情感（经验）来认定善。"
+   },
+   {
+    "id": "b1e",
+    "sec": "s1",
+    "de": "Frage dich selbst, ob die Handlung, …, wenn sie nach einem Gesetze der <<Natur>> … geschehen sollte",
+    "opts": [
+     "把准则想象成自然规律来检验",
+     "按照自然科学来判断"
+    ],
+    "ans": 0,
+    "why": "自然法则的形式是道德法则的「典型」。"
+   }
+  ]
  }
 ]
