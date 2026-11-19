@@ -1055,5 +1055,103 @@
     "why": "sein + 及物动词分词。"
    }
   ]
+ },
+ {
+  "id": "r055",
+  "ch": "k055",
+  "t": "读后练习：《侏儒怪》",
+  "de": "Rumpelstilzchen",
+  "min": 20,
+  "html": "<p>先回答内容题，再做语法题，复习第 22 课的虚拟式二。</p>\n<h4>一、读懂了吗</h4>\n{{quiz:s1}}\n<h4>二、语法回顾：虚拟式二</h4>\n{{quiz:s2}}\n<h4>三、三个夜晚，三次交换</h4>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>第几夜</th><th>姑娘给的</th></tr></thead><tbody>\n<tr><td>一</td><td>mein Halsband（项链）</td></tr>\n<tr><td>二</td><td>meinen Ring von dem Finger（戒指）</td></tr>\n<tr><td>三</td><td>dein erstes Kind（第一个孩子，承诺）</td></tr>\n</tbody></table></div>\n<h4>四、想一想</h4>\n<p>故事里谁最不讲理？磨坊主吹牛，国王贪金子还以死相逼，小矮人至少守约：它给了王后三天时间。格林兄弟没有评论，只让小矮人在火堆旁唱出了自己的名字。</p>\n<p><button class=\"btn\" data-route=\"grimm~ch-k055\">回到原文</button></p>",
+  "quiz": [
+   {
+    "id": "q055a",
+    "sec": "s1",
+    "de": "und um sich ein Ansehen zu geben",
+    "opts": [
+     "磨坊主为了显得了不起才吹牛",
+     "磨坊主想让国王看女儿"
+    ],
+    "ans": 0,
+    "why": "sich ein Ansehen geben：摆架子。"
+   },
+   {
+    "id": "q055b",
+    "sec": "s1",
+    "de": "so mußt du sterben",
+    "opts": [
+     "纺不出金子就得死",
+     "纺出金子就能走"
+    ],
+    "ans": 0,
+    "why": "国王的威胁。"
+   },
+   {
+    "id": "q055c",
+    "sec": "s1",
+    "de": "So versprich mir, wenn du Königin wirst, dein erstes Kind",
+    "opts": [
+     "小矮人要她的第一个孩子",
+     "小矮人要当国王"
+    ],
+    "ans": 0,
+    "why": "第三夜她已无物可给。"
+   },
+   {
+    "id": "q055d",
+    "sec": "s1",
+    "de": "wenn du bis dahin meinen Namen weißt, so sollst du dein Kind behalten",
+    "opts": [
+     "三天内猜出名字就能留下孩子",
+     "三天后它会离开"
+    ],
+    "ans": 0,
+    "why": "bis dahin：到那时。"
+   },
+   {
+    "id": "q055e",
+    "sec": "s1",
+    "de": "und riß sich selbst mitten entzwei",
+    "opts": [
+     "小矮人把自己撕成了两半",
+     "小矮人逃走了"
+    ],
+    "ans": 0,
+    "why": "格林版的结局。"
+   },
+   {
+    "id": "q055f",
+    "sec": "s2",
+    "de": "wenn ihr das Leben lieb <<wäre>>",
+    "opts": [
+     "虚拟式二：如果她还想活命",
+     "过去时"
+    ],
+    "ans": 0,
+    "why": "wäre：sein 的虚拟式二。"
+   },
+   {
+    "id": "q055g",
+    "sec": "s2",
+    "de": "wie die Leute da genannt <<würden>>",
+    "opts": [
+     "虚拟式二（被动）：那里的人叫什么",
+     "将来时"
+    ],
+    "ans": 0,
+    "why": "würden + 分词 genannt：被叫作（间接问句）。"
+   },
+   {
+    "id": "q055h",
+    "sec": "s2",
+    "de": "<<gelingt>> dirs aber, so sollst du meine Gemahlin werden",
+    "opts": [
+     "动词开头的条件句（直陈式）：要是成功了",
+     "问句"
+    ],
+    "ans": 0,
+    "why": "gelingt es dir = wenn es dir gelingt。"
+   }
+  ]
  }
 ]

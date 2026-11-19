@@ -1804,5 +1804,91 @@
     "why": "wird + 分词 erzählt：被动；es 只占位。"
    }
   ]
+ },
+ {
+  "id": "konj2",
+  "t": "虚拟式二",
+  "de": "Der Konjunktiv II",
+  "min": 100,
+  "html": "<p>直陈式说「是这样」，虚拟式二说「假如是这样」「但愿是这样」「好像是这样」。它是德语里表达不真实、可能、愿望和客气的语气。前面的读本里已经遇到很多：[[wären wir da!]]（要是我们在那儿就好了！）、[[als regneten sie]]（好像在下雨）、[[das ich geben könnte]]（我能给的）。康德也离不开它：<i>würde … heißen</i>（可以叫作）、<i>es könnte wohl sein</i>（很可能）。这一课讲清楚它的形式和五种用法。</p>\n\n<h4>一、形式：过去时 + 变音 + -e</h4>\n<p>强变化和不规则动词：拿过去时的词干，能变音的变音，再加上 -e 系的词尾：</p>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>不定式</th><th>过去时</th><th>虚拟式二</th><th>读本里</th></tr></thead><tbody>\n<tr><td>sein</td><td>war</td><td><b>wäre</b></td><td>[[ach, wären wir da!]]</td></tr>\n<tr><td>haben</td><td>hatte</td><td><b>hätte</b></td><td>[[er hätte mich gefressen]]</td></tr>\n<tr><td>werden</td><td>wurde</td><td><b>würde</b></td><td>[[nun würde der{nm} Goldregen kommen]]</td></tr>\n<tr><td>können</td><td>konnte</td><td><b>könnte</b></td><td>[[das{rel:an} ich geben könnte]]</td></tr>\n<tr><td>müssen</td><td>mußte</td><td><b>müßte</b></td><td>[[müßte auch das{nn} Schloß dazu sein]]</td></tr>\n<tr><td>kommen</td><td>kam</td><td>käme</td><td>[[ein{nn} Gespenst käme herein]]</td></tr>\n<tr><td>geben</td><td>gab</td><td>gäbe</td><td>[[was es{expl} sonst noch für Namen gäbe]]</td></tr>\n<tr><td>sehen</td><td>sah</td><td>sähe</td><td>[[er sähe in der{df} Ferne ein{an} Fünkchen brennen]]</td></tr>\n<tr><td>stehen</td><td>stand</td><td>stände</td><td>[[weiter hinaus stände eine{nf} schönere]]</td></tr>\n<tr><td>brechen</td><td>brach</td><td>bräche</td><td>[[der{nm} Wagen bräche]]</td></tr>\n<tr><td>gehen</td><td>gieng / ging</td><td>gienge / ginge</td><td>[[bis Rothkäppchen Abends nach Haus gienge]]</td></tr>\n</tbody></table></div>\n<p>人称词尾（以 wäre 为例）：ich wäre、du wärest、er wäre、wir wären、ihr wäret、sie wären。</p>\n<p>弱变化动词的虚拟式二和过去时完全一样（sagte、regnete），容易混淆，所以口语常用 <b>würde + 不定式</b> 代替：<i>ich würde sagen</i>（我会说）。</p>\n<div class=\"tip\">认虚拟式二的两个标志：① 过去时的形式加了变音点（wäre、hätte、könnte、käme）；② 词尾多了一个 -e（gienge、stände）。konnte / könnte、mußte / müßte、wurde / würde 只差两个点，意思完全不同。</div>\n\n<h4>二、用法一：不真实的条件</h4>\n<p>「假如……，就会……」：条件和结果都用虚拟式二。</p>\n<ul>\n<li>现在 / 将来：<i>wenn ich Zeit hätte, würde ich kommen</i>（假如我有时间，我就会来）。</li>\n<li>过去（与事实相反）：hätte / wäre + 分词：[[wenns nicht auf offner Straße gewesen wäre, er hätte mich gefressen]]（要不是在大路上，它早把我吃了）。</li>\n</ul>\n<p>wenn 可以省掉，动词放到句首：<i>Hätte ich Zeit, so würde ich kommen.</i> 这种「动词开头 + so」的条件句直陈式里也有：[[gelingt dirs aber, so sollst du meine{nf} Gemahlin werden]]。</p>\n\n<h4>三、用法二：愿望</h4>\n<ul>\n<li>[[ach, wären wir da!]]：要是我们在那儿就好了！（动词开头 + 感叹号）</li>\n<li>[[Das{dem:nn} wäre was für uns]]：那可是我们想要的！</li>\n<li>wenn … nur：<i>wenn ich nur reich wäre!</i>：但愿我有钱！</li>\n</ul>\n\n<h4>四、用法三：als ob「好像」</h4>\n<p>als ob、als wenn，或者只用 als + 动词提前，后面都用虚拟式：</p>\n<ul>\n<li>[[daß die{np} Äpfel fielen als regneten sie{they}]]：苹果落下来，好像在下雨。</li>\n<li>[[als wäre etwas zerbrochen]]：好像有东西碎了。</li>\n<li>[[als wenn du zur Schule giengst]]：好像你去上学似的。</li>\n</ul>\n\n<h4>五、用法四：可能、委婉</h4>\n<ul>\n<li>könnte = 可能：[[es{expl} könnte mir einer auf den{am} Kopf fallen]]（说不定会砸到我头上）· [[der{nm} Wolf könnte die{af} Großmutter gefressen haben]]（狼可能已经吃了外婆）。</li>\n<li>委婉、客气：[[Ich habe nichts mehr, das{rel:an} ich geben könnte]]（我再没有能给的了）· <i>ich möchte</i>（我想要）· <i>Könnten Sie …?</i>（您能不能……？）。</li>\n<li>康德的 würde：<i>Ein System solcher Begriffe würde Transzendental-Philosophie heißen</i>：这样的体系可以叫作先验哲学（委婉的断定）。</li>\n</ul>\n\n<h4>六、用法五：转述别人的话和想法</h4>\n<p>转述（间接引语）本来用虚拟式一（下一课），但当虚拟式一和直陈式同形时，就改用虚拟式二。童话里的转述多半是虚拟式二：</p>\n<ul>\n<li>[[der{nm} Königssohn meinte immer der{nm} Wagen bräche]]：王子以为车坏了。</li>\n<li>[[wie die{np} Leute da genannt würden]]：那里的人叫什么（被动 + 虚拟式）。</li>\n<li>[[er wäre von einer{df} bösen Hexe verwünscht worden]]：他（说他）被女巫施了魔法。</li>\n</ul>\n\n<h4>七、反推方法</h4>\n<ol>\n<li>看到 wäre、hätte、würde、könnte、müßte 这类带变音的形式：虚拟式二。</li>\n<li>前面有 wenn（或动词开头 + so）：不真实的条件。有 als / als ob：好像。句末有感叹号：愿望。</li>\n<li>在 sagen、meinen、denken、fragen 后面：转述。</li>\n<li>单独的 könnte / würde：可能、委婉。</li>\n<li>hätte / wäre + 分词：过去的、没有实现的事（「本来会……」）。</li>\n</ol>\n\n<h4>八、马上练</h4>\n{{quiz:s1}}\n\n<h4>九、小结</h4>\n<ul>\n<li>形式：过去时 + 变音 + -e：wäre、hätte、würde、käme、gäbe。弱变化动词同过去时，常用 würde + 不定式。</li>\n<li>五种用法：不真实条件、愿望、als ob、可能 / 委婉、转述。</li>\n<li>过去的不真实：hätte / wäre + 分词。</li>\n<li>wurde / würde、konnte / könnte：两个点决定意思。</li>\n</ul>\n\n<h4>十、读一读</h4>\n<p>《侏儒怪》约 1000 词，分五部分。找出每一个虚拟式二，说出它属于哪种用法。</p>\n<p><button class=\"btn\" data-route=\"grimm~ch-k055\">读一读：《侏儒怪》</button> <button class=\"btn\" data-route=\"grimm~intro-11\">读后练习</button></p>",
+  "quiz": [
+   {
+    "id": "k2a",
+    "sec": "s1",
+    "de": "ach, <<wären>> wir da!",
+    "opts": [
+     "虚拟式二表示愿望：要是……就好了",
+     "过去时：我们在那儿"
+    ],
+    "ans": 0,
+    "why": "动词开头 + 虚拟式 + 感叹号 = 愿望。"
+   },
+   {
+    "id": "k2b",
+    "sec": "s1",
+    "de": "daß die Äpfel fielen als <<regneten>> sie",
+    "opts": [
+     "als + 虚拟式：好像在下雨",
+     "过去时：在下雨"
+    ],
+    "ans": 0,
+    "why": "als + 动词提前 = als ob。"
+   },
+   {
+    "id": "k2c",
+    "sec": "s1",
+    "de": "wenns nicht auf offner Straße gewesen wäre, er <<hätte>> mich gefressen",
+    "opts": [
+     "与过去事实相反：它早就吃了我",
+     "它吃了我"
+    ],
+    "ans": 0,
+    "why": "hätte + 分词：本来会……（但没有发生）。"
+   },
+   {
+    "id": "k2d",
+    "sec": "s1",
+    "de": "Ich habe nichts mehr, das ich geben <<könnte>>",
+    "opts": [
+     "委婉：我能给的",
+     "过去时：我能够给的"
+    ],
+    "ans": 0,
+    "why": "könnte 有变音，是虚拟式二。"
+   },
+   {
+    "id": "k2e",
+    "sec": "s1",
+    "de": "was es sonst noch für Namen <<gäbe>>",
+    "opts": [
+     "转述 / 间接问句里的虚拟式：还有什么名字",
+     "过去时"
+    ],
+    "ans": 0,
+    "why": "gäbe：es gibt 的虚拟式二。"
+   },
+   {
+    "id": "k2f",
+    "sec": "s1",
+    "de": "die Augen <<wurden>> ihm naß",
+    "opts": [
+     "过去时（没有变音）",
+     "虚拟式"
+    ],
+    "ans": 0,
+    "why": "wurden 没有变音点：过去时。"
+   },
+   {
+    "id": "k2g",
+    "sec": "s1",
+    "de": "es könnte mir einer auf den Kopf fallen",
+    "opts": [
+     "可能会有一个砸到我头上",
+     "一定会砸到我"
+    ],
+    "ans": 0,
+    "why": "könnte：可能性。"
+   }
+  ]
  }
 ]
