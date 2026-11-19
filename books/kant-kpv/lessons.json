@@ -388,5 +388,70 @@
     "why": "「我可以希望什么」的答案。"
    }
   ]
+ },
+ {
+  "id": "m1",
+  "ch": "m",
+  "t": "结论：星空与道德法则",
+  "de": "Methodenlehre · Beschluß",
+  "min": 25,
+  "html": "<p>第二批判以一个教育的例子和两页「结论」收尾。结论的第一句是康德最有名的话，后来刻在他柯尼斯堡的墓碑上。</p>\n<h4>一、怎样教道德</h4>\n<p>不要用「超出义务的高尚事迹」去煽动感情，那只会造就小说里的英雄。讲一个正直的人：人们先许他好处，他拒绝；再以失去朋友、遗产、自由、生命相威胁，家人哀求他让步，他仍不动摇。一个十岁的孩子听了，会自己从赞许走到惊叹、惊异，最后到最大的尊崇。德行之所以打动人，恰恰因为它什么好处也没带来。</p>\n<h4>二、两样东西</h4>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th></th><th>头上的星空</th><th>心中的道德法则</th></tr></thead><tbody>\n<tr><th>从哪里开始</th><td>我在感官世界中的位置</td><td>我不可见的自我：人格</td></tr>\n<tr><th>扩展到</th><td>世界之上的世界，无限的时间</td><td>一个只有知性能觉察的、真正无限的世界</td></tr>\n<tr><th>我与它的联系</th><td>偶然的</td><td>普遍的、必然的</td></tr>\n<tr><th>对我的意义</th><td>取消我的重要性：一个动物性的造物</td><td>无限提升我的价值：一个理智存在者</td></tr>\n<tr><th>对应</th><td>纯粹理性批判</td><td>实践理性批判</td></tr>\n</tbody></table></div>\n[[der bestirnte Himmel über mir und das moralische Gesetz in mir]]\n<h4>三、科学是窄门</h4>\n<p>惊叹不能代替研究。宇宙观察曾以占星术告终，道德学曾以狂热和迷信告终。天文学后来找到了方法：把石头的下落、投石器的运动分解为要素，用数学处理。道德学也要这样：把日常的道德判断分解，像化学分离物质一样，把经验的东西和理性的东西分开。哲学的精细工作留给专业，它的成果要让每个人都能明白。</p>\n<h4>四、全书回顾</h4>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>章</th><th>核心</th></tr></thead><tbody>\n<tr><td>1 序言与导言</td><td>自由是拱顶石；自由是道德法则的存在根据，道德法则是自由的认识根据</td></tr>\n<tr><td>2 原理</td><td>准则与法则；定言命令；绞架：你能够，因为你应当；理性的事实</td></tr>\n<tr><td>3 自律</td><td>自律是唯一的道德原则；消极自由与积极自由；从法则演绎出自由</td></tr>\n<tr><td>4 善与恶</td><td>善与福的区分；法则先于善</td></tr>\n<tr><td>5 敬重</td><td>合法性与道德性；敬重；义务；人是目的本身</td></tr>\n<tr><td>6 至善</td><td>德与福；灵魂不朽与上帝存在的公设；配得幸福</td></tr>\n<tr><td>7 结论</td><td>星空与道德法则；科学是通向智慧的窄门</td></tr>\n</tbody></table></div>\n<h4>五、语法小结</h4>\n<ul>\n<li><b>虚拟式一表建议</b>：Man erzähle …（讲……吧）。</li>\n<li><b>je + 比较级</b>：je öfter und anhaltender …（越是经常持久……，第 15 课）。</li>\n<li><b>ward = wurde</b>：daraus es ward（第 30 课）。</li>\n<li><b>破折号的停顿</b>：und endigte – mit der Sterndeutung（反讽）。</li>\n</ul>\n{{quiz:s1}}\n<p>读完了《实践理性批判》。第三个问题「我可以希望什么」把我们引向宗教，而连接自然与自由两个世界的桥梁，是第三批判《判断力批判》的主题。</p>",
+  "quiz": [
+   {
+    "id": "m1a",
+    "sec": "s1",
+    "de": "Man bietet Gewinne, d.i. große Geschenke oder hohen Rang, an, er schlägt sie <<aus>>",
+    "opts": [
+     "他拒绝了好处；德行的价值在于不求回报",
+     "他接受了好处"
+    ],
+    "ans": 0,
+    "why": "故事一步步加码，孩子的尊崇也一步步升高。"
+   },
+   {
+    "id": "m1b",
+    "sec": "s1",
+    "de": "der bestirnte Himmel über mir und das moralische <<Gesetz>> in mir",
+    "opts": [
+     "星空和道德法则",
+     "星空和自然规律"
+    ],
+    "ans": 0,
+    "why": "这句话刻在康德的墓碑上。"
+   },
+   {
+    "id": "m1c",
+    "sec": "s1",
+    "de": "Der erstere Anblick einer zahllosen Weltenmenge <<vernichtet>> gleichsam meine Wichtigkeit",
+    "opts": [
+     "星空让我作为动物性造物显得渺小",
+     "星空提升了我的价值"
+    ],
+    "ans": 0,
+    "why": "提升我价值的是道德法则。"
+   },
+   {
+    "id": "m1d",
+    "sec": "s1",
+    "de": "Die Moral fing mit der edelsten Eigenschaft in der menschlichen Natur an, … und endigte – mit der <<Schwärmerei>>",
+    "opts": [
+     "没有方法的道德学走向狂热和迷信",
+     "道德学已经完成了"
+    ],
+    "ans": 0,
+    "why": "所以需要批判的、有方法的科学。"
+   },
+   {
+    "id": "m1e",
+    "sec": "s1",
+    "de": "Wissenschaft (kritisch gesucht und methodisch eingeleitet) ist die enge <<Pforte>>, die zur Weisheitslehre führt",
+    "opts": [
+     "科学是通向智慧的窄门",
+     "科学就是智慧本身"
+    ],
+    "ans": 0,
+    "why": "「窄门」出自《圣经》。"
+   }
+  ]
  }
 ]

@@ -12,8 +12,8 @@
  "zh": "实践理性批判（选读）",
  "author": "Immanuel Kant",
  "year": "1788",
- "level": "高阶 · 连载中",
- "blurb": "三大批判之二：我应当做什么？道德法则、自由、敬重与义务，直到「头上的星空和心中的道德法则」。按康德的结构分 7 章，每章精读关键段落，「脉络」串起省略的论证。连载中。",
+ "level": "高阶",
+ "blurb": "三大批判之二：我应当做什么？道德法则、自由、敬重与义务，直到「头上的星空和心中的道德法则」。按康德的结构分 7 章，每章精读关键段落，「脉络」串起省略的论证。",
  "brandMark": "P",
  "mast": "Kritik",
  "eyebrow": "Immanuel Kant · Kritik der praktischen Vernunft · Riga 1788",
@@ -99,8 +99,7 @@
    "id": "m",
    "h": "结论：星空与道德法则",
    "t": "Methodenlehre · Beschluß",
-   "blurb": "「头上的星空和心中的道德法则」。",
-   "planned": true
+   "blurb": "「头上的星空和心中的道德法则」。"
   }
  ]
 }
