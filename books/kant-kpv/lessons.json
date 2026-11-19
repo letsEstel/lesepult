@@ -323,5 +323,70 @@
     "why": "「人固然够不神圣」，但人性必须是神圣的。"
    }
   ]
+ },
+ {
+  "id": "d1",
+  "ch": "d",
+  "t": "至善与公设",
+  "de": "Dialektik der reinen praktischen Vernunft",
+  "min": 25,
+  "html": "<p>第一批判说：上帝和不朽不能被认识。第二批判在这里兑现了序言的承诺：它们可以作为纯粹实践理性的<b>公设</b>被假定。通向它们的路，是「至善」这个概念。</p>\n<h4>一、至善 = 德行 + 相称的幸福</h4>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th></th><th>至上的善（supremum）</th><th>圆满的善（consummatum）</th></tr></thead><tbody>\n<tr><th>是什么</th><td>德行：配得幸福的资格</td><td>德行 + 与之相称的幸福</td></tr>\n<tr><th>地位</th><td>无条件的条件</td><td>实践理性对象的整体</td></tr>\n</tbody></table></div>\n<p>只有德行还不够：需要幸福、也配得幸福，却享受不到，这是一个公正的理性无法接受的。</p>\n<h4>二、实践理性的二律背反</h4>\n<ul>\n<li>正：追求幸福是德行的动因 → 不可能，那样的准则不是道德的。</li>\n<li>反：德行是幸福的原因 → 在感官世界里似乎也不可能：世上的因果服从自然，不服从意念。</li>\n<li>解决：第二个只是「有条件地」假。人也属于理知世界，而自然也许有一个理知的创造者。</li>\n</ul>\n<h4>三、两个公设</h4>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>至善的要素</th><th>它要求</th><th>公设</th></tr></thead><tbody>\n<tr><td>德行（意念与法则完全相合 = 神圣）</td><td>有限存在者只能无限接近，需要无限延续的存在</td><td>灵魂不朽</td></tr>\n<tr><td>相称的幸福</td><td>一个使自然与道德相合的至上原因</td><td>上帝存在</td></tr>\n</tbody></table></div>\n<p>公设是「理论命题，却不可证明」，它们附属于道德法则。注意康德的两个限定：相信上帝不是义务，而是一种需要；道德也不以上帝为根据，否则就成了他律。</p>\n[[Daher ist auch die Moral nicht eigentlich die Lehre, wie wir uns glücklich machen, sondern wie wir der Glückseligkeit würdig werden sollen]]\n<h4>四、和第一批判对照</h4>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th></th><th>纯粹理性批判（第 7–9 章）</th><th>实践理性批判（本章）</th></tr></thead><tbody>\n<tr><td>灵魂</td><td>谬误推理：不能证明</td><td>公设：实践上必须假定</td></tr>\n<tr><td>自由</td><td>二律背反：不矛盾</td><td>由道德法则证明是实在的</td></tr>\n<tr><td>上帝</td><td>三种证明都失败：无瑕的理想</td><td>公设：实践上必须假定</td></tr>\n</tbody></table></div>\n<h4>五、语法小结</h4>\n<ul>\n<li><b>支配第二格的形容词</b>：der Glückseligkeit bedürftig, ihrer würdig, derselben teilhaftig（第 18 课）。</li>\n<li><b>zu-不定式作主语</b>：… nicht teilhaftig zu sein, kann … nicht zusammen bestehen。</li>\n<li><b>旧式双重否定</b>：kein Wesen … in keinem Zeitpunkte：加强否定。</li>\n<li><b>省略助动词</b>：wie in der Analytik bewiesen worden (ist) · bedacht gewesen (sind)（第 30 课）。</li>\n</ul>\n{{quiz:s1}}",
+  "quiz": [
+   {
+    "id": "d1a",
+    "sec": "s1",
+    "de": "Das Höchste kann das Oberste (supremum) oder auch das <<Vollendete>> (consummatum) bedeuten",
+    "opts": [
+     "圆满的善：德行加相称的幸福",
+     "至上的善：只有德行"
+    ],
+    "ans": 0,
+    "why": "至上的善是德行；圆满的善是至善。"
+   },
+   {
+    "id": "d1b",
+    "sec": "s1",
+    "de": "Die völlige Angemessenheit des Willens aber zum moralischen Gesetze ist <<Heiligkeit>>",
+    "opts": [
+     "有限存在者只能无限接近它",
+     "人在此生就能达到它"
+    ],
+    "ans": 0,
+    "why": "所以需要灵魂不朽的公设。"
+   },
+   {
+    "id": "d1c",
+    "sec": "s1",
+    "de": "Also ist das höchste Gut in der Welt nur möglich, sofern eine oberste <<Ursache>> der Natur angenommen wird",
+    "opts": [
+     "上帝存在是公设",
+     "上帝存在被证明了"
+    ],
+    "ans": 0,
+    "why": "公设：理论命题，却不可证明。"
+   },
+   {
+    "id": "d1d",
+    "sec": "s1",
+    "de": "daß diese moralische Notwendigkeit subjektiv, d.i. <<Bedürfnis>>, und nicht objektiv, d.i. selbst Pflicht, sei",
+    "opts": [
+     "相信上帝是需要，不是义务",
+     "相信上帝是义务"
+    ],
+    "ans": 0,
+    "why": "不可能有「假定某物存在」的义务。"
+   },
+   {
+    "id": "d1e",
+    "sec": "s1",
+    "de": "sondern wie wir der Glückseligkeit <<würdig>> werden sollen",
+    "opts": [
+     "道德教我们配得幸福",
+     "道德教我们获得幸福"
+    ],
+    "ans": 0,
+    "why": "「我可以希望什么」的答案。"
+   }
+  ]
  }
 ]
