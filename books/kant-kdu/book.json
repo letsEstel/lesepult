@@ -1,0 +1,104 @@
+{
+ "profile": "de-zh",
+ "fontsHref": "https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,600;1,7..72,400&family=UnifrakturMaguntia&family=IBM+Plex+Mono:wght@400;500&family=Noto+Serif+SC:wght@400;600&display=swap",
+ "fonts": {
+  "text": "\"Literata\",Georgia,\"Times New Roman\",serif",
+  "mast": "\"UnifrakturMaguntia\",\"Literata\",Georgia,serif",
+  "trans": "\"Noto Serif SC\",\"Songti SC\",\"STSong\",\"SimSun\",serif"
+ },
+ "slipEmpty": "点击正文中的任意德语词，这里会显示它的原形、词性、此处的格和用法。<br><br>康德的长句先找主干：主语、变位动词和句末的不定式或分词。",
+ "id": "kant-kdu",
+ "title": "Kritik der Urteilskraft",
+ "short": "判断力批判",
+ "zh": "判断力批判（选读）",
+ "author": "Immanuel Kant",
+ "year": "1790",
+ "level": "高阶 · 连载中",
+ "blurb": "三大批判之三：自然与自由之间有一道鸿沟，判断力是桥梁。美是无利害的愉悦、无目的的合目的性；崇高、天才、美是德性的象征；有机体与自然的目的。按 6 章选读。连载中。",
+ "brandMark": "U",
+ "mast": "Kritik",
+ "eyebrow": "Immanuel Kant · Kritik der Urteilskraft · Berlin und Libau 1790",
+ "subtitle": "Kritik der Urteilskraft",
+ "lede": "前两部批判划出了两个领域：知性为自然立法，理性为自由立法，两者之间隔着一道「无法测度的鸿沟」。第三批判寻找连接它们的东西，在一个出人意料的地方找到了：我们对美的判断，以及我们把有机体看作「自然目的」的方式。这里按康德的结构分 6 章，每章精读关键段落，省略的论证用「脉络」概述。",
+ "demo": [
+  "e",
+  3,
+  0
+ ],
+ "demoCaption": "规定的与反思的判断力 · 点任意一个词",
+ "howto": [
+  {
+   "n": "第 1 步",
+   "h": "先读前两部批判",
+   "p": "这本书处处以前两部批判为前提：现象与物自身、自然与自由、目的与自律。至少先读两部批判的序言和结论。"
+  },
+  {
+   "n": "第 2 步",
+   "h": "按章读，看「脉络」",
+   "p": "从目录进入。每章开头和段落之间的「脉络」框说明省略的部分讲了什么；精读的句子先开「语法」看骨架，再点词。"
+  },
+  {
+   "n": "第 3 步",
+   "h": "专题课",
+   "p": "每章配专题课：这一章回答什么问题，关键术语怎么理解，和前两部批判怎样对照。"
+  }
+ ],
+ "intro": {
+  "eyebrow": "Zum Text",
+  "h": "本书专题课",
+  "p": "每章一节：这一章回答什么问题，关键术语怎么理解，和前两部批判怎样衔接。"
+ },
+ "footer": "原文：Immanuel Kant, Kritik der Urteilskraft, Berlin und Libau: Lagarde und Friederich 1790（公有领域）。据学院版（AA V，1908/1913；Projekt Gutenberg #49543 的转录），拼写按今天的习惯作了现代化（与本站另外两部批判一致：th → t、c → k / z 等），用词和语序不改。页码为学院版第 5 卷页码。分章与章名为本站所加。注释、讲解与中文译文为本站编写（AI 辅助）。",
+ "theme": {
+  "accent": "#6b4e16",
+  "accent2": "#87652a",
+  "accentSoft": "#f3ecdc",
+  "accentDark": "#e0c48a",
+  "accent2Dark": "#ecd6a8",
+  "accentSoftDark": "#2a2112"
+ },
+ "description": "康德《判断力批判》逐词精读，按章选读，「脉络」串起省略的论证。",
+ "chapters": [
+  {
+   "id": "e",
+   "h": "导言：鸿沟与桥梁",
+   "t": "Einleitung",
+   "blurb": "自然与自由之间的鸿沟；规定的判断力与反思的判断力；自然的合目的性。"
+  },
+  {
+   "id": "s",
+   "h": "美的分析",
+   "t": "Analytik des Schönen",
+   "blurb": "无利害的愉悦；无概念的普遍性；无目的的合目的性；无概念的必然性。",
+   "planned": true
+  },
+  {
+   "id": "h",
+   "h": "崇高",
+   "t": "Analytik des Erhabenen",
+   "blurb": "数学的崇高与力学的崇高；在大自然面前感到自己理性的伟大。",
+   "planned": true
+  },
+  {
+   "id": "g",
+   "h": "艺术与天才",
+   "t": "Von der Kunst und vom Genie",
+   "blurb": "美的艺术看起来像自然；天才是给艺术立规则的天赋。",
+   "planned": true
+  },
+  {
+   "id": "y",
+   "h": "美是德性的象征",
+   "t": "Dialektik des Geschmacks",
+   "blurb": "鉴赏的二律背反；美是德性的象征。",
+   "planned": true
+  },
+  {
+   "id": "t",
+   "h": "自然的目的",
+   "t": "Kritik der teleologischen Urteilskraft",
+   "blurb": "有机体是自然目的；「草茎的牛顿」不可能出现；人作为道德存在者是创造的终极目的。",
+   "planned": true
+  }
+ ]
+}

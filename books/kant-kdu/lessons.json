@@ -1,0 +1,67 @@
+[
+ {
+  "id": "e1",
+  "ch": "e",
+  "t": "导言：鸿沟与桥梁",
+  "de": "Einleitung",
+  "min": 25,
+  "html": "<p>三大批判的最后一部。前两部各管一块领地：知性为自然立法，理性为自由立法。可它们之间隔着一道「无法测度的鸿沟」，而道德又要求在自然中实现它的目的。第三批判寻找桥梁：判断力。</p>\n<h4>一、三种能力，三部批判</h4>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>心的能力</th><th>认识能力</th><th>先天原则</th><th>应用于</th><th>批判</th></tr></thead><tbody>\n<tr><td>认识能力</td><td>知性</td><td>合规律性</td><td>自然</td><td>纯粹理性批判</td></tr>\n<tr><td>愉快与不愉快的情感</td><td>判断力</td><td>合目的性</td><td>艺术（与自然之美）</td><td>判断力批判</td></tr>\n<tr><td>欲求能力</td><td>理性</td><td>终极目的</td><td>自由</td><td>实践理性批判</td></tr>\n</tbody></table></div>\n<p>（这张表是康德自己在导言第 IX 节末尾列出的。）</p>\n<h4>二、鸿沟</h4>\n<p>自然概念只能把对象表现为现象；自由概念能想到物自身，却没有直观。从自然走不到自由，就像两个不同的世界。可道德要求自由的目的在自然中实现，所以自然必须能被设想为「适合」这些目的的。</p>\n[[Ob nun zwar eine unübersehbare Kluft zwischen dem Gebiete des Naturbegriffs … befestigt ist]]\n<h4>三、规定的与反思的判断力</h4>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th></th><th>规定的判断力</th><th>反思的判断力</th></tr></thead><tbody>\n<tr><th>给定的</th><td>普遍（规则、原则、法则）</td><td>只有特殊</td></tr>\n<tr><th>要做的</th><td>把特殊归摄到普遍之下</td><td>为特殊寻找普遍</td></tr>\n<tr><th>例子</th><td>第一批判：把直观归到范畴之下</td><td>面对一朵花、一个有机体</td></tr>\n<tr><th>原则</th><td>由知性给定</td><td>自己给自己：自然的合目的性</td></tr>\n</tbody></table></div>\n<h4>四、自然的合目的性：「好像」</h4>\n<p>反思判断力把自然看作<b>好像</b>有一个知性为了我们的认识安排了它的多样规律。这不是关于自然的断言，只是反思的原则。这个原则有两种用法，构成全书的两部分：</p>\n<ul>\n<li><b>审美判断</b>：在一个对象的形式上「感到」合目的性 → 美与崇高（第 2–5 章）。</li>\n<li><b>目的论判断</b>：把合目的性「思维」为自然本身的 → 有机体是自然目的（第 6 章）。</li>\n</ul>\n<h4>五、语法小结</h4>\n<ul>\n<li><b>so wenig …, ebensowenig …</b>：正如……不……，……也不……（第 29 课）。</li>\n<li><b>es gibt 被拆开</b>：muß es doch einen Grund … geben：中间夹着很长的宾语。</li>\n<li><b>动词开头的条件句</b>：Ist das Allgemeine gegeben, so … · Ist aber nur das Besondere gegeben, so …（第 12 课）。</li>\n<li><b>als ob + 虚拟式</b>：so vorgestellt, als ob ein Verstand … enthalte（第 22 课）。</li>\n</ul>\n{{quiz:s1}}",
+  "quiz": [
+   {
+    "id": "e1a",
+    "sec": "s1",
+    "de": "Verstand und Vernunft haben also zwei verschiedene <<Gesetzgebungen>> auf einem und demselben Boden der Erfahrung",
+    "opts": [
+     "知性为自然立法，理性为自由立法",
+     "两者共同为自然立法"
+    ],
+    "ans": 0,
+    "why": "两种立法在同一块经验土地上，互不干扰。"
+   },
+   {
+    "id": "e1b",
+    "sec": "s1",
+    "de": "eine unübersehbare <<Kluft>> zwischen dem Gebiete des Naturbegriffs … und dem Gebiete des Freiheitsbegriffs",
+    "opts": [
+     "自然与自由之间无法直接过渡",
+     "自然与自由是同一个领域"
+    ],
+    "ans": 0,
+    "why": "所以需要判断力作为桥梁。"
+   },
+   {
+    "id": "e1c",
+    "sec": "s1",
+    "de": "Ist aber nur das Besondere gegeben, wozu sie das Allgemeine finden soll, so ist die Urteilskraft bloß <<reflektierend>>",
+    "opts": [
+     "反思的：为特殊寻找普遍",
+     "规定的：把特殊归到给定的普遍之下"
+    ],
+    "ans": 0,
+    "why": "第三批判的主角是反思的判断力。"
+   },
+   {
+    "id": "e1d",
+    "sec": "s1",
+    "de": "die Natur wird durch diesen Begriff so vorgestellt, als ob ein Verstand den Grund der Einheit … <<enthalte>>",
+    "opts": [
+     "「好像」有一个知性：只是反思的原则",
+     "断言确实有一个设计自然的知性"
+    ],
+    "ans": 0,
+    "why": "als ob + 虚拟式。"
+   },
+   {
+    "id": "e1e",
+    "sec": "s1",
+    "de": "Die Zweckmäßigkeit der Natur ist also ein besonderer Begriff a priori, der lediglich in der reflektierenden <<Urteilskraft>> seinen Ursprung hat",
+    "opts": [
+     "合目的性的概念来自反思判断力",
+     "来自经验观察"
+    ],
+    "ans": 0,
+    "why": "它是先天的。"
+   }
+  ]
+ }
+]
