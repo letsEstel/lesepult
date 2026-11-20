@@ -435,7 +435,7 @@
   "t": "理性的幻相",
   "de": "Der transzendentale Schein",
   "min": 20,
-  "html": "<p>第 6 章说：知性的国土是一座岛，四周是幻相的海洋。从这一章起，康德出海了：他要考察理性超出经验时做出的那些判断。</p>\n<h4>一、两种幻相</h4>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th></th><th>逻辑的幻相</th><th>先验的幻相</th></tr></thead><tbody>\n<tr><th>来源</th><td>不留意逻辑规则</td><td>理性自身的本性</td></tr>\n<tr><th>看穿以后</th><td>完全消失</td><td>仍然存在，只是不再骗人</td></tr>\n<tr><th>比喻</th><td>算错了一道题</td><td>初升的月亮看起来更大</td></tr>\n</tbody></table></div>\n[[Der transzendentale Schein dagegen hört gleichwohl nicht auf]]\n<h4>二、幻相从哪里来</h4>\n<p>理性总在为有条件的东西寻找条件，为条件再找条件：这是一条正当的<b>准则</b>（「去找」）。幻相产生于把它偷换成一条<b>原理</b>（「条件的整个序列已经被给予了」），于是理性以为自己能认识那个「无条件者」。</p>\n<h4>三、三个理念，三门假学问</h4>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>理念</th><th>学问</th><th>批判在</th></tr></thead><tbody>\n<tr><td>灵魂（思维主体的绝对统一）</td><td>理性心理学</td><td>谬误推理（本章）</td></tr>\n<tr><td>世界（条件序列的绝对统一）</td><td>理性宇宙论</td><td>二律背反（第 8 章）</td></tr>\n<tr><td>上帝（一切对象之条件的绝对统一）</td><td>理性神学</td><td>上帝存在证明（第 9 章）</td></tr>\n</tbody></table></div>\n<h4>四、「我思」不是灵魂</h4>\n<p>理性心理学只有一个文本：Ich denke。它想从这里推出灵魂是实体、单纯、不朽。康德说：「我」只是伴随一切表象的空的形式，一个 = x；我们要谈论它，就得先用到它，所以永远在兜圈子。把这个形式当成可认识的实体，就是「谬误推理」。</p>\n{{quiz:s1}}",
+  "html": "<p>第 6 章说：知性的国土是一座岛，四周是幻相的海洋。从这一章起，康德出海了：他要考察理性超出经验时做出的那些判断。</p>\n<h4>一、两种幻相</h4>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th></th><th>逻辑的幻相</th><th>先验的幻相</th></tr></thead><tbody>\n<tr><th>来源</th><td>不留意逻辑规则</td><td>理性自身的本性</td></tr>\n<tr><th>看穿以后</th><td>完全消失</td><td>仍然存在，只是不再骗人</td></tr>\n<tr><th>比喻</th><td>算错了一道题</td><td>初升的月亮看起来更大</td></tr>\n</tbody></table></div>\n[[Der transzendentale Schein dagegen hört gleichwohl nicht auf]]\n<h4>二、幻相从哪里来</h4>\n<p>理性总在为有条件的东西寻找条件，为条件再找条件：这是一条正当的<b>准则</b>（「去找」）。幻相产生于把它偷换成一条<b>原理</b>（「条件的整个序列已经被给予了」），于是理性以为自己能认识那个「无条件者」。</p>\n<h4>三、三个理念，三门假学问</h4>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>理念</th><th>学问</th><th>批判在</th></tr></thead><tbody>\n<tr><td>灵魂（思维主体的绝对统一）</td><td>理性心理学</td><td>谬误推理（本章）</td></tr>\n<tr><td>世界（条件序列的绝对统一）</td><td>理性宇宙论</td><td>二律背反（第 8 章）</td></tr>\n<tr><td>上帝（一切对象之条件的绝对统一）</td><td>理性神学</td><td>上帝存在证明（第 9 章）</td></tr>\n</tbody></table></div>\n<h4>四、「我思」不是灵魂</h4>\n<p>理性心理学只有一个文本：Ich denke。它想从这里推出灵魂是实体、单纯、不朽。康德说：「我」只是伴随一切表象的空的形式，一个 = x；我们要谈论它，就得先用到它，所以永远在兜圈子。把这个形式当成可认识的实体，就是「谬误推理」。</p>\n<h4>五、四个谬误推理（第二版）</h4>\n<p>第二版里康德把谬误推理压缩成四条，格式都一样：「作为对思维的分析，这是对的；但它并不意味着……」</p>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th></th><th>分析命题（对）</th><th>被偷换成的结论（不成立）</th></tr></thead><tbody>\n<tr><th>1 实体</th><td>在一切判断中，我总是作判断的主体</td><td>我是独立自存的实体</td></tr>\n<tr><th>2 单纯</th><td>思维中的我是一个单数，不能分成多个主体</td><td>思维的我是单纯的实体</td></tr>\n<tr><th>3 人格</th><td>在一切表象中我意识到自己是同一个</td><td>我的实体在一切状态变化中保持同一</td></tr>\n<tr><th>4 与物体有别</th><td>我把自己与外物（包括身体）区别开</td><td>我可以不要身体、仅作为思维存在者而存在</td></tr>\n</tbody></table></div>\n[[Die logische Erörterung des Denkens überhaupt wird fälschlich für eine metaphysische Bestimmung des Objekts gehalten.]]\n<p>左栏都是分析命题：从「思维」的概念里就能分析出来。右栏都是综合命题：要证明它们，需要直观；而单纯的「我思」里没有任何直观。</p>\n<h4>六、反驳门德尔松</h4>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th></th><th>门德尔松（《斐多》）</th><th>康德</th></tr></thead><tbody>\n<tr><th>前提</th><td colspan=\"2\">灵魂是单纯的：没有部分，所以不能被分解</td></tr>\n<tr><th>推理</th><td>也不能逐渐变少；从有到无又不能是一个没有时间的跳跃；所以灵魂不能消失</td><td>没有广延的量，仍然有强度的量（程度）；程度可以经过无数更小的程度减弱到零</td></tr>\n<tr><th>例子</th><td>—</td><td>意识本身就有清楚与模糊的程度</td></tr>\n<tr><th>结论</th><td>灵魂不朽</td><td>灵魂（作为内感官对象）的常住性不可证明；活着时人作为身体是常住的，但这证明不了死后</td></tr>\n</tbody></table></div>\n<h4>七、反推方法</h4>\n<ol>\n<li><b>daß-从句当主语</b>：Daß das Ich der Apperzeption … ein Singular sei, … liegt schon im Begriffe des Denkens：先找后面的变位动词（liegt / ist），再回头读 daß-从句。</li>\n<li><b>aber … bedeutet nicht, daß …</b>：四条都用这个转折。分号前是承认的东西，分号后是否认的东西。</li>\n<li><b>sich einer Sache bewußt sein</b>：dessen ich mir bewußt bin、deren ich mir … bewußt werden kann：关系代词用第二格，因为 bewußt 支配第二格。</li>\n<li><b>被否定的长从句</b>：Allein er bedachte nicht, daß … man ihr doch … ableugnen könne：nicht 在主句，意思落在从句的动词上：「不能否认」。</li>\n</ol>\n<h4>八、马上练</h4>\n{{quiz:s1}}\n<h4>九、小结</h4>\n<ul>\n<li>先验幻相不可避免，但可以被看穿；理性追求无条件者，产生灵魂、世界、上帝三个理念。</li>\n<li>理性心理学只有一个文本：「我思」。它是伴随一切表象的空形式，不是可认识的对象。</li>\n<li>四个谬误推理：把关于思维的分析命题，偷换成关于灵魂实体的综合命题。</li>\n<li>门德尔松的不朽证明忽略了强度的量：单纯的东西也可以逐渐减弱到无。</li>\n</ul>\n<p><button class=\"btn\" data-route=\"kant-krv~ch-d\">理性的幻相</button></p>",
   "quiz": [
    {
     "id": "d1a",
@@ -480,6 +480,50 @@
     ],
     "ans": 0,
     "why": "sein + zu：能被……；这里是不能被避免。"
+   },
+   {
+    "id": "d1e",
+    "sec": "s1",
+    "de": "aber er bedeutet nicht, daß ich, als Objekt, ein, für mich, selbst bestehendes Wesen, oder <<Substanz>> sei",
+    "opts": [
+     "「我总是判断的主体」不能推出「我是实体」",
+     "「我总是判断的主体」证明了我是实体"
+    ],
+    "ans": 0,
+    "why": "前者是分析命题；后者是综合命题，需要在思维中根本找不到的直观材料。"
+   },
+   {
+    "id": "d1f",
+    "sec": "s1",
+    "de": "Die logische Erörterung des Denkens überhaupt wird fälschlich für eine metaphysische <<Bestimmung>> des Objekts gehalten.",
+    "opts": [
+     "谬误推理把逻辑分析误当成对灵魂的认识",
+     "谬误推理是逻辑形式上的错误"
+    ],
+    "ans": 0,
+    "why": "对一般思维的逻辑说明，被错误地当成了对客体（灵魂）的形而上学规定。"
+   },
+   {
+    "id": "d1g",
+    "sec": "s1",
+    "de": "man ihr doch, so wenig wie irgendeinem Existierenden, <<intensive>> Größe … ableugnen könne",
+    "opts": [
+     "单纯的灵魂仍有强度的量，可以逐渐减弱",
+     "单纯的灵魂没有任何量，所以不能消失"
+    ],
+    "ans": 0,
+    "why": "没有部分只说明没有广延的量；强度（程度）仍可以一点点减到零。"
+   },
+   {
+    "id": "d1h",
+    "sec": "s1",
+    "de": "Also bleibt die Beharrlichkeit der Seele, als bloß Gegenstandes des inneren Sinnes, <<unbewiesen>>",
+    "opts": [
+     "灵魂超出生命的常住性无法证明",
+     "灵魂的常住性已被证明"
+    ],
+    "ans": 0,
+    "why": "活着时人作为外感官的对象（身体）是常住的；但理性心理学想证明的是死后的常住，这无法从概念证明。"
    }
   ]
  },
