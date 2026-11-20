@@ -464,6 +464,18 @@ button.book:hover{transform:translateY(-3px);box-shadow:var(--shadow)}
 .bk-blurb{font-size:14px;color:var(--ink-2);margin:6px 0 10px;flex:1}
 .bk-prog{display:flex}
 .bk-stat{font:12px var(--f-mono);color:var(--ink-3);margin-top:6px}
+.lib-cont{all:unset;box-sizing:border-box;display:flex;align-items:center;gap:12px;width:100%;max-width:860px;margin:0 0 28px;padding:14px 20px;border-radius:12px;background:var(--sheet);border:1px solid var(--rule);border-left:4px solid var(--bk,var(--prussian));cursor:pointer;font:15px var(--f-zh);color:var(--ink)}
+.lib-cont:hover{border-color:var(--bk,var(--prussian))}
+.lib-cont:focus-visible{outline:2px solid var(--prussian-2);outline-offset:2px}
+.lib-cont svg{width:18px;height:18px;flex:none;color:var(--bk,var(--prussian))}
+.lib-cont b{font-weight:600;margin:0 .6em}
+.lib-cont i{font:13px var(--f-mono);font-style:normal;color:var(--ink-3)}
+.bk-last{display:block;font:12px var(--f-zh);color:var(--bk,var(--prussian));margin-top:4px}
+.lcont{all:unset;box-sizing:border-box;display:flex;align-items:center;gap:10px;width:100%;padding:12px 18px;margin-bottom:4px;border:1px dashed var(--prussian);border-radius:12px;color:var(--prussian);font:15px var(--f-zh);cursor:pointer}
+.lcont:hover{background:var(--prussian-soft)}
+.lcont:focus-visible{outline:2px solid var(--prussian-2);outline-offset:2px}
+.lcont svg{width:16px;height:16px;flex:none}
+.lcont b{font-weight:600}
 .bk-chip{align-self:flex-start;font:500 12px var(--f-mono);padding:4px 8px;border-radius:6px;border:1px dashed var(--rule-2);color:var(--ink-3)}
 .book.planned{cursor:default;border-style:dashed}
 .book.planned .bk-cover{background:repeating-linear-gradient(135deg,var(--sheet-2) 0 10px,var(--paper) 10px 20px);color:var(--ink-3);box-shadow:inset 6px 0 0 var(--rule)}
@@ -512,6 +524,7 @@ button.book:hover{transform:translateY(-3px);box-shadow:var(--shadow)}
       <p class="mast-sub">德语原典 · 逐词精读</p>
       <p class="lede">把德语原典一个词一个词地读懂。每本书都有同样的结构：专题课、逐句精读（每个词可点开看原形、词性、此处的格和为什么）、词汇表和生词本。零基础也能从第一句读起。</p>
     </div>
+    <div id="libCont"></div>
     <h2 class="shelf-h"><span>先打基础</span><small>所有书通用</small></h2>
     <div class="course-row" id="courseShelf"></div>
     <h2 class="shelf-h"><span>书架</span><small id="shelfCount"></small></h2>
@@ -785,7 +798,16 @@ let tt; function toast(msg){ const t=$('#toast'); t.textContent=msg; t.classList
 /* ---------- library page ---------- */
 function bookProgress(id){ const ids=new Set(sentIds(id)), ok=mkStore('reader.'+id+'.').get('ok',[]);
   return {ok:ok.filter(s=>ids.has(s)).length, n:ids.size}; }
+function libLast(id){ const sid=mkStore('reader.'+id+'.').get('pos',null); if(!sid) return ''; let l='';
+  try{ l=sidLabel(id,sid); }catch(e){} return l?'<span class="bk-last">上次读到 § '+esc(l)+'</span>':''; }
 function renderLibrary(){
+  // the book read most recently, with the sentence it was left at
+  let best=null; LIB.books.forEach(b=>{ if(b.planned) return; const st=mkStore('reader.'+b.id+'.'), at=st.get('posAt',0), sid=st.get('pos',null);
+    if(sid && at && (!best||at>best.at)) best={b,at,sid}; });
+  let lc='';
+  if(best){ let l=''; try{ l=sidLabel(best.b.id,best.sid); }catch(e){} const m=best.b.meta;
+    if(l) lc='<button class="lib-cont" data-route="'+esc(best.b.id)+'~s-'+esc(best.sid)+'" style="--bk:'+esc(m.theme&&m.theme.accent||'')+'">'+ICON.arrow+'<span>继续阅读<b>'+esc(m.zh||m.title)+'</b><i>§ '+esc(l)+'</i></span></button>'; }
+  $('#libCont').innerHTML=lc;
   $('#courseShelf').innerHTML=LIB.courses.map(c=>{ const m=c.meta, done=mkStore('reader.'+c.id+'.').get('lessons',[]).length, n=(c.lessons||[]).length;
     return '<button class="course-card" data-route="'+esc(c.id)+'~intro"><span class="cc-n">'+n+'</span><span class="cc-body"><b>'+esc(m.title)+'</b><span class="cc-de" lang="de" data-linkok>'+esc(m.de||'')+'</span><span class="cc-p">'+esc(m.lede||'')+'</span></span><span class="cc-prog"><span>'+(done?'已学 '+done+' / '+n:'从这里开始')+'</span><i style="--p:'+(n?done/n*100:0)+'%"></i></span></button>'; }).join('');
   const live=LIB.books.filter(b=>!b.planned).length;
@@ -797,7 +819,7 @@ function renderLibrary(){
     let foot;
     if(b.planned) foot='<span class="bk-chip">筹备中</span>';
     else { const p=bookProgress(b.id); const chs=b.chapters?liveChs(b.id).length+' / '+b.chapters.length+' 章 · ':'';
-      foot='<span class="bk-prog"><i style="--p:'+(p.n?p.ok/p.n*100:0)+'%"></i></span><span class="bk-stat">'+chs+(p.ok?'已读懂 '+p.ok+' / '+p.n+' 句':p.n+' 句 · '+b.nLex+' 词条')+'</span>'; }
+      foot='<span class="bk-prog"><i style="--p:'+(p.n?p.ok/p.n*100:0)+'%"></i></span><span class="bk-stat">'+chs+(p.ok?'已读懂 '+p.ok+' / '+p.n+' 句':p.n+' 句 · '+b.nLex+' 词条')+'</span>'+libLast(b.id); }
     return '<'+(b.planned?'div':'button')+' class="book'+(b.planned?' planned':'')+'" '+(b.planned?'aria-label="'+esc(m.title)+'，筹备中"':'data-route="'+esc(b.id)+'~home"')+' style="'+esc(style)+'">'+
       '<span class="bk-cover"><span class="bk-mast">'+esc(m.mast||m.title)+'</span><span class="bk-au" data-linkok>'+esc((m.author||'')+(m.year?' · '+m.year:''))+'</span></span>'+
       '<span class="bk-body"><span class="bk-level">'+esc(m.level||'')+'</span><b class="bk-title">'+esc(m.zh||m.title)+'</b><span class="bk-de" lang="de" data-linkok>'+esc(m.title)+'</span><span class="bk-blurb">'+esc(m.blurb||'')+'</span>'+foot+'</span></'+(b.planned?'div':'button')+'>';
@@ -858,7 +880,7 @@ function nextSent(){
   if(isCh(C.id)){ const n=sentIds(C.id).find(x=>!S.ok.has(x)); return n?{id:n,label:sidLabel(C.id,n)}:null; }
   return C.SENTS.find(x=>!S.ok.has(x.id)); }
 function firstSent(){ return isCh(C.id)?{id:sentIds(C.id)[0]}:C.SENTS[0]; }
-function updateCont(){ if(C.kind!=='book') return; const n=nextSent(); $('#contLbl').textContent = S.ok.size? (n?'继续：§ '+n.label:'全书已读完 · 重温'):'直接开始精读'; }
+function updateCont(){ if(C.kind!=='book') return; const p=lastPos(), n=nextSent(); $('#contLbl').textContent = p?'继续上次：§ '+p.label : S.ok.size? (n?'继续：§ '+n.label:'全书已读完 · 重温'):'直接开始精读'; }
 function chProgress(c){ let ok=0, n=0; c.toc.forEach((t,pi)=>{ for(let si=0;si<t[1];si++){ n++; if(S.ok.has(c.id+'-'+pi+'-'+si)) ok++; } }); return {ok,n}; }
 function chRow(c){
   const planned=!!c.planned, p=planned?null:chProgress(c), done=!!p&&p.n>0&&p.ok===p.n, tag=planned?'div':'button';
@@ -897,12 +919,24 @@ function renderLessons(){
   } else $('#basicsCard').innerHTML='';
   $('#lessons').innerHTML=C.lessons.map((l,i)=>'<article class="lesson'+(S.lessons.has(lkey(l,i))?' done':'')+'" data-l="'+i+'"><button aria-expanded="false"><span class="ln">'+(i+1)+'</span><span><span class="lt" data-linkok>'+esc(l.t)+'</span><span class="ls" lang="de" data-linkok>'+esc(l.de)+'</span></span><span class="lm">'+(l.ch&&isCh(C.id)&&chOf(C.id,l.ch)?'第 '+esc(chOf(C.id,l.ch).n)+' 章 · ':'')+l.min+' 分钟'+(l.quiz?' · 练习':'')+'</span></button><div class="lesson-body" hidden>'+renderLessonHtml(l,i)+'<div class="lesson-foot"><button class="btn" data-ldone="'+i+'">'+ICON.ok+'<span>'+(S.lessons.has(lkey(l,i))?'已学完':'学完了')+'</span></button>'+(LIB.site.repo?'<button class="l-report" data-report="lesson" data-li="'+i+'">这节课有问题？</button>':'')+'</div></div></article>').join('')
     +(C.lessons.length?'':'<p class="empty">这本书还没有专题课。</p>');
-  const fl=$('#lessons .lesson:not(.done)'); if(fl){ fl.querySelector('.lesson-body').hidden=false; fl.querySelector('button').setAttribute('aria-expanded','true'); }
+  renderLcont();
 }
+// a "continue" bar above the lesson list instead of expanding a lesson unasked
+function renderLcont(){
+  const old=$('#lessons .lcont'); if(old) old.remove();
+  const last=S.own.get('lastL',null); let i=-1, lbl='';
+  if(last && C.lessons[last.i]){ i=last.i; lbl='继续上次'; }
+  else if(S.lessons.size){ i=C.lessons.findIndex((l,j)=>!S.lessons.has(lkey(l,j))); lbl='下一节'; }
+  if(i<0) return;
+  $('#lessons').insertAdjacentHTML('afterbegin','<button class="lcont" data-lcont="'+i+'">'+ICON.arrow+'<span>'+lbl+'：<b>第 '+(i+1)+' 节 · '+esc(C.lessons[i].t)+'</b></span></button>');
+}
+function noteLesson(i,off){ if(!S) return; S.own.set('lastL',{i,off:off||0}); }
 $('#lessons').addEventListener('click',e=>{
   if(e.target.closest('.lw')) return;
+  const lc=e.target.closest('[data-lcont]');
+  if(lc){ const i=+lc.dataset.lcont, last=S.own.get('lastL',null); openLesson(i, last&&last.i===i?last.off:0); return; }
   const head=e.target.closest('.lesson>button');
-  if(head){ const body=head.nextElementSibling; const open=body.hidden; body.hidden=!open; head.setAttribute('aria-expanded',open); return; }
+  if(head){ const body=head.nextElementSibling; const open=body.hidden; body.hidden=!open; head.setAttribute('aria-expanded',open); if(open) noteLesson(+head.parentNode.dataset.l,0); return; }
   const qo=e.target.closest('.qopt');
   if(qo){ const box=qo.closest('.quiz'); const li=+box.dataset.q, sec=box.dataset.sec||null; const k=lkey(C.lessons[li],li); (S.quiz[k]=S.quiz[k]||{})[qo.dataset.qi]=+qo.dataset.o; persist(); box.outerHTML=quizHtml(li,sec); return; }
   const qr=e.target.closest('.qreset');
@@ -913,7 +947,8 @@ $('#lessons').addEventListener('click',e=>{
     const nx=art.nextElementSibling; if(nx){ nx.querySelector('.lesson-body').hidden=false; nx.querySelector('button').setAttribute('aria-expanded','true'); nx.scrollIntoView({behavior:'smooth',block:'start'}); }
     else toast(C.kind==='course'?'基础课学完了！回书架挑一本书吧':'专题课学完了！去精读吧'); }
 });
-function openLesson(i){ const art=$$('#lessons .lesson')[i]; if(!art) return; art.querySelector('.lesson-body').hidden=false; art.querySelector('button').setAttribute('aria-expanded','true'); art.scrollIntoView({block:'start'}); }
+function openLesson(i,off){ const art=$$('#lessons .lesson')[i]; if(!art) return; art.querySelector('.lesson-body').hidden=false; art.querySelector('button').setAttribute('aria-expanded','true');
+  if(off) window.scrollTo(0, scrollY+art.getBoundingClientRect().top+off); else art.scrollIntoView({block:'start'}); noteLesson(i,off); }
 
 /* ---------- reader ---------- */
 function sentHtml(x){
@@ -944,6 +979,22 @@ function renderText(){
 function scrollBelowTools(el, smooth){ const rt=$('.read-tools'); const stick=rt?(parseFloat(getComputedStyle(rt).top)||0)+rt.offsetHeight:170;
   window.scrollTo({top:Math.max(0,scrollY+el.getBoundingClientRect().top-stick-10), behavior:smooth?'smooth':'auto'}); }
 $('#ptoc').addEventListener('click',e=>{ const b=e.target.closest('.pchip'); if(b) scrollBelowTools(document.getElementById('p-'+b.dataset.p),true); });
+/* ---------- remembered position: last sentence on screen, last lesson and where in it ---------- */
+function curSentId(){ const rt=$('.read-tools'); const top=rt?(parseFloat(getComputedStyle(rt).top)||0)+rt.offsetHeight:170;
+  for(const el of $$('#text .sent')){ if(el.getBoundingClientRect().bottom>top+24) return el.id.slice(2); } return null; }
+function savePos(){
+  if(!C || !S) return;
+  if(!$('#v-read').hidden && C.kind==='book'){ const sid=curSentId(); if(!sid) return; const st=mkStore('reader.'+C.id+'.');
+    st.set('pos',sid); st.set('posAt',Date.now()); if(C.cid){ const m=st.get('posCh',{}); m[C.cid]=sid; st.set('posCh',m); } return; }
+  if(!$('#v-intro').hidden){ const arts=$$('#lessons .lesson'); for(let i=0;i<arts.length;i++){ const a=arts[i]; if(a.querySelector('.lesson-body').hidden) continue;
+    const r=a.getBoundingClientRect(); if(r.top<120 && r.bottom>120){ noteLesson(i, Math.max(0,Math.round(-r.top))); return; } } }
+}
+let posT=0; addEventListener('scroll',()=>{ clearTimeout(posT); posT=setTimeout(savePos,400); },{passive:true});
+function storedPos(cid){ const st=mkStore('reader.'+C.id+'.'); return cid?(st.get('posCh',{})[cid]||null):st.get('pos',null); }
+function restorePos(cid){ const sid=storedPos(cid), el=sid&&document.getElementById('s-'+sid); if(!el) return false; scrollBelowTools(el,false); return true; }
+function lastPos(){ const sid=mkStore('reader.'+C.id+'.').get('pos',null); if(!sid) return null;
+  if(isCh(C.id)){ const m=SIDRE.exec(sid); if(!m||!liveChs(C.id).some(c=>c.id===m[1])) return null; const l=sidLabel(C.id,sid); return l?{id:sid,label:l}:null; }
+  return C.SENTS.find(x=>x.id===sid)||null; }
 function jump(id, smooth){ const el=document.getElementById('s-'+id); if(el){ scrollBelowTools(el,smooth); el.classList.add('flash'); setTimeout(()=>el.classList.remove('flash'),1600); } }
 function applyToggles(){
   $$('.reader .de').forEach(d=>{ d.classList.toggle('gloss',S.gloss); d.classList.toggle('color',S.color); });
@@ -1281,7 +1332,7 @@ async function render(t, y){
     if(y!=null) window.scrollTo(0,y);
     else if(/^s-/.test(r.sub)) jump(r.sub.slice(2), same);
     else if(/^intro-/.test(r.sub)) openLesson(+r.sub.slice(6)-1);
-    else if(/^ch-/.test(r.sub)) window.scrollTo(0, same?scrollY:(viewY[key]||0));
+    else if(/^ch-/.test(r.sub)||v==='read'){ if(same) window.scrollTo(0,scrollY); else if(viewY[key]!=null) window.scrollTo(0,viewY[key]); else if(!restorePos(cid)) window.scrollTo(0,0); }
     else if(r.sub==='toc'){ const el=$('#chlist'); if(el && !el.hidden) el.scrollIntoView({block:'start'}); }
     else window.scrollTo(0, viewY[key]||0);
   };
@@ -1336,7 +1387,7 @@ $('#backBtn').addEventListener('click',goBack);
 try{ history.scrollRestoration='manual'; }catch(e){}
 
 /* ---------- global clicks & keys ---------- */
-$('#contBtn').addEventListener('click',()=>{ const n=nextSent()||firstSent(); navigate(C.id+'~s-'+n.id); });
+$('#contBtn').addEventListener('click',()=>{ const n=lastPos()||nextSent()||firstSent(); navigate(C.id+'~s-'+n.id); });
 document.addEventListener('click',e=>{
   const lw=e.target.closest('.lw');
   if(lw){ e.preventDefault(); const id=lw.dataset.l, t=lw.textContent; openWord({w:t,id,cs:null,named:null,d:entryOf(id)}, t.replace(/[-·]/g,''), null, lw, !!lw.closest('#sheet,#slipDesk')); return; }

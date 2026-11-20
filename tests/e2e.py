@@ -83,6 +83,8 @@ with sync_playwright() as p:
         q = pg.locator("#lessons .lesson:nth-child(4) .qopt").first
         q.click(); pg.wait_for_timeout(150)
         ok(pg.locator("#lessons .lesson:nth-child(4) .qwhy").count() >= 1, f"[{tag}] 基础课练习可作答")
+        pg.goto(URL + "#lib"); pg.reload(); pg.wait_for_timeout(300); pg.goto(URL + f"#{courses[0]}~intro"); pg.wait_for_timeout(500)
+        ok(pg.locator("#lessons .lesson-body:not([hidden])").count() == 0 and "第 4 节" in pg.inner_text("#lessons .lcont"), f"[{tag}] 课程列表默认全部收起，顶上有「继续上次：第 4 节」")
         pg.goto(URL + f"#{bk}~s-0-0"); pg.wait_for_timeout(600)
         ok(pg.is_visible("#v-read") and pg.evaluate("document.querySelector('#s-0-0').getBoundingClientRect().top") < 300, f"[{tag}] 深链接 #{bk}~s-0-0 直达句子")
         for c in chaptered:
@@ -115,6 +117,16 @@ with sync_playwright() as p:
             ok(pg.evaluate(f"(()=>{{const t=document.querySelector('#s-{sid}').getBoundingClientRect().top, b=document.querySelector('.read-tools').getBoundingClientRect().bottom; return t>=b && t<b+40}})()"), f"[{tag}] 深链接 #{cb}~s-{sid} 直达句子，没有被工具栏挡住")
             pg.goto(URL + "#lib"); pg.wait_for_timeout(200); pg.goto(URL + f"#{cb}~read"); pg.wait_for_timeout(500)
             ok(pg.locator(f"#s-{sid}").count() == 1, f"[{tag}] 「精读」打开上次读的那一章")
+            # remembered reading position: scroll to a later sentence, reload, come back
+            tgt = pg.evaluate("(()=>{const s=[...document.querySelectorAll('#text .sent')]; return s.length>2?s[2].id.slice(2):null})()")
+            if tgt:
+                pg.evaluate(f"document.getElementById('s-{tgt}').scrollIntoView()"); pg.wait_for_timeout(700)
+                pg.goto(URL + f"#{cb}~home"); pg.reload(); pg.wait_for_timeout(600)
+                ok("继续上次" in pg.inner_text("#contLbl"), f"[{tag}] 记住上次读到哪儿：{pg.inner_text('#contLbl')}")
+                pg.goto(URL + f"#{cb}~ch-{tgt.split('-')[0]}"); pg.wait_for_timeout(700)
+                ok(pg.evaluate(f"(()=>{{const r=document.querySelector('#s-{tgt}').getBoundingClientRect(); return r.top>0 && r.top<400}})()"), f"[{tag}] 刷新后打开这一章，回到上次的位置")
+                pg.goto(URL + "#lib"); pg.wait_for_timeout(300)
+                ok(pg.locator(f'.book[data-route="{cb}~home"] .bk-last').count() == 1, f"[{tag}] 书架封面显示「上次读到」")
         pg.goto(URL + "#lib"); pg.wait_for_timeout(300)
         pg.click("#themeBtn"); pg.wait_for_timeout(150)
         ok(pg.locator("#themeMenu .th-opt").count() == 6, f"[{tag}] 配色菜单：自动 + 5 套主题")
