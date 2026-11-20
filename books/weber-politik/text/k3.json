@@ -388,5 +388,271 @@
     ]
    }
   ]
+ },
+ {
+  "h": "九 · 财阀式的招募",
+  "t": "Plutokratische Rekrutierung",
+  "k": "9",
+  "pg": "1919 版 S. 13–14",
+  "sum": "读前：上一节说，在经济上「为」政治而活，要有财产、抽得开身。后果是什么？政治领导层只能从富人中招募。但 Weber 马上防止两个误解。",
+  "s": [
+   {
+    "de": "Die{nf} Leitung eines{gm} Staates oder einer{gf} Partei durch Leute, welche{np} (im ökonomischen Sinn des{gn} Wortes) ausschließlich für die{af} Politik und nicht von der{df} Politik leben, bedeutet notwendig eine{af} »plutokratische« Rekrutierung der{gp} politisch führenden Schichten.",
+    "zh": "由（在经济意义上）只为政治而活、不靠政治而活的人来领导一个国家或一个政党，必然意味着政治领导阶层的「财阀式」招募。",
+    "n": [
+     "拆解：主语很长：Die Leitung eines Staates oder einer Partei durch Leute（由某些人领导国家或政党）+ 关系从句 welche … ausschließlich für die Politik und nicht von der Politik leben（只为政治而活、不靠政治而活的人）→ bedeutet notwendig eine »plutokratische« Rekrutierung der politisch führenden Schichten（必然意味着政治领导阶层的财阀式招募）。",
+     "die Leitung：领导。plutokratisch：财阀的（富人统治的）。die Rekrutierung：招募。politisch führend：政治上领导的。"
+    ]
+   },
+   {
+    "de": "Damit ist freilich nicht auch das{nn} Umgekehrte gesagt: daß eine{nf} solche plutokratische Leitung auch zugleich bedeutete, daß die{nf} politisch herrschende Schicht nicht auch »von« der{df} Politik zu leben trachtete, also ihre{af} politische Herrschaft nicht auch für ihre{ap} privaten ökonomischen Interessen auszunutzen pflegte.",
+    "zh": "当然，这并不是说反过来也成立：好像这样的财阀式领导同时就意味着，政治统治阶层不会也谋求「靠」政治而活，也就是不会惯于把自己的政治统治也用于自己私人的经济利益。",
+    "n": [
+     "拆解：Damit ist freilich nicht auch das Umgekehrte gesagt（这当然并不是说反过来也成立；被动 ist … gesagt）。冒号后说明「反过来」是什么：daß eine solche plutokratische Leitung auch zugleich bedeutete（这样的财阀式领导同时意味着；bedeutete = 虚拟式二），daß die politisch herrschende Schicht nicht auch »von« der Politik zu leben trachtete（统治阶层不会也谋求靠政治而活）, also ihre politische Herrschaft nicht auch für ihre privaten ökonomischen Interessen auszunutzen pflegte（即不会惯于把政治统治用于私人经济利益）。",
+     "freilich：当然。das Umgekehrte：反过来的情况。trachten：谋求。ausnutzen：利用（auszunutzen：zu-不定式）。pflegen zu：惯于。"
+    ]
+   },
+   {
+    "de": "Davon ist natürlich gar keine{nf} Rede.",
+    "zh": "当然根本谈不上这一点。",
+    "n": [
+     "von etw. ist keine Rede：根本谈不上（第 1 章出现过）。gar keine：根本没有。"
+    ]
+   },
+   {
+    "de": "Es{expl} hat keine{af} Schicht gegeben, die{rel:nf} das{dem:an} nicht irgendwie getan hätte.",
+    "zh": "从来没有哪个阶层不曾以某种方式这样做过。",
+    "n": [
+     "es hat … gegeben：曾经有过（es gibt 的完成时）。die das nicht irgendwie getan hätte：它不曾以某种方式这样做过（hätte = 虚拟式二，用在否定的关系从句里）。irgendwie：以某种方式。"
+    ]
+   },
+   {
+    "de": "Nur dies bedeutet es{it}: daß die{np} Berufspolitiker nicht unmittelbar für ihre{af} politische Leistung Entgelt zu suchen genötigt sind, wie das{dem:an} jeder{nm} Mittellose schlechthin in Anspruch nehmen muß.",
+    "zh": "它只意味着：职业政治家不必为自己的政治工作直接去谋求报酬，而每一个身无分文的人都必须直截了当地要求报酬。",
+    "n": [
+     "拆解：Nur dies bedeutet es（它只意味着这一点）。冒号后 daß die Berufspolitiker nicht unmittelbar für ihre politische Leistung Entgelt zu suchen genötigt sind（职业政治家不被迫为政治工作直接谋求报酬；zu etw. genötigt sein：被迫）+ 比较 wie das jeder Mittellose schlechthin in Anspruch nehmen muß（就像每个身无分文的人都必须直截了当地要求的那样）。",
+     "die Leistung：工作、成绩。genötigt：被迫的。der Mittellose：身无分文的人（形容词名词化）。schlechthin：直截了当地。etw. in Anspruch nehmen：要求。"
+    ]
+   }
+  ]
+ },
+ {
+  "h": "十 · 没有财产的理想主义",
+  "t": "Politischer Idealismus",
+  "k": "10",
+  "pg": "1919 版 S. 14",
+  "sum": "第二个误解：没有财产的政治家只想着自己的饭碗。Weber 说恰恰相反：最纯粹的理想主义往往出自一无所有的人；有产者反而时时惦记自己的「安全」。",
+  "s": [
+   {
+    "de": "Und andrerseits bedeutet es{it} nicht etwa, daß vermögenslose Politiker lediglich oder auch nur vornehmlich ihre{af} privatwirtschaftliche Versorgung durch die{af} Politik im Auge hätten, nicht oder doch nicht vornehmlich »an die{af} Sache« dächten.",
+    "zh": "另一方面，这也并不意味着，没有财产的政治家只是、或者哪怕主要是着眼于通过政治来解决自己私人的生计，而不去、或者至少不主要去想着「事业」。",
+    "n": [
+     "拆解：Und andrerseits bedeutet es nicht etwa, daß …（另一方面这也不意味着……）。daß-从句两个谓语（虚拟式二，表示「并非如此」）：① vermögenslose Politiker lediglich oder auch nur vornehmlich ihre privatwirtschaftliche Versorgung durch die Politik im Auge hätten（没有财产的政治家只着眼于通过政治解决私人生计）② nicht oder doch nicht vornehmlich »an die Sache« dächten（不去或不主要去想着事业）。",
+     "vermögenslos：没有财产的。lediglich：仅仅。vornehmlich：主要地。privatwirtschaftlich：私人经济的。die Versorgung：供养、生计。etw. im Auge haben：着眼于。an etw. denken：想着（dächten：虚拟式二）。"
+    ]
+   },
+   {
+    "de": "Nichts wäre unrichtiger.",
+    "zh": "没有比这更错误的了。",
+    "n": [
+     "wäre：虚拟式二。unrichtig：错误的（unrichtiger：比较级）。nichts + 比较级：没有比……更……"
+    ]
+   },
+   {
+    "de": "Dem{dm} vermögenden Mann ist die{nf} Sorge um die{af} ökonomische »Sekurität« seiner{gf} Existenz erfahrungsgemäß – bewußt oder unbewußt – ein{nm} Kardinalpunkt seiner{gf} ganzen Lebensorientierung.",
+    "zh": "根据经验，对有财产的人来说，对自己生存的经济「安全」的操心——无论有意还是无意——是他整个人生取向的一个根本点。",
+    "n": [
+     "拆解：Dem vermögenden Mann ist …（对有财产的人来说……是……；第三格放在句首）。主语 die Sorge um die ökonomische »Sekurität« seiner Existenz（对自己生存的经济安全的操心）→ 表语 ein Kardinalpunkt seiner ganzen Lebensorientierung（他整个人生取向的根本点）。插入 erfahrungsgemäß（根据经验）和 bewußt oder unbewußt（有意或无意）。",
+     "die Sorge um：对……的操心。die Sekurität：安全（来自拉丁语，今天说 Sicherheit）。erfahrungsgemäß：根据经验。der Kardinalpunkt：根本点。die Lebensorientierung：人生取向。"
+    ]
+   },
+   {
+    "de": "Der{nm} ganz rücksichts- und voraussetzungslose politische Idealismus findet sich{refl}, wenn nicht ausschließlich, so doch wenigstens gerade, bei den{dp} infolge ihrer{gf} Vermögenslosigkeit ganz außerhalb der{gp} an der{df} Erhaltung der{gf} ökonomischen Ordnung einer{gf} bestimmten Gesellschaft stehenden Schichten: das{dem:nn} gilt zumal in außeralltäglichen, also revolutionären, Epochen.",
+    "zh": "完全不顾一切、不计前提的政治理想主义，即使不是只、也至少恰恰出现在这样的阶层中：他们由于没有财产，完全站在关心维持某个社会经济秩序的人之外。这在非日常的、也就是革命的时代尤其如此。",
+    "n": [
+     "拆解：Der ganz rücksichts- und voraussetzungslose politische Idealismus findet sich（完全不顾一切、不计前提的政治理想主义出现在……）+ 让步 wenn nicht ausschließlich, so doch wenigstens gerade（即使不是只，也至少恰恰）+ bei den … Schichten（在……阶层中）。Schichten 前是一长串扩展定语：infolge ihrer Vermögenslosigkeit ganz außerhalb der an der Erhaltung der ökonomischen Ordnung einer bestimmten Gesellschaft … stehenden（由于没有财产，完全站在关心维持某社会经济秩序的人之外的）。冒号后 das gilt zumal in außeralltäglichen, also revolutionären, Epochen（这在非日常的即革命的时代尤其如此）。",
+     "rücksichts- und voraussetzungslos：不顾一切、不计前提的（连字符：两个词共用 -los）。sich finden：出现。infolge + 第二格：由于。die Vermögenslosigkeit：没有财产。",
+     "außerhalb der an der Erhaltung … stehenden Schichten：1919 年初版在 Gesellschaft 后少了一个名词；后来的版本补为 Interessierten（关心维持经济秩序的人），整句才讲得通：「站在关心维持……的人之外的阶层」。这里保留初版原样，译文按补全的意思。",
+     "die Erhaltung：维持。zumal：尤其。die Epoche：时代（复数 Epochen）。"
+    ]
+   },
+   {
+    "de": "Sondern nur dies bedeutet es{it}: daß eine{nf} nicht plutokratische Rekrutierung der{gp} politischen Interessenten, der{gf} Führerschaft und ihrer{gf} Gefolgschaft, an die{af} selbstverständliche Voraussetzung gebunden ist, daß diesen{dp} Interessenten aus dem{dm} Betrieb der{gf} Politik regelmäßige und verläßliche Einnahmen zufließen.",
+    "zh": "它只意味着：要对政治上的有关人员——领导层和他们的追随者——进行非财阀式的招募，就必须有一个不言而喻的前提：这些人能从政治经营中得到定期而可靠的收入。",
+    "n": [
+     "拆解：Sondern nur dies bedeutet es（它只意味着这一点）。冒号后 daß eine nicht plutokratische Rekrutierung der politischen Interessenten … an die selbstverständliche Voraussetzung gebunden ist（非财阀式的招募以一个不言而喻的前提为条件；an etw. gebunden sein）；Interessenten 后同位语 der Führerschaft und ihrer Gefolgschaft（领导层和追随者）。前提是什么：daß diesen Interessenten aus dem Betrieb der Politik regelmäßige und verläßliche Einnahmen zufließen（这些人从政治经营中得到定期可靠的收入；jm. zufließen：流入某人手中）。",
+     "der Interessent：有关人员、参与者。die Führerschaft：领导层。selbstverständlich：不言而喻的。regelmäßig：定期的。verläßlich：可靠的（今天写 verlässlich）。"
+    ]
+   }
+  ]
+ },
+ {
+  "h": "十一 · 荣誉职还是有报酬",
+  "t": "Ehrenamtlich oder entgolten",
+  "k": "11",
+  "pg": "1919 版 S. 14–15",
+  "sum": "所以只有两条路：要么由有钱人做不拿钱的「荣誉职」，要么给没钱的人发报酬。靠政治而活的人又分两种：「受俸者」和领薪的「官员」。",
+  "s": [
+   {
+    "de": "Die{nf} Politik kann entweder »ehrenamtlich« und dann von, wie man zu sagen pflegt, »unabhängigen«, d. h. vermögenden Leuten, Rentnern vor allem, geführt werden.",
+    "zh": "政治要么可以「作为荣誉职」来运作，那样它就由人们常说的「独立的」人，也就是有财产的人，首先是食利者来运作。",
+    "n": [
+     "拆解：Die Politik kann entweder »ehrenamtlich« … geführt werden（政治要么作为荣誉职来运作；被动 + 情态，geführt werden 在句末）。中间 und dann von … Leuten（那样就由……人）：插入 wie man zu sagen pflegt（如人们常说的），»unabhängigen«, d. h. vermögenden Leuten（「独立的」也就是有财产的人）, Rentnern vor allem（首先是食利者）。",
+     "ehrenamtlich：作为荣誉职的、不拿报酬的（das Ehrenamt：荣誉职）。unabhängig：独立的。führen：运作、领导。"
+    ]
+   },
+   {
+    "de": "Oder aber ihre{nf} Führung wird Vermögenslosen zugänglich gemacht, und dann muß sie{she} entgolten werden.",
+    "zh": "要么，政治的领导向没有财产的人开放，那样就必须给它报酬。",
+    "n": [
+     "jm. etw. zugänglich machen：使某人能够进入（被动：wird … zugänglich gemacht）。der Vermögenslose：没有财产的人（复数与格 Vermögenslosen）。",
+     "entgelten：给予报酬（entgolten werden：被付酬；sie = die Führung）。"
+    ]
+   },
+   {
+    "de": "Der{nm} von der{df} Politik lebende Berufspolitiker kann sein: reiner »Pfründner« oder besoldeter »Beamter«.",
+    "zh": "靠政治而活的职业政治家可以是：纯粹的「受俸者」，或者领薪的「官员」。",
+    "n": [
+     "der von der Politik lebende Berufspolitiker：靠政治而活的职业政治家（扩展定语）。der Pfründner：受俸者（第 2 章出现过：靠俸禄、规费过活）。besoldet：领薪的。der Beamte：官员（没有冠词时作 Beamter）。"
+    ]
+   },
+   {
+    "de": "Entweder bezieht er dann Einnahmen aus Gebühren und Sporteln für bestimmte Leistungen – Trinkgelder und Bestechungssummen sind nur eine{nf} regellose und formell illegale Abart dieser{gf} Kategorie von Einkünften –, oder er bezieht ein{an} festes Naturaliendeputat oder Geldgehalt, oder beides nebeneinander.",
+    "zh": "他要么从为特定服务收取的规费和手续费中获得收入——小费和贿赂只是这类收入的一种不规则的、形式上非法的变种；要么他领取固定的实物份额或货币薪水，或者两者兼有。",
+    "n": [
+     "拆解：Entweder bezieht er dann Einnahmen aus Gebühren und Sporteln für bestimmte Leistungen（要么他从为特定服务收取的规费中获得收入）；破折号插入 Trinkgelder und Bestechungssummen sind nur eine regellose und formell illegale Abart dieser Kategorie von Einkünften（小费和贿赂只是这类收入的不规则、形式上非法的变种）。oder er bezieht ein festes Naturaliendeputat oder Geldgehalt, oder beides nebeneinander（要么领固定的实物份额或货币薪水，或两者兼有）。",
+     "die Gebühr：规费。die Sportel：（旧）手续费、办事费（复数 Sporteln）。das Trinkgeld：小费。die Bestechungssumme：贿赂款。regellos：不规则的。formell：形式上。illegal：非法的。die Abart：变种。",
+     "das Naturaliendeputat：实物份额。das Geldgehalt：货币薪水。nebeneinander：并存。"
+    ]
+   },
+   {
+    "de": "Er kann den{am} Charakter eines{gm} »Unternehmers« annehmen{take}, wie der{nm} Kondottiere oder der{nm} Amtspächter oder Amtskäufer der{gf} Vergangenheit oder wie der{nm} amerikanische Boss, der{rel:nm} seine{ap} Unkosten wie eine{af} Kapitalanlage ansieht, die{rel:af} er durch Ausnutzung seines{gm} Einflusses Ertrag bringen läßt.",
+    "zh": "他可以具有「企业家」的性质，就像过去的雇佣兵队长、包租官职者或买官者，或者像美国的「老板」：他把自己的开销看作一笔资本投资，通过利用自己的影响力让它带来收益。",
+    "n": [
+     "拆解：Er kann den Charakter eines »Unternehmers« annehmen（他可以具有企业家的性质）。两组例子：wie der Kondottiere oder der Amtspächter oder Amtskäufer der Vergangenheit（像过去的雇佣兵队长、包租官职者或买官者）oder wie der amerikanische Boss（或像美国的老板）+ 关系从句 der seine Unkosten wie eine Kapitalanlage ansieht（他把开销看作资本投资）+ 再套一个关系从句 die er durch Ausnutzung seines Einflusses Ertrag bringen läßt（他通过利用影响力让它带来收益；Ertrag bringen lassen）。",
+     "den Charakter annehmen：具有……性质。der Kondottiere：雇佣兵队长（第 1 章作 Condottiere，初版两种拼法都有）。der Amtspächter：包租官职者（花钱承包官职，再从中收费）。der Amtskäufer：买官者。",
+     "der Boss：（美国政党机器的）老板，第 7 章详谈。die Unkosten：开销（复数）。die Kapitalanlage：资本投资。die Ausnutzung：利用。der Einfluß：影响力（今天写 Einfluss）。der Ertrag：收益。"
+    ]
+   },
+   {
+    "de": "Oder er kann einen{am} festen Lohn beziehen{recv}, wie ein{nm} Redakteur oder Parteisekretär oder ein{nm} moderner Minister oder politischer Beamter.",
+    "zh": "或者他可以领取固定的报酬，就像编辑、党的书记、现代的部长或政治官员那样。",
+    "n": [
+     "der Lohn：报酬。der Redakteur：编辑。der Parteisekretär：党的书记。der Minister：部长。der politische Beamte：政治官员（下文会和「专业官员」对照）。"
+    ]
+   }
+  ]
+ },
+ {
+  "h": "十二 · 官职分赃",
+  "t": "Ämterpatronage",
+  "k": "12",
+  "pg": "1919 版 S. 15",
+  "sum": "从前，君主和胜利者用采邑、俸禄酬劳追随者；今天，政党领袖用各种职位酬劳忠诚的追随者。所以党派斗争首先是争夺分配官职的权力。",
+  "s": [
+   {
+    "de": "In der{df} Vergangenheit waren Lehen, Bodenschenkungen, Pfründen aller Art, mit Entwicklung der{gf} Geldwirtschaft aber besonders Sportelpfründen der{nm} typische Entgelt von Fürsten, siegreichen Eroberern oder erfolgreichen Parteihäuptern für ihre{af} Gefolgschaft; heute sind es{expl} Ämter aller Art in Parteien, Zeitungen, Genossenschaften, Krankenkassen, Gemeinden und Staaten, welche{np} von den{dp} Parteiführern für treue Dienste vergeben werden.",
+    "zh": "在过去，采邑、土地赏赐、各种俸禄，随着货币经济的发展尤其是规费俸禄，是君主、得胜的征服者或成功的党魁酬劳追随者的典型报酬；今天则是政党、报纸、合作社、医疗保险机构、市镇和国家里的各种职位，由政党领袖用来酬谢忠诚的效劳。",
+    "n": [
+     "拆解：分号两边对照「过去 / 今天」。① In der Vergangenheit waren Lehen, Bodenschenkungen, Pfründen aller Art, … besonders Sportelpfründen der typische Entgelt …（过去，采邑、土地赏赐、各种俸禄，尤其是规费俸禄，是典型的报酬）；插入 mit Entwicklung der Geldwirtschaft aber（但随着货币经济的发展）；谁给谁：von Fürsten, siegreichen Eroberern oder erfolgreichen Parteihäuptern für ihre Gefolgschaft（君主、得胜的征服者或成功的党魁给追随者）。② heute sind es Ämter aller Art in Parteien, Zeitungen, …（今天则是……的各种职位）+ 关系从句 welche von den Parteiführern für treue Dienste vergeben werden（由党的领袖为忠诚效劳而分配）。",
+     "die Bodenschenkung：土地赏赐。die Geldwirtschaft：货币经济。die Sportelpfründe：规费俸禄（靠收取手续费的职位）。der typische Entgelt：典型的报酬（初版这里也把 Entgelt 当阳性）。",
+     "siegreich：得胜的。der Eroberer：征服者。erfolgreich：成功的。das Parteihaupt：党魁。",
+     "die Zeitung：报纸。die Genossenschaft：合作社。die Krankenkasse：医疗保险机构。die Gemeinde：市镇。treu：忠诚的。vergeben：分配。"
+    ]
+   },
+   {
+    "de": "Alle{np} Parteikämpfe sind nicht nur Kämpfe um sachliche Ziele, sondern vor allem auch: um Ämterpatronage.",
+    "zh": "一切党派斗争不仅是为了实质目标的斗争，而且首先也是：争夺官职任命权的斗争。",
+    "n": [
+     "der Parteikampf：党派斗争。das Ziel：目标。sachlich：实质的、事务上的。",
+     "die Ämterpatronage：官职任命权（掌权者把职位分给自己人）。冒号是 Weber 的强调。"
+    ]
+   },
+   {
+    "de": "Alle{np} Kämpfe zwischen partikularistischen und zentralistischen Bestrebungen in Deutschland drehen sich{refl} vor allem auch darum, welche{np} Gewalten, ob die{np} Berliner oder die{np} Münchener, Karlsruher, Dresdener, die{af} Ämterpatronage in der{df} Hand haben.",
+    "zh": "德国地方分权和中央集权两种倾向之间的一切斗争，首先也是围绕这一点：哪些力量——是柏林的，还是慕尼黑、卡尔斯鲁厄、德累斯顿的——掌握官职任命权。",
+    "n": [
+     "拆解：Alle Kämpfe zwischen partikularistischen und zentralistischen Bestrebungen in Deutschland drehen sich vor allem auch darum（德国地方分权与中央集权的一切斗争首先也围绕这一点；sich um etw. drehen，darum 预指间接问句）, welche Gewalten … die Ämterpatronage in der Hand haben（哪些力量掌握官职任命权）；插入 ob die Berliner oder die Münchener, Karlsruher, Dresdener（是柏林的，还是慕尼黑、卡尔斯鲁厄、德累斯顿的）。",
+     "partikularistisch：地方分权的（各邦自主）。zentralistisch：中央集权的。die Bestrebung：倾向、努力。",
+     "Berliner、Münchener 等：城市名加 -er 作形容词，不变格；这里指各邦政府（普鲁士、巴伐利亚、巴登、萨克森）。"
+    ]
+   },
+   {
+    "de": "Zurücksetzungen in der{df} Anteilnahme an den{dp} Ämtern werden von Parteien schwerer empfunden als Zuwiderhandlungen gegen ihre{ap} sachlichen Ziele.",
+    "zh": "在分享职位上受到的冷落，比违背它们实质目标的行为，更让政党难以忍受。",
+    "n": [
+     "die Zurücksetzung：冷落、受歧视。die Anteilnahme an：对……的分享。schwer empfinden：感到难以忍受（schwerer：比较级；被动 werden … empfunden）。die Zuwiderhandlung gegen：违背……的行为。"
+    ]
+   },
+   {
+    "de": "Ein{nm} parteipolitischer Präfektenschub in Frankreich galt immer als eine{nf} größere Umwälzung und erregte mehr Lärm als eine{nf} Modifikation des{gn} Regierungsprogramms, welches{nn} fast rein phraseologische Bedeutung hatte.",
+    "zh": "在法国，一次出于党派政治的省长大调动，总被看作比修改政府纲领更大的变革，引起的喧嚣也更多；而政府纲领几乎只有空话的意义。",
+    "n": [
+     "拆解：主语 Ein parteipolitischer Präfektenschub in Frankreich（法国一次党派政治的省长大调动），两个谓语：① galt immer als eine größere Umwälzung（总被看作更大的变革；als etw. gelten）② und erregte mehr Lärm（引起更多喧嚣），比较对象 als eine Modifikation des Regierungsprogramms（比修改政府纲领）+ 关系从句 welches fast rein phraseologische Bedeutung hatte（政府纲领几乎只有空话的意义）。",
+     "der Präfekt：（法国的）省长。der Schub：一批、推动；Präfektenschub：省长的成批调换。die Umwälzung：变革。der Lärm：喧嚣。die Modifikation：修改。das Regierungsprogramm：政府纲领。phraseologisch：空话的、辞令上的。"
+    ]
+   }
+  ]
+ },
+ {
+  "h": "十三 · 猎取职位的政党",
+  "t": "Stellenjägerparteien",
+  "k": "13",
+  "pg": "1919 版 S. 15–16",
+  "sum": "Weber 环顾各国：美国的政党成了「猎取职位的政党」；西班牙两党轮流坐庄；南美的「选举」和「革命」都是为了国家的食槽；瑞士按比例分配职位。官僚化让这种趋势越来越强。",
+  "s": [
+   {
+    "de": "Manche Parteien, so namentlich die{np} in Amerika, sind seit dem{dn} Schwinden der{gp} alten Gegensätze über die{af} Auslegung der{gf} Verfassung reine Stellenjägerparteien, welche{np} ihr{an} sachliches Programm je nach den{dp} Chancen des{gm} Stimmenfangs abändern.",
+    "zh": "有些政党，尤其是美国的政党，自从关于宪法解释的旧对立消失以来，就成了纯粹猎取职位的政党，按照拉选票的机会来修改自己的实质纲领。",
+    "n": [
+     "拆解：主语 Manche Parteien, so namentlich die in Amerika（有些政党，尤其是美国的）→ sind … reine Stellenjägerparteien（是纯粹猎取职位的政党）；时间 seit dem Schwinden der alten Gegensätze über die Auslegung der Verfassung（自从关于宪法解释的旧对立消失以来）。关系从句 welche ihr sachliches Programm je nach den Chancen des Stimmenfangs abändern（它们按拉选票的机会修改纲领）。",
+     "das Schwinden：消失（动词名词化）。die Auslegung：解释。die Verfassung：宪法。die Stellenjägerpartei：猎取职位的政党（Stelle 职位 + Jäger 猎人 + Partei）。",
+     "je nach：按照、视……而定。die Chance：机会（复数 Chancen）。der Stimmenfang：拉选票（Stimme 选票 + Fang 捕获）。abändern：修改。"
+    ]
+   },
+   {
+    "de": "In Spanien wechselten bis in die{ap} letzten Jahre in Gestalt der{gp} von obenher fabrizierten »Wahlen« die{np} beiden großen Parteien in konventionell feststehendem Turnus ab, um ihre{af} Gefolgschaft in Ämtern zu versorgen.",
+    "zh": "在西班牙，直到最近几年，两大政党一直借着从上面制造出来的「选举」，按照约定俗成的固定轮次交替执政，以便把自己的追随者安置在职位上。",
+    "n": [
+     "拆解：主语 die beiden großen Parteien（两大政党）在动词后。wechselten … ab（交替；abwechseln 可分）。状语：bis in die letzten Jahre（直到最近几年）、in Gestalt der von obenher fabrizierten »Wahlen«（借着从上面制造的「选举」）、in konventionell feststehendem Turnus（按约定俗成的固定轮次）。目的 um ihre Gefolgschaft in Ämtern zu versorgen（为了把追随者安置在职位上）。",
+     "in Gestalt + 第二格：以……的形式。von obenher：从上面。fabrizieren：制造。konventionell：约定俗成的。feststehend：固定的。der Turnus：轮次。jn. versorgen：安置、供养。"
+    ]
+   },
+   {
+    "de": "In den{dp} spanischen Kolonialgebieten handelt es{expl} sich{refl} sowohl bei den{dp} sogenannten »Wahlen« wie den{dp} sogenannten »Revolutionen« stets um die{af} Staatskrippe, an der{rel:df} die{np} Sieger gefüttert zu werden wünschen.",
+    "zh": "在西班牙从前的殖民地，所谓的「选举」和所谓的「革命」，说到底总是为了国家的食槽：胜利者都希望在那里被喂饱。",
+    "n": [
+     "es handelt sich um：涉及的是、关键是。sowohl bei … wie (bei) …：无论在……还是在……。das Kolonialgebiet：殖民地（这里指拉丁美洲）。",
+     "die Staatskrippe：国家的食槽（比喻官职和公款）。an der die Sieger gefüttert zu werden wünschen：胜利者希望在那里被喂饱（füttern：喂，被动不定式 gefüttert zu werden）。der Sieger：胜利者。"
+    ]
+   },
+   {
+    "de": "In der{df} Schweiz repartieren die{np} Parteien im Wege des{gm} Proporzes die{ap} Ämter friedlich untereinander, und manche unserer{gp} »revolutionären« Verfassungsentwürfe, so z. B. der{nm} erste für Baden aufgestellte, wollte dies System auf die{ap} Ministerstellen ausdehnen und behandelte so den{am} Staat und seine{ap} Ämter als reine Pfründnerversorgungsanstalt.",
+    "zh": "在瑞士，各政党按比例原则和平地在彼此之间分配职位；而我们的一些「革命的」宪法草案，比如为巴登起草的第一份草案，想把这个制度推广到部长职位上，从而把国家和它的职位当作纯粹供养受俸者的机构。",
+    "n": [
+     "拆解：两句并列。① In der Schweiz repartieren die Parteien im Wege des Proporzes die Ämter friedlich untereinander（在瑞士，各政党按比例原则和平地分配职位）。② manche unserer »revolutionären« Verfassungsentwürfe, so z. B. der erste für Baden aufgestellte（我们的一些「革命的」宪法草案，比如为巴登起草的第一份）, wollte dies System auf die Ministerstellen ausdehnen（想把这个制度推广到部长职位；主语是复数，Weber 却用了单数 wollte，是在想着「第一份」那一份）und behandelte so den Staat und seine Ämter als reine Pfründnerversorgungsanstalt（从而把国家和职位当作纯粹供养受俸者的机构）。",
+     "repartieren：分配（来自法语）。im Wege + 第二格：通过……的方式。der Proporz：比例代表制、按比例分配。friedlich：和平地。untereinander：彼此之间。",
+     "der Verfassungsentwurf：宪法草案。Baden：巴登（德国西南部的邦）。aufgestellt：起草的。ausdehnen auf：推广到。die Ministerstelle：部长职位。die Pfründnerversorgungsanstalt：供养受俸者的机构（Weber 的讽刺）。"
+    ]
+   },
+   {
+    "de": "Vor allem die{nf} Zentrumspartei begeisterte sich{refl} dafür und machte in Baden die{af} proportionale Verteilung der{gp} Ämter nach Konfessionen, also ohne Rücksicht auf die{af} Leistung, sogar zu einem{dm} Programmpunkt.",
+    "zh": "尤其是中央党对此热情高涨，在巴登甚至把按教派比例分配职位——也就是不考虑能力——列为纲领的一条。",
+    "n": [
+     "拆解：Vor allem die Zentrumspartei begeisterte sich dafür（尤其是中央党对此热情高涨；sich für etw. begeistern）und machte … die proportionale Verteilung der Ämter nach Konfessionen … sogar zu einem Programmpunkt（甚至把按教派比例分配职位变成纲领的一条；aus A / A zu B machen）。插入 also ohne Rücksicht auf die Leistung（也就是不考虑能力）。",
+     "die Zentrumspartei：中央党（德国天主教政党）。proportional：按比例的。die Verteilung：分配。die Konfession：教派（天主教、新教）。ohne Rücksicht auf：不考虑。der Programmpunkt：纲领的一条。"
+    ]
+   },
+   {
+    "de": "Mit steigender Zahl der{gp} Ämter infolge der{gf} allgemeinen Bureaukratisierung und steigendem Begehr nach ihnen als einer{df} Form spezifisch gesicherter Versorgung steigt für alle{ap} Parteien diese{nf} Tendenz und werden sie{they} für ihre{af} Gefolgschaft immer mehr Mittel zum Zweck, derart versorgt zu werden.",
+    "zh": "随着普遍的官僚化使职位数量增加，随着人们把职位当作一种特别有保障的生计而越来越渴求它们，这种趋势在所有政党中都在增强；对它们的追随者来说，政党也越来越成为以这种方式得到供养的手段。",
+    "n": [
+     "拆解：前场两个原因：Mit steigender Zahl der Ämter infolge der allgemeinen Bureaukratisierung（随着普遍官僚化使职位数量增加）und steigendem Begehr nach ihnen als einer Form spezifisch gesicherter Versorgung（随着人们越来越渴求职位，把它当作特别有保障的生计）。→ 两个结果：① steigt für alle Parteien diese Tendenz（这种趋势在所有政党中增强）② und werden sie für ihre Gefolgschaft immer mehr Mittel zum Zweck（政党对追随者越来越成为手段）, derart versorgt zu werden（以这种方式得到供养；Zweck 后的 zu-不定式说明目的）。",
+     "steigend：增长的。die Bureaukratisierung：官僚化（今天写 Bürokratisierung）。der Begehr nach：对……的渴求。spezifisch gesichert：特别有保障的。die Versorgung：生计、供养。",
+     "die Tendenz：趋势。Mittel zum Zweck：达到目的的手段。derart：以这种方式。",
+     "这一段是从「靠政治而活」引出的现实后果。下一段 Weber 转向另一面：专业官员的兴起。"
+    ]
+   }
+  ]
  }
 ]
