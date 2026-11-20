@@ -292,6 +292,82 @@
   ]
  },
  {
+  "id": "w1",
+  "ch": "w",
+  "t": "反驳唯心论",
+  "de": "Widerlegung des Idealismus",
+  "min": "20",
+  "html": "<p>第一版出版后，有人说康德就是贝克莱：外物只是我们心里的表象。第二版里康德加了一段「反驳唯心论」，用五步证明：笛卡尔认为最确定的东西——我对自己的意识——本身就以外物的存在为前提。</p>\n<h4>一、两种唯心论，和康德自己的立场</h4>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th></th><th>或然的（笛卡尔）</th><th>独断的（贝克莱）</th><th>先验观念论（康德）</th></tr></thead><tbody>\n<tr><th>主张</th><td>外物的存在可疑、不可证明；只有「我在」无可怀疑</td><td>空间本身不可能，空间中的事物只是幻象</td><td>空间是直观的形式；空间中的事物是现象，但真实存在</td></tr>\n<tr><th>康德的评价</th><td>合理、谨慎：需要的是一个证明</td><td>来自把空间当作物自身的性质；感性论已消除其根据</td><td>——</td></tr>\n</tbody></table></div>\n<h4>二、五步证明</h4>\n[[Das bloße, aber empirisch bestimmte, Bewußtsein meines eigenen Daseins beweist das Dasein der Gegenstände im Raum außer mir.]]\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>步骤</th><th>内容</th><th>来源</th></tr></thead><tbody>\n<tr><th>1</th><td>我意识到自己的存在是在时间中被规定的</td><td>笛卡尔也承认的出发点</td></tr>\n<tr><th>2</th><td>一切时间规定都需要知觉中某种常住的东西</td><td>第一类比（第 5 章）</td></tr>\n<tr><th>3</th><td>这个常住者不能在我之中：我心中的都是流动的表象</td><td>否则循环</td></tr>\n<tr><th>4</th><td>所以它必须是我之外的事物，而不是对事物的表象</td><td>—</td></tr>\n<tr><th>5</th><td>所以对自己存在的意识，同时就是对外物存在的直接意识</td><td>结论</td></tr>\n</tbody></table></div>\n<h4>三、把游戏反过来</h4>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th></th><th>唯心论</th><th>康德</th></tr></thead><tbody>\n<tr><th>直接的</th><td>只有内经验</td><td>外经验</td></tr>\n<tr><th>推论出来的</th><td>外物（所以不可靠）</td><td>——外物不是推论出来的</td></tr>\n<tr><th>以什么为前提</th><td>内经验不需要外物</td><td>有内容的内经验（我在时间中经历着这些）以外经验为前提</td></tr>\n<tr><th>梦</th><td>证明外物可能是幻象</td><td>梦是以前真实知觉的再现，以外物为前提；个别经验的真假靠经验标准判断</td></tr>\n</tbody></table></div>\n<p>注意康德没有说「我思」需要外物：空洞的「我在」只是一个思想，不是直观。需要外物的，是在时间中被规定的、有内容的自我经验。</p>\n<h4>四、反推方法</h4>\n<ol>\n<li><b>第二格动词短语</b>：sich einer Sache bewußt sein（意识到）：Ich bin mir meines Daseins … bewußt。看到 bewußt 往前找属格。</li>\n<li><b>nicht durch A, sondern / und nicht durch B</b>：durch ein Ding außer mir und nicht durch die bloße Vorstellung eines Dinges：整个证明的要害在这个对照里。</li>\n<li><b>daraus, daß …, folgt nicht, daß …</b>：「从……不能推出……」。先读第一个 daß（前提），再读第二个 daß（被否认的结论）。</li>\n<li><b>etwas + 名词化形容词</b>：etwas Beharrliches、das Beharrliche、dieses Beharrlichen：同一个词随冠词变尾。</li>\n<li><b>情态动词 + 被动</b>：muß … ausgemittelt werden、hat … bewiesen werden sollen：先找最后的 werden，再往前找过去分词。</li>\n</ol>\n<h4>五、马上练</h4>\n{{quiz:s1}}\n<h4>六、小结</h4>\n<ul>\n<li>唯心论分或然的（笛卡尔）和独断的（贝克莱）；后者的根据已被先验感性论消除，前者需要一个证明。</li>\n<li>证明：在时间中规定自己需要常住者，常住者只能是外物，所以自我意识直接就是对外物的意识。</li>\n<li>外经验是直接的；有内容的内经验反而以外经验为前提。</li>\n<li>梦和幻觉也以以前真实的外部知觉为前提；个别经验是真是幻，靠经验标准判断。</li>\n</ul>\n<p><button class=\"btn\" data-route=\"kant-krv~ch-w\">反驳唯心论</button></p>",
+  "quiz": [
+   {
+    "id": "kw1",
+    "sec": "s1",
+    "de": "der erstere ist der problematische des Cartesius, der nur Eine empirische Behauptung (assertio), nämlich: Ich bin, für <<ungezweifelt>> erklärt",
+    "opts": [
+     "笛卡尔：只有「我在」无可怀疑",
+     "笛卡尔：外物是不可能的"
+    ],
+    "ans": 0,
+    "why": "或然唯心论只怀疑外物，不否定外物；说外物（连同空间）不可能的是贝克莱。"
+   },
+   {
+    "id": "kw2",
+    "sec": "s1",
+    "de": "Der Grund zu diesem Idealismus aber ist von uns in der transzendentalen Ästhetik <<gehoben>>.",
+    "opts": [
+     "独断唯心论的根据已被感性论消除",
+     "独断唯心论在感性论中得到了证明"
+    ],
+    "ans": 0,
+    "why": "heben：消除。贝克莱的问题来自把空间当作物自身的性质；感性论说明了空间只是直观形式。"
+   },
+   {
+    "id": "kw3",
+    "sec": "s1",
+    "de": "Alle Zeitbestimmung setzt etwas <<Beharrliches>> in der Wahrnehmung voraus.",
+    "opts": [
+     "时间规定需要一个常住的参照",
+     "时间规定需要一个变化的东西"
+    ],
+    "ans": 0,
+    "why": "这是第一类比的结论：变化只有相对于常住者才能被确定。"
+   },
+   {
+    "id": "kw4",
+    "sec": "s1",
+    "de": "Also ist die Wahrnehmung dieses Beharrlichen nur durch ein Ding außer mir und nicht durch die bloße <<Vorstellung>> eines Dinges außer mir möglich.",
+    "opts": [
+     "必须是真实的外物，而不只是外物的表象",
+     "只要有外物的表象就够了"
+    ],
+    "ans": 0,
+    "why": "表象本身也在我之中、也在流动，所以不能充当常住者。"
+   },
+   {
+    "id": "kw5",
+    "sec": "s1",
+    "de": "Allein hier wird bewiesen, daß äußere Erfahrung eigentlich <<unmittelbar>> sei",
+    "opts": [
+     "外经验是直接的",
+     "外经验是推论出来的"
+    ],
+    "ans": 0,
+    "why": "这正是对唯心论的「反转」：唯心论说外物是推论出来的，康德证明外经验是直接的。"
+   },
+   {
+    "id": "kw6",
+    "sec": "s1",
+    "de": "denn jene kann gar wohl die bloße Wirkung der Einbildungskraft (in Träumen sowohl als im <<Wahnsinn>>) sein",
+    "opts": [
+     "个别的外物表象可能是幻象，但它以以前真实的知觉为前提",
+     "梦证明外物根本不存在"
+    ],
+    "ans": 0,
+    "why": "康德只证明「一般地有外物」；梦是以前外部知觉的再现，所以也以外物为前提。"
+   }
+  ]
+ },
+ {
   "id": "p1",
   "ch": "p",
   "t": "岛与海：这一章在全书中的位置",
