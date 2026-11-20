@@ -849,5 +849,285 @@
     ]
    }
   ]
+ },
+ {
+  "h": "十八 · 议会改变了局面",
+  "t": "Gegenüber den Parlamenten",
+  "k": "18",
+  "pg": "1919 版 S. 18",
+  "sum": "读前：君主与专业官员的暗斗，直到议会出现才改变。在君主仍有实权的德国，君主和官员结成同盟对抗议会，结果产生了统一领导的「官员部长」。",
+  "s": [
+   {
+    "de": "Erst gegenüber den{dp} Parlamenten und den{dp} Machtaspirationen ihrer{gp} Parteiführer änderte sich{refl} die{nf} Lage.",
+    "zh": "直到面对议会及其政党领袖的权力企图，局面才改变了。",
+    "n": [
+     "erst：直到……才。gegenüber + 第三格：面对。das Parlament：议会（复数 Parlamente）。die Machtaspiration：权力企图。sich ändern：改变（änderte：过去式）。die Lage：局面。"
+    ]
+   },
+   {
+    "de": "Sehr verschieden gelagerte Bedingungen führten doch zu dem{dn} äußerlich gleichen Ergebnis.",
+    "zh": "条件千差万别，却导致了外表上相同的结果。",
+    "n": [
+     "verschieden gelagert：情况各异的。die Bedingung：条件。zu etw. führen：导致。äußerlich：外表上。das Ergebnis：结果。"
+    ]
+   },
+   {
+    "de": "Freilich mit gewissen Unterschieden.",
+    "zh": "当然，有某些差别。",
+    "n": [
+     "省略句。der Unterschied：差别（复数与格 Unterschieden）。"
+    ]
+   },
+   {
+    "de": "Wo immer die{np} Dynastien reale Macht in der{df} Hand behielten – wie namentlich in Deutschland –, waren nun die{np} Interessen des{gm} Fürsten mit denen des{gn} Beamtentums solidarisch verknüpft gegen das{an} Parlament und seine{ap} Machtansprüche.",
+    "zh": "凡是王朝仍掌握实权的地方——尤其是在德国——君主的利益就与官员阶层的利益团结地联结在一起，共同对抗议会及其权力要求。",
+    "n": [
+     "拆解：条件 Wo immer die Dynastien reale Macht in der Hand behielten（凡是王朝仍掌握实权的地方；wo immer：凡是……的地方）→ waren nun die Interessen des Fürsten mit denen des Beamtentums solidarisch verknüpft（君主的利益与官员阶层的利益团结地联结；denen = den Interessen）+ gegen das Parlament und seine Machtansprüche（对抗议会及其权力要求）。",
+     "die Dynastie：王朝。real：实际的。behalten：保持（behielten：过去式）。solidarisch：团结的。verknüpft：联结的。der Machtanspruch：权力要求（复数 Machtansprüche）。"
+    ]
+   },
+   {
+    "de": "Die{np} Beamten hatten das{an} Interesse daran, daß auch die{np} leitenden Stellen, also die{np} Ministerposten, aus ihren{dp} Reihen besetzt, also Gegenstände des{gn} Beamtenavancements, wurden.",
+    "zh": "官员们的利益在于：领导职位，也就是部长职位，也从他们的行列中任命，也就是成为官员晋升的对象。",
+    "n": [
+     "拆解：Die Beamten hatten das Interesse daran, daß …（官员们的利益在于……；daran 预指 daß）。daß-从句被动：daß auch die leitenden Stellen, also die Ministerposten, aus ihren Reihen besetzt … wurden（领导职位即部长职位也从他们的行列中任命）, also Gegenstände des Beamtenavancements（即成为官员晋升的对象；wurden 两部分共用）。",
+     "der Ministerposten：部长职位。die Reihe：行列（aus ihren Reihen：从他们当中）。besetzen：任命、占据。das Beamtenavancement：官员的晋升（Avancement 来自法语）。"
+    ]
+   },
+   {
+    "de": "Der{nm} Monarch seinerseits hatte das{an} Interesse daran, die{ap} Minister nach seinem{dn} Ermessen auch aus den{dp} Reihen der{gp} ihm ergebenen Beamten ernennen zu können.",
+    "zh": "君主这方面的利益则在于：能够按照自己的判断，也从忠于他的官员中任命部长。",
+    "n": [
+     "der Monarch：君主（弱变化）。seinerseits：他那方面。das Interesse daran, … zu können：……的利益（daran 预指 zu-不定式）。nach seinem Ermessen：按照他的判断。jm. ergeben：忠于某人的。ernennen：任命。"
+    ]
+   },
+   {
+    "de": "Beide Teile aber waren daran interessiert, daß die{nf} politische Leitung dem{dn} Parlament einheitlich und geschlossen gegenübertrat, also: das{nn} Kollegialsystem durch einen{am} einheitlichen Kabinettschef ersetzt wurde.",
+    "zh": "而双方都希望：政治领导统一而团结地面对议会，也就是说，用一个统一的内阁首脑来取代合议制。",
+    "n": [
+     "an etw. interessiert sein：希望、关心（daran 预指 daß）。jm. gegenübertreten：面对某人（gegenübertrat：从句末合写）。einheitlich und geschlossen：统一而团结地。",
+     "das Kollegialsystem：合议制。der Kabinettschef：内阁首脑。ersetzen：取代（ersetzt wurde：被动）。"
+    ]
+   },
+   {
+    "de": "Der{nm} Monarch bedurfte überdies, schon um dem{dm} Parteikampf und den{dp} Parteiangriffen rein formell enthoben zu bleiben, einer{gf} ihn deckenden verantwortlichen, das heißt: dem{dn} Parlament Rede stehenden und ihm entgegentretenden, mit den{dp} Parteien verhandelnden Einzelpersönlichkeit.",
+    "zh": "此外，君主仅仅为了在形式上置身于党派斗争和党派攻击之外，也需要一个掩护他的负责人物，也就是说：一个向议会答辩、与议会对峙、同政党谈判的个人。",
+    "n": [
+     "拆解：Der Monarch bedurfte überdies … einer … Einzelpersönlichkeit（此外君主需要一个人物；bedürfen + 第二格，宾语在最后）。目的 schon um dem Parteikampf und den Parteiangriffen rein formell enthoben zu bleiben（仅仅为了在形式上置身于党派斗争和攻击之外；einer Sache enthoben：免于，第三格）。Einzelpersönlichkeit 前的长扩展定语：ihn deckenden verantwortlichen（掩护他的、负责的）, das heißt: dem Parlament Rede stehenden und ihm entgegentretenden（即向议会答辩、与之对峙的）, mit den Parteien verhandelnden（同政党谈判的）。",
+     "überdies：此外。der Parteiangriff：党派攻击。enthoben：免于……的。decken：掩护。verantwortlich：负责的。jm. Rede stehen：向某人答辩。jm. entgegentreten：与某人对峙。verhandeln：谈判。"
+    ]
+   },
+   {
+    "de": "Alle{np} diese{np} Interessen wirkten hier zusammen{sep} in der{df} gleichen Richtung: ein{nm} einheitlich führender Beamtenminister entstand.",
+    "zh": "所有这些利益在这里朝着同一个方向共同起作用：于是产生了一位统一领导的官员部长。",
+    "n": [
+     "zusammenwirken：共同起作用（wirkten … zusammen：可分）。die Richtung：方向。der Beamtenminister：官员出身的部长（德国的特点）。entstehen：产生（entstand：过去式）。"
+    ]
+   }
+  ]
+ },
+ {
+  "h": "十九 · 英国的内阁与美国的总统",
+  "t": "Kabinett und Präsident",
+  "k": "19",
+  "pg": "1919 版 S. 18–19",
+  "sum": "在议会压倒君主的英国，统一的趋势更强：内阁是多数党的执行委员会，首相是对一切决定负责的领袖。这个制度传到了欧洲大陆；美国则走了另一条路：总统由人民直接选出。",
+  "s": [
+   {
+    "de": "Noch stärker wirkte in der{df} Richtung der{gf} Vereinheitlichung die{nf} Entwicklung der{gf} Parlamentsmacht da, wo sie{she} – wie in England – die{af} Oberhand gegenüber dem{dm} Monarchen gewann.",
+    "zh": "在议会权力压倒君主的地方——比如英国——议会权力的发展朝统一方向起的作用更强。",
+    "n": [
+     "主语 die Entwicklung der Parlamentsmacht 在动词 wirkte 后面。da, wo …：在……的地方。die Oberhand gewinnen：占上风（gewann：过去式）。die Vereinheitlichung：统一化。die Parlamentsmacht：议会权力。"
+    ]
+   },
+   {
+    "de": "Hier entwickelte sich{refl} das{nn} »Kabinett« mit dem{dm} einheitlichen Parlamentsführer, dem{dm} »Leader«, an der{df} Spitze, als ein{nm} Ausschuß der{gf} von den{dp} offiziellen Gesetzen ignorierten, tatsächlich aber allein politisch entscheidenden Macht: der{gf} jeweils im Besitz der{gf} Mehrheit befindlichen Partei.",
+    "zh": "在这里形成了以统一的议会领袖即「Leader」为首的「内阁」，它是一个委员会，属于那种被官方法律所忽视、实际上却唯一起政治决定作用的力量：每一次掌握多数的那个政党。",
+    "n": [
+     "拆解：Hier entwickelte sich das »Kabinett«（这里形成了内阁）+ mit dem einheitlichen Parlamentsführer, dem »Leader«, an der Spitze（以统一的议会领袖为首）, als ein Ausschuß der … Macht（作为一种力量的委员会）。Macht 前的扩展定语：von den offiziellen Gesetzen ignoriert, tatsächlich aber allein politisch entscheidend（被官方法律忽视、实际上却唯一起决定作用的）。冒号后点明：der jeweils im Besitz der Mehrheit befindlichen Partei（每一次掌握多数的政党）。",
+     "der Parlamentsführer：议会领袖。Leader：英语「领袖」，指首相。der Ausschuß：委员会（今天写 Ausschuss）。ignorieren：忽视。jeweils：每一次。sich befinden：处于（befindlich：处于……中的）。"
+    ]
+   },
+   {
+    "de": "Die{np} offiziellen kollegialen Körperschaften waren eben als solche keine{np} Organe der{gf} wirklich herrschenden Macht: der{gf} Partei, und konnten also nicht Träger der{gf} wirklichen Regierung sein.",
+    "zh": "官方的合议机构作为这样的机构，恰恰不是真正统治的力量即政党的机关，因而也不能是真正政府的承担者。",
+    "n": [
+     "als solche：作为这样的东西。das Organ：机关（复数 Organe）。冒号后 der Partei 是 Macht 的同位语（属格）。der Träger：承担者。"
+    ]
+   },
+   {
+    "de": "Eine{nf} herrschende Partei bedurfte vielmehr, um im Innern die{af} Gewalt zu behaupten und nach außen große Politik treiben zu können, eines{gn} schlagkräftigen, nur aus ihren{dp} wirklich führenden Männern zusammengesetzten, vertraulich verhandelnden Organes: eben des{gn} Kabinetts, der{df} Öffentlichkeit, vor allem der{df} parlamentarischen Öffentlichkeit gegenüber aber eines{gm} für alle{ap} Entschließungen verantwortlichen Führers: des{gm} Kabinettchefs.",
+    "zh": "毋宁说，一个执政党为了在内维持权力、对外推行大政治，需要一个有战斗力的、只由它真正的领袖人物组成的、秘密商议的机关：这就是内阁；而面对公众，尤其是议会的公众，它需要一个对一切决定负责的领袖：内阁首脑。",
+    "n": [
+     "拆解：Eine herrschende Partei bedurfte vielmehr … eines … Organes（执政党需要一个机关；bedürfen + 第二格）。目的 um im Innern die Gewalt zu behaupten und nach außen große Politik treiben zu können（为了在内维持权力、对外推行大政治）。Organes 前三个扩展定语：schlagkräftig（有战斗力的）、nur aus ihren wirklich führenden Männern zusammengesetzt（只由真正的领袖人物组成的）、vertraulich verhandelnd（秘密商议的）；冒号后 eben des Kabinetts（就是内阁）。后半省略了 bedurfte：der Öffentlichkeit … gegenüber aber eines für alle Entschließungen verantwortlichen Führers（面对公众，则需要一个对一切决定负责的领袖）: des Kabinettchefs（内阁首脑）。",
+     "im Innern / nach außen：对内 / 对外。schlagkräftig：有战斗力的。zusammengesetzt：组成的。vertraulich：秘密的、私下的。die Öffentlichkeit：公众。die Entschließung：决定。"
+    ]
+   },
+   {
+    "de": "Dies englische System ist dann in Gestalt der{gp} parlamentarischen Ministerien auf den{am} Kontinent übernommen worden, und nur in Amerika und den{dp} von da aus beeinflußten Demokratien wurde ihm ein{nn} ganz heterogenes System gegenübergestellt, welches{nn} den{am} erkorenen Führer der{gf} siegenden Partei durch direkte Volkswahl an die{af} Spitze des{gm} von ihm ernannten Beamtenapparates stellte und ihn nur in Budget und Gesetzgebung an die{af} Zustimmung des{gn} Parlaments band.",
+    "zh": "这个英国制度后来以议会制内阁的形式被欧洲大陆接受了；只有在美国以及受它影响的民主国家里，出现了一个与之完全不同的制度：它通过人民直接选举，把获胜政党选出的领袖放到由他任命的官员机构的顶端，只在预算和立法上要求他得到议会的同意。",
+    "n": [
+     "拆解：两半。① Dies englische System ist dann in Gestalt der parlamentarischen Ministerien auf den Kontinent übernommen worden（这个英国制度以议会制内阁的形式被大陆接受；被动完成时）。② und nur in Amerika und den von da aus beeinflußten Demokratien wurde ihm ein ganz heterogenes System gegenübergestellt（只有在美国及受它影响的民主国家，才与之对立地出现了一个完全不同的制度；jm. etw. gegenüberstellen）+ 关系从句两个谓语：welches den erkorenen Führer der siegenden Partei durch direkte Volkswahl an die Spitze des von ihm ernannten Beamtenapparates stellte（它通过人民直选，把获胜政党选出的领袖放到他任命的官员机构顶端）und ihn nur in Budget und Gesetzgebung an die Zustimmung des Parlaments band（只在预算和立法上要他得到议会同意；an etw. binden）。",
+     "dies：这个（不变格的短形式）。in Gestalt + 第二格：以……的形式。das Ministerium：内阁、部（复数 Ministerien）。der Kontinent：（欧洲）大陆。übernehmen：接受。",
+     "von da aus beeinflußt：受那里影响的。heterogen：不同质的。erkoren：选出的（旧词）。die Volkswahl：人民选举。der Beamtenapparat：官员机构。das Budget：预算。die Gesetzgebung：立法。die Zustimmung：同意。binden：约束（band：过去式）。"
+    ]
+   }
+  ]
+ },
+ {
+  "h": "二十 · 政治官员与专业官员",
+  "t": "Politische Beamte",
+  "k": "20",
+  "pg": "1919 版 S. 19–20",
+  "sum": "政治变成了「经营」，于是公职人员分成两类：专业官员，和随时可以调走、免职的「政治官员」。后者负责维持「秩序」，也就是现存的统治关系。",
+  "s": [
+   {
+    "de": "Die{nf} Entwicklung der{gf} Politik zu einem{dm} »Betrieb«, der{rel:nm} eine{af} Schulung im Kampf um die{af} Macht und in dessen Methoden erforderte, so wie sie{her} das{nn} moderne Parteiwesen entwickelte, bedingte nun die{af} Scheidung der{gp} öffentlichen Funktionäre in zwei, allerdings keineswegs schroff, aber doch deutlich geschiedene Kategorien: Fachbeamte einerseits, »politische Beamte« anderseits.",
+    "zh": "政治发展成为一种「经营」，它要求在权力斗争及其方法上受过训练（正如现代政党制度所培养的那样）；这一发展使公职人员分成了两类，两者的区分虽然绝不是截然的，但却是清楚的：一方面是专业官员，另一方面是「政治官员」。",
+    "n": [
+     "拆解：主语 Die Entwicklung der Politik zu einem »Betrieb«（政治发展成为一种经营）+ 关系从句 der eine Schulung im Kampf um die Macht und in dessen Methoden erforderte（它要求在权力斗争及其方法上受训练）+ 插入 so wie sie das moderne Parteiwesen entwickelte（正如现代政党制度所培养的那种训练；sie = Schulung，宾格）→ bedingte nun die Scheidung der öffentlichen Funktionäre in zwei … Kategorien（导致公职人员分为两类）；Kategorien 前插入 allerdings keineswegs schroff, aber doch deutlich geschiedene（虽然绝不截然、却清楚地分开的）。冒号后：Fachbeamte einerseits, »politische Beamte« anderseits。",
+     "die Schulung：训练。in dessen Methoden：在它的方法上（dessen = 权力斗争的）。das Parteiwesen：政党制度。die Scheidung：区分。öffentlich：公共的。schroff：截然的、生硬的。geschieden：分开的。"
+    ]
+   },
+   {
+    "de": "Die{np} im eigentlichen Wortsinn »politischen« Beamten sind äußerlich in der{df} Regel daran kenntlich, daß sie{they} jederzeit beliebig versetzt und entlassen oder doch »zur Disposition gestellt« werden können, wie die{np} französischen Präfekten und die{np} ihnen gleichartigen Beamten anderer Länder, im schroffsten Gegensatz gegen die{af} »Unabhängigkeit« der{gp} Beamten mit richterlicher Funktion.",
+    "zh": "严格意义上的「政治」官员，从外表上看通常可以这样辨认：他们随时可以被任意调动和免职，或者至少「被安排待命」，就像法国的省长以及其他国家与之相当的官员那样；这与担任司法职能的官员的「独立性」形成最尖锐的对立。",
+    "n": [
+     "拆解：Die im eigentlichen Wortsinn »politischen« Beamten sind äußerlich in der Regel daran kenntlich, daß …（严格意义上的政治官员通常可以从……辨认出来；daran 预指 daß）。daß sie jederzeit beliebig versetzt und entlassen oder doch »zur Disposition gestellt« werden können（他们随时可被任意调动和免职，或至少被安排待命；被动 + 情态）。比较 wie die französischen Präfekten und die ihnen gleichartigen Beamten anderer Länder（像法国省长和别国同类官员）。最后 im schroffsten Gegensatz gegen die »Unabhängigkeit« der Beamten mit richterlicher Funktion（与法官的独立性形成最尖锐的对立）。",
+     "der Wortsinn：词义。kenntlich：可辨认的。beliebig：任意地。versetzen：调动。entlassen：免职。zur Disposition stellen：安排待命（来自法语，暂时停职但保留待遇）。",
+     "gleichartig：同类的。die Unabhängigkeit：独立性。richterlich：司法的、法官的。"
+    ]
+   },
+   {
+    "de": "In England gehören jene{np} Beamten dazu, die{rel:np} nach fester Konvention bei einem{dm} Wechsel der{gf} Parlamentsmehrheit und also des{gn} Kabinetts aus den{dp} Ämtern scheiden.",
+    "zh": "在英国，属于这一类的是这样一些官员：按照固定的惯例，议会多数更替、因而内阁更替时，他们就离职。",
+    "n": [
+     "dazu gehören：属于这一类。die Konvention：惯例。der Wechsel：更替。die Parlamentsmehrheit：议会多数。aus dem Amt scheiden：离职。"
+    ]
+   },
+   {
+    "de": "Besonders diejenigen{np} pflegen dahin zu rechnen, deren Kompetenz die{af} Besorgung der{gf} allgemeinen »inneren Verwaltung« umfaßt; und der{nm} »politische« Bestandteil daran ist vor allem die{nf} Aufgabe der{gf} Erhaltung der{gf} »Ordnung« im Lande, also: der{gp} bestehenden Herrschaftsverhältnisse.",
+    "zh": "尤其是那些职权涵盖一般「内政」管理的官员，通常被算在这一类；而其中「政治」的部分，首先是维持国内「秩序」的任务，也就是维持现存的统治关系。",
+    "n": [
+     "拆解：Besonders diejenigen pflegen dahin zu rechnen（尤其是那些人通常算在这一类；dahin rechnen）+ 关系从句 deren Kompetenz die Besorgung der allgemeinen »inneren Verwaltung« umfaßt（他们的职权涵盖一般内政的管理）。分号后 der »politische« Bestandteil daran ist vor allem die Aufgabe der Erhaltung der »Ordnung« im Lande（其中政治的部分首先是维持国内秩序）, also: der bestehenden Herrschaftsverhältnisse（也就是现存的统治关系）。",
+     "die Kompetenz：职权。umfassen：涵盖（umfaßt：今天写 umfasst）。der Bestandteil：组成部分。die Aufgabe：任务。das Herrschaftsverhältnis：统治关系（复数 -verhältnisse）。bestehend：现存的。",
+     "Weber 给「秩序」加引号：所谓维持秩序，就是维持现在谁统治谁。"
+    ]
+   },
+   {
+    "de": "In Preußen hatten diese{np} Beamten nach dem{dm} Puttkamerschen Erlaß, bei Vermeidung der{gf} Maßregelung, die{af} Pflicht, »die{af} Politik der{gf} Regierung zu vertreten«, und wurden, ebenso wie in Frankreich die{np} Präfekten, als amtlicher Apparat zur Beeinflussung der{gp} Wahlen benutzt.",
+    "zh": "在普鲁士，根据普特卡默的法令，这些官员有义务「代表政府的政策」，否则就要受处分；而且他们和法国的省长一样，被当作影响选举的官方机器来使用。",
+    "n": [
+     "拆解：两个谓语：① In Preußen hatten diese Beamten … die Pflicht, »die Politik der Regierung zu vertreten«（在普鲁士，这些官员有义务代表政府的政策）；插入 nach dem Puttkamerschen Erlaß（根据普特卡默的法令）、bei Vermeidung der Maßregelung（否则受处分；字面「为避免处分」）② und wurden … als amtlicher Apparat zur Beeinflussung der Wahlen benutzt（被当作影响选举的官方机器使用；被动）。",
+     "Preußen：普鲁士。Puttkamersch：普特卡默的（普特卡默是普鲁士内政部长，1882 年颁布法令要求政治官员支持政府）。der Erlaß：法令。die Maßregelung：处分。",
+     "vertreten：代表、维护。amtlich：官方的。die Beeinflussung：影响。benutzen：使用。"
+    ]
+   },
+   {
+    "de": "Die{np} meisten »politischen« Beamten teilten zwar nach deutschem System – im Gegensatz zu anderen Ländern – die{af} Qualität aller anderen insofern, als die{nf} Erlangung auch dieser{gp} Ämter an akademisches Studium, Fachprüfungen und einen{am} bestimmten Vorbereitungsdienst gebunden war.",
+    "zh": "按照德国的制度——与其他国家不同——大多数「政治」官员固然与其他所有官员具有同样的资格，因为获得这些职位也要以大学学习、专业考试和一定的见习期为条件。",
+    "n": [
+     "拆解：Die meisten »politischen« Beamten teilten zwar … die Qualität aller anderen insofern, als …（大多数政治官员固然在……这一点上与其他所有官员资格相同；insofern … als：就……而言）。als-从句 die Erlangung auch dieser Ämter an akademisches Studium, Fachprüfungen und einen bestimmten Vorbereitungsdienst gebunden war（获得这些职位也以大学学习、专业考试和见习期为条件）。",
+     "teilen：分享、具有同样的。die Qualität：资格。die Erlangung：获得。akademisch：大学的。das Studium：学习。die Fachprüfung：专业考试。der Vorbereitungsdienst：见习期。an etw. gebunden sein：以……为条件。"
+    ]
+   }
+  ]
+ },
+ {
+  "h": "二十一 · 部长是外行",
+  "t": "Der Minister",
+  "k": "21",
+  "pg": "1919 版 S. 20",
+  "sum": "德国唯一不要求专业资格的，是政治机器的首脑：部长。部长在专业上远不如下属；但这并不荒谬：部长代表的是政治上的力量格局，负责给出政治方向。",
+  "s": [
+   {
+    "de": "Dieses{nn} spezifische Merkmal des{gn} modernen Fachbeamtentums fehlt bei uns nur den{dp} Chefs des{gm} politischen Apparates: den{dp} Ministern.",
+    "zh": "现代专业官员阶层的这一特有标志，在我们这里只有政治机器的首脑——部长们——才没有。",
+    "n": [
+     "das Merkmal：标志。jm. fehlen：某人缺少（den Chefs：第三格）。bei uns：在我们这里（德国）。der Chef：首脑（复数 Chefs）。"
+    ]
+   },
+   {
+    "de": "Preußischer Kultusminister konnte man schon unter dem{dn} alten Regime sein, ohne selbst jemals eine{af} höhere Unterrichtsanstalt besucht zu haben, während man Vortragender Rat grundsätzlich nur auf Grund der{gp} vorgeschriebenen Prüfungen werden konnte.",
+    "zh": "早在旧政权下，一个人可以当普鲁士文化部长，自己却从未上过高等学校；而要当一名报告参事，原则上必须通过规定的考试。",
+    "n": [
+     "拆解：表语提前：Preußischer Kultusminister konnte man schon unter dem alten Regime sein（早在旧政权下，人就可以当普鲁士文化部长）, ohne selbst jemals eine höhere Unterrichtsanstalt besucht zu haben（自己却从未上过高等学校；ohne … zu + 完成式不定式）。对照 während man Vortragender Rat grundsätzlich nur auf Grund der vorgeschriebenen Prüfungen werden konnte（而当报告参事原则上只有通过规定的考试才行）。",
+     "preußisch：普鲁士的。der Kultusminister：文化部长（主管教育和宗教）。das Regime：政权（unter dem alten Regime：帝制时期）。die Unterrichtsanstalt：学校。besuchen：上（学）。",
+     "der Vortragende Rat：报告参事（部里向部长报告事务的高级专业官员）。grundsätzlich：原则上。vorgeschrieben：规定的。"
+    ]
+   },
+   {
+    "de": "Der{nm} fachgeschulte Dezernent und Vortragende Rat war selbstverständlich – z. B. unter Althoff im preußischen Unterrichtsministerium – unendlich viel informierter über die{ap} eigentlichen technischen Probleme des{gn} Faches als sein{nm} Chef.",
+    "zh": "受过专业训练的主管官员和报告参事，对本行真正的技术问题，当然比他的首长了解得多得多——比如在阿尔特霍夫主持下的普鲁士教育部。",
+    "n": [
+     "der Dezernent：主管官员。informiert über：了解……的（informierter：比较级）。unendlich viel：无比地。das Fach：行业、专业。",
+     "Althoff：Friedrich Althoff（1839–1908），普鲁士教育部的高级官员，长期实际主管大学事务，Weber 本人也和他打过交道。das Unterrichtsministerium：教育部。"
+    ]
+   },
+   {
+    "de": "In England stand es{expl} damit nicht anders.",
+    "zh": "在英国，情况也并无不同。",
+    "n": [
+     "es steht damit：情况是（stand：过去式）。nicht anders：并无不同。"
+    ]
+   },
+   {
+    "de": "Er war infolgedessen auch für alle{ap} Alltagsbedürfnisse der{nm} Mächtigere.",
+    "zh": "因此，在一切日常需要上，他也是更有权力的那一个。",
+    "n": [
+     "er：指专业官员。infolgedessen：因此。das Alltagsbedürfnis：日常需要。der Mächtigere：更有权力的人（比较级名词化）。"
+    ]
+   },
+   {
+    "de": "Das{dem:nn} war auch nichts an sich Widersinniges.",
+    "zh": "这本身也没有什么荒谬的。",
+    "n": [
+     "nichts … Widersinniges：没有什么荒谬的东西（nichts + 名词化形容词）。an sich：本身。widersinnig：荒谬的。"
+    ]
+   },
+   {
+    "de": "Der{nm} Minister war eben der{nm} Repräsentant der{gf} politischen Machtkonstellation, hatte diese{ap} politische Maßstäbe zu vertreten und an die{ap} Vorschläge seiner{gp} unterstellten Fachbeamten anzulegen oder ihnen die{ap} entsprechenden Direktiven politischer Art zu geben.",
+    "zh": "部长恰恰是政治力量格局的代表，他必须代表这种格局的政治标准，并用它们来衡量下属专业官员的建议，或者给他们相应的政治性指示。",
+    "n": [
+     "拆解：Der Minister war eben der Repräsentant der politischen Machtkonstellation（部长恰恰是政治力量格局的代表）, hatte … zu vertreten und … anzulegen oder … zu geben（必须代表、衡量或给出；haben + zu = 必须）：diese politische Maßstäbe zu vertreten（代表这些政治标准）· an die Vorschläge seiner unterstellten Fachbeamten anzulegen（用来衡量下属专业官员的建议；Maßstäbe an etw. anlegen）· ihnen die entsprechenden Direktiven politischer Art zu geben（给他们相应的政治性指示）。",
+     "der Repräsentant：代表。die Machtkonstellation：力量格局。der Maßstab：标准（复数 Maßstäbe；diese politische Maßstäbe：初版的词尾，今天写 diese politischen）。der Vorschlag：建议。unterstellt：下属的。die Direktive：指示。entsprechend：相应的。"
+    ]
+   }
+  ]
+ },
+ {
+  "h": "二十二 · 企业与革命国家",
+  "t": "Wirtschaftsbetrieb und Revolutionsstaat",
+  "k": "22",
+  "pg": "1919 版 S. 20–21",
+  "sum": "Weber 用两个类比结束这一章：股份公司里，股东大会和监事会只给方向，不管技术；现在的革命政府让完全的外行掌握行政，把专业官员当作执行的手——这也不是原则上的新东西。",
+  "s": [
+   {
+    "de": "Ganz ähnlich steht es{expl} ja in einem{dm} privaten Wirtschaftsbetrieb: der{nm} eigentliche »Souverän«, die{nf} Aktionärversammlung, ist in der{df} Betriebsführung ebenso einflußlos wie ein{nn} von Fachbeamten regiertes »Volk«, und die{np} für die{af} Politik des{gm} Betriebes ausschlaggebenden Persönlichkeiten, der{nm} von Banken beherrschte »Aufsichtsrat«, geben nur die{ap} wirtschaftlichen Direktiven und liest die{ap} Persönlichkeiten für die{af} Verwaltung aus{sep}, ohne aber selbst imstande zu sein, den{am} Betrieb technisch zu leiten.",
+    "zh": "私人经济企业里的情况也完全类似：真正的「主权者」即股东大会，在企业管理中就像一个由专业官员统治的「人民」一样没有影响力；而对企业政策起决定作用的人物，即由银行控制的「监事会」，只给出经济上的指示，挑选管理人员，自己却没有能力从技术上领导企业。",
+    "n": [
+     "拆解：Ganz ähnlich steht es ja in einem privaten Wirtschaftsbetrieb（私人企业里情况完全类似）。冒号后两句：① der eigentliche »Souverän«, die Aktionärversammlung, ist in der Betriebsführung ebenso einflußlos wie ein von Fachbeamten regiertes »Volk«（真正的主权者即股东大会，在企业管理中像被专业官员统治的人民一样没有影响力）② und die für die Politik des Betriebes ausschlaggebenden Persönlichkeiten, der von Banken beherrschte »Aufsichtsrat«（对企业政策起决定作用的人物即银行控制的监事会）, geben nur die wirtschaftlichen Direktiven und liest die Persönlichkeiten für die Verwaltung aus（只给经济指示并挑选管理人员；geben 复数、liest 单数：前者按 Persönlichkeiten、后者按 Aufsichtsrat，初版如此）, ohne aber selbst imstande zu sein, den Betrieb technisch zu leiten（自己却没有能力从技术上领导企业）。",
+     "der Souverän：主权者。die Aktionärversammlung：股东大会。die Betriebsführung：企业管理。einflußlos：没有影响力的。regieren：统治。",
+     "ausschlaggebend：起决定作用的。die Persönlichkeit：人物。beherrschen：控制。der Aufsichtsrat：监事会。auslesen：挑选（liest … aus：可分）。imstande sein：有能力。"
+    ]
+   },
+   {
+    "de": "Insofern bedeutet auch die{nf} jetzige Struktur des{gm} Revolutionsstaates, welcher{nm} absoluten Dilettanten, kraft ihrer{gf} Verfügung über die{ap} Maschinengewehre, die{af} Macht über die{af} Verwaltung in die{af} Hand gibt und die{ap} fachgeschulten Beamten nur als ausführende Köpfe und Hände benutzen möchte, keine{af} grundsätzliche Neuerung.",
+    "zh": "就此而言，现在革命国家的结构也不意味着原则上的创新：它凭着对机枪的支配，把管理行政的权力交到完全的外行手里，而只想把受过专业训练的官员当作执行的头脑和双手来使用。",
+    "n": [
+     "拆解：Insofern bedeutet auch die jetzige Struktur des Revolutionsstaates … keine grundsätzliche Neuerung（就此而言，现在革命国家的结构也不是原则上的创新；宾语 keine … Neuerung 在最后）。Revolutionsstaates 后关系从句两个谓语：welcher absoluten Dilettanten, kraft ihrer Verfügung über die Maschinengewehre, die Macht über die Verwaltung in die Hand gibt（它凭着对机枪的支配把行政权交给完全的外行；jm. etw. in die Hand geben，absoluten Dilettanten = 复数第三格）und die fachgeschulten Beamten nur als ausführende Köpfe und Hände benutzen möchte（只想把专业官员当作执行的头脑和双手）。",
+     "insofern：就此而言。jetzig：现在的。der Revolutionsstaat：革命国家（指 1918–1919 年的德国革命政府和工兵代表会）。absolut：完全的。das Maschinengewehr：机枪（复数 Maschinengewehre）。",
+     "ausführend：执行的。der Kopf：头（复数 Köpfe）。grundsätzlich：原则上的。die Neuerung：创新。"
+    ]
+   },
+   {
+    "de": "Die{np} Schwierigkeiten dieses{gn} jetzigen Systems liegen anderswo als darin, sollen uns aber heute nichts angehen.",
+    "zh": "现在这个制度的困难在别的地方，而不在这里；不过今天这些与我们无关。",
+    "n": [
+     "die Schwierigkeit：困难。anderswo als darin：在别处而不在这里。jn. nichts angehen：与某人无关（sollen … angehen：不应当跟我们有关，即今天不谈）。",
+     "第 3 章到此结束。下一章讲职业政治家的几种历史类型：教士、文人、宫廷贵族、绅士、法学家。"
+    ]
+   }
+  ]
  }
 ]
