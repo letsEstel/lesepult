@@ -654,5 +654,200 @@
     ]
    }
   ]
+ },
+ {
+  "h": "十四 · 专业官员的兴起",
+  "t": "Das Fachbeamtentum",
+  "k": "14",
+  "pg": "1919 版 S. 16",
+  "sum": "读前：与分赃式的政党官职相对，另一条发展线是现代的专业官员：受过长期专业训练、有自己的等级荣誉。没有他们，国家会陷入腐败，连技术上也运转不了。",
+  "s": [
+   {
+    "de": "Dem{dem:dn} steht nun aber gegenüber{sep} die{nf} Entwicklung des{gn} modernen Beamtentums zu einer{df} spezialistisch durch langjährige Vorbildung fachgeschulten hochqualifizierten geistigen Arbeiterschaft mit einer{df} im Interesse der{gf} Integrität hochentwickelten ständischen Ehre, ohne welche{af} die{nf} Gefahr furchtbarer Korruption und gemeinen Banausentums als Schicksal über uns schweben und auch die{af} rein technische Leistung des{gm} Staatsapparates bedrohen würde, dessen Bedeutung für die{af} Wirtschaft, zumal mit zunehmender Sozialisierung, stetig gestiegen ist und weiter steigen wird.",
+    "zh": "但与此相对的，是现代官员阶层的发展：它发展成为一支经过长期预备教育、受过专业训练、高度合格的脑力劳动者队伍，并且为了廉洁而发展出高度的等级荣誉；没有这种荣誉，可怕的腐败和庸俗市侩作风的危险就会作为命运笼罩在我们头上，也会威胁国家机器纯技术上的运作——而国家机器对经济的意义一直在稳步增长，并且还会继续增长，尤其是随着社会化的推进。",
+    "n": [
+     "拆解：Dem steht nun aber gegenüber die Entwicklung des modernen Beamtentums（但与此相对的是现代官员阶层的发展；gegenüberstehen + 第三格，Dem = 与此，主语在动词后）。发展成什么：zu einer … geistigen Arbeiterschaft（成为一支脑力劳动者队伍），前面三个扩展定语：spezialistisch durch langjährige Vorbildung fachgeschult（经长期预备教育而专业化训练的）、hochqualifiziert（高度合格的）、geistig（脑力的）。带有什么：mit einer im Interesse der Integrität hochentwickelten ständischen Ehre（带有为了廉洁而高度发展的等级荣誉）。Ehre 后关系从句 ohne welche … würde（没有这种荣誉，……就会……）：die Gefahr furchtbarer Korruption und gemeinen Banausentums als Schicksal über uns schweben（可怕的腐败和庸俗市侩的危险会作为命运笼罩我们）und auch die rein technische Leistung des Staatsapparates bedrohen（也会威胁国家机器的技术运作）。最后 Staatsapparates 后关系从句 dessen Bedeutung für die Wirtschaft … stetig gestiegen ist und weiter steigen wird（它对经济的意义一直在增长，还会继续增长）。",
+     "das Beamtentum：官员阶层。spezialistisch：专门化地。langjährig：多年的。die Vorbildung：预备教育。fachgeschult：受过专业训练的。hochqualifiziert：高度合格的。die Arbeiterschaft：劳动者队伍。",
+     "die Integrität：廉洁、正直。hochentwickelt：高度发展的。die Korruption：腐败。das Banausentum：庸俗市侩作风。schweben：悬在、笼罩。der Staatsapparat：国家机器。bedrohen：威胁。",
+     "zunehmend：增长的。die Sozialisierung：社会化（1919 年讨论的企业公有化，见第 2 章第七节）。stetig：稳步地。"
+    ]
+   },
+   {
+    "de": "Die{nf} Dilettantenverwaltung durch Beutepolitiker, welche{nf} in den{dp} Vereinigten Staaten Hunderttausende von Beamten, bis zum Postboten hinunter, je nach dem{dm} Ausfall der{gf} Präsidentenwahl, wechseln ließ und den{am} lebenslänglichen Berufsbeamten nicht kannte, ist längst durch die{af} Civil Service Reform durchlöchert.",
+    "zh": "由分赃政治家进行的外行行政——在美国，它曾按照总统选举的结果撤换几十万官员，一直到邮递员，并且不知道有终身职业官员——早已被文官制度改革打破了。",
+    "n": [
+     "拆解：主语 Die Dilettantenverwaltung durch Beutepolitiker（由分赃政治家进行的外行行政）+ 关系从句两个谓语：welche in den Vereinigten Staaten Hunderttausende von Beamten … wechseln ließ（它在美国让几十万官员被撤换；wechseln lassen）und den lebenslänglichen Berufsbeamten nicht kannte（不知有终身职业官员）。→ ist längst durch die Civil Service Reform durchlöchert（早已被文官制度改革打破）。插入 bis zum Postboten hinunter（一直到邮递员）、je nach dem Ausfall der Präsidentenwahl（按照总统选举的结果）。",
+     "die Dilettantenverwaltung：外行行政（der Dilettant：外行）。der Beutepolitiker：分赃政治家（Beute：战利品）。die Vereinigten Staaten：美国。Hunderttausende：几十万。der Postbote：邮递员。der Ausfall：结果。lebenslänglich：终身的。der Berufsbeamte：职业官员。",
+     "Civil Service Reform：英语「文官制度改革」，指美国 1883 年起推行的以考试录用、终身任职的文官制度。durchlöchern：打穿、打破（durchlöchert：过去分词）。"
+    ]
+   },
+   {
+    "de": "Rein technische, unabweisliche Bedürfnisse der{gf} Verwaltung bedingen diese{af} Entwicklung.",
+    "zh": "行政上纯技术的、无法拒绝的需要决定了这一发展。",
+    "n": [
+     "unabweislich：无法拒绝的。das Bedürfnis：需要（复数 Bedürfnisse）。bedingen：决定、制约。"
+    ]
+   }
+  ]
+ },
+ {
+  "h": "十五 · 五百年的历史",
+  "t": "Ein halbes Jahrtausend",
+  "k": "15",
+  "pg": "1919 版 S. 16–17",
+  "sum": "专业官员在欧洲经过五百年才形成：先是财政，然后是军事和司法。君主靠他们战胜了各等级，却也因此逐渐把自己的权力让给了他们。",
+  "s": [
+   {
+    "de": "In Europa ist das{nn} arbeitsteilige Fachbeamtentum in einer{df} Entwicklung von einem{dn} halben Jahrtausend allmählich entstanden.",
+    "zh": "在欧洲，分工的专业官员阶层是在长达半个千年的发展中逐渐形成的。",
+    "n": [
+     "arbeitsteilig：分工的。das Fachbeamtentum：专业官员阶层。das Jahrtausend：千年（ein halbes Jahrtausend：五百年）。entstehen：形成（ist … entstanden：完成时）。"
+    ]
+   },
+   {
+    "de": "Die{np} italienischen Städte und Signorien machten den{am} Anfang; von den{dp} Monarchien die{np} normannischen Erobererstaaten.",
+    "zh": "意大利的城市和领主国开了头；在君主国中，是诺曼人的征服国家开了头。",
+    "n": [
+     "die Signorie：（意大利的）领主国、僭主统治（复数 Signorien）。den Anfang machen：开头。",
+     "分号后省略了 machten den Anfang。die Monarchie：君主国。normannisch：诺曼的。der Erobererstaat：征服者国家（如诺曼人建立的英格兰和西西里王国）。"
+    ]
+   },
+   {
+    "de": "Bei den{dp} Finanzen der{gp} Fürsten geschah der{nm} entscheidende Schritt.",
+    "zh": "决定性的一步发生在君主的财政上。",
+    "n": [
+     "die Finanzen：财政（复数）。geschehen：发生（geschah：过去式）。der Schritt：步骤。"
+    ]
+   },
+   {
+    "de": "Bei den{dp} Verwaltungsreformen des{gm} Kaisers Max kann man sehen, wie schwer selbst unter dem{dm} Druck der{gf} äußersten Not und Türkenherrschaft es{expl} den{dp} Beamten gelang, auf diesem{dn} Gebiet, welches{nn} ja den{am} Dilettantismus eines{gm} Herrschers, der{rel:nm} damals noch vor allem: ein{nm} Ritter war, am wenigsten vertrug, den{am} Fürsten zu depossedieren.",
+    "zh": "从马克西米利安皇帝的行政改革中可以看到：即使在极端困境和土耳其威胁的压力下，官员们在这个领域里剥夺君主的权力也是多么困难；而这个领域恰恰最容不得统治者的外行作风，那时的统治者首先还是一个骑士。",
+    "n": [
+     "拆解：Bei den Verwaltungsreformen des Kaisers Max kann man sehen, wie schwer …（从马克西米利安皇帝的行政改革中可以看到，……多么困难）。wie-从句：es den Beamten gelang, … den Fürsten zu depossedieren（官员们剥夺君主权力的成功；es gelingt jm., etw. zu tun）；插入 selbst unter dem Druck der äußersten Not und Türkenherrschaft（即使在极端困境和土耳其统治的压力下）、auf diesem Gebiet（在这个领域）+ 关系从句 welches ja den Dilettantismus eines Herrschers … am wenigsten vertrug（它最容不得统治者的外行作风）；Herrschers 后 der damals noch vor allem: ein Ritter war（那时首先还是一个骑士）。",
+     "der Kaiser：皇帝。Max：马克西米利安一世（1459–1519），神圣罗马帝国皇帝，号称「最后的骑士」。der Druck：压力。äußerst：极端的。die Not：困境。die Türkenherrschaft：土耳其的统治（奥斯曼帝国的威胁）。",
+     "gelingen：成功（gelang：过去式）。der Dilettantismus：外行作风。der Ritter：骑士。vertragen：容忍（vertrug：过去式）。am wenigsten：最不。depossedieren：剥夺占有（来自法语）。"
+    ]
+   },
+   {
+    "de": "Die{nf} Entwicklung der{gf} Kriegstechnik bedingte den{am} Fachoffizier, die{nf} Verfeinerung des{gm} Rechtsganges den{am} geschulten Juristen.",
+    "zh": "战争技术的发展要求有专业军官，诉讼程序的精细化要求有受过训练的法学家。",
+    "n": [
+     "die Kriegstechnik：战争技术。bedingen：决定、要求（bedingte：过去式）。der Fachoffizier：专业军官。第二半省略了 bedingte：die Verfeinerung des Rechtsganges (bedingte) den geschulten Juristen。",
+     "die Verfeinerung：精细化。der Rechtsgang：诉讼程序。geschult：受过训练的。der Jurist：法学家（弱变化，宾格 Juristen）。"
+    ]
+   },
+   {
+    "de": "Auf diesen{dp} drei Gebieten siegte das{nn} Fachbeamtentum in den{dp} entwickelteren Staaten endgültig im 16. Jahrhundert.",
+    "zh": "在比较发达的国家，专业官员阶层在 16 世纪终于在这三个领域取得了胜利。",
+    "n": [
+     "siegen：取胜（siegte：过去式）。entwickelter：比较发达的（比较级）。endgültig：最终地。das Jahrhundert：世纪。三个领域：财政、军事、司法。"
+    ]
+   },
+   {
+    "de": "Damit war gleichzeitig mit dem{dm} Aufstieg des{gm} Absolutismus der{gp} Fürsten gegenüber den{dp} Ständen die{nf} allmähliche Abdankung seiner{gf} Selbstherrschaft an die{ap} Fachbeamten, durch die{rel:ap} ihm jener{nm} Sieg über die{ap} Stände erst ermöglicht wurde, eingeleitet.",
+    "zh": "这样，随着君主专制相对于各等级的兴起，君主的独裁也同时开始逐渐让位于专业官员——正是专业官员才使他对各等级的胜利成为可能。",
+    "n": [
+     "拆解：Damit war … die allmähliche Abdankung seiner Selbstherrschaft an die Fachbeamten … eingeleitet（这样，他的独裁逐渐让位于专业官员的过程开始了；einleiten：开始，war … eingeleitet = 状态被动）。时间 gleichzeitig mit dem Aufstieg des Absolutismus der Fürsten gegenüber den Ständen（与君主专制相对于各等级的兴起同时）。Fachbeamten 后关系从句 durch die ihm jener Sieg über die Stände erst ermöglicht wurde（正是通过他们，他才得以战胜各等级）。",
+     "der Aufstieg：兴起。der Absolutismus：专制主义。die Abdankung：退位、让位（an：让给）。die Selbstherrschaft：独裁。seiner：他的（单数，指每一位君主，前面却说 der Fürsten 复数）。ermöglichen：使成为可能。",
+     "讽刺之处：君主用专业官员打败了贵族，结果自己的权力又被专业官员架空。"
+    ]
+   }
+  ]
+ },
+ {
+  "h": "十六 · 「领导性政治家」",
+  "t": "Die leitenden Politiker",
+  "k": "16",
+  "pg": "1919 版 S. 17",
+  "sum": "与专业官员同时，另一种人物悄悄出现：替君主实际领导政治的「领导性政治家」。东方有大维齐尔；西方先在外交中出现了一个受过训练的圈子。",
+  "s": [
+   {
+    "de": "Gleichzeitig mit dem{dm} Aufstieg des{gn} fachgeschulten Beamtentums vollzog sich{refl} auch – wennschon in weit unmerklicheren Übergängen – die{nf} Entwicklung der{gp} »leitenden Politiker«.",
+    "zh": "与受过专业训练的官员阶层的兴起同时，「领导性政治家」也发展起来了——虽然过渡要不显眼得多。",
+    "n": [
+     "sich vollziehen：发生、进行（vollzog：过去式；主语 die Entwicklung 在后）。wennschon：虽然。unmerklich：不显眼的（unmerklicher：比较级）。der Übergang：过渡（复数 Übergänge）。leitend：领导性的。"
+    ]
+   },
+   {
+    "de": "Von jeher und in aller Welt hatte es{expl}, selbstverständlich, solche tatsächlich maßgeblichen Berater der{gp} Fürsten gegeben.",
+    "zh": "当然，自古以来，世界各地都有这种实际上起决定作用的君主顾问。",
+    "n": [
+     "von jeher：自古以来。in aller Welt：世界各地。es hatte … gegeben：曾经有过（过去完成时）。maßgeblich：起决定作用的。der Berater：顾问。"
+    ]
+   },
+   {
+    "de": "Im Orient hat das{nn} Bedürfnis, den{am} Sultan von der{df} persönlichen Verantwortung für den{am} Erfolg der{gf} Regierung möglichst zu entlasten, die{af} typische Figur des{gm} »Großwesirs« geschaffen.",
+    "zh": "在东方，为了尽可能免除苏丹对施政成败的个人责任，产生了「大维齐尔」这一典型人物。",
+    "n": [
+     "主语 das Bedürfnis, den Sultan von der persönlichen Verantwortung … zu entlasten（尽可能免除苏丹个人责任的需要）→ hat … die typische Figur des »Großwesirs« geschaffen（创造了大维齐尔这一典型人物）。",
+     "der Orient：东方。der Sultan：苏丹。die Verantwortung：责任。jn. von etw. entlasten：免除某人的……。möglichst：尽可能。der Großwesir：大维齐尔（奥斯曼帝国的宰相）。schaffen：创造（geschaffen：过去分词）。"
+    ]
+   },
+   {
+    "de": "Im Abendland wurde die{nf} Diplomatie, vor allem unter dem{dm} Einfluß der{gp} in diplomatischen Fachkreisen mit leidenschaftlichem Eifer gelesenen venezianischen Gesandtschaftsberichte, im Zeitalter Karls V. – der{gf} Zeit Macchiavellis – zuerst eine{nf} bewußt gepflegte Kunst, deren meist humanistisch gebildete Adepten sich{refl} untereinander als eine{af} geschulte Schicht von Eingeweihten behandelten, ähnlich den{dp} humanistischen chinesischen Staatsmännern der{gf} letzten Teilstaatenzeit.",
+    "zh": "在西方，主要是在威尼斯使节报告的影响下（外交行家们怀着热情阅读这些报告），外交在查理五世的时代——马基雅维利的时代——首先成为一门被有意识地培养的艺术；它的行家大多受过人文主义教育，彼此把对方看作一个受过训练的内行圈子，类似于中国战国时代受过人文教育的政治家。",
+    "n": [
+     "拆解：主干 Im Abendland wurde die Diplomatie … im Zeitalter Karls V. … zuerst eine bewußt gepflegte Kunst（在西方，外交在查理五世时代首先成为一门有意培养的艺术；werden + 名词）。插入 vor allem unter dem Einfluß der … venezianischen Gesandtschaftsberichte（主要在威尼斯使节报告的影响下），报告前的扩展定语 in diplomatischen Fachkreisen mit leidenschaftlichem Eifer gelesen（在外交圈里被热情阅读的）；同位 der Zeit Macchiavellis（马基雅维利的时代）。Kunst 后关系从句 deren meist humanistisch gebildete Adepten sich untereinander als eine geschulte Schicht von Eingeweihten behandelten（它的行家大多受过人文教育，彼此视为训练有素的内行圈子）。最后 ähnlich den humanistischen chinesischen Staatsmännern der letzten Teilstaatenzeit（类似于中国战国末期受过人文教育的政治家）。",
+     "das Abendland：西方。die Diplomatie：外交。der Fachkreis：行内圈子。leidenschaftlich：热情的。der Eifer：热忱。venezianisch：威尼斯的。der Gesandtschaftsbericht：使节报告。",
+     "Karl V.：查理五世（1500–1558），神圣罗马帝国皇帝（Karls：属格）。Macchiavelli：马基雅维利（1469–1527），《君主论》作者。pflegen：培养（gepflegt：过去分词）。",
+     "humanistisch gebildet：受过人文主义教育的。der Adept：行家、入门者。der Eingeweihte：内行、知道内情的人。der Staatsmann：政治家（复数 Staatsmänner）。die Teilstaatenzeit：列国时代（Weber 指中国的战国时代）。"
+    ]
+   }
+  ]
+ },
+ {
+  "h": "十七 · 君主与专业官员的暗斗",
+  "t": "Kollegialsystem",
+  "k": "17",
+  "pg": "1919 版 S. 17–18",
+  "sum": "统一的政治领导，要到立宪时代才真正必要。在那之前，各国设立了合议制的最高行政机关；君主亲自主持，并在官方机关之外另设亲信「内阁」，想借此不被专业官员架空。",
+  "s": [
+   {
+    "de": "Die{nf} Notwendigkeit einer{gf} formell einheitlichen Leitung der{gf} gesamten Politik, einschließlich der{gf} inneren, durch einen{am} führenden Staatsmann entstand endgültig und zwingend erst durch die{af} konstitutionelle Entwicklung.",
+    "zh": "由一位领导性的政治家对全部政治（包括内政）进行形式上统一的领导，这种必要性直到立宪的发展才最终地、强制性地产生。",
+    "n": [
+     "拆解：主语 Die Notwendigkeit einer formell einheitlichen Leitung der gesamten Politik, einschließlich der inneren, durch einen führenden Staatsmann（由一位领导性政治家对全部政治包括内政进行形式统一的领导的必要性）→ entstand endgültig und zwingend erst durch die konstitutionelle Entwicklung（直到立宪的发展才最终、强制性地产生）。",
+     "einheitlich：统一的。einschließlich + 第二格：包括。der inneren：内政的（省略了 Politik）。zwingend：强制性的。konstitutionell：立宪的。erst：直到……才。"
+    ]
+   },
+   {
+    "de": "Bis dahin hatte es{expl} zwar selbstverständlich solche Einzelpersönlichkeiten als Berater oder vielmehr – der{df} Sache nach{post} – Leiter der{gp} Fürsten immer wieder gegeben.",
+    "zh": "在那以前，当然一再有过这样的个人作为君主的顾问，或者更确切地说——就实质而言——作为君主的领导者。",
+    "n": [
+     "bis dahin：在那以前。die Einzelpersönlichkeit：个人（复数 Einzelpersönlichkeiten）。der Sache nach：就实质而言。der Leiter：领导者。immer wieder：一再。"
+    ]
+   },
+   {
+    "de": "Aber die{nf} Organisation der{gp} Behörden war zunächst, auch in den{dp} am weitesten vorgeschrittenen Staaten, andere Wege gegangen.",
+    "zh": "但是，即使在最先进的国家，官署的组织起初也走了另外的道路。",
+    "n": [
+     "die Behörde：官署、机关（复数 Behörden）。zunächst：起初。am weitesten vorgeschritten：最先进的。andere Wege gehen：走别的路（war … gegangen：过去完成时）。"
+    ]
+   },
+   {
+    "de": "Kollegiale höchste Verwaltungsbehörden waren entstanden.",
+    "zh": "形成的是合议制的最高行政机关。",
+    "n": [
+     "kollegial：合议制的（由多人组成的委员会共同决定）。die Verwaltungsbehörde：行政机关。waren entstanden：过去完成时。"
+    ]
+   },
+   {
+    "de": "Der{df} Theorie und, in allmählich abnehmendem Maße, der{df} Tatsache nach{post} tagten sie{they} unter dem{dm} Vorsitz des{gm} Fürsten persönlich, der{rel:nm} die{af} Entscheidung gab.",
+    "zh": "按照理论——在事实上也是如此，只是程度逐渐减弱——这些机关由君主亲自主持开会，由他作出决定。",
+    "n": [
+     "der Theorie … der Tatsache nach：按理论……按事实（nach 后置，两处共用；第三格）。in allmählich abnehmendem Maße：程度逐渐减弱。tagen：开会（tagten：过去式）。der Vorsitz：主持。die Entscheidung geben：作出决定。"
+    ]
+   },
+   {
+    "de": "Durch dieses{an} kollegialische System, welches{nn} zu Gutachten, Gegengutachten und motivierten Voten der{gf} Mehrheit und Minderheit führte und ferner dadurch, daß er neben den{dp} offiziellen höchsten Behörden sich{refl} mit rein persönlichen Vertrauten – dem{dn} »Kabinett« – umgab und durch diese seine{ap} Entscheidungen auf die{ap} Beschlüsse des{gm} Staatsrats – oder wie die{nf} höchste Staatsbehörde sonst hieß – abgab, suchte der{nm} Fürst, der{rel:nm} zunehmend in die{af} Lage eines{gm} Dilettanten geriet, dem{dn} unvermeidlich wachsenden Gewicht der{gf} Fachschulung der{gp} Beamten sich{refl} zu entziehen und die{af} oberste Leitung in der{df} Hand zu behalten: dieser{nm} latente Kampf zwischen dem{dn} Fachbeamtentum und der{df} Selbstherrschaft bestand überall.",
+    "zh": "君主越来越处于外行的境地；他试图通过两种办法来摆脱官员专业训练那不可避免地日益增长的分量，把最高领导权保留在自己手里：一是这种合议制度，它导致了鉴定意见、反鉴定意见以及多数派和少数派附理由的表决意见；二是在官方最高机关之外，用纯粹私人的亲信——「内阁」——围绕自己，并通过这些人对国务委员会（或者无论最高国家机关叫什么名字）的决议下达自己的决定。专业官员阶层与独裁之间的这场潜在斗争，到处都存在。",
+    "n": [
+     "拆解：冒号前主干在后半：suchte der Fürst … dem unvermeidlich wachsenden Gewicht der Fachschulung der Beamten sich zu entziehen und die oberste Leitung in der Hand zu behalten（君主设法摆脱官员专业训练日益增长的分量，并把最高领导权留在手里；sich einer Sache entziehen：摆脱，第三格）；Fürst 后关系从句 der zunehmend in die Lage eines Dilettanten geriet（他越来越处于外行的境地）。前场是两个手段：① Durch dieses kollegialische System（通过这个合议制度）+ welches zu Gutachten, Gegengutachten und motivierten Voten der Mehrheit und Minderheit führte（它导致鉴定意见、反鉴定意见以及多数派和少数派附理由的表决意见）② und ferner dadurch, daß er … sich mit rein persönlichen Vertrauten – dem »Kabinett« – umgab（以及通过用私人亲信即「内阁」围绕自己）und durch diese seine Entscheidungen auf die Beschlüsse des Staatsrats … abgab（并通过他们对国务委员会的决议下达决定）。冒号后总结：dieser latente Kampf zwischen dem Fachbeamtentum und der Selbstherrschaft bestand überall（专业官员阶层与独裁之间这场潜在的斗争到处都有）。",
+     "kollegialisch：合议的。das Gutachten：鉴定意见。das Gegengutachten：反鉴定意见。motiviert：附理由的。das Votum：表决意见（复数 Voten）。die Mehrheit / Minderheit：多数 / 少数。",
+     "sich mit etw. umgeben：用……围绕自己（umgab：过去式）。das Kabinett：内阁（原指君主私人的小房间和亲信）。der Beschluß：决议。abgeben：下达（abgab：从句末合写）。oder wie … sonst hieß：或者无论叫什么（heißen 的过去式）。",
+     "geraten：陷入（geriet：过去式）。das Gewicht：分量。die Fachschulung：专业训练。latent：潜在的。bestehen：存在（bestand：过去式）。"
+    ]
+   }
+  ]
  }
 ]
