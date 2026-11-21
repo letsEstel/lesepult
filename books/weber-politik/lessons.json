@@ -407,7 +407,7 @@
   "t": "历史上的职业政治家",
   "de": "Kleriker, Literaten, Hofadel, gentry",
   "min": "20",
-  "html": "<p>君主要战胜贵族等「等级」，就得有自己的人。这些人从哪里来？Weber 列出五种「非等级」的阶层。他们为什么有用，决定了后来国家的样子。</p>\n<h4>一、君主依靠的几种人</h4>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th></th><th>谁</th><th>为什么对君主有用</th><th>后果</th></tr></thead><tbody>\n<tr><th>1 教士</th><td>婆罗门、僧侣、喇嘛、主教、神父</td><td>会写字；独身、没有后代要传权力；与经营手段「分离」</td><td>东西方都一样：最早的行政人员</td></tr>\n<tr><th>2 人文主义文人</th><td>会写拉丁文演说、希腊文诗的人；中国的士大夫</td><td>能当顾问、写备忘录</td><td>德国：短暂插曲，只影响了学校；中国：决定了整个国家的命运</td></tr>\n<tr><th>3 宫廷贵族</th><td>被剥夺了等级权力、拉到宫廷的贵族</td><td>用于政治和外交</td><td>17 世纪德国教育的转变</td></tr>\n<tr><th>4 英国的绅士</th><td>小贵族 + 城市食利者（gentry）</td><td>君主拉拢他们对抗大贵族</td><td>无偿担任地方官职，君主反而依赖他们；英国因此没有官僚化</td></tr>\n<tr><th>5 法学家</th><td colspan=\"3\">（下一部分上线）</td></tr>\n</tbody></table></div>\n[[Gegen die Stände stützte sich der Fürst auf politisch verwertbare Schichten nichtständischen Charakters.]]\n<h4>二、读这一章的线索</h4>\n<p>每一种人都可以用第 2 章的问题来检验：他是否与行政手段「分离」？教士独身、没有自己的经营手段，所以完全依赖君主；英国绅士自己有财产，不拿报酬，所以君主反过来依赖他们。中国的例子说明：哪一种人掌握行政，决定的不只是政治，还有整个文化。</p>\n<h4>三、反推方法</h4>\n<ol>\n<li><b>属格表示性质</b>：Schichten nichtständischen Charakters（非等级性质的阶层）：没有冠词的属格放在名词后，相当于「具有……性质的」。</li>\n<li><b>冒号后是主语</b>：Dahin gehörten in … zunächst: die Kleriker；Die dritte Schicht war: der Hofadel。Weber 爱把要强调的主语放在冒号后。</li>\n<li><b>框外成分</b>：haben sich … entwickelt im Dienst der ersteren；übernahm im Interesse ihrer eigenen sozialen Macht：口语化的演讲体，把补充成分放在动词后面。</li>\n<li><b>um … zu 表示结果</b>：um später zunehmend von ihr abhängig zu werden：不是目的（君主当然不想依赖他们），而是「结果却……」。</li>\n</ol>\n<h4>四、马上练</h4>\n{{quiz:s1}}\n<h4>五、小结</h4>\n<ul>\n<li>职业政治家是在君主与各等级的斗争中、为君主服务而出现的。</li>\n<li>教士：会写字、独身、与经营手段分离。</li>\n<li>人文主义文人：在德国是插曲，在中国决定了命运。</li>\n<li>宫廷贵族：被剥夺权力后为君主所用。</li>\n<li>英国绅士：无偿担任地方官职，使英国免于官僚化。</li>\n</ul>\n<p><button class=\"btn\" data-route=\"weber-politik~ch-k4\">第 4 章</button></p>",
+  "html": "<p>君主要战胜贵族等「等级」，就得有自己的人。这些人从哪里来？Weber 列出五种「非等级」的阶层。他们为什么有用，决定了后来国家的样子。</p>\n<h4>一、君主依靠的几种人</h4>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th></th><th>谁</th><th>为什么对君主有用</th><th>后果</th></tr></thead><tbody>\n<tr><th>1 教士</th><td>婆罗门、僧侣、喇嘛、主教、神父</td><td>会写字；独身、没有后代要传权力；与经营手段「分离」</td><td>东西方都一样：最早的行政人员</td></tr>\n<tr><th>2 人文主义文人</th><td>会写拉丁文演说、希腊文诗的人；中国的士大夫</td><td>能当顾问、写备忘录</td><td>德国：短暂插曲，只影响了学校；中国：决定了整个国家的命运</td></tr>\n<tr><th>3 宫廷贵族</th><td>被剥夺了等级权力、拉到宫廷的贵族</td><td>用于政治和外交</td><td>17 世纪德国教育的转变</td></tr>\n<tr><th>4 英国的绅士</th><td>小贵族 + 城市食利者（gentry）</td><td>君主拉拢他们对抗大贵族</td><td>无偿担任地方官职，君主反而依赖他们；英国因此没有官僚化</td></tr>\n<tr><th>5 法学家</th><td>受过大学训练的法学家；后来是律师</td><td>罗马法训练出的理性的法律思维，是建立理性国家的工具</td><td>绝对主义国家和法国大革命都离不开他们；现代律师与现代民主连在一起</td></tr>\n</tbody></table></div>\n[[Gegen die Stände stützte sich der Fürst auf politisch verwertbare Schichten nichtständischen Charakters.]]\n<h4>二、第五种人：法学家</h4>\n<p>前四种人东西方都有类似的；第五种是西方、尤其欧洲大陆特有的，影响也最大。韦伯的论证分三步：</p>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th>步骤</th><th>内容</th></tr></thead><tbody>\n<tr><th>为什么只有西方</th><td>印度（弥曼差派）、伊斯兰世界也有理性法律思维的萌芽，但都被神学压倒；诉讼程序没有理性化。西方靠三样东西做到了：意大利法学家接受罗马法学、中世纪晚期的「现代运用」、世俗化的自然法理论</td></tr>\n<tr><th>谁是代表</th><td>意大利城市长官、法国国王的法律家、教会法学者、宫廷法律家、反暴君论者、英国王室与议会法律家、法国的「穿袍贵族」，最后是大革命时期的律师</td></tr>\n<tr><th>后果</th><td>没有法学理性主义，就既没有绝对主义国家，也没有革命；国民公会里只有一个无产者，法学家却多得是</td></tr>\n</tbody></table></div>\n<p>接着韦伯解释律师为什么特别适合政党政治：</p>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th></th><th>律师</th><th>专业官员</th></tr></thead><tbody>\n<tr><th>手艺</th><td>为利害关系者有效地打理一桩事情</td><td>按规定办事，不搞政治</td></tr>\n<tr><th>「坏」事情</th><td>也能打赢：技术上办得「好」</td><td>——</td></tr>\n<tr><th>「好」事情</th><td>只有他能打赢</td><td>常常因技术上办得「坏」而弄成「坏」事情</td></tr>\n<tr><th>言辞</th><td>权衡言辞的效果是他的本行</td><td>不是煽动家，也不应当是；勉强去当，只会是糟糕的煽动家</td></tr>\n</tbody></table></div>\n[[Und eine Sache für Interessenten wirkungsvoll zu führen ist das Handwerk des geschulten Advokaten.]]\n<p>注意「好 / 坏」的两层意思：事情本身在逻辑上站不站得住，和办事的技术好不好。韦伯想到的是德国在大战中的宣传：一桩（在德国人看来）「好」事情，被不会说话的官员办「坏」了。</p>\n<h4>三、读这一章的线索</h4>\n<p>每一种人都可以用第 2 章的问题来检验：他是否与行政手段「分离」？教士独身、没有自己的经营手段，所以完全依赖君主；英国绅士自己有财产，不拿报酬，所以君主反过来依赖他们。中国的例子说明：哪一种人掌握行政，决定的不只是政治，还有整个文化。</p>\n<h4>四、反推方法</h4>\n<ol>\n<li><b>属格表示性质</b>：Schichten nichtständischen Charakters（非等级性质的阶层）：没有冠词的属格放在名词后，相当于「具有……性质的」。</li>\n<li><b>冒号后是主语</b>：Dahin gehörten in … zunächst: die Kleriker；Die dritte Schicht war: der Hofadel。Weber 爱把要强调的主语放在冒号后。</li>\n<li><b>框外成分</b>：haben sich … entwickelt im Dienst der ersteren；übernahm im Interesse ihrer eigenen sozialen Macht：口语化的演讲体，把补充成分放在动词后面。</li>\n<li><b>um … zu 表示结果</b>：um später zunehmend von ihr abhängig zu werden：不是目的（君主当然不想依赖他们），而是「结果却……」。</li>\n<li><b>主句藏在一长串状语后面</b>：Im italienischen Podestat, in den französischen Königsjuristen, … endlich in den Advokaten der Revolutionszeit hat dieser juristische Rationalismus seine großen Repräsentanten gehabt：先跳到最后找 hat … gehabt，再回头逐项读。</li>\n<li><b>不定式短语作主语</b>：eine Sache … wirkungsvoll zu führen ist …；Dessen Wirkung abzuwägen, liegt …：句首的 zu-不定式就是主语（第 19 课）。</li>\n<li><b>zu + 现在分词</b>：eine durch logisch »starke« Argumente zu stützende Sache：可以被支撑的事情（第 25 课）。</li>\n</ol>\n<h4>五、马上练</h4>\n{{quiz:s1}}\n<h4>六、小结</h4>\n<ul>\n<li>职业政治家是在君主与各等级的斗争中、为君主服务而出现的。</li>\n<li>教士：会写字、独身、与经营手段分离。</li>\n<li>人文主义文人：在德国是插曲，在中国决定了命运。</li>\n<li>宫廷贵族：被剥夺权力后为君主所用。</li>\n<li>英国绅士：无偿担任地方官职，使英国免于官僚化。</li>\n<li>法学家：西方特有；罗马法训练出的理性思维造就了绝对主义国家和革命。</li>\n<li>律师：政党政治是利害关系者的经营，为委托人有效地辩护正是律师的手艺；专业官员不是、也不该是煽动家。</li>\n</ul>\n<p><button class=\"btn\" data-route=\"weber-politik~ch-k4\">第 4 章</button></p>",
   "quiz": [
    {
     "id": "w6a",
@@ -463,6 +463,50 @@
     ],
     "ans": 0,
     "why": "jn. vor etw. bewahren：使免于。官僚化是大陆国家的命运，英国因绅士自治而避免了。"
+   },
+   {
+    "id": "w6f",
+    "sec": "s1",
+    "de": "daß überall die Revolutionierung des politischen Betriebs im Sinne der Entwicklung zum rationalen Staat von geschulten <<Juristen>> getragen wurde",
+    "opts": [
+     "到处都是法学家推动了理性国家的建立",
+     "到处都是教士推动了理性国家的建立"
+    ],
+    "ans": 0,
+    "why": "这是罗马法巨大后续影响的证据：理性国家的承担者是受过训练的法学家。"
+   },
+   {
+    "id": "w6g",
+    "sec": "s1",
+    "de": "Ohne ihn ist das Entstehen des absoluten Staates so wenig <<denkbar>> wie die Revolution.",
+    "opts": [
+     "没有法学理性主义，绝对主义国家和革命都不可想象",
+     "绝对主义国家可以没有法学家，革命却不行"
+    ],
+    "ans": 0,
+    "why": "so wenig … wie：和……一样不。两者都离不开法学家。"
+   },
+   {
+    "id": "w6h",
+    "sec": "s1",
+    "de": "Er ist darin … jedem »Beamten« <<überlegen>>.",
+    "opts": [
+     "在为利害关系者打理事情上，律师胜过官员",
+     "官员在宣传上胜过律师"
+    ],
+    "ans": 0,
+    "why": "jm überlegen sein：胜过某人。政党政治靠言辞，这是律师的本行，不是官员的。"
+   },
+   {
+    "id": "w6i",
+    "sec": "s1",
+    "de": "der kein <<Demagoge>> ist und, seinem Zweck nach, sein soll",
+    "opts": [
+     "专业官员不是、也不应当是煽动家",
+     "专业官员应当成为好的煽动家"
+    ],
+    "ans": 0,
+    "why": "按其目的，官员只是执行；如果他勉强去当煽动家，通常会当得很糟。"
    }
   ]
  }
