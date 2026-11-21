@@ -400,5 +400,70 @@
     "why": "部长在专业上远不如下属，这并不荒谬：他的任务是政治上的。"
    }
   ]
+ },
+ {
+  "id": "w6",
+  "ch": "k4",
+  "t": "历史上的职业政治家",
+  "de": "Kleriker, Literaten, Hofadel, gentry",
+  "min": "20",
+  "html": "<p>君主要战胜贵族等「等级」，就得有自己的人。这些人从哪里来？Weber 列出五种「非等级」的阶层。他们为什么有用，决定了后来国家的样子。</p>\n<h4>一、君主依靠的几种人</h4>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th></th><th>谁</th><th>为什么对君主有用</th><th>后果</th></tr></thead><tbody>\n<tr><th>1 教士</th><td>婆罗门、僧侣、喇嘛、主教、神父</td><td>会写字；独身、没有后代要传权力；与经营手段「分离」</td><td>东西方都一样：最早的行政人员</td></tr>\n<tr><th>2 人文主义文人</th><td>会写拉丁文演说、希腊文诗的人；中国的士大夫</td><td>能当顾问、写备忘录</td><td>德国：短暂插曲，只影响了学校；中国：决定了整个国家的命运</td></tr>\n<tr><th>3 宫廷贵族</th><td>被剥夺了等级权力、拉到宫廷的贵族</td><td>用于政治和外交</td><td>17 世纪德国教育的转变</td></tr>\n<tr><th>4 英国的绅士</th><td>小贵族 + 城市食利者（gentry）</td><td>君主拉拢他们对抗大贵族</td><td>无偿担任地方官职，君主反而依赖他们；英国因此没有官僚化</td></tr>\n<tr><th>5 法学家</th><td colspan=\"3\">（下一部分上线）</td></tr>\n</tbody></table></div>\n[[Gegen die Stände stützte sich der Fürst auf politisch verwertbare Schichten nichtständischen Charakters.]]\n<h4>二、读这一章的线索</h4>\n<p>每一种人都可以用第 2 章的问题来检验：他是否与行政手段「分离」？教士独身、没有自己的经营手段，所以完全依赖君主；英国绅士自己有财产，不拿报酬，所以君主反过来依赖他们。中国的例子说明：哪一种人掌握行政，决定的不只是政治，还有整个文化。</p>\n<h4>三、反推方法</h4>\n<ol>\n<li><b>属格表示性质</b>：Schichten nichtständischen Charakters（非等级性质的阶层）：没有冠词的属格放在名词后，相当于「具有……性质的」。</li>\n<li><b>冒号后是主语</b>：Dahin gehörten in … zunächst: die Kleriker；Die dritte Schicht war: der Hofadel。Weber 爱把要强调的主语放在冒号后。</li>\n<li><b>框外成分</b>：haben sich … entwickelt im Dienst der ersteren；übernahm im Interesse ihrer eigenen sozialen Macht：口语化的演讲体，把补充成分放在动词后面。</li>\n<li><b>um … zu 表示结果</b>：um später zunehmend von ihr abhängig zu werden：不是目的（君主当然不想依赖他们），而是「结果却……」。</li>\n</ol>\n<h4>四、马上练</h4>\n{{quiz:s1}}\n<h4>五、小结</h4>\n<ul>\n<li>职业政治家是在君主与各等级的斗争中、为君主服务而出现的。</li>\n<li>教士：会写字、独身、与经营手段分离。</li>\n<li>人文主义文人：在德国是插曲，在中国决定了命运。</li>\n<li>宫廷贵族：被剥夺权力后为君主所用。</li>\n<li>英国绅士：无偿担任地方官职，使英国免于官僚化。</li>\n</ul>\n<p><button class=\"btn\" data-route=\"weber-politik~ch-k4\">第 4 章</button></p>",
+  "quiz": [
+   {
+    "id": "w6a",
+    "sec": "s1",
+    "de": "Technisch deshalb, weil sie <<schriftkundig>> waren.",
+    "opts": [
+     "教士有用，首先因为他们会写字",
+     "教士有用，首先因为他们有财产"
+    ],
+    "ans": 0,
+    "why": "schriftkundig：识字的。行政需要文书，最早会写字的就是教士。"
+   },
+   {
+    "id": "w6b",
+    "sec": "s1",
+    "de": "Der Kleriker, zumal der <<zölibatäre>> Kleriker, … kam nicht in Versuchung, für seine Nachfahren eigene politische Macht … zu erstreben",
+    "opts": [
+     "独身的教士没有后代要传权力",
+     "教士要为后代争取权力"
+    ],
+    "ans": 0,
+    "why": "zölibatär：独身的。封臣会为后代争取权力；独身的教士没有这个动机。"
+   },
+   {
+    "id": "w6c",
+    "sec": "s1",
+    "de": "Diese Schicht mit ihren an der chinesischen Antike entwickelten Konventionen hat das ganze <<Schicksal>> Chinas bestimmt",
+    "opts": [
+     "中国的文人阶层决定了中国的命运",
+     "中国的文人阶层只影响了学校"
+    ],
+    "ans": 0,
+    "why": "在德国人文主义文人只是插曲；在中国，士大夫决定了整个国家的命运。"
+   },
+   {
+    "id": "w6d",
+    "sec": "s1",
+    "de": "Sie hielt sich im Besitz der sämtlichen Ämter der lokalen Verwaltung, indem sie dieselben <<gratis>> übernahm",
+    "opts": [
+     "英国绅士无偿担任地方官职",
+     "英国绅士靠官职挣钱"
+    ],
+    "ans": 0,
+    "why": "gratis：无偿地。他们自己有财产，为了社会权力而不拿报酬（第 3 章的「荣誉职」）。"
+   },
+   {
+    "id": "w6e",
+    "sec": "s1",
+    "de": "Sie hat England vor der <<Bureaukratisierung>> bewahrt",
+    "opts": [
+     "英国因此没有官僚化",
+     "英国因此最早官僚化"
+    ],
+    "ans": 0,
+    "why": "jn. vor etw. bewahren：使免于。官僚化是大陆国家的命运，英国因绅士自治而避免了。"
+   }
+  ]
  }
 ]
