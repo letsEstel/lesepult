@@ -95,9 +95,154 @@
   ]
  },
  {
-  "h": "四 · 人是创造的终极目的",
-  "t": "§ 84",
+  "h": "四 · 人：自然的最后目的？",
+  "t": "§ 83",
   "k": "4",
+  "pg": "AA V 431",
+  "sum": "读前：如果把自然看作一个目的系统，那么一切东西最后是为了什么？康德在 § 82 说：人是地球上唯一能自己设定目的的存在者，所以是自然的「最后目的」。但这只是有条件的：",
+  "s": [
+   {
+    "de": "Als das{nn} einzige Wesen auf Erden, welches{nn} Verstand, mithin ein{an} Vermögen hat, sich{refl} selbst willkürlich Zwecke zu setzen, ist er zwar betitelter Herr der{gf} Natur und, wenn man diese als ein{an} teleologisches System ansieht, seiner{gf} Bestimmung nach der{nm} letzte Zweck der{gf} Natur; aber immer nur bedingt, nämlich daß er es{expl} verstehe und den{am} Willen habe, dieser und ihm selbst eine{af} solche Zweckbeziehung zu geben, die{rel:nf} unabhängig von der{df} Natur sich{refl} selbst genug, mithin Endzweck sein könne, der{rel:nm} aber in der{df} Natur gar nicht gesucht werden muß.",
+    "zh": "作为地球上唯一有知性、因而有能力任意给自己设定目的的存在者，人固然有「自然之主」的头衔；而且如果把自然看作一个目的论系统，按照人的使命来说，他是自然的最后目的。但这始终只是有条件的：条件是他懂得、并且有意志给自然和他自己一种这样的目的关系——这种关系不依赖于自然而自身充足，因而能是终极目的；而终极目的根本不能在自然中去寻找。",
+    "n": [
+     "拆解：分号前：Als das einzige Wesen auf Erden, welches Verstand, mithin ein Vermögen hat, sich selbst willkürlich Zwecke zu setzen（作为地球上唯一有知性、即有能力任意给自己设定目的的存在者）→ ist er zwar betitelter Herr der Natur（他固然有自然之主的头衔）und, wenn man diese als ein teleologisches System ansieht, seiner Bestimmung nach der letzte Zweck der Natur（如果把自然看作目的论系统，按其使命他是自然的最后目的）。分号后 aber immer nur bedingt（但始终只是有条件的）, nämlich daß er es verstehe und den Willen habe（条件是他懂得并且愿意）, dieser und ihm selbst eine solche Zweckbeziehung zu geben（给自然和自己一种这样的目的关系；dieser = der Natur，第三格）+ 关系从句 die unabhängig von der Natur sich selbst genug, mithin Endzweck sein könne（它不依赖自然而自足，因而能是终极目的）+ der aber in der Natur gar nicht gesucht werden muß（而终极目的根本不能在自然中寻找）。",
+     "willkürlich：任意地、凭自己的意志。betitelt：有头衔的、名义上的（betitelter Herr：名义上的主人）。teleologisch：目的论的。seiner Bestimmung nach：按其使命。",
+     "der letzte Zweck：最后目的（自然目的链条的最末一环）。der Endzweck：终极目的（不以任何别的东西为条件的目的，见下文 § 84）。两者的区别是本章的关键。",
+     "es verstehen：懂得（这样做）。sich selbst genug：自身充足的。verstehe、habe、könne：虚拟式一。"
+    ]
+   }
+  ]
+ },
+ {
+  "h": "五 · 文化：技巧与管教",
+  "t": "Kultur der Geschicklichkeit und der Zucht",
+  "k": "5",
+  "pg": "AA V 431–432",
+  "sum": "自然能为人做的，不是让他幸福（幸福使人无法给自己设定终极目的），而是让他有能力自己设定目的。这种能力的培养就叫「文化」。但文化有两种：",
+  "s": [
+   {
+    "de": "Die{nf} Hervorbringung der{gf} Tauglichkeit eines{gn} vernünftigen Wesens zu beliebigen Zwecken überhaupt (folglich in seiner{df} Freiheit) ist die{nf} Kultur.",
+    "zh": "产生一个理性存在者对任意目的的一般适应能力（因而是在其自由之中），这就是文化。",
+    "n": [
+     "die Hervorbringung：产生。die Tauglichkeit zu：适应……的能力、适合于……。beliebig：任意的。folglich in seiner Freiheit：因而在其自由中（目的是他自己选的）。",
+     "die Kultur：文化（学院版作 Cultur）。康德的定义：不是某种具体的成就，而是一种能力的培养。"
+    ]
+   },
+   {
+    "de": "Also kann nur die{nf} Kultur der{nm} letzte Zweck sein, den{rel:am} man der{df} Natur in Ansehung der{gf} Menschengattung beizulegen Ursache hat (nicht seine{nf} eigene Glückseligkeit auf Erden, oder wohl gar bloß das{nn} vornehmste Werkzeug zu sein, Ordnung und Einhelligkeit in der{df} vernunftlosen Natur außer ihm zu stiften).",
+    "zh": "所以，只有文化才能是我们有理由就人类而言归之于自然的最后目的（而不是人在地上的幸福，更不是仅仅做最高级的工具，在他之外无理性的自然中建立秩序与和谐）。",
+    "n": [
+     "拆解：Also kann nur die Kultur der letzte Zweck sein（所以只有文化能是最后目的）+ 关系从句 den man der Natur in Ansehung der Menschengattung beizulegen Ursache hat（我们有理由就人类而言归之于自然的；jm. etw. beilegen：把……归于，Ursache haben：有理由）。括号里排除两种：nicht seine eigene Glückseligkeit auf Erden（不是人在地上的幸福）, oder wohl gar bloß das vornehmste Werkzeug zu sein（更不是仅仅做最高级的工具）, Ordnung und Einhelligkeit in der vernunftlosen Natur außer ihm zu stiften（在他之外无理性的自然中建立秩序与和谐）。",
+     "die Menschengattung：人类。vornehmst：最高级的、最主要的。das Werkzeug：工具。die Einhelligkeit：和谐一致。vernunftlos：无理性的。stiften：建立。"
+    ]
+   },
+   {
+    "de": "Aber nicht jede{nf} Kultur ist zu diesem{dm} letzten Zwecke der{gf} Natur hinlänglich.",
+    "zh": "但并不是每一种文化都足以充当自然的这个最后目的。",
+    "n": [
+     "hinlänglich zu：足以……的。der Zweck：目的（古式与格 Zwecke）。"
+    ]
+   },
+   {
+    "de": "Die{nf} der{gf} Geschicklichkeit ist freilich die{nf} vornehmste subjektive Bedingung der{gf} Tauglichkeit zur Beförderung der{gp} Zwecke überhaupt; aber doch nicht hinreichend den{am} Willen in der{df} Bestimmung und Wahl seiner{gp} Zwecke zu befördern, welche{nf} doch zum ganzen Umfange eine Tauglichkeit zu Zwecken wesentlich gehört.",
+    "zh": "技巧的文化固然是促进一般目的的能力的最主要的主观条件；但它不足以在规定和选择目的方面促进意志，而规定和选择目的本质上属于目的能力的全部范围。",
+    "n": [
+     "拆解：Die der Geschicklichkeit（技巧的那种文化；die = die Kultur，省略了名词）ist freilich die vornehmste subjektive Bedingung der Tauglichkeit zur Beförderung der Zwecke überhaupt（固然是促进一般目的之能力的最主要的主观条件）。分号后 aber doch nicht hinreichend, den Willen in der Bestimmung und Wahl seiner Zwecke zu befördern（但不足以在规定和选择目的上促进意志）+ 关系从句 welche doch zum ganzen Umfange … wesentlich gehört（而规定和选择本质上属于全部范围）。",
+     "die Geschicklichkeit：技巧、熟练（会做事，不管做什么事）。die Beförderung：促进。hinreichend：充分的。die Wahl：选择。der Umfang：范围。",
+     "zum ganzen Umfange eine Tauglichkeit：学院版这样印；按意思应是 einer Tauglichkeit（目的能力的全部范围）。"
+    ]
+   },
+   {
+    "de": "Die{nf} letztere Bedingung der{gf} Tauglichkeit, welche{af} man die{af} Kultur der{gf} Zucht (Disziplin) nennen könnte, ist negativ und besteht in der{df} Befreiung des{gm} Willens von dem{dm} Despotism der{gp} Begierden, wodurch wir, an gewisse Naturdinge geheftet, unfähig gemacht werden, selbst zu wählen, indem wir uns die{ap} Triebe zu Fesseln dienen lassen, die{rel:ap} uns die{nf} Natur nur statt Leitfäden beigegeben hat, um die{af} Bestimmung der{gf} Tierheit in uns nicht zu vernachlässigen, oder gar zu verletzen, indes wir doch frei genug sind, sie{them} anzuziehen oder nachzulassen, zu verlängern oder zu verkürzen, nachdem es{expl} die{np} Zwecke der{gf} Vernunft erfordern.",
+    "zh": "后一种能力条件，可以称为管教（纪律）的文化，是消极的：它在于把意志从欲望的专制中解放出来。由于欲望的专制，我们被拴在某些自然物上，没有能力自己选择，因为我们让本能成了我们的镣铐；而自然给我们本能，只是当作引导绳，让我们不至于忽视甚至损害我们身上动物性的规定——同时我们又足够自由，可以按照理性目的的需要，把它们收紧或放松、拉长或缩短。",
+    "n": [
+     "拆解：主语 Die letztere Bedingung der Tauglichkeit（后一种能力条件）+ welche man die Kultur der Zucht (Disziplin) nennen könnte（可称为管教的文化）→ ist negativ und besteht in der Befreiung des Willens von dem Despotism der Begierden（是消极的，在于把意志从欲望的专制中解放出来）。Despotism 后 wodurch wir, an gewisse Naturdinge geheftet, unfähig gemacht werden, selbst zu wählen（由此我们被拴在某些自然物上，无法自己选择）+ 方式 indem wir uns die Triebe zu Fesseln dienen lassen（因为我们让本能成为镣铐）。Triebe 后关系从句 die uns die Natur nur statt Leitfäden beigegeben hat（自然给我们本能只是当作引导绳）+ 目的 um die Bestimmung der Tierheit in uns nicht zu vernachlässigen, oder gar zu verletzen（使我们不忽视甚至损害自身动物性的规定）。最后 indes wir doch frei genug sind, sie anzuziehen oder nachzulassen, zu verlängern oder zu verkürzen（而我们又足够自由，把它们收紧或放松、拉长或缩短）+ nachdem es die Zwecke der Vernunft erfordern（按照理性目的的需要；nachdem：按照，旧用法）。",
+     "die Zucht：管教。die Disziplin：纪律（学院版作 Disciplin）。negativ：消极的（去除障碍，而不是增加能力）。die Befreiung：解放。der Despotism：专制（康德的写法）。die Begierde：欲望。",
+     "heften an：拴在、钉在。der Trieb：本能、冲动。die Fessel：镣铐。der Leitfaden：引导绳（字面：牵引的线）。beigeben：附带给予。die Tierheit：动物性（学院版作 Thierheit）。vernachlässigen：忽视。",
+     "anziehen / nachlassen：收紧 / 放松（像缰绳）。indes：而（学院版作 indeß）。",
+     "两种文化：技巧的文化让人「能做」；管教的文化让人「能选」。只有后者才真正为道德作准备。"
+    ]
+   }
+  ]
+ },
+ {
+  "h": "六 · 不平等、公民社会与战争",
+  "t": "Ungleichheit, bürgerliche Gesellschaft, Krieg",
+  "k": "6",
+  "pg": "AA V 432–433",
+  "sum": "自然怎样培养技巧？康德的回答很冷峻：通过不平等、奢侈带来的痛苦，通过公民社会，甚至通过战争。这些都不是人的目的，却是自然的手段。",
+  "s": [
+   {
+    "de": "Die{nf} Geschicklichkeit kann in der{df} Menschengattung nicht wohl entwickelt werden, als vermittelst der{gf} Ungleichheit unter Menschen: da die{nf} größte Zahl die{af} Notwendigkeit des{gn} Lebens gleichsam mechanisch, ohne dazu besonders Kunst zu bedürfen, zur Gemächlichkeit und Muße anderer besorgt, welche{np} die{ap} minder notwendigen Stücke der{gf} Kultur, Wissenschaft und Kunst, bearbeiten, und von diesen in einem{dm} Stande des{gm} Drucks, saurer Arbeit und wenig Genusses gehalten wird, auf welche{af} Klasse sich{refl} denn doch manches von der{df} Kultur der{gf} höhern nach und nach auch verbreitet.",
+    "zh": "在人类中，技巧几乎只能借助人与人之间的不平等来发展：最大多数人仿佛机械地、不需要特别的技艺，就为别人的安逸和闲暇提供生活必需品；而那些别人则从事文化中不那么必需的部分，即科学和艺术，并把多数人保持在受压迫、劳作辛苦、少有享受的状态中；不过上层阶级的文化，毕竟也有不少逐渐传播到了这个阶级身上。",
+    "n": [
+     "拆解：主句 Die Geschicklichkeit kann in der Menschengattung nicht wohl entwickelt werden, als vermittelst der Ungleichheit unter Menschen（技巧在人类中几乎只能借助不平等来发展；nicht … als：只有……才）。冒号后 da-从句：die größte Zahl … besorgt（最大多数人提供……）：die Notwendigkeit des Lebens（生活必需品）, gleichsam mechanisch, ohne dazu besonders Kunst zu bedürfen（仿佛机械地，不需要特别技艺）, zur Gemächlichkeit und Muße anderer（为别人的安逸和闲暇）。anderer 后关系从句 welche die minder notwendigen Stücke der Kultur, Wissenschaft und Kunst, bearbeiten（他们从事文化中不那么必需的部分即科学和艺术）。然后 und (die größte Zahl) von diesen in einem Stande des Drucks, saurer Arbeit und wenig Genusses gehalten wird（并被他们保持在受压迫、劳苦、少享受的状态中）。最后 auf welche Klasse sich denn doch manches von der Kultur der höhern nach und nach auch verbreitet（上层的文化有不少也逐渐传到这个阶级）。",
+     "die Ungleichheit：不平等。die Notwendigkeit des Lebens：生活必需品。die Gemächlichkeit：安逸。die Muße：闲暇（学院版印作小写 musse）。minder：较少地。das Stück：部分（复数 Stücke）。bearbeiten：从事。",
+     "der Druck：压迫。sauer：辛苦的。der Genuß：享受。die Klasse：阶级（学院版作 Classe）。der höhern：上层的（省略了 Klasse）。sich verbreiten：传播。"
+    ]
+   },
+   {
+    "de": "Die{np} Plagen aber wachsen im Fortschritte derselben (dessen Höhe, wenn der{nm} Hang zum Entbehrlichen schon dem{dn} Unentbehrlichen Abbruch zu tun anfängt, Luxus heißt) auf beiden Seiten gleich mächtig, auf der{df} einen durch fremde Gewalttätigkeit, auf der{df} andern durch innere Ungenügsamkeit; aber das{nn} glänzende Elend ist doch mit der{df} Entwickelung der{gp} Naturanlagen in der{df} Menschengattung verbunden, und der{nm} Zweck der{gf} Natur selbst, wenn es{expl} gleich nicht unser{nm} Zweck ist, wird doch hiebei erreicht.",
+    "zh": "但是随着文化的进步，痛苦在两方面同样强烈地增长（这种进步的顶点，当对多余之物的偏好已经开始损害必需之物时，就叫奢侈）：一方面由于外来的暴力，另一方面由于内心的不知足。不过，这种光彩夺目的苦难毕竟与人类自然禀赋的发展联系在一起；自然本身的目的，即使不是我们的目的，也由此达到了。",
+    "n": [
+     "拆解：Die Plagen aber wachsen im Fortschritte derselben … auf beiden Seiten gleich mächtig（但痛苦随文化进步在两方面同样强烈地增长；derselben = der Kultur）。括号插入 dessen Höhe, wenn der Hang zum Entbehrlichen schon dem Unentbehrlichen Abbruch zu tun anfängt, Luxus heißt（这种进步的顶点，当对多余之物的偏好开始损害必需之物时，叫奢侈）。两方面：auf der einen durch fremde Gewalttätigkeit（下层：外来的暴力）, auf der andern durch innere Ungenügsamkeit（上层：内心的不知足）。分号后 aber das glänzende Elend ist doch mit der Entwickelung der Naturanlagen … verbunden（但光彩夺目的苦难与自然禀赋的发展相连）, und der Zweck der Natur selbst, wenn es gleich nicht unser Zweck ist, wird doch hiebei erreicht（自然的目的即使不是我们的目的，也由此达到）。",
+     "die Plage：痛苦、灾难（复数 Plagen）。der Fortschritt：进步。der Hang zu：对……的偏好。das Entbehrliche / das Unentbehrliche：多余之物 / 必需之物。jm. Abbruch tun：损害。der Luxus：奢侈。",
+     "die Gewalttätigkeit：暴力（学院版作 Gewaltthätigkeit）。die Ungenügsamkeit：不知足。glänzend：光彩夺目的。das Elend：苦难。die Naturanlage：自然禀赋。hiebei：由此（= hierbei）。"
+    ]
+   },
+   {
+    "de": "Die{nf} formale Bedingung, unter welcher{df} die{nf} Natur diese{af} ihre{af} Endabsicht allein erreichen kann, ist diejenige{nf} Verfassung im Verhältnisse der{gp} Menschen untereinander, wo dem{dm} Abbruche der{gf} einander wechselseitig widerstreitenden Freiheit gesetzmäßige Gewalt in einem{dn} Ganzen, welches{nn} bürgerliche Gesellschaft heißt, entgegengesetzt wird; denn nur in ihr kann die{nf} größte Entwickelung der{gp} Naturanlagen geschehen.",
+    "zh": "自然唯一能借以达到这个最终意图的形式条件，是人与人之间这样一种体制：在其中，合法的强制力在一个叫作公民社会的整体中，与相互冲突的自由所造成的损害相对抗；因为只有在公民社会中，自然禀赋才能得到最大的发展。",
+    "n": [
+     "拆解：主语 Die formale Bedingung, unter welcher die Natur diese ihre Endabsicht allein erreichen kann（自然唯一能借以达到最终意图的形式条件）→ ist diejenige Verfassung im Verhältnisse der Menschen untereinander（是人与人之间的这样一种体制）+ wo-从句 wo dem Abbruche der einander wechselseitig widerstreitenden Freiheit gesetzmäßige Gewalt in einem Ganzen … entgegengesetzt wird（在其中合法的强制力与相互冲突的自由造成的损害相对抗；jm. etw. entgegensetzen，被动）；Ganzen 后 welches bürgerliche Gesellschaft heißt（叫作公民社会）。分号后 denn nur in ihr kann die größte Entwickelung der Naturanlagen geschehen（因为只有在其中禀赋才能得到最大发展）。",
+     "die Endabsicht：最终意图。diese ihre：这个它的（两个限定词连用，旧式）。die Verfassung：体制、宪政。wechselseitig widerstreitend：相互冲突的。gesetzmäßig：合法的、合乎法则的。die bürgerliche Gesellschaft：公民社会。",
+     "参看康德 1784 年的《世界公民观点下的普遍历史理念》：同样的思想——人的「非社会的社会性」推动禀赋发展。"
+    ]
+   },
+   {
+    "de": "Zu derselben wäre aber doch, wenn gleich Menschen sie{her} auszufinden klug und sich{refl} ihrem{dm} Zwange willig zu unterwerfen weise genug wären, noch ein{nn} weltbürgerliches Ganze, d. i. ein{nn} System aller Staaten, die{rel:np} auf einander nachteilig zu wirken in Gefahr sind, erforderlich.",
+    "zh": "不过，即使人们足够聪明能找到这种体制，并且足够明智而甘愿服从它的强制，要达到那个目的，还需要一个世界公民的整体，也就是一切有相互损害之危险的国家所组成的体系。",
+    "n": [
+     "拆解：Zu derselben wäre aber doch … noch ein weltbürgerliches Ganze … erforderlich（要达到它，还需要一个世界公民的整体；wäre = 虚拟式二）。让步 wenn gleich Menschen sie auszufinden klug und sich ihrem Zwange willig zu unterwerfen weise genug wären（即使人们足够聪明找到它，足够明智甘愿服从它的强制）。同位 d. i. ein System aller Staaten（即一切国家的体系）+ die auf einander nachteilig zu wirken in Gefahr sind（它们有相互损害的危险）。",
+     "zu derselben：为了它（指最大的发展）。auszufinden：找出。sich einer Sache unterwerfen：服从（第三格：ihrem Zwange）。der Zwang：强制。willig：甘愿地。weise：明智的。",
+     "weltbürgerlich：世界公民的。das Ganze：整体（这里 ein … Ganze 无词尾，康德的写法）。nachteilig：有害地（学院版作 nachtheilig）。"
+    ]
+   },
+   {
+    "de": "In dessen Ermangelung und bei dem{dn} Hindernis, welches{an} Ehrsucht, Herrschsucht und Habsucht vornehmlich bei denen, die{rel:np} Gewalt in Händen haben, selbst der{df} Möglichkeit eines{gm} solchen Entwurfs entgegen setzen, ist der{nm} Krieg (teils in welchem{dm} sich{refl} Staaten zerspalten und in kleinere auflösen, teils ein{nm} Staat andere, kleinere mit sich{refl} vereinigt und ein{an} größeres Ganze zu bilden strebt) unvermeidlich: der{dem:nm}, so wie er ein{nm} unabsichtlicher (durch zügellose Leidenschaften angeregter) Versuch der{gp} Menschen, doch tief verborgener, vielleicht absichtlicher der{gf} obersten Weisheit ist, Gesetzmäßigkeit mit der{df} Freiheit der{gp} Staaten und dadurch Einheit eines{gn} moralisch begründeten Systems derselben, wo nicht zu stiften, dennoch vorzubereiten und ungeachtet der{gp} schrecklichsten Drangsale, womit er das{an} menschliche Geschlecht belegt, und der{gp} vielleicht noch größern, womit die{nf} beständige Bereitschaft dazu im Frieden drückt, dennoch eine{nf} Triebfeder mehr ist (indessen die{nf} Hoffnung zu dem{dm} Ruhestande einer{gf} Volksglückseligkeit sich{refl} immer weiter entfernt) alle{ap} Talente, die{rel:np} zur Kultur dienen, bis zum höchsten Grade zu entwickeln.",
+    "zh": "在缺少这种体系的情况下，又有贪图荣誉、贪图权力和贪图财富——尤其是在掌权者身上——甚至阻挠这样一个方案的可能性，于是战争就不可避免了（有时国家分裂成更小的国家，有时一个国家吞并其他小国，力图形成一个更大的整体）。战争是人类无意的尝试（由放纵的激情所激起），却又是至高智慧深藏的、也许有意的尝试：它即使不能建立、也要准备各国自由之下的合法性，从而准备一个以道德为基础的国家体系的统一；尽管战争给人类带来最可怕的苦难，尽管在和平时期持续的备战带来也许更大的苦难，战争却仍然多了一个动力（而人民幸福的安宁状态的希望却越来越远），去把一切服务于文化的才能发展到最高程度。",
+    "n": [
+     "拆解：前场两个原因：In dessen Ermangelung（在缺少这个体系的情况下）und bei dem Hindernis（又有障碍）, welches Ehrsucht, Herrschsucht und Habsucht vornehmlich bei denen, die Gewalt in Händen haben, selbst der Möglichkeit eines solchen Entwurfs entgegen setzen（荣誉欲、权力欲和占有欲——尤其在掌权者身上——甚至阻挠这种方案的可能性）。→ ist der Krieg … unvermeidlich（战争就不可避免）；括号说明两种战争：teils in welchem sich Staaten zerspalten（有时国家在战争中分裂）, teils ein Staat andere, kleinere mit sich vereinigt（有时一国吞并别的小国）。冒号后 der（战争它）…：so wie er ein unabsichtlicher … Versuch der Menschen, doch tief verborgener, vielleicht absichtlicher der obersten Weisheit ist（正如它是人类无意的尝试，却又是至高智慧深藏、也许有意的尝试）, … zu stiften, dennoch vorzubereiten（即使不能建立，也要准备……）；准备什么：Gesetzmäßigkeit mit der Freiheit der Staaten und dadurch Einheit eines moralisch begründeten Systems derselben（各国自由之下的合法性，从而以道德为基础的国家体系的统一）。然后 und ungeachtet der schrecklichsten Drangsale …（尽管有最可怕的苦难）dennoch eine Triebfeder mehr ist（仍然多了一个动力）, alle Talente, die zur Kultur dienen, bis zum höchsten Grade zu entwickeln（把一切服务于文化的才能发展到最高程度）。",
+     "die Ermangelung：缺少。die Ehrsucht / Herrschsucht / Habsucht：荣誉欲 / 权力欲 / 占有欲（-sucht：贪……）。der Entwurf：方案。entgegen setzen：阻挠（学院版分写）。zerspalten：分裂。",
+     "unabsichtlich / absichtlich：无意的 / 有意的。zügellos：放纵的。die Leidenschaft：激情。die oberste Weisheit：至高智慧（指天意）。wo nicht …, dennoch：即使不……也。",
+     "ungeachtet + 第二格：尽管。die Drangsal：苦难（复数 Drangsale）。belegen mit：加给。die Bereitschaft：备战状态。die Triebfeder：动力。der Ruhestand：安宁状态。die Volksglückseligkeit：人民的幸福。",
+     "这一句是康德历史哲学的核心：战争是恶，却被自然当作推动文化的手段——这和《永久和平论》（1795）并不矛盾：自然通过战争逼人走向和平。"
+    ]
+   }
+  ]
+ },
+ {
+  "h": "七 · 艺术与科学：为理性的统治作准备",
+  "t": "Schöne Kunst und Wissenschaften",
+  "k": "7",
+  "pg": "AA V 433–434",
+  "sum": "至于第二种文化（管教）：精致的鉴赏和学问上的奢侈固然带来不少坏处，但它们磨掉了粗野的享乐欲望，为「只由理性统治」作准备。这里又回到了第 5 章的主题：美为德性作准备。",
+  "s": [
+   {
+    "de": "Schöne Kunst und Wissenschaften, die{rel:np} durch eine{af} Lust, die{rel:nf} sich{refl} allgemein mitteilen läßt, und durch Geschliffenheit und Verfeinerung für die{af} Gesellschaft, wenn gleich den{am} Menschen nicht sittlich besser, doch gesittet machen, gewinnen der{df} Tyrannei des{gm} Sinnenhanges sehr viel ab{sep} und bereiten dadurch den{am} Menschen zu einer{df} Herrschaft vor{sep}, in welcher{df} die{nf} Vernunft allein Gewalt haben soll: indes die{np} Übel, womit uns teils die{nf} Natur, teils die{nf} unvertragsame Selbstsucht der{gp} Menschen heimsucht, zugleich die{ap} Kräfte der{gf} Seele aufbieten, steigern und stählen, um jenen nicht zu unterliegen, und uns so eine{af} Tauglichkeit zu höheren Zwecken, die{rel:nf} in uns verborgen liegt, fühlen lassen.",
+    "zh": "美的艺术和科学，通过一种可以普遍传达的愉快，通过为社交而有的打磨和精致化，虽然不能使人在道德上更好，却能使人有教养；它们从感官偏好的暴政那里夺回了很多东西，从而使人准备好进入一种只由理性掌权的统治。同时，自然和人们难以相处的自私加给我们的种种灾难，唤起、增强和锤炼了心灵的力量，使我们不被它们压倒，从而让我们感到自身中隐藏着一种追求更高目的的能力。",
+    "n": [
+     "拆解：冒号前：主语 Schöne Kunst und Wissenschaften（美的艺术和科学）+ 关系从句 die … wenn gleich den Menschen nicht sittlich besser, doch gesittet machen（它们虽然不能使人道德上更好，却使人有教养）；方式 durch eine Lust, die sich allgemein mitteilen läßt（通过可以普遍传达的愉快）und durch Geschliffenheit und Verfeinerung für die Gesellschaft（通过为社交的打磨和精致化）。→ 两个谓语：gewinnen der Tyrannei des Sinnenhanges sehr viel ab（从感官偏好的暴政那里夺回很多；jm. etw. abgewinnen，可分）und bereiten dadurch den Menschen zu einer Herrschaft vor（并由此使人准备好进入一种统治；vorbereiten 可分）+ in welcher die Vernunft allein Gewalt haben soll（在其中只有理性掌权）。冒号后 indes die Übel … die Kräfte der Seele aufbieten, steigern und stählen（同时灾难唤起、增强、锤炼心灵的力量）, um jenen nicht zu unterliegen（使我们不被它们压倒）, und uns so eine Tauglichkeit zu höheren Zwecken … fühlen lassen（并让我们感到追求更高目的的能力）。Übel 后 womit uns teils die Natur, teils die unvertragsame Selbstsucht der Menschen heimsucht（自然和人们难以相处的自私用来折磨我们的）。",
+     "allgemein mitteilen：普遍传达（第 2 章：美的愉快可普遍传达）。die Geschliffenheit：打磨、圆熟。sittlich：道德上。gesittet：有教养的、文明的。康德区分 sittlich（道德的）与 gesittet（文明的）：文明还不是道德，但为道德作准备。",
+     "die Tyrannei：暴政。der Sinnenhang：感官偏好。das Übel：灾难、坏事。unvertragsam：难以相处的。die Selbstsucht：自私。heimsuchen：折磨、侵袭。aufbieten：唤起、动员。stählen：锤炼。jm. unterliegen：被……压倒（jenen = den Übeln）。"
+    ]
+   }
+  ]
+ },
+ {
+  "h": "八 · 人是创造的终极目的",
+  "t": "§ 84",
+  "k": "8",
   "pg": "AA V 434–436",
   "sum": "如果自然中有目的，就可以一直问「为了什么」：草为了牛，牛为了人……这条链子在哪里结束？康德先定义：",
   "s": [
