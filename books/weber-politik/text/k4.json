@@ -427,5 +427,101 @@
     ]
    }
   ]
+ },
+ {
+  "h": "九 · 官员与政治领袖：两种荣誉",
+  "t": "Beamter und Politiker",
+  "k": "9",
+  "pg": "1919 版 S. 25",
+  "sum": "说完律师，韦伯回头对比专业官员和政治家：官员应当「不带愤怒和偏好」地管理，政治家却必须斗争。两者的「荣誉」正好相反：官员的荣誉是负责地执行自己不赞成的命令，政治领袖的荣誉是为自己的所作所为独自承担责任。德国的「官员统治」就是让好官员去当政治家的恶果。",
+  "s": [
+   {
+    "de": "Der{nm} echte Beamte – das{dem:nn} ist für die{af} Beurteilung unseres früheren Regimes entscheidend – soll seinem eigentlichen Beruf nach{post} nicht Politik treiben, sondern: »verwalten«, unparteiisch vor allem, – auch für die{ap} sogenannten »politischen« Verwaltungsbeamten gilt das{dem:nn}, offiziell wenigstens, soweit nicht die{nf} »Staatsräson«, d. h. die{np} Lebensinteressen der{gf} herrschenden Ordnung, in Frage stehen.",
+    "zh": "真正的官员——这一点对于评判我们以前的政体是决定性的——按其本来的职业不应当搞政治，而应当「管理」，首先是不偏不倚地管理；这一点也适用于所谓「政治性」的行政官员，至少官方说法是这样，只要不涉及「国家理由」，也就是统治秩序的生死利益。",
+    "n": [
+     "拆解：主干 Der echte Beamte … soll … nicht Politik treiben, sondern: »verwalten«（真正的官员不应搞政治，而应「管理」）。第一个破折号里是插入语；第二个破折号后补充：auch für die … Verwaltungsbeamten gilt das（这也适用于……行政官员），soweit nicht … in Frage stehen（只要不涉及……）。",
+     "das Regime：政体（指 1918 年以前的德意志帝国）。seinem eigentlichen Beruf nach：按其本来的职业（nach 后置）。Politik treiben：搞政治。verwalten：管理、行政。unparteiisch：不偏不倚的。",
+     "sogenannt：所谓的。der Verwaltungsbeamte：行政官员。offiziell：官方地。die Staatsräson：国家理由（为了国家存续可以不顾一般规范的原则）。in Frage stehen：涉及、成问题。",
+     "d. h. = das heißt：也就是。die Lebensinteressen：生死攸关的利益。herrschend：统治的。"
+    ]
+   },
+   {
+    "de": "Sine ira et studio, »ohne Zorn und Eingenommenheit« soll er seines Amtes walten.",
+    "zh": "Sine ira et studio，「不带愤怒和偏好」，他应当这样履行他的职务。",
+    "n": [
+     "Sine ira et studio：拉丁文，出自塔西佗《编年史》，意思就是后面的德语翻译。",
+     "der Zorn：愤怒。die Eingenommenheit：偏好、成见。seines Amtes walten：履行职务（walten 支配第二格，旧式）。"
+    ]
+   },
+   {
+    "de": "Er soll also gerade das{dem:an} nicht tun, was der{nm} Politiker, der{nm} Führer sowohl wie seine Gefolgschaft, immer und notwendig tun muß: kämpfen.",
+    "zh": "所以他恰恰不应当做政治家（领袖和他的追随者都一样）总是并且必然要做的事：斗争。",
+    "n": [
+     "das …, was …：……的那件事。der Führer sowohl wie seine Gefolgschaft：领袖和他的追随者都一样（sowohl … wie = sowohl … als）。",
+     "冒号后才说出那件事：kämpfen（斗争）。韦伯爱把关键词放在冒号后。"
+    ]
+   },
+   {
+    "de": "Denn Parteinahme, Kampf, Leidenschaft – ira et studium{lat} – sind das{nn} Element des{gm} Politikers.",
+    "zh": "因为站队、斗争、激情——ira et studium（愤怒与偏好）——正是政治家的本色。",
+    "n": [
+     "die Parteinahme：站队、偏袒一方。die Leidenschaft：激情（全文的关键词之一，后面讲政治家的三种品质时还会出现）。",
+     "ira et studium：把上句的 sine ira et studio 反过来用。das Element：本来的环境、本色（像鱼在水中）。"
+    ]
+   },
+   {
+    "de": "Und vor allem: des{gm} politischen Führers.",
+    "zh": "尤其是政治领袖的本色。",
+    "n": [
+     "省略句：= Und vor allem sind sie das Element des politischen Führers。"
+    ]
+   },
+   {
+    "de": "Dessen{dem:gm} Handeln steht unter einem{dn} ganz anderen, gerade entgegengesetzten Prinzip der{gf} Verantwortung, als die{dem:nf} des{gm} Beamten ist.",
+    "zh": "政治领袖的行动所遵循的责任原则，和官员的完全不同，恰恰相反。",
+    "n": [
+     "dessen = des politischen Führers（指示代词属格）。das Handeln：行动（动词名词化）。",
+     "unter einem Prinzip stehen：遵循一个原则。entgegengesetzt：相反的。ein anderes … als …：和……不同的。",
+     "die des Beamten = die Verantwortung des Beamten（die 是指示代词，代替前面的名词）。"
+    ]
+   },
+   {
+    "de": "Ehre des{gm} Beamten ist die{nf} Fähigkeit, wenn – trotz seiner Vorstellungen{protest} – die{nf} ihm vorgesetzte Behörde auf einem{dm} ihm falsch erscheinenden Befehl beharrt, ihn auf Verantwortung des{gm} Befehlenden gewissenhaft und genau so auszuführen, als ob er seiner eigenen Überzeugung entspräche: ohne diese{af} im höchsten Sinn sittliche Disziplin und Selbstverleugnung zerfiele der{nm} ganze Apparat.",
+    "zh": "官员的荣誉在于这样一种能力：如果上级机关不顾他的异议，坚持一道在他看来错误的命令，他能够在发令者负责的前提下，认真而准确地执行它，就好像它符合他自己的信念一样；没有这种在最高意义上合乎道德的纪律和自我克制，整个机器就会瓦解。",
+    "n": [
+     "拆解：Ehre des Beamten ist die Fähigkeit, … ihn … auszuführen（官员的荣誉是执行它的能力）。中间插入条件 wenn … die ihm vorgesetzte Behörde auf einem … Befehl beharrt（如果上级机关坚持一道命令）。als ob er seiner eigenen Überzeugung entspräche：就好像它符合他自己的信念一样（er = der Befehl）。",
+     "die Vorstellungen：这里是「异议、劝谏」（向上级提出的意见），不是「表象」。die ihm vorgesetzte Behörde：他的上级机关（扩展定语）。auf etw. beharren：坚持。einem ihm falsch erscheinenden Befehl：一道在他看来错误的命令（扩展定语，第 24 课）。",
+     "auf Verantwortung des Befehlenden：由发令者负责。gewissenhaft：认真的。entspräche：entsprechen 的虚拟式二（符合）。",
+     "die Selbstverleugnung：自我克制、舍己。zerfiele：zerfallen 的虚拟式二（瓦解）。der Apparat：机器、机构。"
+    ]
+   },
+   {
+    "de": "Ehre des{gm} politischen Führers, also: des{gm} leitenden Staatsmannes, ist dagegen gerade die{nf} ausschließliche Eigenverantwortung für das{dem:an}, was er tut, die{rel:af} er nicht ablehnen oder abwälzen kann und darf.",
+    "zh": "相反，政治领袖、也就是主政的政治家的荣誉，恰恰在于对他所做的事独自承担责任，这种责任他不能、也不可以拒绝或推卸。",
+    "n": [
+     "leitend：领导的、主政的。der Staatsmann：政治家（褒义）。dagegen：相反。",
+     "ausschließlich：唯一的、独有的。die Eigenverantwortung：自己的责任。für das, was er tut：为他所做的事。",
+     "die er nicht ablehnen oder abwälzen kann und darf：关系从句指 Eigenverantwortung。ablehnen：拒绝。abwälzen：推卸。kann und darf：不能也不可以。"
+    ]
+   },
+   {
+    "de": "Gerade sittlich hochstehende Beamtennaturen sind schlechte, vor allem im politischen Begriff des{gn} Wortes verantwortungslose und in diesem{dm} Sinn: sittlich tiefstehende Politiker: – solche, wie wir sie{them} leider in leitenden Stellungen immer wieder gehabt haben: das{dem:nn} ist es, was wir »Beamtenherrschaft« nennen; und es{expl} fällt wahrlich kein Flecken auf die{af} Ehre unseres Beamtentums, wenn wir das{an} politisch, vom Standpunkt des{gm} Erfolges aus gewertet, Falsche dieses{gn} Systems bloßlegen.",
+    "zh": "恰恰是道德上品格高尚的官员型人物，会是糟糕的政治家，尤其是在这个词的政治意义上不负责任、因而在这个意义上道德低下的政治家——这样的人，可惜我们在主政的位置上一再有过：这就是我们所说的「官员统治」；我们指出这个体制在政治上（从成败的角度评价）的错误，这确实丝毫无损于我们官员阶层的荣誉。",
+    "n": [
+     "拆解：主干 Gerade sittlich hochstehende Beamtennaturen sind … Politiker（恰恰是道德高尚的官员型人物是……政治家）。三个形容词修饰 Politiker：schlechte, … verantwortungslose und … sittlich tiefstehende。冒号后：solche, wie wir sie … gehabt haben（这样的人我们一再有过）: das ist es, was wir »Beamtenherrschaft« nennen（这就是「官员统治」）。分号后另起一句。",
+     "sittlich hochstehend：道德上品格高尚的。die Beamtennatur：官员型的人。verantwortungslos：不负责任的。tiefstehend：低下的。韦伯在玩「道德高尚 / 道德低下」：官员的美德放在政治领袖的位置上就成了失职。",
+     "der Flecken：污点。auf etw. fällt kein Flecken：无损于……。wahrlich：确实。",
+     "das … Falsche dieses Systems：这个体制的错误之处（名词化形容词；中间插入 politisch, vom Standpunkt des Erfolges aus gewertet：在政治上、从成败的角度评价）。bloßlegen：揭露。"
+    ]
+   },
+   {
+    "de": "Aber kehren wir noch einmal zu den{dp} Typen der{gf} politischen Figuren zurück{sep}.",
+    "zh": "不过，让我们再回到政治人物的类型上来。",
+    "n": [
+     "kehren wir … zurück：让我们回到……（动词放首位的祈使，「让我们」）。zurückkehren：回到。",
+     "der Typ：类型（复数 Typen）。die Figur：人物。下一节讲现代政治领袖的类型：煽动家。"
+    ]
+   }
+  ]
  }
 ]
