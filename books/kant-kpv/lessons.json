@@ -5,7 +5,7 @@
   "t": "序言与导言：自由是拱顶石",
   "de": "Vorrede · Einleitung",
   "min": 25,
-  "html": "<p>《纯粹理性批判》回答了「我能知道什么」，并在结尾提出了第二个问题：「我应当做什么？」这本书就是对它的回答。序言和导言很短，却把全书的逻辑讲清楚了：道德法则让我们知道自己是自由的，自由又托起了上帝和不朽。</p>\n<h4>一、两部批判的对照</h4>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th></th><th>纯粹理性批判（1781 / 1787）</th><th>实践理性批判（1788）</th></tr></thead><tbody>\n<tr><th>问题</th><td>我能知道什么？</td><td>我应当做什么？</td></tr>\n<tr><th>理性的对象</th><td>对象（自然）</td><td>意志</td></tr>\n<tr><th>批判谁</th><td>纯粹理性：它会越出经验</td><td>经验性的实践理性：它想让欲望单独决定意志</td></tr>\n<tr><th>顺序</th><td>感性 → 概念 → 原理</td><td>原理 → 概念 → 感性（情感）</td></tr>\n<tr><th>自由</th><td>不矛盾，但不能证明</td><td>由道德法则证明是实在的</td></tr>\n</tbody></table></div>\n<h4>二、为什么书名里没有「纯粹」</h4>\n<p>纯粹理性一旦被证明是实践的，就不需要被批判：它本身就是批判的准绳。需要批判的是那个只听欲望和爱好的、「受经验制约的」实践理性。</p>\n[[Denn reine Vernunft, wenn allererst dargetan worden, daß es eine solche gebe, bedarf keiner Kritik]]\n<h4>三、存在根据与认识根据</h4>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th></th><th>自由</th><th>道德法则</th></tr></thead><tbody>\n<tr><th>在事情本身的顺序上</th><td>先：自由是道德法则的<b>存在根据</b>（ratio essendi）</td><td>后</td></tr>\n<tr><th>在我们认识的顺序上</th><td>后</td><td>先：道德法则是自由的<b>认识根据</b>（ratio cognoscendi）</td></tr>\n</tbody></table></div>\n<p>就像火和烟：火使烟存在；烟使我们知道有火。我们并不直接看到自由；我们意识到「我应当」，由此知道「我能够」。</p>\n[[die Freiheit allerdings die ratio essendi des moralischen Gesetzes, das moralische Gesetz aber die ratio cognoscendi der Freiheit sei]]\n<h4>四、自由与上帝、不朽的不同</h4>\n<p>自由是道德法则的<b>条件</b>，所以随着道德法则一起被证明。上帝和不朽却只是道德法则所要求的客体（至善）的条件：我们不能认识它们，甚至不能认识它们的可能性，只能在实践上「假定」它们。这就是第 6 章「公设」的伏笔。</p>\n<h4>五、语法小结</h4>\n<ul>\n<li><b>动词开头的条件句 + 虚拟式二</b>：wäre nicht …, so würden wir … · Wäre aber keine Freiheit, so würde …（第 12、22 课）。</li>\n<li><b>省略助动词</b>：wenn allererst dargetan worden (ist)（第 30 课）。</li>\n<li><b>强调句</b>：Sie ist es, welche …（正是它……）。</li>\n<li><b>haben + zu</b>：werden … zu bearbeiten haben（第 25 课）。</li>\n</ul>\n{{quiz:s1}}",
+  "html": "<p>《纯粹理性批判》回答了「我能知道什么」，并在结尾提出了第二个问题：「我应当做什么？」这本书就是对它的回答。序言和导言很短，却把全书的逻辑讲清楚了：道德法则让我们知道自己是自由的，自由又托起了上帝和不朽。</p>\n<h4>一、两部批判的对照</h4>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th></th><th>纯粹理性批判（1781 / 1787）</th><th>实践理性批判（1788）</th></tr></thead><tbody>\n<tr><th>问题</th><td>我能知道什么？</td><td>我应当做什么？</td></tr>\n<tr><th>理性的对象</th><td>对象（自然）</td><td>意志</td></tr>\n<tr><th>批判谁</th><td>纯粹理性：它会越出经验</td><td>经验性的实践理性：它想让欲望单独决定意志</td></tr>\n<tr><th>顺序</th><td>感性 → 概念 → 原理</td><td>原理 → 概念 → 感性（情感）</td></tr>\n<tr><th>自由</th><td>不矛盾，但不能证明</td><td>由道德法则证明是实在的</td></tr>\n</tbody></table></div>\n<h4>二、为什么书名里没有「纯粹」</h4>\n<p>纯粹理性一旦被证明是实践的，就不需要被批判：它本身就是批判的准绳。需要批判的是那个只听欲望和爱好的、「受经验制约的」实践理性。</p>\n[[Denn reine Vernunft, wenn allererst dargetan worden, daß es eine solche gebe, bedarf keiner Kritik]]\n<h4>三、存在根据与认识根据</h4>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th></th><th>自由</th><th>道德法则</th></tr></thead><tbody>\n<tr><th>在事情本身的顺序上</th><td>先：自由是道德法则的<b>存在根据</b>（ratio essendi）</td><td>后</td></tr>\n<tr><th>在我们认识的顺序上</th><td>后</td><td>先：道德法则是自由的<b>认识根据</b>（ratio cognoscendi）</td></tr>\n</tbody></table></div>\n<p>就像火和烟：火使烟存在；烟使我们知道有火。我们并不直接看到自由；我们意识到「我应当」，由此知道「我能够」。</p>\n[[die Freiheit allerdings die ratio essendi des moralischen Gesetzes, das moralische Gesetz aber die ratio cognoscendi der Freiheit sei]]\n<h4>四、自由与上帝、不朽的不同</h4>\n<p>自由是道德法则的<b>条件</b>，所以随着道德法则一起被证明。上帝和不朽却只是道德法则所要求的客体（至善）的条件：我们不能认识它们，甚至不能认识它们的可能性，只能在实践上「假定」它们。这就是第 7 章「公设」的伏笔。</p>\n<h4>五、语法小结</h4>\n<ul>\n<li><b>动词开头的条件句 + 虚拟式二</b>：wäre nicht …, so würden wir … · Wäre aber keine Freiheit, so würde …（第 12、22 课）。</li>\n<li><b>省略助动词</b>：wenn allererst dargetan worden (ist)（第 30 课）。</li>\n<li><b>强调句</b>：Sie ist es, welche …（正是它……）。</li>\n<li><b>haben + zu</b>：werden … zu bearbeiten haben（第 25 课）。</li>\n</ul>\n{{quiz:s1}}",
   "quiz": [
    {
     "id": "v1a",
@@ -321,6 +321,93 @@
     ],
     "ans": 0,
     "why": "「人固然够不神圣」，但人性必须是神圣的。"
+   }
+  ]
+ },
+ {
+  "id": "k1",
+  "ch": "k",
+  "t": "自由与自然因果",
+  "de": "Kritische Beleuchtung der Analytik",
+  "min": 25,
+  "html": "<p>前五章建立了道德法则和自由。这一章是康德对自己的「批判性审查」：一个人的每个行动都发生在时间里，都由之前的原因决定——那他凭什么为这个行动负责？康德先把难题推到最尖锐，再驳斥一个流行的「解决」，最后给出自己的解决：同一个人，作为现象受自然决定，作为物自身是自由的。</p>\n<h4>一、难题：过去不在我手里</h4>\n<ol>\n<li>每个事件都由前一时刻的状态必然决定（自然因果律）。</li>\n<li>过去的时间已经不在我的掌控之中。</li>\n<li>所以在我行动的那一刻，决定我的根据都不在我的掌控之中：我从来不是自由的。</li>\n</ol>\n[[Da nun die vergangene Zeit nicht mehr in meiner Gewalt ist, so muß jede Handlung, die ich ausübe, durch bestimmende Gründe, die nicht in meiner Gewalt sind, notwendig sein]]\n<p>即使假定我不依赖任何外来原因（连上帝也不），也无济于事：只要我在时间中，我就仍然在自然链条里。把自由交给「无规律」也不行——那只是「盲目的偶然」。</p>\n<h4>二、总表：两种「自由」</h4>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th></th><th>比较的（心理学的）自由</th><th>先验的自由</th></tr></thead><tbody>\n<tr><th>定义</th><td>行动的原因在我之内（表象、欲望、意愿），不是被外力推动</td><td>独立于一切经验、独立于整个自然</td></tr>\n<tr><th>例子</th><td>被抛出的物体、自己走的钟表、转烤肉叉</td><td>——（不能举出经验中的例子）</td></tr>\n<tr><th>原因本身</th><td>又被之前的状态决定，在时间链条里</td><td>不在时间中，没有什么先于意志的规定</td></tr>\n<tr><th>能否归责</th><td>不能：那只是「精神的自动机」</td><td>能：道德法则和归责的唯一基础</td></tr>\n<tr><th>康德的评价</th><td>「可怜的遁词」「咬文嚼字」</td><td>必须保住，否则道德法则落空</td></tr>\n</tbody></table></div>\n<p>关键：原因在里面还是在外面、是本能还是理性，都不重要；只要这个原因本身又在时间中被决定，它就只是机器的一个齿轮。物质的机器（Automaton materiale）和精神的机器（spirituale）没有本质区别。</p>\n<h4>三、康德的解决：同一个主体，两种看法</h4>\n<div class=\"scroll\"><table class=\"tbl\"><thead><tr><th></th><th>作为现象（Phänomen）</th><th>作为物自身（Noumen）</th></tr></thead><tbody>\n<tr><th>在不在时间中</th><td>在时间条件之下</td><td>不在时间条件之下</td></tr>\n<tr><th>受什么规定</th><td>自然必然性：被过去决定</td><td>自己通过理性给自己的法则</td></tr>\n<tr><th>性格</th><td>一条连贯的现象之链，可以预测</td><td>这整条链是我自己「造成」的，是我的因果性的结果</td></tr>\n<tr><th>对违法行动可以说</th><td>它是必然的</td><td>「我本来可以不做」</td></tr>\n</tbody></table></div>\n<p>所以康德说，即使能像算日食一样算出一个人的行为，他仍然是自由的：被预测的是现象之链；自由是这整条链作为物自身的根据。良心就是证据：不管辩护人怎么说「那是习惯、是一时疏忽」，心里的控告者都不沉默；多年后的悔恨也不因时间而减轻，因为理性在道德上「不承认时间的差别」。</p>\n<h4>四、反推方法</h4>\n<ol>\n<li><b>不定式作主语，谓语在很远的地方</b>：Eine Ausflucht darin suchen, daß … (…) ist ein elender Behelf。读到括号结束、看到 ist 才知道整句在说什么。遇到句首不定式短语，先跳过括号找变位动词。</li>\n<li><b>A B nennen</b>（双宾格）：den Mechanismus der Natur nennen、was wir Gewissen nennen。先找 nennen，再分出「把什么」和「叫作什么」。</li>\n<li><b>双不定式与虚拟式</b>：hat unterbleiben können、habe unterlassen werden können、hätte unterlassen werden sollen、hätte unterlassen können。从后往前读：情态动词 → 被动 → 实义动词（第 10 课）。</li>\n<li><b>旧式词尾</b>：als Phänomens、als Noumens（旧式属格）；als Dinge（旧式与格）；begangene Taten、übeln Gewohnheit（旧式强变化）。不要误读成复数（第 30 课）。</li>\n<li><b>ist … anzusehen</b>（sein + zu）：「只能 / 必须被看作」（第 25 课）。</li>\n</ol>\n<h4>五、马上练</h4>\n{{quiz:s1}}\n<h4>六、小结</h4>\n<ul>\n<li>如果把时间中的规定当作物自身的规定，自然必然性和自由就是矛盾的；唯一的出路是把必然性归于现象、把自由归于物自身——「同一个存在者」的两种看法。</li>\n<li>「比较的自由」（原因在我之内）不是真正的自由：原因本身仍在时间链中，这只是转烤肉叉的自由。</li>\n<li>理性存在者把自己的整个性格看作自己的作品，所以对每一个行动都可以说「我本来可以不做」。</li>\n<li>良心和悔恨印证了这一点；即使行为能像日食一样被预测，人仍然是自由的。</li>\n</ul>\n<p><button class=\"btn\" data-route=\"kant-kpv~ch-k\">自由与自然因果</button></p>",
+  "quiz": [
+   {
+    "id": "k1a",
+    "sec": "s1",
+    "de": "so läßt sich die Notwendigkeit im Kausalverhältnisse mit der Freiheit auf keinerlei Weise <<vereinigen>>",
+    "opts": [
+     "前提是把时间中的规定当作物自身的规定",
+     "无论怎样理解，必然性和自由都不能统一"
+    ],
+    "ans": 0,
+    "why": "句子开头是条件 Nimmt man …：只有把现象当作物自身时，两者才矛盾。康德的解决正是取消这个前提。"
+   },
+   {
+    "id": "k1b",
+    "sec": "s1",
+    "de": "denn das wäre so viel, als es dem blinden <<Ungefähr>> übergeben",
+    "opts": [
+     "没有法则的行动只是偶然，不是自由",
+     "自由就是不受任何法则约束"
+    ],
+    "ans": 0,
+    "why": "das Ungefähr：偶然。康德的自由不是无规律，而是服从自己给自己的法则。"
+   },
+   {
+    "id": "k1c",
+    "sec": "s1",
+    "de": "so bleibt kein Weg übrig, als … die Freiheit aber eben <<demselben>> Wesen als Dinge an sich selbst beizulegen",
+    "opts": [
+     "同一个存在者，从两方面看",
+     "现象和物自身是两个不同的存在者"
+    ],
+    "ans": 0,
+    "why": "eben demselben：恰恰是同一个。不是两个世界里的两个人，而是同一个人的两种看法。"
+   },
+   {
+    "id": "k1d",
+    "sec": "s1",
+    "de": "Eine Ausflucht darin suchen, daß man bloß die Art der Bestimmungsgründe … einem <<komparativen>> Begriffe von Freiheit anpaßt",
+    "opts": [
+     "只要原因在我之内就叫自由——康德认为这是遁词",
+     "原因在我之内的行动才是真正自由的"
+    ],
+    "ans": 0,
+    "why": "比较的自由：原因在内，但原因本身仍被过去决定。整句的谓语是 ist ein elender Behelf。"
+   },
+   {
+    "id": "k1e",
+    "sec": "s1",
+    "de": "so würde sie im Grunde nichts besser als die Freiheit eines <<Bratenwenders>> sein",
+    "opts": [
+     "上了发条就自己转：内在的原因，却仍是机器",
+     "烤肉叉需要人转，所以完全不自由"
+    ],
+    "ans": 0,
+    "why": "转烤肉叉上了发条之后「自己」动——正像心理学的自由：动力在内部，但一切仍是被决定的。"
+   },
+   {
+    "id": "k1f",
+    "sec": "s1",
+    "de": "mit Recht sagen, daß er sie hätte <<unterlassen>> können",
+    "opts": [
+     "理性存在者对违法行动可以说：我本来可以不做",
+     "违法行动作为现象本来就不是必然的"
+    ],
+    "ans": 0,
+    "why": "作为现象它是必然的（ob sie gleich … notwendig ist）；但整个性格是他自己造成的，所以他仍然负责。"
+   },
+   {
+    "id": "k1g",
+    "sec": "s1",
+    "de": "man eines Menschen Verhalten auf die Zukunft mit Gewißheit, so wie eine Mond- oder <<Sonnenfinsternis>> ausrechnen könnte und dennoch dabei behaupten, daß der Mensch frei sei",
+    "opts": [
+     "可预测性和自由并不矛盾",
+     "能预测就证明人不自由"
+    ],
+    "ans": 0,
+    "why": "被预测的是现象之链；自由属于这整条链作为物自身的根据。"
    }
   ]
  },
