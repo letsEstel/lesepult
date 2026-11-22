@@ -523,5 +523,66 @@
     ]
    }
   ]
+ },
+ {
+  "h": "十 · 煽动家",
+  "t": "Der Demagoge",
+  "k": "10",
+  "pg": "1919 版 S. 25–26",
+  "sum": "回到政治人物的类型。韦伯说，自有宪政国家、尤其自有民主以来，西方领导性政治家的类型就是「煽动家」——这个词不是骂人：第一个被这样称呼的是伯里克利。现代煽动家最重要的工具不是演说，而是印刷的文字；所以今天这一类人最重要的代表是记者。",
+  "s": [
+   {
+    "de": "Der{nm} »Demagoge« ist seit dem{dm} Verfassungsstaat und vollends seit der{df} Demokratie der{nm} Typus des{gm} führenden Politikers im Okzident.",
+    "zh": "自有宪政国家以来，尤其是自有民主以来，「煽动家」就是西方领导性政治家的类型。",
+    "n": [
+     "der Demagoge：煽动家，希腊文原意是「民众的领袖」。韦伯用的是原意。",
+     "der Verfassungsstaat：宪政国家。vollends：尤其是、完全。der Typus：类型。führend：领导性的。"
+    ]
+   },
+   {
+    "de": "Der{nm} unangenehme Beigeschmack des{gn} Wortes darf nicht vergessen lassen, daß nicht Kleon, sondern Perikles der{nm} erste war, der{rel:nm} diesen{am} Namen trug.",
+    "zh": "这个词令人不快的附带意味，不应让人忘记：第一个担当这个名称的不是克里昂，而是伯里克利。",
+    "n": [
+     "der Beigeschmack：附带的味道、言外之意。unangenehm：令人不快的。",
+     "darf nicht vergessen lassen：不应让人忘记（lassen + 不定式：使……）。",
+     "Kleon：克里昂，雅典的民众领袖，在修昔底德、阿里斯托芬笔下是蛊惑民众的典型。Perikles：伯里克利，雅典最伟大的政治家。einen Namen tragen：担当某个名称。"
+    ]
+   },
+   {
+    "de": "Amtlos oder mit dem{dn} – im Gegensatz zu den{dp} durchs Los besetzten Ämtern der{gf} antiken Demokratie – einzigen Wahlamt: dem{dem:dn} des{gm} Oberstrategen, betraut, leitete er die{af} souveräne Ekklesia des{gm} Demos von Athen.",
+    "zh": "他没有官职，或者只担任唯一一个选举产生的官职（与古代民主制中抽签担任的官职不同）：首席将军；他就这样领导着雅典人民的最高公民大会。",
+    "n": [
+     "拆解：前半是分词短语 Amtlos oder mit dem … einzigen Wahlamt …, betraut（没有官职，或被委以唯一的选举官职），主句 leitete er die souveräne Ekklesia des Demos von Athen（他领导雅典人民的最高公民大会）。",
+     "amtlos：没有官职的。mit etw. betraut：被委以……。das Wahlamt：选举产生的官职。dem des Oberstrategen：首席将军的那个（dem 是指示代词，代替 Wahlamt）。",
+     "durchs Los besetzt：抽签担任的（扩展定语：den [durchs Los besetzten] Ämtern）。das Los：签。雅典的大多数官职抽签产生，将军（Stratege）却是选举产生。",
+     "souverän：拥有最高权力的。die Ekklesia：公民大会（希腊文）。der Demos：人民（希腊文）。"
+    ]
+   },
+   {
+    "de": "Die{nf} moderne Demagogie bedient sich{refl} zwar auch der{gf} Rede: in quantitativ ungeheuerlichem Umfang sogar, wenn man die{ap} Wahlreden bedenkt, die{rel:ap} ein{nm} moderner Kandidat zu halten hat.",
+    "zh": "现代的煽动当然也利用演说——如果想想一个现代候选人要发表的那些竞选演说，在数量上甚至规模惊人。",
+    "n": [
+     "sich einer Sache bedienen：利用（第二格 der Rede）。zwar … Aber …：虽然……但是……（下一句开头的 Aber）。",
+     "quantitativ：在数量上。ungeheuerlich：惊人的。der Umfang：规模。",
+     "bedenken：想想。die Wahlrede：竞选演说。eine Rede halten：发表演说。zu halten hat：不得不发表（haben zu）。"
+    ]
+   },
+   {
+    "de": "Aber noch nachhaltiger doch: des{gn} gedruckten Worts.",
+    "zh": "但更持久有力的，还是印刷的文字。",
+    "n": [
+     "省略句：= Aber noch nachhaltiger bedient sie sich doch des gedruckten Worts。des … Worts 仍然是 sich bedienen 要求的第二格。",
+     "nachhaltig：持久有力的。gedruckt：印刷的。"
+    ]
+   },
+   {
+    "de": "Der{nm} politische Publizist und vor allem der{nm} Journalist ist der{nm} wichtigste heutige Repräsentant der{gf} Gattung.",
+    "zh": "政论作家、尤其是记者，是这一类人在今天最重要的代表。",
+    "n": [
+     "der Publizist：政论作家。der Journalist：记者。die Gattung：种类（这里指「煽动家」这一类人）。",
+     "下一节韦伯会讨论记者的社会处境。"
+    ]
+   }
+  ]
  }
 ]
