@@ -1,0 +1,3 @@
+77	deu	Lass uns etwas versuchen!
+78	deu	Ich muss schlafen gehen.
+80	deu	Was ist das?
