@@ -22,7 +22,7 @@ An entry: {"p": POS, "g": gender, "i": IPA, "a": audio URL, "r": corpus frequenc
            "s": [[gloss, [tags], [[example, translation], …]], …], "fm": [[form, short tags], …], "et": etymology}
   short tags: see TAGCODE; "a" is the Wikimedia Commons path of the recording
 """
-import argparse, collections, gzip, heapq, json, pathlib, re, sys, time, unicodedata
+import argparse, collections, gzip, heapq, html, json, pathlib, re, sys, time, unicodedata
 
 HERE = pathlib.Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE.parent))
@@ -299,7 +299,7 @@ def leipzig(src, E, F, n):
             a = line.rstrip("\n").split("\t")
             if len(a) < 2:
                 continue
-            s = a[-1].strip()
+            s = html.unescape(a[-1]).strip()
             sc = ex_score(s, 6, 24, 12)
             if sc is None:
                 continue

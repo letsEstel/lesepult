@@ -1590,7 +1590,7 @@ const WBTAG={nominative:'主格',genitive:'属格',dative:'与格',accusative:'�
   'singular-only':'只用单数',impersonal:'无人称','with-dative':'+与格','with-genitive':'+属格','with-accusative':'+宾格',law:'法律',philosophy:'哲学',
   physics:'物理',mathematics:'数学',theology:'神学',historical:'历史',poetic:'诗歌',pejorative:'贬义',dialectal:'方言',Christianity:'基督教',
   music:'音乐',military:'军事',medicine:'医学',biology:'生物',chemistry:'化学',grammar:'语法',linguistics:'语言学',zu:'带 zu',separable:'可分',
-  inseparable:'不可分',alternative:'异体',nonstandard:'不规范',feminine_equivalent:'阴性对应词','error-unknown-tag':''};
+  inseparable:'不可分',alternative:'异体','infinitive-zu':'带 zu 不定式',nonstandard:'不规范',feminine_equivalent:'阴性对应词','error-unknown-tag':''};
 const TAGCODE={N:'nominative',G:'genitive',D:'dative',A:'accusative',s:'singular',p:'plural','1':'first-person','2':'second-person','3':'third-person',
   pr:'present',pa:'past',pt:'preterite',k1:'subjunctive-i',k2:'subjunctive-ii',im:'imperative',pc:'participle',if:'infinitive',cp:'comparative',
   sp:'superlative',ax:'auxiliary',m:'masculine',f:'feminine',n:'neuter',dm:'diminutive',zu:'zu',pd:'predicative'};
@@ -1638,7 +1638,7 @@ function verbTables(fm){
   const used=new Set(), grid=T.map(([name,ok])=>{ const row=P.map(([p,n])=>{ const v=[]; fm.forEach((x,i)=>{ const ts=x[1].split(' '); if(ok(ts)&&ts.includes(p)&&ts.includes(n)&&!ts.includes('imperative')&&!ts.includes('participle')){ used.add(i); if(!v.includes(x[0])) v.push(x[0]); } }); return v; }); return {name,row}; }).filter(g=>g.row.some(v=>v.length));
   const pick=f=>{ const v=[]; fm.forEach((x,i)=>{ if(f(x[1].split(' '))){ used.add(i); if(!v.includes(x[0])) v.push(x[0]); } }); return v; };
   const aux=pick(t=>t.includes('auxiliary')), p2=pick(t=>has(t,'participle','past')), p1=pick(t=>has(t,'participle','present')),
-        imp=[pick(t=>has(t,'imperative','singular')),pick(t=>has(t,'imperative','plural'))], zu=pick(t=>t.includes('zu')&&t.includes('infinitive'));
+        imp=[pick(t=>has(t,'imperative','singular')),pick(t=>has(t,'imperative','plural'))], zu=pick(t=>t.includes('infinitive-zu')||(t.includes('zu')&&t.includes('infinitive')));
   const g3=grid.find(g=>g.name==='现在时'), gp=grid.find(g=>g.name==='过去时');
   const prin=[['er 现在时',g3&&g3.row[2]],['过去时',gp&&gp.row[0]],['第二分词',p2],['助动词',aux]].filter(x=>x[1]&&x[1].length);
   let h='';
@@ -1720,8 +1720,10 @@ async function wbOpen(word){
       :'<p class="wb-hint">词典里没有「'+esc(word)+'」。</p>';
     return;
   }
-  heads.sort((a,b)=>(b[0]===word)-(a[0]===word));
-  box.innerHTML=heads.map(([w,e,x])=>entryHtml(w,e,x)).join('<hr class="wb-hr">');
+  // the exact spelling wins (schön the adjective, not Schön the surname); other capitalisations become "see also"
+  const exact=heads.filter(h=>h[0]===word), main=exact.length?exact:heads, other=exact.length?heads.filter(h=>h[0]!==word):[];
+  box.innerHTML=main.map(([w,e,x])=>entryHtml(w,e,x)).join('<hr class="wb-hr">')+
+    (other.length?'<p class="wb-also">另见 '+other.map(([w,e])=>'<button class="wb-src" data-route="wb/'+esc(encodeURIComponent(w))+'" lang="de">'+esc(w)+'</button> <small>'+esc(WBPOS[e[0].p]||e[0].p)+'</small>').join('、')+'</p>':'');
   // which other headwords this spelling is also a form of
   const also=[]; for(const s of sh) for(const v of (s.f[ql]||[])){ const [w,how]=fHead(v); if(how!=='alt' && !heads.some(h=>h[0]===w) && !also.some(a=>a[0]===w)) also.push([w,how]); }
   if(also.length) box.insertAdjacentHTML('afterbegin','<p class="wb-also">「'+esc(word)+'」也是 '+also.map(([w,how])=>'<button class="wb-src" data-route="wb/'+esc(encodeURIComponent(w))+'" lang="de">'+esc(w)+'</button>'+(how?' <small>'+fHow(how)+'</small>':'')).join('、')+' 的变形</p>');
