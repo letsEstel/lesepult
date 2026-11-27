@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# (rerun: the dictionary workflow is triggered by changes under scripts/dict/)
 # Download the open data the dictionary is built from into $1 (default: dictsrc/). Each source tries a few
 # mirrors / file names; a source that cannot be fetched is left out and the build goes on without it.
 set -u
