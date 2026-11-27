@@ -36,6 +36,30 @@
   --rule:#2a2c2e; --rule-2:#3c3e41; --accent:#8fb3d9; --accent-soft:#1f2a36;
   --c-n:#8bb0ef; --c-a:#ee9a82; --c-d:#7fcca4; --c-g:#ddb867; --c-v:#c4a3e6; color-scheme:dark}
 :root[data-theme="light"]{color-scheme:light}
+/* Older themes, kept as options (not defaults). They bring their own palette, and their accent colours more of the page;
+   纸本 also lets each book use its own accent (set in setBookStyle). */
+:root[data-theme="paper"]{
+  --paper:#f3f4f1; --sheet:#fbfbf9; --sheet-2:#eaece7; --ink:#191d25; --ink-2:#454c5a; --ink-3:#757c8a;
+  --rule:#d8dbd3; --rule-2:#c6cac0; --accent:#1e3c6a; --accent-soft:#e2e8f1; color-scheme:light}
+:root[data-theme="wabi"]{
+  --paper:#eeeae3; --sheet:#f6f3ee; --sheet-2:#e5dfd5; --ink:#2b2824; --ink-2:#57524b; --ink-3:#8a847a;
+  --rule:#dbd4c8; --rule-2:#c8bfb0; --accent:#6b5a45; --accent-soft:#e6ddcf;
+  --c-n:#4f6a86; --c-a:#a0553c; --c-d:#4d7a5c; --c-g:#8c6d2c; --c-v:#76587f; color-scheme:light;
+  --f-frak:"Literata",Georgia,serif}
+:root[data-theme="roma"]{
+  --paper:#f3eee4; --sheet:#fbf8f1; --sheet-2:#ebe3d4; --ink:#241a14; --ink-2:#4f4238; --ink-3:#837668;
+  --rule:#e0d5c3; --rule-2:#ccbda6; --accent:#962b1f; --accent-soft:#f3e0d5;
+  --c-n:#2f5a8f; --c-a:#b5432e; --c-d:#3a7350; --c-g:#9a6f12; --c-v:#6d3f7d; color-scheme:light;
+  --f-frak:"Cinzel","Trajan Pro",Georgia,serif}
+:root[data-theme="aka"]{
+  --paper:#0f0b0b; --sheet:#191313; --sheet-2:#241a1a; --ink:#f5ede7; --ink-2:#cbbdb4; --ink-3:#928279;
+  --rule:#342628; --rule-2:#4b393a; --accent:#ff4b37; --accent-soft:#3b1410;
+  --c-n:#7fb0ff; --c-a:#ff7a5c; --c-d:#5fdc9e; --c-g:#ffc145; --c-v:#d69bff; color-scheme:dark}
+:root[data-theme="roma"] .lib-mast,:root[data-theme="roma"] .mast{letter-spacing:.04em}
+:root:is([data-theme="paper"],[data-theme="wabi"],[data-theme="roma"],[data-theme="aka"]) :is(.lib-mast,.mast,.brand .frak,.lesson .ln,.ch-n,.cc-n){color:var(--accent)}
+:root:is([data-theme="paper"],[data-theme="wabi"],[data-theme="roma"],[data-theme="aka"]) .btn.pri{background:var(--accent);border-color:var(--accent)}
+:root:is([data-theme="paper"],[data-theme="wabi"],[data-theme="roma"],[data-theme="aka"]) :is(.ch-s .bar i){background:var(--accent)}
+:root:is([data-theme="paper"],[data-theme="wabi"],[data-theme="roma"],[data-theme="aka"]) :is(.cc-prog i,.bk-prog i){background:linear-gradient(to right,var(--accent) var(--p),var(--rule) var(--p))}
 
 *{box-sizing:border-box}
 *,*::before,*::after{transition:none!important;animation:none!important}
@@ -85,6 +109,7 @@ a{color:var(--accent);text-decoration-thickness:1px;text-underline-offset:.2em}
 .theme-menu{position:absolute;right:20px;top:calc(100% + 4px);z-index:40;width:min(260px,calc(100vw - 40px));background:var(--paper);border:1px solid var(--rule-2);border-radius:8px;padding:4px}
 @media (min-width:720px){.theme-menu{right:32px}}
 .theme-menu h4{font:500 12px var(--f-ui);color:var(--ink-3);margin:6px 10px 2px}
+.theme-menu .th-opt+h4{border-top:1px solid var(--rule);margin:6px 0 2px;padding:10px 10px 0}
 .th-opt{all:unset;box-sizing:border-box;display:grid;grid-template-columns:1fr auto;gap:0 10px;align-items:center;width:100%;padding:8px 10px;border-radius:6px;cursor:pointer}
 .th-opt:hover,.th-opt:focus-visible{background:var(--sheet-2)}
 .th-opt b{font:500 14px var(--f-ui)}
@@ -460,7 +485,7 @@ dialog.fb::backdrop{background:rgba(0,0,0,.3)}
 footer{border-top:1px solid var(--rule);padding-block:22px 44px;color:var(--ink-3);font-size:13px}
 .fz{display:inline-flex;gap:0}
 </style>
-<script data-theme-init>try{var t=JSON.parse(localStorage.getItem('reader.ui.theme')||'""');if(t==='light'||t==='dark')document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
+<script data-theme-init>try{var t=JSON.parse(localStorage.getItem('reader.ui.theme')||'""');if(['light','dark','paper','wabi','roma','aka'].indexOf(t)>=0)document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
 <header class="top">
   <div class="wrap top-in">
     <button class="back" id="backBtn" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 18l-6-6 6-6"/></svg><span class="bk-pre">返回</span><span id="backLbl"></span></button>
@@ -797,7 +822,9 @@ function setBookStyle(m){
   const f=m.fonts||{};
   const decl=o=>Object.entries(o).filter(([,v])=>v).map(([k,v])=>k+':'+v).join(';');
   // one accent for the whole site: a book brings only its typefaces, never its own colours
-  el.textContent=':root{'+decl({'--f-de':f.text,'--f-frak':f.mast,'--f-zh':f.trans})+'}';
+  // the default themes use one accent for the whole site; only the old 纸本 theme lets a book bring its own colour
+  const t=m.theme||{}, acc=decl({'--accent':t.accent,'--accent-soft':t.accentSoft});
+  el.textContent=':root{'+decl({'--f-de':f.text,'--f-frak':f.mast,'--f-zh':f.trans})+'}'+(acc?':root[data-theme="paper"]{'+acc+'}':'');
 }
 function clearBookStyle(){ const el=$('#bookcss'); if(el) el.textContent=''; }
 function enterCtx(id,cid){
@@ -1426,9 +1453,13 @@ load('dict').then(d=>{ DICT=d; linkify(document.body); }).catch(()=>{});
 /* ---------- colour themes ----------
    "Auto" (no data-theme) follows the system's light / dark setting; the others are fixed. Saved per device. */
 const THEMES=[
-  {id:'', name:'自动', desc:'跟随系统，白天白底，夜里深色'},
-  {id:'light', name:'白天', desc:'白底黑字'},
-  {id:'dark', name:'夜读', desc:'深底浅字，适合晚上'}
+  {id:'', name:'自动', desc:'跟随系统：白天用白底，夜里用夜读'},
+  {id:'light', name:'白天', desc:'白底黑字，一个点缀色'},
+  {id:'dark', name:'夜读', desc:'深底浅字，适合晚上'},
+  {id:'paper', old:1, name:'纸本', desc:'冷白纸、普鲁士蓝，每本书有自己的主色'},
+  {id:'wabi', old:1, name:'侘寂', desc:'米灰与陶土色，低饱和，安静克制'},
+  {id:'roma', old:1, name:'罗马', desc:'石灰华与庞贝红，标题用碑铭体', font:'https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600&display=swap'},
+  {id:'aka', old:1, name:'赤焰', desc:'黑底，红与橙，高对比'}
 ];
 function applyTheme(id){
   const t=THEMES.find(x=>x.id===id)||THEMES[0], r=document.documentElement;
@@ -1438,7 +1469,7 @@ function applyTheme(id){
 }
 function renderThemeMenu(){
   const cur=UI.get('theme','');
-  $('#themeMenu').innerHTML='<h4>配色主题</h4>'+THEMES.map(t=>'<button class="th-opt" role="menuitemradio" data-theme="'+t.id+'" aria-checked="'+(t.id===cur)+'"><b>'+esc(t.name)+'</b><small>'+esc(t.desc)+'</small><svg class="th-ck" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m5 12 5 5 9-10"/></svg></button>').join('');
+  $('#themeMenu').innerHTML='<h4>配色主题</h4>'+THEMES.map(t=>(t.old&&!THEMES[THEMES.indexOf(t)-1].old?'<h4>旧主题</h4>':'')+'<button class="th-opt" role="menuitemradio" data-theme="'+t.id+'" aria-checked="'+(t.id===cur)+'"><b>'+esc(t.name)+'</b><small>'+esc(t.desc)+'</small><svg class="th-ck" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m5 12 5 5 9-10"/></svg></button>').join('');
 }
 function themeMenu(open){ const m=$('#themeMenu'); if(open==null) open=m.hidden; m.hidden=!open; $('#themeBtn').setAttribute('aria-expanded',open); if(open){ renderThemeMenu(); const c=m.querySelector('[aria-checked="true"]')||m.querySelector('.th-opt'); c&&c.focus({preventScroll:true}); } }
 $('#themeBtn').addEventListener('click',e=>{ e.stopPropagation(); themeMenu(); });
