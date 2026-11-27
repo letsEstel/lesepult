@@ -1682,6 +1682,9 @@ function exDe(s, forms){
 function examplesHtml(w,x,ents){
   if(!x) return '';
   const forms=new Set([w.toLowerCase()]); ents.forEach(e=>(e.fm||[]).forEach(([f,t])=>{ if(!/\bax\b/.test(t)) f.split(' ').forEach(p=>forms.add(p.toLowerCase())); }));
+  // adjectives: their declined forms are not stored, so add the regular endings to the base, comparative and superlative
+  ents.forEach(e=>{ if(e.p!=='adj') return; const bases=[w.toLowerCase()].concat((e.fm||[]).filter(([,t])=>/\b(cp|sp)\b/.test(t)).map(([f])=>f.toLowerCase().replace(/^am\s+/,'').replace(/en$/,'')));
+    bases.forEach(b=>['','e','en','em','er','es'].forEach(x=>forms.add(b.replace(/e$/,'')+x))); });
   let h='';
   if(x.b) h+='<h4>本站书中的原句</h4><ul class="wb-ex">'+x.b.map(([de,zh,route,book])=>'<li><p class="de" lang="de">'+exDe(de,forms)+'</p><p class="wb-tr">'+esc(zh)+'</p><button class="wb-src" data-route="'+esc(route)+'">《'+esc(book)+'》 →</button></li>').join('')+'</ul>';
   if(x.t) h+='<h4>例句 <small>Tatoeba</small></h4><ul class="wb-ex">'+x.t.map(([de,en])=>'<li><p class="de" lang="de">'+exDe(de,forms)+'</p><p class="wb-tr" lang="en">'+esc(en)+'</p></li>').join('')+'</ul>';
