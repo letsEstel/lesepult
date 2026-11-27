@@ -19,7 +19,7 @@ jobs:
       - name: Build and make sure docs/ is up to date
         run: |
           python3 scripts/build.py --standalone -o /tmp/site/index.html
-          diff -r -x .nojekyll /tmp/site docs || (echo "docs/ 与源文件不一致：请运行 python3 scripts/build.py --standalone -o docs/index.html 后再提交" && exit 1)
+          diff -r -x .nojekyll -x wb /tmp/site docs || (echo "docs/ 与源文件不一致：请运行 python3 scripts/build.py --standalone -o docs/index.html 后再提交" && exit 1)
       - name: Browser test
         run: |
           pip install playwright==1.47.0
