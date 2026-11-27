@@ -66,7 +66,7 @@ SENSE_TAGS = {"transitive", "intransitive", "reflexive", "colloquial", "informal
               "Christianity", "music", "military", "medicine", "biology", "chemistry", "grammar", "linguistics"}
 # the form tags are written short (the browser expands them back); tags that carry nothing for the reader are dropped
 TAGCODE = {"nominative": "N", "genitive": "G", "dative": "D", "accusative": "A", "singular": "s", "plural": "p",
-           "first-person": "1", "second-person": "2", "third-person": "3", "present": "pr", "past": "pa", "preterite": "pt",
+           "first-person": "1", "second-person": "2", "third-person": "3", "present": "pr", "past": "pa", "preterite": "pa",
            "subjunctive-i": "k1", "subjunctive-ii": "k2", "imperative": "im", "participle": "pc", "infinitive": "if",
            "comparative": "cp", "superlative": "sp", "auxiliary": "ax", "masculine": "m", "feminine": "f", "neuter": "n",
            "diminutive": "dm", "zu": "zu", "predicative": "pd"}
@@ -126,7 +126,10 @@ def read_kaikki(path, freq):
                 ex = []
                 for e in s.get("examples", []) or []:
                     t, tr = e.get("text", ""), e.get("english") or e.get("translation") or ""
-                    if t and len(t) < 220 and e.get("type", "example") in ("example", "quotation", "quote"):
+                    if "please add" in tr.lower() or "translation of this" in tr.lower():
+                        tr = ""
+                    # usage examples only: quotations often carry their bibliographic reference in the text field
+                    if t and len(t) < 220 and e.get("type", "example") == "example" and not re.match(r"^\d{3,4}\b|.*\bp\.\s*\d", t):
                         ex.append([t, tr])
                     if len(ex) >= 2:
                         break
@@ -146,15 +149,18 @@ def read_kaikki(path, freq):
                 form = strip_lead(form)
                 if COMPOUND_TAGS & set(tags) or (" " in form and AUX & set(form.lower().split())):
                     continue
-                tg = " ".join(TAGCODE.get(t, t) for t in tags if t not in DROP_TAGS)
+                tg = " ".join(sorted(TAGCODE.get(t, t) for t in tags if t not in DROP_TAGS))
                 if (form, tg) in seen:
                     continue
                 seen.add((form, tg))
                 if form.lower() != word.lower() and " " not in form and "auxiliary" not in tags:
                     F[form.lower()].append([word, ""])
-                if pos == "adj" and DECL_TAGS & set(tags):
+                if pos == "adj" and (DECL_TAGS & set(tags) or "predicative" in tags):
                     continue
                 fms.append([form, tg])
+            # drop a summary form when the same form also appears with a fuller set of tags (Hundes "G" beside "G s")
+            sets = [(f, set(t.split())) for f, t in fms]
+            fms = [[f, t] for (f, t), (_, ts) in zip(fms, sets) if not any(f2 == f and ts < ts2 for f2, ts2 in sets)]
             if not gs:
                 for s in senses[:2]:
                     gs |= {GENDERS[t] for t in s.get("tags", []) if t in GENDERS}
@@ -188,8 +194,15 @@ def words_of(s):
     return TOKRE.findall(s)
 
 
+# a learner's dictionary should not greet you with crime reports from the news corpus
+GRIM = re.compile(r"vergewalt|ermord|mörder|\bmord|leiche|terror|missbrauch|sexu|porno|nazi|hitler|suizid|selbstmord|getötet|erschoss|"
+                  r"folter|massaker|anschlag|attentat|geisel|erstoch|totgeschlagen|vergast|holocaust|amok|leichnam|enthaupt", re.I)
+
+
 def ex_score(s, lo, hi, best):
     """lower is better: closeness of the word count to `best`, penalties for noise"""
+    if GRIM.search(s):
+        return None
     w = len(words_of(s))
     if w < lo or w > hi:
         return None

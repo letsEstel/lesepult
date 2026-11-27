@@ -1577,7 +1577,7 @@ const WBTAG={nominative:'主格',genitive:'属格',dative:'与格',accusative:'�
   'singular-only':'只用单数',impersonal:'无人称','with-dative':'+与格','with-genitive':'+属格','with-accusative':'+宾格',law:'法律',philosophy:'哲学',
   physics:'物理',mathematics:'数学',theology:'神学',historical:'历史',poetic:'诗歌',pejorative:'贬义',dialectal:'方言',Christianity:'基督教',
   music:'音乐',military:'军事',medicine:'医学',biology:'生物',chemistry:'化学',grammar:'语法',linguistics:'语言学',zu:'带 zu',separable:'可分',
-  inseparable:'不可分','error-unknown-tag':''};
+  inseparable:'不可分',alternative:'异体',nonstandard:'不规范',feminine_equivalent:'阴性对应词','error-unknown-tag':''};
 const TAGCODE={N:'nominative',G:'genitive',D:'dative',A:'accusative',s:'singular',p:'plural','1':'first-person','2':'second-person','3':'third-person',
   pr:'present',pa:'past',pt:'preterite',k1:'subjunctive-i',k2:'subjunctive-ii',im:'imperative',pc:'participle',if:'infinitive',cp:'comparative',
   sp:'superlative',ax:'auxiliary',m:'masculine',f:'feminine',n:'neuter',dm:'diminutive',zu:'zu',pd:'predicative'};
@@ -1598,7 +1598,7 @@ async function wbSearch(q){
   if(seq!==WB.seq) return;
   const ql=q.trim().toLowerCase(), rows=[], seen=new Set();
   const add=(w,how,ent)=>{ if(seen.has(w)) return; seen.add(w); rows.push({w,how,ent}); };
-  for(const s of sh) for(const v of (s.f[ql]||[])) { const [w,how]=fHead(v); /* a form: point to its headword, which may live in another shard */ add(w,'← '+q.trim()+(how?' · '+fHow(how):' 的原形'),null); }
+  for(const s of sh) for(const v of (s.f[ql]||[])) { const [w,how]=fHead(v); /* a form: point to its headword, which may live in another shard */ add(w,'「'+q.trim()+'」的'+(how?fHow(how).replace('或','/'):'原形'),null); }
   const cands=[];
   for(const s of sh) for(const w in s.e){ const f=wfold(w); if(f.startsWith(fq)) cands.push([w,s.e[w]]); }
   const rank=v=>Math.max(...v.map(e=>e.r||0));
@@ -1656,7 +1656,8 @@ function formsHtml(w,e){
   if(e.p==='noun'){ h=nounTable(fm); if(h) fm.forEach((x,i)=>{ if(/nominative|genitive|dative|accusative/.test(x[1])) used.add(i); }); }
   else if(e.p==='verb'){ const v=verbTables(fm); h=v.h; used=v.used; }
   else if(e.p==='adj'){ h=adjTable(w,fm); fm.forEach((x,i)=>{ if(/comparative|superlative/.test(x[1])) used.add(i); }); }
-  const rest=fm.filter((x,i)=>!used.has(i) && x[0]!==w);
+  const shown=new Set(fm.filter((x,i)=>used.has(i)).map(x=>x[0]));
+  const rest=fm.filter((x,i)=>!used.has(i) && x[0]!==w && !shown.has(x[0]) && !/auxiliary/.test(x[1]));
   if(rest.length) h+='<div class="wb-forms">'+rest.slice(0,30).map(([f,t])=>'<span><b lang="de">'+esc(f)+'</b>'+(t?' <small>'+esc(wbTags(t))+'</small>':'')+'</span>').join('')+'</div>';
   return h?'<section class="wb-sec"><h3>变形</h3>'+h+'</section>':'';
 }
@@ -1667,7 +1668,7 @@ function exDe(s, forms){
 }
 function examplesHtml(w,x,ents){
   if(!x) return '';
-  const forms=new Set([w.toLowerCase()]); ents.forEach(e=>(e.fm||[]).forEach(([f])=>f.split(' ').forEach(p=>forms.add(p.toLowerCase()))));
+  const forms=new Set([w.toLowerCase()]); ents.forEach(e=>(e.fm||[]).forEach(([f,t])=>{ if(!/\bax\b/.test(t)) f.split(' ').forEach(p=>forms.add(p.toLowerCase())); }));
   let h='';
   if(x.b) h+='<h4>本站书中的原句</h4><ul class="wb-ex">'+x.b.map(([de,zh,route,book])=>'<li><p class="de" lang="de">'+exDe(de,forms)+'</p><p class="wb-tr">'+esc(zh)+'</p><button class="wb-src" data-route="'+esc(route)+'">《'+esc(book)+'》 →</button></li>').join('')+'</ul>';
   if(x.t) h+='<h4>例句 <small>Tatoeba</small></h4><ul class="wb-ex">'+x.t.map(([de,en])=>'<li><p class="de" lang="de">'+exDe(de,forms)+'</p><p class="wb-tr" lang="en">'+esc(en)+'</p></li>').join('')+'</ul>';
@@ -1709,7 +1710,7 @@ async function wbOpen(word){
   heads.sort((a,b)=>(b[0]===word)-(a[0]===word));
   box.innerHTML=heads.map(([w,e,x])=>entryHtml(w,e,x)).join('<hr class="wb-hr">');
   // which other headwords this spelling is also a form of
-  const also=[]; for(const s of sh) for(const v of (s.f[ql]||[])){ const [w,how]=fHead(v); if(!heads.some(h=>h[0]===w) && !also.some(a=>a[0]===w)) also.push([w,how]); }
+  const also=[]; for(const s of sh) for(const v of (s.f[ql]||[])){ const [w,how]=fHead(v); if(how!=='alt' && !heads.some(h=>h[0]===w) && !also.some(a=>a[0]===w)) also.push([w,how]); }
   if(also.length) box.insertAdjacentHTML('afterbegin','<p class="wb-also">「'+esc(word)+'」也是 '+also.map(([w,how])=>'<button class="wb-src" data-route="wb/'+esc(encodeURIComponent(w))+'" lang="de">'+esc(w)+'</button>'+(how?' <small>'+fHow(how)+'</small>':'')).join('、')+' 的变形</p>');
 }
 function wbMissing(){ return '<p class="wb-hint">词典数据还没有生成（docs/wb/meta.json 不存在）。</p>'; }
