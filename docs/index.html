@@ -1567,13 +1567,15 @@ function wbShard(k){
   if(!WB.shards[k]) WB.shards[k]=fetch('wb/'+k+'.json?v='+WB.meta.v).then(r=>{ if(!r.ok) throw new Error(r.status); return r.json(); }).catch(e=>{ delete WB.shards[k]; throw e; });
   return WB.shards[k];
 }
-// the shard keys that can hold words starting with folded prefix fq (a two-letter shard may have been split into three-letter ones)
-function wbKeysFor(fq){
+// shards are keyed by folded prefixes of different lengths (a shard that got too big hands its longer words on to
+// keys one letter longer). A word lives in the deepest key that is a prefix of it, so load every key on the path;
+// for search suggestions also the keys one level below.
+function wbKeysFor(fq, deep){
   if(!fq) return [];
-  const p2=(fq+'__').slice(0,2);
-  return WB.keys.filter(k=>k.length===2 ? k===p2 : (k.slice(0,2)===p2 && (fq.length<3 ? true : k===(fq+'___').slice(0,3))));
+  const p=fq.length<2?(fq+'__').slice(0,2):fq;
+  return WB.keys.filter(k=>p.startsWith(k) || (deep && k.length===p.length+1 && k.startsWith(p)));
 }
-async function wbLoad(fq){ const ks=wbKeysFor(fq); const sh=await Promise.all(ks.map(wbShard)); return sh; }
+async function wbLoad(fq,deep){ const ks=wbKeysFor(fq,deep); const sh=await Promise.all(ks.map(wbShard)); return sh; }
 const WBPOS={noun:'名词',verb:'动词',adj:'形容词',adv:'副词',prep:'介词',conj:'连词',pron:'代词',det:'限定词',article:'冠词',num:'数词',
   intj:'感叹词',particle:'小品词',name:'专名',phrase:'短语',prefix:'前缀',suffix:'后缀',abbrev:'缩写',contraction:'缩合词',proverb:'谚语',
   prep_phrase:'介词短语',postp:'后置词',affix:'词缀',character:'字母',symbol:'符号'};
@@ -1589,6 +1591,14 @@ const WBTAG={nominative:'主格',genitive:'属格',dative:'与格',accusative:'�
   physics:'物理',mathematics:'数学',theology:'神学',historical:'历史',poetic:'诗歌',pejorative:'贬义',dialectal:'方言',Christianity:'基督教',
   music:'音乐',military:'军事',medicine:'医学',biology:'生物',chemistry:'化学',grammar:'语法',linguistics:'语言学',zu:'带 zu',separable:'可分',
   inseparable:'不可分','error-unknown-tag':''};
+const TAGCODE={N:'nominative',G:'genitive',D:'dative',A:'accusative',s:'singular',p:'plural','1':'first-person','2':'second-person','3':'third-person',
+  pr:'present',pa:'past',pt:'preterite',k1:'subjunctive-i',k2:'subjunctive-ii',im:'imperative',pc:'participle',if:'infinitive',cp:'comparative',
+  sp:'superlative',ax:'auxiliary',m:'masculine',f:'feminine',n:'neuter',dm:'diminutive',zu:'zu',pd:'predicative'};
+const untag=t=>String(t||'').split(' ').map(c=>TAGCODE[c]||c).join(' ');
+// form index entries are "headword" or "headword|alt" (old / variant spelling)
+const fHead=v=>{ const i=v.indexOf('|'); return i<0?[v,'']:[v.slice(0,i),v.slice(i+1)]; };
+const fHow=h=>h==='alt'?'旧拼写或异体':'';
+const wbAudio=p=>'https://upload.wikimedia.org/wikipedia/commons/'+(/\.mp3$/i.test(p)?p:'transcoded/'+p+'/'+p.split('/').pop()+'.mp3');
 const wbTags=s=>(Array.isArray(s)?s:String(s||'').split(' ')).filter(Boolean).map(t=>WBTAG[t]!=null?WBTAG[t]:t).filter(Boolean).join(' ');
 const ART={m:'der',f:'die',n:'das'};
 const sizeMB=b=>(b/1048576).toFixed(b<1048576*10?1:0)+' MB';
@@ -1597,11 +1607,11 @@ const sizeMB=b=>(b/1048576).toFixed(b<1048576*10?1:0)+' MB';
 async function wbSearch(q){
   const seq=++WB.seq, fq=wfold(q), box=$('#wbList');
   if(fq.length<2){ box.innerHTML=fq?'<p class="wb-hint">再输入一个字母……</p>':''; return; }
-  let sh; try{ await wbMeta(); sh=await wbLoad(fq); }catch(e){ if(seq===WB.seq) box.innerHTML='<p class="wb-hint">词典数据加载失败。</p>'; return; }
+  let sh; try{ await wbMeta(); sh=await wbLoad(fq,true); }catch(e){ if(seq===WB.seq) box.innerHTML='<p class="wb-hint">词典数据加载失败。</p>'; return; }
   if(seq!==WB.seq) return;
   const ql=q.trim().toLowerCase(), rows=[], seen=new Set();
   const add=(w,how,ent)=>{ if(seen.has(w)) return; seen.add(w); rows.push({w,how,ent}); };
-  for(const s of sh) for(const [w,how] of (s.f[ql]||[])) { /* a form: point to its headword, which may live in another shard */ add(w,'← '+q.trim()+(how?' · '+wbTags(how):''),null); }
+  for(const s of sh) for(const v of (s.f[ql]||[])) { const [w,how]=fHead(v); /* a form: point to its headword, which may live in another shard */ add(w,'← '+q.trim()+(how?' · '+fHow(how):' 的原形'),null); }
   const cands=[];
   for(const s of sh) for(const w in s.e){ const f=wfold(w); if(f.startsWith(fq)) cands.push([w,s.e[w]]); }
   const rank=v=>Math.max(...v.map(e=>e.r||0));
@@ -1654,7 +1664,7 @@ function adjTable(lemma, fm){
   return h;
 }
 function formsHtml(w,e){
-  const fm=e.fm||[]; if(!fm.length && e.p!=='adj') return '';
+  const fm=(e.fm||[]).map(([f,t])=>[f,untag(t)]); if(!fm.length && e.p!=='adj') return '';
   let h='', used=new Set();
   if(e.p==='noun'){ h=nounTable(fm); if(h) fm.forEach((x,i)=>{ if(/nominative|genitive|dative|accusative/.test(x[1])) used.add(i); }); }
   else if(e.p==='verb'){ const v=verbTables(fm); h=v.h; used=v.used; }
@@ -1682,7 +1692,7 @@ function entryHtml(w,ents,x){
   let h='<header class="wb-head"><h2 lang="de">'+esc(w)+'</h2><button class="icon-btn" data-sw="'+esc(w)+'" aria-label="朗读" title="朗读">'+ICON.say+'</button></header>';
   if(zh) h+='<p class="wb-zh"><small>本站释义</small>'+esc(zh[3])+(zh[4]?'<span>'+esc(zh[4])+'</span>':'')+'</p>';
   ents.forEach(e=>{
-    h+='<section class="wb-ent"><div class="wb-meta"><b>'+esc(WBPOS[e.p]||e.p)+'</b>'+(e.g?'<span lang="de">'+e.g.split('').map(g=>ART[g]).join(' / ')+' '+esc(w)+'</span>':'')+(e.i?'<span class="wb-ipa">'+esc(e.i)+'</span>':'')+(e.a?'<button class="wb-audio" data-audio="'+esc(e.a)+'">真人发音</button>':'')+'</div>';
+    h+='<section class="wb-ent"><div class="wb-meta"><b>'+esc(WBPOS[e.p]||e.p)+'</b>'+(e.g?'<span lang="de">'+e.g.split('').map(g=>ART[g]).join(' / ')+' '+esc(w)+'</span>':'')+(e.i?'<span class="wb-ipa">'+esc(e.i)+'</span>':'')+(e.a?'<button class="wb-audio" data-audio="'+esc(wbAudio(e.a))+'">真人发音</button>':'')+'</div>';
     h+='<ol class="wb-senses">'+e.s.map(([g,t,ex])=>'<li><span class="wb-g" lang="en">'+esc(g)+'</span>'+(t&&t.length?' <small>'+esc(wbTags(t))+'</small>':'')+
       (ex&&ex.length?'<ul class="wb-sx">'+ex.map(([d,tr])=>'<li><span lang="de">'+esc(d)+'</span>'+(tr?'<i lang="en">'+esc(tr)+'</i>':'')+'</li>').join(''):'')+(ex&&ex.length?'</ul>':'')+'</li>').join('')+'</ol>';
     h+=formsHtml(w,e);
@@ -1703,26 +1713,26 @@ async function wbOpen(word){
   let heads=[];
   for(const s of sh) for(const w in s.e) if(w===word || w.toLowerCase()===ql) heads.push([w,s.e[w],s.x[w]]);
   if(!heads.length){
-    const to=[]; for(const s of sh) for(const [w,how] of (s.f[ql]||[])) if(!to.some(t=>t[0]===w)) to.push([w,how]);
+    const to=[]; for(const s of sh) for(const v of (s.f[ql]||[])){ const [w,how]=fHead(v); if(!to.some(t=>t[0]===w)) to.push([w,how]); }
     if(to.length===1){ navigate('wb/'+encodeURIComponent(to[0][0]),{replace:true}); return; }
-    box.innerHTML=to.length?'<p class="wb-hint">「'+esc(word)+'」是这些词的变形：</p><div class="wb-list">'+to.map(([w,how])=>'<button class="wb-row" data-route="wb/'+esc(encodeURIComponent(w))+'"><b lang="de">'+esc(w)+'</b><span>'+esc(wbTags(how))+'</span></button>').join('')+'</div>'
+    box.innerHTML=to.length?'<p class="wb-hint">「'+esc(word)+'」是这些词的变形：</p><div class="wb-list">'+to.map(([w,how])=>'<button class="wb-row" data-route="wb/'+esc(encodeURIComponent(w))+'"><b lang="de">'+esc(w)+'</b><span>'+esc(fHow(how))+'</span></button>').join('')+'</div>'
       :'<p class="wb-hint">词典里没有「'+esc(word)+'」。</p>';
     return;
   }
   heads.sort((a,b)=>(b[0]===word)-(a[0]===word));
   box.innerHTML=heads.map(([w,e,x])=>entryHtml(w,e,x)).join('<hr class="wb-hr">');
   // which other headwords this spelling is also a form of
-  const also=[]; for(const s of sh) for(const [w,how] of (s.f[ql]||[])) if(!heads.some(h=>h[0]===w) && !also.some(a=>a[0]===w)) also.push([w,how]);
-  if(also.length) box.insertAdjacentHTML('afterbegin','<p class="wb-also">也是 '+also.map(([w,how])=>'<button class="wb-src" data-route="wb/'+esc(encodeURIComponent(w))+'" lang="de">'+esc(w)+'</button>'+(how?' <small>'+esc(wbTags(how))+'</small>':'')).join('、')+' 的变形</p>');
+  const also=[]; for(const s of sh) for(const v of (s.f[ql]||[])){ const [w,how]=fHead(v); if(!heads.some(h=>h[0]===w) && !also.some(a=>a[0]===w)) also.push([w,how]); }
+  if(also.length) box.insertAdjacentHTML('afterbegin','<p class="wb-also">「'+esc(word)+'」也是 '+also.map(([w,how])=>'<button class="wb-src" data-route="wb/'+esc(encodeURIComponent(w))+'" lang="de">'+esc(w)+'</button>'+(how?' <small>'+fHow(how)+'</small>':'')).join('、')+' 的变形</p>');
 }
 function wbMissing(){ return '<p class="wb-hint">词典数据还没有生成（docs/wb/meta.json 不存在）。</p>'; }
 
 /* ---- offline: fetch every shard once; the service worker caches versioned files for good ---- */
 async function wbInfo(){
   const el=$('#wbInfo'); let m; try{ m=await wbMeta(); }catch(e){ el.innerHTML=''; return; }
-  const tot=Object.values(m.keys).reduce((a,b)=>a+b,0), full=wbStore.get('full','')===m.v;
+  const tot=m.gz||Object.values(m.keys).reduce((a,b)=>a+b,0), full=wbStore.get('full','')===m.v;
   el.innerHTML='<span>收录 '+m.n.heads.toLocaleString()+' 个词头 · '+m.n.forms.toLocaleString()+' 个变形</span>'+
-    (full?'<span>已下载，可离线使用</span>':'<button class="wb-dl" id="wbDl">下载完整词典（约 '+sizeMB(tot)+'，压缩传输更小），离线也能查</button>');
+    (full?'<span>已下载，可离线使用</span>':'<button class="wb-dl" id="wbDl">下载完整词典（约 '+sizeMB(tot)+'），离线也能查</button>');
 }
 async function wbDownload(btn){
   const m=await wbMeta(), ks=WB.keys; let done=0, fail=0, i=0;

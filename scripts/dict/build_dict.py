@@ -14,12 +14,13 @@ SRC_DIR holds what scripts/dict/fetch.sh downloaded (any missing source is skipp
 Output: docs/wb/meta.json (version, shard keys and sizes, counts) and docs/wb/<key>.json shards.
 A shard holds every headword and word form whose folded spelling starts with its key:
   {"e": {headword: [entry, …]},          entries of one spelling (Essen the noun, essen the verb are different headwords)
-   "f": {form: [[headword, how], …]},     lower-cased form → the headwords it belongs to ("how": Wiktionary tags)
+   "f": {form: [headword, …]},            lower-cased form → the headwords it is a form of ("headword|alt": old or variant spelling)
    "x": {headword: {"t": [[de, en], …],   Tatoeba sentence pairs
                     "l": [de, …],         Leipzig corpus sentences
                     "b": [[de, zh, route, book], …]}}   sentences from Lesepult's own books
 An entry: {"p": POS, "g": gender, "i": IPA, "a": audio URL, "r": corpus frequency,
-           "s": [[gloss, [tags], [[example, translation], …]], …], "fm": [[form, tags], …], "et": etymology}
+           "s": [[gloss, [tags], [[example, translation], …]], …], "fm": [[form, short tags], …], "et": etymology}
+  short tags: see TAGCODE; "a" is the Wikimedia Commons path of the recording
 """
 import argparse, collections, gzip, heapq, json, pathlib, re, sys, time, unicodedata
 
@@ -63,6 +64,14 @@ SENSE_TAGS = {"transitive", "intransitive", "reflexive", "colloquial", "informal
               "singular-only", "impersonal", "auxiliary", "with-dative", "with-genitive", "with-accusative", "law",
               "philosophy", "physics", "mathematics", "theology", "historical", "poetic", "pejorative", "dialectal",
               "Christianity", "music", "military", "medicine", "biology", "chemistry", "grammar", "linguistics"}
+# the form tags are written short (the browser expands them back); tags that carry nothing for the reader are dropped
+TAGCODE = {"nominative": "N", "genitive": "G", "dative": "D", "accusative": "A", "singular": "s", "plural": "p",
+           "first-person": "1", "second-person": "2", "third-person": "3", "present": "pr", "past": "pa", "preterite": "pt",
+           "subjunctive-i": "k1", "subjunctive-ii": "k2", "imperative": "im", "participle": "pc", "infinitive": "if",
+           "comparative": "cp", "superlative": "sp", "auxiliary": "ax", "masculine": "m", "feminine": "f", "neuter": "n",
+           "diminutive": "dm", "zu": "zu", "predicative": "pd"}
+DROP_TAGS = {"table-tags", "definite", "indefinite", "indicative", "subjunctive", "multiword-construction", "error-unknown-tag",
+             "dependent", "main-clause", "subordinate-clause"}
 DECL_TAGS = {"strong", "weak", "mixed"}  # adjective declension: regular, rebuilt in the browser
 # compound tenses (hat gesehen, wurde gesehen, werde gesehen haben …) are predictable from the auxiliary and the
 # participle; Wiktionary lists them for every verb, which would make the dictionary ten times bigger
@@ -103,10 +112,10 @@ def read_kaikki(path, freq):
             for s in senses:
                 ref = (s.get("form_of") or s.get("alt_of") or [None])[0]
                 tags = [t for t in s.get("tags", []) if t not in ("form-of", "alt-of")]
-                if ref and ref.get("word") and " " not in word:
-                    how = ("alt " if s.get("alt_of") else "") + " ".join(tags)
-                    F[word.lower()].append([ref["word"], how.strip()])
-                    nf += 1
+                if ref and ref.get("word"):
+                    if " " not in word:
+                        F[word.lower()].append([ref["word"], "alt" if s.get("alt_of") else ""])
+                        nf += 1
                     continue
                 gl = s.get("glosses") or s.get("raw_glosses")
                 if not gl:
@@ -137,12 +146,12 @@ def read_kaikki(path, freq):
                 form = strip_lead(form)
                 if COMPOUND_TAGS & set(tags) or (" " in form and AUX & set(form.lower().split())):
                     continue
-                tg = " ".join(t for t in tags if t not in ("table-tags",))
+                tg = " ".join(TAGCODE.get(t, t) for t in tags if t not in DROP_TAGS)
                 if (form, tg) in seen:
                     continue
                 seen.add((form, tg))
-                if form.lower() != word.lower() and " " not in form:
-                    F[form.lower()].append([word, tg])
+                if form.lower() != word.lower() and " " not in form and "auxiliary" not in tags:
+                    F[form.lower()].append([word, ""])
                 if pos == "adj" and DECL_TAGS & set(tags):
                     continue
                 fms.append([form, tg])
@@ -154,8 +163,11 @@ def read_kaikki(path, freq):
             for snd in d.get("sounds", []) or []:
                 if "ipa" in snd and "i" not in ent:
                     ent["i"] = snd["ipa"]
-                if "a" not in ent and (snd.get("mp3_url") or snd.get("ogg_url")):
-                    ent["a"] = snd.get("mp3_url") or snd.get("ogg_url")
+                if "a" not in ent:
+                    u = snd.get("ogg_url") or snd.get("mp3_url") or ""
+                    m = re.search(r"/wikipedia/commons/(?:transcoded/)?([0-9a-f]/[0-9a-f]{2}/[^/]+)", u)
+                    if m:
+                        ent["a"] = m.group(1)   # the browser rebuilds the Wikimedia URL of the MP3 version
             ent["s"] = real[:12]
             if fms:
                 ent["fm"] = fms[:90]
@@ -349,10 +361,10 @@ def main():
     freq = read_freq(src)
     E, F = read_kaikki(kk, freq)
     for k in list(F):
-        seen, v = set(), []
-        for w, how in F[k]:
-            if (w, how) not in seen:
-                seen.add((w, how)); v.append([w, how])
+        v = []
+        for w, how in sorted(F[k], key=lambda p: p[1] == "alt"):
+            if not any(x[0] == w for x in v):
+                v.append([w, how])
         F[k] = v[:8]
     T = tatoeba(src, E, F, a.tatoeba)
     L = leipzig(src, E, F, a.leipzig)
@@ -371,7 +383,7 @@ def main():
         if x:
             sh["x"][w] = x
     for f, v in F.items():
-        v = [p for p in v if p[0] in E]
+        v = [p[0] + ("|alt" if p[1] == "alt" else "") for p in v if p[0] in E]
         if v:
             shards[key2(f)]["f"][f] = v
 
@@ -403,8 +415,15 @@ def main():
     sizes_by = sorted(((len(b.encode()), k) for k, b in final.items()), reverse=True)[:8]
     log("最大的分片：", ", ".join(f"{k} {n/1e3:.0f} KB" for n, k in sizes_by))
     big = shards.get("ha") or {}
-    for part in ("e", "f", "x"):
-        log(f"  ha 分片里 {part}：{len(dump({part: big.get(part, {})}))/1e3:.0f} KB")
+    tot = collections.Counter()
+    for sh in shards.values():
+        for part in ("f", "x"):
+            tot[part] += len(dump(sh[part]))
+        for ents in sh["e"].values():
+            for e in ents:
+                for kk, v in e.items():
+                    tot["e." + kk] += len(dump(v))
+    log("各部分大小：", ", ".join(f"{k} {v/1e6:.1f} MB" for k, v in tot.most_common()))
 
     out.mkdir(parents=True, exist_ok=True)
     for old in out.glob("*.json"):
@@ -415,7 +434,8 @@ def main():
         sizes[k] = len(blob.encode())
     import hashlib
     h = hashlib.sha1("".join(final[k] for k in sorted(final)).encode()).hexdigest()[:10]
-    meta = {"v": h, "built": time.strftime("%Y-%m-%d"), "keys": sizes,
+    gzt = sum(len(gzip.compress(final[k].encode(), 6)) for k in final)
+    meta = {"v": h, "built": time.strftime("%Y-%m-%d"), "keys": sizes, "gz": gzt,
             "n": {"heads": len(E), "entries": sum(len(v) for v in E.values()), "forms": len(F),
                   "tatoeba": sum(1 for w in E if T and T.get(w)), "leipzig": sum(1 for w in E if L and L.get(w)),
                   "book": sum(1 for w in E if B and B.get(w))},
