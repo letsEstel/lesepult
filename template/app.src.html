@@ -484,6 +484,76 @@ dialog.fb::backdrop{background:rgba(0,0,0,.3)}
 .fb .fb-hint{font-size:12.5px;color:var(--ink-3);margin-top:10px;line-height:1.6}
 footer{border-top:1px solid var(--rule);padding-block:22px 44px;color:var(--ink-3);font-size:13px}
 .fz{display:inline-flex;gap:0}
+
+/* ---- 德英词典 ---- */
+.wb-btn{margin-left:auto}
+.tabs:not([hidden]) ~ .wb-btn{margin-left:0}
+.wb-btn ~ .theme-btn{margin-left:0}
+.wb-btn[aria-current="page"]{color:var(--accent)}
+.wb-wrap{max-width:calc(var(--measure) + 64px);padding-bottom:96px}
+.wb-wrap .search{width:100%;font-size:18px;padding:10px 2px}
+.wb-info{display:flex;flex-wrap:wrap;gap:4px 16px;font-size:12.5px;color:var(--ink-3);margin:8px 0 20px}
+.wb-dl{border:0;background:none;padding:0;font:12.5px var(--f-ui);color:var(--accent);cursor:pointer;text-decoration:underline;text-underline-offset:3px}
+.wb-dl[disabled]{color:var(--ink-3);text-decoration:none;cursor:default}
+.wb-hint{color:var(--ink-3);font:14.5px/1.8 var(--f-zh)}
+.wb-list{display:grid}
+.wb-row{all:unset;box-sizing:border-box;cursor:pointer;display:flex;align-items:baseline;gap:14px;padding:9px 0;border-bottom:1px solid var(--rule);min-width:0}
+.wb-row b{font:600 17px var(--f-de);flex:none}
+.wb-row span{font-size:13.5px;color:var(--ink-3);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0}
+.wb-row:hover b{color:var(--accent)}
+.wb-row:focus-visible{outline:2px solid var(--accent)}
+.wb-head{display:flex;align-items:center;gap:8px;margin-top:8px}
+.wb-head h2{font:600 34px/1.2 var(--f-de);margin:0;overflow-wrap:anywhere}
+.wb-zh{font:15.5px/1.9 var(--f-zh);margin:6px 0 0;padding-left:14px;border-left:2px solid var(--rule-2)}
+.wb-zh small{font:12px var(--f-ui);color:var(--ink-3);margin-right:10px}
+.wb-zh span{display:block;color:var(--ink-2);font-size:14.5px}
+.wb-ent{margin-top:22px}
+.wb-meta{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 14px;padding-bottom:8px;border-bottom:1px solid var(--rule)}
+.wb-meta b{font:600 13px var(--f-ui);color:var(--ink-2)}
+.wb-meta span{font:15px var(--f-de);color:var(--ink-2)}
+.wb-meta .wb-ipa{font-family:"Doulos SIL","Charis SIL","Gentium Plus","Segoe UI",sans-serif;color:var(--ink-3)}
+.wb-audio{border:0;background:none;padding:0;font:12.5px var(--f-ui);color:var(--accent);cursor:pointer}
+.wb-senses{margin:12px 0 0;padding-left:1.6em}
+.wb-senses>li{margin:.5em 0;padding-left:.2em;font:16px/1.7 var(--f-de)}
+.wb-senses>li::marker{font:13px var(--f-ui);color:var(--ink-3)}
+.wb-senses small{font:12px var(--f-ui);color:var(--ink-3)}
+.wb-sx{list-style:none;margin:4px 0 0;padding:0 0 0 14px;border-left:2px solid var(--accent)}
+.wb-sx li{font:15px/1.7 var(--f-de);margin:3px 0}
+.wb-sx i{display:block;color:var(--ink-3);font-size:14px}
+.wb-sec{margin-top:26px}
+.wb-sec h3{font:600 13px var(--f-ui);letter-spacing:.04em;color:var(--ink-2);margin:0 0 6px}
+.wb-sec h4{font:600 13px var(--f-ui);color:var(--ink-2);margin:22px 0 6px}
+.wb-sec h4 small{font-weight:400;color:var(--ink-3);margin-left:6px}
+.wb-tbl{width:auto;min-width:min(100%,420px)}
+.wb-tbl td{font:15.5px var(--f-de)}
+.wb-tbl tbody th{font:500 12.5px var(--f-ui);color:var(--ink-3);white-space:nowrap}
+.wb-tbl caption{text-align:left;font:500 12.5px var(--f-ui);color:var(--ink-3);padding:10px 0 2px}
+.wb-conj td{white-space:nowrap}
+.wb-prin{display:flex;flex-wrap:wrap;gap:8px 28px;margin:10px 0}
+.wb-prin span{display:flex;flex-direction:column}
+.wb-prin small{font-size:12px;color:var(--ink-3)}
+.wb-prin b{font:600 16px var(--f-de)}
+.wb-forms{display:flex;flex-wrap:wrap;gap:4px 18px;margin-top:10px}
+.wb-forms b{font:500 15px var(--f-de)}
+.wb-forms small{font-size:11.5px;color:var(--ink-3)}
+.wb-more{margin-top:12px}
+.wb-more summary{cursor:pointer;font-size:13px;color:var(--ink-3)}
+.wb-more p{font:14px/1.7 var(--f-de);color:var(--ink-2)}
+.wb-ex{list-style:none;margin:0;padding:0;border-top:1px solid var(--rule)}
+.wb-ex>li{padding:10px 0;border-bottom:1px solid var(--rule)}
+.wb-ex .de{font-size:calc(1.05rem * var(--scale));line-height:1.75;margin:0}
+.wb-tr{margin:2px 0 0;font:14.5px/1.85 var(--f-zh);color:var(--ink-2)}
+.wb-tr[lang="en"]{font-family:var(--f-de);color:var(--ink-3)}
+.wbw{cursor:pointer;border-radius:2px}
+.wbw:hover{color:var(--accent)}
+.wbw.hit{font-weight:600}
+.wb-src{border:0;background:none;padding:0;font:12.5px var(--f-ui);color:var(--accent);cursor:pointer;margin-top:4px}
+.wb-also{font-size:13.5px;color:var(--ink-3);margin:6px 0 0}
+.wb-also .wb-src{font:600 15px var(--f-de)}
+.wb-hr{border:0;border-top:1px solid var(--ink-3);margin:40px 0 8px}
+.wb-cite{margin-top:40px;font-size:12px;color:var(--ink-3);line-height:1.7}
+.sl-wb{display:block;margin-top:16px;border:0;background:none;padding:0;font:13px var(--f-ui);color:var(--accent);cursor:pointer;text-align:left}
+.sl-wb:hover{text-decoration:underline;text-underline-offset:3px}
 </style>
 <script data-theme-init>try{var t=JSON.parse(localStorage.getItem('reader.ui.theme')||'""');if(['light','dark','paper','wabi','roma','aka'].indexOf(t)>=0)document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
 <header class="top">
@@ -498,6 +568,7 @@ footer{border-top:1px solid var(--rule);padding-block:22px 44px;color:var(--ink-
       <button class="tab" role="tab" data-go="vocab">词汇表</button>
       <button class="tab" role="tab" data-go="saved">生词本<span class="cnt" id="savedCnt">0</span></button>
     </nav>
+    <button class="icon-btn wb-btn" id="wbBtn" data-route="wb" aria-label="德英词典" title="德英词典"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6"/><path d="m15 15 5 5"/></svg></button>
     <button class="icon-btn theme-btn" id="themeBtn" aria-label="配色主题" title="配色主题" aria-haspopup="true" aria-expanded="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3a9 9 0 1 0 0 18c1.1 0 1.7-.8 1.7-1.6 0-.5-.2-.9-.5-1.2-.3-.3-.5-.7-.5-1.2 0-.9.8-1.7 1.7-1.7H16a5 5 0 0 0 5-5c0-4-4-7.3-9-7.3Z"/><circle cx="7.5" cy="11" r="1"/><circle cx="10" cy="7" r="1"/><circle cx="14.5" cy="7" r="1"/><circle cx="17" cy="11" r="1"/></svg></button>
     <div class="theme-menu" id="themeMenu" role="menu" aria-label="配色主题" data-nolink hidden></div>
   </div>
@@ -597,6 +668,17 @@ footer{border-top:1px solid var(--rule);padding-block:22px 44px;color:var(--ink-
   <div class="wrap">
     <div class="sec-head"><div class="eyebrow">Mein Vokabelheft</div><h2>生词本</h2><p>本书收藏的词。点卡片翻面。只保存在这台设备的浏览器里。</p></div>
     <div id="savedBox"></div>
+  </div>
+</section>
+
+<!-- DICTIONARY -->
+<section id="v-wb" class="view" hidden data-nolink>
+  <div class="wrap wb-wrap">
+    <div class="sec-head"><div class="eyebrow">Wörterbuch</div><h2>德英词典</h2></div>
+    <input id="wbQ" class="search" type="search" placeholder="查德语词：原形或任何变形，如 sah、Häuser、Theil" autocomplete="off" autocapitalize="off" spellcheck="false" lang="de" aria-label="查德语词">
+    <div class="wb-info" id="wbInfo"></div>
+    <div class="wb-list" id="wbList"></div>
+    <article class="wb-entry" id="wbEntry"></article>
   </div>
 </section>
 </main>
@@ -1057,6 +1139,8 @@ function slipHtml(r, surface, sid, el){
   if(note) h+='<p class="sl-note">'+esc(note)+'</p>';
   h+=whyCase(r,el)+caseTable(r);
   const rep=LIB.site.repo?'<button class="sl-report" data-report="word">这个词条有错？报告</button>':'';
+  const hw=lemma.replace(/^(der|die|das|sich)\s+/,'').split(/[\s(（,，;；]/)[0];
+  if(/^[A-Za-zÄÖÜäöüßẞ-]+$/.test(hw)) h+='<button class="sl-wb" data-route="wb/'+esc(encodeURIComponent(hw))+'">在德英词典里查 <span lang="de">'+esc(hw)+'</span>：全部变形与例句 →</button>';
   if(!C) return h+rep;
   const forms=(C.LEMMA[lemma]||[]).filter(id=>id!==r.id && !id.includes('#')).slice(0,14);
   if(forms.length) h+='<div class="sl-sec"><h4>同一个词在文中的其他形式</h4><div class="forms">'+forms.map(id=>'<button class="form-b" data-open="'+esc(id)+'" lang="'+P.lang+'">'+esc(id)+'</button>').join('')+'</div></div>';
@@ -1258,13 +1342,14 @@ const NAV={stack:[], cur:null, shown:null, hist:true, sheetEntry:false, popSeen:
 const viewY={};
 function parse(t){
   if(!t||t==='lib') return {ctx:null, sub:'lib'};
+  if(t==='wb'||t.startsWith('wb/')){ let w=''; try{ w=decodeURIComponent(t.slice(3)); }catch(e){ w=t.slice(3); } return {ctx:null, sub:'wb', w}; }
   const i=t.indexOf('~');
   if(i<0) return /^(home|intro|read|vocab|saved|s-\d+-\d+|intro-\d+)$/.test(t)?{ctx:LIB.default, sub:t}:null;   // links from the single-book version
   return {ctx:t.slice(0,i), sub:t.slice(i+1)};
 }
-const canon=t=>{ const r=parse(t); return !r?'lib':(r.ctx?r.ctx+'~'+r.sub:'lib'); };
+const canon=t=>{ const r=parse(t); if(r&&r.sub==='wb') return r.w?'wb/'+encodeURIComponent(r.w):'wb'; return !r?'lib':(r.ctx?r.ctx+'~'+r.sub:'lib'); };
 function validRoute(t){
-  const r=parse(t); if(!r) return false; if(r.sub==='lib') return true;
+  const r=parse(t); if(!r) return false; if(r.sub==='lib'||r.sub==='wb') return true;
   if(!usable(r.ctx)) return false;
   const isCourse=!!COURSES[r.ctx];
   if(isCourse) { if(r.sub==='intro') return true; const m=/^intro-(\d+)$/.exec(r.sub); return !!m && +m[1]>=1 && +m[1]<=(COURSES[r.ctx].lessons||[]).length; }
@@ -1278,10 +1363,10 @@ function validRoute(t){
   return false;
 }
 const viewOfSub=s=>/^(s|ch)-/.test(s)?'read':/^intro-/.test(s)?'intro':s==='toc'?'home':s;
-const viewKey=t=>{ const r=parse(t); return r.ctx?r.ctx+'~'+viewOfSub(r.sub):'lib'; };
+const viewKey=t=>{ const r=parse(t); if(r.sub==='wb') return canon(t); return r.ctx?r.ctx+'~'+viewOfSub(r.sub):'lib'; };
 function ctxTitle(id){ const m=BOOKS[id]?BOOKS[id].meta:COURSES[id].meta; return m.short||m.title; }
 function routeLabel(t){
-  const r=parse(t); if(r.sub==='lib') return '书架';
+  const r=parse(t); if(r.sub==='lib') return '书架'; if(r.sub==='wb') return r.w?r.w:'词典';
   let lab=/^s-/.test(r.sub)?'§ '+sidLabel(COURSES[r.ctx]?COURSES[r.ctx].meta.lexiconFrom:r.ctx, r.sub.slice(2))
          :/^ch-/.test(r.sub)?'第 '+((chOf(r.ctx,r.sub.slice(3))||{}).n||'')+' 章'
          :r.sub==='toc'?'目录'
@@ -1291,7 +1376,8 @@ function routeLabel(t){
 }
 function showView(v){
   if(v!=='read' && typeof PL!=='undefined') plStop();
-  ['lib',...SUBS].forEach(x=>{ $('#v-'+x).hidden = x!==v; });
+  ['lib',...SUBS,'wb'].forEach(x=>{ $('#v-'+x).hidden = x!==v; });
+  $('#wbBtn').setAttribute('aria-current', v==='wb'?'page':'false');
   $$('.tab').forEach(b=>b.setAttribute('aria-selected', b.dataset.go===v));
   if(v==='vocab') renderVocab(); if(v==='saved') renderSaved(); if(v==='lib') renderLibrary();
   if(v==='home' && C){ renderChapterList(); updateCont(); }
@@ -1299,7 +1385,7 @@ function showView(v){
 let renderSeq=0;
 async function render(t, y){
   const seq=++renderSeq;
-  const r=parse(t), v=r.ctx?viewOfSub(r.sub):'lib';
+  const r=parse(t), v=r.ctx?viewOfSub(r.sub):(r.sub==='wb'?'wb':'lib');
   let cid=null;
   if(r.ctx && isCh(r.ctx)){
     const m=/^ch-([a-z0-9]+)$/.exec(r.sub)||/^s-([a-z0-9]+)-\d+-\d+$/.exec(r.sub);
@@ -1319,6 +1405,7 @@ async function render(t, y){
     enterCtx(r.ctx,cid);
   } else leaveCtx();
   showView(v); NAV.shown=key;
+  if(v==='wb') wbShow(r.w);
   const run=()=>{
     if(y!=null) window.scrollTo(0,y);
     else if(/^s-/.test(r.sub)) jump(r.sub.slice(2), same);
@@ -1449,6 +1536,209 @@ function linkify(root){
 new MutationObserver(ms=>{ if(!DICT) return; const seen=new Set(); for(const m of ms) for(const n of m.addedNodes){ if(seen.has(n)) continue; seen.add(n); if(n.nodeType===1||n.nodeType===3) linkify(n); } })
   .observe(document.body,{childList:true,subtree:true});
 load('dict').then(d=>{ DICT=d; linkify(document.body); }).catch(()=>{});
+
+/* ---------- 德英词典 (Wörterbuch) ----------
+   Data: docs/wb/meta.json + one shard per folded two- or three-letter prefix (built by scripts/dict/build_dict.py from
+   English Wiktionary via kaikki.org, Tatoeba, the Leipzig corpus and this site's own books). Shards load on demand;
+   「下载完整词典」 fetches all of them so the service worker keeps them for offline use. Routes: #wb, #wb/<word>. */
+const WB={meta:null, metaP:null, shards:{}, q:'', seq:0};
+const wbStore=mkStore('reader.wb.');
+const wfold=w=>w.toLowerCase().replace(/ä/g,'a').replace(/ö/g,'o').replace(/ü/g,'u').replace(/[ßẞ]/g,'ss').normalize('NFKD').replace(/[^a-z]/g,'');
+function wbMeta(){
+  if(WB.meta) return Promise.resolve(WB.meta);
+  if(!WB.metaP) WB.metaP=fetch('wb/meta.json',{cache:'no-cache'}).then(r=>{ if(!r.ok) throw new Error(r.status); return r.json(); })
+    .then(m=>{ WB.meta=m; WB.keys=Object.keys(m.keys).sort(); return m; }).catch(e=>{ WB.metaP=null; throw e; });
+  return WB.metaP;
+}
+function wbShard(k){
+  if(!WB.shards[k]) WB.shards[k]=fetch('wb/'+k+'.json?v='+WB.meta.v).then(r=>{ if(!r.ok) throw new Error(r.status); return r.json(); }).catch(e=>{ delete WB.shards[k]; throw e; });
+  return WB.shards[k];
+}
+// shards are keyed by folded prefixes of different lengths (a shard that got too big hands its longer words on to
+// keys one letter longer). A word lives in the deepest key that is a prefix of it, so load every key on the path;
+// for search suggestions also the keys one level below.
+function wbKeysFor(fq, deep){
+  if(!fq) return [];
+  const p=fq.length<2?(fq+'__').slice(0,2):fq;
+  return WB.keys.filter(k=>p.startsWith(k) || (deep && k.length===p.length+1 && k.startsWith(p)));
+}
+async function wbLoad(fq,deep){ const ks=wbKeysFor(fq,deep); const sh=await Promise.all(ks.map(wbShard)); return sh; }
+const WBPOS={noun:'名词',verb:'动词',adj:'形容词',adv:'副词',prep:'介词',conj:'连词',pron:'代词',det:'限定词',article:'冠词',num:'数词',
+  intj:'感叹词',particle:'小品词',name:'专名',phrase:'短语',prefix:'前缀',suffix:'后缀',abbrev:'缩写',contraction:'缩合词',proverb:'谚语',
+  prep_phrase:'介词短语',postp:'后置词',affix:'词缀',character:'字母',symbol:'符号'};
+const WBTAG={nominative:'主格',genitive:'属格',dative:'与格',accusative:'宾格',singular:'单数',plural:'复数',present:'现在时',past:'过去时',
+  preterite:'过去时',perfect:'完成时',participle:'分词',infinitive:'不定式',imperative:'命令式','subjunctive-i':'第一虚拟式','subjunctive-ii':'第二虚拟式',
+  subjunctive:'虚拟式',indicative:'直陈式','first-person':'第一人称','second-person':'第二人称','third-person':'第三人称',comparative:'比较级',
+  superlative:'最高级',positive:'原级',auxiliary:'助动词',definite:'定冠词',indefinite:'不定冠词',masculine:'阳性',feminine:'阴性',neuter:'中性',
+  diminutive:'指小',strong:'强变化',weak:'弱变化',mixed:'混合变化',predicative:'表语',attributive:'定语',alt:'异体',obsolete:'旧',dated:'过时',
+  archaic:'古',transitive:'及物',intransitive:'不及物',reflexive:'反身',colloquial:'口语',informal:'非正式',formal:'正式',rare:'少见',
+  figuratively:'比喻',literary:'书面',slang:'俚语',vulgar:'粗俗',derogatory:'贬义',humorous:'诙谐',regional:'地区',Austria:'奥地利',
+  Switzerland:'瑞士','Southern-Germany':'南德','Northern-Germany':'北德',uncountable:'不可数',countable:'可数','plural-only':'只用复数',
+  'singular-only':'只用单数',impersonal:'无人称','with-dative':'+与格','with-genitive':'+属格','with-accusative':'+宾格',law:'法律',philosophy:'哲学',
+  physics:'物理',mathematics:'数学',theology:'神学',historical:'历史',poetic:'诗歌',pejorative:'贬义',dialectal:'方言',Christianity:'基督教',
+  music:'音乐',military:'军事',medicine:'医学',biology:'生物',chemistry:'化学',grammar:'语法',linguistics:'语言学',zu:'带 zu',separable:'可分',
+  inseparable:'不可分','error-unknown-tag':''};
+const wbTags=s=>(Array.isArray(s)?s:String(s||'').split(' ')).filter(Boolean).map(t=>WBTAG[t]!=null?WBTAG[t]:t).filter(Boolean).join(' ');
+const ART={m:'der',f:'die',n:'das'};
+const sizeMB=b=>(b/1048576).toFixed(b<1048576*10?1:0)+' MB';
+
+/* ---- search ---- */
+async function wbSearch(q){
+  const seq=++WB.seq, fq=wfold(q), box=$('#wbList');
+  if(fq.length<2){ box.innerHTML=fq?'<p class="wb-hint">再输入一个字母……</p>':''; return; }
+  let sh; try{ await wbMeta(); sh=await wbLoad(fq,true); }catch(e){ if(seq===WB.seq) box.innerHTML='<p class="wb-hint">词典数据加载失败。</p>'; return; }
+  if(seq!==WB.seq) return;
+  const ql=q.trim().toLowerCase(), rows=[], seen=new Set();
+  const add=(w,how,ent)=>{ if(seen.has(w)) return; seen.add(w); rows.push({w,how,ent}); };
+  for(const s of sh) for(const [w,how] of (s.f[ql]||[])) { /* a form: point to its headword, which may live in another shard */ add(w,'← '+q.trim()+(how?' · '+wbTags(how):''),null); }
+  const cands=[];
+  for(const s of sh) for(const w in s.e){ const f=wfold(w); if(f.startsWith(fq)) cands.push([w,s.e[w]]); }
+  const rank=v=>Math.max(...v.map(e=>e.r||0));
+  cands.sort((a,b)=>(b[0].toLowerCase()===ql)-(a[0].toLowerCase()===ql) || rank(b[1])-rank(a[1]) || a[0].length-b[0].length || a[0].localeCompare(b[0]));
+  cands.slice(0,40).forEach(([w,v])=>add(w,'',v));
+  if(!rows.length){ box.innerHTML='<p class="wb-hint">没有找到以「'+esc(q)+'」开头的词。</p>'; return; }
+  box.innerHTML=rows.slice(0,40).map(r=>{ const e=r.ent&&r.ent[0];
+    const sub=e?(WBPOS[e.p]||e.p)+(e.g?' · '+e.g.split('').map(g=>ART[g]).join('/'):'')+' — '+(e.s[0]?e.s[0][0]:''):r.how;
+    return '<button class="wb-row" data-route="wb/'+esc(encodeURIComponent(r.w))+'"><b lang="de">'+esc(r.w)+'</b><span>'+esc(sub)+'</span></button>'; }).join('');
+}
+
+/* ---- inflection tables ---- */
+const has=(t,...xs)=>xs.every(x=>t.includes(x));
+function nounTable(fm){
+  const C=['nominative','genitive','dative','accusative'], N=['singular','plural'], cell={};
+  fm.forEach(([f,t])=>{ const ts=t.split(' '); const c=C.find(x=>ts.includes(x)), n=N.find(x=>ts.includes(x)); if(c&&n&&!ts.includes('indefinite')){ const k=c+n; (cell[k]=cell[k]||[]).includes(f)||(cell[k]=cell[k]||[]).push(f); } });
+  if(Object.keys(cell).length<3) return '';
+  return '<table class="tbl wb-tbl"><thead><tr><th></th><th>单数</th><th>复数</th></tr></thead><tbody>'+C.map(c=>'<tr><th>'+WBTAG[c]+'</th>'+N.map(n=>'<td lang="de">'+esc((cell[c+n]||['—']).join(' / '))+'</td>').join('')+'</tr>').join('')+'</tbody></table>';
+}
+function verbTables(fm){
+  const P=[['first-person','singular','ich'],['second-person','singular','du'],['third-person','singular','er/sie/es'],['first-person','plural','wir'],['second-person','plural','ihr'],['third-person','plural','sie/Sie']];
+  const T=[['现在时',t=>t.includes('present')&&!t.some(x=>/subjunctive/.test(x))],['过去时',t=>(t.includes('past')||t.includes('preterite'))&&!t.includes('participle')&&!t.some(x=>/subjunctive/.test(x))],
+    ['第一虚拟式',t=>t.includes('subjunctive-i')],['第二虚拟式',t=>t.includes('subjunctive-ii')]];
+  const used=new Set(), grid=T.map(([name,ok])=>{ const row=P.map(([p,n])=>{ const v=[]; fm.forEach((x,i)=>{ const ts=x[1].split(' '); if(ok(ts)&&ts.includes(p)&&ts.includes(n)&&!ts.includes('imperative')&&!ts.includes('participle')){ used.add(i); if(!v.includes(x[0])) v.push(x[0]); } }); return v; }); return {name,row}; }).filter(g=>g.row.some(v=>v.length));
+  const pick=f=>{ const v=[]; fm.forEach((x,i)=>{ if(f(x[1].split(' '))){ used.add(i); if(!v.includes(x[0])) v.push(x[0]); } }); return v; };
+  const aux=pick(t=>t.includes('auxiliary')), p2=pick(t=>has(t,'participle','past')), p1=pick(t=>has(t,'participle','present')),
+        imp=[pick(t=>has(t,'imperative','singular')),pick(t=>has(t,'imperative','plural'))], zu=pick(t=>t.includes('zu')&&t.includes('infinitive'));
+  const g3=grid.find(g=>g.name==='现在时'), gp=grid.find(g=>g.name==='过去时');
+  const prin=[['er 现在时',g3&&g3.row[2]],['过去时',gp&&gp.row[0]],['第二分词',p2],['助动词',aux]].filter(x=>x[1]&&x[1].length);
+  let h='';
+  if(prin.length) h+='<div class="wb-prin">'+prin.map(([k,v])=>'<span><small>'+k+'</small><b lang="de">'+esc(v.join(' / '))+'</b></span>').join('')+'</div>';
+  if(grid.length) h+='<div class="scroll"><table class="tbl wb-tbl wb-conj"><thead><tr><th></th>'+grid.map(g=>'<th>'+g.name+'</th>').join('')+'</tr></thead><tbody>'+
+    P.map((p,pi)=>'<tr><th lang="de">'+p[2]+'</th>'+grid.map(g=>'<td lang="de">'+esc(g.row[pi].join(' / ')||'—')+'</td>').join('')+'</tr>').join('')+'</tbody></table></div>';
+  const more=[['命令式',imp[0].concat(imp[1])],['第一分词',p1],['带 zu 不定式',zu]].filter(x=>x[1].length);
+  if(more.length) h+='<div class="wb-prin">'+more.map(([k,v])=>'<span><small>'+k+'</small><b lang="de">'+esc(v.join(' / '))+'</b></span>').join('')+'</div>';
+  return {h, used};
+}
+// adjective endings are regular: the table is generated from the stem (Wiktionary's own tables are dropped to save space)
+function adjTable(lemma, fm){
+  const cmp=fm.filter(x=>x[1].split(' ').includes('comparative')).map(x=>x[0]), sup=fm.filter(x=>x[1].split(' ').includes('superlative')).map(x=>x[0]);
+  let h='';
+  if(cmp.length||sup.length) h+='<div class="wb-prin"><span><small>原级</small><b lang="de">'+esc(lemma)+'</b></span>'+(cmp.length?'<span><small>比较级</small><b lang="de">'+esc(cmp.join(' / '))+'</b></span>':'')+(sup.length?'<span><small>最高级</small><b lang="de">'+esc(sup.join(' / '))+'</b></span>':'')+'</div>';
+  if(!/^[a-zäöüß]+$/.test(lemma)) return h;
+  let st=lemma; if(/[^e]el$/.test(st)) st=st.slice(0,-2)+'l'; else if(/(au|eu)er$/.test(st)) st=st.slice(0,-2)+'r'; else if(st==='hoch') st='hoh'; else if(/e$/.test(st)) st=st.slice(0,-1);
+  const S={strong:[['er','e','es','e'],['en','er','en','er'],['em','er','em','en'],['en','e','es','e']],weak:[['e','e','e','en'],['en','en','en','en'],['en','en','en','en'],['en','e','e','en']],mixed:[['er','e','es','en'],['en','en','en','en'],['en','en','en','en'],['en','e','es','en']]};
+  const AR={strong:['','','',''],weak:['der','die','das','die'],mixed:['ein','eine','ein','keine']};
+  const cs=['主格','属格','与格','宾格'], gs=['阳性','阴性','中性','复数'];
+  h+='<details class="wb-more"><summary>形容词变格表（按规则生成）</summary>'+['strong','weak','mixed'].map(k=>'<div class="scroll"><table class="tbl wb-tbl"><caption>'+WBTAG[k]+(k==='weak'?'（定冠词后）':k==='mixed'?'（不定冠词后）':'（无冠词）')+'</caption><thead><tr><th></th>'+gs.map(g=>'<th>'+g+'</th>').join('')+'</tr></thead><tbody>'+
+    cs.map((c,ci)=>'<tr><th>'+c+'</th>'+S[k][ci].map(e=>'<td lang="de">'+esc(st+e)+'</td>').join('')+'</tr>').join('')+'</tbody></table></div>').join('')+'</details>';
+  return h;
+}
+function formsHtml(w,e){
+  const fm=e.fm||[]; if(!fm.length && e.p!=='adj') return '';
+  let h='', used=new Set();
+  if(e.p==='noun'){ h=nounTable(fm); if(h) fm.forEach((x,i)=>{ if(/nominative|genitive|dative|accusative/.test(x[1])) used.add(i); }); }
+  else if(e.p==='verb'){ const v=verbTables(fm); h=v.h; used=v.used; }
+  else if(e.p==='adj'){ h=adjTable(w,fm); fm.forEach((x,i)=>{ if(/comparative|superlative/.test(x[1])) used.add(i); }); }
+  const rest=fm.filter((x,i)=>!used.has(i) && x[0]!==w);
+  if(rest.length) h+='<div class="wb-forms">'+rest.slice(0,30).map(([f,t])=>'<span><b lang="de">'+esc(f)+'</b>'+(t?' <small>'+esc(wbTags(t))+'</small>':'')+'</span>').join('')+'</div>';
+  return h?'<section class="wb-sec"><h3>变形</h3>'+h+'</section>':'';
+}
+
+/* ---- examples: every word is clickable, the looked-up word is bold ---- */
+function exDe(s, forms){
+  return esc(s).replace(new RegExp('[A-Za-zÄÖÜäöüßẞÀ-ÖØ-öø-ÿ]+','g'),t=>'<span class="wbw'+(forms.has(t.toLowerCase())?' hit':'')+'">'+t+'</span>');
+}
+function examplesHtml(w,x,ents){
+  if(!x) return '';
+  const forms=new Set([w.toLowerCase()]); ents.forEach(e=>(e.fm||[]).forEach(([f])=>f.split(' ').forEach(p=>forms.add(p.toLowerCase()))));
+  let h='';
+  if(x.b) h+='<h4>本站书中的原句</h4><ul class="wb-ex">'+x.b.map(([de,zh,route,book])=>'<li><p class="de" lang="de">'+exDe(de,forms)+'</p><p class="wb-tr">'+esc(zh)+'</p><button class="wb-src" data-route="'+esc(route)+'">《'+esc(book)+'》 →</button></li>').join('')+'</ul>';
+  if(x.t) h+='<h4>例句 <small>Tatoeba</small></h4><ul class="wb-ex">'+x.t.map(([de,en])=>'<li><p class="de" lang="de">'+exDe(de,forms)+'</p><p class="wb-tr" lang="en">'+esc(en)+'</p></li>').join('')+'</ul>';
+  if(x.l) h+='<h4>真实语料 <small>Leipzig</small></h4><ul class="wb-ex">'+x.l.map(de=>'<li><p class="de" lang="de">'+exDe(de,forms)+'</p></li>').join('')+'</ul>';
+  return h?'<section class="wb-sec">'+h+'</section>':'';
+}
+function entryHtml(w,ents,x){
+  const zh=DICT&&DICT[w.toLowerCase()];
+  let h='<header class="wb-head"><h2 lang="de">'+esc(w)+'</h2><button class="icon-btn" data-sw="'+esc(w)+'" aria-label="朗读" title="朗读">'+ICON.say+'</button></header>';
+  if(zh) h+='<p class="wb-zh"><small>本站释义</small>'+esc(zh[3])+(zh[4]?'<span>'+esc(zh[4])+'</span>':'')+'</p>';
+  ents.forEach(e=>{
+    h+='<section class="wb-ent"><div class="wb-meta"><b>'+esc(WBPOS[e.p]||e.p)+'</b>'+(e.g?'<span lang="de">'+e.g.split('').map(g=>ART[g]).join(' / ')+' '+esc(w)+'</span>':'')+(e.i?'<span class="wb-ipa">'+esc(e.i)+'</span>':'')+(e.a?'<button class="wb-audio" data-audio="'+esc(e.a)+'">真人发音</button>':'')+'</div>';
+    h+='<ol class="wb-senses">'+e.s.map(([g,t,ex])=>'<li><span class="wb-g" lang="en">'+esc(g)+'</span>'+(t&&t.length?' <small>'+esc(wbTags(t))+'</small>':'')+
+      (ex&&ex.length?'<ul class="wb-sx">'+ex.map(([d,tr])=>'<li><span lang="de">'+esc(d)+'</span>'+(tr?'<i lang="en">'+esc(tr)+'</i>':'')+'</li>').join(''):'')+(ex&&ex.length?'</ul>':'')+'</li>').join('')+'</ol>';
+    h+=formsHtml(w,e);
+    if(e.et) h+='<details class="wb-more"><summary>词源</summary><p lang="en">'+esc(e.et)+'</p></details>';
+    h+='</section>';
+  });
+  h+=examplesHtml(w,x,ents);
+  h+='<p class="wb-cite">释义、变形与词源：英文维基词典（Wiktionary，CC BY-SA 4.0，经 kaikki.org 整理）。例句：Tatoeba（CC BY 2.0 FR）、莱比锡大学语料库（CC BY 4.0）。</p>';
+  return h;
+}
+async function wbOpen(word){
+  const seq=++WB.seq, box=$('#wbEntry');
+  $('#wbList').innerHTML=''; box.innerHTML='<p class="wb-hint">正在查……</p>';
+  try{ await wbMeta(); }catch(e){ box.innerHTML=wbMissing(); return; }
+  const fq=wfold(word), ql=word.toLowerCase();
+  let sh; try{ sh=await wbLoad(fq); }catch(e){ box.innerHTML='<p class="wb-hint">加载失败，请检查网络后重试。</p>'; return; }
+  if(seq!==WB.seq) return;
+  let heads=[];
+  for(const s of sh) for(const w in s.e) if(w===word || w.toLowerCase()===ql) heads.push([w,s.e[w],s.x[w]]);
+  if(!heads.length){
+    const to=[]; for(const s of sh) for(const [w,how] of (s.f[ql]||[])) if(!to.some(t=>t[0]===w)) to.push([w,how]);
+    if(to.length===1){ navigate('wb/'+encodeURIComponent(to[0][0]),{replace:true}); return; }
+    box.innerHTML=to.length?'<p class="wb-hint">「'+esc(word)+'」是这些词的变形：</p><div class="wb-list">'+to.map(([w,how])=>'<button class="wb-row" data-route="wb/'+esc(encodeURIComponent(w))+'"><b lang="de">'+esc(w)+'</b><span>'+esc(wbTags(how))+'</span></button>').join('')+'</div>'
+      :'<p class="wb-hint">词典里没有「'+esc(word)+'」。</p>';
+    return;
+  }
+  heads.sort((a,b)=>(b[0]===word)-(a[0]===word));
+  box.innerHTML=heads.map(([w,e,x])=>entryHtml(w,e,x)).join('<hr class="wb-hr">');
+  // which other headwords this spelling is also a form of
+  const also=[]; for(const s of sh) for(const [w,how] of (s.f[ql]||[])) if(!heads.some(h=>h[0]===w) && !also.some(a=>a[0]===w)) also.push([w,how]);
+  if(also.length) box.insertAdjacentHTML('afterbegin','<p class="wb-also">也是 '+also.map(([w,how])=>'<button class="wb-src" data-route="wb/'+esc(encodeURIComponent(w))+'" lang="de">'+esc(w)+'</button>'+(how?' <small>'+esc(wbTags(how))+'</small>':'')).join('、')+' 的变形</p>');
+}
+function wbMissing(){ return '<p class="wb-hint">词典数据还没有生成（docs/wb/meta.json 不存在）。</p>'; }
+
+/* ---- offline: fetch every shard once; the service worker caches versioned files for good ---- */
+async function wbInfo(){
+  const el=$('#wbInfo'); let m; try{ m=await wbMeta(); }catch(e){ el.innerHTML=''; return; }
+  const tot=Object.values(m.keys).reduce((a,b)=>a+b,0), full=wbStore.get('full','')===m.v;
+  el.innerHTML='<span>收录 '+m.n.heads.toLocaleString()+' 个词头 · '+m.n.forms.toLocaleString()+' 个变形</span>'+
+    (full?'<span>已下载，可离线使用</span>':'<button class="wb-dl" id="wbDl">下载完整词典（约 '+sizeMB(tot)+'，压缩传输更小），离线也能查</button>');
+}
+async function wbDownload(btn){
+  const m=await wbMeta(), ks=WB.keys; let done=0, fail=0, i=0;
+  if(navigator.storage&&navigator.storage.persist) try{ await navigator.storage.persist(); }catch(e){}
+  btn.disabled=true;
+  const step=()=>{ btn.textContent='正在下载 '+done+' / '+ks.length+(fail?'（失败 '+fail+'）':'')+'……'; };
+  step();
+  const worker=async()=>{ while(i<ks.length){ const k=ks[i++]; try{ const r=await fetch('wb/'+k+'.json?v='+m.v); if(!r.ok) throw 0; await r.arrayBuffer(); }catch(e){ fail++; } done++; step(); } };
+  await Promise.all([worker(),worker(),worker(),worker()]);
+  if(!fail){ wbStore.set('full',m.v); toast('词典已下载，离线也能查'); }
+  else toast('有 '+fail+' 个分片没下载成功，再点一次会接着下');
+  wbInfo();
+}
+function wbShow(word){
+  wbInfo();
+  const inp=$('#wbQ');
+  if(word){ inp.value=word; wbOpen(word); }
+  else { $('#wbEntry').innerHTML=''; if(inp.value) wbSearch(inp.value); setTimeout(()=>inp.focus({preventScroll:true}),0); }
+}
+let wbT=0;
+$('#wbQ').addEventListener('input',e=>{ clearTimeout(wbT); const v=e.target.value; $('#wbEntry').innerHTML=''; wbT=setTimeout(()=>wbSearch(v),120); });
+$('#wbQ').addEventListener('keydown',e=>{ if(e.key==='Enter'){ e.preventDefault(); const v=e.target.value.trim(); if(v) navigate('wb/'+encodeURIComponent(v)); } });
+$('#v-wb').addEventListener('click',e=>{
+  const b=e.target.closest('.wbw'); if(b){ navigate('wb/'+encodeURIComponent(b.textContent)); return; }
+  const a=e.target.closest('[data-audio]'); if(a){ try{ new Audio(a.dataset.audio).play().catch(()=>toast('离线时听不了真人发音')); }catch(x){} return; }
+  if(e.target.closest('#wbDl')) wbDownload(e.target.closest('#wbDl'));
+});
 
 /* ---------- colour themes ----------
    "Auto" (no data-theme) follows the system's light / dark setting; the others are fixed. Saved per device. */

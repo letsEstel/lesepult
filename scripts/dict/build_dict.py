@@ -64,6 +64,12 @@ SENSE_TAGS = {"transitive", "intransitive", "reflexive", "colloquial", "informal
               "philosophy", "physics", "mathematics", "theology", "historical", "poetic", "pejorative", "dialectal",
               "Christianity", "music", "military", "medicine", "biology", "chemistry", "grammar", "linguistics"}
 DECL_TAGS = {"strong", "weak", "mixed"}  # adjective declension: regular, rebuilt in the browser
+# compound tenses (hat gesehen, wurde gesehen, werde gesehen haben …) are predictable from the auxiliary and the
+# participle; Wiktionary lists them for every verb, which would make the dictionary ten times bigger
+COMPOUND_TAGS = {"perfect", "pluperfect", "future", "future-i", "future-ii", "passive", "future-perfect"}
+AUX = set("""haben habe hast hat habt hatte hattest hatten hattet hätte hättest hätten hättet gehabt sein bin bist ist sind
+seid war warst waren wart wäre wärst wären wärt sei seist seien gewesen werden werde wirst wird werdet wurde wurdest wurden
+wurdet würde würdest würden würdet worden geworden""".split())
 
 
 def strip_lead(form):
@@ -97,7 +103,7 @@ def read_kaikki(path, freq):
             for s in senses:
                 ref = (s.get("form_of") or s.get("alt_of") or [None])[0]
                 tags = [t for t in s.get("tags", []) if t not in ("form-of", "alt-of")]
-                if ref and ref.get("word"):
+                if ref and ref.get("word") and " " not in word:
                     how = ("alt " if s.get("alt_of") else "") + " ".join(tags)
                     F[word.lower()].append([ref["word"], how.strip()])
                     nf += 1
@@ -129,11 +135,13 @@ def read_kaikki(path, freq):
                 if not form or form in ("-", "—", "–") or SKIP_FORM_TAGS & set(tags) or len(form) > 50:
                     continue
                 form = strip_lead(form)
+                if COMPOUND_TAGS & set(tags) or (" " in form and AUX & set(form.lower().split())):
+                    continue
                 tg = " ".join(t for t in tags if t not in ("table-tags",))
                 if (form, tg) in seen:
                     continue
                 seen.add((form, tg))
-                if form.lower() != word.lower():
+                if form.lower() != word.lower() and " " not in form:
                     F[form.lower()].append([word, tg])
                 if pos == "adj" and DECL_TAGS & set(tags):
                     continue
@@ -332,7 +340,7 @@ def main():
     ap.add_argument("--tatoeba", type=int, default=4)
     ap.add_argument("--leipzig", type=int, default=3)
     ap.add_argument("--book", type=int, default=3)
-    ap.add_argument("--max-shard", type=int, default=900_000)
+    ap.add_argument("--max-shard", type=int, default=400_000)
     a = ap.parse_args()
     src, out = pathlib.Path(a.src), pathlib.Path(a.out)
     kk = next((p for p in (src / "kaikki.jsonl", src / "kaikki.jsonl.gz") if p.exists()), None)
@@ -367,20 +375,36 @@ def main():
         if v:
             shards[key2(f)]["f"][f] = v
 
-    # split shards that came out too big into three-letter keys
+    # split shards that came out too big: words longer than the key move to a key one letter longer, recursively;
+    # the browser loads every key that is a prefix of the (folded) word it looks for
+    def dump(sh):
+        return json.dumps(sh, ensure_ascii=False, separators=(",", ":"))
+
     final = {}
-    for k, sh in shards.items():
-        blob = json.dumps(sh, ensure_ascii=False, separators=(",", ":"))
-        if len(blob.encode()) <= a.max_shard:
+
+    def place(k, sh):
+        blob = dump(sh)
+        if len(blob.encode()) <= a.max_shard or len(k) >= 7:
             final[k] = blob
-            continue
+            return
+        keep = {"e": {}, "f": {}, "x": {}}
         sub = collections.defaultdict(lambda: {"e": {}, "f": {}, "x": {}})
         for part in ("e", "f", "x"):
             for w, v in sh[part].items():
                 f = fold(w)
-                sub[(f + "___")[:3] if len(f) >= 3 else k][part][w] = v
-        for k3, s3 in sub.items():
-            final[k3] = json.dumps(s3, ensure_ascii=False, separators=(",", ":"))
+                (keep if len(f) <= len(k) else sub[f[:len(k) + 1]])[part][w] = v
+        if any(keep[p] for p in keep):
+            final[k] = dump(keep)
+        for k2, s2 in sub.items():
+            place(k2, s2)
+
+    for k, sh in shards.items():
+        place(k, sh)
+    sizes_by = sorted(((len(b.encode()), k) for k, b in final.items()), reverse=True)[:8]
+    log("最大的分片：", ", ".join(f"{k} {n/1e3:.0f} KB" for n, k in sizes_by))
+    big = shards.get("ha") or {}
+    for part in ("e", "f", "x"):
+        log(f"  ha 分片里 {part}：{len(dump({part: big.get(part, {})}))/1e3:.0f} KB")
 
     out.mkdir(parents=True, exist_ok=True)
     for old in out.glob("*.json"):
