@@ -1,0 +1,47 @@
+name: dictionary
+# Builds docs/wb/ (the German–English dictionary) from Wiktionary, Tatoeba and the Leipzig corpus, and commits it.
+on:
+  workflow_dispatch:
+  push:
+    branches: [dict]
+    paths: ["scripts/dict/**", ".github/workflows/dict.yml"]
+permissions:
+  contents: write
+concurrency: { group: dict, cancel-in-progress: true }
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: Download open data
+        run: bash scripts/dict/fetch.sh /tmp/dictsrc
+      - name: Samples of the raw data (for debugging the parser)
+        run: |
+          mkdir -p scripts/dict/samples
+          f=/tmp/dictsrc/kaikki.jsonl; [ -f $f ] || f=/tmp/dictsrc/kaikki.jsonl.gz
+          python3 - "$f" <<'PY'
+          import json,sys,gzip
+          p=sys.argv[1]; op=gzip.open if p.endswith('.gz') else open
+          want={"Hund","sehen","anfangen","schön","Vernunft","Theil","sah","Hundes","gut","Anschauung","sein","der"}
+          out={}
+          with op(p,'rt',encoding='utf8') as fh:
+              for line in fh:
+                  d=json.loads(line)
+                  if d.get('word') in want:
+                      out.setdefault(d['word'],[]).append(d)
+          json.dump(out,open('scripts/dict/samples/kaikki.json','w'),ensure_ascii=False,indent=1)
+          PY
+          head -3 /tmp/dictsrc/leipzig-sentences.txt > scripts/dict/samples/leipzig.txt || true
+          head -3 /tmp/dictsrc/deu_sentences.tsv > scripts/dict/samples/tatoeba.txt || true
+          ls -la /tmp/dictsrc
+      - name: Build docs/wb
+        run: python3 scripts/dict/build_dict.py /tmp/dictsrc -o docs/wb
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898299+github-actions[bot]@users.noreply.github.com"
+          git add docs/wb scripts/dict/samples
+          git diff --cached --quiet || git commit -m "词典数据：重新生成 docs/wb" && git push
