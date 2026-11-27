@@ -43,7 +43,7 @@
  },
  "slipEmpty": "点击正文中的任意德语词，这里会显示它的原形、词性、此处的格和用法。<br><br>每句话先点「语法」看拆解，再一个词一个词地点。",
  "footer": "原文：Brüder Grimm, Kinder- und Hausmärchen, Große Ausgabe, 7. Auflage, Göttingen 1857（公有领域）。转录据德语维基文库（de.wikisource.org），经 red-rackham/grimm-explorer 整理，转录文本按 CC BY-SA 3.0 授权使用，本站的原文部分也按同样条件提供。保留原书拼写。注释、讲解与中文译文为本站编写（AI 辅助）。",
- "fontsHref": "https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,600;1,7..72,400&family=UnifrakturMaguntia&family=IBM+Plex+Mono:wght@400;500&family=Noto+Serif+SC:wght@400;600&display=swap",
+ "fontsHref": "https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,600;1,7..72,400&family=UnifrakturMaguntia&family=Noto+Serif+SC:wght@400;600&display=swap",
  "fonts": {
   "text": "\"Literata\",Georgia,\"Times New Roman\",serif",
   "mast": "\"UnifrakturMaguntia\",\"Literata\",Georgia,serif",

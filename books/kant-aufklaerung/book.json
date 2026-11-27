@@ -46,7 +46,7 @@
   },
   "slipEmpty": "点击正文中的任意德语词，这里会显示它的原形、词性、此处的格和用法。<br><br>小技巧：先打开「语法着色」，找到紫色的动词，再找蓝色的主语。",
   "footer": "原文：Immanuel Kant, »Beantwortung der Frage: Was ist Aufklärung?«, Berlinische Monatsschrift, 1784（据 Cassirer 1913 年版，Projekt Gutenberg #30821，公有领域）。注释与翻译为本课程所作。",
-  "fontsHref": "https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,600;1,7..72,400&family=UnifrakturMaguntia&family=IBM+Plex+Mono:wght@400;500&family=Noto+Serif+SC:wght@400;600&display=swap",
+  "fontsHref": "https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,600;1,7..72,400&family=UnifrakturMaguntia&family=Noto+Serif+SC:wght@400;600&display=swap",
   "fonts": {
     "text": "\"Literata\",Georgia,\"Times New Roman\",serif",
     "mast": "\"UnifrakturMaguntia\",\"Literata\",Georgia,serif",

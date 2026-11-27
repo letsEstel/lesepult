@@ -43,7 +43,7 @@
  },
  "slipEmpty": "点击正文中的任意德语词，这里会显示它的原形、词性、此处的格和用法。<br><br>康德的长句先找主干：主语、变位动词和句末的不定式或分词。",
  "footer": "原文：Immanuel Kant, Kritik der reinen Vernunft, 2. Auflage, Riga: Hartknoch 1787（公有领域）。据 Projekt Gutenberg #6343 的转录（拼写已现代化），并对照学院版（AA III，1904/1911）改正了转录错误，改动处在注释里注明。页码为 B 版页码。分章与章名为本站所加。注释、讲解与中文译文为本站编写（AI 辅助）。",
- "fontsHref": "https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,600;1,7..72,400&family=UnifrakturMaguntia&family=IBM+Plex+Mono:wght@400;500&family=Noto+Serif+SC:wght@400;600&display=swap",
+ "fontsHref": "https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,600;1,7..72,400&family=UnifrakturMaguntia&family=Noto+Serif+SC:wght@400;600&display=swap",
  "fonts": {
   "text": "\"Literata\",Georgia,\"Times New Roman\",serif",
   "mast": "\"UnifrakturMaguntia\",\"Literata\",Georgia,serif",

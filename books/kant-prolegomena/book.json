@@ -42,7 +42,7 @@
   },
   "slipEmpty": "点击正文中的任意德语词，这里会显示它的原形、词性、此处的格和用法。<br><br>这本书里的 vor 多半是 für（为了、给），so 有时是关系代词，词卡里都会提醒你。",
   "footer": "原文：Immanuel Kant, Prolegomena zu einer jeden künftigen Metaphysik, die als Wissenschaft wird auftreten können, Riga: Hartknoch 1783, Vorrede（AA IV 255–260）。据 Projekt Gutenberg-DE 的转录（公有领域），保留其拼写，改正了一处排印错误（DAVIED → David）；略去两个脚注。注释、讲解与中文译文为本站编写（AI 辅助）。",
-  "fontsHref": "https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,600;1,7..72,400&family=UnifrakturMaguntia&family=IBM+Plex+Mono:wght@400;500&family=Noto+Serif+SC:wght@400;600&display=swap",
+  "fontsHref": "https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,600;1,7..72,400&family=UnifrakturMaguntia&family=Noto+Serif+SC:wght@400;600&display=swap",
   "fonts": {
     "text": "\"Literata\",Georgia,\"Times New Roman\",serif",
     "mast": "\"UnifrakturMaguntia\",\"Literata\",Georgia,serif",

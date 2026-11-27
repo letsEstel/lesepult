@@ -134,7 +134,7 @@ def main():
         head_end = src.index("</style>") + len("</style>")
         src = ('<!doctype html>\n<html lang="zh-CN">\n<head>\n<meta charset="utf-8">\n<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">\n'
                f'<meta name="description" content="{html.escape(site.get("description", ""))}">\n'
-               '<meta name="theme-color" content="#1e3c6a">\n'
+               '<meta name="theme-color" content="#ffffff">\n'
                + ('<link rel="manifest" href="manifest.webmanifest">\n<link rel="icon" href="icon.svg" type="image/svg+xml">\n' if split else '')
                + src[:head_end] + "\n</head>\n<body>\n" + src[head_end:] + "\n</body>\n</html>\n")
 
