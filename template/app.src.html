@@ -562,6 +562,27 @@ footer{border-top:1px solid var(--rule);padding-block:22px 44px;color:var(--ink-
 .wb-grp{font:600 12.5px var(--f-ui);color:var(--ink-3);margin:14px 0 2px;letter-spacing:.02em}
 .wb-grp span{font:italic 14px var(--f-de);color:var(--ink-2);margin-left:4px}
 .wb-art{font:400 13px var(--f-de);color:var(--ink-3)}
+
+/* ---- phones and the installed web app ---- */
+html{background:var(--paper);-webkit-tap-highlight-color:transparent}
+body{overscroll-behavior-y:none}
+/* the dotted underline marks a tappable German word in the text you read; in titles and lists it is just noise */
+:is(.lesson>button,.ch-row,.course-card,.book,.sec-head,.para-h,.lib-hero,.hero .mast-sub,.chbar,.wb-row,.lcont,.lib-cont) .lw{text-decoration:none}
+footer{padding-bottom:calc(44px + env(safe-area-inset-bottom,0px))}
+@media (max-width:560px){
+  .lesson>button{grid-template-columns:2rem 1fr;gap:2px 12px;padding:14px 0}
+  .lesson .lm{grid-column:2;white-space:normal}
+  .lesson .lt{font-size:16.5px}
+  .ch-row{grid-template-columns:2rem 1fr}
+  .ch-s{grid-column:2;justify-items:start;text-align:left;display:flex;gap:10px;align-items:center}
+  .ch-b{grid-column:2}
+  .course-card{grid-template-columns:2.4rem minmax(0,1fr);gap:4px 12px}
+  .cc-n{font-size:24px}
+  .top-in{min-height:48px}
+  .icon-btn{width:40px;height:40px}
+  .tab{padding:0 9px}
+  .wb-head h2{font-size:28px}
+}
 </style>
 <script data-theme-init>try{var t=JSON.parse(localStorage.getItem('reader.ui.theme')||'""');if(['light','dark','paper','wabi','roma','aka'].indexOf(t)>=0)document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
 <header class="top">
@@ -1801,7 +1822,14 @@ function applyTheme(id){
   if(t.id) r.setAttribute('data-theme',t.id); else r.removeAttribute('data-theme');
   if(t.font && !document.getElementById('font-'+t.id)){ const l=document.createElement('link'); l.rel='stylesheet'; l.href=t.font; l.id='font-'+t.id; document.head.appendChild(l); }
   $$('.th-opt').forEach(b=>b.setAttribute('aria-checked',b.dataset.theme===t.id));
+  syncBars();
 }
+// Android / installed web app: the status bar takes the page's own background colour, so a dark page has no white strip
+function syncBars(){
+  const c=getComputedStyle(document.documentElement).getPropertyValue('--paper').trim()||'#ffffff';
+  $$('meta[name="theme-color"]').forEach(m=>{ m.setAttribute('content',c); m.removeAttribute('media'); });
+}
+try{ matchMedia('(prefers-color-scheme: dark)').addEventListener('change',()=>{ if(!document.documentElement.hasAttribute('data-theme')) syncBars(); }); }catch(e){}
 function renderThemeMenu(){
   const cur=UI.get('theme','');
   $('#themeMenu').innerHTML='<h4>配色主题</h4>'+THEMES.map(t=>(t.old&&!THEMES[THEMES.indexOf(t)-1].old?'<h4>旧主题</h4>':'')+'<button class="th-opt" role="menuitemradio" data-theme="'+t.id+'" aria-checked="'+(t.id===cur)+'"><b>'+esc(t.name)+'</b><small>'+esc(t.desc)+'</small><svg class="th-ck" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m5 12 5 5 9-10"/></svg></button>').join('');
