@@ -357,6 +357,104 @@ def books(E, F, n):
     return P
 
 
+# ---------------------------------------------------------------- shards
+def split_shards(shards, parts, max_bytes):
+    """shards: key → {part: {word: value}}. A shard that is too big keeps the words no longer than its key and hands
+    the longer ones on to keys one letter longer, recursively; the browser loads every key that is a prefix of the
+    folded word it looks for."""
+    final = {}
+
+    def dump(sh):
+        return json.dumps(sh, ensure_ascii=False, separators=(",", ":"))
+
+    def place(k, sh):
+        blob = dump(sh)
+        if len(blob.encode()) <= max_bytes or len(k) >= 7:
+            final[k] = blob
+            return
+        keep = {p: {} for p in parts}
+        sub = collections.defaultdict(lambda: {p: {} for p in parts})
+        for part in parts:
+            for w, v in sh[part].items():
+                f = fold(w)
+                (keep if len(f) <= len(k) else sub[f[:len(k) + 1]])[part][w] = v
+        if any(keep[p] for p in keep):
+            final[k] = dump(keep)
+        for k2, s2 in sub.items():
+            place(k2, s2)
+
+    for k, sh in shards.items():
+        place(k, sh)
+    return final
+
+
+# ---------------------------------------------------------------- English → German
+ART_RE = re.compile(r"^(der|die|das|sich|ein|eine)\s+", re.I)
+
+
+def resolve(de, E, F):
+    """a German word from a translation table → a headword of the dictionary (or None)"""
+    de = ART_RE.sub("", de.strip())
+    if de in E:
+        return de
+    for cand in (de[:1].upper() + de[1:], de.lower()):
+        if cand in E:
+            return cand
+    for v in F.get(de.lower(), []):
+        if v[0] in E and v[1] != "alt":
+            return v[0]
+    return None
+
+
+def english(src, E, F, cap):
+    """English word → German headwords. Translation tables of English Wiktionary first (sense by sense, curated),
+    then the German entries' own English glosses turned around (fills the gaps, noisier, ranked by frequency)."""
+    R = collections.defaultdict(list)     # english (lower) → [(group, order, -freq, german, hint)]
+    nt = 0
+    p = src / "en-de.tsv"
+    if p.exists():
+        order = collections.Counter()
+        with opener(p) as fh:
+            for line in fh:
+                a = line.rstrip("\n").split("\t")
+                if len(a) < 4:
+                    continue
+                en, pos, sense, de = a[0], a[1], a[2], a[3]
+                w = resolve(de, E, F)
+                if not w:
+                    continue
+                k = en.lower()
+                order[k] += 1
+                R[k].append((0, order[k], -max(e.get("r", 0) for e in E[w]), w, sense))
+                nt += 1
+    ng = 0
+    for w, ents in E.items():
+        r = max(e.get("r", 0) for e in ents)
+        for e in ents:
+            for si, sn in enumerate(e["s"][:4]):
+                g = sn[0].split(": ")[-1]
+                g = re.sub(r"\([^)]*\)", "", g)
+                for item in re.split(r"[;,]", g):
+                    item = re.sub(r"^(to|a|an|the)\s+", "", item.strip(), flags=re.I).strip(" .")
+                    if item and len(item.split()) <= 3 and re.fullmatch(r"[A-Za-z][A-Za-z' -]*", item):
+                        R[item.lower()].append((1, si, -r, w, ""))
+                        ng += 1
+    out = {}
+    for k, v in R.items():
+        seen, keep = set(), []
+        for grp, o, nr, w, hint in sorted(v, key=lambda t: (t[0], min(t[1], 4), t[2])):
+            if w in seen:
+                continue
+            seen.add(w)
+            e = E[w][0]
+            keep.append([w, hint, e.get("p", "") + (" " + e["g"] if e.get("g") else "")])
+            if len(keep) >= cap:
+                break
+        out[k] = keep
+    log(f"英→德：{len(out)} 个英语词（翻译表 {nt} 条，倒排释义 {ng} 条）")
+    return out
+
+
 # ---------------------------------------------------------------- output
 def main():
     ap = argparse.ArgumentParser()
@@ -365,6 +463,7 @@ def main():
     ap.add_argument("--tatoeba", type=int, default=4)
     ap.add_argument("--leipzig", type=int, default=3)
     ap.add_argument("--book", type=int, default=3)
+    ap.add_argument("--en", type=int, default=10, help="German words kept per English word")
     ap.add_argument("--max-shard", type=int, default=400_000)
     a = ap.parse_args()
     src, out = pathlib.Path(a.src), pathlib.Path(a.out)
@@ -402,29 +501,8 @@ def main():
 
     # split shards that came out too big: words longer than the key move to a key one letter longer, recursively;
     # the browser loads every key that is a prefix of the (folded) word it looks for
-    def dump(sh):
-        return json.dumps(sh, ensure_ascii=False, separators=(",", ":"))
-
-    final = {}
-
-    def place(k, sh):
-        blob = dump(sh)
-        if len(blob.encode()) <= a.max_shard or len(k) >= 7:
-            final[k] = blob
-            return
-        keep = {"e": {}, "f": {}, "x": {}}
-        sub = collections.defaultdict(lambda: {"e": {}, "f": {}, "x": {}})
-        for part in ("e", "f", "x"):
-            for w, v in sh[part].items():
-                f = fold(w)
-                (keep if len(f) <= len(k) else sub[f[:len(k) + 1]])[part][w] = v
-        if any(keep[p] for p in keep):
-            final[k] = dump(keep)
-        for k2, s2 in sub.items():
-            place(k2, s2)
-
-    for k, sh in shards.items():
-        place(k, sh)
+    final = split_shards(shards, ("e", "f", "x"), a.max_shard)
+    dump = lambda sh: json.dumps(sh, ensure_ascii=False, separators=(",", ":"))
     sizes_by = sorted(((len(b.encode()), k) for k, b in final.items()), reverse=True)[:8]
     log("最大的分片：", ", ".join(f"{k} {n/1e3:.0f} KB" for n, k in sizes_by))
     big = shards.get("ha") or {}
@@ -438,24 +516,38 @@ def main():
                     tot["e." + kk] += len(dump(v))
     log("各部分大小：", ", ".join(f"{k} {v/1e6:.1f} MB" for k, v in tot.most_common()))
 
+    EN = english(src, E, F, a.en)
+    en_sh = collections.defaultdict(lambda: {"r": {}})
+    for k, v in EN.items():
+        en_sh[key2(k)]["r"][k] = v
+    en_final = split_shards(en_sh, ("r",), a.max_shard)
+
     out.mkdir(parents=True, exist_ok=True)
     for old in out.glob("*.json"):
         old.unlink()
+    (out / "en").mkdir(exist_ok=True)
+    for old in (out / "en").glob("*.json"):
+        old.unlink()
+    en_sizes = {}
+    for k, blob in sorted(en_final.items()):
+        (out / "en" / f"{k}.json").write_text(blob, encoding="utf8")
+        en_sizes[k] = len(blob.encode())
     sizes = {}
     for k, blob in sorted(final.items()):
         (out / f"{k}.json").write_text(blob, encoding="utf8")
         sizes[k] = len(blob.encode())
     import hashlib
-    h = hashlib.sha1("".join(final[k] for k in sorted(final)).encode()).hexdigest()[:10]
-    gzt = sum(len(gzip.compress(final[k].encode(), 6)) for k in final)
-    meta = {"v": h, "built": time.strftime("%Y-%m-%d"), "keys": sizes, "gz": gzt,
+    h = hashlib.sha1(("".join(final[k] for k in sorted(final)) + "".join(en_final[k] for k in sorted(en_final))).encode()).hexdigest()[:10]
+    gzt = sum(len(gzip.compress(b.encode(), 6)) for b in list(final.values()) + list(en_final.values()))
+    meta = {"v": h, "built": time.strftime("%Y-%m-%d"), "keys": sizes, "en": en_sizes, "gz": gzt,
             "n": {"heads": len(E), "entries": sum(len(v) for v in E.values()), "forms": len(F),
                   "tatoeba": sum(1 for w in E if T and T.get(w)), "leipzig": sum(1 for w in E if L and L.get(w)),
-                  "book": sum(1 for w in E if B and B.get(w))},
+                  "book": sum(1 for w in E if B and B.get(w)), "english": len(EN)},
             "src": json.loads((src / "sources.json").read_text()) if (src / "sources.json").exists() else {}}
     (out / "meta.json").write_text(json.dumps(meta, ensure_ascii=False, separators=(",", ":")), encoding="utf8")
     tot = sum(sizes.values())
     gz = sum(len(gzip.compress(final[k].encode(), 6)) for k in final)
+    log(f"英→德：{len(en_final)} 个分片，共 {sum(en_sizes.values())/1e6:.1f} MB")
     log(f"写出 {len(final)} 个分片，共 {tot/1e6:.1f} MB（gzip 后约 {gz/1e6:.1f} MB），最大 {max(sizes.values())/1e3:.0f} KB")
     log("统计：", json.dumps(meta["n"], ensure_ascii=False))
 

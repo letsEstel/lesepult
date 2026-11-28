@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
-# (rerun: the dictionary workflow is triggered by changes under scripts/dict/)
 # Download the open data the dictionary is built from into $1 (default: dictsrc/). Each source tries a few
 # mirrors / file names; a source that cannot be fetched is left out and the build goes on without it.
 set -u
+HERE=$(cd "$(dirname "$0")" && pwd)
 D=${1:-dictsrc}; mkdir -p "$D"; cd "$D"
 src='{}'
 note(){ src=$(python3 -c 'import json,sys; d=json.loads(sys.argv[1]); d[sys.argv[2]]=sys.argv[3]; print(json.dumps(d))' "$src" "$1" "$2"); }
@@ -21,6 +21,15 @@ if u=$(get kaikki.jsonl \
     https://kaikki.org/dictionary/German/kaikki.org-dictionary-German.json | tail -1); then note wiktionary "$u"
 elif u=$(get kaikki.jsonl.gz https://kaikki.org/dictionary/German/kaikki.org-dictionary-German.jsonl.gz | tail -1); then note wiktionary "$u"
 fi
+
+# English entries of English Wiktionary, streamed: only their German translation tables are kept (for English → German)
+for u in https://kaikki.org/dictionary/English/kaikki.org-dictionary-English.jsonl; do
+  echo "↓ $u (streamed)"
+  if curl -fsSL --retry 3 --retry-delay 5 "$u" | python3 "$HERE/extract_en.py" > en-de.tsv.part && [ -s en-de.tsv.part ]; then
+    mv en-de.tsv.part en-de.tsv; echo "  ✓ $(wc -l < en-de.tsv) lines"; note en_translations "$u"; break
+  fi
+  rm -f en-de.tsv.part
+done
 
 # Tatoeba
 T=https://downloads.tatoeba.org/exports/per_language

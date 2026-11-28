@@ -7,7 +7,7 @@
 Checks navigation, the word slip, quizzes, the shared course, and that every Latin-script word visible
 on every page is a dictionary link (except navigation controls).
 """
-import sys, pathlib, threading, http.server, functools
+import json, sys, pathlib, threading, http.server, functools
 from playwright.sync_api import sync_playwright
 
 page = pathlib.Path(sys.argv[1] if len(sys.argv) > 1 else "docs/index.html").resolve()
@@ -152,6 +152,12 @@ with sync_playwright() as p:
             ok(pg.locator(".wb-conj td").count() >= 12, f"[{tag}] 词典：sehen 有变位表")
             pg.locator(".wbw").first.click(); pg.wait_for_timeout(1000)
             ok(pg.evaluate("location.hash").startswith("#wb/") and pg.evaluate("location.hash") != "#wb/sehen", f"[{tag}] 词典：例句里的词可以点")
+            if json.loads((page.parent / "wb" / "meta.json").read_text()).get("en"):
+                pg.goto(URL + "#wb"); pg.wait_for_timeout(300)
+                pg.fill("#wbQ", "dog"); pg.wait_for_timeout(1000)
+                ok("Hund" in " ".join(pg.locator(".wb-row b").all_inner_texts()), f"[{tag}] 词典：输入英语 dog 出现 Hund")
+                pg.goto(URL + "#wb/dog"); pg.wait_for_timeout(1200)
+                ok(pg.locator(".wb-row").count() > 0 and "Hund" in pg.inner_text("#wbEntry"), f"[{tag}] 词典：英语词页 dog → Hund")
             pg.goto(URL + "#wb/Theil"); pg.wait_for_timeout(1200)
             ok(pg.evaluate("location.hash") == "#wb/Teil", f"[{tag}] 词典：旧拼写 Theil 指向 Teil")
             pg.goto(URL + "#kant-aufklaerung~read"); pg.wait_for_timeout(600)

@@ -568,6 +568,9 @@ footer{border-top:1px solid var(--rule);padding-block:22px 44px;color:var(--ink-
 .sl-wb{display:block;margin-top:16px;border:0;background:none;padding:0;font:13px var(--f-ui);color:var(--accent);cursor:pointer;text-align:left}
 .sl-wb:hover{text-decoration:underline;text-underline-offset:3px}
 :is(.lib-mast,.mast,.bk-mast) .lw{text-decoration:none}
+.wb-grp{font:600 12.5px var(--f-ui);color:var(--ink-3);margin:14px 0 2px;letter-spacing:.02em}
+.wb-grp span{font:italic 14px var(--f-de);color:var(--ink-2);margin-left:4px}
+.wb-art{font:400 13px var(--f-de);color:var(--ink-3)}
 :root{--f-de:"Literata",Georgia,"Times New Roman",serif;--f-frak:"UnifrakturMaguntia","Literata",Georgia,serif;--f-zh:"Noto Serif SC","Songti SC","STSong","SimSun",serif}
 </style>
 </head>
@@ -693,7 +696,7 @@ footer{border-top:1px solid var(--rule);padding-block:22px 44px;color:var(--ink-
 <section id="v-wb" class="view" hidden data-nolink>
   <div class="wrap wb-wrap">
     <div class="sec-head"><div class="eyebrow">Wörterbuch</div><h2>德英词典</h2></div>
-    <input id="wbQ" class="search" type="search" placeholder="查德语词：原形或任何变形，如 sah、Häuser、Theil" autocomplete="off" autocapitalize="off" spellcheck="false" lang="de" aria-label="查德语词">
+    <input id="wbQ" class="search" type="search" placeholder="查德语词（原形或任何变形，如 sah、Häuser），也可以输入英语词反查" autocomplete="off" autocapitalize="off" spellcheck="false" lang="de" aria-label="查德语词">
     <div class="wb-info" id="wbInfo"></div>
     <div class="wb-list" id="wbList"></div>
     <article class="wb-entry" id="wbEntry"></article>
@@ -1565,7 +1568,7 @@ const wfold=w=>w.toLowerCase().replace(/ä/g,'a').replace(/ö/g,'o').replace(/ü
 function wbMeta(){
   if(WB.meta) return Promise.resolve(WB.meta);
   if(!WB.metaP) WB.metaP=fetch('wb/meta.json',{cache:'no-cache'}).then(r=>{ if(!r.ok) throw new Error(r.status); return r.json(); })
-    .then(m=>{ WB.meta=m; WB.keys=Object.keys(m.keys).sort(); return m; }).catch(e=>{ WB.metaP=null; throw e; });
+    .then(m=>{ WB.meta=m; WB.keys=Object.keys(m.keys).sort(); WB.enKeys=Object.keys(m.en||{}).sort(); return m; }).catch(e=>{ WB.metaP=null; throw e; });
   return WB.metaP;
 }
 function wbShard(k){
@@ -1580,6 +1583,19 @@ function wbKeysFor(fq, deep){
   const p=fq.length<2?(fq+'__').slice(0,2):fq;
   return WB.keys.filter(k=>p.startsWith(k) || (deep && k.length===p.length+1 && k.startsWith(p)));
 }
+// English → German: a separate set of shards under wb/en/, keyed the same way
+function wbEnShard(k){
+  const id='en/'+k;
+  if(!WB.shards[id]) WB.shards[id]=fetch('wb/en/'+k+'.json?v='+WB.meta.v).then(r=>{ if(!r.ok) throw new Error(r.status); return r.json(); }).catch(e=>{ delete WB.shards[id]; throw e; });
+  return WB.shards[id];
+}
+async function wbEnLoad(fq,deep){
+  if(!fq||!WB.enKeys||!WB.enKeys.length) return [];
+  const p=fq.length<2?(fq+'__').slice(0,2):fq;
+  return Promise.all(WB.enKeys.filter(k=>p.startsWith(k)||(deep&&k.length===p.length+1&&k.startsWith(p))).map(wbEnShard)).catch(()=>[]);
+}
+const enRow=([w,hint,pg])=>{ const [pos,g]=(pg||'').split(' ');
+  return '<button class="wb-row" data-route="wb/'+esc(encodeURIComponent(w))+'"><b lang="de">'+(g?'<small class="wb-art">'+esc(g.split('').map(x=>ART[x]).join('/'))+'</small> ':'')+esc(w)+'</b><span>'+esc([WBPOS[pos]||pos,hint].filter(Boolean).join(' · '))+'</span></button>'; };
 async function wbLoad(fq,deep){ const ks=wbKeysFor(fq,deep); const sh=await Promise.all(ks.map(wbShard)); return sh; }
 const WBPOS={noun:'名词',verb:'动词',adj:'形容词',adv:'副词',prep:'介词',conj:'连词',pron:'代词',det:'限定词',article:'冠词',num:'数词',
   intj:'感叹词',particle:'小品词',name:'专名',phrase:'短语',prefix:'前缀',suffix:'后缀',abbrev:'缩写',contraction:'缩合词',proverb:'谚语',
@@ -1612,8 +1628,9 @@ const sizeMB=b=>(b/1048576).toFixed(b<1048576*10?1:0)+' MB';
 async function wbSearch(q){
   const seq=++WB.seq, fq=wfold(q), box=$('#wbList');
   if(fq.length<2){ box.innerHTML=fq?'<p class="wb-hint">再输入一个字母……</p>':''; return; }
-  let sh; try{ await wbMeta(); sh=await wbLoad(fq,true); }catch(e){ if(seq===WB.seq) box.innerHTML='<p class="wb-hint">词典数据加载失败。</p>'; return; }
+  let sh, en; try{ await wbMeta(); [sh,en]=await Promise.all([wbLoad(fq,true), wbEnLoad(fq,false)]); }catch(e){ if(seq===WB.seq) box.innerHTML='<p class="wb-hint">词典数据加载失败。</p>'; return; }
   if(seq!==WB.seq) return;
+  let enHits=null; for(const s of en) if(s.r[q.trim().toLowerCase()]) enHits=s.r[q.trim().toLowerCase()];
   const ql=q.trim().toLowerCase(), rows=[], seen=new Set();
   const add=(w,how,ent)=>{ if(seen.has(w)) return; seen.add(w); rows.push({w,how,ent}); };
   for(const s of sh) for(const v of (s.f[ql]||[])) { const [w,how]=fHead(v); /* a form: point to its headword, which may live in another shard */ add(w,'「'+q.trim()+'」的'+(how?fHow(how).replace('或','/'):'原形'),null); }
@@ -1622,10 +1639,14 @@ async function wbSearch(q){
   const rank=v=>Math.max(...v.map(e=>e.r||0));
   cands.sort((a,b)=>(b[0].toLowerCase()===ql)-(a[0].toLowerCase()===ql) || rank(b[1])-rank(a[1]) || a[0].length-b[0].length || a[0].localeCompare(b[0]));
   cands.slice(0,40).forEach(([w,v])=>add(w,'',v));
-  if(!rows.length){ box.innerHTML='<p class="wb-hint">没有找到以「'+esc(q)+'」开头的词。</p>'; return; }
-  box.innerHTML=rows.slice(0,40).map(r=>{ const e=r.ent&&r.ent[0];
+  // a German word typed exactly comes before the English group; otherwise English first
+  const exactDe=rows.length&&rows[0].w.toLowerCase()===q.trim().toLowerCase();
+  const enHtml=enHits?'<h4 class="wb-grp">英 → 德 <span lang="en">'+esc(q.trim())+'</span></h4>'+enHits.map(enRow).join('')+(rows.length>(exactDe?1:0)?'<h4 class="wb-grp">德语词</h4>':''):'';
+  if(!rows.length&&!enHits){ box.innerHTML='<p class="wb-hint">没有找到以「'+esc(q)+'」开头的词。</p>'; return; }
+  const deRows=rows.slice(0,40).map(r=>{ const e=r.ent&&r.ent[0];
     const sub=e?(WBPOS[e.p]||e.p)+(e.g?' · '+e.g.split('').map(g=>ART[g]).join('/'):'')+' — '+(e.s[0]?e.s[0][0]:''):r.how;
-    return '<button class="wb-row" data-route="wb/'+esc(encodeURIComponent(r.w))+'"><b lang="de">'+esc(r.w)+'</b><span>'+esc(sub)+'</span></button>'; }).join('');
+    return '<button class="wb-row" data-route="wb/'+esc(encodeURIComponent(r.w))+'"><b lang="de">'+esc(r.w)+'</b><span>'+esc(sub)+'</span></button>'; });
+  box.innerHTML=exactDe ? deRows[0]+enHtml+deRows.slice(1).join('') : enHtml+deRows.join('');
 }
 
 /* ---- inflection tables ---- */
@@ -1721,6 +1742,10 @@ async function wbOpen(word){
   if(seq!==WB.seq) return;
   let heads=[];
   for(const s of sh) for(const w in s.e) if(w===word || w.toLowerCase()===ql) heads.push([w,s.e[w],s.x[w]]);
+  let enHits=null; try{ for(const s of await wbEnLoad(fq,false)) if(s.r[ql]) enHits=s.r[ql]; }catch(e){}
+  if(seq!==WB.seq) return;
+  const enBlock=enHits?'<section class="wb-sec"><h3>英 → 德：<span lang="en">'+esc(word)+'</span></h3><div class="wb-list">'+enHits.map(enRow).join('')+'</div></section>':'';
+  if(!heads.length && enHits && !(sh.some(s=>s.f[ql]))){ box.innerHTML=enBlock+'<p class="wb-cite">英→德：英文维基词典的翻译表，以及德语词条英文释义的反查（CC BY-SA 4.0）。</p>'; return; }
   if(!heads.length){
     const to=[]; for(const s of sh) for(const v of (s.f[ql]||[])){ const [w,how]=fHead(v); if(!to.some(t=>t[0]===w)) to.push([w,how]); }
     if(to.length===1){ navigate('wb/'+encodeURIComponent(to[0][0]),{replace:true}); return; }
@@ -1734,6 +1759,7 @@ async function wbOpen(word){
     (other.length?'<p class="wb-also">另见 '+other.map(([w,e])=>'<button class="wb-src" data-route="wb/'+esc(encodeURIComponent(w))+'" lang="de">'+esc(w)+'</button> <small>'+esc(WBPOS[e[0].p]||e[0].p)+'</small>').join('、')+'</p>':'');
   // which other headwords this spelling is also a form of
   const also=[]; for(const s of sh) for(const v of (s.f[ql]||[])){ const [w,how]=fHead(v); if(how!=='alt' && !heads.some(h=>h[0]===w) && !also.some(a=>a[0]===w)) also.push([w,how]); }
+  if(enHits) box.insertAdjacentHTML('afterbegin','<p class="wb-also">作为英语词：<span lang="en">'+esc(word)+'</span> → '+enHits.slice(0,5).map(([w])=>'<button class="wb-src" data-route="wb/'+esc(encodeURIComponent(w))+'" lang="de">'+esc(w)+'</button>').join('、')+'</p>');
   if(also.length) box.insertAdjacentHTML('afterbegin','<p class="wb-also">「'+esc(word)+'」也是 '+also.map(([w,how])=>'<button class="wb-src" data-route="wb/'+esc(encodeURIComponent(w))+'" lang="de">'+esc(w)+'</button>'+(how?' <small>'+fHow(how)+'</small>':'')).join('、')+' 的变形</p>');
 }
 function wbMissing(){ return '<p class="wb-hint">词典数据还没有生成（docs/wb/meta.json 不存在）。</p>'; }
@@ -1742,11 +1768,11 @@ function wbMissing(){ return '<p class="wb-hint">词典数据还没有生成（d
 async function wbInfo(){
   const el=$('#wbInfo'); let m; try{ m=await wbMeta(); }catch(e){ el.innerHTML=''; return; }
   const tot=m.gz||Object.values(m.keys).reduce((a,b)=>a+b,0), full=wbStore.get('full','')===m.v;
-  el.innerHTML='<span>收录 '+m.n.heads.toLocaleString()+' 个词头 · '+m.n.forms.toLocaleString()+' 个变形</span>'+
+  el.innerHTML='<span>收录 '+m.n.heads.toLocaleString()+' 个词头 · '+m.n.forms.toLocaleString()+' 个变形'+(m.n.english?' · 可用 '+m.n.english.toLocaleString()+' 个英语词反查':'')+'</span>'+
     (full?'<span>已下载，可离线使用</span>':'<button class="wb-dl" id="wbDl">下载完整词典（约 '+sizeMB(tot)+'），离线也能查</button>');
 }
 async function wbDownload(btn){
-  const m=await wbMeta(), ks=WB.keys; let done=0, fail=0, i=0;
+  const m=await wbMeta(), ks=WB.keys.concat(WB.enKeys.map(k=>'en/'+k)); let done=0, fail=0, i=0;
   if(navigator.storage&&navigator.storage.persist) try{ await navigator.storage.persist(); }catch(e){}
   btn.disabled=true;
   const step=()=>{ btn.textContent='正在下载 '+done+' / '+ks.length+(fail?'（失败 '+fail+'）':'')+'……'; };
