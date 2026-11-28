@@ -3,7 +3,7 @@ name: dictionary
 on:
   workflow_dispatch:
   push:
-    branches: [dict]
+    branches: [main]
     paths: ["scripts/dict/**", ".github/workflows/dict.yml"]
 permissions:
   contents: write
