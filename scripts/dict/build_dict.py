@@ -413,7 +413,7 @@ def english(src, E, F, cap):
     nt = 0
     p = src / "en-de.tsv"
     if p.exists():
-        order = collections.Counter()
+        order, senses_seen = {}, collections.Counter()   # (english, pos, sense) → index of that sense table
         with opener(p) as fh:
             for line in fh:
                 a = line.rstrip("\n").split("\t")
@@ -424,8 +424,10 @@ def english(src, E, F, cap):
                 if not w:
                     continue
                 k = en.lower()
-                order[k] += 1
-                R[k].append((0, order[k], -max(e.get("r", 0) for e in E[w]), w, sense))
+                if (k, pos, sense) not in order:
+                    order[(k, pos, sense)] = senses_seen[k]
+                    senses_seen[k] += 1
+                R[k].append((0, order[(k, pos, sense)], -max(e.get("r", 0) for e in E[w]), w, sense))
                 nt += 1
     ng = 0
     for w, ents in E.items():
@@ -439,17 +441,31 @@ def english(src, E, F, cap):
                     if item and len(item.split()) <= 3 and re.fullmatch(r"[A-Za-z][A-Za-z' -]*", item):
                         R[item.lower()].append((1, si, -r, w, ""))
                         ng += 1
+    # rank: a German word whose own first English gloss *is* the English word (Hund: "dog") and that the
+    # translation table also gives comes first; the table alone, or a later gloss, counts for less; then frequency
     out = {}
     for k, v in R.items():
-        seen, keep = set(), []
-        for grp, o, nr, w, hint in sorted(v, key=lambda t: (t[0], min(t[1], 4), t[2])):
-            if w in seen:
-                continue
-            seen.add(w)
+        agg = {}
+        for grp, o, nr, w, hint in v:
+            a_ = agg.setdefault(w, {"t": None, "g": None, "hint": "", "r": -nr})
+            if grp == 0:
+                if a_["t"] is None or o < a_["t"]:
+                    a_["t"], a_["hint"] = o, hint
+            elif a_["g"] is None or o < a_["g"]:
+                a_["g"] = o
+
+        def score(a_):
+            sc = 0
+            if a_["g"] is not None:
+                sc += 3 if a_["g"] == 0 else 2 if a_["g"] <= 1 else 1
+            if a_["t"] is not None:
+                sc += 2 + (1 if a_["t"] == 0 else 0)
+            return sc
+        ranked = sorted(agg.items(), key=lambda kv: (-score(kv[1]), -kv[1]["r"]))
+        keep = []
+        for w, a_ in ranked[:cap]:
             e = E[w][0]
-            keep.append([w, hint, e.get("p", "") + (" " + e["g"] if e.get("g") else "")])
-            if len(keep) >= cap:
-                break
+            keep.append([w, a_["hint"], e.get("p", "") + (" " + e["g"] if e.get("g") else "")])
         out[k] = keep
     log(f"英→德：{len(out)} 个英语词（翻译表 {nt} 条，倒排释义 {ng} 条）")
     return out
